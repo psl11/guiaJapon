@@ -38,3 +38,7 @@ Rough Guides/
 
 # Material con derechos (referencia personal, no distribuir)
 Rough Guides/
+
+# Fotos originales: entran aquí, salen optimizadas a public/img/ (ver su README)
+fotos-originales/*
+!fotos-originales/README.md

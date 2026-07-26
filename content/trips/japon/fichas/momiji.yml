@@ -1,0 +1,82 @@
+slug: momiji
+navLabel: "El momiji"
+trip: japon
+part: japon
+order: 5
+zone: "Cómo mirar"
+emblem: montana
+kicker: Japón · la estación
+title: El momiji, y por qué llegáis pronto
+epithet: >-
+  Japón sigue el avance del otoño como aquí se sigue el tiempo, con partes diarios y mapas. Vuestro
+  viaje cae justo en la bisagra: en la montaña el color ya se ha ido, y en Tokio todavía no ha
+  llegado. Conviene saberlo antes que descubrirlo.
+sections:
+  - heading: Una tradición de mil años
+    body: |
+      El ***kōyō*** (紅葉) es el enrojecimiento de las hojas; ***momiji*** es la misma palabra leída de
+      otra forma y también el nombre del arce japonés. Y no es una moda de folleto: en el
+      ***Man'yōshū***, la antología poética del siglo VIII, ya se celebra; y en el ***Genji***, del
+      XI, los nobles de Heian salen a pasear bajo las hojas. Es decir, **los japoneses llevan mil
+      doscientos años haciendo esto**.
+
+      Con Edo bajó de clase: primero los shōgun y los samuráis, luego los comerciantes y el pueblo.
+      Se cuenta que el shōgun **Tokugawa Yoshimune** plantó cerezos y arces en el parque de
+      **Asukayama** para que la gente tuviera dónde ir. Y en Meiji, con el ferrocarril, la gente
+      empezó a **viajar por el país** persiguiendo el color — que es exactamente lo que se sigue
+      haciendo hoy.
+  - heading: El frente de la hoja roja
+    body: |
+      Existe un ***kōyō zensen***, un «frente» del color que se publica y se sigue como la
+      meteorología. Avanza en dos direcciones a la vez: **de norte a sur** —empieza en Hokkaidō en
+      septiembre y termina en Kyūshū en diciembre— y **de arriba abajo**, de las cumbres a las
+      ciudades.
+
+      Ese doble movimiento es la clave de vuestro viaje. En un mismo país y en la misma semana, el
+      otoño puede haber terminado a mil quinientos metros y no haber empezado a nivel del mar.
+  - heading: Dónde caéis vosotros
+    body: |
+      Sin adornos, porque más vale saberlo:
+
+      - **Kamikōchi**: su momento es **octubre**. Cuando lleguéis, el 12 de noviembre, los alerces
+        estarán pelados. La ironía es que el **estanque Taishō y el puente Kappa** figuran en la lista
+        oficial de los **veinte mejores lugares de Japón** para ver el color — y los vais a ver justo
+        después.
+      - **Tokio y Kamakura**: el pico va del **20 de noviembre al 5 de diciembre**. Salís el día 13,
+        así que pilláis **la semana anterior**: los arces virando, no ardiendo.
+      - La célebre avenida de ginkgos de **Meiji Jingū Gaien** —el número uno de casi todas las
+        listas— amarillea hacia el **25 de noviembre**, y su festival es del 23 al 30. La veréis
+        verde.
+
+      **La compensación es real y conviene decirla**: os ahorráis la temporada alta. Kamikōchi en su
+      última semana está prácticamente vacío, con las cumbres ya nevadas y el aire más transparente
+      del año; y Tokio, sin las multitudes que llegan diez días después. No es la postal — es la
+      semana anterior a la postal, con la mitad de gente.
+  - heading: Si aun así queréis buscarlo
+    body: |
+      Lo que más color puede tener en vuestras fechas son los **jardines clásicos de Tokio**, que
+      viran antes que la calle: el **Rikugien** y el **Koishikawa Kōrakuen**, los dos en el top diez
+      nacional y los dos con **iluminación nocturna** en temporada — comprobad las fechas, porque
+      suelen arrancar hacia mediados de mes.
+
+      Y una advertencia útil: el ginkgo (***ichō***) y el arce (***momiji***) **no van a la vez**. El
+      ginkgo amarillea más tarde. Si en una foto veis oro y rojo juntos, es de finales de mes.
+curiosidades:
+  - >-
+    El **estanque Taishō y el puente Kappa de Kamikōchi** están en la lista oficial de los **veinte
+    mejores lugares de Japón para el momiji**. Vais a dormir allí tres semanas después de su mejor
+    momento — y a cambio, casi solos.
+  - >-
+    Japón publica un ***kōyō zensen***, un frente del color, como quien publica el parte del tiempo.
+    Avanza de norte a sur y de las cumbres al mar, y tarda **casi tres meses** en cruzar el país.
+  - >-
+    Se dice que el shōgun **Tokugawa Yoshimune** mandó plantar cerezos y arces en el parque de
+    Asukayama para que el pueblo de Edo tuviera dónde ir a ver las estaciones. Fue, en la práctica,
+    uno de los primeros parques públicos pensados como tales.
+seenIn:
+  - ref: '#dia-7-kamikochi'
+    label: "Día 7 · Kamikōchi"
+  - ref: '#kamikochi'
+    label: Kamikōchi
+  - ref: '#meiji-jingu'
+    label: Meiji Jingū

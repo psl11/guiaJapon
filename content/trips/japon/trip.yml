@@ -11,6 +11,17 @@ lede: >-
   otros tres. Así que hace dos cosas a la vez. Cuenta los clásicos —los de verdad, los que hay que ver
   la primera vez— como si nadie los hubiera contado antes; y al lado, en voz baja, deja las salidas
   laterales para quien ya los conoce y prefiere el desvío. Ninguna de las dos sobra.
+relato:
+  navLabel: Japón por dentro
+  anchor: japon
+  overline: Y ahora, el porqué
+  title: Japón · *por dentro*
+  dek: >-
+    Esto no es un listado de sitios: es el trasfondo que convierte un torii en una frontera, un
+    castillo en un arma y una hoja roja en una tradición de mil años. Se lee *antes* de cada tramo, y
+    conviven dos tipos de ficha: las que se leen del tirón, como un capítulo de historia, y las que
+    se consultan de un vistazo antes de una visita. Al final, más ligeras pero con el mismo cuidado,
+    están las del resto del país — las que este itinerario no toca y el grupo sí verá.
 rationale: >-
   El grupo viaja veintiún días de punta a punta del país. Este itinerario cubre **los ocho primeros**,
   que son los que hacemos juntos los cuatro: Tokio a fondo, un salto a Kamakura, y luego el giro que

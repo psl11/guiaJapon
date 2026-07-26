@@ -228,14 +228,23 @@ export const SalirSchema = z.object({
 
 // ── TRIP — metadatos de portada ──────────────────────────────────────────────
 export const TripSchema = z.object({
-  slug: z.string(), // 'vietnam'
-  title: Md, // con *cursiva* para el acento en cinabrio
-  eyebrow: z.string(), // 'Vietnam + Camboya · 11–26 sep 2026'
+  slug: z.string(), // 'japon'
+  title: Md, // con *cursiva* para el acento en momiji
+  eyebrow: z.string(), // 'Tokio · Kamakura · … — 6 a 13 de noviembre de 2026'
   heroMeta: z.string().optional(),
   quote: z.string().optional(),
   quoteAttr: z.string().optional(),
   lede: Md.optional(), // párrafo de entrada de la Parte II
   rationale: Md.optional(), // el porqué del itinerario — se renderiza bajo el mapa del viaje
+  // Umbral de la Parte II (el relato cultural: actos + fichas). Este viaje es de un solo país,
+  // así que lleva uno. Si algún día hay varios, esto pasa a ser un array indexado por `part`.
+  relato: z.object({
+    navLabel: z.string(), // etiqueta del grupo en el índice flotante
+    anchor: z.string(), // id del umbral
+    overline: z.string(),
+    title: Md,
+    dek: Md,
+  }).optional(),
 })
 
 // ── Tipos TS derivados (una sola fuente de verdad) ────────────────────────────

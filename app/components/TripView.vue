@@ -2,18 +2,15 @@
 // TripView — poseedor de la página. Llama a useTrip(slug) y renderiza en dos tiempos:
 //  · El plan (lo práctico, primero): hero del viaje → día a día (DiaCard) → dinero (InversionCard)
 //    → reservas y dónde dormir (RecoCard). Es lo que se usa durante el viaje.
-//  · El relato (el contexto cultural, después): actos/fichas de Vietnam y Camboya, cada país tras
-//    su umbral. Es el porqué: se lee antes de cada tramo.
+//  · El relato (el contexto cultural, después): actos y fichas tras un umbral. Es el porqué: se
+//    lee antes de cada tramo. El texto del umbral vive en `trip.relato`, no aquí — así un viaje
+//    nuevo no obliga a tocar este componente (que es justo el error que se coló al bifurcar).
 // "Añadir un viaje = añadir ficheros": las páginas son one-liners <TripView :slug>.
 const props = defineProps<{ slug: string }>()
 
 const { trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir } = await useTrip(props.slug)
 
-const vietnamActos = computed(() => actos.value.filter(a => a.part === 'vietnam'))
-const vietnamFichas = computed(() => fichas.value.filter(f => f.part === 'vietnam'))
-const camboyaActos = computed(() => actos.value.filter(a => a.part === 'camboya'))
-const camboyaFichas = computed(() => fichas.value.filter(f => f.part === 'camboya'))
-const hayCamboya = computed(() => camboyaActos.value.length + camboyaFichas.value.length > 0)
+const hayRelato = computed(() => actos.value.length + fichas.value.length > 0)
 const hayPlan = computed(() => dias.value.length + inversiones.value.length > 0)
 
 // Recomendaciones (Parte I · prácticos): agrupadas por tipo, en orden fijo de grupo.
@@ -29,9 +26,9 @@ const recoGroups = computed(() => RECO_KINDS
   .filter(g => g.items.length))
 
 // Gastronomía ─────────────────────────────────────────────────────────────────
-// Guía de platos/bebidas (Vietnam) + directorio por país → ciudad → las 7 categorías del cliente.
-// Los `soloEl` (iconos no-veg) van a un bloque «solo para ti» aparte por ciudad; el directorio
-// principal es veg-friendly (la mesa es para los dos).
+// Guía de platos/bebidas + directorio por ciudad → las 7 categorías. Las ciudades salen del propio
+// contenido (en orden de aparición), no de una lista escrita aquí: así un destino nuevo se añade
+// creando ficheros. Los `soloEl` van a un bloque aparte por ciudad.
 const GASTRO_CATS = [
   { key: 'desayuno', label: 'Desayunos' },
   { key: 'cafe', label: 'Cafés de especialidad' },
@@ -44,22 +41,15 @@ const GASTRO_CATS = [
 const citySlug = (c: string) => 'gastro-' + c.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 const platosGuia = computed(() => platos.value.filter(p => p.kind === 'plato'))
 const bebidasGuia = computed(() => platos.value.filter(p => p.kind === 'bebida'))
-const gastroByPart = computed(() => (['vietnam', 'camboya'] as const).map((part) => {
-  const inPart = comidas.value.filter(c => c.part === part)
+const gastroCities = computed(() => [...new Set(comidas.value.map(c => c.city))].map((city) => {
+  const inCity = comidas.value.filter(c => c.city === city)
   return {
-    part,
-    label: part === 'vietnam' ? 'Vietnam' : 'Camboya',
-    cities: [...new Set(inPart.map(c => c.city))].map((city) => {
-      const inCity = inPart.filter(c => c.city === city)
-      return {
-        city,
-        anchor: citySlug(city),
-        cats: GASTRO_CATS.map(cat => ({ ...cat, items: inCity.filter(c => c.category === cat.key && !c.soloEl) })).filter(g => g.items.length),
-        soloEl: inCity.filter(c => c.soloEl),
-      }
-    }),
+    city,
+    anchor: citySlug(city),
+    cats: GASTRO_CATS.map(cat => ({ ...cat, items: inCity.filter(c => c.category === cat.key && !c.soloEl) })).filter(g => g.items.length),
+    soloEl: inCity.filter(c => c.soloEl),
   }
-}).filter(p => p.cities.length))
+}).filter(c => c.cats.length + c.soloEl.length > 0))
 const hayGastro = computed(() => comidas.value.length + platos.value.length > 0)
 
 // Salir · música y librerías (jazz + librerías) — sección propia, agrupada por kind.
@@ -84,7 +74,7 @@ const knownAnchors = computed(() => new Set<string>([
   ...comidas.value.map(c => c.slug),
   ...platos.value.map(p => p.slug),
   ...salir.value.map(s => s.slug),
-  'el-plan', 'gasto', 'reservas', 'gastronomia', 'salir', 'vietnam', 'camboya',
+  'el-plan', 'gasto', 'reservas', 'gastronomia', 'salir', 'japon',
 ]))
 
 // Índice flotante ─────────────────────────────────────────────────────────────
@@ -141,30 +131,21 @@ const nav = computed(() => {
   if (hayGastro.value) {
     const items: { id: string, label: string, kind: 'reco' }[] = []
     if (platos.value.length) items.push({ id: 'gastro-platos', label: 'Platos y bebidas', kind: 'reco' as const })
-    for (const pg of gastroByPart.value) for (const cg of pg.cities) items.push({ id: cg.anchor, label: `${cg.city} (${pg.label})`, kind: 'reco' as const })
+    for (const cg of gastroCities.value) items.push({ id: cg.anchor, label: cg.city, kind: 'reco' as const })
     groups.push({ key: 'gastronomia', label: 'Gastronomía', anchor: 'gastronomia', items })
   }
   if (haySalir.value) {
     groups.push({ key: 'salir', label: 'Salir · música y librerías', anchor: 'salir', items: salir.value.map(s => ({ id: s.slug, label: s.navLabel ?? s.title, kind: 'reco' as const })) })
   }
-  // Después, el relato cultural: Vietnam y Camboya.
-  groups.push({
-    key: 'vietnam',
-    label: 'Vietnam',
-    anchor: 'vietnam',
-    items: [
-      ...vietnamActos.value.map(a => ({ id: a.slug, label: a.navLabel ?? stripMd(a.title), numeral: a.numeral, kind: 'acto' as const })),
-      ...fichaItems(vietnamFichas.value),
-    ],
-  })
-  if (hayCamboya.value) {
+  // Después, el relato cultural.
+  if (hayRelato.value) {
     groups.push({
-      key: 'camboya',
-      label: 'Camboya',
-      anchor: 'camboya',
+      key: 'relato',
+      label: trip.value?.relato?.navLabel ?? 'El porqué',
+      anchor: trip.value?.relato?.anchor ?? 'relato',
       items: [
-        ...camboyaActos.value.map(a => ({ id: a.slug, label: a.navLabel ?? stripMd(a.title), numeral: a.numeral, kind: 'acto' as const })),
-        ...fichaItems(camboyaFichas.value),
+        ...actos.value.map(a => ({ id: a.slug, label: a.navLabel ?? stripMd(a.title), numeral: a.numeral, kind: 'acto' as const })),
+        ...fichaItems(fichas.value),
       ],
     })
   }
@@ -190,7 +171,7 @@ const indexOpen = ref(false)
         >☰</span> Índice
       </button>
       <div class="brand">
-        Vietnam <span class="brand-dot">✦</span> Camboya
+        Japón <span class="brand-dot">✦</span> otoño 2026
       </div>
     </div>
     <ThemeToggle />
@@ -232,7 +213,7 @@ const indexOpen = ref(false)
     <template v-if="hayPlan">
       <Threshold
         id="el-plan"
-        overline="De Hanoi a Angkor · dieciséis días"
+        overline="De Tokio a los Alpes · ocho días"
         title="El viaje, *día a día*"
         dek="El eje no es la agenda por horas sino los bloques del día —amanecer, mañana, siesta, tarde, noche— y su «ventana óptima»: por qué *entonces* (la luz, el gentío, el calor), no a qué hora."
       />
@@ -307,7 +288,7 @@ const indexOpen = ref(false)
           id="gastro-platos"
           class="gastro-band"
         >
-          Platos imprescindibles · Vietnam
+          Platos imprescindibles
         </div>
         <PlatoCard
           v-for="p in platosGuia"
@@ -326,15 +307,12 @@ const indexOpen = ref(false)
         </template>
       </template>
 
-      <template
-        v-for="pg in gastroByPart"
-        :key="pg.part"
-      >
+      <template v-if="gastroCities.length">
         <div class="gastro-band">
-          {{ pg.label }} · dónde comer
+          Dónde comer
         </div>
         <div
-          v-for="cg in pg.cities"
+          v-for="cg in gastroCities"
           :id="cg.anchor"
           :key="cg.city"
           class="gastro-city"
@@ -379,7 +357,7 @@ const indexOpen = ref(false)
         id="salir"
         overline="La noche y la letra impresa"
         title="Salir · *música y librerías*"
-        dek="Un club de jazz con historia y las librerías que merecen parada: el plan de tarde-noche con alma, del que no sale en las guías. Poco turístico, muy Hanoi."
+        dek="Música en directo y las librerías que merecen parada: el plan de tarde-noche del que no sale en las guías."
       />
       <div
         v-for="g in salirGroups"
@@ -397,40 +375,22 @@ const indexOpen = ref(false)
       </div>
     </template>
 
-    <!-- Después, el relato cultural: primero Vietnam, luego Camboya. Cada país tras su umbral. -->
-    <Threshold
-      id="vietnam"
-      overline="Y ahora, el porqué"
-      title="Vietnam · *por dentro*"
-      dek="Esto no es un listado de sitios: es el trasfondo que convierte una carretera de montaña en mil años de resistencia, y tres días de piedras en tres de significado. Se lee *antes* de cada tramo, y conviven dos tipos de ficha: las que se leen del tirón, como un capítulo, y las que se consultan de un vistazo antes de una visita."
-    />
-    <ActoCard
-      v-for="a in vietnamActos"
-      :key="a.slug"
-      :acto="a"
-    />
-    <FichaCard
-      v-for="f in vietnamFichas"
-      :key="f.slug"
-      :ficha="f"
-      :known-anchors="knownAnchors"
-    />
-
-    <!-- Camboya -->
-    <template v-if="hayCamboya">
+    <!-- Después, el relato cultural, tras su umbral. El texto viene de trip.relato. -->
+    <template v-if="hayRelato">
       <Threshold
-        id="camboya"
-        overline="El segundo mundo del viaje"
-        title="Camboya · *Angkor*"
-        dek="De los mil años de resistencia de Vietnam a los seiscientos de un imperio que talló una montaña entera para ser el centro del universo."
+        v-if="trip?.relato"
+        :id="trip.relato.anchor"
+        :overline="trip.relato.overline"
+        :title="trip.relato.title"
+        :dek="trip.relato.dek"
       />
       <ActoCard
-        v-for="a in camboyaActos"
+        v-for="a in actos"
         :key="a.slug"
         :acto="a"
       />
       <FichaCard
-        v-for="f in camboyaFichas"
+        v-for="f in fichas"
         :key="f.slug"
         :ficha="f"
         :known-anchors="knownAnchors"

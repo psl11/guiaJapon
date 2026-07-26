@@ -1,0 +1,41 @@
+slug: jr-pass
+navLabel: "El JR Pass"
+trip: japon
+order: 1
+kicker: Decisión de dinero · antes de salir
+title: El *JR Pass*
+verdict: prescindible
+verdictLabel: Prescindible — y por mucho
+lede: >-
+  El pase que todas las guías dan por hecho. Para este tramo concreto es un error de ~28.000 ¥ por
+  cabeza, y la cuenta no está ni reñida.
+ledger:
+  - label: Cuesta
+    body: >-
+      **¥50.000** el pase ordinario de 7 días — y **¥53.000 a partir del 1 de octubre de 2026** si se
+      compra por canal extranjero. Además vuestro tramo son **ocho días**, así que un pase de siete ni
+      siquiera los cubre.
+  - label: Qué compra
+    body: >-
+      Trenes JR de larga distancia. El problema es cuántos vais a coger: **aeropuerto → Tokio**
+      (~¥3.250), **Kamakura ida y vuelta** (~¥1.880), **Shinjuku → Matsumoto** (~¥6.620), la vuelta de
+      Matsumoto (~¥6.620) y **Tokio → aeropuerto** (~¥3.250). Total: **unos ¥21.600**.
+
+
+      Y lo que NO compra: **el metro de Tokio no es JR** —ni Tokyo Metro ni Toei—, así que la mayor
+      parte de vuestros trayectos diarios quedan fuera del pase en cualquier caso. Tampoco cubre el
+      tren y el autobús de Alpico a Kamikōchi.
+  - label: La alternativa
+    body: >-
+      **Billetes sueltos y una tarjeta IC.** Se compran en máquina en dos minutos, permiten reservar
+      asiento en el Azusa —conviene, por las vistas— y salen por menos de la mitad.
+  - label: Veredicto
+    body: >-
+      **No lo compréis.** El JR Pass sale a cuenta cuando se encadenan tres o más trayectos largos de
+      shinkansen: Tokio–Kioto–Hiroshima y vuelta. Vuestro tramo se queda en el centro de Honshū y no
+      se acerca. *(Para los otros tres, que sí bajan a Kioto y Hiroshima, la cuenta es distinta y hay
+      que hacerla aparte.)*
+curiosidades:
+  - >-
+    El pase de 7 días **pasó de ¥29.650 a ¥50.000 en octubre de 2023** — casi el doble de golpe. Buena
+    parte de los consejos que circulan por internet son anteriores a esa subida y ya no valen.

@@ -1,0 +1,64 @@
+# Despliega la guía (Nuxt estático) a GitHub Pages en cada push a main.
+# Requiere: repo público (plan gratuito) + Settings → Pages → Source: "GitHub Actions".
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Un despliegue a la vez; cancela el anterior si llega uno nuevo.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.32.1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      # Puerta de validación ANTES de construir: Content v3 no valida los YAML `type:'data'` contra
+      # zod en build (#3351), así que un enum inválido o un requerido ausente se desplegaría en
+      # silencio sin esto. test:data hace safeParse por fichero + integridad de anclas; test:unit
+      # cubre el subset de fuentes vietnamitas.
+      - run: pnpm test:unit && pnpm test:data
+
+      # baseURL '/guiaJapon/' ya está fijado en nuxt.config.ts (subpath del project site).
+      - run: pnpm generate
+
+      # Presupuesto de peso: falla si una foto se cuela sin optimizar o si el payload de contenido se
+      # infla — protege la descarga offline (loop de Hà Giang) y la carga inicial que el dueño vigila.
+      - run: node scripts/check-weight.mjs
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .output/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

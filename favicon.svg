@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Guía de Japón">
+  <rect width="64" height="64" rx="13" fill="#14161a"/>
+  <g fill="#d1503f">
+    <!-- kasagi: el dintel superior, que en el torii myojin se curva hacia arriba en los extremos -->
+    <path d="M5 15 Q32 23.5 59 15 L59 20.5 Q32 29 5 20.5 Z"/>
+    <!-- nuki: el segundo dintel, recto -->
+    <rect x="13.5" y="31" width="37" height="4.6"/>
+    <!-- gakuzuka: el montante corto que une los dos dinteles -->
+    <rect x="30.4" y="24" width="3.2" height="7.4"/>
+    <!-- los dos pilares, mas anchos en la base -->
+    <path d="M17.8 24.6 L23.2 25.4 L24.4 55 L17 55 Z"/>
+    <path d="M40.8 25.4 L46.2 24.6 L47 55 L39.6 55 Z"/>
+  </g>
+</svg>

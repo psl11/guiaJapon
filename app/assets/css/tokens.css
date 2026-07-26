@@ -1,0 +1,49 @@
+/* Tokens de color — paleta "Kōyō" (el otoño japonés).
+   Cuatro colores tradicionales y una estación: papel WASHI sin blanquear (kinari) como fondo,
+   tinta SUMI —negro cálido, no frío— para el texto, el rojo MOMIJI del arce como acento narrativo
+   (emparentado con el bermellón de los torii, pero más profundo y legible sobre papel), el AI
+   —índigo— como segundo polo para lo consultivo, y el oro del ICHŌ, el ginkgo, que en noviembre
+   amarillea antes que los arces. El tema oscuro es una noche de laca.
+   Diferencia con Vietnam (Sơn mài): allí el papel era de arroz y el rojo, cinabrio de laca; aquí
+   el papel es más claro y frío y el rojo se va al carmín del arce. El índigo japonés es más azul
+   que el chàm vietnamita, que tiraba a pizarra. */
+:root {
+  --bg:         #f2efe7; /* washi kinari — papel sin blanquear */
+  --bg-elev:    #faf8f3; /* ficha elevada */
+  --bg-soft:    #e6e1d4; /* hundido */
+  --ink:        #1f1e1c; /* sumi — negro cálido de barra de tinta */
+  --ink-soft:   #524e49;
+  --ink-faint:  #8a847a;
+  --accent:     #a83232; /* momiji — el arce de noviembre, narrativa */
+  --accent-soft:#c25a4e;
+  --indigo:     #24425f; /* ai — índigo, consulta */
+  --indigo-soft:#41637f;
+  --gold:       #a8842f; /* ichō — el oro del ginkgo */
+  --gold-soft:  #cba85c;
+  --line:       #d5cdb9;
+  --line-soft:  #e8e2d3;
+  --shadow:     0 1px 3px rgba(35,30,22,.07), 0 12px 32px rgba(35,30,22,.06);
+  --shadow-elev:0 2px 8px rgba(35,30,22,.11), 0 24px 48px rgba(35,30,22,.09);
+
+  /* Relleno índigo fijo de las cabeceras de ficha (mismo en ambos temas: es su propio mundo). */
+  --ficha-fill: #26415c;
+}
+
+[data-theme="dark"] {
+  --bg:         #14161a; /* noche de laca */
+  --bg-elev:    #1d2025;
+  --bg-soft:    #252930;
+  --ink:        #ebe5d8;
+  --ink-soft:   #b3ac9c;
+  --ink-faint:  #777060;
+  --accent:     #dd6a5c;
+  --accent-soft:#bc4a3e;
+  --indigo:     #82a4c6;
+  --indigo-soft:#6486a8;
+  --gold:       #cbaa66;
+  --gold-soft:  #dfc691;
+  --line:       #353a41;
+  --line-soft:  #272b31;
+  --shadow:     0 1px 3px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.32);
+  --shadow-elev:0 2px 8px rgba(0,0,0,.5), 0 24px 48px rgba(0,0,0,.42);
+}

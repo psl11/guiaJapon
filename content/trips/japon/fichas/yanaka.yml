@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: casa
 kicker: Tokio · el barrio que no ardió
 title: Yanaka, lo que Tokio era
+image:
+  src: img/fichas/yanaka.webp
+  alt: "La calle comercial de Yanaka Ginza, con toldos, farolas y vecinos paseando entre los puestos."
+  credit: "Christophe95 · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Yanaka_Ginza_2.jpg"
 epithet: >-
   Tokio ha sido arrasado dos veces en un siglo y por eso casi no tiene casco antiguo. Yanaka es la
   excepción: casas de madera, setenta templos, un cementerio precioso y gatos. Es el barrio donde se

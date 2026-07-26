@@ -7,6 +7,11 @@ zone: "Kamakura"
 emblem: templo
 kicker: Kamakura · zen y samuráis
 title: Hachimangū y los templos zen
+image:
+  src: img/fichas/kamakura-zen.webp
+  alt: "El santuario Tsurugaoka Hachimangū en lo alto de su escalinata, rodeado de colinas boscosas."
+  credit: "Ocdp · CC0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Tsurugaoka_Hachimangu_001.jpg"
 epithet: >-
   Kamakura tiene el santuario del clan que gobernó Japón y los dos monasterios zen más antiguos del
   país, todos a un paseo. No son monumentos que se visitan: son sitios en activo donde alguien está

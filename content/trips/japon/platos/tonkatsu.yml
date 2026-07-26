@@ -3,6 +3,11 @@ trip: japon
 kind: plato
 order: 3
 title: Tonkatsu
+image:
+  src: img/platos/tonkatsu.webp
+  alt: "Una chuleta de cerdo empanada, cortada en tiras y bañada en salsa, sobre un lecho de col rallada."
+  credit: "些細な日常 · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Pork-cutlet.jpg"
 queEs: >-
   Una chuleta de cerdo empanada en ***panko*** y frita, cortada en tiras y servida con col cruda
   rallada, arroz, sopa de miso y una salsa oscura y agridulce. Se elige entre **rōsu** (lomo, con

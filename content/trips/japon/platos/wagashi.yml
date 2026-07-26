@@ -3,6 +3,11 @@ trip: japon
 kind: plato
 order: 8
 title: Wagashi y matcha
+image:
+  src: img/platos/wagashi.webp
+  alt: "Dos cuencos de matcha y dos wagashi sobre una bandeja lacada, en una ceremonia del té."
+  credit: "WorldContributor · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Japanese_tea_tray_with_two_cups_of_matcha_along_with_some_sweets_during_a_tea_ceremony.jpg"
 queEs: >-
   El dulce japonés tradicional, casi siempre a base de **pasta de judía roja** (*anko*), arroz
   glutinoso y azúcar. Poco graso, poco dulce para el paladar europeo, y **diseñado para acompañar la

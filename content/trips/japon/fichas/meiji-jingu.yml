@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: loto
 kicker: Tokio · el bosque inventado
 title: Meiji Jingū y su bosque de mentira
+image:
+  src: img/fichas/meiji-jingu.webp
+  alt: "El gran torii de madera de Meiji Jingū alzándose entre la niebla del bosque donado."
+  credit: "Another Believer · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Torii_at_Meiji_Shrine_in_Shibuya,_Tokyo,_2019_-_102.jpg"
 epithet: >-
   Setenta hectáreas de bosque en el centro de Tokio que parecen milenarias y tienen poco más de cien
   años: cada árbol fue donado, transportado y plantado a mano por voluntarios en los años veinte. Es

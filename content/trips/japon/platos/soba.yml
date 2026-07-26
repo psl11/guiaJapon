@@ -3,6 +3,11 @@ trip: japon
 kind: plato
 order: 4
 title: Soba
+image:
+  src: img/platos/soba.webp
+  alt: "Fideos de soba fríos servidos sobre la rejilla de bambú del zaru."
+  credit: "Zheng Zhou · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Soba_Noodles_at_Tamawarai,_Shibuya,_Tokyo.jpg"
 queEs: >-
   Fideo de **trigo sarraceno**, gris y con carácter, que se come frío con salsa aparte
   (***zaru soba***) o caliente en caldo (***kake***). El frío es el bueno: se moja la punta en el

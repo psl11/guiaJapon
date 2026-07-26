@@ -7,6 +7,11 @@ zone: "Kamakura"
 emblem: templo
 kicker: Kamakura · el Gran Buda
 title: El Daibutsu de Kōtoku-in
+image:
+  src: img/fichas/daibutsu-kamakura.webp
+  alt: "El Gran Buda de bronce de Kamakura, verde de pátina, con los ojos entornados y el moño de caracoles."
+  credit: "Alexandar Vujadinovic · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:The_Great_Buddha_of_Kamakura.jpg"
 epithet: >-
   Once metros y medio de bronce sentados al aire libre desde hace más de setecientos años. Y esa es
   la clave: no se hizo para estar a la intemperie — un tsunami se llevó su templo en 1498 y nadie lo

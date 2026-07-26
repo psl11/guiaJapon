@@ -7,6 +7,11 @@ zone: "Los Alpes"
 emblem: casa
 kicker: Matsumoto · uno de los doce
 title: Matsumoto-jō, el castillo cuervo
+image:
+  src: img/fichas/matsumoto-jo.webp
+  alt: "El castillo negro de Matsumoto reflejado en el agua del foso, con la montaña al fondo."
+  credit: "663highland · CC BY 2.5"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:130608_Matsumoto_Castle_Matsumoto_Nagano_pref_Japan02bs4.jpg"
 epithet: >-
   De los mil y pico castillos que tuvo Japón, solo doce conservan su torre original: el resto ardió y
   se rehízo en hormigón. Este es uno de los doce, es Tesoro Nacional, y su torre de cinco plantas es

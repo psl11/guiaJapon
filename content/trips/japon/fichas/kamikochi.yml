@@ -7,6 +7,11 @@ zone: "Los Alpes"
 emblem: montana
 kicker: Los Alpes · el valle cerrado
 title: Kamikōchi, el valle sin coches
+image:
+  src: img/fichas/kamikochi.webp
+  alt: "El puente Kappa-bashi sobre el río Azusa en Kamikōchi, con los alerces dorados de octubre y la cordillera Hotaka nevada al fondo."
+  credit: "El Kappa-bashi en octubre · lumoplank · CC0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Kamikochi_-_Kamikochi6538.jpg"
 epithet: >-
   Un valle glaciar a mil quinientos metros con las paredes del Hotaka encima y un río de agua de
   deshielo por el medio. Los coches privados están prohibidos desde 1975, y del 16 de noviembre al

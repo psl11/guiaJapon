@@ -3,6 +3,11 @@ trip: japon
 kind: plato
 order: 7
 title: Tempura
+image:
+  src: img/platos/tempura.webp
+  alt: "Un tendon: cuenco de arroz coronado con tempura de gamba, con la sopa de miso al lado."
+  credit: "pelican · CC BY-SA 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Rice_bowl_topped_with_shrimp_tempura_(8281030764).jpg"
 queEs: >-
   Verdura y marisco rebozados en una masa finísima de harina y agua **helada** y fritos unos
   segundos. Bien hecha no es grasienta ni tiene sabor a fritura: es un envoltorio transparente y

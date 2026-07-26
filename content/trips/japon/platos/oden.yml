@@ -3,6 +3,11 @@ trip: japon
 kind: plato
 order: 5
 title: Oden
+image:
+  src: img/platos/oden.webp
+  alt: "Una olla de oden humeante con rábano, huevo y bolsas de tofu frito en caldo claro."
+  credit: "TOMOYOSHI · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Home_made_oden_by_TOMOYOSHI_in_Tokyo.jpg"
 queEs: >-
   Un guiso de invierno: **caldo claro de dashi y soja** en el que se cuecen despacio rábano *daikon*,
   huevo duro, *konnyaku*, bolsitas de tofu frito y pasteles de pescado. Se pide pieza a pieza,

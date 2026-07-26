@@ -1,0 +1,83 @@
+slug: kinkakuji
+navLabel: "Kinkaku-ji"
+trip: japon
+part: japon
+order: 22
+zone: "El resto del país"
+emblem: templo
+kicker: Kioto · el noroeste
+title: Kinkaku-ji, el pabellón que ardió dos veces
+image:
+  src: img/fichas/kinkakuji.webp
+  alt: "El Pabellón Dorado de Kioto reflejado en el estanque, rodeado de pinos, bajo un cielo azul con nubes."
+  credit: "Pablo Sánchez"
+epithet: >-
+  Dos plantas cubiertas de pan de oro sobre un estanque, y una historia que un premio Nobel
+  frustrado convirtió en la mejor novela japonesa del siglo XX. Lo que se ve hoy tiene setenta y
+  cinco años: el edificio original lo quemó un monje en 1950.
+sections:
+  - heading: La villa de un shōgun que quería ser emperador
+    body: |
+      Lo levantó **Ashikaga Yoshimitsu** a finales del **siglo XIV** como villa de retiro, después de
+      abdicar formalmente del cargo de shōgun sin soltar ni un gramo de poder. A su muerte, en 1408,
+      se convirtió en templo zen — **Rokuon-ji** es su nombre real; *Kinkaku-ji*, «templo del
+      pabellón dorado», es el apodo.
+
+      El edificio es una declaración política disfrazada de capricho: **cada planta está en un estilo
+      distinto**. La baja, en estilo palaciego de la aristocracia Heian; la media, en estilo de
+      residencia de guerrero; la alta, en estilo de templo zen chino — y solo las dos superiores van
+      cubiertas de **pan de oro**. Es decir: el shōgun se colocó por encima de la corte, de los
+      samuráis y del clero, en un solo edificio de tres pisos. Encima, un fénix de bronce.
+
+      El estanque que lo refleja, el **Kyōko-chi** o «espejo de agua», está diseñado para que la
+      imagen invertida sea tan importante como el edificio, con las islas y las rocas colocadas para
+      componer la vista desde el punto exacto en el que hoy se agolpa todo el mundo.
+  - heading: El incendio de 1950, y Mishima
+    body: |
+      La madrugada del **2 de julio de 1950** un monje novicio de veintiún años, **Hayashi Yōken**,
+      prendió fuego al pabellón y trató de suicidarse en la colina de detrás. El edificio, que había
+      sobrevivido a la guerra Ōnin y a los bombardeos, desapareció en una noche.
+
+      Cinco años después, **Yukio Mishima** convirtió aquello en ***El pabellón de oro*** (1956), una
+      de las grandes novelas japonesas del siglo: la historia de un joven tartamudo obsesionado con
+      una belleza tan absoluta que solo destruyéndola puede vivir. **Kon Ichikawa** la llevó al cine
+      dos años después con el título ***Enjō*** («Conflagración», 1958), con Raizō Ichikawa.
+
+      La **reconstrucción es de 1955**, y en **1987** se rehízo el dorado con una capa de pan de oro
+      **cinco veces más gruesa** que la original. Es decir: hoy brilla más de lo que brilló nunca.
+      Saberlo no le quita nada; le añade una capa.
+  - heading: El sendero de la capa de seda
+    body: |
+      Kinkaku-ji está lejos del centro y **solo se llega en autobús** (unos 40 minutos desde la
+      estación). Ir hasta allí para ver un edificio que se recorre en veinte minutos no compensa: lo
+      que compensa es hacer el ***Kinukake no Michi***, «el camino de la capa de seda» —el nombre
+      viene de un emperador que mandó cubrir la colina de tela blanca para simular nieve en verano—,
+      que enlaza a pie tres templos en unos dos kilómetros y medio:
+
+      - **Ryōan-ji**, «el templo del dragón pacífico», con **el jardín seco más famoso del mundo**:
+        quince rocas sobre grava rastrillada en un rectángulo del tamaño de una pista de tenis. Su
+        truco es que **desde ningún punto del porche se ven las quince a la vez** — siempre hay una
+        oculta. Nadie sabe con certeza quién lo diseñó ni qué significa, y esa es exactamente la
+        gracia.
+      - **Ninna-ji**, fundado en el **888** y ligado a la familia imperial durante siglos: su
+        **Omuro Goten** es un palacio residencial con jardín, y su pagoda de cinco pisos, uno de los
+        rincones más tranquilos de Kioto. Se paga aparte por el palacio, y merece la pena.
+
+      Los tres son Patrimonio de la Humanidad dentro del conjunto de **Monumentos históricos de la
+      antigua Kioto** (1994). Media jornada larga bien empleada.
+curiosidades:
+  - >-
+    **El pabellón que se ve es de 1955.** El original lo quemó un monje novicio en **1950**, y
+    **Mishima** hizo con aquel incendio *El pabellón de oro*, una de las grandes novelas japonesas
+    del siglo XX. En 1987 se rehízo el dorado **cinco veces más grueso** que el que ardió.
+  - >-
+    Sus tres plantas están en **tres estilos distintos** —aristocracia, guerreros y zen— y solo las
+    dos de arriba llevan oro. Es un organigrama político convertido en edificio.
+  - >-
+    En el jardín seco de **Ryōan-ji** hay quince rocas y **desde ningún ángulo se ven las quince**.
+    No se conserva ni el nombre del autor ni una explicación de su significado.
+seenIn:
+  - ref: '#kioto'
+    label: "Kioto"
+  - ref: '#acto-3-sengoku'
+    label: "Acto 3 · los Ashikaga"

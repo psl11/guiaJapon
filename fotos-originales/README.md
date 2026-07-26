@@ -12,38 +12,48 @@ riesgo de licencia, y del sitio tal como se ve de verdad.
 
 ---
 
-## Lo que YA está cubierto con fotos tuyas (20)
+## Estado a día de hoy
 
-**En uso:** Sensō-ji · Odaiba (ficha de barrios) · momiji · tablillas ema (santuario o templo) ·
-ramen · sushi · sake · yakitori.
+**Fotos tuyas en uso (17):** Sensō-ji · Odaiba (barrios de Tokio) · momiji · tablillas ema ·
+Kioto · Higashiyama · Kinkaku-ji · Fushimi Inari · Arashiyama · Nara · Miyajima · Nikkō · Osaka ·
+más ramen, sushi, sake y yakitori.
 
-**Guardadas, esperando su ficha:** Kinkaku-ji · Fushimi Inari · Higashiyama de noche · Arashiyama ·
-Kiyomizu-dera · Nara · Itsukushima · torii de Miyajima · Nikkō · Osaka · Kioto de noche · Tokio de
-noche.
+**Tuyas guardadas, todavía sin ficha (3):** Kiyomizu-dera (el dragón tallado) · Itsukushima (el
+corredor bermellón) · Tokio de noche.
+
+**Rellenadas con Wikimedia Commons (15):** Meiji Jingū · Yanaka · Daibutsu de Kamakura ·
+Hachimangū · Matsumoto-jō · Kamikōchi · Takayama · Shirakawa-gō · Kanazawa · y los platos tonkatsu,
+soba, tempura, oden, wagashi y okonomiyaki. Todas con licencia CC comprobada y crédito enlazado —
+**si algún día traes la tuya, la sustituyo sin pensarlo**.
 
 ---
 
 ## Lo que ME FALTA — por orden de utilidad
 
-### 1. El tramo nuestro (Tokio y los Alpes) — lo más importante
-Son las fichas ya escritas y sin foto. Tus 278 no las cubrían.
+### 1. Las cuatro que dijiste que tienes
+Son las únicas fichas escritas que siguen **sin ninguna imagen**, y en las cuatro me pediste
+expresamente no tirar de Commons.
 
-- [ ] **Kamikōchi** — el puente Kappabashi, el estanque Taishō, el río Azusa, el Hotaka
-- [ ] **Castillo de Matsumoto** — la torre negra reflejada en el foso
-- [ ] **Meiji Jingū** — el torii de ciprés, el camino de grava, el bosque
 - [ ] **Shibuya** — el cruce desde arriba, Hachikō
 - [ ] **Ueno** — el parque, el estanque de Shinobazu, el Museo Nacional
-- [ ] **Yanaka** — la calle en cuesta, el cementerio, las casas bajas
 - [ ] **Tsukiji** — los puestos, el tamagoyaki, el gentío
-- [ ] **Gran Buda de Kamakura** — el Daibutsu al aire libre
-- [ ] **Templos zen de Kamakura** — Engaku-ji o Kenchō-ji, y el Hachimangū
+- [ ] **Hiroshima** — la cúpula de la bomba (Genbaku Dome) y/o el cenotafio del Parque de la Paz
 
-### 2. Hiroshima — lo que dijiste que tienes
-- [ ] **Cúpula de la bomba atómica** (Genbaku Dome)
-- [ ] **Parque Memorial de la Paz** — el cenotafio, el museo
+### 2. Las que mejorarían una de Commons
+Ahí hay foto y funciona, pero la tuya ganaría:
 
-### 3. Platos que faltan
-- [ ] tonkatsu · soba · tempura · oden · wagashi o matcha
+- [ ] **Kamikōchi** — la de Commons es de octubre, con los alerces dorados: justo lo que **no**
+      vamos a ver. Cualquier foto tuya del valle pelado la sustituye de inmediato. *(Esta caerá
+      sola en el viaje.)*
+- [ ] **Takayama** — la actual es una fachada de destilería; una calle entera de Sanmachi sería
+      mejor
+- [ ] **Templos zen de Kamakura** — hoy va con el Hachimangū; Engaku-ji o Kenchō-ji encajarían más
+      con lo que cuenta la ficha
 
-Lo que no llegue, lo relleno con Wikimedia Commons. Pero si tienes cualquiera de la lista 1, esa
-prefiero esperarla.
+### 3. Si aparecen, encuentran sitio
+- [ ] Ginza · Shinjuku · Asakusa de noche · Hakone · monte Fuji · Kobe
+
+---
+
+**El plan de fotos del viaje**: lo que traigas en noviembre sustituye a cualquier imagen de Commons
+que haya. Al volver, esta lista se vacía sola.

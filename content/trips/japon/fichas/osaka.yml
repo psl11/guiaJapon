@@ -1,0 +1,96 @@
+slug: osaka
+navLabel: "Osaka"
+trip: japon
+part: japon
+order: 26
+zone: "El resto del país"
+emblem: cuenco
+kicker: Kansai · la cocina del país
+title: Osaka, la ciudad que se arruina comiendo
+image:
+  src: img/fichas/osaka.webp
+  alt: "El canal de Dōtonbori en Osaka de noche, con las fachadas cubiertas de neones y carteles y gente paseando."
+  credit: "Pablo Sánchez"
+epithet: >-
+  Osaka no tiene el patrimonio de Kioto ni la escala de Tokio, y no le hace ninguna falta: tiene una
+  palabra propia. ***Kuidaore*** significa «comer hasta arruinarse», y es lo que los osaqueños dicen
+  de sí mismos con orgullo. Es una ciudad de mercaderes, de comida de calle y de gente que habla
+  alto — la contracara exacta de la contención de Kioto.
+sections:
+  - heading: Por qué es así
+    body: |
+      Osaka fue durante siglos **la cámara de compensación de Japón**. Con el país cerrado y la corte
+      en Kioto y el shōgun en Edo, aquí llegaba en barco el arroz de todos los dominios para
+      venderse: se la llamaba ***tenka no daidokoro***, «la cocina del país».
+
+      De ese comercio salió algo que sorprende: la **Bolsa de Arroz de Dōjima**, autorizada en
+      **1697**, fue **el primer mercado de futuros del mundo** — se compraban y vendían cosechas
+      todavía en el campo, con contratos estandarizados y cámara de compensación, un siglo y medio
+      antes de Chicago. También salió de aquí la contabilidad japonesa moderna y una cultura urbana
+      de comerciantes sin samuráis por encima.
+
+      Eso explica el carácter. Osaka es la ciudad donde se regatea, donde el dialecto —el
+      ***Kansai-ben***— suena más cálido y más gamberro, y de donde sale prácticamente todo el humor
+      japonés: el ***manzai***, el dúo cómico de tonto y listo, es un invento de aquí.
+  - heading: Dōtonbori y el corredor que lleva noventa años corriendo
+    body: |
+      El canal de **Dōtonbori** es la imagen de la ciudad: un frente de fachadas cubierto de neones,
+      pantallas y esculturas gigantes —un cangrejo que mueve las patas, un pez globo, una mano que
+      agarra sushi—, porque en Osaka los restaurantes compiten por el cartel más descarado.
+
+      El icono es el ***Glico Running Man***, el atleta con los brazos en alto que corre desde
+      **1935** y que va ya por su sexta versión (la actual es de LED, de 2014). Fotografiarse
+      imitándolo desde el puente **Ebisubashi** es tradición local, no trampa de turista.
+
+      Alrededor: **Hōzen-ji Yokochō**, un callejón empedrado con farolillos y un pequeño altar de
+      Buda **completamente cubierto de musgo** de tanto que se le echa agua encima, que es el ritual
+      del sitio; el **mercado de Kuromon**, la despensa de la ciudad, mejor por la mañana; y
+      **Shinsekai**, un barrio que se construyó en 1912 imitando París y Coney Island y que hoy es un
+      caos maravilloso de neón, *kushikatsu* y la torre **Tsūtenkaku**.
+
+      Un detalle de la casa: en el kushikatsu —brochetas fritas— hay un cuenco de salsa comunitario y
+      **está terminantemente prohibido mojar dos veces**. Es la regla más seria de Osaka.
+  - heading: Qué comer, que es a lo que se viene
+    body: |
+      - ***Takoyaki*** — bolas de masa con pulpo, hechas en plancha de semiesferas y volteadas con
+        un palillo. Salen ardiendo por dentro; hay que esperar. Nacieron aquí en 1935.
+      - ***Okonomiyaki*** — la tortilla-crepe de col y masa, con lo que uno quiera dentro. La versión
+        de Osaka lo mezcla todo antes de echarlo a la plancha, a diferencia de la de Hiroshima.
+      - ***Kushikatsu*** — brochetas rebozadas y fritas, de Shinsekai.
+      - ***Kitsune udon*** — el udon con tofu frito dulce, también invención local. *Kitsune* es
+        «zorro», y se llama así porque al zorro de Inari se le ofrece precisamente tofu frito.
+
+      Y una advertencia: en Osaka lo bueno está tanto en los callejones de detrás como en el canal.
+      Los restaurantes con la fachada más espectacular de Dōtonbori suelen ser los más caros y los
+      peores.
+  - heading: Si sobra medio día
+    body: |
+      - **El castillo de Osaka** — lo levantó **Toyotomi Hideyoshi** en 1583 como el más grande de
+        Japón, y los Tokugawa lo destruyeron en el asedio de 1615. La torre actual es de **1931**, de
+        **hormigón armado y con ascensor**: por dentro es un museo, no un castillo. Merece la pena el
+        parque y las murallas —hay bloques de piedra de más de cien toneladas—, pero para castillo de
+        verdad está [Matsumoto](#matsumoto-jo).
+      - **Umeda Sky Building** — dos torres unidas arriba por un observatorio flotante con escaleras
+        mecánicas al aire. La mejor vista de la ciudad y una pieza de arquitectura de los noventa que
+        aguanta bien.
+
+      Osaka pide **una noche, no tres días**. Se duerme aquí y se usa como base para Nara y Kioto,
+      que están a menos de una hora; lo propio de la ciudad se hace de noche.
+curiosidades:
+  - >-
+    La palabra que los osaqueños usan para definirse es ***kuidaore***: «comer hasta arruinarse».
+    En Kioto la equivalente es *kidaore*, arruinarse **en ropa**.
+  - >-
+    La **Bolsa de Arroz de Dōjima**, autorizada en **1697**, fue **el primer mercado de futuros del
+    mundo**: contratos estandarizados sobre cosechas aún en el campo, siglo y medio antes de Chicago.
+  - >-
+    El **Glico Running Man** de Dōtonbori lleva corriendo desde **1935** y va por su sexta versión.
+    Y en el kushikatsu de Shinsekai hay una única regla inquebrantable: **la salsa es comunitaria y
+    no se moja dos veces**.
+seenIn:
+  - ref: '#el-resto-del-pais'
+    label: "Cómo encajarlo"
+  - ref: '#acto-3-sengoku'
+    label: "Acto 3 · Hideyoshi"
+  - ref: '#okonomiyaki'
+    label: "El okonomiyaki"

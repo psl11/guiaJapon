@@ -1,0 +1,96 @@
+slug: nara
+navLabel: "Nara"
+trip: japon
+part: japon
+order: 25
+zone: "El resto del país"
+emblem: loto
+kicker: Kansai · la capital anterior
+title: Nara, la capital que se abandonó por culpa de los monjes
+image:
+  src: img/fichas/nara.webp
+  alt: "Un ciervo sika de Nara mirando a cámara entre los árboles del parque."
+  credit: "Pablo Sánchez"
+epithet: >-
+  Antes de Kioto hubo Nara: setenta y cuatro años de capital que dejaron el edificio de madera más
+  grande del mundo, un Buda de bronce de quinientas toneladas y mil doscientos ciervos sueltos por
+  la ciudad. Y una lección política — la capital se mudó porque los templos se habían vuelto
+  demasiado poderosos.
+sections:
+  - heading: Setenta y cuatro años, y una mudanza por miedo
+    body: |
+      En **710** la corte se instaló aquí y fundó **Heijō-kyō**, la primera capital permanente de
+      Japón —hasta entonces se cambiaba de sitio al morir cada emperador, porque la muerte
+      contaminaba—. Fue el momento en que Japón se volvió un Estado a la china: escritura, códigos
+      legales, budismo de Estado, catastro.
+
+      Y también el momento en que el budismo aprendió a mandar. Los grandes templos de Nara
+      acumularon tierras, exenciones y **acceso directo al palacio**; el episodio que colmó el vaso
+      fue el del monje **Dōkyō**, favorito de la emperatriz Shōtoku, que estuvo a punto de hacerse
+      proclamar emperador. Cuando en **784** la corte se marchó —primero a Nagaoka y diez años
+      después a Kioto—, la razón de fondo fue esa: **poner distancia con el clero**. Los templos se
+      quedaron en Nara. Por eso siguen en pie.
+  - heading: El Gran Buda que casi arruina al país
+    body: |
+      El emperador **Shōmu** ordenó fundir un Buda colosal en el **752** como respuesta espiritual a
+      una epidemia de viruela que se había llevado a un tercio de la población. El resultado es el
+      ***Daibutsu*** de **Tōdai-ji**: casi **quince metros** sentado y del orden de **quinientas
+      toneladas de bronce**. Consumió prácticamente todas las reservas de cobre del país y dejó la
+      hacienda imperial exhausta — hay historiadores que lo cuentan como una de las causas de que la
+      capital acabara mudándose.
+
+      Lo guarda el ***Daibutsuden***, uno de los **edificios de madera más grandes del mundo**. Y
+      atención al dato: el actual, reconstruido en **1709**, tiene solo **dos tercios de la anchura**
+      del original. Lo que impresiona es la versión reducida.
+
+      Dentro, en la base de uno de los pilares, hay **un agujero del tamaño exacto de la fosa nasal
+      del Buda**. La tradición dice que quien pasa por él se asegura la iluminación. Pasan niños
+      todo el día y, con paciencia y poca dignidad, adultos delgados.
+  - heading: Los ciervos, que no son mascotas
+    body: |
+      Por el parque andan sueltos unos **mil doscientos ciervos sika**, y su estatus no es turístico:
+      según la tradición, el kami **Takemikazuchi** llegó a Nara montado en un ciervo blanco para
+      proteger la nueva capital, de modo que los ciervos son **mensajeros de los dioses**. Matar uno
+      fue **delito capital** hasta 1637. Hoy están declarados **Monumento Natural Nacional**.
+
+      Han aprendido a **inclinarse** para pedir las galletas *shika senbei* que se venden en los
+      puestos. Es adorable exactamente durante treinta segundos: en cuanto ven el paquete se ponen
+      pesados, empujan y muerden mochilas y planos. Las reglas que evitan un disgusto: **comprar las
+      galletas y darlas rápido**, no enseñar el fajo, y **no llevar comida ni papeles sueltos a la
+      vista**. Hay unas cuantas decenas de mordiscos leves al año, casi todos por lo mismo.
+  - heading: Qué más, y cuánto tiempo
+    body: |
+      Casi todo está en el mismo parque, a veinte minutos a pie de la estación:
+
+      - **Kōfuku-ji** — la pagoda de cinco pisos que sale en todas las fotos y un museo con el
+        ***Ashura***, una talla del siglo VIII de tres caras y seis brazos que es una de las piezas
+        más queridas del arte japonés.
+      - **Kasuga Taisha** — el santuario del clan Fujiwara, con **tres mil faroles** de piedra y
+        bronce donados a lo largo de los siglos, en un bosque que lleva **mil doscientos años
+        prohibido a la tala**.
+      - **Naramachi** — el barrio de comerciantes de casas estrechas y patios, al sur, donde ya no
+        hay ciervos ni autobuses.
+
+      **Medio día** cubre Tōdai-ji, el parque y Kōfuku-ji. **Un día entero** añade Kasuga Taisha y
+      Naramachi sin correr, que es como merece hacerse. Desde Kioto son **45 minutos** (línea JR
+      Miyakoji rápida, o Kintetsu, que deja más cerca del parque); desde Osaka, otros 45.
+curiosidades:
+  - >-
+    El **Gran Buda de Tōdai-ji** se fundió en el 752 con casi todo el cobre disponible del país, tras
+    una epidemia de viruela que mató a un tercio de la población. El pabellón que lo guarda es uno de
+    los edificios de madera más grandes del mundo — y aun así **es dos tercios del original**.
+  - >-
+    Los ciervos de Nara son **mensajeros de los dioses**: matar uno fue **delito capital hasta 1637**
+    y hoy son Monumento Natural Nacional. Se inclinan para pedir galletas — y muerden mochilas si
+    ven que llevas más.
+  - >-
+    **La capital se marchó de Nara para huir de los monjes.** Los templos habían acumulado tanto
+    poder que uno de ellos, Dōkyō, estuvo a punto de hacerse proclamar emperador. La corte se mudó en
+    784 y los templos se quedaron: por eso siguen en pie.
+seenIn:
+  - ref: '#el-resto-del-pais'
+    label: "Cómo encajarlo"
+  - ref: '#acto-1-kami-y-corte'
+    label: "Acto 1 · el budismo de Estado"
+  - ref: '#daibutsu-kamakura'
+    label: "El otro Gran Buda"

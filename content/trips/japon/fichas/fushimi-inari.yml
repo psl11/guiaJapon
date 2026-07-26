@@ -1,0 +1,82 @@
+slug: fushimi-inari
+navLabel: "Fushimi Inari"
+trip: japon
+part: japon
+order: 23
+zone: "El resto del país"
+emblem: templo
+kicker: Kioto · el sur
+title: Fushimi Inari, una montaña pagada a plazos
+image:
+  src: img/fichas/fushimi-inari.webp
+  alt: "Túnel de torii bermellones de Fushimi Inari vistos desde dentro, con los kanji de los donantes grabados en los pilares."
+  credit: "Pablo Sánchez"
+epithet: >-
+  Diez mil puertas bermellones subiendo por una montaña, y detrás de cada una un nombre y una fecha:
+  no son decoración, son recibos. Cada torii lo ha pagado una empresa o una familia para dar las
+  gracias por un negocio que salió bien. Es el monumento más fotografiado de Japón y también el más
+  malentendido.
+sections:
+  - heading: Inari, el kami del arroz que acabó siendo el del dinero
+    body: |
+      El santuario se fundó en el **711** —anterior a Kioto— en la ladera del monte Inari, y está
+      dedicado a **Inari**, el kami del arroz. La lógica es directa: en un país donde el arroz era la
+      moneda con la que se pagaban los impuestos y los estipendios de los samuráis, **el dios de la
+      cosecha acabó siendo el dios de la prosperidad**, y de ahí, el de los negocios.
+
+      Funcionó tan bien que hoy hay unos **treinta y dos mil santuarios de Inari en Japón** —es la
+      advocación más extendida del país— y este es el principal de todos ellos. Entrar es **gratis y
+      está abierto las veinticuatro horas**, porque un santuario shintō al aire libre no tiene por
+      qué cerrar.
+
+      Los **zorros** de piedra que hay por todas partes no son Inari: son sus **mensajeros**
+      (*kitsune*). Casi todos llevan algo en la boca, y merece la pena mirar qué: **una llave** —la
+      del granero de arroz—, una gavilla, una joya o un pergamino.
+  - heading: Los torii son facturas
+    body: |
+      La avenida de puertas que todo el mundo conoce se llama ***senbon torii***, «los mil torii»,
+      aunque en toda la montaña hay del orden de **diez mil**. Y aquí está el detalle que cambia la
+      visita: **están todos comprados**.
+
+      Cuando se sube, los pilares se leen en bermellón por delante y **en negro por detrás**: al
+      bajar o al girarse aparecen los **kanji del donante y la fecha**. Son empresas, gremios,
+      restaurantes, familias. Un torii pequeño ronda los cuatrocientos mil yenes; los grandes de la
+      base, más de un millón. Como el cedro se pudre, hay **renovación constante**: siempre se ve
+      alguno recién lacado junto a otro descascarillado.
+
+      Es decir: lo que parece un decorado milenario es en realidad **un registro mercantil vivo**,
+      escrito en madera y actualizado cada semana.
+  - heading: Cuánto se sube, y hasta dónde
+    body: |
+      El monte Inari tiene **233 metros** y el circuito completo hasta la cima y vuelta son unas
+      **dos o tres horas** de escalones. Casi nadie lo hace, y no hace falta:
+
+      - **Los primeros 10 minutos** concentran el 95 % de las fotos y el 100 % de la gente.
+      - **A los 30-40 minutos** se llega al mirador de **Yotsutsuji**, con la vista abierta sobre
+        Kioto. Es el punto de corte razonable: a partir de ahí la multitud desaparece de golpe y el
+        bosque se vuelve mucho más interesante que las puertas — pequeños altares privados, cientos
+        de torii en miniatura, estanques, gatos.
+      - **La cima** es, honestamente, decepcionante: un claro con altares y sin vistas. Se sube por
+        la subida, no por lo que hay arriba.
+
+      La hora lo decide todo. **Antes de las 8:00 o después de las 18:00** se puede tener el túnel
+      para uno solo, con las farolas encendidas y el bosque sonando. Entre medias es una cola. Está a
+      **cinco minutos en tren desde la estación de Kioto** (línea JR Nara, parada Inari), así que
+      madrugar cuesta poco.
+curiosidades:
+  - >-
+    **Cada torii tiene dueño.** Los diez mil de la montaña son donaciones de empresas y familias en
+    agradecimiento por un negocio próspero, con el nombre y la fecha grabados **en la cara trasera**
+    — se leen al bajar. Uno pequeño cuesta unos 400.000 yenes.
+  - >-
+    Hay unos **32.000 santuarios de Inari en Japón**, la advocación más extendida del país, y este es
+    el principal de todos. Inari era el kami del arroz; como el arroz era la moneda con la que se
+    pagaban los impuestos, acabó siendo **el kami de los negocios**.
+  - >-
+    Los **zorros** no son el dios: son sus mensajeros, y llevan en la boca **la llave del granero de
+    arroz**, una gavilla o una joya. Mirar qué lleva cada uno es medio juego.
+seenIn:
+  - ref: '#kioto'
+    label: "Kioto"
+  - ref: '#santuario-o-templo'
+    label: "Santuario o templo"

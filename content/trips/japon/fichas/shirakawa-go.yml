@@ -1,0 +1,100 @@
+slug: shirakawa-go
+navLabel: "Shirakawa-gō"
+trip: japon
+part: japon
+order: 18
+zone: "El resto del país"
+emblem: casa
+kicker: Hida · el valle de los tejados
+title: Shirakawa-gō, casas construidas para la nieve y la pólvora
+image:
+  src: img/fichas/shirakawa-go.webp
+  alt: "El pueblo de Ogimachi visto desde el mirador, con las granjas de tejado de paja alineadas en el valle."
+  credit: "Bernard Gagnon · CC BY-SA 3.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Ogimachi_Village-02.jpg"
+epithet: >-
+  Un valle aislado entre montañas con un centenar de granjas de tejado de paja a cuarenta y cinco
+  grados. Se llaman *gasshō-zukuri*, «construidas como manos que rezan», y su forma no es folclore:
+  cada decisión constructiva responde a dos presiones concretas —**dos metros de nieve** y un
+  negocio clandestino de **pólvora**.
+sections:
+  - heading: Por qué tienen esa forma
+    body: |
+      El valle de Shōkawa recibe **de los mayores volúmenes de nieve del mundo habitado**: más de dos
+      metros de acumulación en un invierno normal. De ahí sale todo:
+
+      - **El ángulo.** Los tejados van a **entre 45 y 60 grados** para que la nieve resbale antes de
+        pesar. Un tejado plano aquí se hunde en enero.
+      - **La orientación.** Todas las casas están alineadas **norte-sur**, con los faldones al este y
+        al oeste. Así el viento dominante del valle las golpea de canto, y el sol de la mañana y de
+        la tarde reparte el secado por igual.
+      - **Sin un solo clavo.** La estructura se ata con **cuerda de paja y varas de avellano**, no
+        se clava. Un armazón atado **cede y vuelve**; uno clavado se parte. Es la misma lógica
+        antisísmica de los templos, aplicada a una granja.
+
+      Las más antiguas tienen **entre doscientos cincuenta y trescientos años** y muchas siguen
+      habitadas por las mismas familias. No es un museo: hay gente dentro, tendiendo la ropa.
+  - heading: El desván de los gusanos y el salitre
+    body: |
+      El espacio bajo el tejado —tres o cuatro plantas de altura libre— no era trastero. Era
+      **fábrica**.
+
+      Arriba se criaban **gusanos de seda**, aprovechando el calor que subía del hogar abierto de la
+      planta baja, que además ahumaba la paja y la madera y las protegía de los insectos. La seda era
+      el ingreso de invierno del valle.
+
+      Y debajo del suelo de la planta baja pasaba lo otro: en la tierra del hogar, mezclada con
+      excrementos de gusano de seda y hierba, se producía **salitre** — nitrato de potasio, es decir,
+      **el ingrediente principal de la pólvora**. El valle, imposible de vigilar y a un día de
+      camino de todas partes, abastecía discretamente al **dominio de Kaga**, el más rico de Japón
+      después de los Tokugawa, con sede en [Kanazawa](#kanazawa). Lo que parece la aldea más inocente
+      del país era, durante el periodo Edo, una fábrica de munición.
+  - heading: El día en que todo el pueblo sube al tejado
+    body: |
+      La paja dura entre **treinta y cuarenta años** y rehacer un tejado es una obra imposible de
+      pagar para una familia. La solución del valle se llama ***yui***, «el vínculo»: cuando a una
+      casa le toca, **el pueblo entero sube**. Entre **doscientas y quinientas personas** desmontan y
+      rehacen un tejado en **uno o dos días**, y quien recibe la ayuda queda obligado a devolverla
+      cuando le toque al vecino. Es un sistema de crédito recíproco sin dinero, y sigue funcionando.
+
+      Se conserva porque estuvo a punto de desaparecer: en los años cincuenta y sesenta la
+      construcción de **presas hidroeléctricas** inundó parte del valle, y decenas de casas se
+      desmontaron y trasladaron —algunas acabaron en el museo al aire libre de
+      [Takayama](#takayama)—. La reacción a aquello fue el pacto vecinal que hoy prohíbe vender,
+      alquilar o derribar una casa del conjunto. **Patrimonio de la Humanidad desde 1995.**
+  - heading: Qué se hace estando allí
+    body: |
+      El pueblo principal es **Ogimachi** y se recorre andando en una hora y media.
+
+      - **El mirador de Shiroyama** — la vista del valle entero con los tejados alineados, veinte
+        minutos de subida a pie o un microbús desde el centro. Es *la* foto.
+      - **La casa Wada** — la más grande del pueblo, de una familia que se enriqueció justamente con
+        el salitre. Se entra y se sube al desván de la seda.
+      - **Myōzen-ji** — un templo cuyo campanario está también techado de paja, caso raro.
+
+      **En noviembre** no hay nieve todavía, pero sí color en las laderas y muy poca gente. Las
+      famosas **iluminaciones nocturnas con el valle nevado son de enero y febrero**, con reserva
+      previa y sorteo — no es este viaje.
+
+      Se llega en **autobús desde Takayama (50 min)** o desde Kanazawa (1 h 15). Casi todo el mundo
+      lo hace de paso, en tres horas. **Dormir en una de las casas** —varias funcionan como
+      *minshuku*, con cena y hogar encendido— es otra cosa completamente distinta: a partir de las
+      cinco de la tarde el valle se queda vacío.
+curiosidades:
+  - >-
+    Los tejados están **atados con cuerda de paja, sin un solo clavo**: un armazón atado cede con la
+    nieve y el terremoto y vuelve a su sitio; uno clavado se rompe.
+  - >-
+    Bajo el suelo de estas casas se fabricaba **salitre para pólvora**, con la tierra del hogar y los
+    excrementos de los gusanos de seda del desván. El valle abastecía en secreto al dominio de Kaga.
+  - >-
+    Rehacer un tejado de paja lo hace **el pueblo entero en uno o dos días** —entre 200 y 500
+    personas—, con la obligación de devolver la ayuda cuando le toque al vecino. El sistema se llama
+    *yui* y sigue en uso.
+seenIn:
+  - ref: '#takayama'
+    label: "Takayama"
+  - ref: '#kanazawa'
+    label: "Kanazawa"
+  - ref: '#dia-8-bajada'
+    label: "Día 8 · el grupo sigue hacia aquí"

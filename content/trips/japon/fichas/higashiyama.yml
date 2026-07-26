@@ -1,0 +1,98 @@
+slug: higashiyama
+navLabel: "Higashiyama y Gion"
+trip: japon
+part: japon
+order: 21
+zone: "El resto del país"
+emblem: incienso
+kicker: Kioto · la ladera este
+title: Higashiyama, la ladera donde Kioto sigue pareciendo Kioto
+image:
+  src: img/fichas/higashiyama.webp
+  alt: "Callejón empedrado de Higashiyama de noche, con casas de madera y la pagoda de Yasaka iluminada al fondo."
+  credit: "Pablo Sánchez"
+epithet: >-
+  La franja entre la ciudad y la montaña del este concentra lo que todo el mundo tiene en la cabeza
+  cuando dice «Kioto»: un templo colgado sobre un barranco, dos cuestas empedradas de casas de
+  madera y un barrio de casas de té donde todavía trabajan geishas. Es también la parte más
+  concurrida del país. Las dos cosas son ciertas a la vez.
+sections:
+  - heading: Kiyomizu-dera, el templo del agua pura
+    body: |
+      Fundado en el **778** —anterior a la propia ciudad— alrededor de la cascada **Otowa**, que le
+      da nombre: *kiyomizu*, «agua pura». Es Patrimonio de la Humanidad y el sitio con **más votos
+      del país en la lista oficial de mejores lugares para ver el momiji**.
+
+      Lo que lo hace único es la **plataforma**: un tablado de trece metros de altura que sobresale
+      de la ladera, sostenido por un entramado de **pilares y vigas ensamblados sin un solo clavo**.
+      La estructura actual es de **1633**, del periodo Edo.
+
+      De aquella época viene también su historia negra. Existía la creencia de que **saltar desde la
+      plataforma y sobrevivir concedía un deseo**: hay registro de más de doscientos treinta saltos,
+      con una supervivencia sorprendentemente alta —la vegetación de abajo amortiguaba—. Se prohibió
+      en 1872. La expresión ***Kiyomizu no butai kara tobioriru***, «saltar desde la plataforma de
+      Kiyomizu», sigue usándose en japonés para decir que uno va a tomar una decisión arriesgada.
+
+      Abajo, los **tres canales de la cascada** conceden salud, longevidad y suerte en los estudios.
+      Se bebe de uno con el cazo largo. **Beber de los tres se considera codicia**, y da mala suerte.
+  - heading: Las cuestas, y cómo no odiarlas
+    body: |
+      De Kiyomizu-dera se baja por **Sannenzaka** y **Ninenzaka** —«la cuesta de los tres años» y «la
+      de los dos»—, dos calles empedradas de casas de madera, tiendas de cerámica y salones de té
+      que son distrito histórico protegido. Hay una superstición local encantadora: **tropezar en
+      ellas trae tres (o dos) años de mala suerte**, y por eso se venden amuletos en la propia
+      cuesta.
+
+      El problema es la masa. Entre las 10:00 y las 17:00 se anda en fila india. Las dos ventanas
+      que funcionan:
+
+      - **Antes de las 8:00.** Kiyomizu-dera abre a las **6:00** —de los pocos templos de Japón que
+        lo hacen— y a esa hora la ladera está vacía. Es, con diferencia, el mejor consejo de Kioto.
+      - **Después del cierre**, sobre las 18:30, cuando los faroles ya están encendidos y los
+        autobuses se han ido. La foto de esta ficha es de esa hora.
+  - heading: Gion, y qué es y qué no es una geisha
+    body: |
+      Al norte queda **Gion**, el barrio de casas de té que creció para dar servicio a los
+      peregrinos del santuario **Yasaka**. Sus calles de *machiya* con celosías de madera —sobre todo
+      **Hanamikōji** y el canal de **Shirakawa**— son de las estampas más fotografiadas de Japón.
+
+      Conviene aclarar el vocabulario, porque casi todo lo que se dice fuera de Japón está mal. En
+      Kioto no se dice *geisha* sino ***geiko***, «hija del arte», y las aprendices son ***maiko***.
+      Son **artistas profesionales** —danza, shamisen, canto, conversación— con años de formación, y
+      no trabajan de cara al público: van de un compromiso a otro. La mayoría de las «maiko» que se
+      ven de día en las cuestas son **turistas disfrazadas** en estudios de alquiler.
+
+      Y un aviso práctico: desde **2024 varias callejuelas privadas de Gion están cerradas al
+      turismo**, con multa, por el acoso fotográfico. Las calles principales siguen abiertas. La
+      norma simple: no se persigue, no se toca y no se fotografía a nadie de cerca sin permiso.
+  - heading: El resto de la ladera
+    body: |
+      Si sobra tiempo, la ladera sigue hacia el norte y se puede recorrer entera a pie:
+
+      - **Kōdai-ji** — el templo que la viuda de Hideyoshi levantó en su memoria, con un jardín seco
+        y **aperturas nocturnas** en otoño que son de las mejores de la ciudad.
+      - **Chion-in** — la puerta de madera más grande de Japón y una campana de setenta toneladas que
+        necesita diecisiete monjes para sonar en Nochevieja.
+      - **Camino del Filósofo** (*Tetsugaku no michi*) — dos kilómetros junto a un canal, entre
+        **Ginkaku-ji**, el pabellón de plata que nunca se cubrió de plata, y **Eikan-dō**, uno de los
+        templos favoritos de los propios kiotenses para el momiji.
+curiosidades:
+  - >-
+    La plataforma de Kiyomizu-dera está **ensamblada sin un solo clavo** y trece metros sobre la
+    ladera. En Edo se creía que saltar desde ella concedía un deseo: hay registradas más de
+    **doscientas treinta personas** que lo intentaron. Se prohibió en 1872 y la frase «saltar desde
+    la plataforma de Kiyomizu» sigue significando en japonés tomar una decisión arriesgada.
+  - >-
+    En la cascada Otowa hay tres canales —salud, longevidad y estudios— y se bebe de **uno**.
+    **Beber de los tres se considera codicia** y anula el favor.
+  - >-
+    En Kioto no se dice *geisha* sino ***geiko***, y las aprendices son *maiko*. Casi todas las que
+    se fotografían de día en las cuestas son **turistas disfrazadas**: las profesionales van de un
+    compromiso a otro y no posan.
+seenIn:
+  - ref: '#kioto'
+    label: "Kioto"
+  - ref: '#momiji'
+    label: "El momiji"
+  - ref: '#santuario-o-templo'
+    label: "Santuario o templo"

@@ -1,0 +1,88 @@
+slug: takayama
+navLabel: "Takayama"
+trip: japon
+part: japon
+order: 17
+zone: "El resto del país"
+emblem: casa
+kicker: Hida · la provincia que pagaba en carpinteros
+title: Takayama, el pueblo que pagó sus impuestos con las manos
+image:
+  src: img/fichas/takayama.webp
+  alt: "Fachada de una destilería de sake en Takayama, con la bola de ramas de cedro colgada bajo el alero."
+  credit: "Bernard Gagnon · CC BY-SA 3.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Brasserie_de_sak%C3%A9_Takayama.jpg"
+epithet: >-
+  Una ciudad de comerciantes en mitad de las montañas de Hida, con tres calles de casas de madera
+  negra que se salvaron de todo. Y detrás, la mejor historia fiscal de Japón: esta provincia era tan
+  pobre en arroz y tan rica en carpinteros que durante siglos **pagó sus tributos enviando
+  artesanos** a levantar los templos de la capital.
+sections:
+  - heading: Hida no Takumi, los artesanos de Hida
+    body: |
+      Hida es montaña, bosque y poco arroz. Y como el sistema imperial cobraba en arroz, esta
+      provincia no podía pagar. La solución, formalizada en el **siglo VIII**, fue única en el país:
+      en lugar de grano, Hida enviaba **hombres**. Cada año partían hacia Nara y luego hacia Kioto
+      cuadrillas de carpinteros —los ***Hida no Takumi***— que trabajaban en las obras imperiales
+      durante un año entero. Los templos de [Nara](#nara) y de [Kioto](#kioto) los levantaron, en
+      buena parte, manos de aquí.
+
+      Aquel oficio no se perdió. Se ve en los aleros de las casas del pueblo, en el ensamblaje de las
+      vigas sin un solo clavo y, sobre todo, en las **carrozas del festival**, que son de las piezas
+      de ebanistería más delirantes que se han hecho en Japón.
+  - heading: Sanmachi, y las bolas de cedro
+    body: |
+      El casco viejo, **Sanmachi Suji**, son tres calles paralelas de casas de comerciantes del
+      periodo Edo, de madera oscurecida por el tiempo, con celosías y canales de agua a los lados.
+      Es distrito histórico protegido y **está intacto**: Takayama no fue bombardeada.
+
+      Se sobrevive a él en una hora larga, pero el detalle que lo hace distinto está sobre las
+      puertas: en varias casas cuelga una **bola de ramas de cedro**, el ***sugidama***. No es
+      decoración. Es el aviso de que **la nueva sake del año acaba de terminar de fermentar**. Se
+      cuelga verde recién hecha y se deja envejecer: cuando la bola está marrón del todo, la sake ha
+      madurado y está lista. Es un semáforo botánico, y hay **seis destilerías** en tres calles,
+      todas con cata.
+
+      Del agua de deshielo y el aire frío sale eso: Takayama es una de las mejores zonas de sake del
+      país, junto con el **buey de Hida**, que es la carne de wagyū de esta prefectura —a la brasa en
+      los puestos de la calle, en brocheta o en croqueta, sin necesidad de un restaurante caro.
+  - heading: Lo que sí hay que reservar tiempo para ver
+    body: |
+      - **Takayama Jinya** — la joya escondida del pueblo, y casi nadie entra. Es **la única oficina
+        de gobierno del periodo Edo que queda en pie en todo Japón**: Hida se administraba
+        directamente desde el shogunato, y aquí están los despachos, los graneros de arroz del
+        tributo, la sala de audiencias y —sin ningún eufemismo— **la sala de interrogatorios con los
+        instrumentos de tortura** expuestos y explicados. Es la visita que mejor cuenta cómo se
+        gobernaba de verdad.
+      - **Los mercados de la mañana** — dos, el de **Miyagawa** junto al río y el de **Jinya-mae**,
+        de 6:00 o 7:00 a mediodía. Encurtidos, verdura de montaña, manzanas y *mitarashi dango*.
+      - **Takayama Matsuri Yatai Kaikan** — donde se guardan varias de las **carrozas del festival**,
+        de doce metros y cubiertas de laca, oro y tallas, con **autómatas de cuerda** (*karakuri*)
+        del siglo XVIII que todavía funcionan. Como el festival cae en abril y en octubre, esta es la
+        única manera de verlas.
+      - **Higashiyama Walking Course** — un recorrido señalizado por la ladera este que enlaza una
+        docena de templos y santuarios y las ruinas del castillo. Una hora y media, casi nadie.
+      - **Hida no Sato** — un pueblo-museo al aire libre con **treinta granjas de tejado de paja**
+        traídas de toda la región, incluidas varias *gasshō-zukuri* como las de
+        [Shirakawa-gō](#shirakawa-go). Buen plan si el tiempo no permite subir al valle.
+
+      Takayama pide **una noche**. Con el pueblo vacío al anochecer, después de que se vayan los
+      autobuses de día, es cuando mejor está.
+curiosidades:
+  - >-
+    Hida era demasiado pobre en arroz para pagar impuestos, así que **pagaba en carpinteros**:
+    durante siglos envió cuadrillas de artesanos a construir los templos de Nara y Kioto. El oficio
+    sigue vivo en las carrozas del festival.
+  - >-
+    La **bola de ramas de cedro** colgada sobre la puerta de las destilerías avisa de que la sake
+    nueva está hecha: se cuelga verde y **cuando se pone marrón, la sake ya ha madurado**.
+  - >-
+    El **Takayama Jinya** es **la única oficina de gobierno del periodo Edo que queda en pie en
+    Japón** — con sus graneros de arroz, su sala de audiencias y su sala de interrogatorios.
+seenIn:
+  - ref: '#el-resto-del-pais'
+    label: "Cómo encajarlo"
+  - ref: '#dia-8-bajada'
+    label: "Día 8 · el grupo sigue hacia aquí"
+  - ref: '#acto-4-edo'
+    label: "Acto 4 · Edo"

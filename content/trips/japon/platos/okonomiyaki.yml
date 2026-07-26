@@ -1,0 +1,60 @@
+slug: okonomiyaki
+trip: japon
+kind: plato
+order: 10
+title: Okonomiyaki
+image:
+  src: img/platos/okonomiyaki.webp
+  alt: "Okonomiyaki al estilo de Hiroshima sobre la plancha, con salsa oscura, alga en polvo y los fideos asomando por los lados."
+  credit: "Ajay Suresh · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Hiroshima-Style_Okonomiyaki_(40283556800).jpg"
+queEs: >-
+  Literalmente **«a la plancha, como te guste»**: *okonomi* es «lo que prefieras» y *yaki*, «asado».
+  Una masa de harina, huevo, caldo *dashi* y **muchísima col picada**, hecha sobre una plancha de
+  hierro y rematada con panceta, salsa espesa y dulce, mayonesa japonesa, alga en polvo (*aonori*)
+  y **virutas de bonito seco** que se mueven solas con el calor. No es una tortilla ni una pizza,
+  aunque se le llame las dos cosas: es una categoría propia.
+historia: >-
+  Su antepasado es un dulce de la Kioto del siglo XVI —una obleíta de masa untada con miso—, pero el
+  plato tal como se conoce es **de la posguerra**. Con las ciudades arrasadas y el arroz racionado,
+  la **harina de la ayuda estadounidense** era lo que había: se estiraba con col, que era barata y
+  abundante, y se hacía en la plancha de cualquier puesto. En Hiroshima, donde no quedaba
+  literalmente nada, se convirtió en la comida de la reconstrucción — y hoy la ciudad tiene más de
+  **ochocientos** locales que lo sirven, la mayor densidad del país.
+dondeMejor: >-
+  **Hay dos escuelas y no se parecen.** En **Osaka** se **mezcla todo en un bol** y se echa a la
+  plancha de una vez: sale redondo, gordo y esponjoso, y a menudo lo cocinas tú en la plancha de la
+  mesa. En **Hiroshima** se **monta en capas** sin mezclar nada —una crepe finísima, una montaña de
+  col que se aplasta al vapor, panceta, una capa de **fideos yakisoba** y un huevo a la plancha
+  debajo de todo—, y **lo hace siempre el cocinero**, que lo voltea entero con dos espátulas a
+  medio metro de tu cara. Es más alto, más jugoso y, para mucha gente, mejor.
+  En Osaka, los puestos de **Dōtonbori** y **Shinsekai**; en Hiroshima, **Okonomi-mura**, un edificio
+  con más de veinte planchas repartidas en varias plantas. En Tokio hay de las dos, sobre todo en
+  Tsukishima, donde además está su primo local, el ***monjayaki***, mucho más líquido y que se come
+  a lametones de espátula directamente de la plancha.
+picante: "—"
+veg: >-
+  **Fácil de pedir sin carne, difícil de hacer del todo vegetariano.** Basta con decir *«niku nashi»*
+  (sin carne) para que quiten la panceta, y muchos locales tienen versión de queso, *mochi* o
+  gamba. Lo que casi nunca se puede quitar son **el dashi de bonito de la masa** y **las virutas de
+  katsuobushi** de encima — para eso hay que pedir *«katsuobushi nashi»* y asumir que el caldo
+  lleva pescado. Vegano, prácticamente imposible fuera de sitios especializados.
+body: |
+  El ritual de la plancha tiene sus normas y son fáciles:
+
+  - Se come **directamente de la plancha**, con la **espátula pequeña** (*kote*) que te dan; el
+    plato, si lo hay, es para el que no quiera quemarse. Cortar un trozo, empujarlo al borde
+    templado, comer.
+  - **No se aplasta.** Presionar la masa con la espátula expulsa el vapor que hace que la col quede
+    tierna, y es lo que delata al novato. La única vez que se aplasta es al principio, y lo hace el
+    cocinero.
+  - Suele haber **botes de salsa y mayonesa en la mesa** para rematar a gusto. La salsa okonomiyaki
+    es más dulce y espesa que la de tonkatsu.
+
+  Y una recomendación de orden: si vais a hacer las dos versiones, **primero la de Osaka y después
+  la de Hiroshima**. Al revés, la de Osaka sabe a poco.
+seenIn:
+  - ref: '#osaka'
+    label: "Osaka"
+  - ref: '#hiroshima'
+    label: "Hiroshima"

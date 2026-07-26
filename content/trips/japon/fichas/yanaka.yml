@@ -1,0 +1,60 @@
+slug: yanaka
+navLabel: "Yanaka"
+trip: japon
+part: japon
+order: 5
+zone: "Tokio"
+emblem: casa
+kicker: Tokio · el barrio que no ardió
+title: Yanaka, lo que Tokio era
+epithet: >-
+  Tokio ha sido arrasado dos veces en un siglo y por eso casi no tiene casco antiguo. Yanaka es la
+  excepción: casas de madera, setenta templos, un cementerio precioso y gatos. Es el barrio donde se
+  ve lo que se perdió en el resto.
+sections:
+  - heading: Por qué hay setenta templos en un barrio
+    body: |
+      No es casualidad ni devoción: es **urbanismo de emergencia**. Tras el gran incendio de
+      **1657** —el Meireki, que se llevó por delante buena parte de Edo y la torre del castillo—, el
+      shogunato reorganizó la ciudad y **mandó trasladar decenas de templos a las afueras altas**,
+      lejos del centro de madera. Muchos acabaron aquí, en la loma de Yanaka, y aquí siguen.
+
+      La consecuencia inesperada llegó tres siglos después: al ser un barrio de templos y cementerios
+      en terreno elevado, **Yanaka esquivó tanto el terremoto de 1923 como los bombardeos de 1945**,
+      que arrasaron las llanuras de alrededor. Es de los poquísimos sitios de Tokio donde se puede
+      andar por una calle de casas bajas de madera anteriores a la guerra.
+  - heading: El cementerio, y quién está enterrado
+    body: |
+      El **cementerio de Yanaka** no es un sitio lúgubre: es un parque con tumbas, con una avenida
+      central de cerezos que en primavera se llena de gente comiendo. Entre sus siete mil tumbas está
+      la de **Tokugawa Yoshinobu**, el **decimoquinto y último shōgun** — el hombre que en 1867
+      devolvió el poder al emperador y cerró setecientos años de gobierno militar. Está enterrado, a
+      petición propia, **al estilo shintō** y no budista como todos sus antepasados: un último gesto
+      político desde la tumba.
+  - heading: La calle y los gatos
+    body: |
+      El centro social del barrio es la **Yanaka Ginza**, una calle peatonal en cuesta a la que se
+      baja por una escalera desde la que se ve el atardecer —la llaman «la escalera del sol
+      poniente»—. Abajo hay negocios familiares de toda la vida: *geta* de madera, cestería, té,
+      *senbei* tostados en el momento, y las croquetas por las que la gente hace cola.
+
+      Y los **gatos**, que son la marca del barrio: reales, callejeros, y también de madera, cerámica
+      y trapo en medio escaparate. Hay gatos falsos colocados en los tejados a lo largo de la calle;
+      buscarlos es el juego local.
+curiosidades:
+  - >-
+    Yanaka tiene setenta templos porque el shogunato **los mandó mudar aquí tras el gran incendio de
+    1657**, a terreno alto y lejos del centro. Tres siglos después, esa decisión le salvó la vida al
+    barrio: esquivó el terremoto de 1923 y las bombas de 1945.
+  - >-
+    En su cementerio está la tumba del **último shōgun, Tokugawa Yoshinobu**, el que devolvió el
+    poder al emperador en 1867. Pidió que lo enterraran **al modo shintō** y no budista, como toda su
+    dinastía.
+  - >-
+    A la Yanaka Ginza se baja por una escalera conocida como **«la escalera del sol poniente»**, y por
+    los tejados de la calle hay **gatos de madera escondidos**: encontrarlos es la costumbre local.
+seenIn:
+  - ref: '#dia-2-shitamachi'
+    label: "Día 2 · por la tarde"
+  - ref: '#acto-6-ceniza-y-milagro'
+    label: "Acto 6 · ceniza y milagro"

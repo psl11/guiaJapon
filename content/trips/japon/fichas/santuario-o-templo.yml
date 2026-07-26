@@ -1,0 +1,78 @@
+slug: santuario-o-templo
+navLabel: "¿Santuario o templo?"
+trip: japon
+part: japon
+order: 1
+zone: "Cómo mirar"
+emblem: incienso
+kicker: Japón · cómo mirar
+title: Santuario o templo — cómo distinguirlos
+epithet: >-
+  En Japón conviven dos religiones en el mismo paisaje y casi nadie las separa. Aprender a
+  distinguirlas de un vistazo cambia el viaje: dejáis de ver «sitios bonitos» y empezáis a ver dos
+  cosas distintas.
+sections:
+  - heading: La regla de la puerta
+    body: |
+      El atajo funciona el 95 % de las veces y está en la **entrada**.
+
+      - Un **torii** —dos pilares y dos travesaños, el de arriba sobresaliendo— significa
+        **santuario shintō** (*jinja*). Marca el paso del mundo profano al espacio del *kami*.
+      - Una **puerta con tejado y guardianes**, dos gigantes musculosos y furiosos a los lados
+        (los *Niō*), significa **templo budista** (*tera* o *-ji*). Y si hay una **pagoda**, no hay
+        duda: es budista.
+
+      El sufijo del nombre lo confirma: **-jingū, -jinja, -gū, -taisha** son santuarios; **-ji,
+      -dera, -in** son templos. Meiji **Jingū** es shintō; Sensō-**ji** es budista.
+  - heading: Qué se hace en cada uno
+    body: |
+      Y aquí está el gesto que os va a delatar o a salvar: **en el santuario se aplaude; en el
+      templo, nunca**.
+
+      En un **santuario**: se hace una inclinación al cruzar el torii, se camina **por los lados**
+      del sendero —el centro es del kami—, se lavan las manos y la boca en la fuente (*temizuya*)
+      con el cazo, y ante el altar es **dos inclinaciones, dos palmadas, una inclinación**. La
+      moneda se echa antes, y si hay una cuerda gorda, se agita para avisar.
+
+      En un **templo**: se echa la moneda, se juntan las manos en silencio y se inclina la cabeza.
+      **Sin palmadas.** Si hay un pebetero humeante a la entrada, la costumbre es abanicarse el humo
+      hacia la parte del cuerpo que uno quiera curar — la cabeza es la broma habitual.
+  - heading: Por qué están mezclados
+    body: |
+      Porque durante **mil trescientos años lo estuvieron por diseño**. El budismo llegó en el 538 y
+      no sustituyó al shintō: se repartieron el trabajo —el shintō lleva la vida, el budismo la
+      muerte— y se fundieron en lo que se llamó *shinbutsu-shūgō*, hasta el punto de que muchos
+      recintos tenían las dos cosas dentro.
+
+      Los separó un decreto: el ***shinbutsu bunri*** de **1868**, con el que el gobierno Meiji
+      obligó por ley a desenredarlos para convertir el shintō en religión de Estado. Muchos templos
+      perdieron entonces imágenes y edificios. Lo que hoy parece una convivencia natural es, en
+      parte, una reconstrucción posterior — y por eso todavía se encuentran santuarios pequeños
+      dentro de recintos budistas, como fósiles de aquella mezcla.
+  - heading: Lo que no hay que hacer
+    body: |
+      Nada de esto es solemne y a un extranjero se le perdona todo, pero cuesta poco: **no se pisa
+      el travesaño de madera** de los umbrales (se pasa por encima), no se camina por el centro
+      exacto del sendero de un santuario, no se fotografía a la gente rezando, y dentro de los
+      salones principales suele estar prohibido el flash o directamente la cámara — está señalizado.
+      Y el **omikuji**, el papelito de la suerte: si sale malo, se ata en el soporte de al lado para
+      dejarlo allí; si sale bueno, se lleva uno.
+curiosidades:
+  - >-
+    **En el santuario se aplaude y en el templo no.** Es el gesto que distingue las dos religiones
+    de Japón y el que delata al visitante en dos segundos: dos inclinaciones, dos palmadas y una
+    inclinación ante un kami; manos juntas y silencio ante un Buda.
+  - >-
+    El **torii** no es una puerta decorativa: marca el límite entre el mundo profano y el espacio del
+    kami. Por eso se hace una inclinación al cruzarlo — también al salir, dándose la vuelta.
+  - >-
+    La convivencia de kami y budas **fue prohibida por ley en 1868**. El decreto *shinbutsu bunri*
+    del gobierno Meiji obligó a separar lo que llevaba trece siglos mezclado, para hacer del shintō
+    una religión de Estado.
+seenIn:
+  - ref: '#sensoji'
+    label: Sensō-ji
+  - ref: '#meiji-jingu'
+    label: Meiji Jingū
+  - ref: '#acto-1-kami-y-corte'
+    label: "Acto 1 · los kami y la corte"

@@ -1,0 +1,65 @@
+slug: meiji-jingu
+navLabel: "Meiji Jingū"
+trip: japon
+part: japon
+order: 4
+zone: "Tokio"
+emblem: loto
+kicker: Tokio · el bosque inventado
+title: Meiji Jingū y su bosque de mentira
+epithet: >-
+  Setenta hectáreas de bosque en el centro de Tokio que parecen milenarias y tienen poco más de cien
+  años: cada árbol fue donado, transportado y plantado a mano por voluntarios en los años veinte. Es
+  el mayor proyecto de ingeniería forestal jamás disfrazado de naturaleza.
+sections:
+  - heading: Un santuario para un emperador
+    body: |
+      Cuando el emperador **Meiji** murió en 1912, se le hizo lo que en Japón se le hace a quien
+      sobrecoge: **convertirlo en kami**. El santuario, dedicado a él y a la emperatriz Shōken, se
+      terminó en **1920**, y como el resto de Tokio ardió en 1945 — el actual es una reconstrucción
+      de 1958.
+
+      Se entra bajo un **torii de ciprés de casi doce metros**, de los mayores del país, hecho con
+      troncos de más de mil quinientos años traídos de Taiwán. Del camino de grava en adelante, la
+      ciudad desaparece: es el único sitio del centro de Tokio donde no se oye tráfico.
+  - heading: El bosque que plantaron a mano
+    body: |
+      Y aquí está lo bueno, que casi nadie cuenta. Este terreno era **un descampado**. Para el
+      santuario se pidieron árboles a todo el país y llegaron **unos cien mil ejemplares de más de
+      trescientas especies**, donados por ciudadanos y empresas de todas las prefecturas y plantados
+      por **más de cien mil voluntarios**.
+
+      Pero no se plantaron de cualquier manera. Un equipo de forestales diseñó una sucesión ecológica
+      **a ciento cincuenta años vista**: qué especies dominarían al principio, cuáles las
+      sustituirían al morir aquellas, y cómo el bosque acabaría siendo un **bosque perenne autónomo
+      que no necesitara jardineros**. El plan se cumplió antes de lo previsto. Lo que parece un
+      bosque primario que la ciudad respetó es exactamente lo contrario: **un bosque diseñado para
+      parecer eso**, y la obra más ambiciosa de la mentalidad Meiji — mirar cien años adelante y
+      ejecutar.
+  - heading: Cuándo ir
+    body: |
+      El santuario **abre al amanecer y cierra al atardecer**: no tiene horario fijo, sigue al sol,
+      y en noviembre eso significa aproximadamente de **6:15 a 16:20**. La entrada es libre.
+
+      Ir con los primeros es tener el kilómetro de grava para vosotros. Y hay un premio de fin de
+      semana: **los domingos y los sábados** por la mañana es cuando se celebran las **bodas
+      shintō**, y con suerte se cruza uno con la procesión atravesando el patio — la novia de
+      *shiromuku* blanco bajo un parasol rojo, los sacerdotes delante, el fotógrafo detrás. No se
+      puede reservar: solo estar allí.
+curiosidades:
+  - >-
+    El bosque de Meiji Jingū **no es natural**: son unos cien mil árboles de más de trescientas
+    especies, donados desde todas las prefecturas y plantados a mano por voluntarios en los años
+    veinte sobre lo que era un descampado.
+  - >-
+    Sus diseñadores proyectaron una **sucesión ecológica a 150 años**, calculando qué especies
+    morirían y cuáles ocuparían su sitio, para acabar teniendo un bosque que **se mantuviera solo**.
+    Va adelantado sobre el plan.
+  - >-
+    El **torii de la entrada** se hizo con cipreses de más de mil quinientos años traídos de Taiwán,
+    y mide casi doce metros: es de los mayores de Japón.
+seenIn:
+  - ref: '#dia-3-yamanote'
+    label: "Día 3 · al abrir"
+  - ref: '#acto-5-meiji'
+    label: "Acto 5 · Meiji"

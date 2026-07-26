@@ -1,0 +1,72 @@
+slug: kamikochi
+navLabel: "Kamikōchi"
+trip: japon
+part: japon
+order: 8
+zone: "Los Alpes"
+emblem: montana
+kicker: Los Alpes · el valle cerrado
+title: Kamikōchi, el valle sin coches
+epithet: >-
+  Un valle glaciar a mil quinientos metros con las paredes del Hotaka encima y un río de agua de
+  deshielo por el medio. Los coches privados están prohibidos desde 1975, y del 16 de noviembre al
+  16 de abril no entra nadie: la carretera se cierra y el valle se queda solo.
+sections:
+  - heading: Lo que significa «sin coches»
+    body: |
+      Kamikōchi es el corazón del **Parque Nacional Chūbu-Sangaku** y desde **1975** está cerrado al
+      tráfico particular: se entra en autobús o en taxi desde Sawando o Hirayu, y punto. No hay
+      aparcamientos, no hay carretera de paso, no hay ruido de motor de fondo. Es lo que hace que un
+      sitio con hoteles, restaurantes y miles de visitantes al día siga sonando a río y a viento.
+
+      Y hay una segunda restricción, más radical: **la temporada**. El valle **abre a mediados de
+      abril y cierra el 15 de noviembre**; al día siguiente se corta la carretera y no se vuelve a
+      abrir hasta la primavera. Cinco meses al año Kamikōchi no existe para nadie.
+  - heading: El puente, el río y el estanque
+    body: |
+      El centro es el **Kappabashi**, un puente colgante de madera con la postal clásica: el río
+      **Azusa** corriendo transparente sobre grava clara y, detrás, la pared del **Hotaka**, con el
+      Okuhotaka en **3.190 metros** — el tercer pico más alto de Japón.
+
+      Río abajo, una hora larga de sendero llano, está el **estanque Taishō**, que no existía hace un
+      siglo: lo creó la **erupción del monte Yake en 1915**, cuyo derrumbe represó el Azusa y ahogó
+      un bosque entero. Por eso del agua siguen asomando **troncos muertos en pie**, pelados y
+      blancos, con las cumbres reflejadas detrás. Río arriba, otra hora, el **estanque Myōjin** y su
+      santuario, en una orilla de pago donde no hay casi nadie.
+
+      Todo el recorrido principal es **llano y sin dificultad**: es alta montaña sin ser montañismo.
+  - heading: Un misionero inglés y la palabra «Alpes»
+    body: |
+      A finales del XIX, un misionero británico llamado **Walter Weston** empezó a subir estas
+      montañas **por gusto** —no en peregrinación, que era la única razón japonesa para hacerlo— y
+      escribió un libro que popularizó la idea. De él viene que a esta cordillera se la llame «los
+      Alpes japoneses», y en buena medida que el montañismo exista aquí como afición. Hay un
+      **relieve conmemorativo** en el sendero, y cada primera semana de junio se celebra una
+      ceremonia en su honor.
+  - heading: En noviembre
+    body: |
+      Sin adornos: **el color ya ha pasado**. El oro de los alerces es de octubre; a mediados de
+      noviembre los árboles están pelados, amanece con **escarcha**, el día se mueve entre **5 y
+      10 °C** y de noche baja de cero. Puede nevar.
+
+      Lo que se gana: las **cumbres nevadas**, el aire más transparente del año, el agua en calma al
+      amanecer y **el valle casi vacío** en su última semana. Los alojamientos son estacionales y
+      cierran antes que la carretera —**el Shirakabaso, el 14 de noviembre**—, así que aquí no se
+      improvisa: se reserva con meses de antelación o no se duerme dentro.
+curiosidades:
+  - >-
+    **El valle cierra el 15 de noviembre y no vuelve a abrir hasta el 16 de abril.** Cinco meses al
+    año la carretera está cortada y Kamikōchi se queda solo con la nieve.
+  - >-
+    El **estanque Taishō** tiene poco más de un siglo: lo creó la **erupción del monte Yake en 1915**,
+    que represó el río y ahogó un bosque. Los troncos muertos que asoman del agua son aquellos
+    árboles.
+  - >-
+    A esta cordillera se la llama **«los Alpes japoneses»** por un misionero británico, **Walter
+    Weston**, que a finales del XIX empezó a subirlas por deporte y no por peregrinación. Tiene un
+    relieve en el sendero.
+seenIn:
+  - ref: '#dia-7-kamikochi'
+    label: "Día 7 · Kamikōchi"
+  - ref: '#dia-8-bajada'
+    label: "Día 8 · el amanecer"

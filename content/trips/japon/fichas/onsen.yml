@@ -1,0 +1,68 @@
+slug: onsen
+navLabel: "El baño"
+trip: japon
+part: japon
+order: 2
+zone: "Cómo mirar"
+emblem: cuenco
+kicker: Japón · cómo mirar
+title: El onsen, sin miedo
+epithet: >-
+  Meterse desnudo en agua hirviendo con desconocidos es la barrera que más gente se salta en Japón, y
+  es un error: el baño no es un extra del viaje, es una de las cosas que hay que hacer. El protocolo
+  se aprende en dos minutos.
+sections:
+  - heading: Onsen, sentō y rotenburo
+    body: |
+      Un ***onsen*** es un baño de **agua termal** de origen volcánico —Japón tiene más de veinte mil
+      fuentes— y por ley debe contener ciertos minerales a cierta temperatura. Un ***sentō*** es un
+      baño público de agua calentada, de barrio, sin pretensiones geológicas. Y un ***rotenburo*** es
+      la variante que justifica el viaje: **el baño al aire libre**, normalmente de piedra, mirando a
+      un bosque, un río o la nieve.
+
+      En un valle de montaña en noviembre, con cinco grados fuera y el vapor subiendo, el rotenburo
+      no es un capricho de hotel: es exactamente para lo que se inventó.
+  - heading: El protocolo, en orden
+    body: |
+      Es más simple de lo que parece y solo tiene una regla de verdad: **el agua de la bañera no se
+      ensucia jamás**. Todo lo demás se deduce de ahí.
+
+      1. **Zapatos fuera** antes de entrar, en las taquillas de la puerta.
+      2. Vestuarios **separados por sexo**: cortina **azul o índigo para hombres** (男), **roja para
+         mujeres** (女). Cambian de lado según el día en algunos sitios — mirad el carácter, no el color.
+      3. La ropa, entera, en el cesto. Se entra **desnudo**: nada de bañador, nada de toalla dentro
+         del agua. Solo se lleva la **toalla pequeña**, que sirve para taparse al caminar y que se
+         deja **doblada sobre la cabeza** o en el borde, nunca dentro.
+      4. **Lavarse sentado** en los taburetes, con ducha de mano, antes de entrar. A conciencia:
+         jabón, aclarado completo. Esto no es negociable.
+      5. Al agua **despacio** y sin salpicar. Suele estar a 40-43 °C, más caliente de lo que espera
+         un europeo. Nada de nadar, nada de meter la cabeza.
+      6. Al salir, secarse por encima antes de volver al vestuario.
+  - heading: Tatuajes, y otras dudas razonables
+    body: |
+      El punto que más incomoda a los occidentales: **muchos onsen prohíben los tatuajes**, por su
+      asociación histórica con la *yakuza*. La norma se está relajando —cada vez más sitios los
+      admiten, y otros piden que se cubran con un parche— pero **no se puede dar por hecho**: si
+      alguien del grupo lleva tatuajes visibles, hay que preguntar antes o buscar un alojamiento con
+      **baño privado** (*kashikiri*), que muchos ryokan reservan por horas.
+
+      Y el pudor: sí, todo el mundo va desnudo y **a nadie le importa lo más mínimo**. El baño es un
+      sitio donde no se mira. Los primeros treinta segundos son raros y luego se acabó.
+curiosidades:
+  - >-
+    La regla que explica todas las demás: **la bañera es para estar limpio, no para limpiarse**. Uno
+    se lava entero, sentado y con jabón, ANTES de entrar — el agua se comparte y no se cambia entre
+    bañistas.
+  - >-
+    La **toalla pequeña** no entra en el agua nunca. Se lleva para taparse al andar y acaba
+    **doblada encima de la cabeza**, que es la estampa clásica del bañista japonés y también la
+    forma práctica de no dejarla en el suelo.
+  - >-
+    Ojo con las cortinas del vestuario: **azul o índigo para hombres (男), roja para mujeres (女)** —
+    pero en muchos sitios los intercambian de un día para otro, para que ambos sexos disfruten de los
+    dos baños. Fiaos del carácter, no del color.
+seenIn:
+  - ref: '#dia-6-matsumoto'
+    label: "Día 6 · Matsumoto"
+  - ref: '#dia-8-bajada'
+    label: "Día 8 · Hirayu Onsen"

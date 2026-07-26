@@ -77,5 +77,23 @@ function inlineTitle(md: string): string {
         </div>
       </section>
     </div>
+
+    <!--
+      ALTERNATIVAS. Va FUERA del arco de bloques a propósito: no es un momento del día, es una carta
+      que se juega o no. El plan principal son los clásicos, escritos para los tres que vienen por
+      primera vez; esto es el desvío para el que ya los ha visto cuatro veces. Por eso se pinta en
+      índigo (el color de lo consultivo) y no en momiji: no compite con la espina del día.
+    -->
+    <aside
+      v-if="dia.alt"
+      class="dia-alt"
+    >
+      <div class="dia-alt-label">
+        {{ dia.alt.label ?? 'Si te desmarcas' }}
+      </div>
+      <div class="dia-alt-body">
+        <MDC :value="dia.alt.body" />
+      </div>
+    </aside>
   </article>
 </template>

@@ -1,0 +1,94 @@
+slug: dia-2-shitamachi
+navLabel: "Día 2 · Shitamachi"
+trip: japon
+order: 2
+eyebrow: El plan · Día 2 · sáb 7 nov
+title: El Tokio *de abajo*, con el jet lag a favor
+dek: >-
+  La primera mañana es la mejor del viaje y casi nadie la aprovecha. Vais a estar despiertos a las
+  cinco sin quererlo: en vez de pelearse con eso, se usa. Sensō-ji vacío al amanecer, el barrio de
+  los oficios cuando abre la persiana, y una tarde en el Tokio que sobrevivió a las bombas.
+blocks:
+  - block: Amanecer
+    time: "06:00"
+    title: Sensō-ji antes de que exista nadie
+    body: >-
+      El templo más visitado de Japón recibe treinta millones de personas al año, y a las seis de la
+      mañana no hay ninguna. El **recinto de Sensō-ji está abierto de noche y de día** —solo el salón
+      principal cierra, y abre a las 6:00—, así que se puede cruzar la puerta **Kaminarimon** con su
+      farol gigante, recorrer los doscientos metros de la **Nakamise** con todas las persianas bajadas
+      y plantarse ante el templo con la ciudad en silencio. Es la misma foto que hacen todos, tomada en
+      el único momento en que se puede tomar.
+    window:
+      label: Ventana óptima
+      body: >-
+        Aquí es donde el desfase horario cambia de bando. Vuestro cuerpo cree que son las diez de la
+        noche del día anterior y os va a despertar a las cinco hagáis lo que hagáis; **el sol sale
+        sobre las 6:10** y a las nueve esto es una romería. Es literalmente la única mañana del viaje
+        en que madrugar no cuesta nada — la segunda ya cuesta, y la tercera duele.
+  - block: Mañana
+    time: "08:00–11:00"
+    title: Asakusa despierta y la calle de los cuchillos
+    body: >-
+      Vuelta al mismo sitio dos horas después para verlo convertirse en otra cosa: las persianas de la
+      Nakamise suben, aparecen los puestos de **ningyō-yaki** —los bizcochitos rellenos de judía dulce
+      que se hacen en molde a la vista— y el templo se llena de gente rezando de camino al trabajo. A
+      diez minutos andando está **Kappabashi**, la calle donde se abastecen los restaurantes de la
+      ciudad: cuchillos forjados, moldes, vajilla, y los escaparates de **comida de plástico** que son
+      un oficio japonés en sí mismo. Es la mejor calle de Tokio para comprar algo que no sea un imán.
+    window:
+      label: Por qué las dos visitas
+      body: >-
+        Parece redundante volver a Asakusa y no lo es: son **dos sitios distintos** con el mismo
+        nombre. A las seis es un templo; a las nueve es un mercado con un templo dentro. Ver los dos
+        seguidos, con dos horas de diferencia, enseña más de cómo funciona esta ciudad que cualquier
+        museo.
+  - block: Mediodía
+    time: "11:30–15:00"
+    title: Ueno, y el museo que explica el país
+    body: >-
+      En metro hasta **Ueno**, donde está el parque grande de la ciudad y, dentro, el **Museo Nacional
+      de Tokio**: el más antiguo y el más completo de Japón, con la mejor colección de armaduras,
+      espadas, biombos y cerámica que se puede ver en ningún sitio. No hace falta hacerlo entero —dos
+      horas en el edificio principal, el **Honkan**, bastan y sobran—. A la salida, **Ameyoko**: el
+      mercado callejero que nació de un mercado negro de posguerra bajo las vías del tren y que sigue
+      gritando los precios.
+    window:
+      label: Por qué hoy y no el lunes
+      body: >-
+        Porque **el lunes cierra**, como casi todos los museos de Japón. De vuestros tres días de
+        Tokio, dos son fin de semana y uno es lunes; todo lo que tenga taquilla y horario tiene que
+        caer hoy o mañana. El lunes ya tiene su propio plan, hecho justamente de lo que no cierra.
+  - block: Tarde
+    time: "15:00–17:00"
+    title: Yanaka, el barrio que no ardió
+    body: >-
+      Tokio ha sido arrasado dos veces en un siglo —el terremoto de 1923 y los bombardeos de 1945— y
+      por eso es una ciudad casi sin casco antiguo. **Yanaka es la excepción**: un barrio de casas
+      bajas, templos, gatos y un cementerio precioso que se libró de las dos. Se recorre sin plan por
+      la **Yanaka Ginza**, una calle comercial de escalones y croquetas, y es el mejor sitio de la
+      ciudad para entender qué se perdió en el resto.
+    window:
+      label: Ventana óptima
+      body: >-
+        **En noviembre el sol se pone a las 16:40.** Es lo primero que hay que interiorizar de este
+        viaje: la luz se va cuando en España aún sería media tarde. Yanaka a las cuatro, con el sol
+        bajo entre las casas bajas y las tiendas encendiéndose, es exactamente el momento — a las cinco
+        ya es de noche.
+  - block: Noche
+    time: "noche"
+    title: La primera cena de verdad
+    body: >-
+      Vuelta al oeste y cena en **Shinjuku**, que es donde dormís. Aquí no hace falta reservar ni
+      acertar: la densidad de cocina buena y barata en las calles de detrás de la estación es tal que
+      lo difícil es equivocarse. Y a la cama pronto otra vez — mañana también amanece temprano.
+alt:
+  label: Si te desmarcas
+  body: >-
+    El Museo Nacional ya lo has hecho. Dos cambios con más recorrido: en vez del Honkan, el
+    **Museo Nacional de Ciencias** de al lado tiene el esqueleto de Hachikō y una sala de historia
+    natural japonesa que nadie visita; o cruzar el río a **Ryōgoku**, el barrio del sumo, donde el
+    **Museo Edo-Tokyo** cuenta la ciudad de madera que se quemó (comprueba si ya reabrió de su
+    reforma) y las *heya*, los establos de luchadores, entrenan a puerta entreabierta a primera hora.
+    Y si prefieres agua: **Kiyosumi Teien**, un jardín de paseo con piedras traídas de todo el país,
+    a quince minutos y con la mitad de gente que cualquier cosa de esta lista.

@@ -515,6 +515,28 @@ a.chip:focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; }
 .dia-wbody strong { color: var(--ink); font-weight: 600; }
 .dia-wbody em { font-style: italic; }
 
+/* ALTERNATIVAS del día ("si te desmarcas") — NUEVO en la guía de Japón.
+   Este viaje tiene dos lectores: tres primerizos, para los que el plan principal son los clásicos, y
+   un repetidor que ya los ha visto. Las alternativas van FUERA de la espina de bloques (no son un
+   momento del día, son una carta que se juega o no) y en ÍNDIGO, el color de lo consultivo: así no
+   compiten con el arco en momiji ni se confunden con el plan del grupo. */
+.dia-alt {
+  margin: 1.4rem 0 0; padding: .85rem 1rem;
+  background: color-mix(in srgb, var(--indigo) 7%, transparent);
+  border-left: 2px solid color-mix(in srgb, var(--indigo) 45%, transparent);
+  border-radius: 0 8px 8px 0;
+}
+.dia-alt-label {
+  font-family: 'JetBrains Mono', monospace; font-size: .6rem; font-weight: 500;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--indigo);
+  display: flex; align-items: center; gap: .4rem; margin-bottom: .35rem;
+}
+.dia-alt-label::before { content: "↳"; font-size: .82rem; }
+.dia-alt-body p { margin: 0; color: var(--ink-soft); font-size: .95rem; line-height: 1.55; }
+.dia-alt-body p + p { margin-top: .45rem; }
+.dia-alt-body strong { color: var(--ink); font-weight: 600; }
+.dia-alt-body em { font-style: italic; }
+
 /* ═══ ARCHETIPO 5 · RECOMENDACIÓN (Parte I) — directorio práctico: hoteles + reservas ═══════════
    Tarjetas para MIRAR de un vistazo, agrupadas por kind. Chip de estado por color: reservado=índigo
    (hecho), pendiente=oro (atención), opcional=gris. Sin unwrap (cuerpo con <MDC> sin unwrap). */

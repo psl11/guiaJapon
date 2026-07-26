@@ -1,0 +1,77 @@
+slug: barrios-de-tokio
+navLabel: "Los barrios"
+trip: japon
+part: japon
+order: 4
+zone: "Cómo mirar"
+emblem: casa
+kicker: Tokio · el mapa mental
+title: Tokio no es una ciudad, son treinta
+epithet: >-
+  Tokio no tiene un centro: tiene una docena, cada uno alrededor de una estación gigante y con
+  carácter propio. Entender ese mapa mental es lo que separa «ir a Tokio» de saber dónde estás.
+sections:
+  - heading: La regla que lo ordena todo
+    body: |
+      Antes de los barrios, la división que los explica. La ciudad se parte en dos desde el Edo del
+      siglo XVII:
+
+      - La ***yamanote***, «la mano de la montaña»: las colinas del oeste, donde vivían los samuráis
+        y los daimyō. Hoy es el Tokio de los negocios, la moda y el dinero — Shinjuku, Shibuya,
+        Aoyama, Roppongi. La línea de tren circular se llama así por eso.
+      - El ***shitamachi***, «la ciudad de abajo»: la llanura del este, junto al río, donde se
+        apretaban comerciantes y artesanos. Hoy es el Tokio de los templos, los oficios y las casas
+        bajas — Asakusa, Ueno, Yanaka.
+
+      Vuestros días 2 y 3 son exactamente eso: **primero el shitamachi, luego la yamanote**. No es
+      una casualidad del itinerario, es la manera de leer la ciudad.
+  - heading: Los que caen en la ruta
+    body: |
+      - **Asakusa** — el shitamachi de manual: Sensō-ji, oficios, río. Casi todo se reconstruyó tras
+        los bombardeos, y aun así conserva el ambiente.
+      - **Ueno** — el parque de los museos y Ameyoko, el mercado que nació de la posguerra.
+      - **Yanaka** — el barrio que no ardió. Casas de madera, templos, gatos.
+      - **Harajuku** — moda callejera y subculturas, con Takeshita-dōri de epicentro. En domingo, otra
+        cosa.
+      - **Shibuya** — el cruce, y el sitio donde nacen y mueren las tendencias.
+      - **Shinjuku** — la estación más transitada del mundo, los rascacielos al oeste y los callejones
+        de posguerra al este. Vuestra base.
+      - **Ginza** — el lujo, los grandes almacenes y sus sótanos de comida.
+  - heading: Los desvíos, para quien quiera salirse
+    body: |
+      Si sobra una tarde o alguien quiere separarse del grupo, estos son los que valen la pena y por
+      qué. Todos están a menos de veinte minutos en tren de la ruta principal:
+
+      - **Daikanyama** — «la pequeña Brooklyn»: boutiques, arquitectura y la librería **Tsutaya**, uno
+        de los mejores sitios del mundo para perder dos horas.
+      - **Nakameguro** — el más *hipster*: cafés, pastelerías y anticuarios a la orilla del río
+        Meguro. Su fama es de primavera —**ochocientos cerezos en casi cuatro kilómetros de río**—,
+        así que en noviembre está tranquilo, que es cuando mejor se pasea.
+      - **Shimokitazawa** — segunda mano, discos y teatro pequeño. Donde va la gente de aquí.
+      - **Shin-Ōkubo** — el barrio coreano, considerado **el mayor fuera de Corea**. Otra cocina y
+        otro idioma a dos paradas de Shinjuku.
+      - **Roppongi** — pasó de zona de ocio nocturno turbio a **concentración de arte contemporáneo**:
+        el Mori Art Museum y el Centro Nacional de Arte. Un plan de museos que no está en Ueno.
+      - **Ikebukuro** — manga, anime y *visual kei*. Su estación es **la segunda más transitada de
+        Japón**, solo por detrás de Shinjuku.
+      - **Odaiba** — la isla artificial de la bahía, hoy centro comercial y de ocio. Su interés real
+        es de dónde viene (ver curiosidades).
+curiosidades:
+  - >-
+    **Odaiba nació como artillería.** Las islas se levantaron a toda prisa en **1853** —el año en que
+    los barcos negros del comodoro Perry aparecieron en la bahía— como **baterías de cañones** para
+    defender Edo de un ataque naval. *Daiba* significa exactamente eso: batería. Hoy es un centro
+    comercial con una noria.
+  - >-
+    La estación de **Ikebukuro** mueve más de un millón de viajeros al día y es **la segunda más
+    concurrida de Japón**. La primera es Shinjuku, donde dormís — y es la más transitada del mundo.
+  - >-
+    **Shin-Ōkubo** está considerado **el mayor barrio coreano fuera de Corea**: restaurantes,
+    cosmética, tiendas de *idols* y librerías en coreano, todo a dos paradas de Shinjuku.
+seenIn:
+  - ref: '#glosario'
+    label: Micro-glosario
+  - ref: '#yanaka'
+    label: Yanaka
+  - ref: '#shibuya'
+    label: Shibuya

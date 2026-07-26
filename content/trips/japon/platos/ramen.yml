@@ -3,6 +3,10 @@ trip: japon
 kind: plato
 order: 1
 title: Ramen
+image:
+  src: img/platos/ramen.webp
+  alt: "Un bol de ramen de caldo claro con huevo marinado a la mitad, alga nori y cebolleta."
+  credit: "Pablo Sánchez"
 queEs: >-
   Un caldo, unos fideos de trigo alcalino y unos pocos remates: cerdo *chāshū*, huevo marinado,
   brote de bambú, alga. Lo que cambia todo es **el caldo**, y por eso el ramen no es un plato sino

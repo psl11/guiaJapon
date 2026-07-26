@@ -3,6 +3,10 @@ trip: japon
 kind: bebida
 order: 9
 title: Sake (nihonshu)
+image:
+  src: img/platos/sake.webp
+  alt: "Muro de barriles de sake decorados (kazaridaru) apilados a la entrada de un santuario."
+  credit: "Pablo Sánchez"
 queEs: >-
   Arroz fermentado. Ni un licor ni un vino de arroz: técnicamente es **una cerveza** —el almidón se
   convierte en azúcar por un moho, el *kōji*, y luego en alcohol—, aunque no se parezca a ninguna.

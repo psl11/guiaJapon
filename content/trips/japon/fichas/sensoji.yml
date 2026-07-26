@@ -7,6 +7,10 @@ zone: "Tokio"
 emblem: templo
 kicker: Tokio · el templo más antiguo
 title: Sensō-ji y el barrio de Asakusa
+image:
+  src: img/fichas/sensoji.webp
+  alt: "El alero rojo del salón principal de Sensō-ji y su pagoda de cinco pisos recortados contra un cielo azul intenso."
+  credit: "Pablo Sánchez"
 epithet: >-
   El templo más antiguo de Tokio, fundado —dice la leyenda— por dos pescadores en el año 628, y hoy
   el más visitado de Japón. La gracia no está en el edificio, que es de hormigón: está en la hora a

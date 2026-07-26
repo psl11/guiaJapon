@@ -7,6 +7,10 @@ zone: "Cómo mirar"
 emblem: montana
 kicker: Japón · la estación
 title: El momiji, y por qué llegáis pronto
+image:
+  src: img/fichas/momiji.webp
+  alt: "Arces enrojecidos y pinos reflejados en el estanque de un jardín japonés en pleno otoño."
+  credit: "Pablo Sánchez"
 epithet: >-
   Japón sigue el avance del otoño como aquí se sigue el tiempo, con partes diarios y mapas. Vuestro
   viaje cae justo en la bisagra: en la montaña el color ya se ha ido, y en Tokio todavía no ha

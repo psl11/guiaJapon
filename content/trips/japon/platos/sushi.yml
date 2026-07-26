@@ -3,6 +3,10 @@ trip: japon
 kind: plato
 order: 2
 title: Sushi
+image:
+  src: img/platos/sushi.webp
+  alt: "Un donburi de sashimi con yema de huevo en el centro, cebolleta y un cuenco de sopa de miso al lado."
+  credit: "Pablo Sánchez"
 queEs: >-
   Pescado crudo sobre una pella de arroz avinagrado. Lo que en España se sirve como bandeja variada
   aquí es, en su versión seria, ***nigiri*** hecho pieza a pieza delante de uno y comido de

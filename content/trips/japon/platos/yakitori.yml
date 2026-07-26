@@ -3,6 +3,10 @@ trip: japon
 kind: plato
 order: 6
 title: Yakitori
+image:
+  src: img/platos/yakitori.webp
+  alt: "Callejón nocturno de Tokio con farolillos, faroles de calle y letreros luminosos verticales."
+  credit: "Pablo Sánchez"
 queEs: >-
   Brochetas de pollo a la brasa de carbón, pieza a pieza y por partes: muslo (*momo*), piel (*kawa*),
   cartílago, corazón, alita, y la albóndiga *tsukune*. Se pide ***tare*** (glaseado de soja dulce) o

@@ -1,0 +1,34 @@
+slug: maru-ginza
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 7
+title: Maru
+navLabel: "Maru (Ginza)"
+tipo: kaiseki moderna · cocina abierta y barra
+area: Edificio Ichigo Ginza 612, 2.ª planta · 6-12-15 Ginza
+cuando: "Comida del día 4, al subir de Tsukiji"
+precio: "Menú de mediodía desde ~¥1.100 · cena desde ~¥6.000"
+reserva: "Recomendable para cenar; al mediodía se suele entrar"
+colas: "Al mediodía, poco"
+veg: "Limitado — es casa de pescado; avisar al reservar y preguntan"
+badge: "Lonely Planet"
+quePedir: "El menú de mediodía, que va a base de pescado y cambia con la temporada."
+body: >-
+  La solución al problema clásico de Ginza: comer bien sin pagar precio de Ginza. **Maru** es
+  *kaiseki* —la alta cocina japonesa por pases— pero en versión joven: **cocina abierta**, barra
+  desde la que se ve trabajar al equipo, y platos que se salen del formalismo sin perder la técnica.
+
+
+  Y aquí está el truco que conviene interiorizar para todo el viaje: **en Japón el mismo restaurante
+  cuesta tres o cuatro veces menos al mediodía**. Los menús de almuerzo de casas serias son de las
+  mejores relaciones calidad-precio del planeta, y el de Maru se mueve alrededor de los diez euros.
+  La cena en el mismo sitio pasa de los cuarenta.
+
+
+  Está en un edificio de oficinas y hay que subir en ascensor, que es como está la mitad de la buena
+  cocina de esta ciudad: **mirar hacia arriba** en Ginza y en Shinjuku es donde aparecen los sitios.
+seenIn:
+  - ref: '#dia-4-tsukiji-ginza'
+    label: "Día 4 · al mediodía"

@@ -1,0 +1,34 @@
+slug: shinjuku-pit-inn
+trip: japon
+kind: jazz
+city: Tokio
+order: 2
+title: Shinjuku Pit Inn
+navLabel: "Pit Inn"
+tipo: club de jazz de verdad · sótano, desde 1965
+area: B1F Accord Shinjuku Building · 2-12-4 Shinjuku (Shinjuku-sanchōme)
+cuando: "Dos pases al día: el de tarde (~14:30) y el de noche (~20:00)"
+precio: "Tarde ~¥1.500 · noche ~¥3.000-4.000, con una consumición"
+reserva: "No hace falta salvo cabeza de cartel; se paga en la puerta"
+body: >-
+  Si el New York Bar es el jazz como escenografía, esto es el jazz como oficio. El **Pit Inn** lleva
+  desde los años sesenta en un sótano de Shinjuku y por su escenario ha salido buena parte de lo que
+  ha dado el jazz japonés — es, literalmente, el sitio donde muchos empezaron. No hay vistas, no hay
+  cóctel de autor y no hay dónde mirar que no sea el escenario. Es de las pocas salas de Tokio donde
+  la gente **escucha en silencio**.
+
+
+  Contexto que le da sabor: en la posguerra Shinjuku era el barrio de escritores, estudiantes y
+  radicales, y su vida pasaba justamente en los bares de jazz y las cafeterías. De aquel mundo sale
+  también **Murakami**, que antes de escribir **regentó un bar de jazz** en Kokubunji, al oeste de la
+  ciudad — el mismo oficio que le da a más de uno de sus personajes.
+
+
+  El **pase de tarde es la ganga**: cuesta la mitad, suele ser de músicos jóvenes y se sale a tiempo
+  de cenar. Programación en su web, que se actualiza cada mes.
+link:
+  url: "https://pit-inn.com/"
+  label: Programación del Pit Inn
+seenIn:
+  - ref: '#barrios-de-tokio'
+    label: "Shinjuku"

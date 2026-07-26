@@ -1,0 +1,37 @@
+slug: new-york-bar
+trip: japon
+kind: jazz
+city: Tokio
+order: 1
+title: New York Bar
+navLabel: "New York Bar"
+tipo: bar de hotel con jazz en directo · planta 52
+area: Park Hyatt Tokyo · Nishi-Shinjuku (a un paso de donde dormís)
+cuando: "Cualquier noche · el directo empieza sobre las 20:00"
+precio: "Cóctel ~¥2.000-2.500 · cover ~¥2.500, que se perdona si cenas allí"
+reserva: "Recomendable, sobre todo para mesa junto al ventanal"
+body: >-
+  Es **el bar de *Lost in Translation***. La barra donde Bill Murray mira el vacío, el ventanal con
+  Shinjuku desplegado cincuenta y dos plantas más abajo, el jazz en directo al fondo: está todo tal
+  cual, y sigue siendo un buen bar además de un decorado. La propia Rough Guide lo lista como el
+  sitio «para aspirantes a Bill Murray», que es una manera elegante de admitir por qué va todo el
+  mundo.
+
+
+  Dos avisos que ahorran disgustos. **Hay cargo de entrada por la música**, y **se perdona si cenas
+  allí**: si el grupo tiene una noche de gastar, esta es. Y hay **código de vestimenta** —nada de
+  chanclas ni pantalón corto—, que en un viaje de mochila conviene tener presente antes de salir del
+  hotel.
+
+
+  El truco de fotógrafo: la mesa buena es la de la esquina noreste, con la torre del Gobierno
+  Metropolitano a la izquierda. Y si el cielo está limpio —en noviembre lo está— se ve el **Fuji**
+  al atardecer desde el mismo ventanal, antes de que encienda la ciudad.
+link:
+  url: "https://www.hyatt.com/park-hyatt/tyoph-park-hyatt-tokyo"
+  label: Park Hyatt Tokyo
+seenIn:
+  - ref: '#dia-3-yamanote'
+    label: "Día 3 · por la noche"
+  - ref: '#barrios-de-tokio'
+    label: "Shinjuku"

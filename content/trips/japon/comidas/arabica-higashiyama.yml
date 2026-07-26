@@ -1,0 +1,29 @@
+slug: arabica-higashiyama
+trip: japon
+part: japon
+city: Kioto
+category: cafe
+order: 10
+title: "% Arabica Higashiyama"
+navLabel: "% Arabica"
+tipo: café de especialidad · tuesta grano propio
+area: 87-5 Hoshinocho, Higashiyama · en la cuesta, bajo la pagoda de Yasaka
+cuando: "Media mañana, bajando de Kiyomizu-dera"
+precio: "Latte ~¥500 (~3,5 €)"
+reserva: "No"
+colas: "Sí, siempre. Avanzan rápido"
+veg: "Leche vegetal disponible"
+quePedir: "Un *latte*. Es lo que hacen y lo hacen mejor que nadie."
+body: >-
+  El café que puso a Kioto en el mapa del café de especialidad, y probablemente el mejor *latte* de
+  Japón. El local es minúsculo, blanco y con un ventanal que enmarca **la pagoda de Yasaka** — de ahí
+  la cola, que a media mañana da la vuelta a la esquina y aun así avanza en diez minutos porque la
+  barra va como un reloj.
+
+
+  Tuestan grano propio y tienen finca en Hawái, lo que explica que sea uno de los pocos sitios donde
+  el café en Japón compite con el de cualquier capital europea. Si la cola de Higashiyama espanta,
+  la sucursal de **Fujii Daimaru**, en el centro, sirve exactamente lo mismo sin espera y sin vistas.
+seenIn:
+  - ref: '#higashiyama'
+    label: "Higashiyama"

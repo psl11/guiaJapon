@@ -1,0 +1,28 @@
+slug: k36-rooftop
+trip: japon
+part: japon
+city: Kioto
+category: cocteleria
+order: 13
+title: K36 The Bar & Rooftop
+navLabel: "K36"
+tipo: azotea y coctelería · en una escuela reconvertida
+area: The Hotel Seiryū, 4.ª planta · 2 Chome-204-2 Kiyomizu, Higashiyama
+cuando: "Al atardecer del día de Higashiyama"
+precio: "Cóctel ~¥2.000 (~14 €)"
+reserva: "Imprescindible si se quiere la puesta de sol"
+veg: "Solo se bebe"
+quePedir: "Un *highball* de whisky japonés, que aquí se hace en serio."
+body: >-
+  El edificio ya es la historia: una **escuela primaria de los años treinta** al pie de Kiyomizu-dera,
+  cerrada por falta de niños —el barrio se vació— y reconvertida en hotel conservando la escalera, los
+  pasillos y el gimnasio. La azotea mira por encima de los tejados de Higashiyama hacia la **pagoda de
+  Yasaka** y la ciudad entera.
+
+
+  Es el mejor sitio de Kioto para ver ponerse el sol, y por eso **hay que reservar con días**. Las
+  mesas del borde se agotan primero. Si no hay hueco, el **Bar KOHAKU**, a cinco minutos, es más
+  pequeño, sin vistas y con mejor coctelería.
+seenIn:
+  - ref: '#higashiyama'
+    label: "Higashiyama"

@@ -1,0 +1,34 @@
+slug: daikanyama-tsutaya
+trip: japon
+kind: libreria
+city: Tokio
+order: 5
+title: Daikanyama T-Site (Tsutaya)
+navLabel: "Tsutaya de Daikanyama"
+tipo: librería-café · tres pabellones entre jardines
+area: Daikanyama · una parada de Shibuya en la línea Tōyoko
+cuando: "Abre a las 7:00 y cierra a las 23:00, todos los días"
+precio: "Gratis · café en el Anjin, planta primera"
+reserva: "No"
+body: >-
+  La librería más bonita de Tokio y una de las mejores del mundo para no hacer nada. Tres pabellones
+  bajos unidos por pasarelas, con la fachada tejida en una celosía de **miles de piezas en forma de
+  T** entrelazadas —la marca de la casa convertida en estructura—, rodeados de árboles y en un barrio
+  donde no pasa nada. Es de **Klein Dytham** y sigue siendo, quince años después, el ejemplo que se
+  pone de qué puede ser una tienda.
+
+
+  Lo que la hace distinta no es el edificio sino la política: **se puede coger cualquier libro y
+  leerlo entero sentado**, sin comprarlo, y llevártelo al café. Arriba, en el **Anjin**, hay un salón
+  con butacas y **treinta mil revistas de arte y moda de los años sesenta y setenta** que se pueden
+  hojear con un whisky delante. Es la mejor tarde de lluvia de Tokio.
+
+
+  La sección de fotografía es serísima, y hay libros japoneses que no salen del país. Abre a **las
+  siete de la mañana**: si el jet lag vuelve a levantaros a las cinco, aquí hay dónde ir.
+link:
+  url: "https://store.tsite.jp/daikanyama/"
+  label: Daikanyama T-Site
+seenIn:
+  - ref: '#dia-3-yamanote'
+    label: "Día 3 · alternativa"

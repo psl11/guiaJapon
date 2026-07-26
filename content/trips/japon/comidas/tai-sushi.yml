@@ -1,0 +1,31 @@
+slug: tai-sushi
+trip: japon
+part: japon
+city: Kioto
+category: cena
+order: 12
+title: Tai Sushi
+navLabel: "Tai Sushi"
+tipo: barra de sushi de barrio · sin ceremonia
+area: 388 Komeyacho, Nakagyō · en el centro, al norte de Shijō
+cuando: "Cena en Kioto, cualquier noche"
+precio: "~¥3.000-5.000 por persona"
+reserva: "No se acepta; se hace cola"
+colas: "Sí, y es parte del trato"
+veg: "No apto"
+quePedir: "Lo que diga el itamae. Aquí no se pide de carta."
+body: >-
+  El sushi de referencia de Kioto según quien vive allí, y no es un sitio de guía: barra estrecha,
+  sin decoración y con cola en la puerta casi siempre. Kioto **no tiene mar** —está a una hora de la
+  costa— y por eso su tradición no es el sushi sino el pescado curado y prensado, el *saba-zushi*.
+  Que aun así haya una barra a este nivel dice bastante de la ciudad.
+
+
+  La regla es la de siempre en las barras buenas: **dejarse llevar**, no pedir de carta y no
+  preguntar el precio hasta el final. Se sale por bastante menos de lo que costaría lo equivalente en
+  Tokio.
+seenIn:
+  - ref: '#sushi'
+    label: El sushi
+  - ref: '#kioto'
+    label: "Kioto"

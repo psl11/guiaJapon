@@ -1,0 +1,29 @@
+slug: milk-hall
+trip: japon
+kind: jazz
+city: Kamakura
+order: 3
+title: Milk Hall
+navLabel: "Milk Hall"
+tipo: jazz kissa · cafetería-anticuario
+area: 2-3-8 Komachi · en los callejones al oeste de Komachi-dōri, Kamakura
+cuando: "Media tarde del día 5, al bajar de los templos"
+precio: "Café ~¥700 · algo de comer, ~¥1.500"
+reserva: "No"
+body: >-
+  Merece un desvío de tres minutos y es la mejor manera de cerrar el día de Kamakura. Es un
+  ***jazz kissa***: un género propio japonés —cafetería de penumbra donde se pone jazz en vinilo con
+  un equipo desproporcionado y se escucha— que nació en los años cincuenta, cuando los discos
+  importados eran carísimos y la gente pagaba un café por oír uno entero.
+
+
+  El Milk Hall lleva décadas siendo el más conocido de Kamakura y además es **tienda de
+  antigüedades**: se toma café rodeado de lámparas, relojes y trastos con precio. Está escondido en
+  los callejones detrás de Komachi-dōri, la calle de las croquetas — que es justo lo que hace que
+  funcione: se pasa de la marea de gente al silencio en veinte metros.
+link:
+  url: "https://www.milkhall.co.jp/"
+  label: Milk Hall
+seenIn:
+  - ref: '#dia-5-kamakura'
+    label: "Día 5 · al bajar"

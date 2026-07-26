@@ -1,0 +1,27 @@
+slug: kurasu-kyoto
+trip: japon
+part: japon
+city: Kioto
+category: cafe
+order: 11
+title: Kurasu Kyoto Stand
+navLabel: "Kurasu"
+tipo: barra de café minimalista · tostadores rotatorios
+area: 552 Higashiaburanokojicho, Shimogyō · dos minutos de la estación de Kioto
+cuando: "El café de la llegada, o el del último tren"
+precio: "~¥500-700"
+reserva: "No"
+colas: "Poca"
+veg: "Leche vegetal disponible"
+quePedir: "El filtrado del día. Preguntad de qué tostador es: cambia cada semana."
+body: >-
+  Pequeño, silencioso y a dos minutos de la estación, que es exactamente donde hace falta un café
+  decente. Trabajan **por rotación de tostadores** —japoneses y extranjeros—, así que el filtrado
+  cambia cada pocos días y se puede probar el mapa del café japonés sin moverse de un taburete.
+
+
+  Es el sitio para el primer café al bajar del tren, con la maleta todavía al lado, antes de decidir
+  nada. Y para el último, si el tren de vuelta sale tarde.
+seenIn:
+  - ref: '#kioto'
+    label: "Kioto"

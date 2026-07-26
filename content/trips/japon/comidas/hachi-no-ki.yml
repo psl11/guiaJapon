@@ -1,0 +1,41 @@
+slug: hachi-no-ki
+trip: japon
+part: japon
+city: Kamakura
+category: comida
+order: 9
+title: Hachi-no-ki
+navLabel: "Hachi-no-ki"
+tipo: shōjin ryōri · cocina de monasterio zen
+area: 350 Yamanouchi · junto a la puerta de Kenchō-ji, Kita-Kamakura
+cuando: "Comida del día 5, entre los templos zen y el Daibutsu"
+precio: "Menús desde ~¥3.500 · soba o udon sueltos, ~¥1.300"
+reserva: "Recomendable para los menús"
+colas: "Con reserva, ninguna"
+veg: "**Íntegramente vegetariano** — es cocina budista: sin carne, sin pescado y sin dashi de bonito"
+badge: "Rough Guide"
+quePedir: "El menú *shōjin*, si hay tiempo. Si no, el *soba* con verdura de temporada."
+body: >-
+  El ***shōjin ryōri*** es la cocina de los monasterios zen, y responde a un precepto muy concreto:
+  **no matar**. Nada de carne ni de pescado —tampoco el caldo de bonito que lleva casi todo lo demás
+  en este país—, ni ajo ni cebolla, que se consideran excitantes. Lo que queda es tofu de todas las
+  texturas imaginables, verdura de montaña, algas, sésamo y una obsesión por **usar el ingrediente
+  entero**, piel y tallo incluidos.
+
+
+  Comerlo aquí tiene sentido porque **Kamakura es donde el zen entró en Japón**: se come al lado de
+  Kenchō-ji, el monasterio más antiguo del país, la misma cocina que se sirve dentro. Los menús se
+  presentan en bandejas de laca con cinco o seis platillos, y salen caros — pero también hay
+  **soba y udon sueltos** a precio normal para quien solo quiera probar el sitio.
+
+
+  Es, además, la respuesta a una pregunta que va a salir en el viaje: dónde come bien alguien que no
+  come carne en un país donde el pescado está en el caldo de todo.
+link:
+  url: "https://www.hachinoki.co.jp/"
+  label: Hachi-no-ki
+seenIn:
+  - ref: '#dia-5-kamakura'
+    label: "Día 5 · al mediodía"
+  - ref: '#kamakura-zen'
+    label: "Los templos zen"

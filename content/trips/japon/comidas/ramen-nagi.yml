@@ -1,0 +1,39 @@
+slug: ramen-nagi
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 6
+title: Ramen Nagi
+navLabel: "Ramen Nagi"
+tipo: barra de ramen en un segundo piso · abierta 24 horas
+area: Golden Gai G2, 2.ª planta · 1-1-10 Kabukichō, Shinjuku
+cuando: "La noche del día 3, al salir de Golden Gai — o a cualquier hora, literalmente"
+precio: "Desde ¥820 (~6 €), difícil pasar de ¥1.200"
+reserva: "No se puede"
+colas: "Sí, y en la escalera. Van rápidas"
+veg: "No apto — el caldo es de sardina seca y cerdo"
+badge: "Lonely Planet"
+quePedir: "*Niboshi ramen*, el de la casa. Se puede ajustar todo: dureza del fideo, grasa, ajo, sal."
+body: >-
+  Escondido en una **segunda planta dentro del propio Golden Gai**, por una escalera que no invita a
+  nada, y abierto **las veinticuatro horas**. Su ramen es de ***niboshi***: caldo de **sardinas
+  secas**, que da un fondo salado, oscuro y ligeramente amargo, muy distinto del tonkotsu cremoso al
+  que están acostumbrados casi todos. La primera cucharada descoloca; la quinta engancha.
+
+
+  Encaja perfecto con el plan de la noche del día 3: los bares de Golden Gai son diminutos y **un
+  grupo de cuatro no cabe casi en ninguno**, así que la cena acaba siendo por turnos o de pie. Esto
+  resuelve el hambre a cualquier hora, cuesta seis euros y está en el mismo callejón.
+
+
+  Se pide en la **máquina de tickets** de la entrada y se rellena una hoja marcando la intensidad de
+  cada cosa. Si no se sabe qué poner, todo al medio.
+link:
+  url: "https://n-nagi.com/"
+  label: Ramen Nagi
+seenIn:
+  - ref: '#ramen'
+    label: El ramen
+  - ref: '#dia-3-yamanote'
+    label: "Día 3 · por la noche"

@@ -1,0 +1,33 @@
+slug: honen-manpuku
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 8
+title: Hōnen Manpuku
+navLabel: "Hōnen Manpuku"
+tipo: casa de comidas tradicional · producto de Nihonbashi
+area: 1-8-16 Nihonbashi-Muromachi · salida A1 de Mitsukoshimae
+cuando: "Día 4, al terminar el paseo del foso en Nihonbashi"
+precio: "Menú de mediodía ¥1.280-1.850 (~9-13 €)"
+reserva: "No al mediodía; sí para cenar"
+colas: "Sí a la hora punta de oficina"
+veg: "Escaso — la casa va de carne y guisos con dashi"
+badge: "Lonely Planet"
+quePedir: "El *sukiyaki* de ternera o cerdo, que es lo suyo. Al mediodía, en menú."
+body: >-
+  Japonés de manual y de barrio, en el sitio exacto donde termina el paseo del día 4. Sirve **guisos
+  tradicionales y *sukiyaki*** en raciones generosas —lo que aquí es casi una rareza— y compra el
+  género en las tiendas *gourmet* de **Nihonbashi**, que es el barrio de los comercios centenarios de
+  Tokio: la casa del té, la del alga, la de los cuchillos.
+
+
+  Su mejor momento es **el menú del mediodía**, con una relación calidad-precio que sorprende para la
+  zona. Y tiene un valor añadido de contexto: se come mirando el barrio que fue el **kilómetro cero**
+  de todas las carreteras de Japón, hoy aplastado por una autopista — que es exactamente la historia
+  que cuenta ese tramo del día.
+seenIn:
+  - ref: '#dia-4-tsukiji-ginza'
+    label: "Día 4 · Nihonbashi"
+  - ref: '#acto-4-edo'
+    label: "Acto 4 · el kilómetro cero"

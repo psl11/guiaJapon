@@ -1,0 +1,29 @@
+slug: sushi
+trip: japon
+kind: plato
+order: 2
+title: Sushi
+queEs: >-
+  Pescado crudo sobre una pella de arroz avinagrado. Lo que en España se sirve como bandeja variada
+  aquí es, en su versión seria, ***nigiri*** hecho pieza a pieza delante de uno y comido de
+  inmediato: el arroz debe estar **a temperatura corporal** y deshacerse al morder.
+historia: >-
+  Empezó como **comida rápida callejera del Edo del siglo XIX**: puestos que servían bocados de
+  pescado de la bahía sobre arroz, para comer de pie y con la mano. El refrigerador y el prestigio
+  llegaron después. Cuando os digan que el sushi es una tradición milenaria y ceremoniosa, pensad
+  en un puesto de perritos calientes con dos siglos de mejora continua.
+dondeMejor: >-
+  En un mostrador, sentado frente al *itamae*. En Tokio, las barras de **Toyosu** al amanecer y las
+  de Ginza a precio de joyería. El *kaitenzushi* (cinta) es otra cosa, más barata y perfectamente
+  digna.
+picante: "—"
+veg: >-
+  Hay *nigiri* de tortilla (*tamago*), pepino (*kappamaki*), *natto*, aguacate y berenjena. Suficiente
+  para salir del paso, aunque no sea el punto del sitio.
+body: >-
+  Con las manos está permitido y es lo tradicional. La soja se moja **por el lado del pescado**, nunca
+  el arroz —se deshace—, y el jengibre es para limpiar el paladar entre piezas, no para poner encima.
+  Si hay *omakase*, es dejar elegir al chef: casi siempre la mejor decisión.
+seenIn:
+  - ref: '#daiwa-sushi'
+    label: Daiwa Sushi (Toyosu)

@@ -1,0 +1,28 @@
+slug: afuri
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 2
+title: Afuri
+navLabel: "Afuri"
+tipo: ramen moderno, varias sedes
+area: Harajuku, Ebisu, Shinjuku y más
+cuando: "Cualquier día · encaja con el día 3"
+precio: "~¥1.200-1.500 (8-10 €)"
+reserva: "No"
+colas: "Sí, pero van rápidas"
+veg: "Tiene ramen vegano en carta — raro y de agradecer"
+quePedir: "*Yuzu shio ramen*: el caldo claro con cáscara de cítrico. Es su firma."
+body: >-
+  El ramen que convence a quien cree que el ramen le pesa. Frente al *tonkotsu* denso y graso, Afuri
+  hace un **caldo claro de sal con yuzu**, cítrico y ligero, con el pollo chamuscado al soplete por
+  encima. Se pide en la máquina de la entrada y se cena en quince minutos.
+
+
+  Dos razones para que esté aquí: hay sedes por medio Tokio —incluida **Harajuku**, en plena ruta del
+  día 3— y **tiene opción vegana de verdad**, cosa muy poco común en un mundo donde hasta el caldo
+  «vegetal» suele llevar bonito.
+seenIn:
+  - ref: '#ramen'
+    label: El ramen

@@ -1,0 +1,29 @@
+slug: ore-no-dashi
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 4
+title: Ore-no Dashi
+navLabel: "Ore-no Dashi"
+tipo: barra de pie, gourmet barato
+area: Ginza 7-6-6 · línea Ginza, salida A2
+cuando: "Encaja con la noche del día 4 (Ginza)"
+precio: "Platos de ¥380 a ¥1.480 (2,5-10 €)"
+reserva: "No"
+colas: "A veces, sobre todo a la salida del trabajo"
+veg: "Parcial: varias piezas de oden son vegetales, pero el caldo lleva dashi de pescado"
+quePedir: "Oden por piezas: *daikon*, huevo, *konnyaku*, bolsa de tofu. Y algo de la carta de vinos."
+body: >-
+  La idea de la cadena **Ore-no** es divertida y funciona: cocineros de nivel alto, **de pie y a
+  precios de barra**, y así se compensa el metro cuadrado de Ginza. Este local se especializa en
+  ***oden*** — el guiso de invierno de piezas cocidas en dashi que en noviembre es exactamente lo que
+  apetece a las nueve de la noche.
+
+
+  Encaja limpio con el **día 4**, que termina en esta zona: se cena de pie, por piezas, gastando lo
+  que se quiera, en el barrio más caro de la ciudad. Tiene además algunas mesas y una carta de vinos
+  sorprendentemente buena para un sitio así.
+seenIn:
+  - ref: '#oden'
+    label: El oden

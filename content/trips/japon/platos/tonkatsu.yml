@@ -1,0 +1,25 @@
+slug: tonkatsu
+trip: japon
+kind: plato
+order: 3
+title: Tonkatsu
+queEs: >-
+  Una chuleta de cerdo empanada en ***panko*** y frita, cortada en tiras y servida con col cruda
+  rallada, arroz, sopa de miso y una salsa oscura y agridulce. Se elige entre **rōsu** (lomo, con
+  grasa y más sabor) e **hire** (solomillo, magro).
+historia: >-
+  Es ***yōshoku***: cocina occidental adaptada en la era Meiji, cuando el gobierno animó a comer
+  carne después de doce siglos de prohibición budista. Nació hacia 1899 en Ginza como «chuleta a la
+  milanesa» y en dos generaciones se volvió tan japonés que ya nadie recuerda que vino de fuera.
+dondeMejor: >-
+  En una casa especializada, con barra y aceite limpio. El *panko* japonés —copos de miga, no pan
+  rallado fino— es lo que hace la costra hueca y crujiente que no se consigue en Europa.
+picante: "—"
+veg: "No apto. Existe la versión de croqueta de patata (*korokke*) y de verdura, pero es otro plato."
+body: >-
+  La col rallada **se rellena gratis** en casi todos los sitios, y se come entre bocados para cortar
+  la grasa. En la mesa suele haber un molinillo de sésamo: se muele, se echa la salsa encima y se
+  mezcla. Ese pequeño ritual es parte del asunto.
+seenIn:
+  - ref: '#tonki'
+    label: Tonki (Meguro)

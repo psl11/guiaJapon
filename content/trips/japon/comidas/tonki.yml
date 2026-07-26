@@ -1,0 +1,30 @@
+slug: tonki
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 3
+title: Tonki
+navLabel: "Tonki"
+tipo: casa especializada, desde 1939
+area: Shimo-Meguro · salida oeste de Meguro (línea Yamanote)
+cuando: "Cena · cierra los martes y el 3.er lunes de mes"
+precio: "~¥2.000 (12-18 €)"
+reserva: "No se acepta"
+colas: "Sí, y van rápidas"
+veg: "No apto"
+badge: "Lonely Planet"
+quePedir: "*Rōsu katsu teishoku* — lomo, con su grasa. El *hire* (solomillo) es magro y más soso."
+body: >-
+  Una de las mejores *tonkatsu* de Tokio, en una casa que lleva desde antes de la guerra haciendo una
+  sola cosa. Lo que hay que pedir son **los asientos de barra**, que son los codiciados: desde ahí se
+  ve la coreografía entera del equipo —empanar, freír, escurrir, cortar— ejecutada con una precisión
+  que ya es medio espectáculo.
+
+
+  Está en Meguro, fuera de cualquier ruta turística, y esa es parte de la gracia: se cena rodeado de
+  clientela del barrio. Desde la estación se baja por Meguro-dōri, se toma el primer callejón a la
+  izquierda y se buscan unas ***noren*** blancas sobre puertas correderas — no hay más señal.
+seenIn:
+  - ref: '#tonkatsu'
+    label: El tonkatsu

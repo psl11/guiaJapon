@@ -1,0 +1,28 @@
+slug: oden
+trip: japon
+kind: plato
+order: 5
+title: Oden
+queEs: >-
+  Un guiso de invierno: **caldo claro de dashi y soja** en el que se cuecen despacio rábano *daikon*,
+  huevo duro, *konnyaku*, bolsitas de tofu frito y pasteles de pescado. Se pide pieza a pieza,
+  señalando el perol.
+historia: >-
+  Nació como *dengaku*, tofu al miso a la brasa, y se convirtió en guiso en el Edo del XIX. Es el
+  plato de la calle fría por excelencia y **la razón por la que noviembre es buen mes para comer en
+  Japón**: aparece en los perolones de los *konbini* —sí, el 7-Eleven vende oden decente en
+  invierno— y en las barras de los izakaya.
+dondeMejor: >-
+  En un izakaya con perol a la vista, o en Ginza de pie. Cada región tiene su caldo: el de Tokio es
+  más oscuro y fuerte que el de Kansai.
+picante: "— (se acompaña de mostaza *karashi*, que sí pica)"
+veg: >-
+  El caldo lleva dashi de pescado, pero muchas de las piezas son vegetales (daikon, konnyaku, tofu).
+  Como plato es de los más fáciles de negociar.
+body: >-
+  Es el plato que mejor encaja con vuestras fechas: en noviembre ya hace el frío justo para que un
+  cuenco de caldo caliente a las nueve de la noche sea exactamente lo que apetece. Y es barato — se
+  come por piezas de un par de euros.
+seenIn:
+  - ref: '#ore-no-dashi'
+    label: Ore-no Dashi (Ginza)

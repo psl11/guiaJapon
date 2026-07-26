@@ -53,7 +53,7 @@ export const Img = z.object({
 export const ActoSchema = z.object({
   slug: z.string(), // 'acto-4-guerra-americana'
   trip: z.string(), // 'vietnam'
-  part: z.enum(['vietnam', 'camboya']), // a qué mitad del viaje pertenece
+  part: z.enum(['japon']), // el viaje es de un solo país; el eje geográfico lo lleva `zone`
   order: z.number(), // orden dentro de la parte
   numeral: z.string(), // '4' (árabe; NO romano, NO vietnamita — decisión del mockup)
   kicker: z.string(), // 'Historia de Vietnam · acto cuarto de cinco'
@@ -69,7 +69,7 @@ export const ActoSchema = z.object({
 export const FichaSchema = z.object({
   slug: z.string(), // 'como-leer-templo-jemer'
   trip: z.string(),
-  part: z.enum(['vietnam', 'camboya']),
+  part: z.enum(['japon']),
   order: z.number(),
   emblem: z.string().default('loto'), // clave del SVG del emblema (ver EMBLEMS en FichaCard)
   kicker: z.string(), // 'Camboya · cómo mirar'
@@ -165,7 +165,7 @@ export const RecoSchema = z.object({
 export const ComidaSchema = z.object({
   slug: z.string(),
   trip: z.string(),
-  part: z.enum(['vietnam', 'camboya']),
+  part: z.enum(['japon']),
   city: z.string(), // 'Hanoi' · 'Ninh Bình' · 'Hà Giang' · 'Siem Reap'
   category: z.enum(['desayuno', 'cafe', 'comida', 'cena', 'street-food', 'postre', 'cocteleria']),
   order: z.number(), // orden dentro de (part·city·category)

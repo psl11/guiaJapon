@@ -1,0 +1,63 @@
+slug: tsukiji
+navLabel: "Tsukiji"
+trip: japon
+part: japon
+order: 9
+zone: "Tokio"
+emblem: cuenco
+kicker: Tokio · el mercado que se quedó
+title: Tsukiji, el mercado exterior
+epithet: >-
+  El gran mercado mayorista se mudó a Toyosu en 2018 y mucha gente dio Tsukiji por muerto. Se
+  equivocaban: lo que se fue fue la subasta; lo que se quedó —cuatrocientos puestos de comer y de
+  comprar— es justo la parte a la que puede ir uno.
+sections:
+  - heading: Por qué existe, y por qué se mudó
+    body: |
+      El mercado de pescado de Tokio estaba en **Nihonbashi** desde el siglo XVII, hasta que el **gran
+      terremoto de 1923** lo destruyó. Se trasladó entonces a unos terrenos ganados al mar en la bahía
+      —*Tsukiji* significa literalmente «tierra construida»— y allí creció hasta ser el mayor mercado
+      de pescado del mundo, con sus subastas de atún de madrugada.
+
+      En **octubre de 2018** el mayorista se mudó otra vez, ahora a **Toyosu**, un edificio moderno y
+      cerrado donde las subastas se ven desde una pasarela acristalada. Pero el **mercado exterior**
+      —el *jōgai shijō*, las calles de tiendas que habían crecido alrededor para servir a los
+      profesionales— **no se movió**. Y ahí sigue: unos cuatrocientos puestos de pescaderos,
+      cuchilleros, alga, encurtidos, cerámica y barras donde se desayuna de pie.
+  - heading: Qué se come, de pie
+    body: |
+      Aquí no se viene a sentarse: se pica de puesto en puesto. Los clásicos: ***tamagoyaki*** en
+      pincho —la tortilla dulce en capas, caliente, por unos pocos cientos de yenes—, **ostras
+      abiertas al momento**, **atún a la brasa**, brochetas de vieira, *dashimaki*, y los cuchillos de
+      **acero forjado** que son la mejor compra posible del viaje si alguien cocina en casa.
+
+      La regla del mercado: **una vuelta entera antes de comprar nada**. Y llevar efectivo, aunque
+      cada vez más puestos aceptan tarjeta.
+  - heading: El día y la hora
+    body: |
+      Los dos datos que deciden la visita, y por los que este día cae donde cae:
+
+      - **Cierra los domingos** (y algunos miércoles, según el calendario del mercado central). De
+        vuestros tres días de Tokio, el lunes es el único que encaja.
+      - Dentro del día, **la franja es estrecha**: antes de las 9:00 la prioridad la tienen los
+        compradores profesionales y no es el momento del visitante; a partir de las **13:00** los
+        puestos empiezan a recoger y sobre las 15:00 no queda nada. **Entre las 9:00 y las 11:30** está
+        todo abierto y todavía se puede andar.
+
+      Y si alguien quiere la subasta de atún de verdad, esa es **Toyosu**, otro sitio y otro madrugón
+      — sobre las 5:30 y con registro previo para la sala acristalada.
+curiosidades:
+  - >-
+    **Tsukiji significa «tierra construida»**: son terrenos ganados al mar. El mercado acabó aquí
+    porque el **terremoto de 1923** destruyó el de Nihonbashi, donde estaba desde el siglo XVII.
+  - >-
+    Lo que se mudó a Toyosu en 2018 fue **el mayorista y sus subastas**, no el mercado exterior. Las
+    cuatrocientas tiendas y barras que interesan al visitante **siguen en Tsukiji**.
+  - >-
+    **Cierra los domingos.** Es el dato que reordena una visita a Tokio de fin de semana, y el motivo
+    de que aquí caiga en lunes — el día en que cierran los museos.
+seenIn:
+  - ref: '#dia-4-tsukiji-ginza'
+    label: "Día 4 · por la mañana"
+  - ref: '#acto-6-ceniza-y-milagro'
+    label: "Acto 6 · el terremoto de 1923"

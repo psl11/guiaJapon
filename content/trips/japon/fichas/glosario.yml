@@ -1,0 +1,66 @@
+slug: glosario
+navLabel: "Micro-glosario"
+trip: japon
+part: japon
+order: 3
+zone: "Cómo mirar"
+emblem: libro
+kicker: Japón · las palabras
+title: Micro-glosario para ocho días
+epithet: >-
+  Veinte palabras que se van a repetir en carteles, cartas y conversaciones. No hace falta hablar
+  japonés para el viaje, pero reconocer estas cambia lo que se entiende de lo que se está viendo.
+sections:
+  - heading: Religión y templos
+    body: |
+      - **torii** — la puerta de dos pilares: marca la entrada a un **santuario shintō**.
+      - **jinja / jingū / -gū / taisha** — santuario shintō. *Jingū* es de rango imperial.
+      - **-ji / -dera / -in** — templo **budista**. Sensō-**ji**, Kōtoku-**in**.
+      - **kami** — la divinidad shintō: no un dios con biografía, sino *lo que sobrecoge*.
+      - **omikuji** — el papelito de la fortuna. Si sale malo, se ata allí y se deja.
+      - **ema** — la tablilla de madera donde se escribe un deseo y se cuelga.
+      - **temizuya** — la fuente de la entrada: se lavan manos y boca antes de acercarse.
+  - heading: Comer y beber
+    body: |
+      - **izakaya** — taberna de picar y beber; el sitio donde se cena de verdad.
+      - **ekiben** — el *bentō* de estación, para comer en el tren. Institución nacional.
+      - **depachika** — la planta de alimentación en el sótano de unos grandes almacenes.
+      - **konbini** — la tienda 24 h (7-Eleven, Lawson, FamilyMart). Comida decente, cajeros que
+        aceptan tarjeta extranjera, y baños.
+      - **teishoku** — el menú del día: plato, arroz, sopa y encurtidos en una bandeja.
+      - **otōshi** — el aperitivo que traen sin pedirlo en un izakaya, y que **se cobra**: es el
+        cubierto japonés, no un error de la cuenta.
+      - **itadakimasu / gochisōsama** — lo que se dice antes y después de comer.
+  - heading: Moverse y dormir
+    body: |
+      - **eki** — estación. **-dōri** — avenida. **-guchi** — salida (*higashi-guchi*, salida este).
+      - **shinkansen** — el tren bala. **tokkyū** — limited express, como el Azusa.
+      - **IC card** — Suica o Pasmo: la tarjeta recargable con la que se paga metro, bus, taquillas y
+        konbini sin pensar. Lo primero que hay que sacar.
+      - **takkyūbin** — la mensajería de equipaje de un hotel a otro, barata y puntual.
+      - **ryokan** — posada tradicional con tatami y cena; **minshuku**, su versión familiar.
+      - **yukata** — el kimono ligero de algodón que dan en el ryokan para andar por el hotel.
+  - heading: Estaciones y paisaje
+    body: |
+      - **kōyō / momiji** — el color del otoño y el arce que lo produce. Todo el país sigue el
+        *kōyō zensen*, el «frente de la hoja roja», como aquí se sigue el tiempo.
+      - **ichō** — el ginkgo, que amarillea después de que los arces enrojezcan.
+      - **onsen** — baño termal; **sentō**, baño público de barrio; **rotenburo**, al aire libre.
+      - **shitamachi** — «la ciudad de abajo»: los barrios llanos y populares del viejo Edo, frente
+        a la *yamanote* de las colinas, donde vivían los señores.
+curiosidades:
+  - >-
+    En japonés hay dos Tokios superpuestos: la ***yamanote*** —«la mano de la montaña»— era la ciudad
+    alta de los samuráis, y el ***shitamachi*** —«la ciudad de abajo»— la llanura de comerciantes y
+    artesanos. La línea de tren circular se llama Yamanote por eso.
+  - >-
+    El ***otōshi*** que aparece en la mesa de un izakaya sin haberlo pedido **no es un regalo**: es el
+    cubierto, y viene en la cuenta. Rechazarlo se puede, pero queda raro.
+  - >-
+    Japón sigue el avance del otoño con partes meteorológicos: el ***kōyō zensen***, el frente de la
+    hoja roja, que baja de Hokkaidō a Kyūshū y de las cumbres a las ciudades a lo largo de dos meses.
+seenIn:
+  - ref: '#santuario-o-templo'
+    label: "¿Santuario o templo?"
+  - ref: '#onsen'
+    label: El baño

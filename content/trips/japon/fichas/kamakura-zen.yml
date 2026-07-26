@@ -1,0 +1,63 @@
+slug: kamakura-zen
+navLabel: "Los templos zen"
+trip: japon
+part: japon
+order: 11
+zone: "Kamakura"
+emblem: templo
+kicker: Kamakura · zen y samuráis
+title: Hachimangū y los templos zen
+epithet: >-
+  Kamakura tiene el santuario del clan que gobernó Japón y los dos monasterios zen más antiguos del
+  país, todos a un paseo. No son monumentos que se visitan: son sitios en activo donde alguien está
+  barriendo.
+sections:
+  - heading: Tsurugaoka Hachimangū, y el ginkgo del asesino
+    body: |
+      El santuario de los **Minamoto**, dedicado a **Hachiman**, el kami de la guerra y protector del
+      clan. Fue el centro político del Japón medieval y todavía se nota en el trazado: la avenida de
+      acceso, la **Wakamiya-ōji**, va **estrechándose a propósito** conforme se acerca —un truco de
+      perspectiva para que parezca más larga y el santuario, más lejano e importante.
+
+      Al pie de la gran escalinata había un **ginkgo enorme** con una historia negra: la tradición
+      dice que tras él se escondió **Kugyō** la noche de **1219** en que asesinó a su tío
+      **Sanetomo**, el tercer y último shōgun Minamoto — un crimen que liquidó la línea del clan en
+      su propio santuario. El árbol, de unos ochocientos años, **se desplomó en un temporal en marzo
+      de 2010**. Su tocón sigue allí, y del pie ha rebrotado un ginkgo joven que ya levanta varios
+      metros.
+  - heading: Engaku-ji, para los dos bandos
+    body: |
+      Fundado en **1282**, justo después de la segunda invasión mongola, y aquí está su detalle: se
+      levantó para honrar a los caídos **de los dos bandos**, japoneses y mongoles por igual. Esa idea
+      —que el enemigo muerto merece las mismas oraciones— es zen puro y sigue siendo lo más
+      sorprendente del sitio.
+
+      Se entra directamente desde la estación de Kita-Kamakura, subiendo unas escaleras entre árboles.
+      Guarda una **campana de 1301**, la mayor de Kamakura y Tesoro Nacional, y un salón con
+      **relicario** que es de los pocos edificios de arquitectura zen medieval que quedan en pie.
+  - heading: Kenchō-ji, el número uno
+    body: |
+      El **monasterio zen más antiguo de Japón** (1253) y el primero de los **Cinco Grandes de
+      Kamakura**, el escalafón oficial de los monasterios zen de la ciudad. Lo fundó un monje chino
+      traído a propósito, y se construyó copiando la disposición de los monasterios Song: los
+      edificios principales **alineados en un eje recto**, uno detrás de otro, que es la firma del zen
+      importado frente al trazado disperso de los templos japoneses anteriores.
+
+      Sigue siendo un centro de práctica —hay sesiones públicas de *zazen*— y desde el fondo del
+      recinto arranca el sendero de montaña que lleva, en una hora, hasta el Gran Buda.
+curiosidades:
+  - >-
+    La avenida que sube al Hachimangū **se estrecha a propósito**: es un truco de perspectiva para
+    que el santuario parezca más lejano y más grande de lo que es.
+  - >-
+    El **ginkgo de ochocientos años** al pie de la escalinata —tras el que, según la tradición, se
+    escondió el asesino del último shōgun Minamoto en 1219— **se cayó en un temporal en 2010**. Del
+    tocón ha rebrotado un árbol nuevo.
+  - >-
+    **Engaku-ji se fundó para honrar a los muertos de las invasiones mongolas de los dos bandos**,
+    japoneses y mongoles. Rezar por el enemigo caído es una idea zen que sigue descolocando.
+seenIn:
+  - ref: '#dia-5-kamakura'
+    label: "Día 5 · por la mañana"
+  - ref: '#acto-2-kamakura'
+    label: "Acto 2 · el gobierno de los guerreros"

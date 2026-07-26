@@ -1,0 +1,63 @@
+slug: shibuya
+navLabel: "Shibuya"
+trip: japon
+part: japon
+order: 8
+zone: "Tokio"
+emblem: casa
+kicker: Tokio · el cruce
+title: Shibuya, el cruce y el perro
+epithet: >-
+  El paso de peatones más transitado del planeta, y a diez metros la estatua de un perro que esperó
+  nueve años a un muerto. Las dos cosas cuentan lo mismo: aquí la multitud y la lealtad son
+  espectáculo público.
+sections:
+  - heading: El cruce
+    body: |
+      El **Shibuya Scramble** es un cruce en aspa donde el semáforo detiene todo el tráfico a la vez y
+      suelta a los peatones en todas las direcciones al mismo tiempo: en hora punta, cerca de **tres
+      mil personas por ciclo**, y nadie choca con nadie. Visto desde la calle es caos; visto desde
+      arriba se convierte en otra cosa — un sistema. Por eso la mejor manera de verlo no es cruzarlo
+      (que también) sino mirarlo desde una ventana.
+
+      Para eso hay tres opciones, de menos a más: el **Starbucks del Tsutaya**, con la vista clásica
+      y gratis si se consume; la pasarela acristalada de **Shibuya Scramble Square**; y la azotea
+      abierta de **Shibuya Sky**, a doscientos treinta metros, desde donde el cruce se ve diminuto y
+      la ciudad llega hasta el Fuji.
+  - heading: Hachikō
+    body: |
+      La historia que todo Japón conoce: **Hachikō**, un akita, acompañaba cada mañana a su dueño
+      —un profesor de la Universidad de Tokio— a esta estación y volvía por la tarde a recibirlo.
+      En **1925** el profesor murió de un derrame en la facultad y no volvió nunca. El perro siguió
+      viniendo a la misma hora, a la misma puerta, **durante nueve años**, hasta que murió en 1935.
+
+      Su estatua se levantó en **1934, con él todavía vivo** y presente en la inauguración. Aquella
+      se fundió durante la guerra para hacer munición; la actual es de **1948**, obra del hijo del
+      escultor original. Es el punto de encuentro por defecto de Tokio: si alguien dice «nos vemos en
+      Hachikō», es aquí — y hay cola para la foto.
+  - heading: Subir al atardecer
+    body: |
+      **Shibuya Sky** abrió en 2019 y es la mejor azotea de la ciudad porque es **abierta**: no hay
+      cristal entre la cámara y el aire. Tiene una franja de césped donde tumbarse y un borde con
+      hamacas.
+
+      Dos advertencias prácticas. Se **reserva online** y las franjas del atardecer se agotan con
+      días de antelación. Y el atardecer de noviembre es **a las 16:40**, así que la franja buena es
+      la de las 16:00: se entra con luz, se ve el Fuji recortado al oeste —el aire de invierno es el
+      más limpio del año y se ve muchos más días que en verano—, y se sale con la ciudad encendida.
+curiosidades:
+  - >-
+    La estatua de **Hachikō se inauguró en 1934 con el perro todavía vivo y presente en el acto**. Esa
+    se fundió para hacer munición durante la guerra; la que hay hoy es de 1948, del hijo del escultor.
+  - >-
+    En hora punta cruzan el **Scramble unas tres mil personas por cada cambio de semáforo**, y el
+    tráfico se detiene por completo en todas las direcciones a la vez.
+  - >-
+    **Shibuya Sky es una azotea abierta**, sin cristal: por eso funciona para fotografiar. En
+    noviembre el aire es el más transparente del año y el Fuji se ve desde aquí muchos más días que
+    en verano.
+seenIn:
+  - ref: '#dia-3-yamanote'
+    label: "Día 3 · por la tarde"
+  - ref: '#acto-6-ceniza-y-milagro'
+    label: "Acto 6 · ceniza y milagro"

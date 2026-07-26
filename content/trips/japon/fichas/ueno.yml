@@ -1,0 +1,60 @@
+slug: ueno
+navLabel: "Ueno"
+trip: japon
+part: japon
+order: 7
+zone: "Tokio"
+emblem: libro
+kicker: Tokio · el parque de los museos
+title: Ueno, el ángulo maldito
+epithet: >-
+  El gran parque de Tokio no nació como parque sino como escudo: un templo colocado a propósito en la
+  esquina nordeste del castillo de Edo, que es por donde la cosmología china dice que entran los
+  demonios.
+sections:
+  - heading: Un templo contra los demonios
+    body: |
+      En la geomancia que Japón heredó de China, el **nordeste es el *kimon***, la «puerta del
+      demonio»: la dirección por la que entra la desgracia. Cuando los Tokugawa levantaron su
+      castillo, el segundo shōgun, **Hidetada**, mandó fundar en esa esquina exacta el templo de
+      **Kan'ei-ji**, para blindarla. Llegó a ser un complejo enorme, templo funerario de la dinastía,
+      con más de treinta edificios.
+
+      De todo aquello queda muy poco, y por un motivo: en **1868**, durante la guerra que acabó con
+      el shogunato, los últimos leales al shōgun —el **Shōgitai**— se atrincheraron aquí y fueron
+      aniquilados en una tarde. El fuego se llevó el templo. Cinco años después, en **1873**, el
+      terreno arrasado se convirtió en **uno de los primeros parques públicos de Japón**.
+  - heading: Lo que hay dentro
+    body: |
+      El parque concentra la mayor densidad de museos del país. El principal es el **Museo Nacional
+      de Tokio**, el más antiguo y grande de Japón: espadas, armaduras, biombos, cerámica y estatuaria
+      budista en una colección que se puede recorrer en dos horas si uno se ciñe al edificio
+      principal, el **Honkan**. Al lado, el **Museo de Naturaleza y Ciencia** y el **Museo Nacional de
+      Arte Occidental**, este en un **edificio de Le Corbusier** que es Patrimonio Mundial.
+
+      Y en el extremo sur, el **estanque de Shinobazu**, cubierto de lotos gigantes que en noviembre
+      están secos y en pie — un campo de tallos marrones que tiene su propia belleza áspera. En su
+      isleta hay un santuario a **Benzaiten**, la única de los siete dioses de la fortuna que es mujer.
+  - heading: Ameyoko, el mercado negro
+    body: |
+      Pegado al parque, bajo las vías del tren, está **Ameyoko**: una calle de puestos que gritan los
+      precios, con pescado seco, especias, zapatillas y fruta. Nació literalmente como **mercado negro
+      de posguerra** —hay quien dice que el nombre viene de *ame*, caramelo, y quien lo atribuye a
+      *American*, por los productos del ejército de ocupación que se vendían aquí—. Es de los pocos
+      sitios de Tokio donde se regatea un poco y donde nadie habla en voz baja.
+curiosidades:
+  - >-
+    El parque de Ueno existe porque el **nordeste es la dirección maldita**: los Tokugawa plantaron
+    ahí el templo Kan'ei-ji para blindar la esquina por la que, según la geomancia china, entran los
+    demonios al castillo.
+  - >-
+    En 1868 los últimos partidarios del shōgun se atrincheraron aquí y ardió el templo entero. Cinco
+    años después el solar se convirtió en **uno de los primeros parques públicos del país** (1873).
+  - >-
+    El **Museo Nacional de Arte Occidental** ocupa un edificio de **Le Corbusier** y es Patrimonio
+    Mundial de la UNESCO — el único del arquitecto en Asia.
+seenIn:
+  - ref: '#dia-2-shitamachi'
+    label: "Día 2 · al mediodía"
+  - ref: '#acto-4-edo'
+    label: "Acto 4 · Edo"

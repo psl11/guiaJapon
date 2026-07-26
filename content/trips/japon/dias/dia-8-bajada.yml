@@ -1,0 +1,79 @@
+slug: dia-8-bajada
+navLabel: "Día 8 · La bajada"
+trip: japon
+order: 8
+eyebrow: El plan · Día 8 · vie 13 nov
+title: El amanecer helado, y *ocho husos* de vuelta
+dek: >-
+  El último día no es un día de aeropuerto: es el mejor amanecer del viaje y luego una tarde de
+  trenes. Aquí el grupo se parte —ellos siguen al oeste hacia Takayama, tú bajas al este— y el huso
+  horario devuelve lo que se llevó a la ida.
+blocks:
+  - block: Amanecer
+    time: "06:00–08:00"
+    title: El estanque Taishō con escarcha
+    body: >-
+      Amanece hacia las **6:15** y hace frío de verdad: bajo cero, con escarcha sobre la hierba y
+      probablemente **niebla levantándose del agua**. Ese es exactamente el motivo de madrugar. En el
+      **estanque Taishō**, a esa hora y sin viento, el agua se queda quieta y los troncos muertos y la
+      pared del **Hotaka nevada** se reflejan enteros. Es la fotografía por la que se sube a este
+      valle, y solo existe una hora al día — en un valle donde, además, esta semana no hay nadie.
+    window:
+      label: Ventana óptima
+      body: >-
+        Las tres condiciones se dan juntas justo ahora: **aire de noviembre** (el más transparente del
+        año), **agua en calma** (antes de que entre la brisa de media mañana) y **nieve reciente en las
+        cumbres**. En verano hay bruma y gente; en octubre, color pero multitudes. Ponte el despertador
+        y llévate guantes: a esa temperatura, operar la cámara con los dedos desnudos dura poco.
+  - block: Mañana
+    time: "09:00–11:00"
+    title: Donde el grupo se parte
+    body: >-
+      Se baja del valle en el mismo autobús por el que se subió. En **Hirayu Onsen**, nudo de
+      carreteras al otro lado del túnel, el grupo sigue hacia el **oeste** —Takayama, y de ahí
+      Shirakawa-gō, Kanazawa, Kioto y el resto de sus tres semanas— y tú vuelves al **este**, hacia
+      Matsumoto. Si cuadran los horarios, merece la pena bajar todos juntos hasta Hirayu y **darse el
+      baño de despedida** en sus aguas termales antes de separarse: es un final mucho mejor que un
+      adiós en una parada de autobús.
+    window:
+      label: Verificar antes
+      body: >-
+        El enlace **Hirayu → Matsumoto** existe, pero en noviembre los horarios se aligeran y no hay
+        margen para improvisar con un vuelo esperando. **Confirmadlo la noche anterior** en recepción,
+        y si el encaje es justo, la opción segura es no desviarse a Hirayu y bajar directo a
+        Matsumoto por donde se vino.
+  - block: Tarde
+    time: "12:00–17:00"
+    title: Matsumoto, el Azusa y Tokio
+    body: >-
+      De Matsumoto a **Shinjuku**, otras dos horas y media de Azusa, esta vez viendo el paisaje al
+      revés: de las montañas al valle y del valle a la ciudad, que es el resumen del viaje en una
+      ventanilla. Con margen de sobra para llegar al aeropuerto — la cadena entera desde Kamikōchi
+      ronda las **seis horas** contando esperas, y no hay que correr en ningún tramo.
+    window:
+      label: La aritmética del último día
+      body: >-
+        Aquí está el truco que salva el día. Los vuelos de Tokio a Barcelona salen sobre todo
+        **entre las 21:00 y medianoche**, y con una escala tardan unas veintiuna horas. Saliendo de
+        noche el día 13 y ganando las **ocho horas** del huso, **se aterriza en Barcelona hacia el
+        mediodía del 14** — que era la condición. Es decir: **no se pierde el día 13**. Se amanece en
+        un valle de los Alpes japoneses y se cena en un avión.
+  - block: Noche
+    time: "~22:00"
+    title: El vuelo
+    dim: true
+    body: >-
+      Ocho días, dos ciudades, un pueblo de montaña y un valle que cierra dos días después de que os
+      vayáis. Los otros tres siguen trece días más; a ti te espera Barcelona a mediodía. Y queda
+      pendiente lo que no cupo — que en Japón es siempre casi todo, y por eso se vuelve una quinta
+      vez.
+alt:
+  label: Si te desmarcas
+  body: >-
+    Si al final el vuelo sale de **Nagoya** en vez de Tokio, el día cambia de sentido y mejora: desde
+    Hirayu se sigue con el grupo hasta **Takayama**, se hace su casco antiguo de casas de madera y el
+    **mercado matinal de Miyagawa** con ellos, y de allí sale el limited express **Hida** hasta Nagoya
+    en unas dos horas y media —uno de los trayectos de tren más bonitos del país, siguiendo el
+    desfiladero del río Hida—. Ganas Takayama y un tren precioso; pierdes opciones de vuelo, porque
+    de Chubu Centrair a Europa solo hay un estacional de Finnair a Helsinki y todo lo demás va con
+    doble escala. La cuenta hay que hacerla con billetes reales delante.

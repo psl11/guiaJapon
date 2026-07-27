@@ -1,0 +1,38 @@
+slug: udon
+trip: japon
+kind: plato
+order: 13
+title: Udon
+queEs: >-
+  El fideo grueso y blanco de trigo, blando y elástico, servido en un caldo claro de *dashi* y soja
+  —mucho más suave que el del [ramen](#ramen)— o **frío con salsa aparte** para mojar. Es el fideo doméstico
+  de Japón: barato, reconfortante y sin nada de la teatralidad del ramen.
+historia: >-
+  Es el más antiguo de los tres grandes fideos japoneses: llegó de China con los monjes budistas
+  hacia el siglo IX, siglos antes que el ramen. Y tiene una geografía clara — **el oeste del país es
+  de udon y el este, de soba**. La frontera se nota hasta en el caldo: en Osaka es transparente y de
+  alga *kombu*; en Tokio, oscuro de soja.
+dondeMejor: >-
+  Cualquier barra de estación a las siete de la mañana. Las cadenas de *tachigui* —se come de pie,
+  en tres minutos, por menos de tres euros— son de lo mejor que tiene la comida rápida del mundo. El
+  udon de referencia es el de **Sanuki**, en Shikoku, más grueso y más elástico.
+picante: "Suave · hay *shichimi* en la mesa"
+veg: >-
+  El fideo sí lo es; el caldo casi nunca, porque lleva bonito. Pedir ***kake udon*** sin nada
+  ayuda, pero para vegetariano de verdad hay que buscar casa con caldo de *kombu*.
+body: |
+  Cuatro formas que conviene reconocer en la carta:
+
+  - ***Kake*** — el básico: fideo, caldo y cebolleta. La versión honesta.
+  - ***Kitsune*** — «zorro», con una lámina de **tofu frito dulce** encima. Se llama así porque el
+    tofu frito es la ofrenda que se le hace al zorro mensajero de Inari — ver
+    [Fushimi Inari](#fushimi-inari). Es una invención de [Osaka](#osaka).
+  - ***Tempura udon*** — con una gamba rebozada que se va empapando. Ver [tempura](#tempura).
+  - ***Zaru*** — frío, sobre rejilla de bambú, con salsa aparte. El de verano, igual que el
+    [soba](#soba).
+
+  El udon es además **el plato con el que se sale de una resaca** en este país, y el que se le da a
+  los niños y a los enfermos. Tiene ese lugar.
+seenIn:
+  - ref: '#soba'
+    label: El soba

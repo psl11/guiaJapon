@@ -1,0 +1,45 @@
+slug: konbini
+trip: japon
+kind: plato
+order: 15
+title: El konbini y el ekiben
+navLabel: "Konbini y ekiben"
+queEs: >-
+  Las dos formas japonesas de comer sin restaurante, y las dos son mucho mejores de lo que suenan.
+  El ***konbini*** es la tienda de veinticuatro horas —7-Eleven, Lawson, FamilyMart— donde de verdad
+  se come bien; el ***ekiben*** es la caja de comida que se compra en la estación **para comérsela
+  en el tren**, y es una institución nacional con más de cien años.
+historia: >-
+  El primer *ekiben* se vendió en **1885** en la estación de Utsunomiya: dos bolas de arroz con
+  encurtido, envueltas en hoja de bambú. Hoy hay **más de dos mil variedades** en todo el país, cada
+  estación con la suya, hechas con producto local y pensadas para comerse frías — de ahí que el
+  arroz vaya avinagrado o sazonado, para que aguante. Hay ediciones estacionales, cajas con forma de
+  tren y quien viaja coleccionándolas.
+dondeMejor: >-
+  El *ekiben*, en el andén o en el vestíbulo, nunca en el tren. Los mejores de Tokio están en el
+  **depachika** de los grandes almacenes de Ginza o en la propia estación de Tokio, que tiene una
+  galería entera dedicada — es la compra obligada antes del **Azusa a Matsumoto** del día 6.
+picante: "—"
+veg: >-
+  En el konbini hay bastante: *onigiri* de ciruela (*umeboshi*) o de alga, ensaladas, tofu, huevos
+  cocidos, fruta. Los *ekiben* vegetarianos existen pero hay que buscarlos.
+body: |
+  **Lo que hay que probar del konbini**, que no es una lista de emergencia sino de gusto:
+
+  - ***Onigiri*** — triángulo de arroz relleno, envuelto en un alga que se mantiene crujiente
+    gracias a un plástico de tres pasos numerados. Merece la pena aprender a abrirlo bien: la
+    primera vez lo destroza todo el mundo.
+  - **El huevo cocido marinado**, los *sandos* de huevo o de fresa con nata, el pollo frito de la
+    caja caliente del mostrador (*karaage*), el helado, y en invierno el ***oden*** que hierve en
+    una cubeta junto a la caja — ver [el oden](#oden).
+  - Y el **café**: se compra un vaso vacío, se mete en una máquina y sale un café de grano decente
+    por un euro.
+
+  El konbini además **resuelve la logística**: cajero que acepta tarjetas extranjeras, envío de
+  maletas por *takkyūbin*, pago de entradas, baño limpio y wifi. Es el equipamiento urbano más útil
+  del país.
+seenIn:
+  - ref: '#dia-6-matsumoto'
+    label: "Día 6 · el ekiben del Azusa"
+  - ref: '#dinero'
+    label: El cajero del konbini

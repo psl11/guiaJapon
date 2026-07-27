@@ -15,9 +15,9 @@ colas: "Sí, de 40 min a más de una hora"
 veg: "No apto"
 quePedir: "El *omakase* del día y punto: diez o doce piezas que salen sin que haya que decidir nada."
 body: >-
-  La barra clásica del desayuno de sushi, y **el aviso que importa: ya no está en Tsukiji**. Cuando
+  La barra clásica del desayuno de [sushi](#sushi), y **el aviso que importa: ya no está en Tsukiji**. Cuando
   la lonja mayorista se mudó a **Toyosu en 2018**, Daiwa Sushi y su eterno rival Sushi Dai se
-  mudaron con ella. Quien vaya al mercado exterior de Tsukiji buscándolas se lleva el chasco.
+  mudaron con ella. Quien vaya al mercado exterior de [Tsukiji](#tsukiji) buscándolas se lleva el chasco.
 
 
   Aquí se desayuna pescado que ha pasado por la subasta esa misma madrugada, sentado en una barra de
@@ -26,7 +26,7 @@ body: >-
   mañana.
 
 
-  Encaje honesto con vuestro plan: **esto es otro madrugón y otro sitio**. Toyosu no cae de camino a
+  Encaje honesto con vuestro plan: **esto es otro madrugón y otro sitio**. [Toyosu](https://www.google.com/maps/search/?api=1&query=Toyosu%20Market%20Tokyo) no cae de camino a
   nada, y vuestro día de mercado es Tsukiji. Va aquí como la alternativa del que se desmarca.
 seenIn:
   - ref: '#sushi'

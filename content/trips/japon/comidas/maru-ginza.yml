@@ -28,7 +28,7 @@ body: >-
 
 
   Está en un edificio de oficinas y hay que subir en ascensor, que es como está la mitad de la buena
-  cocina de esta ciudad: **mirar hacia arriba** en Ginza y en Shinjuku es donde aparecen los sitios.
+  cocina de esta ciudad: **mirar hacia arriba** en Ginza y en [Shinjuku](#shinjuku) es donde aparecen los sitios.
 seenIn:
   - ref: '#dia-4-tsukiji-ginza'
     label: "Día 4 · al mediodía"

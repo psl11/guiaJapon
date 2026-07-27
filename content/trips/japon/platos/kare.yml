@@ -1,0 +1,34 @@
+slug: kare
+trip: japon
+kind: plato
+order: 14
+title: Curry japonés
+navLabel: "Curry (karē)"
+queEs: >-
+  Una salsa espesa, marrón y **dulce**, sin apenas picante, servida sobre arroz con un trozo de
+  carne o una chuleta empanada encima. No se parece al curry indio ni al tailandés: es más cercano a
+  un estofado espeso, y en Japón es **comida de todos los días**, de comedor escolar y de casa.
+historia: >-
+  Llegó por una vía inesperada: **no de India, sino de la Marina británica**. La Armada Imperial
+  japonesa lo adoptó en el siglo XIX copiando el rancho de los buques ingleses —era barato, se hacía
+  en olla grande y prevenía el beriberi—, y de la Marina pasó al ejército, del ejército a las
+  escuelas y de las escuelas a las casas. Todavía hoy **la Fuerza Marítima de Autodefensa come curry
+  todos los viernes**, para no perder la cuenta de los días en el mar.
+dondeMejor: >-
+  Está en todas partes y casi siempre está bueno. Las cadenas —**CoCo Ichibanya** es la grande—
+  dejan elegir el nivel de picante del 1 al 10 y la cantidad de arroz. El ***katsu karē***, con
+  chuleta empanada encima, es la versión que engancha; el **curry de Kanazawa**, más oscuro y
+  servido con col y cuchara, es una variante regional con culto propio.
+picante: "Se elige, del 1 al 10 · por defecto, casi nada"
+veg: >-
+  Frecuente encontrar versión vegetal, pero **la base suele llevar caldo de carne**. Hay que
+  preguntar; las cadenas grandes lo tienen etiquetado.
+body: |
+  Es el plato que salva las cenas difíciles: barato, rápido, sin pescado, sin nada crudo y sin
+  sorpresas. Cuando alguien del grupo esté saturado de *dashi* y de texturas nuevas —y pasa siempre
+  hacia el cuarto día— esto es lo que arregla la noche.
+
+  Se come **con cuchara**, que es la única vez que ocurre en la cocina japonesa.
+seenIn:
+  - ref: '#tonkatsu'
+    label: El tonkatsu

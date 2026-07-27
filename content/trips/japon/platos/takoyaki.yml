@@ -1,0 +1,39 @@
+slug: takoyaki
+trip: japon
+kind: plato
+order: 12
+title: Takoyaki
+queEs: >-
+  Bolas de masa líquida con un taco de **pulpo** dentro, hechas en una plancha de semiesferas de
+  hierro y volteadas una a una con un punzón hasta que quedan redondas. Se sirven de seis en seis
+  sobre una barqueta, con salsa espesa, mayonesa, alga en polvo y **virutas de bonito que se mueven
+  con el vapor** como si estuvieran vivas. Por fuera crujen; por dentro están casi líquidas.
+historia: >-
+  Las inventó en **Osaka en 1935** un puestero llamado **Tomekichi Endō**, a partir de un bocado
+  parecido que llevaba ternera. Le puso pulpo y huevo, y en noventa años no ha cambiado nada. [Osaka](#osaka)
+  las considera patrimonio propio: hay casas familiares que llevan tres generaciones haciendo solo
+  esto, y en muchos hogares de la ciudad hay **plancha de takoyaki** como aquí hay sartén.
+dondeMejor: >-
+  **Osaka**, y sobre todo [**Dōtonbori**](https://www.google.com/maps/search/?api=1&query=Dotonbori%20Osaka), donde compiten a base de carteles gigantes. En Tokio se
+  encuentran en cualquier festival y en los sótanos de los grandes almacenes. Se comen **de pie y
+  recién hechas**: enfriadas pierden el contraste que las justifica.
+picante: "—"
+veg: >-
+  **No apto tal cual**: llevan pulpo, y la masa se hace con caldo *dashi* de bonito. Existe versión
+  vegetariana pero es rara; hay que preguntar.
+body: |
+  El aviso que hay que dar siempre y que nadie da: **salen a temperatura de lava**. La masa del
+  interior queda casi cruda y retiene el calor de una manera casi injusta. Morderlas nada más
+  recibirlas es garantía de quemarse el paladar y no saborear las cinco siguientes.
+
+  La técnica: **soplar, partir la primera en dos con el palillo y esperar un minuto**. Los locales
+  las dejan reposar mientras charlan, y no es casualidad.
+
+  Y si alguien va a hacer una sola cosa gastronómica en Osaka, que sea esta o el
+  [okonomiyaki](#okonomiyaki) — las dos salen de la misma plancha y de la misma idea: harina barata,
+  mucho sabor y comer de pie en la calle.
+seenIn:
+  - ref: '#osaka'
+    label: Osaka
+  - ref: '#okonomiyaki'
+    label: El okonomiyaki

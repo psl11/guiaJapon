@@ -1,0 +1,86 @@
+slug: ginza
+navLabel: "Ginza"
+trip: japon
+part: japon
+order: 12
+zone: "Tokio"
+emblem: copa
+kicker: Tokio · el barrio de la plata
+title: Ginza, el barrio que se llama como una fábrica de moneda
+epithet: >-
+  Es la avenida de lujo de Japón y no se parece a ninguna otra del mundo, porque aquí lo caro no
+  está en las tiendas: está en los sótanos, en los sitios de comer sin cartel y en una manzana de
+  edificios firmados por medio premio Pritzker. Y lo mejor de todo es gratis.
+sections:
+  - heading: De la ceca al escaparate
+    body: |
+      El nombre es literal: ***gin-za*** significa «lugar de la plata», y viene de la **casa de la
+      moneda** que los Tokugawa instalaron aquí en **1612** para acuñar monedas de plata. El barrio
+      creció alrededor del dinero y no ha dejado de hacerlo.
+
+      El otro momento fundacional es un incendio. En **1872** ardió el barrio entero, y el gobierno
+      Meiji aprovechó para reconstruirlo **en ladrillo, al estilo occidental**, con aceras, farolas de
+      gas y arbolado — el primer barrio «moderno» del país, pensado como escaparate de lo que Japón
+      quería llegar a ser. Ver el [acto 5](#acto-5-meiji).
+
+      De ahí viene una costumbre que todavía tiene nombre: ***Ginbura***, «pasear por Ginza», que
+      desde los años veinte significa exactamente eso — venir a mirar, no a comprar.
+  - heading: Los sótanos, que es a lo que se viene
+    body: |
+      Un ***depachika*** es la planta de alimentación en el sótano de unos grandes almacenes, y es
+      **el mejor espectáculo gratuito de Tokio**. Dos mil metros cuadrados de mostradores: melones de
+      cien euros presentados como joyas, cientos de *[wagashi](#wagashi)* que cambian de forma con la estación,
+      *bentō* montados con pinzas, quesos, encurtidos y una cantidad indecente de **muestras
+      gratuitas**.
+
+      Los dos grandes están enfrente: el [**Mitsukoshi**](https://www.google.com/maps/search/?api=1&query=Ginza%20Mitsukoshi%20Tokyo) —que empezó siendo una tienda de kimonos en
+      1673 y es el gran almacén más antiguo de Japón— y el **Matsuya**. Se entra por la calle, se baja
+      una planta y no se paga nada.
+
+      Es además el sitio donde comprar el ***ekiben*** para el tren del día 6. Ver
+      [konbini y ekiben](#konbini).
+  - heading: Arquitectura de marca
+    body: |
+      Ginza es, sin proponérselo, un catálogo de arquitectura contemporánea a cielo abierto. Las
+      firmas de lujo compiten aquí a golpe de edificio, y se recorre mirando hacia arriba:
+
+      - El [**Kabuki-za**](https://www.google.com/maps/search/?api=1&query=Kabukiza%20Theatre%20Ginza%20Tokyo), de **Kengo Kuma** (2013), que recuperó la fachada de 1889 con una torre de
+        veintinueve plantas detrás. Su **galería alta es gratis** y abre a diario; y se pueden comprar
+        entradas de **un solo acto** (*hitomakumi*) en taquilla el mismo día.
+      - **Ginza Place**, en el cruce principal, con la fachada de celosía blanca inspirada en el
+        calado tradicional del papel.
+      - El **Nakagin Capsule Tower** ya no está —lo desmontaron en 2022— pero conviene saberlo,
+        porque era el icono del metabolismo japonés y se ha ido hace nada.
+      - Y bajo las vías del tren, los ***gādo-shita***: bares y barras diminutas encajadas en los
+        arcos del viaducto, con el ruido de los trenes por encima. Es el contraste que define el
+        barrio.
+  - heading: Lo que casi nadie hace en Ginza
+    body: |
+      - [**Komparu-yu**](https://www.google.com/maps/search/?api=1&query=Konparuyu%20Ginza%20Tokyo) — una **casa de baños de barrio de 1863** con azulejos y mural, escondida entre
+        las boutiques. Cuesta lo que un café y es la cosa más incongruente de la ciudad. Ver
+        [el onsen](#onsen).
+      - [**Okuno Building**](https://www.google.com/maps/search/?api=1&query=Okuno%20Building%20Ginza%20Tokyo) — un edificio de apartamentos de 1932 con ascensor de rejilla manual,
+        convertido en decenas de **galerías de arte diminutas**. Se sube planta a planta y se entra
+        gratis en todas.
+      - [**Hama-rikyū**](https://www.google.com/maps/search/?api=1&query=Hamarikyu%20Gardens%20Tokyo), a diez minutos andando hacia el mar: el antiguo **cazadero de patos del
+        shōgun**, hoy jardín, con una casa de té sobre un estanque de **agua salada que sube y baja
+        con la marea** — el único de Tokio así. Y desde su embarcadero **sale el ferry a Asakusa**,
+        que es la mejor manera de volver al norte de la ciudad.
+curiosidades:
+  - >-
+    **Ginza significa «lugar de la plata»** por la casa de la moneda que los Tokugawa abrieron aquí
+    en 1612. El barrio lleva cuatrocientos años dedicado al dinero.
+  - >-
+    Tras el incendio de 1872 se reconstruyó entero **en ladrillo al estilo occidental**, con aceras y
+    farolas de gas: fue el primer barrio moderno de Japón, levantado como escaparate de lo que el
+    país quería ser.
+  - >-
+    En pleno barrio del lujo sobrevive **Komparu-yu, una casa de baños de 1863** que cuesta lo que un
+    café — y bajo las vías del tren, una hilera de bares encajados en los arcos del viaducto.
+seenIn:
+  - ref: '#dia-4-tsukiji-ginza'
+    label: "Día 4 · al mediodía"
+  - ref: '#tsukiji'
+    label: "Tsukiji, al lado"
+  - ref: '#acto-5-meiji'
+    label: "Acto 5 · el escaparate Meiji"

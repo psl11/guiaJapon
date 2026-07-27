@@ -6,7 +6,7 @@ eyebrow: El plan · Día 8 · vie 13 nov
 title: El amanecer helado, y *ocho husos* de vuelta
 dek: >-
   El último día no es un día de aeropuerto: es el mejor amanecer del viaje y luego una tarde de
-  trenes. Aquí el grupo se parte —ellos siguen al oeste hacia Takayama, tú bajas al este— y el huso
+  trenes. Aquí el grupo se parte —ellos siguen al oeste hacia [Takayama](#takayama), tú bajas al este— y el huso
   horario devuelve lo que se llevó a la ida.
 blocks:
   - block: Amanecer
@@ -29,9 +29,9 @@ blocks:
     time: "09:00–11:00"
     title: Donde el grupo se parte
     body: >-
-      Se baja del valle en el mismo autobús por el que se subió. En **Hirayu Onsen**, nudo de
+      Se baja del valle en el mismo autobús por el que se subió. En [**Hirayu Onsen**](https://www.google.com/maps/search/?api=1&query=Hirayu%20Onsen%20Takayama), nudo de
       carreteras al otro lado del túnel, el grupo sigue hacia el **oeste** —Takayama, y de ahí
-      Shirakawa-gō, Kanazawa, Kioto y el resto de sus tres semanas— y tú vuelves al **este**, hacia
+      [Shirakawa-gō](#shirakawa-go), [Kanazawa](#kanazawa), [Kioto](#kioto) y el resto de sus tres semanas— y tú vuelves al **este**, hacia
       Matsumoto. Si cuadran los horarios, merece la pena bajar todos juntos hasta Hirayu y **darse el
       baño de despedida** en sus aguas termales antes de separarse: es un final mucho mejor que un
       adiós en una parada de autobús.
@@ -46,9 +46,9 @@ blocks:
     time: "12:00–17:00"
     title: Matsumoto, el Azusa y Tokio
     body: >-
-      De Matsumoto a **Shinjuku**, otras dos horas y media de Azusa, esta vez viendo el paisaje al
+      De Matsumoto a [**Shinjuku**](#shinjuku), otras dos horas y media de Azusa, esta vez viendo el paisaje al
       revés: de las montañas al valle y del valle a la ciudad, que es el resumen del viaje en una
-      ventanilla. Con margen de sobra para llegar al aeropuerto — la cadena entera desde Kamikōchi
+      ventanilla. Con margen de sobra para llegar al aeropuerto — la cadena entera desde [Kamikōchi](#kamikochi)
       ronda las **seis horas** contando esperas, y no hay que correr en ningún tramo.
     window:
       label: La aritmética del último día

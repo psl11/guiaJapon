@@ -12,12 +12,11 @@ blocks:
     time: "09:30–12:00"
     title: El castillo, y lo que no es
     body: >-
-      Se empieza por lo que más lejos queda. El **castillo de Osaka** lo levantó **Toyotomi Hideyoshi
-      en 1583** como el mayor de Japón, y los Tokugawa lo destruyeron en el asedio de 1615. **La torre
-      actual es de 1931, de hormigón armado y con ascensor**: por dentro es un museo, no un castillo,
-      y conviene saberlo para no esperar lo que no hay. Lo que sí merece son **el parque y las
-      murallas** — hay bloques de piedra de más de cien toneladas que se trajeron por mar desde otras
-      provincias. Ver [Osaka](#osaka).
+      Se empieza por lo que más lejos queda. Y con una expectativa ajustada: **la torre del castillo
+      es una reconstrucción de hormigón de 1931, con ascensor y museo dentro**. Lo que merece el
+      paseo es lo de fuera — el parque, el foso y las **murallas de bloques de más de cien toneladas**
+      que llegaron por mar desde otras provincias. Media hora larga y a otra cosa. El porqué, en
+      [la ficha de Osaka](#osaka).
     window:
       label: Por qué a primera hora
       body: >-
@@ -31,11 +30,8 @@ blocks:
       El **mercado de Kuromon** es la despensa de Osaka: pescado, vieiras a la brasa, fruta cortada,
       *takoyaki*. Se come de puesto en puesto y de pie, que es exactamente la forma local.
 
-      Detrás hay una historia que explica el carácter: con el país cerrado y la corte en Kioto, aquí
-      llegaba en barco **el arroz de todos los dominios** para venderse — la llamaban ***tenka no
-      daidokoro***, «la cocina del país». De ese comercio salió la **Bolsa de Arroz de Dōjima**,
-      autorizada en **1697**, que fue **el primer mercado de futuros del mundo**, siglo y medio antes
-      de Chicago.
+      Se come de puesto en puesto y de pie, que es la forma local — y no es una costumbre suelta:
+      viene de que esta fue durante siglos **la despensa de Japón**, y eso está contado en su ficha.
   - block: Tarde
     time: "15:00–17:30"
     title: Shinsekai y la torre

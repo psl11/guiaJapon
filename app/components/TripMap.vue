@@ -4,15 +4,16 @@
 // la paleta kōyō vía var(--…), así que cambia con el tema.
 import { viewBox, landPaths, cities as C } from './tripMapGeo.js'
 
-// NUESTRO tramo, por tierra y en orden de días: Kamakura (excursión) ← Tokio → Matsumoto → Kamikōchi.
+// El TRAMO DE PABLO, por tierra y en orden de días (1-8): Kamakura (excursión) ← Tokio → Matsumoto
+// → Kamikōchi. Se dibuja en trazo lleno porque es el tramo que él hace.
 const routeKeys = ['kamakura', 'tokyo', 'matsumoto', 'kamikochi']
 const routePoints = routeKeys.map(k => `${C[k].x},${C[k].y}`).join(' ')
-// Lo que el grupo sigue haciendo sin nosotros a partir del día 13: en punteado, porque está en la
-// guía (capa ligera) pero no en nuestro viaje. Cuenta de un vistazo dónde nos bajamos.
-const onwardPoints = ['kamikochi', 'takayama', 'kanazawa', 'kyoto', 'osaka', 'hiroshima']
+// El resto del viaje del grupo, del 13 al 26: baja al oeste hasta Hiroshima y CIERRA EL BUCLE
+// volviendo a Tokio, de donde salen las excursiones finales a Nikkō y al Fuji. En punteado.
+const onwardPoints = ['kamikochi', 'takayama', 'kanazawa', 'kyoto', 'osaka', 'hiroshima', 'tokyo']
   .map(k => `${C[k].x},${C[k].y}`).join(' ')
 
-// Paradas etiquetadas de nuestro tramo.
+// Paradas etiquetadas del tramo de Pablo.
 const stops = [
   { key: 'tokyo', label: 'Tokio', dx: 8, dy: 4, anchor: 'start' },
   { key: 'kamakura', label: 'Kamakura', dx: 8, dy: 9, anchor: 'start' },
@@ -23,10 +24,15 @@ const stops = [
 ]
 // El resto del itinerario del grupo: presente, pero en segundo plano.
 const onward = [
-  { key: 'takayama', label: 'Takayama', dx: -7, dy: 12, anchor: 'end' },
+  // Takayama va DEBAJO: sus dos segmentos (a Kanazawa y a Kamikōchi) suben, uno a cada lado.
+  { key: 'takayama', label: 'Takayama', dx: 0, dy: 13, anchor: 'middle' },
   { key: 'kanazawa', label: 'Kanazawa', dx: -8, dy: -6, anchor: 'end' },
   { key: 'kyoto', label: 'Kioto', dx: -7, dy: -3, anchor: 'end' },
+  { key: 'osaka', label: 'Osaka', dx: 7, dy: 8, anchor: 'start' },
   { key: 'hiroshima', label: 'Hiroshima', dx: -7, dy: 4, anchor: 'end' },
+  // Las dos excursiones de la última semana, desde Tokio.
+  { key: 'nikko', label: 'Nikkō', dx: 8, dy: -3, anchor: 'start' },
+  { key: 'fuji', label: 'Fuji', dx: -6, dy: 9, anchor: 'end' },
 ]
 // Referencias apagadas: los extremos del país que nadie pisa. El vacío del norte y del sur es
 // justo la información — enseña que este viaje se queda en el centro de Honshū.
@@ -39,14 +45,14 @@ const refs = [
 <template>
   <figure class="tripmap" aria-labelledby="tripmap-cap">
     <svg :viewBox="viewBox" role="img"
-         aria-label="Mapa del viaje: nuestro tramo se queda en el centro de Honshū —Tokio, Kamakura, Matsumoto y Kamikōchi—; el resto del archipiélago, de Hokkaidō a Kyūshū, queda fuera de la ruta.">
+         aria-label="Mapa del viaje: un bucle por el centro y el oeste de Honshū. El tramo de Pablo, en trazo lleno, va de Tokio a Kamakura, Matsumoto y Kamikōchi; el resto del grupo continúa punteado hasta Hiroshima y vuelve a Tokio. Los extremos del archipiélago, Hokkaidō y Kyūshū, quedan fuera.">
       <!-- el archipiélago -->
       <path v-for="(d, i) in landPaths" :key="i" :d="d" class="land" />
       <!-- rótulo de país, al fondo -->
       <text x="150" y="250" class="country">JAPÓN</text>
-      <!-- lo que el grupo sigue haciendo sin nosotros -->
+      <!-- el resto del viaje del grupo, hasta el 26 -->
       <polyline :points="onwardPoints" class="flight" />
-      <!-- nuestra ruta por tierra -->
+      <!-- el tramo de Pablo, por tierra -->
       <polyline :points="routePoints" class="route" />
       <!-- referencias no visitadas -->
       <g class="ref">
@@ -55,7 +61,7 @@ const refs = [
           <text :x="C[r.key].x + r.dx" :y="C[r.key].y + r.dy" :text-anchor="r.anchor" class="ref-label">{{ r.label }}</text>
         </template>
       </g>
-      <!-- el itinerario del grupo a partir del día 13 -->
+      <!-- las paradas del grupo a partir del 13 de noviembre -->
       <g class="ref">
         <template v-for="o in onward" :key="o.key">
           <circle :cx="C[o.key].x" :cy="C[o.key].y" r="2.6" class="ref-dot" />
@@ -71,9 +77,10 @@ const refs = [
       </g>
     </svg>
     <figcaption id="tripmap-cap" class="tripmap-cap">
-      <span class="tripmap-legend"><i class="k-route" /> nuestro tramo&ensp;<i class="k-flight" /> el grupo sigue</span>
-      El viaje, de un vistazo: ocho días en el <strong>centro de Honshū</strong>, de Tokio a los Alpes.
-      A partir del 13 el grupo baja al oeste; el resto del archipiélago queda fuera.
+      <span class="tripmap-legend"><i class="k-route" /> tramo de Pablo&ensp;<i class="k-flight" /> el grupo, hasta el 26</span>
+      El viaje, de un vistazo: <strong>un bucle</strong> que sale de Tokio, sube a los Alpes, baja al
+      oeste hasta Hiroshima y vuelve a Tokio a cerrar. Pablo hace el trazo lleno y vuela de vuelta
+      desde Matsumoto <strong>el 13 de noviembre</strong>; los otros tres siguen el punteado.
     </figcaption>
   </figure>
 </template>

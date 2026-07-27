@@ -26,23 +26,18 @@ blocks:
     time: "11:00–13:00"
     title: La cúpula, y el eje
     body: >-
-      El **Genbaku Dome** era el Palacio de Promoción Industrial, obra del checo **Jan Letzel**,
-      de 1915. La bomba estalló **a seiscientos metros de altura y a ciento cincuenta de allí**: casi
-      verticalmente encima, así que la onda le llegó desde arriba y los muros aguantaron mientras
-      todo lo demás caía. Todos los que estaban dentro murieron. En los años cincuenta se debatió
-      demolerla y se decidió **conservarla sin restaurar** — solo se refuerza.
+      Se entra por la cúpula y se baja hacia el sur, que es como está pensado el recorrido. Lo que
+      hay que hacer aquí es **una sola cosa y hacerla bien**: colocarse en el punto exacto delante del
+      cenotafio desde el que **el arco enmarca la llama y, al fondo, la ruina**. Están alineados a
+      propósito y el efecto solo aparece desde ahí.
 
-      El **Parque Memorial de la Paz** lo ganó en concurso, en 1949 y con treinta y cinco años, un
-      arquitecto desconocido: **Kenzō Tange**. Su idea es un **eje**: museo, cenotafio y cúpula están
-      alineados, de modo que **desde el cenotafio el arco enmarca la llama y la ruina al fondo**. Hay
-      que ponerse en el punto exacto, y es el momento del parque.
+      El porqué de todo esto —quién la construyó, por qué sigue en pie y por qué se decidió no
+      arreglarla— está en [la ficha de Hiroshima](#hiroshima), y merece leerse en el tren.
     window:
       label: El detalle que se pasa por alto
       body: >-
-        El epitafio del cenotafio —«descansad en paz, no repetiremos el error»— **no tiene sujeto en
-        japonés**. Esa ausencia es deliberada y lleva ochenta años dando discusión: quién es el que no
-        repetirá el error. Y la **Llama de la Paz** lleva encendida desde 1964 con la instrucción de
-        **apagarla el día en que desaparezca la última arma nuclear del planeta**.
+        Buscad el epitafio del cenotafio y fijaos en que **no tiene sujeto**: es lo que más se
+        discute del parque y se entiende mejor teniéndolo delante.
   - block: Tarde
     time: "13:00–16:00"
     title: El museo
@@ -63,11 +58,10 @@ blocks:
       Y ahora lo importante: **Hiroshima es una ciudad de un millón doscientos mil habitantes**, no un
       cementerio. Dos maneras de comprobarlo antes de cenar:
 
-      - Los **árboles supervivientes**, los *hibakujumoku*: unos ciento setenta sauces, cánforas y
-        ginkgos que rebrotaron al año siguiente, cuando se decía que allí no crecería nada en setenta
-        y cinco años. Están señalizados con una placa, y hay varios en el propio parque.
-      - El **tranvía**, que funciona desde 1912. Varios de los vagones que circulan hoy son
-        **supervivientes de 1945**: volvieron a dar servicio **tres días después** de la bomba.
+      - Buscad las **placas de los árboles supervivientes** —los *hibakujumoku*—, que hay varias en el
+        propio parque. Son fáciles de pasar por alto y cambian la manera de mirar el sitio.
+      - Y **coged el tranvía** para volver al hotel, aunque no haga falta: algunos de los vagones que
+        circulan hoy estaban aquí en 1945. En su ficha se cuenta cuál es cuál.
   - block: Noche
     time: "noche"
     title: Okonomi-mura

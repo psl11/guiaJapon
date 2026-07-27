@@ -13,12 +13,11 @@ blocks:
     time: "06:00–08:00"
     title: Kiyomizu-dera al abrir
     body: >-
-      **Kiyomizu-dera abre a las 6:00**, y es de los poquísimos templos de Japón que lo hacen. A esa
-      hora la ladera está vacía y se puede estar solo en la plataforma. Fundado en el **778**
-      —anterior a la propia ciudad—, su tablado sobresale trece metros de la ladera sostenido por un
-      entramado **ensamblado sin un solo clavo**. Abajo, los tres canales de la cascada **Otowa** dan
-      salud, longevidad y suerte en los estudios: se bebe de **uno**, porque beber de los tres es
-      codicia y anula el favor. Ver [Higashiyama](#higashiyama).
+      **Kiyomizu-dera abre a las 6:00**, y es de los poquísimos templos de Japón que lo hacen: a esa
+      hora se puede estar solo en la plataforma. Dos cosas que hacer estando allí — asomarse al borde
+      del tablado, que vuela trece metros sobre la ladera, y bajar a la cascada **Otowa** a beber de
+      **uno solo** de sus tres canales. Beber de los tres anula el favor, y hay cola de japoneses que
+      lo saben. Todo lo demás, en [Higashiyama](#higashiyama).
     window:
       label: Ventana óptima
       body: >-
@@ -62,9 +61,9 @@ blocks:
     window:
       label: Una norma que se multa
       body: >-
-        Desde 2024 **varias callejuelas privadas de Gion están cerradas al turismo, con multa**, por
-        el acoso fotográfico. Las calles principales siguen abiertas. La regla es simple y vale para
-        todo el barrio: **no se persigue, no se toca y no se fotografía de cerca sin permiso**.
+        Hay **callejuelas privadas cerradas al turismo y con multa**, señalizadas en la entrada. La
+        regla del barrio, que vale para todo Japón: **no se persigue, no se toca y no se fotografía
+        de cerca sin permiso**.
   - block: Noche
     time: "noche"
     title: El raitoappu

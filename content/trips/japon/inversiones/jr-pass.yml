@@ -7,34 +7,47 @@ title: El *JR Pass*
 verdict: prescindible
 verdictLabel: Prescindible — y por mucho
 lede: >-
-  El pase que todas las guías dan por hecho. Para este tramo concreto es un error de ~28.000 ¥ por
-  cabeza, y la cuenta no está ni reñida.
+  El pase que todas las guías dan por hecho, y que en este viaje **no sale a cuenta ni en su mejor
+  ventana**. La cuenta está hecha abajo, tramo por tramo, y no está reñida.
 ledger:
   - label: Cuesta
     body: >-
       **¥50.000** el pase ordinario de 7 días — y **¥53.000 a partir del 1 de octubre de 2026** si se
-      compra por canal extranjero. Además vuestro tramo son **ocho días**, así que un pase de siete ni
-      siquiera los cubre.
-  - label: Qué compra
+      compra por canal extranjero. Hay de 14 y 21 días, pero cuestan ¥80.000 y ¥100.000: para
+      amortizarlos habría que vivir dentro de un shinkansen.
+  - label: Qué compra, y qué no
     body: >-
-      Trenes JR de larga distancia. El problema es cuántos vais a coger: **aeropuerto → Tokio**
-      (~¥3.250), **Kamakura ida y vuelta** (~¥1.880), **Shinjuku → Matsumoto** (~¥6.620), la vuelta de
-      Matsumoto (~¥6.620) y **Tokio → aeropuerto** (~¥3.250). Total: **unos ¥21.600**.
+      Trenes JR de larga distancia. Y aquí está el problema de este itinerario en concreto: **la mitad
+      de sus tramos largos no son JR**. El tren y el autobús de Alpico a [Kamikōchi](#kamikochi), el
+      autobús de Hirayu a [Takayama](#takayama), el de [Shirakawa-gō](#shirakawa-go) y el de
+      [Kanazawa](#kanazawa) van todos por su cuenta. Y **el metro de Tokio tampoco es JR**, ni Tokyo
+      Metro ni Toei, así que los trayectos de cada día quedan fuera en cualquier caso.
 
 
-      Y lo que NO compra: **el metro de Tokio no es JR** —ni Tokyo Metro ni Toei—, así que la mayor
-      parte de vuestros trayectos diarios quedan fuera del pase en cualquier caso. Tampoco cubre el
-      tren y el autobús de Alpico a [Kamikōchi](#kamikochi).
-  - label: La alternativa
+      Tampoco cubre el **Nozomi**, el shinkansen más rápido: con pase hay que ir en Hikari o Sakura y
+      se pierden unos veinticinco minutos por trayecto largo.
+  - label: La cuenta de las tres semanas
     body: >-
-      **Billetes sueltos y una tarjeta IC.** Se compran en máquina en dos minutos, permiten reservar
-      asiento en el Azusa —conviene, por las vistas— y salen por menos de la mitad.
+      Sumando en billete suelto lo que **sí** es JR en los veintiún días: aeropuerto → Tokio (~¥3.250),
+      Kamakura ida y vuelta (~¥1.880), Shinjuku → Matsumoto (~¥6.620), Kanazawa → Kioto (~¥7.500),
+      Kioto → Osaka ida y vuelta (~¥1.140), Kioto → Hiroshima (~¥11.600), Miyajima ida y vuelta
+      (~¥840), Hiroshima → Tokio (~¥19.000) y Tokio → aeropuerto (~¥3.250). **Total: unos ¥55.000.**
+
+
+      Parece que gana el pase, pero no: **está repartido a lo largo de tres semanas** y un pase solo
+      cubre siete días seguidos. Su mejor ventana posible es del día 11 al 16 —Kanazawa → Kioto,
+      Osaka, Hiroshima, Miyajima y la vuelta a Tokio—, y esos seis días suman **unos ¥40.000**. Diez
+      mil yenes por debajo del pase, yendo además en trenes más lentos.
   - label: Veredicto
     body: >-
-      **No lo compréis.** El JR Pass sale a cuenta cuando se encadenan tres o más trayectos largos de
-      shinkansen: Tokio–[Kioto](#kioto)–[Hiroshima](#hiroshima) y vuelta. Vuestro tramo se queda en el centro de Honshū y no
-      se acerca. *(Para los otros tres, que sí bajan a Kioto y Hiroshima, la cuenta es distinta y hay
-      que hacerla aparte.)*
+      **No lo compréis.** Ni para los ocho primeros días ni para los veintiuno. Billetes sueltos y una
+      **tarjeta IC**: se compran en máquina en dos minutos, permiten reservar asiento —conviene en el
+      Azusa por las vistas y en el tramo del Fuji— y dejan usar el Nozomi.
+
+
+      Y una alternativa que sí puede salir: el **Hokuriku Arch Pass** (~¥30.000, 7 días) cubre
+      Tokio–Kanazawa–Kioto–Osaka por la ruta del norte. **No llega a Hiroshima**, así que en este
+      itinerario tampoco encaja — pero conviene saber que existe antes de descartarlo.
 curiosidades:
   - >-
     El pase de 7 días **pasó de ¥29.650 a ¥50.000 en octubre de 2023** — casi el doble de golpe. Buena

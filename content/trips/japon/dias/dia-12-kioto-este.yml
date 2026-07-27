@@ -1,0 +1,83 @@
+slug: dia-12-kioto-este
+navLabel: "Día 12 · Higashiyama"
+trip: japon
+order: 12
+eyebrow: El plan · Día 12 · mar 17 nov
+title: La ladera este, donde Kioto *sigue pareciendo Kioto*
+dek: >-
+  El día de las postales, y el único que exige madrugar de verdad. Un templo colgado sobre un
+  barranco, dos cuestas empedradas y un barrio de casas de té — con diez mil personas más si se
+  llega tarde.
+blocks:
+  - block: Amanecer
+    time: "06:00–08:00"
+    title: Kiyomizu-dera al abrir
+    body: >-
+      **Kiyomizu-dera abre a las 6:00**, y es de los poquísimos templos de Japón que lo hacen. A esa
+      hora la ladera está vacía y se puede estar solo en la plataforma. Fundado en el **778**
+      —anterior a la propia ciudad—, su tablado sobresale trece metros de la ladera sostenido por un
+      entramado **ensamblado sin un solo clavo**. Abajo, los tres canales de la cascada **Otowa** dan
+      salud, longevidad y suerte en los estudios: se bebe de **uno**, porque beber de los tres es
+      codicia y anula el favor. Ver [Higashiyama](#higashiyama).
+    window:
+      label: Ventana óptima
+      body: >-
+        Este es **el mejor consejo de todo Kioto** y casi nadie lo sigue: entre las 10:00 y las 17:00
+        las cuestas se andan en fila india. A las siete de la mañana son otra ciudad, con las tiendas
+        cerradas y la luz entrando de lado entre las casas de madera. Merece la pena renunciar a una
+        hora de sueño.
+  - block: Mañana
+    time: "08:00–11:30"
+    title: Sannenzaka, Ninenzaka y la pagoda
+    body: >-
+      Se baja de Kiyomizu por [**Sannenzaka**](https://www.google.com/maps/search/?api=1&query=Sannenzaka%20Kyoto) y **Ninenzaka**, «la cuesta de los tres años» y «la de
+      los dos», dos calles empedradas de casas de madera, cerámica y salones de té que son distrito
+      protegido. Hay una superstición local encantadora: **tropezar en ellas trae tres o dos años de
+      mala suerte**, y por eso venden amuletos en la propia cuesta. Al fondo asoma la **pagoda de
+      Yasaka**, que es el plano que todo el mundo tiene en la cabeza.
+
+      A media mañana, un café en el **% Arabica** de Higashiyama, con la pagoda en el ventanal: hay
+      cola siempre y avanza en diez minutos.
+  - block: Mediodía
+    time: "11:30–14:00"
+    title: Kōdai-ji y el camino hacia el norte
+    body: >-
+      La ladera sigue hacia arriba y pierde gente con cada manzana. [**Kōdai-ji**](https://www.google.com/maps/search/?api=1&query=Kodaiji%20Temple%20Kyoto), el templo que la
+      viuda de Hideyoshi levantó en su memoria, tiene un jardín seco y **aperturas nocturnas en
+      otoño** de las mejores de la ciudad — apuntadlo para esta noche. Y [**Chion-in**](https://www.google.com/maps/search/?api=1&query=Chion-in%20Temple%20Kyoto) guarda la
+      **puerta de madera más grande de Japón** y una campana de setenta toneladas que necesita
+      diecisiete monjes para sonar.
+  - block: Tarde
+    time: "14:00–17:00"
+    title: Gion, y qué es y qué no es una geisha
+    body: >-
+      Al norte queda [**Gion**](https://www.google.com/maps/search/?api=1&query=Gion%20Kyoto), el barrio de casas de té que creció para servir a los peregrinos del
+      santuario **Yasaka**. Sus calles de *machiya* con celosías —**Hanamikōji** y el canal de
+      **Shirakawa**— son de las estampas más fotografiadas del país.
+
+      Y el vocabulario, porque casi todo lo que se dice fuera está mal: en [Kioto](#kioto) no se dice *geisha*
+      sino ***geiko***, y las aprendices son ***maiko***. Son **artistas profesionales** con años de
+      formación y **no trabajan de cara al público**: van de un compromiso a otro. La mayoría de las
+      «maiko» que se ven de día son turistas disfrazadas en estudios de alquiler.
+    window:
+      label: Una norma que se multa
+      body: >-
+        Desde 2024 **varias callejuelas privadas de Gion están cerradas al turismo, con multa**, por
+        el acoso fotográfico. Las calles principales siguen abiertas. La regla es simple y vale para
+        todo el barrio: **no se persigue, no se toca y no se fotografía de cerca sin permiso**.
+  - block: Noche
+    time: "noche"
+    title: El raitoappu
+    body: >-
+      En temporada de otoño varios templos de esta ladera **iluminan el jardín hasta las 21:00**: se
+      llaman ***raitoappu***, cuestan un poco más que la entrada normal y son de las mejores cosas
+      que se pueden hacer en Kioto. **Kōdai-ji** y **Shōren-in** son los dos de aquí. La lista y las
+      fechas exactas las publica cada templo en octubre: hay que mirarlas al llegar.
+alt:
+  label: Si te desmarcas
+  body: >-
+    El **Camino del Filósofo**, dos kilómetros junto a un canal entre [**Ginkaku-ji**](https://www.google.com/maps/search/?api=1&query=Ginkakuji%20Kyoto) —el pabellón de
+    plata que nunca se cubrió de plata— y [**Eikan-dō**](https://www.google.com/maps/search/?api=1&query=Eikando%20Zenrinji%20Kyoto), que es el templo favorito de los propios
+    kiotenses para el [momiji](#momiji). Se hace en dirección contraria a la marea, de norte a sur, y a última
+    hora de la tarde no hay casi nadie. Y para escapar del todo: **Kurama y Kibune**, media hora al
+    norte en tren, dos pueblos de montaña unidos por un sendero de una hora con un onsen al final.

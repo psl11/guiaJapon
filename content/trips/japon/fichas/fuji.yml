@@ -1,0 +1,83 @@
+slug: fuji
+navLabel: "El Fuji"
+trip: japon
+part: japon
+order: 41
+zone: "Vuelta a Tokio"
+emblem: montana
+kicker: Yamanashi · la montaña que se esconde
+title: El Fuji, y por qué casi nunca se deja ver
+epithet: >-
+  Es el símbolo del país, se ve desde Tokio en un día limpio y la mitad de quien va a buscarlo vuelve
+  sin haberlo visto. No es mala suerte: es meteorología, y se puede jugar a favor si se entiende
+  cómo funciona.
+sections:
+  - heading: Una montaña que fabrica sus propias nubes
+    body: |
+      El Fuji tiene **3.776 metros** y está **solo**: no forma parte de ninguna cordillera, se levanta
+      aislado sobre una llanura. Eso, que es lo que le da la silueta perfecta, es también lo que lo
+      esconde. El aire húmedo del Pacífico choca contra el cono, sube, se enfría y **condensa en la
+      propia cumbre**: la montaña se envuelve en una nube que ella misma ha fabricado.
+
+      De ahí las dos reglas que deciden la visita:
+
+      - **El invierno es la buena estación.** De noviembre a febrero el aire es seco y transparente
+        y el Fuji se ve **muchos más días** que en verano, cuando está tapado casi siempre. Vais en la
+        mejor ventana del año.
+      - **La mañana es la buena hora.** La nubosidad crece según avanza el día. Un Fuji despejado a
+        las ocho puede haber desaparecido a la una. **Cuanto más temprano, mejor.**
+
+      Y una consecuencia práctica: en noviembre **ya está nevado**, que es como sale en las estampas.
+  - heading: Es un volcán, y sigue activo
+    body: |
+      No está extinguido: está **dormido**. Su última erupción fue la ***Hōei***, en **1707**, y fue
+      lo bastante grande como para dejar **quince centímetros de ceniza en Edo**, a cien kilómetros —
+      abrió además un cráter secundario en la ladera sureste que se ve desde abajo. Sigue vigilado, y
+      el gobierno metropolitano tiene planes de evacuación de Tokio por caída de ceniza.
+
+      La montaña es **sagrada** desde antes de que nadie la subiera: fue objeto de peregrinación desde
+      el siglo XII y **estuvo prohibida a las mujeres hasta 1868**. La primera occidental que subió lo
+      hizo a escondidas en 1867 — era Lady Fanny Parkes, la mujer del embajador británico.
+
+      Y la temporada de ascenso es **julio y agosto**, nada más. En noviembre la montaña **no se
+      sube**: se mira.
+  - heading: Desde dónde se mira
+    body: |
+      - **Chūreitō**, la pagoda de cinco pisos sobre Fujiyoshida: **cuatrocientos escalones** y arriba
+        la composición pagoda-más-montaña que es la imagen del país. En noviembre, con arces rojos
+        delante.
+      - **La orilla norte del lago Kawaguchi**, para el reflejo. Solo funciona **sin viento**, y eso
+        pasa sobre todo a primera hora.
+      - **El teleférico Kachi-Kachi**, tres minutos hasta un mirador sobre el lago.
+      - **Desde el Shinkansen**, entre Shin-Fuji y Mishima: yendo hacia Tokio queda **a la derecha**,
+        asiento E.
+      - **Desde el propio Tokio**: el mirador del [**Gobierno Metropolitano**](https://www.google.com/maps/search/?api=1&query=Tokyo%20Metropolitan%20Government%20Building) en
+        [Shinjuku](#shinjuku), [Shibuya Sky](#shibuya) y el [**Bunkyō Civic Center**](https://www.google.com/maps/search/?api=1&query=Bunkyo%20Civic%20Center%20Tokyo) lo enmarcan al
+        oeste en los días limpios de invierno.
+  - heading: Lo que no sale en las listas
+    body: |
+      - **Oshino Hakkai** — ocho estanques alimentados por agua de deshielo del Fuji filtrada durante
+        **ochenta años** por la roca volcánica. Son transparentes hasta ocho metros de fondo y están
+        en un pueblo de casas de paja. Muy fotografiado y aun así impresionante.
+      - **Arakurayama Sengen**, el parque de la pagoda, tiene además **650 cerezos** — que en
+        noviembre no florecen, pero sí dan hoja roja.
+      - **El santuario Fujisan Hongū Sengen Taisha**, en Fujinomiya: el principal de los mil trescientos
+        santuarios dedicados a la montaña, y el propietario legal de todo lo que hay **por encima de
+        la cota 3.360 metros** — la cumbre del Fuji es **propiedad privada de un santuario**, y lo
+        confirmó el Tribunal Supremo japonés en 1974.
+curiosidades:
+  - >-
+    **La cumbre del Fuji es propiedad privada.** Todo lo que está por encima de los 3.360 metros
+    pertenece al santuario Sengen Taisha, y el Tribunal Supremo japonés se lo reconoció en 1974.
+  - >-
+    La montaña **fabrica la nube que la tapa**: el aire húmedo choca contra el cono aislado, sube y
+    condensa en la cumbre. Por eso se ve mucho más en invierno y mucho más a primera hora.
+  - >-
+    Su última erupción, en **1707**, dejó **quince centímetros de ceniza en Edo** a cien kilómetros de
+    distancia. No está extinguido, está dormido — y Tokio tiene plan de evacuación por caída de
+    ceniza.
+seenIn:
+  - ref: '#dia-18-fuji'
+    label: "Día 18 · el Fuji"
+  - ref: '#dia-20-flexible'
+    label: "Día 20 · el segundo intento"

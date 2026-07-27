@@ -88,6 +88,8 @@ curiosidades:
     poder que uno de ellos, Dōkyō, estuvo a punto de hacerse proclamar emperador. La corte se mudó en
     784 y los templos se quedaron: por eso siguen en pie.
 seenIn:
+  - ref: '#dia-14-osaka'
+    label: "Día 14 · la alternativa a Osaka"
   - ref: '#el-mapa-del-viaje'
     label: "El mapa del viaje"
   - ref: '#acto-1-kami-y-corte'

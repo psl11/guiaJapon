@@ -1,0 +1,69 @@
+slug: dia-18-fuji
+navLabel: "Día 18 · El Fuji"
+trip: japon
+order: 18
+eyebrow: El plan · Día 18 · lun 23 nov · festivo
+title: El Fuji, si el cielo *da permiso*
+dek: >-
+  El único día del viaje que depende entero del parte meteorológico. En invierno el Fuji se ve
+  muchísimos más días que en verano, pero sigue escondiéndose la mitad del tiempo — y es festivo
+  nacional, lo que cambia las reglas de todo lo demás.
+blocks:
+  - block: Amanecer
+    time: "06:00"
+    title: Mirar por la ventana y decidir
+    body: >-
+      Esta es la decisión del día y se toma antes de desayunar. **Si el cielo está limpio, se va al
+      Fuji.** Si está cubierto, no merece la pena: se va a Kawaguchiko a ver una montaña que no está,
+      y son cinco horas de transporte para nada. Hay dos días marcados para esto —hoy y el 25— así
+      que se puede cambiar sin perder nada. Ver [el Fuji](#fuji).
+    window:
+      label: Cómo saberlo con antelación
+      body: >-
+        Hay **cámaras en directo** apuntando a la montaña desde el lago Kawaguchi que se consultan
+        desde el móvil, y la regla local: **si se ve el Fuji desde Tokio a primera hora**
+        —del mirador del [Gobierno Metropolitano](https://www.google.com/maps/search/?api=1&query=Tokyo%20Metropolitan%20Government%20Building), por ejemplo— es que hoy es el día. La nubosidad suele
+        aumentar según avanza la mañana, así que **cuanto más temprano, mejor**.
+  - block: Mañana
+    time: "07:30–10:00"
+    title: Subir al lago
+    body: >-
+      Dos horas desde [Shinjuku](#shinjuku): **autobús directo** hasta la estación de Kawaguchiko, que es lo más
+      cómodo y hay que reservar; o tren con transbordo en Ōtsuki y la línea Fujikyū, que es más caro
+      y más bonito. El autobús sale de la terminal Busta, encima de la estación de Shinjuku.
+  - block: Mediodía
+    time: "10:00–15:00"
+    title: Los tres sitios que funcionan
+    body: >-
+      El Fuji no se «visita»: se mira desde algún sitio, y el sitio importa mucho. Los tres que dan la
+      foto:
+
+      - **Chūreitō**, la pagoda de cinco pisos sobre Fujiyoshida: **cuatrocientos escalones** y desde
+        arriba la composición pagoda + montaña que sale en todas partes. Es la imagen y es real.
+      - **La orilla norte del lago Kawaguchi**, donde el Fuji se refleja en el agua si no hay viento.
+        A primera hora es cuando el lago está quieto.
+      - El **teleférico del Kachi-Kachi**, que sube en tres minutos a un mirador sobre el lago con la
+        montaña enfrente.
+    window:
+      label: Que hoy sea festivo cambia cosas
+      body: >-
+        **El 23 de noviembre es el *Kinrō Kansha no Hi***, festivo nacional del trabajo, y cae en
+        lunes: hay puente. Eso significa **más gente en Kawaguchiko** —es destino de fin de semana
+        para los tokiotas— y, en Tokio, un efecto útil: los **museos que cierran los lunes hoy abren**
+        y **trasladan su cierre al martes 24**. Tenedlo en cuenta para mañana.
+  - block: Noche
+    time: "noche"
+    title: Vuelta, y compensación
+    body: >-
+      Se vuelve con luz de tarde. Y si el día ha salido nublado y se ha cambiado de plan, la
+      compensación de estar en Tokio un festivo es que **todo lo que normalmente cierra los lunes
+      está abierto**: el Museo Nacional de [Ueno](#ueno), los jardines, el Museo Nezu. Es
+      probablemente el mejor lunes posible para hacer museos en esta ciudad.
+alt:
+  label: Si te desmarcas
+  body: >-
+    **Hakone**, en la otra vertiente: un circuito de tren de montaña, funicular, teleférico sobre un
+    valle volcánico humeante y barco pirata por el lago Ashi, con el **Museo al Aire Libre** y sus
+    esculturas de Moore y Picasso entre las montañas. Se hace en el día desde Shinjuku con un pase
+    combinado, tiene **onsen de verdad** y —esto importa— **funciona aunque el Fuji esté tapado**,
+    porque el plan no es la montaña sino el recorrido.

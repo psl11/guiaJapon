@@ -1,0 +1,87 @@
+slug: dia-15-hiroshima
+navLabel: "Día 15 · Hiroshima"
+trip: japon
+order: 15
+eyebrow: El plan · Día 15 · vie 20 nov
+title: Hiroshima, y la ruina que se decidió *no arreglar*
+dek: >-
+  Dos horas de Shinkansen y el día más difícil del viaje. No es un día de monumentos: es un día de
+  entender una decisión —qué se conserva y qué se rehace— y de comprobar que la ciudad de alrededor
+  está muy viva.
+blocks:
+  - block: Mañana
+    time: "08:00–10:30"
+    title: El Shinkansen al oeste
+    body: >-
+      Hora y cuarenta desde [Kioto](#kioto) por el Sanyō Shinkansen. Es el tramo largo del viaje y el mejor
+      para leer con antelación lo que viene: la [ficha de Hiroshima](#hiroshima) conviene llevarla
+      hecha, porque el parque se anda mucho mejor sabiendo lo que se mira.
+    window:
+      label: El tercer envío de maletas
+      body: >-
+        **Hoy salen las maletas grandes hacia Tokio.** Quedan dos noches fuera —Hiroshima y la vuelta—
+        y cargar con equipaje hasta [Miyajima](#miyajima) y luego cuatro horas de tren no tiene sentido. Ver
+        [takkyūbin](#takkyubin).
+  - block: Mediodía
+    time: "11:00–13:00"
+    title: La cúpula, y el eje
+    body: >-
+      El **Genbaku Dome** era el Palacio de Promoción Industrial, obra del checo **Jan Letzel**,
+      de 1915. La bomba estalló **a seiscientos metros de altura y a ciento cincuenta de allí**: casi
+      verticalmente encima, así que la onda le llegó desde arriba y los muros aguantaron mientras
+      todo lo demás caía. Todos los que estaban dentro murieron. En los años cincuenta se debatió
+      demolerla y se decidió **conservarla sin restaurar** — solo se refuerza.
+
+      El **Parque Memorial de la Paz** lo ganó en concurso, en 1949 y con treinta y cinco años, un
+      arquitecto desconocido: **Kenzō Tange**. Su idea es un **eje**: museo, cenotafio y cúpula están
+      alineados, de modo que **desde el cenotafio el arco enmarca la llama y la ruina al fondo**. Hay
+      que ponerse en el punto exacto, y es el momento del parque.
+    window:
+      label: El detalle que se pasa por alto
+      body: >-
+        El epitafio del cenotafio —«descansad en paz, no repetiremos el error»— **no tiene sujeto en
+        japonés**. Esa ausencia es deliberada y lleva ochenta años dando discusión: quién es el que no
+        repetirá el error. Y la **Llama de la Paz** lleva encendida desde 1964 con la instrucción de
+        **apagarla el día en que desaparezca la última arma nuclear del planeta**.
+  - block: Tarde
+    time: "13:00–16:00"
+    title: El museo
+    body: >-
+      El **Museo Memorial de la Paz** se renovó entero en 2019 y hoy apenas usa texto: son objetos y
+      testimonios en primera persona. Es **duro** —un triciclo, un uniforme escolar, la sombra de una
+      persona impresa en unos escalones de granito— y está hecho sin sensacionalismo y sin señalar
+      culpables. Hora y media larga, y **conviene no encadenarlo con nada**: se sale en silencio y
+      hace falta una hora de calle después.
+
+      Fuera, el **Monumento a los Niños**, por **Sadako Sasaki**, que tenía dos años el día de la
+      bomba y murió de leucemia a los once mientras doblaba grullas de papel. Llegan **millones cada
+      año** de colegios de todo el mundo y se exponen en vitrinas alrededor.
+  - block: Atardecer
+    time: "16:00–18:00"
+    title: La ciudad que está viva
+    body: >-
+      Y ahora lo importante: **Hiroshima es una ciudad de un millón doscientos mil habitantes**, no un
+      cementerio. Dos maneras de comprobarlo antes de cenar:
+
+      - Los **árboles supervivientes**, los *hibakujumoku*: unos ciento setenta sauces, cánforas y
+        ginkgos que rebrotaron al año siguiente, cuando se decía que allí no crecería nada en setenta
+        y cinco años. Están señalizados con una placa, y hay varios en el propio parque.
+      - El **tranvía**, que funciona desde 1912. Varios de los vagones que circulan hoy son
+        **supervivientes de 1945**: volvieron a dar servicio **tres días después** de la bomba.
+  - block: Noche
+    time: "noche"
+    title: Okonomi-mura
+    body: >-
+      El ***okonomiyaki* de Hiroshima** es otro plato distinto al de [Osaka](#osaka): aquí **no se mezcla**, se
+      monta en capas —masa fina, montaña de col, panceta, **fideos yakisoba**, huevo a la plancha— y
+      sale una torre. En [**Okonomi-mura**](https://www.google.com/maps/search/?api=1&query=Okonomimura%20Hiroshima), un edificio con más de veinte planchas apiladas en varias
+      plantas, se come sentado a la plancha y lo hace el cocinero delante. Ver
+      [el okonomiyaki](#okonomiyaki). Y si es temporada, **ostras**: la bahía produce el 60 % de las
+      de Japón y noviembre es el arranque.
+alt:
+  label: Si te desmarcas
+  body: >-
+    [**Shukkei-en**](https://www.google.com/maps/search/?api=1&query=Shukkeien%20Garden%20Hiroshima), un jardín de 1620 arrasado por la bomba y replantado, con un ginkgo superviviente
+    dentro y casi nadie: es el contrapeso exacto al parque, a diez minutos andando. Y el **Museo de
+    Arte Contemporáneo**, en la colina de Hijiyama, con una colección construida a propósito alrededor
+    de la idea de la reconstrucción.

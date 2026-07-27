@@ -1,0 +1,76 @@
+slug: dia-14-osaka
+navLabel: "Día 14 · Osaka"
+trip: japon
+order: 14
+eyebrow: El plan · Día 14 · jue 19 nov
+title: Osaka, la ciudad que *se arruina comiendo*
+dek: >-
+  Media hora de tren y el contrario exacto de [Kioto](#kioto): sin patrimonio que defender, sin contención y
+  con una palabra propia para definirse. Es un día de comer de pie y de mirar carteles.
+blocks:
+  - block: Mañana
+    time: "09:30–12:00"
+    title: El castillo, y lo que no es
+    body: >-
+      Se empieza por lo que más lejos queda. El **castillo de Osaka** lo levantó **Toyotomi Hideyoshi
+      en 1583** como el mayor de Japón, y los Tokugawa lo destruyeron en el asedio de 1615. **La torre
+      actual es de 1931, de hormigón armado y con ascensor**: por dentro es un museo, no un castillo,
+      y conviene saberlo para no esperar lo que no hay. Lo que sí merece son **el parque y las
+      murallas** — hay bloques de piedra de más de cien toneladas que se trajeron por mar desde otras
+      provincias. Ver [Osaka](#osaka).
+    window:
+      label: Por qué a primera hora
+      body: >-
+        Porque es lo único de hoy con horario y con cola, y porque el resto del día no lo tiene: **la
+        Osaka que importa es la de la tarde y la noche**, cuando se encienden los carteles. Hacer esto
+        al revés deja el castillo cerrado y [Dōtonbori](https://www.google.com/maps/search/?api=1&query=Dotonbori%20Osaka) a mediodía, que es cuando peor está.
+  - block: Mediodía
+    time: "12:00–15:00"
+    title: Kuromon, y por qué esta ciudad come así
+    body: >-
+      El **mercado de Kuromon** es la despensa de Osaka: pescado, vieiras a la brasa, fruta cortada,
+      *takoyaki*. Se come de puesto en puesto y de pie, que es exactamente la forma local.
+
+      Detrás hay una historia que explica el carácter: con el país cerrado y la corte en Kioto, aquí
+      llegaba en barco **el arroz de todos los dominios** para venderse — la llamaban ***tenka no
+      daidokoro***, «la cocina del país». De ese comercio salió la **Bolsa de Arroz de Dōjima**,
+      autorizada en **1697**, que fue **el primer mercado de futuros del mundo**, siglo y medio antes
+      de Chicago.
+  - block: Tarde
+    time: "15:00–17:30"
+    title: Shinsekai y la torre
+    body: >-
+      Un barrio que se construyó en **1912 imitando a la vez París y Coney Island** y que hoy es un
+      caos de neón, ***kushikatsu*** y la torre [**Tsūtenkaku**](https://www.google.com/maps/search/?api=1&query=Tsutenkaku%20Osaka). Aquí está la regla más seria de
+      Osaka: en el kushikatsu **el cuenco de salsa es comunitario y está terminantemente prohibido
+      mojar dos veces**. Hay carteles.
+  - block: Noche
+    time: "18:00–22:00"
+    title: Dōtonbori, con los carteles encendidos
+    body: >-
+      El canal con el frente de fachadas cubierto de neones, pantallas y esculturas gigantes —un
+      cangrejo que mueve las patas, un pez globo, una mano que agarra [sushi](#sushi)—, porque aquí los
+      restaurantes compiten por el cartel más descarado. El icono es el ***Glico Running Man***, que
+      **corre desde 1935** y va por su sexta versión; fotografiarse imitándolo desde el puente
+      **Ebisubashi** es tradición local, no trampa de turista.
+
+      Alrededor: [**Hōzen-ji Yokochō**](https://www.google.com/maps/search/?api=1&query=Hozenji%20Yokocho%20Osaka), un callejón empedrado con un pequeño altar de Buda
+      **completamente cubierto de musgo** de tanto que se le echa agua encima. Y de cenar:
+      [takoyaki](#takoyaki), [okonomiyaki](#okonomiyaki) —aquí se mezcla todo antes de echarlo a la
+      plancha— y *kitsune [udon](#udon)*, que también se inventó en esta ciudad.
+    window:
+      label: Un aviso de los locales
+      body: >-
+        Lo bueno está tanto en los callejones de detrás como en el canal. **Los restaurantes con la
+        fachada más espectacular de Dōtonbori suelen ser los más caros y los peores**: el cartel de
+        seis metros lo paga alguien.
+alt:
+  label: Si te desmarcas
+  body: >-
+    En vez de Osaka, **[Nara](#nara)**: cuarenta y cinco minutos desde Kioto y es la capital anterior,
+    con el **Gran Buda de Tōdai-ji** —quince metros de bronce fundidos en el 752, en uno de los
+    edificios de madera más grandes del mundo— y **mil doscientos ciervos sueltos** que son mensajeros
+    de los dioses y que se inclinan para pedir galletas. Es un cambio de tema completo respecto a
+    Kioto, y encaja igual de bien en el hueco. Y si se prefiere Osaka pero con otra cosa dentro: el
+    [**Umeda Sky Building**](https://www.google.com/maps/search/?api=1&query=Umeda%20Sky%20Building%20Osaka), dos torres unidas arriba por un observatorio flotante con escaleras
+    mecánicas al aire.

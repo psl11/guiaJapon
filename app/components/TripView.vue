@@ -74,7 +74,7 @@ const knownAnchors = computed(() => new Set<string>([
   ...comidas.value.map(c => c.slug),
   ...platos.value.map(p => p.slug),
   ...salir.value.map(s => s.slug),
-  'el-plan', 'gasto', 'reservas', 'gastronomia', 'salir', 'japon',
+  'el-plan', 'gasto', 'reservas', 'gastronomia', 'salir', 'japon', 'historia',
 ]))
 
 // Índice flotante ─────────────────────────────────────────────────────────────
@@ -137,16 +137,22 @@ const nav = computed(() => {
   if (haySalir.value) {
     groups.push({ key: 'salir', label: 'Salir · música y librerías', anchor: 'salir', items: salir.value.map(s => ({ id: s.slug, label: s.navLabel ?? s.title, kind: 'reco' as const })) })
   }
-  // Después, el relato cultural.
-  if (hayRelato.value) {
+  // Después, los lugares: fichas agrupadas por zona, en orden de itinerario.
+  if (fichas.value.length) {
     groups.push({
       key: 'relato',
-      label: trip.value?.relato?.navLabel ?? 'El porqué',
+      label: trip.value?.relato?.navLabel ?? 'Los lugares',
       anchor: trip.value?.relato?.anchor ?? 'relato',
-      items: [
-        ...actos.value.map(a => ({ id: a.slug, label: a.navLabel ?? stripMd(a.title), numeral: a.numeral, kind: 'acto' as const })),
-        ...fichaItems(fichas.value),
-      ],
+      items: fichaItems(fichas.value),
+    })
+  }
+  // Y al final del todo, la historia: se lee del tirón y cierra la guía.
+  if (actos.value.length) {
+    groups.push({
+      key: 'historia',
+      label: trip.value?.historia?.navLabel ?? 'La historia',
+      anchor: trip.value?.historia?.anchor ?? 'historia',
+      items: actos.value.map(a => ({ id: a.slug, label: a.navLabel ?? stripMd(a.title), numeral: a.numeral, kind: 'acto' as const })),
     })
   }
   return groups
@@ -380,16 +386,27 @@ const indexOpen = ref(false)
         :title="trip.relato.title"
         :dek="trip.relato.dek"
       />
-      <ActoCard
-        v-for="a in actos"
-        :key="a.slug"
-        :acto="a"
-      />
       <FichaCard
         v-for="f in fichas"
         :key="f.slug"
         :ficha="f"
         :known-anchors="knownAnchors"
+      />
+    </template>
+
+    <!-- La historia, al final: seis actos que se leen del tirón y cierran la guía. -->
+    <template v-if="actos.length">
+      <Threshold
+        v-if="trip?.historia"
+        :id="trip.historia.anchor"
+        :overline="trip.historia.overline"
+        :title="trip.historia.title"
+        :dek="trip.historia.dek"
+      />
+      <ActoCard
+        v-for="a in actos"
+        :key="a.slug"
+        :acto="a"
       />
     </template>
   </main>

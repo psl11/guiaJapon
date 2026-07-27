@@ -3,7 +3,7 @@ navLabel: "Kioto"
 trip: japon
 part: japon
 order: 28
-zone: "El resto del país"
+zone: "Kioto"
 emblem: templo
 kicker: Kansai · mil cien años de capital
 title: Kioto, la ciudad que fue el país
@@ -97,8 +97,8 @@ curiosidades:
     Son los nombres de la retícula del año **794**, copiada de la capital china de Chang'an, y
     siguen sirviendo para orientarse.
 seenIn:
-  - ref: '#el-resto-del-pais'
-    label: "Cómo encajarlo"
+  - ref: '#el-mapa-del-viaje'
+    label: "El mapa del viaje"
   - ref: '#acto-1-kami-y-corte'
     label: "Acto 1 · la corte de Heian"
   - ref: '#momiji'

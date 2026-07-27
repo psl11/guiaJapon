@@ -3,7 +3,7 @@ navLabel: "Takayama"
 trip: japon
 part: japon
 order: 25
-zone: "El resto del país"
+zone: "Hida y Kanazawa"
 emblem: casa
 kicker: Hida · la provincia que pagaba en carpinteros
 title: Takayama, el pueblo que pagó sus impuestos con las manos
@@ -81,8 +81,8 @@ curiosidades:
     carrozas son Patrimonio Inmaterial de la Unesco desde 2016. Se celebra en **abril y en octubre**:
     con estas fechas no cae, y por eso conviene entrar a verlas al museo donde se guardan.
 seenIn:
-  - ref: '#el-resto-del-pais'
-    label: "Cómo encajarlo"
+  - ref: '#el-mapa-del-viaje'
+    label: "El mapa del viaje"
   - ref: '#dia-8-bajada'
     label: "Día 8 · el grupo sigue hacia aquí"
   - ref: '#acto-4-edo'

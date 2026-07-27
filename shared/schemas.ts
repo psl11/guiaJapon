@@ -245,6 +245,14 @@ export const TripSchema = z.object({
     title: Md,
     dek: Md,
   }).optional(),
+  // Umbral de la historia, que cierra la guía (los actos van los últimos).
+  historia: z.object({
+    navLabel: z.string(),
+    anchor: z.string(),
+    overline: z.string(),
+    title: Md,
+    dek: Md,
+  }).optional(),
 })
 
 // ── Tipos TS derivados (una sola fuente de verdad) ────────────────────────────

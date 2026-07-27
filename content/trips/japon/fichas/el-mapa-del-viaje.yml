@@ -1,0 +1,81 @@
+slug: el-mapa-del-viaje
+navLabel: "El mapa del viaje"
+trip: japon
+part: japon
+order: 5
+zone: "Cómo mirar"
+emblem: montana
+kicker: Japón · la forma de estas tres semanas
+title: El mapa del viaje — veintiún días en tres arcos
+epithet: >-
+  Antes de entrar en los sitios conviene ver la forma del conjunto, porque este viaje no es una línea
+  recta: es un bucle. Sale de Tokio, sube a la montaña, baja al oeste hasta Hiroshima y vuelve a
+  Tokio a cerrar. Entenderlo ahorra la mitad de las dudas logísticas.
+sections:
+  - heading: Los tres arcos
+    body: |
+      **Arco uno · Tokio y su alrededor (días 1-5).** Cinco noches en la misma cama, en Shinjuku, con
+      tres días de ciudad y una excursión a Kamakura. Es donde se paga el desfase horario, y por eso
+      es donde conviene meter todo lo que exige madrugar.
+
+      **Arco dos · la montaña y el interior (días 6-11).** El giro que hace este viaje distinto:
+      Matsumoto, **Kamikōchi** —un valle sin coches que cierra el 15 de noviembre—, Takayama,
+      Shirakawa-gō y Kanazawa. Se cambia de cama casi cada noche y el equipaje pasa a ser un problema
+      que se resuelve mandándolo por delante.
+
+      **Arco tres · el oeste y la vuelta (días 12-21).** Kioto tres noches con Osaka de excursión,
+      Hiroshima y Miyajima, y **regreso a Tokio** para los últimos seis días: compras, el Fuji si el
+      tiempo acompaña, y Nikkō.
+
+      Y en mitad del arco dos, el grupo se parte: **uno vuelve a Barcelona el día 8** y los otros tres
+      siguen hasta el 26. Esta guía cuenta **el viaje entero**; el que se baja antes se lee los ocho
+      primeros días como plan, y el resto como lo que le queda pendiente para la sexta vez.
+  - heading: Lo que cuesta moverse
+    body: |
+      De Kioto para abajo todo va en línea recta sobre el viejo **Tōkaidō**, la carretera de Edo a
+      Kioto, que hoy es la línea de Shinkansen más transitada del mundo. Los Alpes y Hida, en cambio,
+      se hacen en autobús: allí arriba no llega el tren rápido.
+
+      - **Shinjuku → Matsumoto**: 2 h 30 en el limited express *Azusa*
+      - **Matsumoto → Kamikōchi**: 1 h 30 · **Kamikōchi → Hirayu → [Takayama](#takayama)**: ~1 h 30
+      - **Takayama → [Shirakawa-gō](#shirakawa-go)**: 50 min ·
+        **Shirakawa-gō → [Kanazawa](#kanazawa)**: 1 h 15
+      - **Kanazawa → [Kioto](#kioto)**: 2 h 15 · **Kioto → [Osaka](#osaka)**: 30-45 min
+      - **Kioto → [Hiroshima](#hiroshima)**: 1 h 40 · **Hiroshima → [Miyajima](#miyajima)**: 40 min
+        contando el ferry · **Hiroshima → Tokio**: 4 h
+      - **Tokio → [Nikkō](#nikko)**: 2 h, y es ida y vuelta en el día
+
+      El detalle que cambia la cuenta: **el JR Pass no cubre el Nozomi**, el más rápido. Y **los
+      autobuses de los Alpes y de Hida no son JR**: se pagan aparte, con pase o sin él. La aritmética
+      completa está en [el JR Pass](#jr-pass).
+  - heading: Las tres cosas que hay que cerrar antes de salir
+    body: |
+      Casi todo este viaje se improvisa bien. Tres cosas no:
+
+      1. **La noche de Kamikōchi.** El valle tiene una docena escasa de alojamientos, todos
+         estacionales, y el Shirakabaso **cierra el 14 de noviembre**. Las reservas abren en enero y
+         **no hay plan B**: no existe pueblo al que bajar.
+      2. **El autobús a Kamikōchi**, que se llena y se compra por internet.
+      3. **Shibuya Sky y teamLab**, cuyas franjas buenas se agotan con días de antelación. Ver
+         [qué hay que reservar](#reservas-tokio).
+
+      Todo lo demás —trenes, museos, restaurantes— se resuelve sobre la marcha o con un día de
+      antelación. Y el equipaje tiene su propia solución, que aquí se usa tres veces: ver
+      [mandar las maletas por delante](#takkyubin).
+curiosidades:
+  - >-
+    El trayecto **Tokio–Osaka** es la línea de alta velocidad **más transitada del planeta**: sale un
+    tren cada pocos minutos y su retraso medio anual se mide **en segundos**.
+  - >-
+    El **Tōkaidō** que sigue el Shinkansen es la misma ruta que Hiroshige grabó en 1833 en sus
+    *Cincuenta y tres estaciones*: las paradas del tren de alta velocidad son, casi una por una,
+    **las antiguas postas donde se cambiaba de caballo**.
+  - >-
+    Estas tres semanas caben en un país **del tamaño de Alemania** — pero con el **73 % de su
+    superficie en montaña**, que es exactamente la razón de que todo el mundo viva y viaje por la
+    misma franja costera, y de que subir a Kamikōchi cambie tanto el viaje.
+seenIn:
+  - ref: '#jr-pass'
+    label: "¿Merece la pena el JR Pass?"
+  - ref: '#takkyubin'
+    label: "Las maletas por delante"

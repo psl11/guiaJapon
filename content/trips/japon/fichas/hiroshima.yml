@@ -3,7 +3,7 @@ navLabel: "Hiroshima"
 trip: japon
 part: japon
 order: 35
-zone: "El resto del país"
+zone: "Hiroshima y Miyajima"
 emblem: loto
 kicker: Chūgoku · la ciudad de después
 title: Hiroshima, y la ruina que se decidió no arreglar
@@ -96,5 +96,5 @@ seenIn:
     label: "Miyajima, al lado"
   - ref: '#acto-6-ceniza-y-milagro'
     label: "Acto 6 · la ceniza y el milagro"
-  - ref: '#el-resto-del-pais'
-    label: "Cómo encajarlo"
+  - ref: '#el-mapa-del-viaje'
+    label: "El mapa del viaje"

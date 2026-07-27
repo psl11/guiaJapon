@@ -12,18 +12,25 @@ lede: >-
   la primera vez— como si nadie los hubiera contado antes; y al lado, en voz baja, deja las salidas
   laterales para quien ya los conoce y prefiere el desvío. Ninguna de las dos sobra.
 relato:
-  navLabel: Japón por dentro
+  navLabel: Los lugares
   anchor: japon
-  overline: Y ahora, el porqué
-  title: Japón · *por dentro*
+  overline: Y ahora, los sitios
+  title: Los lugares, *uno a uno*
   dek: >-
-    Esto no es un listado de sitios: es el trasfondo que convierte un torii en una frontera, un
-    castillo en un arma y una hoja roja en una tradición de mil años. Se lee *antes* de cada tramo, y
-    conviven dos tipos de ficha: las que se leen del tirón, como un capítulo de historia, y las que
-    se consultan de un vistazo antes de una visita. Hay además dos capas pensadas para lectores
-    distintos: **«La quinta vez»**, con el Tokio que no sale en las listas —para quien ya se ha hecho
-    los clásicos cuatro veces—, y **«El resto del país»**, con lo que este itinerario no toca y el
-    grupo sí verá después del día 13.
+    A partir de aquí, una ficha por sitio, **agrupadas por ciudad y en el mismo orden en que el viaje
+    las va encontrando**: Tokio, Kamakura, los Alpes, Hida, Kioto, Osaka, Hiroshima y la vuelta a
+    Tokio. No son listados de qué ver: son el porqué de cada sitio —lo que hay que mirar, a qué hora
+    y qué historia lleva detrás—, para leerlas la víspera y no delante del monumento.
+historia:
+  navLabel: La historia
+  anchor: historia
+  overline: Y por debajo de todo
+  title: Mil quinientos años, *en seis actos*
+  dek: >-
+    Cierra la guía lo que la sostiene por debajo. Seis capítulos que se leen del tirón, de los
+    primeros kami a las décadas perdidas, y que explican por qué un torii es una frontera, un
+    castillo es un arma y una hoja roja es una tradición de mil años. Cada acto termina señalando
+    dónde se toca con las manos durante el viaje.
 rationale: >-
   El grupo viaja veintiún días de punta a punta del país. Este itinerario cubre **los ocho primeros**,
   que son los que hacemos juntos los cuatro: Tokio a fondo, un salto a Kamakura, y luego el giro que

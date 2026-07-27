@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: cuenco
 kicker: Tokio · el mercado que se quedó
 title: Tsukiji, el mercado exterior
+image:
+  src: img/fichas/tsukiji.webp
+  alt: "Clientes eligiendo erizo de mar en un puesto del mercado exterior de Tsukiji."
+  credit: "KimonBerlin · CC BY-SA 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Choosing_the_right_uni_(2077579258).jpg"
 epithet: >-
   El gran mercado mayorista se mudó a Toyosu en 2018 y mucha gente dio Tsukiji por muerto. Se
   equivocaban: lo que se fue fue la subasta; lo que se quedó —cuatrocientos puestos de comer y de

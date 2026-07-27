@@ -4,6 +4,11 @@ kind: plato
 order: 15
 title: El konbini y el ekiben
 navLabel: "Konbini y ekiben"
+image:
+  src: img/platos/konbini.webp
+  alt: "Dos onigiri triangulares envueltos en alga sobre un plato."
+  credit: "Ocdp · CC0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Onigiri_002.jpg"
 queEs: >-
   Las dos formas japonesas de comer sin restaurante, y las dos son mucho mejores de lo que suenan.
   El ***konbini*** es la tienda de veinticuatro horas —7-Eleven, Lawson, FamilyMart— donde de verdad

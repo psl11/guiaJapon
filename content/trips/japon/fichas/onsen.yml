@@ -7,6 +7,11 @@ zone: "Cómo mirar"
 emblem: cuenco
 kicker: Japón · cómo mirar
 title: El onsen, sin miedo
+image:
+  src: img/fichas/onsen.webp
+  alt: "Un baño termal al aire libre entre rocas, con arces enrojecidos alrededor."
+  credit: "RickardA · dominio público"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Takanoyu_Onsen_Rotenburo_086.jpg"
 epithet: >-
   Meterse desnudo en agua hirviendo con desconocidos es la barrera que más gente se salta en Japón, y
   es un error: el baño no es un extra del viaje, es una de las cosas que hay que hacer. El protocolo

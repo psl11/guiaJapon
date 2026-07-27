@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: copa
 kicker: Tokio · vuestra base
 title: Shinjuku, que empezó siendo el ano de Tokio
+image:
+  src: img/fichas/shinjuku.webp
+  alt: "El callejón de Omoide Yokochō en Shinjuku, con farolillos rojos y barras de yakitori."
+  credit: "Yiannis Theologos Michellis · CC0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Yakitori_shop_lanterns_in_Omoide-Yokoch%C5%8D,_Shinjuku,_Tokyo,_Japan_2011_2_(7024865381).jpg"
 epithet: >-
   Dormís cinco noches aquí y probablemente no le dediquéis ni una hora. Merece más: es la estación
   más transitada del planeta, el barrio donde Tokio inventó el rascacielos y la posguerra a partes

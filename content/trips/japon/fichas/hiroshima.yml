@@ -7,6 +7,11 @@ zone: "Hiroshima y Miyajima"
 emblem: loto
 kicker: Chūgoku · la ciudad de después
 title: Hiroshima, y la ruina que se decidió no arreglar
+image:
+  src: img/fichas/hiroshima.webp
+  alt: "La Cúpula de la Bomba Atómica de Hiroshima, con la estructura metálica desnuda, bajo un cielo azul."
+  credit: "Oilstreet · CC BY 2.5"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG"
 epithet: >-
   El 6 de agosto de 1945 a las 8:15 desapareció una ciudad. Lo que se visita hoy no es un
   cementerio: es una ciudad de un millón doscientos mil habitantes, ruidosa y con muy buena comida,

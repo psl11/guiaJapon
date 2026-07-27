@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: copa
 kicker: Tokio · el barrio de la plata
 title: Ginza, el barrio que se llama como una fábrica de moneda
+image:
+  src: img/fichas/ginza.webp
+  alt: "El edificio Wakō con su torre del reloj en el cruce de Ginza."
+  credit: "Guilhem Vellut from Annecy, France · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Clock_@_Ginza_(8973972208).jpg"
 epithet: >-
   Es la avenida de lujo de Japón y no se parece a ninguna otra del mundo, porque aquí lo caro no
   está en las tiendas: está en los sótanos, en los sitios de comer sin cartel y en una manzana de

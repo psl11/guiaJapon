@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: copa
 kicker: Tokio · del after al museo
 title: Roppongi, el barrio que se reinventó entero
+image:
+  src: img/fichas/roppongi.webp
+  alt: "El horizonte de Tokio de noche desde Roppongi, con la Torre de Tokio iluminada en el centro."
+  credit: "David Kernan · CC BY 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Tokyo_Tower,_Minato_City.jpg"
 epithet: >-
   Durante décadas fue el barrio de la noche turbia de Tokio: bares para extranjeros, clubes y cierta
   mafia. Hoy es la mayor concentración de arte contemporáneo del país. Pocas ciudades cambian un

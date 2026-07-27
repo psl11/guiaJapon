@@ -19,7 +19,7 @@ export default defineNuxtConfig({
       id: '/guiaJapon/',
       name: 'Japón · Guía de viaje',
       short_name: 'Japón',
-      description: 'Guía de viaje a Japón (6–13 noviembre 2026): Tokio, Kamakura, Matsumoto y Kamikōchi. Funciona sin conexión.',
+      description: 'Guía de viaje a Japón (6–26 noviembre 2026): Tokio, los Alpes, Hida, Kioto y Hiroshima. Funciona sin conexión.',
       lang: 'es',
       dir: 'ltr',
       start_url: '/guiaJapon/',

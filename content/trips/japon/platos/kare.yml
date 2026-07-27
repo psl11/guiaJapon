@@ -4,6 +4,11 @@ kind: plato
 order: 14
 title: Curry japonés
 navLabel: "Curry (karē)"
+image:
+  src: img/platos/kare.webp
+  alt: "Un plato de katsu curry: arroz, salsa espesa y chuleta empanada cortada en tiras."
+  credit: "Ocdp · CC0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Katsu-curry_003.jpg"
 queEs: >-
   Una salsa espesa, marrón y **dulce**, sin apenas picante, servida sobre arroz con un trozo de
   carne o una chuleta empanada encima. No se parece al curry indio ni al tailandés: es más cercano a

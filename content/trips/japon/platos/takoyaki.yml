@@ -3,6 +3,11 @@ trip: japon
 kind: plato
 order: 12
 title: Takoyaki
+image:
+  src: img/platos/takoyaki.webp
+  alt: "Una barqueta de takoyaki recién hechos, con salsa, cebolleta y virutas de bonito."
+  credit: "City Foodsters · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Honkeohtako%27s_takoyaki,_Osaka;_December_2013_(06).jpg"
 queEs: >-
   Bolas de masa líquida con un taco de **pulpo** dentro, hechas en una plancha de semiesferas de
   hierro y volteadas una a una con un punzón hasta que quedan redondas. Se sirven de seis en seis

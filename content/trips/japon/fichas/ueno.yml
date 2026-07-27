@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: libro
 kicker: Tokio · el parque de los museos
 title: Ueno, el ángulo maldito
+image:
+  src: img/fichas/ueno.webp
+  alt: "Arces enrojecidos reflejados en el estanque de Shinobazu, en el parque de Ueno."
+  credit: "Yoshikazu TAKADA from Tokyo, Japan · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Autumn_Leaves,_Pond_and_Old_Teahouse_(31058392181).jpg"
 epithet: >-
   El gran parque de Tokio no nació como parque sino como escudo: un templo colocado a propósito en la
   esquina nordeste del castillo de Edo, que es por donde la cosmología china dice que entran los

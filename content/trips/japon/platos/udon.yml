@@ -3,6 +3,11 @@ trip: japon
 kind: plato
 order: 13
 title: Udon
+image:
+  src: img/platos/udon.webp
+  alt: "Un cuenco de kitsune udon con tofu frito y cebolleta en caldo claro."
+  credit: "Rickard Törnblad · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Udon_noodles_in_a_bowl_in_a_restaurant_in_Hiroshima,_Japan_-_September_2015.jpg"
 queEs: >-
   El fideo grueso y blanco de trigo, blando y elástico, servido en un caldo claro de *dashi* y soja
   —mucho más suave que el del [ramen](#ramen)— o **frío con salsa aparte** para mojar. Es el fideo doméstico

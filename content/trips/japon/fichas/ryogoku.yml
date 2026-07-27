@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: casa
 kicker: Tokio · al otro lado del Sumida
 title: Ryōgoku, donde vive el sumo
+image:
+  src: img/fichas/ryogoku.webp
+  alt: "El Kokugikan de Ryōgoku, el estadio nacional de sumo, con su tejado verde entre edificios."
+  credit: "Steve Cadman · CC BY-SA 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Ryogoku_Great_Sumo_Hall.jpg"
 epithet: >-
   Un barrio entero organizado alrededor de un deporte. Aquí están el estadio nacional, los establos
   donde entrenan los luchadores y los restaurantes que sirven su comida. Y hay una carta que juega

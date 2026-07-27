@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: casa
 kicker: Tokio · el cruce
 title: Shibuya, el cruce y el perro
+image:
+  src: img/fichas/shibuya.webp
+  alt: "El cruce de Shibuya visto desde arriba de noche, rodeado de pantallas y neones."
+  credit: "David Kernan · CC BY 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing,_Aerial.jpg"
 epithet: >-
   El paso de peatones más transitado del planeta, y a diez metros la estatua de un perro que esperó
   nueve años a un muerto. Las dos cosas cuentan lo mismo: aquí la multitud y la lealtad son

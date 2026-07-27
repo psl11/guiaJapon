@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: libro
 kicker: Tokio · la ciudad eléctrica
 title: Akihabara, que empezó vendiendo piezas de radio
+image:
+  src: img/fichas/akihabara.webp
+  alt: "La calle principal de Akihabara con las fachadas cubiertas de carteles y neones de electrónica."
+  credit: "Vasconium · CC BY-SA 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Akihabara,_Tokyo,_Japan_002.jpg"
 epithet: >-
   El barrio del manga, el anime y las máquinas recreativas no nació de ninguna subcultura: nació de
   un mercado negro de componentes de radio bajo las vías del tren. Toda su historia posterior —la

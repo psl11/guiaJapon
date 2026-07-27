@@ -3,6 +3,11 @@ trip: japon
 kind: plato
 order: 11
 title: Tsukemen
+image:
+  src: img/platos/tsukemen.webp
+  alt: "Fideos de tsukemen levantados con los palillos junto al cuenco de caldo concentrado."
+  credit: "City Foodsters · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Tsukemen_noodles_being_dipped.jpg"
 queEs: >-
   Ramen desmontado. El fideo viene **frío o templado y en seco**, por un lado; el caldo, aparte, en
   un cuenco pequeño, **mucho más concentrado, espeso y salado** de lo que nadie se bebería. Se coge

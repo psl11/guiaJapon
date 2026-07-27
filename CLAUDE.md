@@ -29,7 +29,7 @@ cuarto, el quinto. La guía cuenta el viaje entero y sirve a los dos lectores a 
 
 ---
 
-## 3. Las siete trampas que ya nos han costado tiempo
+## 3. Las ocho trampas que ya nos han costado tiempo
 
 **3.1 · Content v3 NO valida `type:'data'` contra zod en el build.** Es un fallo conocido
 (nuxt/content#3351). Un YAML mal formado pasa el build y revienta en runtime. **La puerta real es
@@ -58,6 +58,14 @@ rompe el parser. Los tests lo cazan, pero el error que dan (`Nested mappings…`
 
 **3.7 · `zone` debe ser contigua y `order` único** por (colección · part). Si insertas una ficha en
 medio, **renumera todo el bloque**, no solo el vecino.
+
+**3.8 · `<MDC>` emite bloque; en contexto inline rompe la hidratación.** Un `<MDC unwrap="p">`
+dentro de un `<h2>` o un `<p>` mete un `<div>` donde no cabe: HTML inválido, el navegador lo
+reparienta y el árbol del cliente deja de coincidir con el del servidor. Se manifestó en guiaVietnam
+como **pull-quotes que perdían su clase CSS al hidratar** — no como un error, que es lo que lo hace
+difícil de cazar. La regla: **`<MDC>` solo dentro de su propio `<div>`; todo lo inline por
+`inlineMd()`** (`app/utils/inline-md.ts`, auto-importado), que da el mismo HTML en los dos lados.
+Al añadir un componente de tarjeta nuevo, esto es lo primero que hay que mirar.
 
 ---
 
@@ -102,6 +110,11 @@ node scripts/check-weight.mjs   # presupuesto: imagen ≤500 KB, total ≤15 MB,
 En `.claude/launch.json` está el servidor de desarrollo (`japon-dev`, puerto 3001). El sitio vive
 bajo `/guiaJapon/`, así que hay que navegar a `http://localhost:3001/guiaJapon/`, no a la raíz.
 
+**Los tres corren también en CI**, y en ese orden: `.github/workflows/deploy.yml` ejecuta
+`test:unit && test:data` **antes** de `generate`, y el presupuesto de peso después. Un YAML inválido
+no llega a producción en silencio. No es adorno: en guiaVietnam el despliegue corría solo el
+`generate` y hubo que añadir la puerta a posteriori. Si tocas el workflow, no la quites.
+
 ### El escáner editorial
 
 Vive fuera del repo (se regenera fácil): detecta variantes de un mismo topónimo, tipografía, tics
@@ -143,6 +156,31 @@ lo que falta. **Una foto suya sustituye siempre a una de Commons.**
 
 Regla con las fuentes: **usar los datos, nunca copiar la prosa**. Y contrastar: el Rough dice que
 Ieyasu construyó el castillo de Edo en 1497; lo empezó Ōta Dōkan en 1457.
+
+**Aviso para quien llegue nuevo: ninguna de las dos primeras está en el repo**, y no puede estarlo
+—el EPUB tiene derechos y el export de Notion son ficheros personales—. Es la diferencia grande con
+el repo hermano `guiaVietnam`, que sí guarda su documento de referencia dentro
+(`referencia-vietnam-camboya.md`, 185 KB) y con él se puede trabajar sin pedir nada a nadie. **Aquí
+no.** Si vas a escribir contenido nuevo y no solo a corregir, **pídele a Pablo el EPUB y el export**;
+sin ellos solo puedes trabajar sobre lo que ya está escrito, y el riesgo de inventar un dato que
+suena bien es alto.
+
+---
+
+## 7 bis. Los repos hermanos
+
+La plataforma es la misma en tres sitios y **las lecciones viajan entre ellos**:
+
+- **`guiaVietnam`** — de donde salió este fork. Ahí está `NOTAS-MERGE-ROMA.md`, que acumula lo
+  aprendido desplegando de verdad: que `better-sqlite3` necesita build nativo en CI
+  (`onlyBuiltDependencies`), que GitHub Pages hay que pasarlo de `build_type: legacy` a `workflow`,
+  que el CDN tarda un minuto largo en propagar y los *query params* no bustean su caché. Antes de
+  pelearte con el despliegue, léelo.
+- **`guiaRoma`** — su migración a Nuxt es el **PR #8, sin mergear**; el Roma vivo sigue siendo un
+  `index.html` a pelo. Nada de aquí le afecta hoy.
+
+Si arreglas aquí algo que sea de plataforma y no de contenido, **anótalo donde corresponda en el
+otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 
 ---
 

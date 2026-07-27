@@ -3,21 +3,23 @@ navLabel: "Día 1 · Vuelo"
 trip: japon
 order: 1
 eyebrow: El plan · Día 1 · vie 6 nov
-title: Barcelona — Tokio, *ocho husos* al este
+title: Hasta Tokio, *ocho husos* al este
 dek: >-
-  Un día que en realidad empieza la noche anterior. Se vuela de noche, se aterriza en Tokio a las
-  siete de la tarde del viernes y se llega hecho polvo — eso es lo normal y no pasa nada. El plan de
+  Un día que en realidad empieza el jueves. Se sale de Madrid la tarde anterior, se aterriza en
+  Tokio a las **19:50** del viernes y se llega hecho polvo — eso es lo normal y no pasa nada. El plan de
   hoy es corto a propósito: hotel, cenar cerca, diez minutos de calle y a dormir.
 blocks:
   - block: El vuelo
     time: "la noche anterior y todo el día"
     title: Ocho horas de ventaja, y la cuenta que sorprende
     body: >-
-      Japón va **ocho horas por delante** de Barcelona en noviembre, así que la aritmética engaña.
-      Aterrizar a las **19:00 del viernes en Tokio** son **las 11:00 de la mañana en Barcelona**: con
-      unas quince horas de vuelo y escala, eso significa **salir el jueves por la noche**. Si el vuelo
-      sale el viernes por la mañana, se llega el sábado y el itinerario se corre un día — es lo
-      primero que hay que mirar al comprar los billetes.
+      Japón va **ocho horas por delante** de España en noviembre, y eso hace que la aritmética
+      engañe. Los billetes del grupo lo demuestran: **salen de Madrid el jueves 5 a las 16:40**, no el
+      6, porque el trayecto —Air China, con casi cinco horas de escala en Pekín— se come un día
+      entero. Aterrizan en **Haneda a las 19:50 del viernes 6**. Ver [los vuelos](#vuelos).
+
+      Quien compre todavía tiene ahí el aviso: **para llegar el 6 por la tarde hay que salir el 5**.
+      Un vuelo que despegue el viernes por la mañana aterriza el sábado y corre el itinerario un día.
 
       La consecuencia de volar al este es que **el día se come a sí mismo**: se despega de noche, se
       cruza el amanecer en algún punto sobre Asia y se llega con el calendario intacto pero con el
@@ -36,17 +38,19 @@ blocks:
         día en la cabina, e ignorar la bandeja si cae en esa franja —se puede pedir que la guarden—;
         y **no dormir las dos últimas horas**, que es cuando entra la tentación.
 
-        Y una expectativa honesta: **vais a llegar cansados igual**. Quince horas de asiento son
-        quince horas de asiento y el reloj biológico solo arregla una parte. Lo bueno es que hoy no
+        Y una expectativa honesta: **vais a llegar cansados igual**. De Madrid a Haneda son
+        **diecinueve horas de puerta a puerta** contando la escala, y el reloj biológico solo arregla
+        una parte. Lo bueno es que hoy no
         hay que hacer nada.
   - block: Llegada
-    time: "19:00"
+    time: "19:50"
     title: Del aeropuerto a Shinjuku
     body: >-
-      Trámite de entrada, dinero y datos —los tres primeros movimientos— y al hotel. De **Narita** al
-      centro se tarda entre 60 y 90 minutos; de **Haneda**, la mitad. Contando cola de inmigración,
+      Trámite de entrada, dinero y datos —los tres primeros movimientos— y al hotel. El grupo llega a
+      **Haneda**, que juega a favor: está dentro de la ciudad y son unos **cuarenta minutos** al
+      centro, frente a la hora y media larga de Narita. Aun así, contando cola de inmigración,
       maletas y trayecto, **de la puerta del avión a la del hotel se va a las nueve y media o las
-      diez de la noche**, así que la agenda de hoy es esta y no hay más: dejar las maletas en
+      diez de la noche**. La agenda de hoy es esta y no hay más: dejar las maletas en
       [**Shinjuku**](#shinjuku), que es la base de estos cinco primeros días, y salir a cenar algo
       cerca.
     window:
@@ -71,8 +75,11 @@ blocks:
 alt:
   label: Si te desmarcas
   body: >-
-    Ya conoces la llegada, así que el margen está en el aeropuerto: si acabáis en **Narita**, el
-    Skyliner es rápido pero el **Narita Express** deja directamente en Shinjuku sin transbordo con
-    cuatro maletas, que a esa hora vale más que los diez minutos de diferencia. Y si el vuelo llega
-    con adelanto, la **terminal de Haneda** tiene una réplica de calle de Edo en la planta cuarta que
-    se ve en veinte minutos y que a los otros tres les va a hacer más gracia de la que parece.
+    Si tu vuelo llega antes que el suyo —y con billete propio es probable— tienes una espera que
+    aprovechar sin salir del aeropuerto: la **Terminal 3 de Haneda** tiene en la cuarta planta una
+    **réplica de una calle de Edo**, con puestos y farolillos, y una **terraza al aire libre** desde
+    la que se ven despegar los aviones. Veinte minutos, y a los otros tres les va a hacer más gracia
+    de la que parece cuando lleguéis juntos otro día.
+
+    Y si al final vuelas por **Narita**: el Skyliner es más rápido, pero el **Narita Express** deja
+    directamente en Shinjuku sin transbordo, que con maleta y a esa hora vale más que diez minutos.

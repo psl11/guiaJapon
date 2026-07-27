@@ -4,19 +4,37 @@ trip: japon
 order: 2
 kind: reservar
 title: Los vuelos, ida y vuelta
-area: Barcelona ⇄ Tokio
+area: Madrid ⇄ Tokio (Haneda) · Air China vía Pekín
 status: pendiente
-note: "Tres vuelven el 26 · uno se baja la noche del 13"
+note: "Tres ya los tienen · falta el de la vuelta del 13"
 body: >-
-  **La ida** es sencilla: llegar a Tokio el **6 de noviembre** a tiempo del check-in con el grupo. La
-  vuelta tiene una condición dura —**estar en Barcelona el 14**, a poder ser a mediodía— y una
-  solución elegante.
+  **Los tres que hacen el viaje entero ya tienen billete**, y sus horarios fijan dos cosas del plan:
 
 
-  Las salidas de Tokio hacia Barcelona se concentran **entre las 21:00 y medianoche** y tardan unas
-  veintiuna horas con una escala (Turkish vía Estambul, Qatar vía Doha). Con las **ocho horas** que
-  se ganan de huso, un vuelo nocturno del **13** aterriza **la mañana del 14**. Es decir: se puede
-  amanecer en [Kamikōchi](#kamikochi), bajar del valle y volar esa misma noche **sin perder el viernes 13**.
+  **Ida ·** Air China desde **Madrid**, saliendo el **jueves 5** —no el 6— porque el trayecto se come
+  un día entero: **CA 866** MAD 16:40 → Pekín 10:40 del día siguiente, cuatro horas y tres cuartos de
+  escala, y **CA 421** Pekín 15:25 → **Haneda 19:50 del viernes 6**. Con el traslado al hotel, en
+  Shinjuku sobre las **21:00**.
 
 
-  Y una advertencia: **noviembre es temporada alta de kōyō**. Cuanto antes, mejor precio.
+  **Vuelta ·** **CA 422** Haneda 21:00 del **jueves 26** → Pekín 00:20, **una hora y treinta y cinco
+  minutos de escala**, y **CA 907** Pekín 01:55 → Madrid 07:20 del viernes 27.
+
+
+  Dos consecuencias que conviene tener presentes. La primera, buena: **se entra y se sale por
+  Haneda**, no por Narita — media hora al centro en vez de hora y media, y es **el único aeropuerto
+  donde se devuelve la fianza de la tarjeta IC** (ver [cómo moverse](#transporte-tokio)). La segunda,
+  para vigilar: **la escala de vuelta en Pekín es de 1 h 35**. Da, pero no sobra; conviene confirmar
+  con la aerolínea si el equipaje va facturado hasta Madrid o hay que recogerlo en Pekín, porque eso
+  cambia el cálculo por completo.
+
+
+  **El cuarto billete está sin comprar**, y tiene una condición dura: **estar en Barcelona el 14**, a
+  poder ser a mediodía. La solución es la misma aritmética del huso — las salidas de Tokio hacia
+  Europa se concentran **entre las 21:00 y medianoche** y tardan unas veinte horas con una escala, así
+  que un vuelo nocturno del **13** aterriza **la mañana del 14**. Es decir: se puede amanecer en
+  [Kamikōchi](#kamikochi), bajar del valle y volar esa misma noche **sin perder el viernes 13**.
+
+
+  Y una advertencia que ya no admite espera: **noviembre es temporada alta de kōyō** y los tres
+  compañeros ya han comprado. Cuanto antes, mejor precio.

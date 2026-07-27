@@ -35,16 +35,18 @@ blocks:
     time: "15:00–18:00"
     title: Al aeropuerto
     body: >-
-      Contad **hora y media larga** desde el centro, más el margen del aeropuerto. Desde Shinjuku, el
-      **Narita Express** va directo; a Haneda es la mitad de tiempo. Con vuelo a las 21:00, salir del
-      centro a las 17:00 es cómodo y a las 18:00 es justo.
+      El vuelo sale de **Haneda**, así que el traslado es corto: **unos cuarenta minutos** desde
+      Shinjuku por la línea Keikyū o el monorraíl, no la hora y media de Narita. Con salida a las
+      **21:00**, dejar el centro a las **18:00** es cómodo y a las 18:30 es justo. Ver
+      [los vuelos](#vuelos).
     window:
       label: Antes de pasar el control
       body: >-
-        Dos trámites de última hora: **devolver la tarjeta IC** si es física y se quiere recuperar la
-        fianza —**solo se puede en Haneda, no en Narita**—, y **el tax-free**, que este año podría
-        haber cambiado al reembolso en aeropuerto: si es así, las compras tienen que ir **sin abrir**
-        y hay mostrador antes del control. Ver [dinero](#dinero).
+        Dos trámites de última hora, y el primero **esta vez sí se puede hacer**: la fianza de la
+        tarjeta IC física solo se devuelve **en Haneda**, y de Haneda salís — hay mostrador en la
+        terminal. El segundo es **el tax-free**, que este año podría haber cambiado al reembolso en
+        aeropuerto: si es así, las compras tienen que ir **sin abrir** y el mostrador está antes del
+        control. Ver [dinero](#dinero).
   - block: Noche
     time: "21:00"
     title: Ocho husos al oeste

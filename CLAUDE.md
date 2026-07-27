@@ -1,0 +1,161 @@
+# Cómo trabajar en esta guía
+
+Manual de operaciones para quien continúe este repo —persona o agente—. No repite lo que se ve
+leyendo el código: recoge **las decisiones, las convenciones y las trampas** que costaron tiempo
+descubrir.
+
+---
+
+## 1. Qué es esto
+
+Guía de viaje a Japón (**6–26 de noviembre de 2026**, 21 días, cuatro viajeros) publicada como sitio
+estático en https://psl11.github.io/guiaJapon/. Bifurcada de `guiaVietnam`, que comparte plataforma.
+
+**El dato que ordena todo el contenido:** el grupo son cuatro, **tres hacen los 21 días** y **uno
+vuelve a Barcelona el 13 de noviembre** (la jornada 8). Para tres es su primer viaje a Japón; para el
+cuarto, el quinto. La guía cuenta el viaje entero y sirve a los dos lectores a la vez.
+
+---
+
+## 2. Arquitectura, en cuatro líneas
+
+- **Nuxt 4** con `nuxi generate` → GitHub Pages (`nitro.preset: 'github_pages'`, `app.baseURL`).
+- **@nuxt/content v3**, colecciones `type: 'data'` sobre ficheros YAML en `content/trips/japon/`.
+- **Los esquemas viven en `shared/schemas.ts`** y los consumen dos sitios: `content.config.ts` (tipos
+  y columnas SQL) y los tests. Una sola fuente de verdad.
+- **PWA con precaché total** (`@vite-pwa/nuxt`): app shell, contenido y las 56 fotos, ~13 MB.
+
+«Añadir un viaje = añadir ficheros»: los globs son `trips/*/…`, así que un viaje nuevo no toca código.
+
+---
+
+## 3. Las siete trampas que ya nos han costado tiempo
+
+**3.1 · Content v3 NO valida `type:'data'` contra zod en el build.** Es un fallo conocido
+(nuxt/content#3351). Un YAML mal formado pasa el build y revienta en runtime. **La puerta real es
+`tests/data/schema.spec.ts`**, que hace `safeParse` fichero a fichero. Ejecuta siempre
+`npx vitest run tests` antes de dar nada por bueno.
+
+**3.2 · Hay campos que NO renderizan Markdown.** `epithet`, `lead`, `lede`, todos los `title` y los
+`sections[].heading` se sirven con `inlineMd`, que solo entiende `**fuerte**`, `*cursiva*` y
+`` `código` ``. **Un enlace ahí sale como texto crudo.** Los enlaces solo van en los `body`. Lo
+vigila `tests/data/inline-md-subset.spec.ts`.
+
+**3.3 · `id` y `meta` son nombres reservados de Content v3.** Los sobrescribe. Por eso el ancla es
+`slug`, el hero usa `heroMeta` y las recomendaciones usan `note`.
+
+**3.4 · Los tests validan datos, no vista.** Es la lección más cara del repo: al bifurcar de
+guiaVietnam, `TripView.vue` seguía filtrando por `part === 'vietnam'`, así que **los seis actos y las
+29 fichas no se renderizaban en la web publicada** — y los 13 tests pasaban. Se descubrió abriendo la
+página. **Después de cualquier cambio estructural, abre el sitio y cuenta lo que sale.**
+
+**3.5 · El service worker sirve caché vieja.** Al verificar en producción parece que el despliegue no
+ha entrado. Antes de diagnosticar nada, desregistra el SW y borra cachés:
+`navigator.serviceWorker.getRegistrations()` → `unregister()`, `caches.keys()` → `delete()`.
+
+**3.6 · YAML: un valor con dos puntos necesita comillas.** `title: Lo primero: soltar el equipaje`
+rompe el parser. Los tests lo cazan, pero el error que dan (`Nested mappings…`) no señala la causa.
+
+**3.7 · `zone` debe ser contigua y `order` único** por (colección · part). Si insertas una ficha en
+medio, **renumera todo el bloque**, no solo el vecino.
+
+---
+
+## 4. Convenciones editoriales
+
+Estas no son gusto: son las reglas que mantienen la guía coherente y sin repeticiones.
+
+**4.1 · El día dice QUÉ SE HACE; la ficha dice QUÉ ES.** Es la regla que más trabajo ha dado. Al
+escribir los días 9-21 desde el mismo material que las fichas se duplicaron párrafos enteros —141
+fragmentos idénticos entre el día 15 y la ficha de Hiroshima— y hubo que reescribir diecisiete
+bloques. Si te descubres explicando historia dentro de un día, **enlaza a la ficha y borra**.
+
+**4.2 · «El día N» es siempre la jornada del viaje.** Las fechas del calendario llevan siempre el mes
+o el día de la semana: «el viernes 13», «el 14 de noviembre». Mezclarlo produjo un error real —«el
+día 13» significaba el 13 de noviembre en cinco sitios, pero el día 13 del viaje es el 18.
+
+**4.3 · Voz en segunda del plural** («vais», «conviene que»), salvo en el día 8, donde el grupo se
+parte y el «tú» es deliberado.
+
+**4.4 · Enlaces internos: uno por fichero y ancla**, en la primera mención que caiga en un `body`.
+Más que eso satura.
+
+**4.5 · Lo que no tiene ficha lleva enlace a Google Maps**, con **URL de búsqueda**
+(`https://www.google.com/maps/search/?api=1&query=…`). **Nunca inventes coordenadas ni place IDs.**
+
+**4.6 · Cada ficha de barrio de Tokio termina con «Lo que no sale en las listas»** — los *author
+picks* y las rarezas de ese barrio. Antes vivían en una ficha «gemas» aparte y estorbaban.
+
+**4.7 · Antes rotular nada que rotular mal.** Dos fichas siguen sin foto (Ebisu, Masakado) porque no
+hay imagen libre verificable. Es la decisión correcta.
+
+---
+
+## 5. Herramientas del repo
+
+```bash
+npx vitest run tests        # LA puerta. 23 tests: esquemas, anclas, orders, subset inline
+npx nuxi generate           # build estático a .output/public
+node scripts/check-weight.mjs   # presupuesto: imagen ≤500 KB, total ≤15 MB, payload ≤550 KB gzip
+```
+
+En `.claude/launch.json` está el servidor de desarrollo (`japon-dev`, puerto 3001). El sitio vive
+bajo `/guiaJapon/`, así que hay que navegar a `http://localhost:3001/guiaJapon/`, no a la raíz.
+
+### El escáner editorial
+
+Vive fuera del repo (se regenera fácil): detecta variantes de un mismo topónimo, tipografía, tics
+retóricos, **frases casi idénticas entre ficheros** y curiosidades que repiten su propio cuerpo.
+
+**Aviso importante:** debe **descontar las URL antes de analizar**. Los topónimos van en ASCII dentro
+de las consultas de Maps y sin ese filtro el escáner reporta once inconsistencias inexistentes
+(«Engakuji» vs «Engaku-ji»…). Perdí un rato persiguiendo fantasmas.
+
+---
+
+## 6. Fotos
+
+Pipeline: **API de Commons** (`User-Agent` obligatorio; usa `thumburl`, **nunca construyas URLs de
+Wikimedia a mano** — son un MD5 y dan 404) → **hoja de contactos con `sharp`** para verlas todas de
+un vistazo → descartar → **WebP 1200×800, calidad 70-72** en `public/img/{fichas,platos}/`.
+
+Toda imagen lleva `credit` («Autor · Licencia») y `creditUrl` a la página de Commons. Solo licencias
+CC o dominio público.
+
+**Verifica siempre visualmente.** Las búsquedas devuelven cosas absurdas con nombres plausibles: para
+«Ginza» salió un Mister Donut, para «Ueno» un grabado del siglo XIX y para «Ebisu» un grupo de idols.
+
+Las fotos propias de Pablo van a `fotos-originales/` (gitignored) y su README lleva la lista viva de
+lo que falta. **Una foto suya sustituye siempre a una de Commons.**
+
+---
+
+## 7. Fuentes
+
+- **`The Rough Guide to Tokyo`** (EPUB propio). Extraer **el libro entero** con `zipfile` de Python,
+  no capítulo a capítulo: la primera vez me quedé corto y me perdí los «author picks», los «Best of»
+  por barrio y los recuadros temáticos, que es donde está lo bueno.
+- **Export de Notion del viaje de 2024**: tablero de planificación con recortes de Japonismo y
+  **capturas de páginas de Lonely Planet que hay que leer como imagen**. De ahí salen los
+  restaurantes y la lista nacional del momiji.
+- **Web del itinerario del grupo**: https://japanblastoisechan.vercel.app — es la fuente del plan
+  día a día y de los hoteles.
+
+Regla con las fuentes: **usar los datos, nunca copiar la prosa**. Y contrastar: el Rough dice que
+Ieyasu construyó el castillo de Edo en 1497; lo empezó Ōta Dōkan en 1457.
+
+---
+
+## 8. Estado y qué falta
+
+**Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · 17 platos · 14 locales ·
+5 de salir · 56 fotos · 185 enlaces internos y 204 a Maps · PWA offline completo.
+
+**Falta:**
+- Fotos propias de Shibuya, Ueno, Tsukiji e Hiroshima (Pablo las tiene sin subir).
+- Sin foto verificable: Ebisu-Meguro y Masakado.
+- Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
+  hay forma de verificar que una imagen de Commons sea ese local.
+- **El cuarto vuelo sin comprar** (vuelta el 13).
+- **Y lo único que caduca: la noche del Shirakabaso en Kamikōchi.** El valle cierra el 15 de
+  noviembre, el hotel el 14, las reservas abrieron en enero y **no hay plan B**.

@@ -7,6 +7,11 @@ zone: "Vuelta a Tokio"
 emblem: montana
 kicker: Yamanashi · la montaña que se esconde
 title: El Fuji, y por qué casi nunca se deja ver
+image:
+  src: img/fichas/fuji.webp
+  alt: "La pagoda Chūreitō de cinco pisos en primer término y el monte Fuji nevado al fondo, con arces rojos alrededor."
+  credit: "Supanut Arunoprayote · CC BY 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Chureito_Pagoda_and_Mount_Fuji_20241022.jpg"
 epithet: >-
   Es el símbolo del país, se ve desde Tokio en un día limpio y la mitad de quien va a buscarlo vuelve
   sin haberlo visto. No es mala suerte: es meteorología, y se puede jugar a favor si se entiende

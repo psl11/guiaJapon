@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: montana
 kicker: Tokio · el cuadrante que nadie pisa
 title: Ikebukuro y el norte, o Tokio siendo Tokio
+image:
+  src: img/fichas/ikebukuro.webp
+  alt: "Un vagón del tranvía Toden Arakawa, verde y crema, avanzando por la vía entre casas bajas."
+  credit: "Minato seibu · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:20230909085144_IMG_8693.jpg"
 epithet: >-
   El cuadrante noroeste no sale en ninguna lista de imprescindibles, y precisamente por eso es donde
   mejor se ve la ciudad funcionando sin público. Tiene los mejores jardines de Edo que quedan, una

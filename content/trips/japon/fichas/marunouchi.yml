@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: castillo
 kicker: Tokio · el centro vacío
 title: El Palacio Imperial, o el agujero en medio de la ciudad
+image:
+  src: img/fichas/marunouchi.webp
+  alt: "La fachada de ladrillo rojo de la estación de Tokio al atardecer, con los rascacielos de Marunouchi detrás."
+  credit: "Bernard Spragg · dominio público"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Tokyo_Station_._(42455223202).jpg"
 epithet: >-
   En el centro geográfico de la mayor aglomeración urbana del planeta hay ciento quince hectáreas de
   bosque rodeadas de foso a las que no se puede entrar. Todo Tokio se organiza alrededor de un vacío

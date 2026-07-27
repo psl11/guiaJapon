@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: montana
 kicker: Tokio · la ciudad se acuerda de que tiene mar
 title: Odaiba, unas baterías de cañones convertidas en centro comercial
+image:
+  src: img/fichas/odaiba.webp
+  alt: "El Rainbow Bridge iluminado sobre la bahía de Tokio de noche, con la Torre de Tokio al fondo."
+  credit: "Stephen Kelly · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Views_of_Rainbow_Bridge_and_Tokyo_Tower_from_Odaiba_at_night_2013-09-11.jpg"
 epithet: >-
   Tokio es tan urbano que se olvida de que está junto al mar, y sin embargo la mitad de las estampas
   de Hokusai y Hiroshige son escenas de esta bahía. Odaiba es la parte rara: unas islas artificiales

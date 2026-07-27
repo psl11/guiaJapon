@@ -5,50 +5,69 @@ order: 1
 eyebrow: El plan · Día 1 · vie 6 nov
 title: Barcelona — Tokio, *ocho husos* al este
 dek: >-
-  El día que no existe del todo: se sale de Barcelona por la mañana y se aterriza en Tokio de noche,
-  con el calendario intacto y el cuerpo ocho horas por detrás. Lo único que hay que hacer hoy es
-  llegar al hotel y no cenar a las tres de la madrugada.
+  Un día que en realidad empieza la noche anterior. Se vuela de noche, se aterriza en Tokio a las
+  siete de la tarde del viernes y se llega hecho polvo — eso es lo normal y no pasa nada. El plan de
+  hoy es corto a propósito: hotel, cenar cerca, diez minutos de calle y a dormir.
 blocks:
   - block: El vuelo
-    time: "todo el día"
-    title: Ocho horas de ventaja
+    time: "la noche anterior y todo el día"
+    title: Ocho horas de ventaja, y la cuenta que sorprende
     body: >-
-      Japón va **ocho horas por delante** de Barcelona en noviembre. Volando al este eso significa que
-      el día se come a sí mismo: se despega por la mañana, se vuela unas quince horas con una escala, y
-      se aterriza a las **19:00 del mismo viernes**. En el reloj del cuerpo son las once de la mañana.
-      Por eso nadie va a tener sueño al llegar, y por eso mañana os despertaréis a las cinco sin
-      despertador — un fastidio en cualquier viaje y **un regalo en este**, como se verá.
+      Japón va **ocho horas por delante** de Barcelona en noviembre, así que la aritmética engaña.
+      Aterrizar a las **19:00 del viernes en Tokio** son **las 11:00 de la mañana en Barcelona**: con
+      unas quince horas de vuelo y escala, eso significa **salir el jueves por la noche**. Si el vuelo
+      sale el viernes por la mañana, se llega el sábado y el itinerario se corre un día — es lo
+      primero que hay que mirar al comprar los billetes.
+
+      La consecuencia de volar al este es que **el día se come a sí mismo**: se despega de noche, se
+      cruza el amanecer en algún punto sobre Asia y se llega con el calendario intacto pero con el
+      cuerpo ocho husos por detrás. Y de ahí sale el efecto que sí importa: **mañana os vais a
+      despertar a las cinco sin despertador**. En cualquier otro viaje eso es un fastidio; en este es
+      un regalo, como se verá el día 2.
     window:
-      label: Qué hacer en el avión
+      label: Qué se puede controlar en el avión, y qué no
       body: >-
-        La regla que funciona: **poner el reloj en hora japonesa al despegar** y comer y dormir según
-        ese horario, no según el hambre. Y si vuestro vuelo cruza el amanecer, mejor no dormir las
-        últimas horas: llegar cansado a las siete de la tarde es exactamente lo que os conviene para
-        caer rendidos a las once y amanecer sincronizados.
+        Poco, y conviene ser realista. **Las comidas no las decidís vosotros**: llegan cuando la
+        tripulación las saca, normalmente al despegar de cada tramo y una hora antes de aterrizar. Lo
+        único que está en vuestra mano es **si os las coméis**.
+
+        Con eso, tres cosas que sí funcionan: **poner el reloj en hora japonesa al despegar**, para
+        dejar de calcular; **dormir en el tramo que corresponda a la noche japonesa** aunque sea de
+        día en la cabina, e ignorar la bandeja si cae en esa franja —se puede pedir que la guarden—;
+        y **no dormir las dos últimas horas**, que es cuando entra la tentación.
+
+        Y una expectativa honesta: **vais a llegar cansados igual**. Quince horas de asiento son
+        quince horas de asiento y el reloj biológico solo arregla una parte. Lo bueno es que hoy no
+        hay que hacer nada.
   - block: Llegada
     time: "19:00"
     title: Del aeropuerto a Shinjuku
     body: >-
       Trámite de entrada, dinero y datos —los tres primeros movimientos— y al hotel. De **Narita** al
-      centro se tarda entre 60 y 90 minutos; de **Haneda**, la mitad. A esa hora ya no hay luz que
-      aprovechar ni ganas de agenda: el plan es dejar las maletas en [**Shinjuku**](#shinjuku), que es la base de
-      estos cinco primeros días, y salir a la calle diez minutos.
+      centro se tarda entre 60 y 90 minutos; de **Haneda**, la mitad. Contando cola de inmigración,
+      maletas y trayecto, **de la puerta del avión a la del hotel se va a las nueve y media o las
+      diez de la noche**, así que la agenda de hoy es esta y no hay más: dejar las maletas en
+      [**Shinjuku**](#shinjuku), que es la base de estos cinco primeros días, y salir a cenar algo
+      cerca.
     window:
       label: Por qué no forzar la primera noche
       body: >-
-        Es tentador salir a por el primer bol de [ramen](#ramen) a las diez de la noche, y de hecho se puede: en
-        Shinjuku hay cocina hasta la madrugada. Pero mañana el cuerpo os va a levantar de madrugada
-        queráis o no, y la primera mañana es la mejor de las cinco. **Cenad algo cerca y a dormir
-        pronto.** Ya habrá noches.
+        Es tentador salir a por el primer bol de [ramen](#ramen) a las once, y de hecho se puede: en
+        Shinjuku hay cocina hasta la madrugada y a doscientos metros del hotel hay veinte sitios
+        abiertos. Pero mañana el cuerpo os va a levantar de madrugada queráis o no, y **la primera
+        mañana es la mejor de las cinco**: Sensō-ji vacío al amanecer solo funciona si os habéis
+        acostado. Cenad cerca, sin buscar nada, y a dormir. Ya habrá noches — quedan veinte.
   - block: Noche
     time: "primera noche"
     title: Diez minutos de Shinjuku
     dim: true
     body: >-
-      Si queda cuerpo para algo, que sea el paseo corto: **salir de la estación por la boca este y
-      mirar arriba**. Las pantallas, el gato tridimensional de Shinjuku, la marea de gente a las diez
-      de la noche de un viernes. Para tres de vosotros es la primera imagen de Japón, y conviene que
-      sea esta y no el techo de una habitación de hotel — quince minutos bastan.
+      Si después de cenar queda cuerpo —y puede que no—, que sea el paseo corto: **salir de la
+      estación por la boca este y mirar arriba**. Las pantallas, el gato tridimensional de Shinjuku,
+      la marea de gente a las once de la noche de un viernes. Para tres de vosotros es la primera
+      imagen de Japón, y conviene que sea esta y no el techo de una habitación de hotel. **Quince
+      minutos bastan**, y si no da el cuerpo, tampoco pasa nada: mañana a las seis de la mañana la
+      ciudad sigue ahí.
 alt:
   label: Si te desmarcas
   body: >-

@@ -7,6 +7,11 @@ zone: "Tokio"
 emblem: libro
 kicker: Tokio · doscientos metros y otro mundo
 title: Harajuku, donde la calle más gritona da a la avenida más seria
+image:
+  src: img/fichas/harajuku.webp
+  alt: "La avenida de Omotesandō de noche con la iluminación de invierno en los árboles y gente paseando."
+  credit: "kcomiida · CC BY-SA 3.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Omotesando_Hills_-_panoramio.jpg"
 epithet: >-
   Aquí pasa algo que no ocurre en ninguna otra ciudad: la calle donde los adolescentes japoneses
   inventan la moda del año que viene y la avenida donde media docena de premios Pritzker se han
@@ -45,6 +50,9 @@ sections:
     body: |
       - [**Cat Street**](https://www.google.com/maps/search/?api=1&query=Cat%20Street%20Harajuku%20Tokyo) — el pasadizo curvo y peatonal que baja hacia [Shibuya](#shibuya) entre tiendas
         pequeñas y cafés. Sus curvas son las del **río Shibuya**, entubado justo debajo.
+      - **La iluminación de invierno** — desde finales de noviembre los ginkgos de [Omotesandō](https://www.google.com/maps/search/?api=1&query=Omotesando%20Tokyo) se
+        encienden de arriba abajo y la avenida entera se convierte en un túnel de luz hasta Navidad.
+        **Suele arrancar la última semana de noviembre**, así que con suerte pilláis los primeros días.
       - **Ura-Harajuku** — «el Harajuku de detrás»: el enjambre de callejuelas al norte de [Omotesandō](https://www.google.com/maps/search/?api=1&query=Omotesando%20Tokyo)
         donde están las marcas pequeñas y donde nació el *streetwear* japonés de los noventa.
       - **Yoyogi-kōen** — el parque grande, que fue **villa olímpica en 1964** y antes barrio de

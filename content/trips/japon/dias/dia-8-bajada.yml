@@ -54,8 +54,8 @@ blocks:
       body: >-
         Aquí está el truco que salva el día. Los vuelos de Tokio a Barcelona salen sobre todo
         **entre las 21:00 y medianoche**, y con una escala tardan unas veintiuna horas. Saliendo de
-        noche el día 13 y ganando las **ocho horas** del huso, **se aterriza en Barcelona hacia el
-        mediodía del 14** — que era la condición. Es decir: **no se pierde el día 13**. Se amanece en
+        noche del **viernes 13** y ganando las **ocho horas** del huso, **se aterriza en Barcelona hacia el
+        mediodía del 14** — que era la condición. Es decir: **no se pierde el viernes 13**. Se amanece en
         un valle de los Alpes japoneses y se cena en un avión.
   - block: Noche
     time: "~22:00"

@@ -1,0 +1,40 @@
+slug: tsukemen
+trip: japon
+kind: plato
+order: 11
+title: Tsukemen
+queEs: >-
+  Ramen desmontado. El fideo viene **frío o templado y en seco**, por un lado; el caldo, aparte, en
+  un cuenco pequeño, **mucho más concentrado, espeso y salado** de lo que nadie se bebería. Se coge
+  una pinza de fideos, se moja en el caldo y se sorbe. El caldo no se toma: es una salsa.
+historia: >-
+  Es **una invención de Tokio**, y con fecha y autor: la ideó a mediados de los años cincuenta
+  **Kazuo Yamagishi**, que trabajaba en una casa de ramen y mojaba los fideos sobrantes en un cuenco
+  de caldo para comérselos al acabar el turno. Un cliente le vio hacerlo, le pidió lo mismo, y en
+  1961 abrió el **Taishōken** de Higashi-Ikebukuro sirviéndolo en carta. Hoy hay tsukemen en todo
+  Japón, y sus discípulos —Yamagishi formó a decenas de cocineros y no les cobró por usar su
+  nombre— llenan la ciudad de locales con el mismo apellido.
+dondeMejor: >-
+  Tokio, sin discusión: es su plato. **Ikebukuro** por origen, aunque los templos modernos están
+  repartidos por toda la ciudad y suelen tener cola a mediodía. Se pide en máquina como el ramen.
+picante: "Suave, salvo que se pida al contrario"
+veg: >-
+  Difícil: el caldo concentrado suele ser de cerdo y pescado a la vez. Hay casas veganas —**T's
+  Tantan**, dentro de la estación de Tokio, hace una versión buena— pero no es lo habitual.
+body: |
+  Tres cosas que conviene saber la primera vez, porque el plato desconcierta:
+
+  - **El caldo se enfría rápido**, porque los fideos están fríos. Por eso muchas casas te dan una
+    piedra caliente dentro del cuenco o lo sirven en un recipiente que conserva el calor. Hay que
+    comer rápido; no es un plato para conversar.
+  - **Al final se pide *sūpu-wari***: le echan caldo ligero al cuenco concentrado para dejarlo
+    bebible, y entonces sí se toma. Se pide diciendo la palabra y devolviendo el cuenco. Es gratis,
+    y no hacerlo es perderse la mitad.
+  - Los fideos son **más gruesos** que los de ramen, precisamente para aguantar el caldo espeso sin
+    deshacerse.
+
+  Es, de todos los platos de fideos japoneses, el que menos gente de fuera conoce y el que más
+  fácilmente se convierte en el favorito.
+seenIn:
+  - ref: '#ramen'
+    label: El ramen

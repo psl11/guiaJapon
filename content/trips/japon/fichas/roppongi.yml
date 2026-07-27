@@ -1,0 +1,61 @@
+slug: roppongi
+navLabel: "Roppongi y Akasaka"
+trip: japon
+part: japon
+order: 17
+zone: "La quinta vez"
+emblem: copa
+kicker: Tokio · del after al museo
+title: Roppongi, el barrio que se reinventó entero
+epithet: >-
+  Durante décadas fue el barrio de la noche turbia de Tokio: bares para extranjeros, clubes y cierta
+  mafia. Hoy es la mayor concentración de arte contemporáneo del país. Pocas ciudades cambian un
+  barrio de tema tan a fondo y en tan poco tiempo.
+sections:
+  - heading: El triángulo del arte
+    body: |
+      Tres museos grandes a diez minutos andando uno de otro, que en Tokio se venden como el
+      **Roppongi Art Triangle**:
+
+      - **Museo Mori**, en la planta 53 de Roppongi Hills, dedicado al arte contemporáneo — y con el
+        **Tokyo City View** una planta más arriba, que es de los mejores miradores de la ciudad
+        porque desde aquí **sí se ve la Torre de Tokio**, cosa que no pasa desde la propia torre.
+      - **Centro Nacional de Arte**, de **Kishō Kurokawa**: **no tiene colección permanente**, solo
+        salas enormes para exposiciones temporales, tras una fachada de cristal ondulado que parece
+        una ola. El edificio vale la entrada aunque no interese lo que cuelgue.
+      - **Museo Suntory de Arte**, en Tokyo Midtown, de **Kengo Kuma**, con artes decorativas
+        japonesas y una sala de té dentro.
+  - heading: Lo que había antes, y lo que sigue
+    body: |
+      **Akasaka**, al lado, era campo: su nombre significa «la cuesta roja» y viene de las plantas
+      tintóreas que se cultivaban aquí. A finales del XIX se llenó de ***ryōtei***, los restaurantes
+      con geishas donde los políticos hacían la política de verdad — y algunos siguen ahí, detrás de
+      muros altos y precios más altos.
+
+      Dos paradas que valen la pena:
+
+      - **Hie-jinja**, el santuario del barrio, con un **túnel de torii rojos** subiendo la ladera —
+        el Fushimi Inari de Tokio, en pequeño y sin cola.
+      - **Zōjō-ji**, al sur: el **templo funerario de los Tokugawa**, con seis shōgunes enterrados y
+        la Torre de Tokio asomando justo detrás. La foto del portal de madera del siglo XVII con la
+        torre roja de 1958 encima es el mejor resumen visual de este país que existe.
+      - Y por gusto: **Gonpachi**, el *izakaya* de dos plantas con pasarelas de madera **en el que se
+        inspiró la Casa de las Hojas Azules de *Kill Bill***. Tarantino cenó aquí y lo copió. Es
+        turístico, es caro para lo que es, y merece una copa igualmente.
+curiosidades:
+  - >-
+    El **Centro Nacional de Arte** de Kurokawa **no tiene colección permanente**: es un museo sin
+    obras, solo salas para exposiciones temporales, detrás de una fachada de cristal que ondula como
+    una ola.
+  - >-
+    El *izakaya* **Gonpachi** es el local en el que **Tarantino se inspiró para la Casa de las Hojas
+    Azules de *Kill Bill***, después de cenar allí. La pelea no se rodó dentro, pero el decorado es
+    una réplica.
+  - >-
+    En **Zōjō-ji** están enterrados **seis shōgunes Tokugawa** — y por encima del portal del siglo
+    XVII asoma la Torre de Tokio, de 1958. Es el contraste japonés en una sola fotografía.
+seenIn:
+  - ref: '#barrios-de-tokio'
+    label: "El mapa de los barrios"
+  - ref: '#acto-4-edo'
+    label: "Acto 4 · los Tokugawa"

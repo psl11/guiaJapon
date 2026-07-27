@@ -1,0 +1,82 @@
+slug: ebisu-meguro
+navLabel: "Ebisu y Meguro"
+trip: japon
+part: japon
+order: 15
+zone: "La quinta vez"
+emblem: libro
+kicker: Tokio · el sur, donde vive la gente
+title: Ebisu y Meguro, y la venganza de los cuarenta y siete
+epithet: >-
+  Al sur de Shibuya empieza el Tokio donde la gente vive en vez de salir en las fotos: barrios de
+  cafés y anticuarios a la orilla de un río, el mejor museo de fotografía del país, y un templo
+  discreto donde están enterrados los protagonistas de la historia de venganza más famosa de Japón.
+sections:
+  - heading: Un barrio que se llama como una cerveza
+    body: |
+      La secuencia es maravillosa y va al revés de lo que uno supondría. **Ebisu** es el dios shintō
+      de la fortuna y de los pescadores. En el siglo XIX una fábrica de por aquí le puso su nombre a
+      su cerveza: **Yebisu**. La cerveza tuvo tanto éxito que la estación de tren que servía a la
+      fábrica se llamó **estación de Yebisu**. Y el barrio acabó llamándose como la estación.
+
+      Es decir: **el barrio se llama como una marca de cerveza que se llamaba como un dios**. La
+      fábrica se fue, y en su solar está hoy **Yebisu Garden Place**, un complejo de los noventa con
+      un museo de la cerveza, un falso château francés con restaurante de Robuchon dentro y —esto es
+      lo que interesa— la **torre Yebisu**, de 39 plantas, con **mirador gratuito en la última**. Otro
+      de los miradores libres que nadie usa.
+  - heading: El Museo de Fotografía, que es el motivo real de venir
+    body: |
+      Dentro del mismo complejo está el **Tokyo Photographic Art Museum**, el museo público de
+      fotografía más importante de Japón: tres plantas de exposiciones simultáneas, una colección
+      propia de más de treinta mil copias y un programa que alterna a los grandes japoneses —Moriyama,
+      Araki, Hosoe, Ishiuchi— con retrospectivas internacionales. Entrada barata, casi nunca lleno, y
+      abierto hasta las 20:00 los jueves y viernes.
+
+      Para alguien que viaja con una cámara y ya se ha hecho los clásicos de esta ciudad cuatro
+      veces, esto probablemente sea **la mejor tarde de Tokio**. A diez minutos, el **Museo Yamatane**
+      es el mejor sitio de la ciudad para ver *nihonga*, la pintura japonesa moderna que casi nadie
+      enseña fuera.
+  - heading: Los cuarenta y siete rōnin
+    body: |
+      Una parada al sur, en Shinagawa, está el templo **Sengaku-ji**, y con él la historia que en
+      Japón funciona como el Quijote: el ***Chūshingura***. Es real.
+
+      En **1701** un joven daimyō, **Asano**, perdió los papeles en el castillo del shōgun y atacó
+      con la espada a **Kira**, el maestro de ceremonias que lo había humillado. Kira sobrevivió;
+      Asano fue condenado a **seppuku** ese mismo día por desenvainar dentro del castillo, y su clan
+      quedó disuelto. Sus samuráis se convirtieron en ***rōnin***, guerreros sin señor.
+
+      Y entonces esperaron. **Casi dos años**, fingiendo vidas disolutas para que Kira bajara la
+      guardia. La noche del **14 de diciembre de 1702**, cuarenta y siete de ellos asaltaron su
+      villa, le cortaron la cabeza y la pasearon por Edo hasta ponerla sobre la tumba de su señor,
+      aquí. Después se entregaron. El shōgun, atrapado entre la ley y la admiración pública, les
+      permitió morir con honor: **los cuarenta y siete se hicieron seppuku el 14 de febrero de 1703**,
+      incluido el hijo de quince años del cabecilla.
+
+      Están enterrados los cuarenta y siete alrededor de su señor, en filas. **Las tumbas siguen
+      humeando de incienso todos los días**, trescientos años después. La historia se ha llevado al
+      kabuki, al bunraku y al cine decenas de veces —de la versión de **Mizoguchi de 1941**, rodada
+      por encargo en plena guerra, a la de Kon Ichikawa—; conviene ver una antes de ir.
+  - heading: Y para acabar la tarde
+    body: |
+      **Nakameguro**, dos paradas al norte: cafés, pastelerías y anticuarios a lo largo del río
+      Meguro. Su fama es de primavera —**ochocientos cerezos** en cuatro kilómetros de orilla—, así
+      que en noviembre está tranquilo y se pasea sin esquivar a nadie. Es, según el autor de la Rough
+      Guide, su barrio favorito de Tokio, y sigue siendo más de residentes extranjeros que de
+      turistas.
+curiosidades:
+  - >-
+    **El barrio de Ebisu se llama como una cerveza.** La marca Yebisu tomó su nombre del dios de la
+    fortuna, la estación tomó el nombre de la fábrica de cerveza y el barrio, el de la estación.
+  - >-
+    Los **cuarenta y siete rōnin** esperaron casi dos años fingiendo vidas disolutas antes de vengar
+    a su señor, y después **se suicidaron todos**, incluido un chico de quince años. Están enterrados
+    juntos en Sengaku-ji y **sus tumbas siguen humeando de incienso a diario**, tres siglos después.
+  - >-
+    El **Tokyo Photographic Art Museum** guarda más de treinta mil copias y es el museo público de
+    fotografía más importante del país. Está dentro de un complejo comercial y **casi nadie lo pisa**.
+seenIn:
+  - ref: '#barrios-de-tokio'
+    label: "El mapa de los barrios"
+  - ref: '#acto-4-edo'
+    label: "Acto 4 · el código samurái"

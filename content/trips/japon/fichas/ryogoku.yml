@@ -1,0 +1,73 @@
+slug: ryogoku
+navLabel: "Ryōgoku · el sumo"
+trip: japon
+part: japon
+order: 14
+zone: "La quinta vez"
+emblem: casa
+kicker: Tokio · al otro lado del Sumida
+title: Ryōgoku, donde vive el sumo
+epithet: >-
+  Un barrio entero organizado alrededor de un deporte. Aquí están el estadio nacional, los establos
+  donde entrenan los luchadores y los restaurantes que sirven su comida. Y hay una carta que juega
+  a vuestro favor sin necesidad de entradas: **durante vuestro viaje hay torneo**.
+sections:
+  - heading: El torneo que podéis ver sin ir
+    body: |
+      El sumo tiene **seis torneos al año** de quince días cada uno, y tres se celebran en este
+      estadio, el **Ryōgoku Kokugikan**. El de noviembre no: ese se disputa en Fukuoka, al sur.
+
+      Pero da igual, porque el sumo es **el deporte más televisado de Japón** y durante los quince
+      días de torneo la NHK lo emite **entero, de 16:00 a 18:00**, todas las tardes. El *basho* de
+      noviembre suele empezar el **segundo domingo del mes** — es decir, **en mitad de vuestra
+      semana**. Encender la tele del hotel a las cinco y ver los últimos combates, con el ritual, la
+      sal volando y los tres minutos de tensión antes de cinco segundos de choque, es una de las
+      cosas más japonesas que se pueden hacer sin salir de la habitación. Y es gratis.
+
+      Si además cae un día de lluvia, el **Museo del Sumo** del propio estadio es pequeño, gratuito
+      y está lleno de estampas y cinturones de campeones.
+  - heading: Comer lo que comen ellos
+    body: |
+      El ***chanko-nabe*** es el guiso con el que se alimentan los luchadores: un caldo enorme con
+      carne, pescado, tofu y verdura que se cuece en la mesa y del que se sirve uno mismo. En los
+      establos lo cocinan por turnos los luchadores jóvenes, y cuando se retiran, muchos abren un
+      restaurante. Por eso Ryōgoku está lleno de casas de chanko regentadas por exluchadores.
+
+      La mejor no es la más famosa: **Yoshiba** está montado **dentro de un antiguo *dōjō* de
+      entrenamiento**, con el *dohyō* —el ring de arcilla— conservado en medio de la sala. Se reserva
+      con antelación para conseguir las mesas de alrededor del ring. En **Tomoegata** los menús
+      llevan **nombres de rangos de sumo**: el «yokozuna» alimenta a una ballena, y hasta el más
+      barato deja lleno.
+
+      No es comida cara ni de dieta: es el plato con el que se engorda a propósito, y está bueno.
+  - heading: Lo demás del barrio
+    body: |
+      - **Museo Edo-Tokio** — el gran museo de la ciudad de madera, dentro de un edificio elevado
+        sobre pilares que parece una nave espacial. Lleva cerrado por reforma desde 2022; **comprobad
+        si ha reabierto**, porque si lo ha hecho es la mejor explicación de Edo que existe.
+      - **Kiyosumi Teien** — a un paso al sur, un jardín de paseo con un estanque, garzas y un camino
+        de **piedras traídas de todo Japón** por el fundador de Mitsubishi, que las hizo llegar en
+        sus propios barcos. Se cruza el agua saltando de piedra en piedra. Casi no hay nadie.
+      - **Fukagawa** — el barrio de al lado, de canales y templos, donde vivió **Bashō** cuando
+        escribió lo mejor que escribió. Hay un pequeño museo y una estatua mirando al río.
+
+      **Cómo llegar**: línea JR Sōbu hasta Ryōgoku, o el metro Toei Ōedo. Diez minutos desde el
+      centro y prácticamente ningún turista occidental.
+curiosidades:
+  - >-
+    Durante los quince días de torneo, **la NHK emite el sumo entero de 16:00 a 18:00**. El *basho*
+    de noviembre arranca el segundo domingo del mes: cae en mitad del viaje, y se ve gratis desde la
+    habitación del hotel.
+  - >-
+    El **chanko-nabe** es el guiso con el que engordan los luchadores, cocinado por turnos por los
+    más jóvenes del establo. Cuando se retiran, muchos abren un restaurante — por eso hay tantos en
+    Ryōgoku, y por eso **Yoshiba** sirve la cena dentro de un antiguo *dōjō*, con el ring en medio.
+  - >-
+    El jardín **Kiyosumi Teien** lo llenó de rocas el fundador de **Mitsubishi**, que las hizo traer
+    de todas las provincias de Japón **en sus propios barcos**. Se cruza el estanque saltando sobre
+    ellas.
+seenIn:
+  - ref: '#dia-2-shitamachi'
+    label: "Día 2 · alternativa"
+  - ref: '#acto-4-edo'
+    label: "Acto 4 · Edo"

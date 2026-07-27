@@ -1,0 +1,76 @@
+slug: masakado
+navLabel: "La maldición de Masakado"
+trip: japon
+part: japon
+order: 13
+zone: "La quinta vez"
+emblem: incienso
+kicker: Tokio · Ōtemachi, entre rascacielos
+title: La tumba que nadie se atreve a mover
+epithet: >-
+  En el barrio financiero de Tokio, rodeada de torres de oficinas y a cinco minutos del Palacio
+  Imperial, hay una lápida pequeña en un jardín diminuto. Es probablemente **la parcela de suelo más
+  cara del mundo que nadie ha edificado**, y lleva mil años sin que nadie se atreva a tocarla.
+sections:
+  - heading: La cabeza que voló
+    body: |
+      La tumba es de **Taira no Masakado**, al que muchos llaman **el primer samurái**. En el año
+      **939** se levantó contra la corte de Kioto, se declaró emperador por su cuenta y aguantó lo
+      justo para que le pusieran precio a la cabeza. Se la cortó un primo suyo y se la llevó a la
+      capital.
+
+      Y ahí empieza lo bueno. Colgaron la cabeza de un árbol en el mercado de Kioto para escarmiento,
+      y la tradición cuenta que **estuvo aullando toda la noche** —pidiendo que le devolvieran el
+      cuerpo— hasta que **salió volando hacia el este**. Cayó en una aldea de pescadores llamada
+      Shibasaki, donde empezaron a pasar desgracias hasta que le levantaron una tumba y la trataron
+      con respeto.
+
+      Aquella aldea de pescadores es hoy **Ōtemachi**, el centro financiero de Tokio.
+  - heading: Un expediente de mil años
+    body: |
+      Lo asombroso no es la leyenda: es que **la ciudad se la sigue tomando en serio**. A Masakado se
+      le ha atribuido, entre otras cosas:
+
+      - El **terremoto de 1923**, después del cual el Ministerio de Finanzas levantó un edificio
+        provisional sobre el terreno: catorce empleados murieron en pocos años, incluido el ministro.
+        Derribaron el edificio.
+      - Un **rayo en 1940**, en el aniversario número mil de su muerte, que quemó una hilera de
+        oficinas de alrededor.
+      - Una **excavadora de la ocupación estadounidense** que, según se cuenta, volcó al intentar
+        despejar la parcela después de la guerra.
+
+      El resultado es que **la tumba sigue exactamente donde estaba**, en un jardín de treinta metros
+      cuadrados entre rascacielos, con incienso fresco, flores y monedas puestas esta misma mañana.
+      Las empresas de alrededor **pagan su mantenimiento**, y hay quien evita darle la espalda al
+      sentarse en las oficinas que la miran.
+  - heading: Y la vuelta de tuerca
+    body: |
+      Hay un final que redime la historia y que casi nadie cuenta. Masakado perdió, pero **los
+      rebeldes que inspiró acabaron ganando**: dos siglos y medio después, el poder militar del este
+      terminó con el gobierno de la corte de Kioto y puso su capital **aquí**, en la llanura del
+      Kantō. Es decir: el hombre que se rebeló contra Kioto en el 939 y acabó decapitado es, en un
+      sentido muy literal, **la razón remota de que exista Tokio**.
+
+      Por eso se le considera uno de los tres grandes espíritus vengativos de Japón y, a la vez, un
+      **kami protector de la ciudad** — está consagrado en el **Kanda Myōjin**, el santuario que
+      guarda el barrio y donde las empresas de Akihabara van a bendecir los ordenadores.
+
+      **Cómo llegar**: salida C5 de Ōtemachi, entre las torres. Está señalizado, es gratis y se ve en
+      cinco minutos. Encaja de camino al foso del palacio, el día 4.
+curiosidades:
+  - >-
+    Según la tradición, la cabeza cortada de Masakado **aulló toda la noche colgada de un árbol en
+    Kioto y luego voló hacia el este**, hasta caer en la aldea de pescadores que hoy es el distrito
+    financiero de Tokio.
+  - >-
+    A su tumba se le atribuyen el terremoto de 1923, un rayo en 1940 y una excavadora volcada
+    durante la ocupación. **Sigue en pie entre rascacielos**, con el mantenimiento pagado por las
+    empresas vecinas, en probablemente el solar sin edificar más caro del mundo.
+  - >-
+    Masakado se rebeló contra Kioto y perdió — pero los guerreros del este que le siguieron acabaron
+    ganando y **pusieron la capital aquí**. Es, de forma remota, el motivo de que Tokio exista.
+seenIn:
+  - ref: '#dia-4-tsukiji-ginza'
+    label: "Día 4 · de camino al palacio"
+  - ref: '#acto-2-kamakura'
+    label: "Acto 2 · los guerreros del este"

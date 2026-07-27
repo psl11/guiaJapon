@@ -1,0 +1,91 @@
+slug: shinjuku
+navLabel: "Shinjuku"
+trip: japon
+part: japon
+order: 12
+zone: "La quinta vez"
+emblem: copa
+kicker: Tokio · vuestra base
+title: Shinjuku, que empezó siendo el ano de Tokio
+epithet: >-
+  Dormís cinco noches aquí y probablemente no le dediquéis ni una hora. Merece más: es la estación
+  más transitada del planeta, el barrio donde Tokio inventó el rascacielos y la posguerra a partes
+  iguales, y el único sitio de la ciudad donde en trescientos metros se pasa de una torre de Tange a
+  un callejón de seis taburetes.
+sections:
+  - heading: De letrina a distrito financiero
+    body: |
+      El nombre significa «**posada nueva**»: en el siglo XVII se abrió aquí un relevo de caballos
+      para los viajeros que entraban a Edo por el oeste, y acabó siendo uno de los **seis barrios de
+      placer autorizados** de la ciudad, el más barato y el más popular.
+
+      Y luego está el apodo, que conviene saber porque explica el barrio entero. A Shinjuku se le
+      llamaba ***la puerta trasera de Tokio*** —el eufemismo es mío; el original es bastante más
+      directo— porque **por sus calles salían los excrementos de la ciudad** camino de los campos de
+      las afueras, que los compraban como abono. A finales del XIX era el barrio con más prostitutas
+      de Tokio.
+
+      Lo cambió todo el **tren, en 1885**: la estación empujó a la gente a mudarse a los suburbios del
+      oeste, los grandes almacenes vinieron detrás de los viajeros, y en la posguerra el barrio se
+      llenó de escritores, estudiantes y radicales que vivían en sus **bares de jazz y sus cafeterías**
+      — el mundo del que sale [el Pit Inn](#shinjuku-pit-inn). El primer rascacielos, el
+      **Keiō Plaza**, es de 1971; el sello lo puso dos décadas después **Kenzō Tange** con las torres
+      del **Gobierno Metropolitano**.
+  - heading: Un mirador gratis a doscientos metros
+    body: |
+      Y ahí está la mejor ganga de Tokio. El **edificio del Gobierno Metropolitano** —esas dos torres
+      gemelas que parecen una catedral gótica hecha con chips— tiene **dos observatorios a 202 metros
+      con entrada libre**, abiertos hasta tarde. No es Shibuya Sky: hay cristal y no se puede
+      fotografiar sin reflejos. Pero es **gratis**, casi nunca hay cola, y en un día claro de
+      noviembre se ve el **Fuji** exactamente igual de bien.
+
+      La jugada fina: **subir aquí un día y a Shibuya Sky otro**. Son la misma ciudad desde los dos
+      extremos y cuesta la mitad.
+  - heading: Los callejones, y por qué siguen ahí
+    body: |
+      Al este de la estación sobreviven dos supervivencias de la posguerra que valen el viaje:
+
+      - **Omoide Yokochō**, «el callejón de los recuerdos»: dos pasillos de barras de seis taburetes
+        bajo cientos de faroles rojos, donde se cena *yakitori* al humo. Su otro nombre, el que usa
+        la gente, es **Shomben Yokochō** — «el callejón de las meadas», por lo que era antes de que
+        hubiera baños.
+      - **Golden Gai**: seis callejones con **unos doscientos bares diminutos** de dos plantas, cada
+        uno con su tema y muchos con sitio para seis personas. Existe porque era mercado negro en los
+        cuarenta y porque sus dueños se organizaron para que no lo demolieran en la burbuja. Aviso
+        para cuatro: **no cabéis juntos en casi ninguno**, y varios cobran cubierto — está anunciado
+        en la puerta y no es una estafa.
+
+      Al lado, **Kabukichō**, el barrio rojo. Su nombre es una de las mejores bromas involuntarias de
+      la ciudad: viene de **un teatro de kabuki que se planeó tras la guerra y nunca se construyó**.
+      El barrio lleva ochenta años llamándose como un edificio que no existe.
+  - heading: Lo que sí hay que hacer estando aquí
+    body: |
+      - **Shinjuku Gyoen** — cincuenta y ocho hectáreas de jardín a quince minutos andando, con tres
+        estilos dentro (francés, inglés y japonés) y **la exposición imperial de crisantemos a
+        primeros de noviembre**: justo vuestras fechas. Entrada ¥500. Ver [el momiji](#momiji).
+      - **El New York Bar del Park Hyatt** — el de *Lost in Translation*, con jazz en directo. Ver
+        [la sección de salir](#new-york-bar).
+      - **Shin-Ōkubo**, una parada al norte por la Yamanote: la pequeña Seúl de Tokio, y el mejor
+        sitio de la ciudad para cenar barato y distinto.
+
+      Y una cosa que no es opcional: **el último tren**. Aquí la red se para entre las 00:00 y la
+      1:00 y no vuelve hasta las cinco. Es la razón de que en este barrio haya karaokes de
+      veinticuatro horas — ver [cómo moverse](#transporte-tokio).
+curiosidades:
+  - >-
+    **Kabukichō se llama así por un teatro de kabuki que nunca se construyó.** Se proyectó después
+    de la guerra, no se levantó jamás, y el barrio se quedó con el nombre.
+  - >-
+    A Shinjuku se le conocía en el XIX por un apodo escatológico: **por sus calles salían los
+    excrementos de Tokio** camino de los campos, que los compraban como abono. Era además el barrio
+    con más prostitutas de la ciudad.
+  - >-
+    Las torres del **Gobierno Metropolitano**, de Kenzō Tange, tienen **dos miradores a 202 metros y
+    la entrada es gratis**. En un día limpio de noviembre se ve el Fuji igual que desde Shibuya Sky.
+seenIn:
+  - ref: '#barrios-de-tokio'
+    label: "El mapa de los barrios"
+  - ref: '#new-york-bar'
+    label: "El New York Bar"
+  - ref: '#momiji'
+    label: "Los crisantemos del Gyoen"

@@ -1,0 +1,68 @@
+slug: akihabara
+navLabel: "Akihabara y Kanda"
+trip: japon
+part: japon
+order: 16
+zone: "La quinta vez"
+emblem: libro
+kicker: Tokio · la ciudad eléctrica
+title: Akihabara, que empezó vendiendo piezas de radio
+epithet: >-
+  El barrio del manga, el anime y las máquinas recreativas no nació de ninguna subcultura: nació de
+  un mercado negro de componentes de radio bajo las vías del tren. Toda su historia posterior —la
+  electrónica, los videojuegos, el otaku— es la consecuencia lógica de aquello.
+sections:
+  - heading: De la radio al anime, en línea recta
+    body: |
+      En la posguerra, estudiantes de ingeniería montaron bajo el viaducto de Akihabara un mercadillo
+      de **piezas sueltas de radio**: resistencias, válvulas, bobinas. Se compraban para montarse un
+      receptor en casa, porque comprar uno entero era imposible.
+
+      De vender componentes se pasó a vender electrodomésticos, de ahí a la informática doméstica de
+      los ochenta, de ahí a los videojuegos, y de los videojuegos al manga y al anime que los
+      alimentaban. Nada de esto fue planificado: **es una cadena de sesenta años que empieza en una
+      caja de resistencias**.
+
+      Y lo mejor es que el primer eslabón **sigue ahí**. Bajo las vías, en el **Radio Center**, hay
+      todavía un laberinto de puestos de un metro cuadrado vendiendo condensadores y cables a
+      ingenieros de barba blanca. Es lo más raro y lo más auténtico del barrio.
+  - heading: Lo que merece la pena, y lo que no
+    body: |
+      Las siete plantas de figuritas se agotan rápido. Esto no:
+
+      - **Super Potato** — cuatro plantas de videojuegos retro, con **salón recreativo en la última**
+        donde se juega a máquinas de los ochenta con monedas de cien yenes. Si os criasteis con una
+        NES, este es vuestro sitio.
+      - **3331 Arts Chiyoda** — un **instituto abandonado reconvertido en centro de arte
+        contemporáneo**: las aulas son galerías y talleres, y hay café y azotea. Gratis casi todo.
+      - **Origami Kaikan** — una casa dedicada íntegramente al papel plegado, con taller en activo,
+        demostraciones y papel que no se encuentra en ningún otro sitio. El mejor souvenir de Tokio
+        por trescientos yenes.
+      - **Yushima Seidō** — un templo **confuciano** de laca negra, de 1690, en una ladera arbolada a
+        cinco minutos del ruido. No hay nadie nunca. Es la escuela donde se formaron los funcionarios
+        del shogunato.
+      - **Kanda Myōjin** — el santuario del barrio, y una rareza estupenda: como protege el distrito
+        de la electrónica, aquí **se bendicen ordenadores y se venden amuletos para que no se caiga
+        el servidor**. Está consagrado, entre otros, a [Masakado](#masakado).
+      - **Nikolai-dō** — una **catedral ortodoxa rusa** de 1891 en pleno centro de Tokio, con cúpula
+        verde. La levantó un arzobispo que llegó en 1861 como capellán del consulado ruso y se quedó.
+
+      Y a **dos paradas**, en la dirección contraria a todo lo anterior, está
+      [Jinbōchō](#jimbocho) y sus ciento treinta librerías de viejo. Akihabara y Jinbōchō son el
+      mismo barrio con sesenta años de diferencia: los dos venden papel y cacharros a gente obsesiva.
+curiosidades:
+  - >-
+    **Akihabara empezó como un mercado negro de piezas de radio** bajo las vías, en la posguerra.
+    Toda la cadena posterior —electrodomésticos, informática, videojuegos, manga— sale de ahí. Los
+    puestos de componentes **siguen existiendo** bajo el viaducto.
+  - >-
+    En el santuario **Kanda Myōjin** se bendicen **ordenadores y servidores**, y se venden amuletos
+    para la seguridad informática. Es el santuario del barrio de la electrónica y hace su trabajo.
+  - >-
+    En medio de todo esto hay una **catedral ortodoxa rusa** de 1891, la Nikolai-dō, fundada por un
+    capellán del consulado que llegó a Japón en 1861 y ya no se volvió.
+seenIn:
+  - ref: '#masakado'
+    label: "Masakado, a diez minutos"
+  - ref: '#jimbocho'
+    label: "Jinbōchō, las librerías"

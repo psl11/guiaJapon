@@ -44,34 +44,41 @@ blocks:
         hay que hacer nada.
   - block: Llegada
     time: "19:50"
-    title: Del aeropuerto a Shinjuku
+    title: Del aeropuerto a Akihabara
     body: >-
       Trámite de entrada, dinero y datos —los tres primeros movimientos— y al hotel. El grupo llega a
       **Haneda**, que juega a favor: está dentro de la ciudad y son unos **cuarenta minutos** al
       centro, frente a la hora y media larga de Narita. Aun así, contando cola de inmigración,
       maletas y trayecto, **de la puerta del avión a la del hotel se va a las nueve y media o las
-      diez de la noche**. La agenda de hoy es esta y no hay más: dejar las maletas en
-      [**Shinjuku**](#shinjuku), que es la base de estos cinco primeros días, y salir a cenar algo
-      cerca.
+      diez de la noche**. Del aeropuerto se llega con un solo transbordo: **monorraíl hasta
+      Hamamatsuchō y la Yamanote hacia el norte**, o el Keikyū hasta Shinagawa y la misma Yamanote.
+      La agenda de hoy es esta y no hay más: dejar las maletas en [**Akihabara**](#akihabara), que es
+      la base de estos cinco primeros días, y salir a cenar algo cerca.
     window:
       label: Por qué no forzar la primera noche
       body: >-
-        Es tentador salir a por el primer bol de [ramen](#ramen) a las once, y de hecho se puede: en
-        Shinjuku hay cocina hasta la madrugada y a doscientos metros del hotel hay veinte sitios
-        abiertos. Pero mañana el cuerpo os va a levantar de madrugada queráis o no, y **la primera
+        Es tentador salir a por el primer bol de [ramen](#ramen) a las once, pero conviene saber una
+        cosa del barrio: **Akihabara cierra pronto**. Es un distrito de tiendas y a las diez la calle
+        está vacía y las persianas bajadas — que es justo lo que interesa esta noche, aunque
+        sorprenda si llegabais esperando neones a todo volumen. Dos direcciones seguras a esa hora:
+        los callejones de [**Kanda**](https://www.google.com/maps/search/?api=1&query=Kanda%20Station%20Tokyo), una parada al sur, con
+        izakayas bajo las vías abiertas hasta tarde; o el [konbini](#konbini) de la esquina, que la
+        primera noche no es rendirse sino sentido común.
+
+        Y ahí parar. Mañana el cuerpo os va a levantar de madrugada queráis o no, y **la primera
         mañana es la mejor de las cinco**: Sensō-ji vacío al amanecer solo funciona si os habéis
-        acostado. Cenad cerca, sin buscar nada, y a dormir. Ya habrá noches — quedan veinte.
+        acostado. Ya habrá noches — quedan veinte.
   - block: Noche
     time: "primera noche"
-    title: Diez minutos de Shinjuku
+    title: Diez minutos de Akihabara
     dim: true
     body: >-
-      Si después de cenar queda cuerpo —y puede que no—, que sea el paseo corto: **salir de la
-      estación por la boca este y mirar arriba**. Las pantallas, el gato tridimensional de Shinjuku,
-      la marea de gente a las once de la noche de un viernes. Para tres de vosotros es la primera
-      imagen de Japón, y conviene que sea esta y no el techo de una habitación de hotel. **Quince
-      minutos bastan**, y si no da el cuerpo, tampoco pasa nada: mañana a las seis de la mañana la
-      ciudad sigue ahí.
+      Si después de cenar queda cuerpo —y puede que no—, que sea el paseo corto: **bajar a
+      Chūō-dōri y mirar arriba**. Ocho plantas de fachada tapadas de carteles, personajes de anime
+      del tamaño de un edificio y el zumbido de los salones recreativos, que son de lo poco que
+      sigue abierto. Para tres de vosotros es la primera imagen de Japón, y esta sirve tan bien como
+      cualquiera: no se parece a nada que hayáis visto en Europa. **Quince minutos bastan**, y si no
+      da el cuerpo, tampoco pasa nada: mañana a las seis la ciudad sigue ahí.
 alt:
   label: Si te desmarcas
   body: >-
@@ -81,5 +88,6 @@ alt:
     la que se ven despegar los aviones. Veinte minutos, y a los otros tres les va a hacer más gracia
     de la que parece cuando lleguéis juntos otro día.
 
-    Y si al final vuelas por **Narita**: el Skyliner es más rápido, pero el **Narita Express** deja
-    directamente en Shinjuku sin transbordo, que con maleta y a esa hora vale más que diez minutos.
+    Y si al final vuelas por **Narita**: con el hotel donde está, el que gana es el **Skyliner** de
+    Keisei —cuarenta minutos hasta Ueno o Nippori y dos o tres paradas de Yamanote hasta la puerta—,
+    más rápido y más barato que el Narita Express, que encima obliga a cambiar en Tokio.

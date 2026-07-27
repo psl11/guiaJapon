@@ -5,7 +5,7 @@ part: japon
 order: 10
 zone: "Tokio"
 emblem: libro
-kicker: Tokio · la ciudad eléctrica
+kicker: Tokio · vuestra base la primera semana
 title: Akihabara, que empezó vendiendo piezas de radio
 image:
   src: img/fichas/akihabara.webp
@@ -15,7 +15,8 @@ image:
 epithet: >-
   El barrio del manga, el anime y las máquinas recreativas no nació de ninguna subcultura: nació de
   un mercado negro de componentes de radio bajo las vías del tren. Toda su historia posterior —la
-  electrónica, los videojuegos, el otaku— es la consecuencia lógica de aquello.
+  electrónica, los videojuegos, el otaku— es la consecuencia lógica de aquello. Y es donde dormís
+  los cinco primeros días, que es una elección rara y deliberada.
 sections:
   - heading: De la radio al anime, en línea recta
     body: |
@@ -31,6 +32,30 @@ sections:
       Y lo mejor es que el primer eslabón **sigue ahí**. Bajo las vías, en el **Radio Center**, hay
       todavía un laberinto de puestos de un metro cuadrado vendiendo condensadores y cables a
       ingenieros de barba blanca. Es lo más raro y lo más auténtico del barrio.
+  - heading: Por qué se duerme aquí, y no en Shinjuku
+    body: |
+      La respuesta corta es que **el argumento de Shinjuku vale menos justo cuando pega el jet lag**.
+      Lo que Shinjuku tiene y esto no es la noche: cocina hasta las tres, callejones, bares. Y los
+      cinco primeros días os vais a despertar a las cinco de la mañana y estaréis fundidos a las
+      nueve de la noche, así que esa ventaja se desperdicia entera. La ganáis a la vuelta, del 22 al
+      26, cuando el cuerpo ya está hecho y encima es pico de hoja roja.
+
+      Lo que sí se gana aquí, en cambio, se gana desde el primer día:
+
+      - **La estación es legible.** Lleva Yamanote, Keihin-Tōhoku, la Sōbu amarilla, la Hibiya y el
+        Tsukuba Express, y aun así no tiene pérdida. Shinjuku tiene más de doscientas salidas y es
+        la más confusa de Japón: cruzarla dos veces al día durante cinco días con jet lag es un
+        peaje que nadie cuenta hasta que lo paga.
+      - **El Tokio viejo está al lado.** El [Sensō-ji](#sensoji) a diez minutos —que es la mañana
+        mejor planificada del viaje, el templo vacío al amanecer—, [Ueno](#ueno) a dos paradas,
+        [Yanaka](#yanaka) a cuatro, [Ryōgoku](#ryogoku) directo por la Sōbu, [Ginza](#ginza) directo
+        por la Hibiya y Jinbōchō andando. Desde Shinjuku, todo eso es media hora más.
+      - **De noche está tranquilo y sale más barato**, que en un viaje de tres semanas no es un
+        detalle menor.
+
+      El precio a pagar son dos cosas, las dos pequeñas: **se cena antes** —a las diez esto está
+      cerrado y hay que bajar a Kanda o a Ueno— y el día que se sube a los Alpes hay que llegar a
+      Shinjuku con las maletas, veinte minutos de Sōbu directa.
   - heading: Lo que merece la pena, y lo que no
     body: |
       Las siete plantas de figuritas se agotan rápido. Esto no:

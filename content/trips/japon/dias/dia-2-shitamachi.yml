@@ -81,9 +81,13 @@ blocks:
     time: "noche"
     title: La primera cena de verdad
     body: >-
-      Vuelta al oeste y cena en [**Shinjuku**](#shinjuku), que es donde dormís. Aquí no hace falta reservar ni
-      acertar: la densidad de cocina buena y barata en las calles de detrás de la estación es tal que
-      lo difícil es equivocarse. Y a la cama pronto otra vez — mañana también amanece temprano.
+      La ventaja de dormir donde dormís es que hoy no hay que volver a ninguna parte: el día entero
+      ha pasado en esta mitad de la ciudad. Dos opciones a un paso y ninguna necesita reserva: el
+      mercado de [**Ameyoko**](https://www.google.com/maps/search/?api=1&query=Ameyoko%20Market%20Ueno%20Tokyo) bajo las vías de Ueno, que a
+      última hora se convierte en una fila de barras al aire libre; o bajar dos paradas a casa y
+      cenar en los callejones de [**Kanda**](https://www.google.com/maps/search/?api=1&query=Kanda%20Station%20Tokyo), que es donde cena la
+      oficina de Tokio al salir del trabajo. Y a la cama pronto otra vez — mañana también amanece
+      temprano.
 alt:
   label: Si te desmarcas
   body: >-

@@ -15,6 +15,11 @@ estático en https://psl11.github.io/guiaJapon/. Bifurcada de `guiaVietnam`, que
 vuelve a Barcelona el 13 de noviembre** (la jornada 8). Para tres es su primer viaje a Japón; para el
 cuarto, el quinto. La guía cuenta el viaje entero y sirve a los dos lectores a la vez.
 
+**Y un dato que toca muchos ficheros: en Tokio se duerme en dos barrios distintos.** Las cinco
+primeras noches en **Akihabara** y las cinco últimas en **Shinjuku**. No es casual —la ventaja de
+Shinjuku es la noche, y la noche no se usa con jet lag— pero significa que **«donde dormís» no es
+un sitio fijo**: antes de escribir esa expresión, mira de qué bloque hablas.
+
 ---
 
 ## 2. Arquitectura, en cuatro líneas

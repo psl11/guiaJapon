@@ -67,11 +67,15 @@ blocks:
         Asiento **E** en clase turista, y estar atento a la ventanilla en ese tramo.
   - block: Noche
     time: "noche"
-    title: Otra vez Shinjuku
+    title: Tokio otra vez, y otro barrio
     body: >-
-      Se vuelve al mismo barrio del principio, y esta vez con el viaje entero encima. Las maletas
-      grandes deberían estar ya esperando en el hotel. Quedan cinco días de Tokio sin cambiar de
-      cama, que después de once noches de mudanza es un lujo en sí mismo.
+      Se vuelve a Tokio, pero no a donde se empezó: estos cinco últimos días se duermen en
+      [**Shinjuku**](#shinjuku) y no en [Akihabara](#akihabara), y el cambio está pensado. Al
+      principio interesaba dormir barato, tranquilo y cerca del Tokio viejo, con el cuerpo pidiendo
+      cama a las nueve; ahora el huso ya no molesta, es pico de hoja roja y las noches se
+      aprovechan — y Shinjuku es el sitio de Tokio donde eso se nota más. Las maletas grandes
+      deberían estar ya esperando aquí. Quedan cinco días sin cambiar de cama, que después de once
+      noches de mudanza es un lujo en sí mismo.
 alt:
   label: Si te desmarcas
   body: >-

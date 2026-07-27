@@ -29,11 +29,13 @@ blocks:
     time: "08:30–12:00"
     title: Sanmachi y las bolas de cedro
     body: >-
-      Tres calles de casas de comerciantes intactas, con canales de agua a los lados. Se anda en una
-      hora larga, y el juego es mirar hacia arriba: sobre varias puertas cuelga una **bola de ramas
-      de cedro**, y su color dice si la sake de esa casa ya está lista. Hay **seis destilerías en tres
-      calles** y casi todas dejan catar — id de menos a más. La explicación del *sugidama*, en
+      Tres calles de casas de comerciantes intactas, con canales de agua a los lados: se andan en una
+      hora larga. El juego es **mirar hacia arriba**, porque sobre varias puertas cuelga una bola de
+      ramas de cedro y **su color dice si la sake de esa casa ya está lista** — el porqué, en
       [la ficha de Takayama](#takayama).
+
+      Hay **seis destilerías en tres calles** y casi todas dejan catar. Id de menos a más, que son
+      pequeñas y se acumula.
     window:
       label: No os saltéis el Jinya
       body: >-
@@ -55,12 +57,17 @@ blocks:
     time: "14:00–17:00"
     title: Las carrozas, y la ladera de los templos
     body: >-
-      El **Takayama Matsuri** está en la lista de los tres festivales más hermosos de Japón y sus
-      carrozas son Patrimonio Inmaterial de la Unesco. Se celebra en abril y en octubre, así que no
-      cae — pero varias se guardan en el **Yatai Kaikan** y se pueden ver de cerca: doce metros de
-      laca, oro y tallas, con **autómatas de cuerda del siglo XVIII que todavía funcionan**. Después,
-      el **Higashiyama Walking Course**, una hora y media señalizada por la ladera este entre una
-      docena de templos y las ruinas del castillo, prácticamente en solitario.
+      Dos paradas y una caminata. El **Yatai Kaikan** guarda varias de las carrozas del festival, que
+      cae en abril y octubre y no vais a ver de otra manera: doce metros de laca y oro con
+      **autómatas de cuerda del siglo XVIII que todavía funcionan**.
+
+      Y a cinco minutos, el [**Takayama Jinya**](https://www.google.com/maps/search/?api=1&query=Takayama%20Jinya),
+      que es la visita que casi nadie hace y la que mejor se recuerda — **la única oficina de gobierno
+      del periodo Edo que queda en pie en Japón**, con su sala de interrogatorios incluida. Ver
+      [la ficha](#takayama).
+
+      Para cerrar la tarde, el **Higashiyama Walking Course**: hora y media señalizada por la ladera
+      este entre una docena de templos y las ruinas del castillo, prácticamente en solitario.
   - block: Noche
     time: "noche"
     title: Cuando se van los autobuses

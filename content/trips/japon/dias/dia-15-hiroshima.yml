@@ -43,35 +43,35 @@ blocks:
     title: El museo
     body: >-
       El **Museo Memorial de la Paz** se renovó entero en 2019 y hoy apenas usa texto: son objetos y
-      testimonios en primera persona. Es **duro** —un triciclo, un uniforme escolar, la sombra de una
-      persona impresa en unos escalones de granito— y está hecho sin sensacionalismo y sin señalar
-      culpables. Hora y media larga, y **conviene no encadenarlo con nada**: se sale en silencio y
-      hace falta una hora de calle después.
+      testimonios en primera persona. Es **duro**, está hecho sin sensacionalismo y sin señalar
+      culpables, y se sale en silencio.
 
-      Fuera, el **Monumento a los Niños**, por **Sadako Sasaki**, que tenía dos años el día de la
-      bomba y murió de leucemia a los once mientras doblaba grullas de papel. Llegan **millones cada
-      año** de colegios de todo el mundo y se exponen en vitrinas alrededor.
+      Dos avisos prácticos que importan más de lo que parecen: **hora y media larga como mínimo**, y
+      **no encadenarlo con nada**. Hace falta una hora de calle después, y por eso el bloque siguiente
+      es un paseo.
+
+      Fuera, el **Monumento a los Niños**, por **Sadako Sasaki**. Llegan millones de grullas de papel
+      cada año desde colegios de todo el mundo y se exponen en vitrinas alrededor.
   - block: Atardecer
     time: "16:00–18:00"
     title: La ciudad que está viva
     body: >-
       Y ahora lo importante: **Hiroshima es una ciudad de un millón doscientos mil habitantes**, no un
-      cementerio. Dos maneras de comprobarlo antes de cenar:
+      cementerio. Dos maneras de comprobarlo antes de cenar, y las dos cuestan cero:
 
       - Buscad las **placas de los árboles supervivientes** —los *hibakujumoku*—, que hay varias en el
         propio parque. Son fáciles de pasar por alto y cambian la manera de mirar el sitio.
-      - Y **coged el tranvía** para volver al hotel, aunque no haga falta: algunos de los vagones que
-        circulan hoy estaban aquí en 1945. En su ficha se cuenta cuál es cuál.
+      - Y **volved en tranvía** aunque no haga falta: algunos de los vagones que circulan hoy estaban
+        aquí en 1945. [La ficha](#hiroshima) cuenta cuáles.
   - block: Noche
     time: "noche"
     title: Okonomi-mura
     body: >-
-      El ***okonomiyaki* de Hiroshima** es otro plato distinto al de [Osaka](#osaka): aquí **no se mezcla**, se
-      monta en capas —masa fina, montaña de col, panceta, **fideos yakisoba**, huevo a la plancha— y
-      sale una torre. En [**Okonomi-mura**](https://www.google.com/maps/search/?api=1&query=Okonomimura%20Hiroshima), un edificio con más de veinte planchas apiladas en varias
-      plantas, se come sentado a la plancha y lo hace el cocinero delante. Ver
-      [el okonomiyaki](#okonomiyaki). Y si es temporada, **ostras**: la bahía produce el 60 % de las
-      de Japón y noviembre es el arranque.
+      A cenar a [**Okonomi-mura**](https://www.google.com/maps/search/?api=1&query=Okonomimura%20Hiroshima),
+      un edificio con más de veinte planchas apiladas en varias plantas: se elige puesto, se sienta uno
+      a la barra y el cocinero lo monta delante. Pedid el de aquí, que **no tiene nada que ver con el
+      de Osaka** —ver [el okonomiyaki](#okonomiyaki)— y, si hay, **ostras**: noviembre es el arranque
+      de su temporada.
 alt:
   label: Si te desmarcas
   body: >-

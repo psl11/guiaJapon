@@ -13,30 +13,29 @@ blocks:
     time: "07:00–09:00"
     title: El bambusal, cuando se oye
     body: >-
-      Quince minutos de tren desde la estación de Kioto hasta Saga-Arashiyama. Cuatrocientos metros
-      de camino entre cañas de veinte metros — y el consejo es **parar y callarse un minuto**: lo que
-      está protegido aquí oficialmente no es la vista, es el sonido. Ver [Arashiyama](#arashiyama).
+      Quince minutos de tren desde la estación de Kioto hasta Saga-Arashiyama, y hay que estar aquí
+      **con la primera luz**. Cuatrocientos metros de camino entre cañas de veinte metros.
+
+      El consejo es raro y es el bueno: **parad y callaos un minuto**. Lo que está protegido aquí
+      oficialmente no es la vista, es el sonido —y a las diez de la mañana no se oye nada porque hay
+      mil personas hablando. Ver [Arashiyama](#arashiyama).
     window:
       label: Ventana óptima
       body: >-
-        Y ahí está el problema, dicho sin rodeos: **de día no se oye nada**, porque hay miles de
-        personas hablando. Es corto, estrecho y de las cosas más fotografiadas del planeta. **A las
-        siete de la mañana se camina solo y se oye.** A las diez es una estación de metro en hora
-        punta. No hay término medio.
+        **A las siete se camina solo; a las diez es una estación de metro en hora punta.** No hay
+        término medio, y por eso este día empieza antes que ningún otro de Kioto.
   - block: Mañana
     time: "09:00–12:00"
     title: Tenryū-ji, la villa vacía y el río
     body: >-
       **Tenryū-ji abre a las 8:30** y tiene una puerta trasera que da directamente al bambusal, así
-      que se hace al revés que todo el mundo: primero el jardín, y se sale por detrás. Sus edificios
-      ardieron ocho veces, pero **el jardín es el original** — el **Sōgen-chi**, del siglo XIV, es el
-      que mejor conserva su trazado en todo Japón, con las montañas del fondo compuestas *dentro* de
-      él.
+      que el truco es hacerlo al revés que todo el mundo: **primero el jardín, y se sale por detrás
+      al bosque** antes de que lleguen los autobuses.
 
-      Al lado, [**Ōkōchi Sansō**](https://www.google.com/maps/search/?api=1&query=Okochi%20Sanso%20Villa%20Kyoto): la villa y el jardín que se construyó **Ōkōchi Denjirō**, la gran
-      estrella del cine de samuráis mudo, y que le llevó treinta años. Se paga entrada, incluye té y
-      dulce, tiene la vista más abierta del valle y **está vacía**. Después, el puente
-      [**Togetsukyō**](https://www.google.com/maps/search/?api=1&query=Togetsukyo%20Bridge%20Arashiyama), «el que cruza la luna».
+      Al lado, [**Ōkōchi Sansō**](https://www.google.com/maps/search/?api=1&query=Okochi%20Sanso%20Villa%20Kyoto):
+      la entrada incluye **té y dulce** y sirve para lo que aquí hace falta: sentarse. Ver
+      [Arashiyama](#arashiyama). Después, el puente **Togetsukyō**. Lo que
+      son y de dónde vienen, en [Arashiyama](#arashiyama).
   - block: Mediodía
     time: "12:00–14:30"
     title: Cruzar la ciudad al noroeste

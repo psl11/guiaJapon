@@ -2,7 +2,7 @@ slug: shinjuku
 navLabel: "Shinjuku"
 trip: japon
 part: japon
-order: 13
+order: 20
 zone: "Tokio"
 emblem: copa
 kicker: Tokio · vuestra base
@@ -71,6 +71,18 @@ sections:
       Y una cosa que no es opcional: **el último tren**. Aquí la red se para entre las 00:00 y la
       1:00 y no vuelve hasta las cinco. Es la razón de que en este barrio haya karaokes de
       veinticuatro horas — ver [cómo moverse](#transporte-tokio).
+  - heading: Y hacia el oeste
+    body: |
+      La línea Chūō sigue desde aquí hacia los suburbios del oeste, que es donde vive media ciudad y
+      donde hay dos cosas que merecen el trayecto:
+
+      - **Museo Ghibli**, en Mitaka — se entra **solo con entrada comprada con meses de antelación y
+        por sorteo**, nunca en taquilla. Si apetece, hay que moverlo antes de salir de casa.
+      - [**Suginami Animation Museum**](https://www.google.com/maps/search/?api=1&query=Suginami%20Animation%20Museum%20Tokyo) — la alternativa **gratuita** y sin reserva: la historia del
+        anime desde los años veinte, con cabinas donde uno monta su propia animación. Casi nadie lo
+        conoce.
+      - [**Shimokitazawa**](https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Tokyo), dos paradas al oeste: segunda mano, discos, cafés y teatro pequeño. Es
+        donde va la gente de esta ciudad cuando no quiere turistas.
 curiosidades:
   - >-
     **Kabukichō se llama así por un teatro de kabuki que nunca se construyó.** Se proyectó después
@@ -80,7 +92,7 @@ curiosidades:
     excrementos de Tokio** camino de los campos, que los compraban como abono. Era además el barrio
     con más prostitutas de la ciudad.
   - >-
-    Las torres del **Gobierno Metropolitano**, de Kenzō Tange, tienen **dos miradores a 202 metros y
+    Las torres del [**Gobierno Metropolitano**](https://www.google.com/maps/search/?api=1&query=Tokyo%20Metropolitan%20Government%20Building), de Kenzō Tange, tienen **dos miradores a 202 metros y
     la entrada es gratis**. En un día limpio de noviembre se ve el Fuji igual que desde Shibuya Sky.
 seenIn:
   - ref: '#barrios-de-tokio'

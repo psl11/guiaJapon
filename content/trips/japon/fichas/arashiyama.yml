@@ -2,7 +2,7 @@ slug: arashiyama
 navLabel: "Arashiyama"
 trip: japon
 part: japon
-order: 32
+order: 35
 zone: "Kioto"
 emblem: montana
 kicker: Kioto · el oeste
@@ -86,7 +86,7 @@ curiosidades:
     (*shakkei*, «paisaje prestado»). El templo lo fundó Takauji para **apaciguar al emperador que
     había derrocado**.
   - >-
-    En el parque de monos de Iwatayama **las jaulas son para las personas**: los macacos andan
+    En el parque de monos de [Iwatayama](https://www.google.com/maps/search/?api=1&query=Arashiyama%20Monkey%20Park%20Iwatayama) **las jaulas son para las personas**: los macacos andan
     sueltos y se les da de comer desde dentro de una caseta.
 seenIn:
   - ref: '#kioto'

@@ -1,0 +1,74 @@
+slug: odaiba
+navLabel: "Odaiba y la bahía"
+trip: japon
+part: japon
+order: 16
+zone: "Tokio"
+emblem: montana
+kicker: Tokio · la ciudad se acuerda de que tiene mar
+title: Odaiba, unas baterías de cañones convertidas en centro comercial
+epithet: >-
+  Tokio es tan urbano que se olvida de que está junto al mar, y sin embargo la mitad de las estampas
+  de Hokusai y Hiroshige son escenas de esta bahía. Odaiba es la parte rara: unas islas artificiales
+  levantadas a toda prisa para defenderse de los barcos negros, y hoy ocupadas por centros
+  comerciales y arquitectura de los noventa.
+sections:
+  - heading: El nombre es un cañón
+    body: |
+      En **1853** los cuatro barcos de vapor del comodoro **Perry** aparecieron en esta bahía y el
+      shogunato entró en pánico. En cuestión de meses levantó en mitad del agua unas **islas
+      artificiales con baterías de artillería** para defender Edo de un ataque naval. Se llamaron
+      ***daiba***, «baterías», con el prefijo honorífico *o-*: **Odaiba**.
+
+      Nunca dispararon un tiro. Japón abrió los puertos sin resistencia y las islas quedaron ahí,
+      inútiles, durante siglo y medio. En los años ochenta y noventa se rellenó el resto de la bahía
+      para hacer una ciudad futurista que **la burbuja reventó a medio construir** — de ahí ese aire
+      de maqueta demasiado grande que tiene todavía. Dos de las baterías originales se conservan como
+      parque: se puede pisar el terraplén.
+
+      Todo esto se cuenta entero en el [acto 5](#acto-5-meiji).
+  - heading: Qué hay, sin adornos
+    body: |
+      No es un barrio de monumentos. Es un sitio para una tarde, y funciona por tres cosas:
+
+      - **La vista.** Desde la playa artificial de Odaiba se ve el **Rainbow Bridge**, la torre de
+        Tokio y los rascacielos al otro lado del agua, con **una réplica de la Estatua de la
+        Libertad** en primer plano — la trajeron prestada en 1998 y gustó tanto que hicieron una copia
+        permanente. De noche, con el puente iluminado, es de las mejores panorámicas de la ciudad.
+      - **El edificio de Fuji TV**, de **Kenzō Tange**: una retícula de acero con **una esfera de
+        treinta y dos metros encajada en el aire** a la altura de la planta veinticinco. Se puede
+        subir a la esfera.
+      - **Los museos.** El **Miraikan**, museo de ciencia e innovación, con el globo terráqueo de
+        pantallas OLED colgando del atrio y demostraciones del robot ASIMO. Y el **teamLab
+        Planets**, la otra sede del colectivo digital —la de Azabudai es *Borderless*—, en la que se
+        anda descalzo por salas con agua hasta las rodillas.
+  - heading: Cómo se llega, que es medio plan
+    body: |
+      Dos maneras, y las dos son parte de la visita:
+
+      - **El Yurikamome**, un monorraíl **sin conductor** que sale de Shimbashi, sube en espiral,
+        cruza el Rainbow Bridge por el nivel inferior y da una vuelta completa a las islas. **Los
+        asientos delanteros son los de la cabina que no existe**: se va mirando la vía de frente. Es
+        de los mejores trayectos de tren urbano del mundo y cuesta lo que un billete normal.
+      - **El ferry por el Sumida** desde [Asakusa](#sensoji) o desde [Hama-rikyū](https://www.google.com/maps/search/?api=1&query=Hamarikyu%20Gardens%20Tokyo), en los barcos
+        **Himiko** y **Hotaluna** con forma de nave espacial que diseñó **Leiji Matsumoto**, el autor
+        de *Galaxy Express 999*.
+
+      Lo ideal: **ir en ferry y volver en monorraíl al atardecer**, que es cuando la bahía se
+      enciende.
+curiosidades:
+  - >-
+    **Odaiba significa «las baterías».** Son islas artificiales levantadas a toda prisa en 1853 con
+    cañones para defender Edo de los barcos negros de Perry. **No dispararon nunca** — Japón abrió los
+    puertos sin pelear.
+  - >-
+    El **Yurikamome no tiene conductor**: los asientos de delante son los de la cabina que no existe,
+    y se cruza el Rainbow Bridge mirando la vía de frente.
+  - >-
+    La **Estatua de la Libertad** de Odaiba llegó prestada de Francia en 1998 para un año. Gustó tanto
+    que, cuando se la llevaron, hicieron una copia permanente para no quedarse sin ella.
+seenIn:
+  - ref: '#acto-5-meiji'
+    label: "Acto 5 · los barcos negros"
+  - ref: '#barrios-de-tokio'
+    label: "El mapa de los barrios"

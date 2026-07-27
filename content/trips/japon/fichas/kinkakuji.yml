@@ -2,7 +2,7 @@ slug: kinkakuji
 navLabel: "Kinkaku-ji"
 trip: japon
 part: japon
-order: 30
+order: 33
 zone: "Kioto"
 emblem: templo
 kicker: Kioto · el noroeste
@@ -74,7 +74,7 @@ curiosidades:
     Sus tres plantas están en **tres estilos distintos** —aristocracia, guerreros y zen— y solo las
     dos de arriba llevan oro. Es un organigrama político convertido en edificio.
   - >-
-    En el jardín seco de **Ryōan-ji** hay quince rocas y **desde ningún ángulo se ven las quince**.
+    En el jardín seco de [**Ryōan-ji**](https://www.google.com/maps/search/?api=1&query=Ryoanji%20Temple%20Kyoto) hay quince rocas y **desde ningún ángulo se ven las quince**.
     No se conserva ni el nombre del autor ni una explicación de su significado.
 seenIn:
   - ref: '#kioto'

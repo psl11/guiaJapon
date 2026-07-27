@@ -2,7 +2,7 @@ slug: ryogoku
 navLabel: "Ryōgoku · el sumo"
 trip: japon
 part: japon
-order: 17
+order: 11
 zone: "Tokio"
 emblem: casa
 kicker: Tokio · al otro lado del Sumida
@@ -53,6 +53,18 @@ sections:
 
       **Cómo llegar**: línea JR Sōbu hasta Ryōgoku, o el metro Toei Ōedo. Diez minutos desde el
       centro y prácticamente ningún turista occidental.
+  - heading: Lo que no sale en las listas
+    body: |
+      - [**Fukagawa Fudō-dō**](https://www.google.com/maps/search/?api=1&query=Fukagawa%20Fudodo%20Temple%20Tokyo), en Kiyosumi — un templo donde varias veces al día se celebra el
+        ***goma***: el sacerdote enciende una hoguera dentro del salón y **tres tambores taiko
+        retumban** mientras las llamas suben. Dura media hora, es gratis y sobrecoge. Los horarios
+        están en la puerta.
+      - **Museo del Sumo**, en el propio estadio: pequeño, **gratuito** y lleno de estampas de
+        campeones y cinturones ceremoniales. Salva una mañana de lluvia.
+      - **Museo de Arte Contemporáneo de Tokio**, a quince minutos andando desde Kiyosumi, con la
+        mejor colección de arte japonés de posguerra de la ciudad y casi nadie dentro.
+      - **Fukagawa**, el barrio de canales de al lado, donde vivió **Bashō** cuando escribió lo mejor
+        que escribió. Hay un museo diminuto y una estatua sentada mirando al río.
 curiosidades:
   - >-
     Durante los quince días de torneo, **la NHK emite el sumo entero de 16:00 a 18:00**. El *basho*
@@ -61,9 +73,9 @@ curiosidades:
   - >-
     El **chanko-nabe** es el guiso con el que engordan los luchadores, cocinado por turnos por los
     más jóvenes del establo. Cuando se retiran, muchos abren un restaurante — por eso hay tantos en
-    Ryōgoku, y por eso **Yoshiba** sirve la cena dentro de un antiguo *dōjō*, con el ring en medio.
+    Ryōgoku, y por eso [**Yoshiba**](https://www.google.com/maps/search/?api=1&query=Yoshiba%20Ryogoku%20Tokyo) sirve la cena dentro de un antiguo *dōjō*, con el ring en medio.
   - >-
-    El jardín **Kiyosumi Teien** lo llenó de rocas el fundador de **Mitsubishi**, que las hizo traer
+    El jardín [**Kiyosumi Teien**](https://www.google.com/maps/search/?api=1&query=Kiyosumi%20Teien%20Garden%20Tokyo) lo llenó de rocas el fundador de **Mitsubishi**, que las hizo traer
     de todas las provincias de Japón **en sus propios barcos**. Se cruza el estanque saltando sobre
     ellas.
 seenIn:

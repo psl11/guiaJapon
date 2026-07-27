@@ -2,7 +2,7 @@ slug: ebisu-meguro
 navLabel: "Ebisu y Meguro"
 trip: japon
 part: japon
-order: 18
+order: 21
 zone: "Tokio"
 emblem: libro
 kicker: Tokio · el sur, donde vive la gente
@@ -64,6 +64,17 @@ sections:
       que en noviembre está tranquilo y se pasea sin esquivar a nadie. Es, según el autor de la Rough
       Guide, su barrio favorito de Tokio, y sigue siendo más de residentes extranjeros que de
       turistas.
+  - heading: Lo que no sale en las listas
+    body: |
+      - **National Park for Nature Study** — treinta hectáreas de **bosque sin domesticar** en mitad
+        de la ciudad, con cupo de visitantes al día para que no se llene. No es un jardín: es lo que
+        había aquí antes de que hubiera aquí.
+      - **Buri**, en Ebisu — una barra diminuta con treinta variedades de ***cup sake*** casi
+        congelado, servido en tarros. Se bebe de pie y se prueba media prefectura en una hora.
+      - **Iroha**, en Meguro — [sushi](#sushi) bueno de verdad a precio de menú del día, sin cola de
+        turistas porque no sale en ninguna guía en inglés.
+      - **Happōen** — un jardín con bonsáis de varios siglos y una casa de té, gratis salvo el
+        salón. Se usa sobre todo para bodas, así que hay muchas posibilidades de cruzarse con una.
 curiosidades:
   - >-
     **El barrio de Ebisu se llama como una cerveza.** La marca Yebisu tomó su nombre del dios de la
@@ -71,9 +82,9 @@ curiosidades:
   - >-
     Los **cuarenta y siete rōnin** esperaron casi dos años fingiendo vidas disolutas antes de vengar
     a su señor, y después **se suicidaron todos**, incluido un chico de quince años. Están enterrados
-    juntos en Sengaku-ji y **sus tumbas siguen humeando de incienso a diario**, tres siglos después.
+    juntos en [Sengaku-ji](https://www.google.com/maps/search/?api=1&query=Sengakuji%20Temple%20Tokyo) y **sus tumbas siguen humeando de incienso a diario**, tres siglos después.
   - >-
-    El **Tokyo Photographic Art Museum** guarda más de treinta mil copias y es el museo público de
+    El [**Tokyo Photographic Art Museum**](https://www.google.com/maps/search/?api=1&query=Tokyo%20Photographic%20Art%20Museum) guarda más de treinta mil copias y es el museo público de
     fotografía más importante del país. Está dentro de un complejo comercial y **casi nadie lo pisa**.
 seenIn:
   - ref: '#barrios-de-tokio'

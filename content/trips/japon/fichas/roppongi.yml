@@ -2,7 +2,7 @@ slug: roppongi
 navLabel: "Roppongi y Akasaka"
 trip: japon
 part: japon
-order: 19
+order: 22
 zone: "Tokio"
 emblem: copa
 kicker: Tokio · del after al museo
@@ -44,15 +44,15 @@ sections:
         turístico, es caro para lo que es, y merece una copa igualmente.
 curiosidades:
   - >-
-    El **Centro Nacional de Arte** de Kurokawa **no tiene colección permanente**: es un museo sin
+    El [**Centro Nacional de Arte**](https://www.google.com/maps/search/?api=1&query=National%20Art%20Center%20Tokyo) de Kurokawa **no tiene colección permanente**: es un museo sin
     obras, solo salas para exposiciones temporales, detrás de una fachada de cristal que ondula como
     una ola.
   - >-
-    El *izakaya* **Gonpachi** es el local en el que **Tarantino se inspiró para la Casa de las Hojas
+    El *izakaya* [**Gonpachi**](https://www.google.com/maps/search/?api=1&query=Gonpachi%20Nishiazabu%20Tokyo) es el local en el que **Tarantino se inspiró para la Casa de las Hojas
     Azules de *Kill Bill***, después de cenar allí. La pelea no se rodó dentro, pero el decorado es
     una réplica.
   - >-
-    En **Zōjō-ji** están enterrados **seis shōgunes Tokugawa** — y por encima del portal del siglo
+    En [**Zōjō-ji**](https://www.google.com/maps/search/?api=1&query=Zojoji%20Temple%20Tokyo) están enterrados **seis shōgunes Tokugawa** — y por encima del portal del siglo
     XVII asoma la Torre de Tokio, de 1958. Es el contraste japonés en una sola fotografía.
 seenIn:
   - ref: '#barrios-de-tokio'

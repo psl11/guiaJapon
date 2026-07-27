@@ -7,17 +7,10 @@ import type { Inversion } from '~~/shared/schemas'
 
 defineProps<{ inversion: Inversion }>()
 
-// Título inline por v-html (como DiaCard/FichaCard): NO usar <MDC> aquí — mete un <p> de bloque
-// dentro del <h2> (HTML inválido). El render inline es idéntico en SSR y cliente y solo cubre el
-// subset que usan los títulos (*cursiva* → cinabrio, **fuerte**, `code`). [TODO: extraer este
-// helper a app/utils/ y compartirlo con DiaCard/FichaCard — ver REVISION.md.]
-function inlineTitle(md: string): string {
-  const esc = md.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-  return esc
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-}
+// Título inline por v-html con `inlineMd` (app/utils/inline-md.ts, auto-importado; compartido con
+// ActoCard/DiaCard/FichaCard/Threshold/TripView): NO usar <MDC> aquí — mete un <div>/<p> de bloque
+// dentro del <h2> (HTML inválido). Es una función pura → mismo HTML en servidor y cliente, y solo
+// cubre el subset que usan los títulos (*cursiva* → cinabrio, **fuerte**, `code`).
 </script>
 
 <template>
@@ -32,7 +25,7 @@ function inlineTitle(md: string): string {
           {{ inversion.kicker }}
         </div>
         <!-- eslint-disable-next-line vue/no-v-html -->
-        <h2 v-html="inlineTitle(inversion.title)" />
+        <h2 v-html="inlineMd(inversion.title)" />
       </div>
       <span class="inversion-badge">{{ inversion.verdictLabel }}</span>
     </div>

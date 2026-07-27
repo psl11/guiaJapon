@@ -4,22 +4,13 @@
 // cada uno una tarjeta con su "ventana óptima": el porqué de ese momento (luz/gentío/calor). Esa
 // caja dorada es el alma del plan — la hora es referencia, no orden.
 //
-// Hidratación: NADA de <MDC unwrap="p"> (evita el fragmento que desincroniza y hace perder la clase
-// al hermano). El título del día usa un render inline propio vía v-html (idéntico SSR/cliente); la
-// prosa (dek, cuerpo, ventana) va con <MDC :value> SIN unwrap dentro de su contenedor.
+// Hidratación: NADA de <MDC unwrap="p"> (envuelve el texto en un <div> y desincroniza). El título
+// del día va con `inlineMd` (app/utils/inline-md.ts, auto-importado): función pura, mismo HTML en
+// servidor y cliente. La prosa (dek, cuerpo, ventana) va con <MDC :value> SIN unwrap dentro de su
+// contenedor <div>, donde el div raíz de MDC es HTML válido.
 import type { Dia } from '~~/shared/schemas'
 
 defineProps<{ dia: Dia }>()
-
-// Markdown inline de confianza para el título (*cursiva*, **fuerte**, `code`) — sin fragmento de
-// componente, así que hidrata idéntico. No soporta enlaces (los títulos no los llevan).
-function inlineTitle(md: string): string {
-  const esc = md.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
-  return esc
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-}
 </script>
 
 <template>
@@ -33,7 +24,7 @@ function inlineTitle(md: string): string {
     <!-- eslint-disable-next-line vue/no-v-html -->
     <h2
       class="dia-title"
-      v-html="inlineTitle(dia.title)"
+      v-html="inlineMd(dia.title)"
     />
     <div
       v-if="dia.dek"

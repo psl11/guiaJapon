@@ -222,12 +222,12 @@ body {
 .acto h2 em { font-style: italic; color: var(--accent); }
 .acto-rule { height: 2px; background: linear-gradient(90deg, var(--accent) 0 44px, var(--line) 44px); margin: 1.2rem 0 1.6rem; }
 
-/* OJO: la prosa se targetea sobre `.acto`, NO sobre `.acto-body`. El `<div class="acto-body">`
-   pierde su clase al HIDRATAR: el `<MDC unwrap="p">` del lead emite un fragmento (con comentarios
-   `<!--[-->`) que desincroniza el índice de hidratación de su hermano siguiente, y Vue reconcilia
-   el `.acto-body` sin clase. `.acto` sí sobrevive, y los blockquotes solo aparecen en la prosa del
-   acto, así que estos selectores son seguros. (Las clases de la ficha no se ven afectadas porque no
-   las precede un fragmento de unwrap.) */
+/* La prosa se targetea sobre `.acto`, NO sobre `.acto-body`. Nació como parche: el `.acto-body`
+   PERDÍA su clase al hidratar, porque el `<MDC unwrap="p">` del lead metía un `<div>` dentro del
+   `<p class="acto-lead">` (HTML inválido → el parser lo sacaba fuera) y el desfase se arrastraba al
+   hermano siguiente. Ese bug ya está arreglado (el lead va con `inlineMd`, ver app/utils/inline-md.ts)
+   y `.acto-body` conserva su clase, pero los selectores se quedan sobre `.acto`: siguen siendo
+   correctos —los blockquotes y la prosa solo aparecen dentro del acto— y son más robustos. */
 .acto-lead, .acto p { margin: 0 0 1.15rem; }
 .acto-lead::first-letter {
   font-family: 'Cormorant Garamond', serif; font-weight: 600;

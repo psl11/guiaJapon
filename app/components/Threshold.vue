@@ -2,6 +2,10 @@
 // Threshold — el "umbral" entre grandes secciones (Vietnam→Camboya ahora; Parte I→Parte II en el
 // futuro). Tratamiento de revista: aire generoso, filete con estrella dorada, sobrelínea a
 // versalitas, título display grande y una bajada (dek) evocadora en cursiva. Reutilizable por props.
+//
+// Título y dek son inline y viven en <h2>/<p>: van con `inlineMd` (app/utils/inline-md.ts), NO con
+// <MDC unwrap="p">, que envolvía el texto en un <div> — inválido dentro de un <p> y causa del
+// mismatch de hidratación de cada umbral.
 defineProps<{
   id?: string // ancla opcional para que el índice flotante salte a este umbral
   overline: string
@@ -26,20 +30,16 @@ defineProps<{
     <div class="threshold-overline">
       {{ overline }}
     </div>
-    <h2 class="threshold-title">
-      <MDC
-        :value="title"
-        unwrap="p"
-      />
-    </h2>
+    <!-- eslint-disable-next-line vue/no-v-html -->
+    <h2
+      class="threshold-title"
+      v-html="inlineMd(title)"
+    />
+    <!-- eslint-disable-next-line vue/no-v-html -->
     <p
       v-if="dek"
       class="threshold-dek"
-    >
-      <MDC
-        :value="dek"
-        unwrap="p"
-      />
-    </p>
+      v-html="inlineMd(dek)"
+    />
   </section>
 </template>

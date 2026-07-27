@@ -1,8 +1,10 @@
 <script setup lang="ts">
 // ActoCard — archetipo narrativo (cinabrio). Se lee del tirón: numeral árabe grande, capitular
 // en el lead, citas destacadas (blockquotes del markdown → pull-quotes vía CSS) y caja "lo veréis".
-// La prosa va en Markdown y se renderiza con <MDC> (auto-importado de @nuxt/content); `unwrap="p"`
-// en título y lead para que el contenido inline caiga directo en su contenedor (h2 / p.acto-lead).
+// La prosa larga (body, connect) va con <MDC> dentro de su <div>, que es donde el div raíz de MDC
+// es HTML válido. El título y el lead son inline y viven en <h2>/<p>: ahí <MDC unwrap="p"> metía
+// un <div> dentro del <p> —HTML inválido— y rompía la hidratación, así que usan `inlineMd`
+// (app/utils/inline-md.ts, auto-importado), que da el mismo HTML en servidor y cliente.
 import type { Acto } from '~~/shared/schemas'
 
 defineProps<{ acto: Acto }>()
@@ -29,21 +31,16 @@ defineProps<{ acto: Acto }>()
       <div class="acto-kicker">
         {{ acto.kicker }}
       </div>
-      <h2>
-        <MDC
-          :value="acto.title"
-          unwrap="p"
-        />
-      </h2>
+      <!-- eslint-disable-next-line vue/no-v-html -->
+      <h2 v-html="inlineMd(acto.title)" />
     </div>
     <div class="acto-rule" />
 
-    <p class="acto-lead">
-      <MDC
-        :value="acto.lead"
-        unwrap="p"
-      />
-    </p>
+    <!-- eslint-disable-next-line vue/no-v-html -->
+    <p
+      class="acto-lead"
+      v-html="inlineMd(acto.lead)"
+    />
     <div class="acto-body">
       <MDC :value="acto.body" />
     </div>

@@ -192,21 +192,17 @@ const indexOpen = ref(false)
       <div class="eyebrow">
         {{ trip.eyebrow }}
       </div>
-      <h1>
-        <MDC
-          :value="trip.title"
-          unwrap="p"
-        />
-      </h1>
+      <!-- Título y entradilla son inline: `inlineMd` (v-html) en vez de <MDC unwrap="p">, que
+           envolvía el texto en un <div> — inválido dentro del <p class="lede"> y causa de su
+           mismatch de hidratación. Ver app/utils/inline-md.ts. -->
+      <!-- eslint-disable-next-line vue/no-v-html -->
+      <h1 v-html="inlineMd(trip.title)" />
+      <!-- eslint-disable-next-line vue/no-v-html -->
       <p
         v-if="trip.lede"
         class="lede"
-      >
-        <MDC
-          :value="trip.lede"
-          unwrap="p"
-        />
-      </p>
+        v-html="inlineMd(trip.lede)"
+      />
     </section>
 
     <!-- El plan primero (lo práctico): el día a día → el dinero. -->

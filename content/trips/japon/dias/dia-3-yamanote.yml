@@ -50,16 +50,22 @@ blocks:
       su día fue una proeza de ingeniería y que volvió a usarse en los Juegos de 2020. Es el edificio
       que mejor cuenta el Japón que se reinventó después de la guerra, y está de camino.
     window:
-      label: Por qué en domingo
+      label: Por qué en domingo, y dónde mirar
       body: >-
-        Porque Harajuku en domingo **es otra cosa**: es el día en que la gente se viste para venir. Un
-        martes por la tarde es una calle comercial estrecha; un domingo es el fenómeno que os han
-        contado. Si el gentío agobia, la salida siempre está a la vuelta de la esquina — literalmente.
+        Porque Harajuku en domingo **es otra cosa**: es el día en que la gente se viste para venir. Y
+        el sitio exacto es el **Jingū-bashi**, el puentecito entre la estación de Harajuku y la
+        entrada del santuario: ahí es donde se concentran. Los géneros tienen nombre propio y se
+        distinguen a la vista — ***cosplay*** (personaje de anime o videojuego), ***Gothic Lolita***
+        (gótico y muñeca a la vez), ***Visual Kei*** (maquillaje y pelo de banda de rock),
+        ***Decora*** (color y cien accesorios encima). Se mira, y **se pide permiso antes de
+        fotografiar**: van vestidos para que se les vea, no para que se les persiga.
   - block: Tarde
     time: "15:00–17:00"
     title: El cruce, y la ciudad desde arriba
     body: >-
-      [**Shibuya**: el cruce](#shibuya) donde tres mil personas atraviesan a la vez sin rozarse, y la estatua de
+      Se baja a Shibuya por **[Cat Street](#shibuya)**, un pasadizo peatonal y curvo que evita las
+      avenidas: veinte minutos entre tiendas pequeñas, y sus curvas son las del **río Shibuya**, que
+      corre entubado justo debajo. Al final, [**el cruce**](#shibuya) donde tres mil personas atraviesan a la vez sin rozarse, y la estatua de
       **Hachikō**, el perro que esperó a su dueño nueve años en esa puerta. Verlo desde la calle está
       bien; verlo desde arriba lo explica. Para eso, **Shibuya Sky**, la azotea abierta de la torre
       Scramble Square, con la ciudad de 360 grados y —si el aire está limpio— el **Fuji** recortado al
@@ -91,5 +97,8 @@ alt:
     edificio de Kengo Kuma con un jardín que no parece Tokio— está a diez minutos de Omotesandō y
     abre los domingos; **Shimokitazawa**, dos paradas al oeste, es el barrio de segunda mano, discos y
     teatro pequeño donde va la gente de esta ciudad cuando no quiere turistas; y **Daikanyama** con la
-    librería **Tsutaya**, que es probablemente el mejor sitio del mundo para pasar dos horas sin hacer
-    nada. Si el grupo va a Shibuya Sky, cualquiera de los tres cabe justo antes.
+    [librería **Tsutaya**](#daikanyama-tsutaya), que es probablemente el mejor sitio del mundo para
+    pasar dos horas sin hacer nada. Y si prefieres algo pequeño y muy tuyo: el **Museo Ōta**, entre
+    Takeshita-dōri y Omotesandō, dedicado **solo a grabados *ukiyo-e***, con exposición rotatoria y
+    apenas dos salas — se ve en cuarenta minutos y es donde se entiende de dónde salió la mitad de la
+    pintura europea del XIX. Si el grupo va a Shibuya Sky, cualquiera de los tres cabe justo antes.

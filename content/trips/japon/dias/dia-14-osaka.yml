@@ -1,13 +1,37 @@
 slug: dia-14-osaka
-navLabel: "Día 14 · Osaka"
+navLabel: "Día 14 · Fushimi y Osaka"
 trip: japon
 order: 14
 eyebrow: El plan · Día 14 · jue 19 nov
 title: Osaka, la ciudad que *se arruina comiendo*
 dek: >-
-  Media hora de tren y el contrario exacto de [Kioto](#kioto): sin patrimonio que defender, sin contención y
-  con una palabra propia para definirse. Es un día de comer de pie y de mirar carteles.
+  El día empieza todavía en Kioto y de madrugada, en los diez mil torii de
+  [**Fushimi Inari**](#fushimi-inari) — que a las siete es otro sitio distinto del que sale en las
+  fotos. Después, media hora de tren y el contrario exacto de [Kioto](#kioto): sin patrimonio que
+  defender, sin contención y con una palabra propia para definirse. Comer de pie y mirar carteles.
 blocks:
+  - block: Amanecer
+    time: "06:45–08:45"
+    title: Los diez mil torii, antes de que llegue nadie
+    body: >-
+      **[Fushimi Inari](#fushimi-inari) es el sitio más visitado de Kioto y el único que se puede
+      tener vacío**, porque no es un templo con horario: es una montaña con un santuario, **abierta
+      las veinticuatro horas y gratis**. A las siete de la mañana los túneles de torii están
+      literalmente para vosotros; a las once son una cola en fila india.
+
+      Está a **cinco minutos de la estación de Kioto** por la línea JR Nara —bajando en *Inari*, que
+      deja en la puerta— y por eso encaja hoy y no otro día: es el único que sale hacia el sur.
+      Subid al menos hasta el **mirador de Yotsutsuji**, a media montaña y unos cuarenta minutos: es
+      donde se acaba el gentío incluso a mala hora y desde donde se ve Kioto entera.
+    window:
+      label: Hasta dónde subir, y por qué no hasta arriba
+      body: >-
+        La cima está a dos horas y media ida y vuelta y **no tiene vistas**: el bosque se cierra. Lo
+        que hay arriba es el santuario interior y muchísimos torii pequeños, y es una caminata
+        bonita, pero hoy hay un día entero por delante. **Yotsutsuji es el punto de rendimiento
+        decreciente** — de ahí para arriba se repite el paisaje. Bajad por el ramal de la derecha,
+        que pasa por el estanque y por los santuarios pequeños donde la gente deja torii en
+        miniatura.
   - block: Mañana
     time: "09:30–12:00"
     title: El castillo, y lo que no es
@@ -61,10 +85,19 @@ blocks:
 alt:
   label: Si te desmarcas
   body: >-
-    En vez de Osaka, **[Nara](#nara)**: cuarenta y cinco minutos desde Kioto y es la capital anterior,
+    **La alternativa fuerte de hoy es cambiar Osaka por [Nara](#nara)**, y hoy encaja mejor que
+    nunca por un detalle de horarios: **de Fushimi Inari sale un tren directo a Nara** por la misma
+    línea JR, cuarenta y cinco minutos, sin volver a Kioto. Es decir, se puede hacer amanecer en los
+    torii, mañana entera en Nara y volver a dormir a Kioto — un día completo sin repetir trayecto.
+
+    Nara es la capital anterior,
     con el **Gran Buda de Tōdai-ji** —quince metros de bronce fundidos en el 752, en uno de los
     edificios de madera más grandes del mundo— y **mil doscientos ciervos sueltos** que son mensajeros
     de los dioses y que se inclinan para pedir galletas. Es un cambio de tema completo respecto a
-    Kioto, y encaja igual de bien en el hueco. Y si se prefiere Osaka pero con otra cosa dentro: el
+    Kioto: si Kioto es la capital de la corte y del refinamiento, **Nara es la del budismo de Estado
+    del siglo VIII**, la que cuenta [el acto primero](#acto-1-kami-y-corte). Quien vaya buscando el
+    hilo histórico del viaje encontrará aquí el capítulo que falta.
+
+    Y si se prefiere Osaka pero con otra cosa dentro: el
     [**Umeda Sky Building**](https://www.google.com/maps/search/?api=1&query=Umeda%20Sky%20Building%20Osaka), dos torres unidas arriba por un observatorio flotante con escaleras
     mecánicas al aire.

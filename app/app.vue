@@ -36,7 +36,7 @@ useHead({
 // sus valores deben seguir a los --bg de tokens.css.
 useHead({
   htmlAttrs: { lang: 'es' },
-  title: 'Japón · 6—13 noviembre 2026',
+  title: 'Japón · 6—26 noviembre 2026',
   meta: [
     { name: 'theme-color', content: '#14161a', media: '(prefers-color-scheme: dark)' },
     { name: 'theme-color', content: '#f2efe7', media: '(prefers-color-scheme: light)' },

@@ -1,0 +1,28 @@
+slug: momiji-manju
+trip: japon
+part: japon
+city: Miyajima
+category: postre
+order: 95
+title: Momiji manjū
+navLabel: "Momiji manjū"
+tipo: puestos de la calle Omotesandō
+area: Miyajima · calle que sube del embarcadero al Itsukushima
+cuando: "Día 16 · a cualquier hora del día en la isla"
+precio: "¥100–150 la pieza (0,7–1 €)"
+reserva: "No"
+colas: "Sí en los famosos"
+veg: "Sí · harina, huevo y judía dulce; el de crema lleva lácteo"
+badge: "El dulce de la isla desde 1906"
+quePedir: >-
+  Uno **recién salido del molde**, todavía caliente, y si lo encontráis, la versión ***age-momiji***: el mismo dulce rebozado y frito.
+body: >-
+  Un bizcochito **con forma de hoja de arce** relleno de pasta de judía, inventado en la isla hacia 1906 y hoy el souvenir comestible de media prefectura. La gracia no es comprarlo en caja: es comerlo **recién hecho**, saliendo de las máquinas de molde que los puestos tienen a la vista de la calle.
+
+
+  Y la coincidencia es buena: estáis en Miyajima el 21 de noviembre, con los arces de verdad girando a rojo en el **valle de Momijidani**, que es el que da nombre al dulce.
+seenIn:
+  - ref: '#miyajima'
+    label: "Miyajima"
+  - ref: '#momiji'
+    label: "La hoja roja"

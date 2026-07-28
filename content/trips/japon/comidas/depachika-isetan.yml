@@ -1,0 +1,28 @@
+slug: depachika-isetan
+trip: japon
+part: japon
+city: Tokio
+category: street-food
+order: 17
+title: La depachika de Isetan
+navLabel: "La depachika de Isetan"
+tipo: sótano de alimentación de grandes almacenes
+area: Shinjuku · sótano de Isetan, salida este
+cuando: "Última semana · cualquier tarde, y la víspera de un tren"
+precio: "¥500–3.000 (3–19 €)"
+reserva: "No"
+colas: "En los mostradores famosos"
+veg: "Excelente · es el sitio más fácil de Japón para componer una cena vegetariana leyendo etiquetas"
+badge: "La mejor depachika de Tokio, por consenso"
+quePedir: >-
+  Componer una cena: encurtidos, ensaladas, *inari-zushi*, una caja de wagashi y algo de la pastelería francesa, que en Japón está al nivel de París.
+body: >-
+  La ***depachika*** —el sótano de comida de unos grandes almacenes— es una de las mejores invenciones gastronómicas de Japón y la de **Isetan** es la que todo el mundo cita: dos plantas de mostradores, cada uno de una sola cosa, con productores que llevan tres generaciones vendiendo un solo encurtido.
+
+
+  Tiene dos usos prácticos en este viaje. Uno, **cena de habitación decente** cuando no queda cuerpo. Dos, y más importante: es donde se compra el ***ekiben*** bueno antes de un tren largo, en vez del de la estación.
+seenIn:
+  - ref: '#konbini'
+    label: "El konbini y el ekiben"
+  - ref: '#shinjuku'
+    label: "Shinjuku"

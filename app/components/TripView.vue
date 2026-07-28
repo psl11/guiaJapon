@@ -215,7 +215,7 @@ const indexOpen = ref(false)
     <template v-if="hayPlan">
       <Threshold
         id="el-plan"
-        overline="De Tokio a los Alpes · ocho días"
+        overline="De Tokio a Hiroshima y vuelta · veintiún días"
         title="El viaje, *día a día*"
         dek="El eje no es la agenda por horas sino los bloques del día —amanecer, mañana, siesta, tarde, noche— y su «ventana óptima»: por qué *entonces* (la luz, el gentío, el calor), no a qué hora."
       />

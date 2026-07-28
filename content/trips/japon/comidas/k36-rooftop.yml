@@ -3,7 +3,7 @@ trip: japon
 part: japon
 city: Kioto
 category: cocteleria
-order: 13
+order: 75
 title: K36 The Bar & Rooftop
 navLabel: "K36"
 tipo: azotea y coctelería · en una escuela reconvertida
@@ -11,7 +11,9 @@ area: The Hotel Seiryū, 4.ª planta · 2 Chome-204-2 Kiyomizu, Higashiyama
 cuando: "Al atardecer del día de Higashiyama"
 precio: "Cóctel ~¥2.000 (~14 €)"
 reserva: "Imprescindible si se quiere la puesta de sol"
+colas: "Sí al atardecer · la azotea es pequeña"
 veg: "Solo se bebe"
+badge: "La azotea de Higashiyama"
 quePedir: "Un *highball* de whisky japonés, que aquí se hace en serio."
 body: >-
   El edificio ya es la historia: una **escuela primaria de los años treinta** al pie de [Kiyomizu-dera](https://www.google.com/maps/search/?api=1&query=Kiyomizu-dera%20Kyoto),

@@ -3,7 +3,7 @@ trip: japon
 part: japon
 city: Kioto
 category: cafe
-order: 11
+order: 61
 title: Kurasu Kyoto Stand
 navLabel: "Kurasu"
 tipo: barra de café minimalista · tostadores rotatorios
@@ -13,6 +13,7 @@ precio: "~¥500-700"
 reserva: "No"
 colas: "Poca"
 veg: "Leche vegetal disponible"
+badge: "Inside Kyoto"
 quePedir: "El filtrado del día. Preguntad de qué tostador es: cambia cada semana."
 body: >-
   Pequeño, silencioso y a dos minutos de la estación, que es exactamente donde hace falta un café

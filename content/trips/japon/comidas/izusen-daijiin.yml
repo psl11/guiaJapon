@@ -1,0 +1,26 @@
+slug: izusen-daijiin
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 66
+title: Izusen Daiji-in
+navLabel: "Izusen Daiji-in"
+tipo: shōjin ryōri en un subtemplo
+area: Daitoku-ji · norte de Kioto, en el complejo de templos zen
+cuando: "Días 11-13 · comida, solo mediodía"
+precio: "¥3.500–6.500 (23–42 €)"
+reserva: "Recomendable"
+colas: "No"
+veg: "**100% vegano** · shōjin ryōri; avisad si alguien no toma nada de alcohol, algún plato lleva mirin"
+badge: "Inside Kyoto"
+quePedir: >-
+  El menú servido en ***teppatsu***: cuencos rojos lacados que encajan uno dentro de otro, como los cuencos de limosna de los monjes.
+body: >-
+  La otra gran *shōjin* de Kioto, dentro de **Daitoku-ji**, que es el complejo de templos zen más importante de la ciudad y por donde pasó la ceremonia del té entera: aquí enseñó Sen no Rikyū. Se come sentado mirando a un jardín seco.
+
+
+  Su gracia es el servicio: los platos llegan en **cuencos lacados rojos que se apilan uno dentro de otro**, imitando el juego de cuencos de mendicidad de un monje. Al terminar se recomponen en una sola pieza. Es teatro, y es teatro con ochocientos años.
+seenIn:
+  - ref: '#kioto'
+    label: "Kioto"

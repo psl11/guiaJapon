@@ -1,0 +1,26 @@
+slug: bar-trench
+trip: japon
+part: japon
+city: Tokio
+category: cocteleria
+order: 23
+title: Bar Trench
+navLabel: "Bar Trench"
+tipo: coctelería de barrio, absenta
+area: Ebisu · callejón peatonal de Ebisu-Nishi
+cuando: "Última semana · noche suelta"
+precio: "¥1.800–2.800 por copa (12–18 €)"
+reserva: "Recomendable"
+colas: "Sí a partir de las 21:00"
+veg: "Sí"
+badge: "Nº 53 · Asia's 50 Best Bars 2026"
+quePedir: >-
+  Algo con **absenta**, que es la especialidad de la casa desde 2010.
+body: >-
+  Metido en un callejón de [Ebisu](#ebisu-meguro), abierto en **2010** y desde entonces el sitio de Tokio para la absenta. Local diminuto, luz de otro siglo y una carta que rota. Entró de nuevo en la lista de **Asia's 50 Best Bars en el número 53** de la edición de 2026.
+
+
+  Es más informal que los templos de Ginza: se puede entrar sin ceremonia, se puede charlar y no hace falta saber qué se quiere. Buen primer bar de una noche que siga por el barrio.
+seenIn:
+  - ref: '#ebisu-meguro'
+    label: "Ebisu y Meguro"

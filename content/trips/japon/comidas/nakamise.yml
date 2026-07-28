@@ -1,0 +1,26 @@
+slug: nakamise
+trip: japon
+part: japon
+city: Tokio
+category: street-food
+order: 18
+title: Nakamise-dōri
+navLabel: "Nakamise-dōri"
+tipo: calle de puestos de peregrinación
+area: Asakusa · entre la Kaminarimon y el Sensō-ji
+cuando: "Día 2 · al amanecer está cerrada; los puestos abren hacia las 9:30"
+precio: "¥150–500 la pieza (1–3 €)"
+reserva: "No"
+colas: "Sí, a partir de media mañana"
+veg: "Buenas opciones · *ningyō-yaki*, *age-manjū* y *senbei* son vegetales; comprobad el *senbei* untado, que a veces lleva salsa de pescado"
+badge: "Calle comercial más antigua de Japón"
+quePedir: >-
+  ***Ningyō-yaki*** recién hecho —bizcochito relleno de judía dulce— y ***age-manjū***, el mismo dulce pero frito.
+body: >-
+  Doscientos cincuenta metros de puestos entre la puerta del Trueno y el templo, y **una de las calles comerciales más antiguas del país**: hay licencias aquí que llevan en la misma familia desde el siglo XVIII, cuando el shogunato concedió el derecho a barrer el recinto a cambio de poder vender en él.
+
+
+  La trampa es la hora. Si hacéis el [Sensō-ji](#sensoji) al amanecer, como manda el día 2, **estará todo cerrado y el templo vacío** — que es infinitamente mejor. Los puestos son para la vuelta, a media mañana, con el *ningyō-yaki* saliendo caliente del molde.
+seenIn:
+  - ref: '#sensoji'
+    label: "El Sensō-ji"

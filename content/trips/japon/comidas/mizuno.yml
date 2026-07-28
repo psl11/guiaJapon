@@ -1,0 +1,28 @@
+slug: mizuno
+trip: japon
+part: japon
+city: Osaka
+category: comida
+order: 81
+title: Okonomiyaki Mizuno
+navLabel: "Okonomiyaki Mizuno"
+tipo: plancha de barra, desde 1945
+area: Dōtonbori · en la calle principal
+cuando: "Día 14 · comida"
+precio: "¥1.200–2.000 (8–13 €)"
+reserva: "No se acepta"
+colas: "Sí, largas, y avanzan"
+veg: "Con aviso · se puede pedir **sin carne ni marisco**, pero la masa lleva huevo y el acabado lleva ***katsuobushi*** (bonito) y a veces salsa con base de pescado: pedid que lo dejen fuera"
+badge: "Bib Gourmand"
+quePedir: >-
+  El ***yamaimo-yaki***, que es la firma de la casa: ligado con **ñame rallado en vez de harina**, sale mucho más esponjoso que el okonomiyaki normal.
+body: >-
+  Abierta en **1945**, entre las ruinas, y con **Bib Gourmand** desde hace años. Es la casa que todo el mundo cita en Dōtonbori y, contra toda expectativa de una calle tan turística, se lo merece: compran en el mercado de [Kuromon](#kuromon) —el pescado al pescadero, la carne al carnicero, los encurtidos al encurtidor— y lo cocinan delante de vosotros en la plancha de la barra.
+
+
+  El truco de la casa es **ligar la masa con ñame rallado** en lugar de con harina, que da una textura mucho más aérea. Hay cola siempre; va rápida porque la gente come y se va.
+seenIn:
+  - ref: '#okonomiyaki'
+    label: "El okonomiyaki"
+  - ref: '#osaka'
+    label: "Osaka"

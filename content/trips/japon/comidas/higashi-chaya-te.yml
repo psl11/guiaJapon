@@ -1,0 +1,28 @@
+slug: higashi-chaya-te
+trip: japon
+part: japon
+city: Kanazawa
+category: postre
+order: 53
+title: Las casas de té de Higashi Chaya
+navLabel: "Las casas de té de Higashi Chaya"
+tipo: salones de té en casas de geishas
+area: Higashi Chaya-gai · el barrio de madera al este del río
+cuando: "Día 10 · media tarde"
+precio: "¥1.000–2.000 (6–13 €)"
+reserva: "No en general"
+colas: "Poca cosa entre semana"
+veg: "Sí · el *wagashi* de Kanazawa es judía, azúcar y agar"
+badge: "Kanazawa, tercera ciudad del wagashi"
+quePedir: >-
+  **Matcha con un dulce de temporada**, y si os cruzáis con ello, el **helado con pan de oro** — hortera, célebre y bastante bueno.
+body: >-
+  Kanazawa se considera **la tercera ciudad del dulce japonés** después de Kioto y Matsue, y por la misma razón que las otras dos: donde hubo té de ceremonia con dinero detrás, hubo confiteros. El clan Maeda gastó tres siglos en cultura en lugar de en ejército, y esto es una de las cosas que quedaron.
+
+
+  El barrio de **Higashi Chaya** son dos calles de casas de madera de dos plantas con celosías, las antiguas casas de geishas, y varias son hoy salones de té. Es de los pocos sitios de Japón donde el edificio en el que os tomáis el matcha es tan interesante como el matcha.
+seenIn:
+  - ref: '#kanazawa'
+    label: "Kanazawa"
+  - ref: '#wagashi'
+    label: "Wagashi y matcha"

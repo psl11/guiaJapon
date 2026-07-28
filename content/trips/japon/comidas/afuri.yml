@@ -3,7 +3,7 @@ trip: japon
 part: japon
 city: Tokio
 category: comida
-order: 2
+order: 26
 title: Afuri
 navLabel: "Afuri"
 tipo: ramen moderno, varias sedes
@@ -13,6 +13,7 @@ precio: "~¥1.200-1.500 (8-10 €)"
 reserva: "No"
 colas: "Sí, pero van rápidas"
 veg: "Tiene [ramen](#ramen) vegano en carta — raro y de agradecer"
+badge: "Casa de referencia del shio de yuzu"
 quePedir: "*Yuzu shio ramen*: el caldo claro con cáscara de cítrico. Es su firma."
 body: >-
   El ramen que convence a quien cree que el ramen le pesa. Frente al *tonkotsu* denso y graso, Afuri

@@ -3,7 +3,7 @@ trip: japon
 part: japon
 city: Tokio
 category: cena
-order: 5
+order: 30
 title: Tōfuya Ukai
 navLabel: "Tōfuya Ukai"
 tipo: kaiseki de tofu en jardín histórico
@@ -13,6 +13,7 @@ precio: "Menú desde ¥5.500 (comida) / ¥8.400 (cena) · ~70 €"
 reserva: "Imprescindible, con bastante antelación"
 colas: "No"
 veg: "Muy buena: el tofu es el eje de la casa. Confirmar el *dashi* al reservar"
+badge: "Kaiseki de tofu · jardín de la era Edo"
 quePedir: "El menú del mediodía, que es la misma cocina a bastante menos precio."
 body: >-
   Si este viaje va a tener **una** cena cara, es esta. Ocupa una **antigua fábrica de sake trasladada

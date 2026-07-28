@@ -1,0 +1,26 @@
+slug: kuromon
+trip: japon
+part: japon
+city: Osaka
+category: street-food
+order: 82
+title: Kuromon Ichiba
+navLabel: "Kuromon Ichiba"
+tipo: mercado cubierto, «la cocina de Osaka»
+area: Nipponbashi · seiscientos metros al este de Dōtonbori
+cuando: "Día 14 · mañana; muchos puestos cierran a las 17:00"
+precio: "¥300–2.000 por parada (2–13 €)"
+reserva: "No"
+colas: "Según puesto"
+veg: "Mixta · hay fruta espectacular, encurtidos, *korokke* y tofu, pero el grueso del mercado es pescado y carne"
+badge: "«La cocina de Osaka» · desde el s. XIX"
+quePedir: >-
+  Fruta cortada —el melón y la uva de Japón son un espectáculo y aquí se venden por gajos—, y para quien coma pescado, vieira a la brasa y ostras.
+body: >-
+  Seiscientos metros de mercado cubierto que abastecen a media hostelería de Osaka desde el siglo XIX. A diferencia de [Nishiki](#nishiki) en Kioto, aquí casi todo se come **de pie y al momento**: los puestos tienen plancha, brasa o cuchillo y te lo dan en un palillo.
+
+
+  Osaka se define a sí misma con la palabra ***kuidaore***, «arruinarse comiendo», y este mercado es el sitio donde la frase deja de ser un eslogan. Con un día solo en la ciudad, esta es la mañana.
+seenIn:
+  - ref: '#osaka'
+    label: "Osaka"

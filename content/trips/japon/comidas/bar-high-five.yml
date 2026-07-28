@@ -1,0 +1,26 @@
+slug: bar-high-five
+trip: japon
+part: japon
+city: Tokio
+category: cocteleria
+order: 22
+title: Bar High Five
+navLabel: "Bar High Five"
+tipo: coctelería clásica de Ginza
+area: Ginza 7-chōme · sótano, sin cartel a la calle
+cuando: "Última semana · después del día de compras"
+precio: "¥2.000–3.000 por copa + cubierto (13–19 €)"
+reserva: "Recomendable"
+colas: "Sí, es pequeño"
+veg: "Sí"
+badge: "La escuela de coctelería de Ginza"
+quePedir: >-
+  Nada concreto: **se le cuenta al barman qué se bebe normalmente y él decide**. Es el formato de la casa.
+body: >-
+  Hidetsugu Ueno es probablemente el barman japonés más conocido fuera de Japón, y su bar es la mejor introducción posible a **la escuela de Ginza**: hielo tallado a mano con cuchillo, el *hard shake*, cero espectáculo y una obsesión por la técnica que aquí se considera artesanía y no cocina.
+
+
+  Aquí tampoco hay carta. Se dice qué se suele beber, si se quiere corto o largo, dulce o seco, y llega algo. Es intimidante la primera vez y deja de serlo a los dos minutos: **hablan inglés y están acostumbrados a extranjeros**, que en la coctelería de Ginza no siempre pasa.
+seenIn:
+  - ref: '#ginza'
+    label: "Ginza"

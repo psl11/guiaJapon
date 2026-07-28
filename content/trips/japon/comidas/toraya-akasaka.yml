@@ -1,0 +1,28 @@
+slug: toraya-akasaka
+trip: japon
+part: japon
+city: Tokio
+category: postre
+order: 19
+title: Toraya Akasaka
+navLabel: "Toraya Akasaka"
+tipo: confitería de corte, desde el siglo XVI
+area: Akasaka · frente al jardín del Palacio de Akasaka
+cuando: "Cualquier tarde · la sala de té cierra pronto"
+precio: "¥1.200–2.200 con té (8–14 €)"
+reserva: "No"
+colas: "Poca"
+veg: "Sí · el *wagashi* es judía, azúcar y agar — sin gelatina animal"
+badge: "Proveedor de la Casa Imperial desde el s. XVI"
+quePedir: >-
+  Un ***yōkan*** cortado al momento y un **matcha batido**, servidos juntos en la sala de té de la planta baja.
+body: >-
+  Llevan **desde el siglo XVI** haciendo dulces para la corte: primero en Kioto, y desde que el emperador se mudó a Tokio en 1869, también aquí. Su edificio de Akasaka, reconstruido en 2018, es un ejercicio de arquitectura contemporánea que no hace ruido — madera, luz baja y una escalera que baja a una sala de té.
+
+
+  El ***wagashi*** es la mejor puerta de entrada a la repostería japonesa y **es vegetariano por construcción**: pasta de judía azuki, azúcar y agar-agar de alga en lugar de gelatina. Nada de mantequilla, nada de huevo, nada de animal. Va con el [matcha](#wagashi).
+seenIn:
+  - ref: '#wagashi'
+    label: "Wagashi y matcha"
+  - ref: '#roppongi'
+    label: "Akasaka y Roppongi"

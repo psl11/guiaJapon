@@ -1,0 +1,23 @@
+slug: onigiri
+trip: japon
+kind: plato
+order: 18
+title: "Onigiri"
+navLabel: "Onigiri"
+queEs: >-
+  Arroz prensado a mano en triángulo, con un relleno en el centro y una tira de alga *nori* alrededor. Se come frío, con la mano, y es **la comida portátil de Japón** desde antes de que existiera el concepto.
+historia: >-
+  Se han encontrado **bolas de arroz carbonizadas del periodo Yayoi**, hace unos dos mil años. Su función no era la merienda: era conservación. El arroz salado y prensado aguanta el día, y con *umeboshi* —la ciruela encurtida, brutalmente ácida y antiséptica— aguanta más. Por eso el *onigiri* de ciruela es el clásico: no se eligió por sabor sino porque **la ciruela impedía que el arroz se echara a perder**.
+dondeMejor: "En cualquier konbini, y en los mostradores artesanos de Tokio"
+picante: "Suave"
+veg: "**Sí, con cuidado en la lectura** · *umeboshi*, *kombu* y *takana* son vegetales; *okaka* es bonito y *tuna-mayo*, atún. En el konbini el relleno va en el envoltorio, en japonés"
+body: >-
+  Es la solución de tres problemas de este viaje a la vez: el desayuno del día que os despertáis a las cinco, la comida del tren de dos horas y media, y la cena del día que llegáis reventados. Cuesta entre uno y tres euros.
+
+
+  El envoltorio del konbini tiene un sistema de tres tiras numeradas para que **el alga no toque el arroz hasta el momento de comer** y siga crujiente. Parece una tontería y es una obra de ingeniería doméstica que en Japón se enseña sin enseñarse. La versión artesana, hecha al momento, está en otro nivel: [Yadoroku](#onigiri-yadoroku), en Asakusa, lleva desde 1954.
+seenIn:
+  - ref: '#onigiri-yadoroku'
+    label: "Yadoroku · Asakusa"
+  - ref: '#konbini'
+    label: "El konbini y el ekiben"

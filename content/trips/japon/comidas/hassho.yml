@@ -1,0 +1,26 @@
+slug: hassho
+trip: japon
+part: japon
+city: Hiroshima
+category: comida
+order: 91
+title: Hassho
+navLabel: "Hassho"
+tipo: plancha de barra, especialista
+area: Centro de Hiroshima
+cuando: "Día 15 · alternativa a Okonomimura"
+precio: "¥1.100–1.900 (7–12 €)"
+reserva: "No"
+colas: "Sí"
+veg: "Con aviso · mismo caso que Okonomimura: sin cerdo, y pedir que no le pongan bonito"
+badge: "Referencia local del okonomiyaki"
+quePedir: >-
+  El básico con fideo ***soba***, y pedirlo **crujiente** — es donde se ve la mano.
+body: >-
+  Si Okonomimura es el zoco, esto es la casa. Trabajan la crepe más fina que casi nadie, usan col orgánica y dejan el fideo crujiente por abajo, que es exactamente donde se separa un okonomiyaki bueno de uno correcto.
+
+
+  Merece la pena si vais a comer okonomiyaki una sola vez en Hiroshima y no queréis jugárselo a la lotería de elegir puesto.
+seenIn:
+  - ref: '#okonomiyaki'
+    label: "El okonomiyaki"

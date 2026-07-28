@@ -3,7 +3,7 @@ trip: japon
 part: japon
 city: Kioto
 category: cena
-order: 12
+order: 70
 title: Tai Sushi
 navLabel: "Tai Sushi"
 tipo: barra de sushi de barrio · sin ceremonia
@@ -13,6 +13,7 @@ precio: "~¥3.000-5.000 por persona"
 reserva: "No se acepta; se hace cola"
 colas: "Sí, y es parte del trato"
 veg: "No apto"
+badge: "Sushi de barrio, sin ceremonia"
 quePedir: "Lo que diga el itamae. Aquí no se pide de carta."
 body: >-
   El [sushi](#sushi) de referencia de [Kioto](#kioto) según quien vive allí, y no es un sitio de guía: barra estrecha,

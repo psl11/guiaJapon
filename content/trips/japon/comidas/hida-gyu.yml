@@ -1,0 +1,27 @@
+slug: hida-gyu
+trip: japon
+part: japon
+city: Takayama
+category: comida
+order: 49
+title: La carne de Hida
+navLabel: "La carne de Hida"
+tipo: brasas, brochetas de calle y casas de yakiniku
+area: Sanmachi · en los puestos de la calle y en las casas del casco viejo
+cuando: "Día 9 · comida"
+precio: "¥600 la brocheta · ¥3.000–8.000 la comida (4–52 €)"
+reserva: "Recomendable en las casas buenas"
+colas: "Sí en los puestos de brocheta"
+veg: "No apto · para quien no coma carne, Takayama tiene *hōba miso* de verduras y la soba de la zona"
+badge: "Denominación de Gifu"
+soloEl: true
+quePedir: >-
+  Si es de calle, la **brocheta a la brasa** de los puestos de Sanmachi. Si es sentado, ***hōba-yaki***: la carne asada sobre una hoja de magnolia con miso.
+body: >-
+  El **wagyū de Hida** es una de las tres o cuatro carnes con denominación seria de Japón y aquí se vende de todas las formas imaginables, incluidas las turísticas. La que merece la pena de verdad es el ***hōba-yaki***, un plato de campesino de la zona: una hoja seca de magnolia sobre brasa, miso encima y la carne haciéndose en su propio vapor.
+
+
+  **Aviso claro: esto no es apto para vegetarianos**, y en Takayama eso se nota más que en otras partes. La alternativa buena existe y es el mismo plato **sin carne** —*hōba miso* con setas y verduras de montaña—, que muchas casas sirven y que está bueno por sí solo.
+seenIn:
+  - ref: '#takayama'
+    label: "Takayama"

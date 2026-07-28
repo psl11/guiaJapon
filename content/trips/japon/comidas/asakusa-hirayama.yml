@@ -1,0 +1,26 @@
+slug: asakusa-hirayama
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 12
+title: Asakusa Hirayama
+navLabel: "Asakusa Hirayama"
+tipo: soba artesana, *juwari*
+area: Nishi-Asakusa · dos minutos de Tawaramachi
+cuando: "Día 2 · comida, después del Sensō-ji"
+precio: "¥4.500–9.000 (29–58 €)"
+reserva: "Muy recomendable · se llena entera"
+colas: "No si reserváis"
+veg: "Con aviso · la soba en sí es de trigo sarraceno, pero **la salsa de mojar lleva dashi de bonito**: hay que pedirla de kombu o comerla con sal"
+badge: "Bib Gourmand · tres años seguidos"
+quePedir: >-
+  ***Seiro soba*** fría, para juzgar el fideo desnudo, y probarla **primero con sal** antes de mojarla.
+body: >-
+  ***Juwari***: cien por cien trigo sarraceno, sin nada de trigo común que ate la masa. Es la versión difícil de la soba —se rompe con mirarla— y la única en la que se huele de verdad el cereal. Muelen el grano ellos, cultivan parte y llevan **tres años seguidos con Bib Gourmand**.
+
+
+  Encaja donde nada más encaja: el día 2 termina en Asakusa a media mañana y aquí se come a dos minutos de Tawaramachi, sin volver al centro. Reservad — se llena por completo con reservas y cierran cuando se acaba la masa del día.
+seenIn:
+  - ref: '#soba'
+    label: "La soba"

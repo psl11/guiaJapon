@@ -1,0 +1,26 @@
+slug: fuglen-tokyo
+trip: japon
+part: japon
+city: Tokio
+category: cafe
+order: 9
+title: Fuglen Tokyo
+navLabel: "Fuglen Tokyo"
+tipo: café noruego, cóctel por la noche
+area: Tomigaya · al norte de Yoyogi, saliendo del parque
+cuando: "Día 3 · abre a las 7:00, antes de Meiji Jingū"
+precio: "¥600–1.000 el café · ¥1.500–2.000 el cóctel (4–13 €)"
+reserva: "No"
+colas: "Fines de semana"
+veg: "Sí · leche vegetal disponible"
+badge: "Time Out Tokyo"
+quePedir: >-
+  Un **filtrado escandinavo** por la mañana; si volvéis de noche, se transforma en bar de cócteles.
+body: >-
+  Sucursal tokiota de un café de **Oslo** que abrió aquí en 2012 y que ayudó a instalar el tueste claro nórdico en la ciudad. Muebles daneses de los cincuenta originales, todos a la venta, y **abre a las siete de la mañana**: es de los poquísimos sitios buenos donde desayunar de verdad antes de que Tokio arranque.
+
+
+  Y ahí está su encaje: el día 3 empieza en [**Meiji Jingū**](#meiji-jingu), que hay que hacer temprano y que queda al otro lado del parque de Yoyogi. Café a las siete, bosque a las ocho.
+seenIn:
+  - ref: '#meiji-jingu'
+    label: "Meiji Jingū"

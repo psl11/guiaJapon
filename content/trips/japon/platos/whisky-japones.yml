@@ -1,0 +1,23 @@
+slug: whisky-japones
+trip: japon
+kind: bebida
+order: 21
+title: "Whisky japonés y el highball"
+navLabel: "Whisky y highball"
+queEs: >-
+  Whisky de malta y de grano hecho al modo escocés, con agua muy blanda y **barrica de roble *mizunara*** japonés, que aporta un aroma a sándalo e incienso que no da ninguna otra madera. Se bebe solo, con hielo, o —sobre todo— en ***highball***: whisky con soda muy fría, en vaso alto, que es como se bebe de verdad en Japón.
+historia: >-
+  Empieza con dos hombres en 1923. **Shinjirō Torii** puso el dinero y **Masataka Taketsuru** el conocimiento: había ido a Escocia a estudiar química, había trabajado en destilerías de Speyside y volvió con una esposa escocesa y unos cuadernos. Fundaron Yamazaki juntos, discutieron por dónde debía estar la destilería —Taketsuru quería un sitio con clima escocés— y él acabó marchándose a Hokkaidō a montar **Nikka**. Las dos grandes casas japonesas salen de esa ruptura.
+dondeMejor: "En cualquier izakaya, en lata en el konbini, y en las coctelerías de Ginza"
+picante: "—"
+veg: "**Sí**"
+body: >-
+  El ***highball*** es la bebida nacional de facto y merece entenderse: Suntory lo relanzó en los 2000 para vender whisky a una generación que lo veía cosa de viejos, y funcionó tan bien que hoy hay grifos de highball en los bares. La proporción japonesa es **uno a tres o uno a cuatro**, con hielo grande, y el resultado es una bebida ligera, seca y muy fácil de beber con comida frita.
+
+
+  Aviso de precio: las añadas japonesas se dispararon cuando el mundo descubrió el Yamazaki, y hoy un vaso de whisky japonés añejo en un bar de Ginza cuesta lo que una cena. El *highball* de lata del konbini, en cambio, cuesta dos euros y es sorprendentemente digno.
+seenIn:
+  - ref: '#bar-high-five'
+    label: "Bar High Five · Ginza"
+  - ref: '#konbini'
+    label: "El konbini y el ekiben"

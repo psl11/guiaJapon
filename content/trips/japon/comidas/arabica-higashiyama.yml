@@ -3,7 +3,7 @@ trip: japon
 part: japon
 city: Kioto
 category: cafe
-order: 10
+order: 60
 title: "% Arabica Higashiyama"
 navLabel: "% Arabica"
 tipo: café de especialidad · tuesta grano propio
@@ -13,6 +13,7 @@ precio: "Latte ~¥500 (~3,5 €)"
 reserva: "No"
 colas: "Sí, siempre. Avanzan rápido"
 veg: "Leche vegetal disponible"
+badge: "Inside Kyoto · «el mejor café de Kioto»"
 quePedir: "Un *latte*. Es lo que hacen y lo hacen mejor que nadie."
 body: >-
   El café que puso a [Kioto](#kioto) en el mapa del café de especialidad, y probablemente el mejor *latte* de

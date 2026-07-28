@@ -1,0 +1,26 @@
+slug: onibus-coffee
+trip: japon
+part: japon
+city: Tokio
+category: cafe
+order: 10
+title: Onibus Coffee Nakameguro
+navLabel: "Onibus Coffee Nakameguro"
+tipo: tostadero en casa pequeña
+area: Nakameguro · junto a las vías, dos minutos de la estación
+cuando: "Tarde suelta · combina con el paseo del río Meguro"
+precio: "¥500–900 (3–6 €)"
+reserva: "No"
+colas: "Sí, pero se bebe de pie fuera"
+veg: "Sí"
+badge: "Referencia del café de especialidad de Tokio"
+quePedir: >-
+  Un **espresso** o un filtrado del día, y subir a la primera planta.
+body: >-
+  Una casa diminuta de dos plantas donde tuestan abajo y se bebe arriba, junto a una ventana **a la altura de las vías**: cada pocos minutos pasa un tren de la línea Tōkyū a tres metros de la taza. Es la imagen que ha hecho famoso al sitio, y por una vez la imagen no traiciona al café — tuestan bien y llevan haciéndolo desde 2012.
+
+
+  *Onibus* es «para todos» en portugués, que es de donde viene el grano de buena parte de su carta. Cae de camino de [Ebisu y Meguro](#ebisu-meguro), y el paseo del río, con los cerezos desnudos en noviembre, es mejor de lo que la gente espera.
+seenIn:
+  - ref: '#ebisu-meguro'
+    label: "Ebisu y Meguro"

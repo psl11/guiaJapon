@@ -1,0 +1,28 @@
+slug: omen-ginkakuji
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 64
+title: Omen Ginkaku-ji
+navLabel: "Omen Ginkaku-ji"
+tipo: casa de udon de barrio
+area: Higashiyama norte · al lado del Pabellón de Plata
+cuando: "Día 12 · comida, en el Paseo del Filósofo"
+precio: "¥1.200–2.200 (8–14 €)"
+reserva: "No"
+colas: "Sí a mediodía"
+veg: "Buena opción con aviso · el *udon* se sirve **con las verduras aparte** y se puede pedir el caldo de kombu; preguntad por el dashi"
+badge: "Inside Kyoto · «nuestro restaurante favorito»"
+quePedir: >-
+  El ***omen***: udon grueso servido frío o caliente **con siete verduras de temporada en un plato aparte** y sésamo tostado, que se echan al gusto.
+body: >-
+  Su plato es una idea sencilla y buenísima: el fideo por un lado, el caldo por otro y **un plato de verduras de temporada cortadas finas** —berenjena, jengibre, espinaca, alga, sésamo— para que cada uno construya su cuenco. Se come muy bien y, por una vez, es un plato japonés tradicional donde la verdura es el protagonista y no el adorno.
+
+
+  Está a dos minutos del [**Ginkaku-ji**](#higashiyama), al principio del Paseo del Filósofo, que en la tercera semana de noviembre es uno de los sitios con más arce rojo de Kioto. Comer aquí y salir a andar es el plan del día 12.
+seenIn:
+  - ref: '#udon'
+    label: "El udon"
+  - ref: '#higashiyama'
+    label: "La ladera este"

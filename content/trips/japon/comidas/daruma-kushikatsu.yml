@@ -1,0 +1,26 @@
+slug: daruma-kushikatsu
+trip: japon
+part: japon
+city: Osaka
+category: cena
+order: 83
+title: Kushikatsu Daruma
+navLabel: "Kushikatsu Daruma"
+tipo: barra de fritos, desde 1929
+area: Shinsekai · bajo la torre Tsūtenkaku
+cuando: "Día 14 · cena antes del tren"
+precio: "¥1.500–3.000 (10–19 €)"
+reserva: "No"
+colas: "Sí a partir de las 19:00"
+veg: "Opciones sueltas · hay brochetas de espárrago, berenjena, cebolla, setas y queso; **preguntad por el aceite**, que es compartido con carne y pescado"
+badge: "Casa de 1929 · la que fijó la regla"
+quePedir: >-
+  Brochetas sueltas, de una en una, y **prohibido mojar dos veces**: la salsa es comunitaria y esa es la única norma sagrada de Osaka.
+body: >-
+  El ***kushikatsu*** —brocheta rebozada y frita— nació en **Shinsekai** en 1929 como comida de jornalero, y Daruma es la casa que lo formalizó. Se pide de una en una, se moja en un bote comunitario de salsa y **no se moja dos veces**: hay repollo crudo gratis en la mesa para usar de cuchara si hace falta más salsa.
+
+
+  Shinsekai es el barrio que Osaka construyó en 1912 imitando a París y Coney Island a la vez, se quedó congelado y hoy es lo más parecido que queda al Japón de posguerra. Con la torre Tsūtenkaku encendida encima, es una cena con más carácter que la de Dōtonbori.
+seenIn:
+  - ref: '#osaka'
+    label: "Osaka"

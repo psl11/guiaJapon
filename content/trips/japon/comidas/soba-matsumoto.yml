@@ -1,0 +1,28 @@
+slug: soba-matsumoto
+trip: japon
+part: japon
+city: Matsumoto
+category: comida
+order: 45
+title: La soba de Shinshū
+navLabel: "La soba de Shinshū"
+tipo: casas de soba en el casco viejo
+area: Nakamachi y Nawate-dōri · entre la estación y el castillo
+cuando: "Día 6 · comida, antes o después del castillo"
+precio: "¥1.000–2.000 (6–13 €)"
+reserva: "No en general"
+colas: "A mediodía"
+veg: "Con aviso · el fideo es de trigo sarraceno puro, pero **la salsa lleva dashi de bonito** — pedidla de kombu o comed la soba con sal y wasabi"
+badge: "Denominación regional"
+quePedir: >-
+  ***Zaru soba*** fría —sí, en noviembre: es como se juzga el fideo— y ***sobayu***, el agua de cocción que se bebe al final con lo que queda de salsa.
+body: >-
+  Nagano se llamaba **Shinshū** y su soba tiene nombre propio por una razón de agronomía: aquí el arroz no crecía bien y el trigo sarraceno sí, así que la montaña comió *soba* durante siglos mientras la llanura comía arroz. Es de los pocos casos en que un plato japonés nace de la pobreza y acaba siendo el prestigioso.
+
+
+  Matsumoto está lleno de casas pequeñas alrededor de **Nakamachi**, la calle de almacenes blancos y negros. Buscad las que muelen a la vista y las que cierran cuando se acaba la masa: las dos señales valen más que cualquier lista.
+seenIn:
+  - ref: '#soba'
+    label: "La soba"
+  - ref: '#matsumoto-jo'
+    label: "El castillo de Matsumoto"

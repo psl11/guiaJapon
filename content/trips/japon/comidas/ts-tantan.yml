@@ -1,0 +1,26 @@
+slug: ts-tantan
+trip: japon
+part: japon
+city: Tokio
+category: desayuno
+order: 4
+title: T's TanTan
+navLabel: "T's TanTan"
+tipo: ramen 100% vegano, dentro de la estación
+area: Estación de Tokio · zona Keiyō Street, pasado el torno
+cuando: "La red de seguridad · cualquier día, y sobre todo los de tren"
+precio: "¥900–1.300 (6–8 €)"
+reserva: "No"
+colas: "Sí a mediodía, van rápidas"
+veg: "**100% vegano** · sin dashi de pescado, sin huevo, sin lácteos — el único sitio de esta guía donde no hay que preguntar nada"
+badge: "Voyapon · la solución al problema del dashi"
+quePedir: >-
+  El ***tantanmen*** dorado, que es el que sostiene la casa: sésamo, soja y un picante que se puede graduar.
+body: >-
+  Esto no es una recomendación gastronómica, es **infraestructura**. En Japón el problema vegetariano no es la carne visible sino el ***dashi***, el caldo de bonito seco que hay debajo de casi todo —la sopa de miso, la salsa de la soba fría, la del tempura— y que muchos cocineros no consideran «pescado». T's TanTan está **enteramente libre de él**, y está dentro de la estación de Tokio, que es el sitio por donde este viaje pasa una y otra vez.
+
+
+  El *tantanmen* de sésamo es bueno por derecho propio, no «bueno para ser vegano». Pero lo que de verdad vale es saber que existe: cuando llevéis tres días preguntando por el caldo y estéis cansados, aquí no hay que preguntar nada.
+seenIn:
+  - ref: '#ramen'
+    label: "El ramen"

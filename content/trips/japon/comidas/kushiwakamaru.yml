@@ -1,0 +1,26 @@
+slug: kushiwakamaru
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 15
+title: Kushiwakamaru
+navLabel: "Kushiwakamaru"
+tipo: yakitori de barrio, ruidoso
+area: Nakameguro · bajo las vías
+cuando: "Cena tardía · combina con Onibus y el río"
+precio: "¥2.000–3.500 (13–23 €)"
+reserva: "No, se hace cola"
+colas: "Sí, sobre todo de 20:00 a 22:00"
+veg: "Opciones sueltas · pimientos con queso, tomate, espárrago y setas van a la brasa; **la salsa *tare* lleva pollo**, pedid *shio* (sal)"
+badge: "The Infatuation"
+quePedir: >-
+  Los pimientos rellenos de queso envueltos en bacon, el tomate con bacon y las patatas de Hokkaidō con mantequilla. Y **pedid todo *shio*** si hay alguien que no come carne.
+body: >-
+  Un [yakitori](#yakitori) de barrio con el volumen a tope, humo, taburetes pegados y clientela mezclada de vecinos y visitantes. Nada de aquí es refinado; todo está bien hecho y sale barato, que en Nakameguro tiene mérito.
+
+
+  El detalle útil: en un yakitori se puede pedir ***shio*** (sal) o ***tare*** (salsa), y **la *tare* casi siempre lleva base de pollo**. Pedir todo *shio* convierte media carta de verduras en apta. Es el truco que más veces vais a usar en este viaje.
+seenIn:
+  - ref: '#yakitori'
+    label: "El yakitori"

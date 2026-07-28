@@ -1,0 +1,26 @@
+slug: lamp-bar
+trip: japon
+part: japon
+city: Nara
+category: cocteleria
+order: 98
+title: Lamp Bar
+navLabel: "Lamp Bar"
+tipo: coctelería clásica
+area: Nara · centro, a diez minutos de la estación de Kintetsu
+cuando: "Solo si dormís en Nara · es una parada de noche"
+precio: "¥1.800–2.800 por copa (12–18 €)"
+reserva: "Recomendable"
+colas: "Sí sin reserva"
+veg: "Sí"
+badge: "Top 50 · Asia's 50 Best Bars"
+quePedir: >-
+  Un clásico bien hecho. Michito Kaneko fue **campeón del mundo de coctelería en 2015**; su gin tonic es una lección.
+body: >-
+  El dato improbable: **una de las mejores coctelerías de Asia está en Nara**, una ciudad de trescientos mil habitantes que casi todo el mundo visita en cuatro horas y abandona antes de cenar. Michito Kaneko ganó el campeonato mundial de coctelería en 2015 y montó esto en su ciudad.
+
+
+  Lo incluyo con una advertencia honesta: **solo tiene sentido si dormís en Nara**, y el itinerario no lo prevé. Queda como argumento por si alguien se plantea una noche extra en el desvío de Kioto.
+seenIn:
+  - ref: '#nara'
+    label: "Nara"

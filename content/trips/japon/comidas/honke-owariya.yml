@@ -1,0 +1,28 @@
+slug: honke-owariya
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 63
+title: Honke Owariya
+navLabel: "Honke Owariya"
+tipo: casa de soba, desde 1465
+area: Centro de Kioto · al norte de Oike, cerca del Palacio Imperial
+cuando: "Días 11-13 · comida"
+precio: "¥1.300–3.000 (8–19 €)"
+reserva: "No se acepta"
+colas: "Sí, de 12:00 a 14:00"
+veg: "Con aviso · **la salsa y el caldo llevan dashi de bonito**; preguntad si pueden hacerlo con kombu, y si no, la soba fría con sal"
+badge: "Casa de 1465 · citada por todas las guías de Kioto"
+quePedir: >-
+  El ***hōrai soba***: cinco pisos de fideo frío con ocho guarniciones aparte que uno va combinando. Es el plato de la casa desde hace generaciones.
+body: >-
+  **Abrieron en 1465** —treinta años antes de que Colón llegara a América— vendiendo dulces, y acabaron haciendo soba para los monjes de los templos vecinos. Han sido proveedores de la casa imperial. Es, con bastante margen, **el restaurante más antiguo que vais a pisar en este viaje**.
+
+
+  Y sin embargo no es caro ni ceremonioso: se hace cola en la calle, se come en un edificio de madera con jardín pequeño y se sale por quince euros. El *hōrai soba* llega en una torre de cinco cajitas lacadas y tiene algo de juego.
+seenIn:
+  - ref: '#soba'
+    label: "La soba"
+  - ref: '#kioto'
+    label: "Kioto"

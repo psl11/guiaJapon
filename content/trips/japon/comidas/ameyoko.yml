@@ -1,0 +1,26 @@
+slug: ameyoko
+trip: japon
+part: japon
+city: Tokio
+category: street-food
+order: 16
+title: Ameyoko
+navLabel: "Ameyoko"
+tipo: mercado bajo las vías
+area: Ueno · entre Ueno y Okachimachi, bajo la Yamanote
+cuando: "Día 2 · última hora, para cenar de pie"
+precio: "¥300–1.500 por parada (2–10 €)"
+reserva: "No"
+colas: "Según el puesto"
+veg: "Mixto · hay fruta, encurtidos, castañas y taiyaki, pero **la mayoría de puestos calientes son de marisco o carne**"
+badge: "Mercado histórico de posguerra"
+quePedir: >-
+  Ir de pie y picar: brochetas, ostras abiertas al momento, fruta cortada, y una cerveza de la máquina.
+body: >-
+  Cuatrocientos metros de puestos apiñados **bajo las vías de la Yamanote**, herencia directa del mercado negro que se montó aquí después de la guerra — el nombre viene de *ameya*, «tienda de caramelos», que era lo que se vendía cuando no había otra cosa. Sigue siendo el sitio de Tokio donde más se grita.
+
+
+  A partir de las cinco, cuando ya es de noche, media calle se convierte en **barras al aire libre**: cajas de plástico por asiento, plancha, y gente saliendo del trabajo. Es el cierre natural del día 2 y está a dos paradas del hotel.
+seenIn:
+  - ref: '#ueno'
+    label: "Ueno"

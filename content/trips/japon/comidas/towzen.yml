@@ -1,0 +1,26 @@
+slug: towzen
+trip: japon
+part: japon
+city: Kioto
+category: cena
+order: 68
+title: Towzen
+navLabel: "Towzen"
+tipo: ramen vegano de leche de soja
+area: Centro-norte de Kioto
+cuando: "Días 11-13 · cena informal"
+precio: "¥1.000–1.600 (6–10 €)"
+reserva: "No"
+colas: "A veces, es pequeño"
+veg: "**100% vegano** · incluido el caldo"
+badge: "Inside Kyoto"
+quePedir: >-
+  El ***tantanmen*** de leche de soja, que es lo que sostiene la casa.
+body: >-
+  Ramen enteramente vegano en una ciudad donde el caldo por defecto es de cerdo o de pollo. El suyo va sobre **leche de soja y sésamo**, que da una textura densa parecida al *tonkotsu* sin nada de hueso — es el truco que usa media cocina vegana japonesa y aquí lo hacen bien.
+
+
+  Es el complemento barato y sin ceremonia de las *shōjin* de esta lista: no todas las cenas de Kioto pueden ser un templo con reserva.
+seenIn:
+  - ref: '#ramen'
+    label: "El ramen"

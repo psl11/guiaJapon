@@ -191,8 +191,22 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 
 ## 8. Estado y qué falta
 
-**Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · 17 platos · 14 locales ·
-5 de salir · 56 fotos · 185 enlaces internos y 204 a Maps · PWA offline completo.
+**Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · **24 platos y bebidas** ·
+**62 locales en 10 ciudades** · 5 de salir · 10 recomendaciones prácticas · 56 fotos · PWA offline
+completo.
+
+**La capa gastronómica** se construyó con el mismo criterio que la de `guiaVietnam`: por ciudad y en
+siete categorías (`desayuno · cafe · comida · cena · street-food · postre · cocteleria`), y **cada
+ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
+
+- **El `badge` es procedencia, no adorno.** Solo se escribe «Bib Gourmand», «Asia's 50 Best Bars» o
+  un puesto de ranking **si está verificado**. Cuando no hay premio, el badge describe el porqué
+  («Casa de 1465», «Inside Kyoto») en vez de inventar un galardón. Un badge falso envenena las 61
+  fichas restantes.
+- **`veg` es obligatorio y explícito, y en Japón no es trivial.** El problema no es la carne visible
+  sino el ***dashi*** de bonito, que está debajo de la sopa de miso, de la salsa de la soba y del
+  tempura — es decir, **de los platos que parecen vegetales**. Ningún `veg` debe decir solo «sí»:
+  tiene que decir qué preguntar. La reco `veg-japon` lleva la frase en japonés.
 
 **Falta:**
 - Fotos propias de Shibuya, Ueno, Tsukiji e Hiroshima (Pablo las tiene sin subir).

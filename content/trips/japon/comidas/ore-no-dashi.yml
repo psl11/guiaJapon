@@ -3,7 +3,7 @@ trip: japon
 part: japon
 city: Tokio
 category: cena
-order: 4
+order: 31
 title: Ore-no Dashi
 navLabel: "Ore-no Dashi"
 tipo: barra de pie, gourmet barato
@@ -13,6 +13,7 @@ precio: "Platos de ¥380 a ¥1.480 (2,5-10 €)"
 reserva: "No"
 colas: "A veces, sobre todo a la salida del trabajo"
 veg: "Parcial: varias piezas de [oden](#oden) son vegetales, pero el caldo lleva dashi de pescado"
+badge: "Alta cocina de pie · el formato «Ore-no»"
 quePedir: "Oden por piezas: *daikon*, huevo, *konnyaku*, bolsa de tofu. Y algo de la carta de vinos."
 body: >-
   La idea de la cadena **Ore-no** es divertida y funciona: cocineros de nivel alto, **de pie y a

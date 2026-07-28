@@ -1,0 +1,28 @@
+slug: okonomimura
+trip: japon
+part: japon
+city: Hiroshima
+category: comida
+order: 90
+title: Okonomimura
+navLabel: "Okonomimura"
+tipo: edificio entero de planchas, 25 puestos
+area: Shintenchi · centro de Hiroshima
+cuando: "Día 15 · comida o cena"
+precio: "¥1.000–1.800 (6–12 €)"
+reserva: "No"
+colas: "Según el puesto"
+veg: "Con aviso · se puede pedir **sin cerdo**, pero lleva huevo y **se remata con *katsuobushi***; pedidlo sin, y comprobad que la plancha se limpia"
+badge: "«La aldea del okonomiyaki»"
+quePedir: >-
+  El **okonomiyaki de Hiroshima**, que es otra cosa que el de Osaka: **por capas y con fideos dentro**, no mezclado. Sentaos en la barra, sobre la plancha.
+body: >-
+  Un edificio de cuatro plantas con **unos veinticinco puestos** dentro, cada uno con su plancha, su dueño y su versión. Nació de los carritos de posguerra que se juntaron en un solar: el okonomiyaki de Hiroshima es literalmente una comida de la reconstrucción, hecha para llenar con poca harina.
+
+
+  La diferencia con el de Osaka es estructural y merece explicarse: el de Osaka **se mezcla** en un bol y se echa a la plancha; el de Hiroshima **se construye por capas** —crepe finísima, montaña de col, fideos, huevo— y se voltea entero. Elegir puesto es lotería; la regla es sentarse donde haya clientela local.
+seenIn:
+  - ref: '#okonomiyaki'
+    label: "El okonomiyaki"
+  - ref: '#hiroshima'
+    label: "Hiroshima"

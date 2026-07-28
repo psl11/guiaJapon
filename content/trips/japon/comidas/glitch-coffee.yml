@@ -1,0 +1,26 @@
+slug: glitch-coffee
+trip: japon
+part: japon
+city: Tokio
+category: cafe
+order: 6
+title: Glitch Coffee & Roasters
+navLabel: "Glitch Coffee & Roasters"
+tipo: tostadero de tueste claro
+area: Jinbōchō · a un paseo desde casa, entre las librerías de viejo
+cuando: "Cualquier mañana de la primera semana"
+precio: "¥600–1.200 (4–8 €)"
+reserva: "No"
+colas: "Poca cosa"
+veg: "Sí · el foco está en el grano"
+badge: "Pionero del tueste claro en Tokio"
+quePedir: >-
+  Un **filtrado de origen único** y que os dejen olerlo antes; la carta cambia cada semana y el barista os guiará.
+body: >-
+  El sitio que **metió el tueste claro en Tokio** cuando aquí todo se tostaba oscuro por costumbre del *kissaten*. Trabajan orígenes únicos, tuestan tan claro que los cafés salen ácidos y florales —más cerca de un té que de lo que en España se llama café— y lo explican con paciencia si preguntáis.
+
+
+  Su gracia para vosotros es la ubicación: está en [**Jinbōchō**](#jimbocho), el barrio de las ciento treinta librerías de viejo, **andando desde el hotel de la primera semana**. Café de especialidad y libros usados en la misma manzana es un plan de mañana bastante difícil de mejorar.
+seenIn:
+  - ref: '#jimbocho'
+    label: "Jinbōchō"

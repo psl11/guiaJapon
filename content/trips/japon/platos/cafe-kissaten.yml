@@ -1,0 +1,25 @@
+slug: cafe-kissaten
+trip: japon
+kind: bebida
+order: 25
+title: "El café: kissaten y tercera ola"
+navLabel: "El café japonés"
+queEs: >-
+  Dos culturas del café que conviven sin mezclarse. El ***kissaten*** es el café antiguo: tueste oscuro, filtrado a mano por manga de franela, taza de porcelana, silencio y **derecho a quedarse dos horas**. La **tercera ola** es lo contrario: tueste claro, origen único, acidez, y un barista que te cuenta la finca.
+historia: >-
+  El primer café de Japón abrió en **Ueno en 1888** y quebró en cuatro años. Los *kissaten* explotaron en los años veinte y volvieron a explotar en la posguerra, cuando eran de las pocas cosas que un japonés podía permitirse: por el precio de un café tenías **calefacción, música y un sitio donde estar**, que en las casas de entonces no había. De ahí salieron los *jazz kissa*, con sus paredes de discos y su prohibición de hablar.
+dondeMejor: "Tokio y Kioto para el kissaten · Kiyosumi-Shirakawa y Jinbōchō para la tercera ola"
+picante: "—"
+veg: "**Sí** · la leche vegetal está normalizada en la tercera ola, menos en los kissaten"
+body: >-
+  Merece la pena hacer los dos, porque no compiten: son dos ideas opuestas de para qué sirve un café. En un [kissaten](#cafe-de-lambre) el café es la excusa para sentarse; en [Glitch](#glitch-coffee) o en [Koffee Mameya](#koffee-mameya-kakeru), el café es el objeto de estudio.
+
+
+  Un dato práctico y contraintuitivo: **el café de máquina del konbini está bien**. Cien yenes, se compra el vaso en caja y se sirve uno mismo. No es tercera ola, pero es mejor que el café de la mayoría de bares de España, y a las siete de la mañana camino de un tren es exactamente lo que hace falta.
+seenIn:
+  - ref: '#cafe-de-lambre'
+    label: "Café de l'Ambre"
+  - ref: '#glitch-coffee'
+    label: "Glitch Coffee"
+  - ref: '#kayaba-coffee'
+    label: "Kayaba Coffee"

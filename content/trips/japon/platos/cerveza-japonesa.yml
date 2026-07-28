@@ -4,6 +4,11 @@ kind: bebida
 order: 24
 title: "La cerveza, y el «primero una»"
 navLabel: "La cerveza"
+image:
+  src: img/platos/cerveza-japonesa.webp
+  alt: "Una botella de Asahi Super Dry junto a un vaso servido con sus dos dedos de espuma, a contraluz de una ventana."
+  credit: "Steve Parker · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Asahi_Beer.jpg"
 queEs: >-
   Lager clara y muy seca —Asahi, Kirin, Sapporo, Yebisu—, servida **muy fría y con dos dedos de espuma** que aquí se consideran obligatorios. La *nama biiru* (de barril) es el estándar. Y desde hace quince años, una escena de cerveza artesana pequeña pero muy buena.
 historia: >-

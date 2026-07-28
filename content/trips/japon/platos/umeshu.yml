@@ -4,6 +4,11 @@ kind: bebida
 order: 23
 title: "Umeshu, el licor de ciruela"
 navLabel: "Umeshu"
+image:
+  src: img/platos/umeshu.webp
+  alt: "Un vaso de umeshu con hielo y las ciruelas *ume* enteras en el fondo, que se comen al terminar."
+  credit: "Wikimedia Commons · CC BY-SA 3.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Jisaku_Umeshu_with_ume.jpg"
 queEs: >-
   Ciruela ***ume*** verde —que en realidad es más albaricoque que ciruela— macerada en alcohol con azúcar durante meses. Sale un licor **dulce, ácido y de unos 12 grados**, que se bebe con hielo, con soda o caliente en invierno. Es la puerta de entrada más fácil a la bebida japonesa.
 historia: >-

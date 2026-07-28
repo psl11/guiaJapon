@@ -4,6 +4,11 @@ kind: bebida
 order: 21
 title: "Whisky japonés y el highball"
 navLabel: "Whisky y highball"
+image:
+  src: img/platos/whisky-japones.webp
+  alt: "Tres botellas de whisky japonés —Yamazaki de doce y de dieciocho años, y Hibiki— alineadas sobre fondo claro."
+  credit: "Satoru Shimizu · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Japanese_Whisky.png"
 queEs: >-
   Whisky de malta y de grano hecho al modo escocés, con agua muy blanda y **barrica de roble *mizunara*** japonés, que aporta un aroma a sándalo e incienso que no da ninguna otra madera. Se bebe solo, con hielo, o —sobre todo— en ***highball***: whisky con soda muy fría, en vaso alto, que es como se bebe de verdad en Japón.
 historia: >-

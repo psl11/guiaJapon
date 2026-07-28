@@ -4,6 +4,11 @@ kind: bebida
 order: 25
 title: "El café: kissaten y tercera ola"
 navLabel: "El café japonés"
+image:
+  src: img/platos/cafe-kissaten.webp
+  alt: "El interior en penumbra de un kissaten japonés, con la barra de madera oscura, las lámparas bajas, los helechos y las tazas de porcelana."
+  credit: "Mr.ちゅらさん · CC BY-SA 4.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Manpuku_(11).jpg"
 queEs: >-
   Dos culturas del café que conviven sin mezclarse. El ***kissaten*** es el café antiguo: tueste oscuro, filtrado a mano por manga de franela, taza de porcelana, silencio y **derecho a quedarse dos horas**. La **tercera ola** es lo contrario: tueste claro, origen único, acidez, y un barista que te cuenta la finca.
 historia: >-

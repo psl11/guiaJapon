@@ -4,6 +4,11 @@ kind: bebida
 order: 20
 title: "El té: sencha, gyokuro, hōjicha"
 navLabel: "El té japonés"
+image:
+  src: img/platos/te-japones.webp
+  alt: "Una tetera japonesa de porcelana blanca y azul con tazas de té verde servido, sobre una bandeja de madera en una casa de té de Kioto."
+  credit: "yomi955 · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Japanese_traditional_tea_by_yomi955_in_Kyoto.jpg"
 queEs: >-
   Todo el té japonés es **té verde**, de la misma planta, y lo que los separa es el cultivo y el tueste. ***Sencha***, el de diario, hojas al sol. ***Gyokuro***, el caro, **cultivado tres semanas a la sombra** para que la hoja produzca más aminoácidos y menos amargor. ***Matcha***, hoja de sombra molida a piedra. ***Hōjicha***, hoja tostada, tan poco amarga que se da a los niños. ***Genmaicha***, con arroz tostado.
 historia: >-

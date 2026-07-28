@@ -4,6 +4,11 @@ kind: plato
 order: 17
 title: "Kaiseki"
 navLabel: "Kaiseki"
+image:
+  src: img/platos/kaiseki.webp
+  alt: "Una bandeja de kaiseki con sus platos pequeños de temporada, raíz de loto, marisco y una hoja de arce roja como decoración de otoño."
+  credit: "Yuya Tamai · CC BY 2.0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Kaiseki_001.jpg"
 queEs: >-
   El **menú largo de la alta cocina japonesa**: entre ocho y catorce platos pequeños en un orden fijo —aperitivo, sopa clara, sashimi, algo a la brasa, algo al vapor, algo frito, arroz, encurtidos, dulce— cada uno en una vajilla elegida a propósito para ese plato y esa estación.
 historia: >-

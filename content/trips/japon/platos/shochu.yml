@@ -4,6 +4,11 @@ kind: bebida
 order: 22
 title: "Shōchū"
 navLabel: "Shōchū"
+image:
+  src: img/platos/shochu.webp
+  alt: "Un vaso de shōchū con hielo y agua delante de varias botellas con etiquetas japonesas escritas a pincel."
+  credit: "publicdomainq.net · CC0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Shochu_001.jpg"
 queEs: >-
   El **destilado** japonés, que no hay que confundir con el sake: se hace de boniato, cebada, arroz o azúcar moreno, ronda los **25 grados** y se bebe rebajado. Frío con agua (*mizuwari*), con agua caliente (*oyuwari*) o con soda. En invierno, el *oyuwari* de boniato es una de las cosas más reconfortantes que existen.
 historia: >-

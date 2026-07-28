@@ -4,6 +4,11 @@ kind: plato
 order: 18
 title: "Onigiri"
 navLabel: "Onigiri"
+image:
+  src: img/platos/onigiri.webp
+  alt: "Dos onigiri triangulares envueltos en alga nori, uno de ellos mordido y dejando ver el arroz prensado."
+  credit: "Ocdp · CC0"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Onigiri_001.jpg"
 queEs: >-
   Arroz prensado a mano en triángulo, con un relleno en el centro y una tira de alga *nori* alrededor. Se come frío, con la mano, y es **la comida portátil de Japón** desde antes de que existiera el concepto.
 historia: >-

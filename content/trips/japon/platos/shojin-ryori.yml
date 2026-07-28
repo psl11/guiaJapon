@@ -4,6 +4,11 @@ kind: plato
 order: 16
 title: "Shōjin ryōri"
 navLabel: "Shōjin ryōri"
+image:
+  src: img/platos/shojin-ryori.webp
+  alt: "Una cazuela de *yudōfu* —tofu hervido en caldo de alga— servida en un templo de Kioto, el plato más conocido de la cocina de los monasterios."
+  credit: "Ph0kin · Public domain"
+  creditUrl: "https://commons.wikimedia.org/wiki/File:Shojin_ryori_ryuanji.jpg"
 queEs: >-
   La **cocina de los monasterios zen**: enteramente vegetal, construida sobre caldo de *kombu* (alga) y de shiitake seco en lugar del *dashi* de bonito que sostiene el resto de la cocina japonesa. Excluye además el **ajo y la cebolla**, que el budismo consideraba estimulantes. Se sirve en bandejas lacadas, con muchos platos pequeños y todo a la vez.
 historia: >-

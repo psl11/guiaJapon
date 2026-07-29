@@ -33,7 +33,7 @@ const mapsUrl = computed(() =>
           {{ comida.title }}
         </h3>
         <div class="comida-sub">
-          <span class="comida-tipo">{{ comida.tipo }}</span>
+          <span class="comida-tipo"><span v-html="inlineMd(comida.tipo)" /></span>
           <template v-if="comida.area">
             <span class="comida-dot">·</span>{{ comida.area }}
           </template>
@@ -59,7 +59,7 @@ const mapsUrl = computed(() =>
       <span
         v-if="comida.precio"
         class="cchip"
-      >{{ comida.precio }}</span>
+      ><span v-html="inlineMd(comida.precio)" /></span>
       <span
         v-if="comida.reserva"
         class="cchip"
@@ -67,14 +67,16 @@ const mapsUrl = computed(() =>
       <span
         v-if="comida.colas"
         class="cchip"
-      >Colas: {{ comida.colas }}</span>
+      >Colas: <span v-html="inlineMd(comida.colas)" /></span>
     </div>
 
     <div
       class="comida-veg"
       :class="vegClass"
     >
-      <span class="comida-veg-tag">Veg</span> {{ comida.veg }}
+      <!-- inlineMd: este campo se escribe con **fuerte** y *cursiva* y salían los asteriscos
+           a la vista. Enlaces NO — lo vigila tests/data/inline-md-subset.spec.ts. -->
+      <span v-html="inlineMd(comida.veg)" />
     </div>
 
     <div

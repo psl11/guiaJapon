@@ -32,7 +32,7 @@ const vegClass = computed(() => {
       <span
         v-if="plato.picante"
         class="cchip"
-      >Picante: {{ plato.picante }}</span>
+      >Picante: <span v-html="inlineMd(plato.picante)" /></span>
     </div>
 
     <div class="plato-section">
@@ -67,7 +67,10 @@ const vegClass = computed(() => {
       v-if="plato.dondeMejor"
       class="plato-donde"
     >
-      <span class="plato-donde-label">Dónde mejor</span> {{ plato.dondeMejor }}
+      <span class="plato-donde-label">Dónde mejor</span>
+      <!-- inlineMd, no interpolación cruda: este campo se escribe con **fuerte** y *cursiva* y salían
+           los asteriscos a la vista. Enlaces NO — los vigila tests/data/inline-md-subset.spec.ts. -->
+      <span v-html="inlineMd(plato.dondeMejor)" />
     </div>
 
     <div

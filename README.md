@@ -27,6 +27,12 @@ En iPhone o iPad, **añádela a la pantalla de inicio** («Compartir → Añadir
 es un capricho: Safari borra la caché de un sitio web normal tras siete días sin usarlo, pero **no la
 de una app añadida a la pantalla de inicio**.
 
+**Y hay que comprobarlo antes de volar, no en el avión.** Abre la guía con wifi, déjala un minuto
+—son unos 16 MB y se descargan una sola vez—, luego **pon el móvil en modo avión y recárgala**. Si
+carga entera, está lista. Si sale una pantalla de error, no lo está: repite con wifi y dale más
+tiempo. Es la única comprobación que vale, porque **una guía sin offline se ve exactamente igual que
+una con offline mientras haya cobertura**.
+
 ## Desarrollo
 
 ```bash

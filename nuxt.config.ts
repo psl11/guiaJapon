@@ -37,9 +37,27 @@ export default defineNuxtConfig({
     workbox: {
       // Todo lo que hace falta para el offline total. Ninguna imagen supera ~340 KB, pero subimos el
       // tope por si acaso; el precache total ronda los ~9 MB (una descarga única con wifi).
-      globPatterns: ['**/*.{js,css,html,webp,png,svg,woff2,txt,json,ico}'],
+      globPatterns: ['**/*.{js,css,html,webp,png,svg,woff2,txt,json,ico,wasm}'],
+      // 200.html y 404.html son el fallback de GitHub Pages y workbox los mete en el manifiesto
+
+      // SIN extensión (/200, /404). Esas URL no existen en el servidor, la petición falla y —como
+
+      // precacheAndRoute usa addAll— REVIENTA LA INSTALACIÓN ENTERA: el SW no se activa nunca y no
+
+      // hay offline. No hacen falta en caché: la navegación offline la resuelve navigateFallback.
+
+      globIgnores: ['**/200.html', '**/404.html'],
       maximumFileSizeToCacheInBytes: 4194304,
       cleanupOutdatedCaches: true,
+      // Nuxt pide el payload con un query de build (_payload.json?<id>) y workbox lo tiene
+
+      // cacheado SIN query: sin esto el lookup falla, cae a la red y offline devuelve un 500 de
+
+      // Nuxt («Cannot read properties of undefined»). Al ser un sitio estático, ningún parámetro
+
+      // cambia la respuesta, así que se ignoran todos al buscar en el precache.
+
+      ignoreURLParametersMatching: [/.*/],
     },
     // En desarrollo NO registrar el SW (evita que el caché moleste al iterar).
     devOptions: { enabled: false },

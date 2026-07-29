@@ -34,7 +34,7 @@ un sitio fijo**: antes de escribir esa expresión, mira de qué bloque hablas.
 
 ---
 
-## 3. Las ocho trampas que ya nos han costado tiempo
+## 3. Las nueve trampas que ya nos han costado tiempo
 
 **3.1 · Content v3 NO valida `type:'data'` contra zod en el build.** Es un fallo conocido
 (nuxt/content#3351). Un YAML mal formado pasa el build y revienta en runtime. **La puerta real es
@@ -71,6 +71,27 @@ como **pull-quotes que perdían su clase CSS al hidratar** — no como un error,
 difícil de cazar. La regla: **`<MDC>` solo dentro de su propio `<div>`; todo lo inline por
 `inlineMd()`** (`app/utils/inline-md.ts`, auto-importado), que da el mismo HTML en los dos lados.
 Al añadir un componente de tarjeta nuevo, esto es lo primero que hay que mirar.
+
+**3.9 · El offline se rompió tres veces seguidas, y en silencio.** Es la peor de todas porque
+**el sitio online funciona perfectamente**: nada avisa. Se descubrió porque las dos guías dieron un
+500 de Nuxt en un avión. Las tres causas, en orden de gravedad:
+
+1. **Nuxt genera `200.html` y `404.html`** (el *fallback* de GitHub Pages) y workbox los mete en el
+   manifiesto **sin extensión** — `/guiaJapon/200`, `/guiaJapon/404`—, URL que no existen en el
+   servidor. Como `precacheAndRoute` usa `addAll()`, **una sola petición fallida aborta la
+   instalación entera**: el service worker no se activa nunca y no se cachea nada. Se veían 8 de 162
+   entradas. Fix: `globIgnores: ['**/200.html', '**/404.html']`.
+2. **Nuxt pide el payload con query de build** (`_payload.json?<uuid>`) y workbox lo tiene guardado
+   sin query, así que el *lookup* falla, cae a la red y offline devuelve
+   «Cannot read properties of undefined» → **página 500**. Fix:
+   `ignoreURLParametersMatching: [/.*/]`.
+3. **`@nuxt/content` v3 lee el contenido con SQLite compilado a WASM** (dos ficheros de 836 KB) y
+   `wasm` no estaba en `globPatterns`. Los `sql_dump.txt` sí se cacheaban; el motor que los lee, no.
+
+**Cómo comprobarlo de verdad, que es lo que faltaba:** `npx nuxi generate`, servir `.output/public`
+bajo el subpath correcto, cargar, esperar a que el SW esté `active`, **matar el servidor** y
+recargar. Si sale el 500, no hay offline. Y contar las entradas del precache: si son muchas menos
+que los ficheros del build, la instalación está abortando.
 
 ---
 

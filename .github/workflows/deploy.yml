@@ -46,6 +46,7 @@ jobs:
       # Presupuesto de peso: falla si una foto se cuela sin optimizar o si el payload de contenido se
       # infla — protege la descarga offline (loop de Hà Giang) y la carga inicial que el dueño vigila.
       - run: node scripts/check-weight.mjs
+      - run: node scripts/check-offline.mjs   # el offline se rompió 3 veces en silencio; esta es la puerta
 
       - uses: actions/configure-pages@v5
 

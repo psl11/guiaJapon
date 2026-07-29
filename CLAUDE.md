@@ -88,10 +88,14 @@ Al añadir un componente de tarjeta nuevo, esto es lo primero que hay que mirar.
 3. **`@nuxt/content` v3 lee el contenido con SQLite compilado a WASM** (dos ficheros de 836 KB) y
    `wasm` no estaba en `globPatterns`. Los `sql_dump.txt` sí se cacheaban; el motor que los lee, no.
 
-**Cómo comprobarlo de verdad, que es lo que faltaba:** `npx nuxi generate`, servir `.output/public`
-bajo el subpath correcto, cargar, esperar a que el SW esté `active`, **matar el servidor** y
-recargar. Si sale el 500, no hay offline. Y contar las entradas del precache: si son muchas menos
-que los ficheros del build, la instalación está abortando.
+**Ya no hace falta descubrirlo en un avión: hay puerta.** `node scripts/check-offline.mjs` corre
+después de `nuxi generate` —y **en CI antes de desplegar**— y falla con código 1 si vuelve a pasar
+cualquiera de las tres. Está probada contra los tres bugs reales: se reintrodujo cada uno y los cazó.
+
+**Y la comprobación manual, para cuando se toque el service worker:** `npx nuxi generate`, servir
+`.output/public` bajo el subpath correcto, cargar, esperar a que el SW esté `active`, **matar el
+servidor** y recargar. Si sale el 500, no hay offline. Es la única prueba que vale, porque
+**con cobertura un sitio sin offline se ve exactamente igual que uno con offline**.
 
 ---
 
@@ -131,7 +135,14 @@ hay imagen libre verificable. Es la decisión correcta.
 npx vitest run tests        # LA puerta. 23 tests: esquemas, anclas, orders, subset inline
 npx nuxi generate           # build estático a .output/public
 node scripts/check-weight.mjs   # presupuesto: imagen ≤500 KB, total ≤15 MB, payload ≤550 KB gzip
+node scripts/check-offline.mjs  # LA PUERTA DEL OFFLINE — mira el sw.js generado, no el contenido
 ```
+
+`check-offline` es la lección del avión convertida en test. Comprueba que **toda** entrada del
+precache existe como fichero (una sola que falle aborta el `addAll()` y deja el sitio sin service
+worker), que está `ignoreURLParametersMatching` (sin él el payload con query de build no se
+encuentra y sale un 500), que el `.wasm` de SQLite se precachea (es lo que lee el contenido) y que
+el `navigateFallback` apunta a algo cacheado. **Corre en CI antes de desplegar.**
 
 En `.claude/launch.json` está el servidor de desarrollo (`japon-dev`, puerto 3001). El sitio vive
 bajo `/guiaJapon/`, así que hay que navegar a `http://localhost:3001/guiaJapon/`, no a la raíz.

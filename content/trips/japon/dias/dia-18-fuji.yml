@@ -21,9 +21,9 @@ blocks:
       label: Cómo saberlo con antelación
       body: >-
         Hay **cámaras en directo** apuntando a la montaña desde el lago Kawaguchi que se consultan
-        desde el móvil, y la regla local: **si se ve el Fuji desde Tokio a primera hora**
+        desde el móvil, y la regla local: si se ve el Fuji desde Tokio a primera hora
         —del mirador del [Gobierno Metropolitano](https://www.google.com/maps/search/?api=1&query=Tokyo%20Metropolitan%20Government%20Building), por ejemplo— es que hoy es el día. La nubosidad suele
-        aumentar según avanza la mañana, así que **cuanto más temprano, mejor**.
+        aumentar según avanza la mañana, así que cuanto más temprano, mejor.
   - block: Mañana
     time: "07:30–10:00"
     title: Subir al lago

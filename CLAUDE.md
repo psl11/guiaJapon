@@ -124,6 +124,30 @@ escribir los días 9-21 desde el mismo material que las fichas se duplicaron pá
 fragmentos idénticos entre el día 15 y la ficha de Hiroshima— y hubo que reescribir diecisiete
 bloques. Si te descubres explicando historia dentro de un día, **enlaza a la ficha y borra**.
 
+**4.1 bis · El tono: que el dato lleve el peso, no la tipografía.** La guía busca registro de
+reportaje —*National Geographic*, no folleto—. Medido sobre las 59.000 palabras de prosa, con el
+analizador que parsea el YAML de verdad (ojo: contar sobre el texto plano miente, porque concatena
+las viñetas y da frases fantasma de 120 palabras):
+
+| | guía | referencia |
+|---|---|---|
+| palabras por frase, media | **20,7** | 15–20 |
+| p90 | **37** | ~30 |
+| negritas por 1.000 palabras | **28,4** | cuantas menos, mejor |
+
+Las reglas que salen de ahí:
+
+- **Una negrita por párrafo en la narración** (actos, fichas, cuerpo de los días). Si todo está en
+  negrita, nada lo está: se pasó de 38,2 a 28,4 por mil retirando 578. **Un dato bueno no necesita
+  negrita** — «un tsunami se la llevó en 1498» se sostiene solo.
+- **En las tarjetas prácticas sí es funcional** (recos, `quePedir`, ventanas): ahí se lee en
+  diagonal buscando la acción, y la negrita es la que la señala. Por eso `recos` va a 46 por mil
+  a propósito.
+- **Una lista es una lista.** Varias de las frases más largas eran enumeraciones metidas en prosa
+  con punto y coma. En viñetas se leen; en un párrafo de 100 palabras, no.
+- **El guion largo no sustituye al punto.** Van 14,4 por mil, que es uno cada setenta palabras.
+  Cuando un inciso pueda ser una frase aparte, mejor frase aparte.
+
 **4.2 · «El día N» es siempre la jornada del viaje.** Las fechas del calendario llevan siempre el mes
 o el día de la semana: «el viernes 13», «el 14 de noviembre». Mezclarlo produjo un error real —«el
 día 13» significaba el 13 de noviembre en cinco sitios, pero el día 13 del viaje es el 18.

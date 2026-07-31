@@ -12,20 +12,20 @@ blocks:
     time: "09:00–10:00"
     title: "Lo primero: soltar el equipaje"
     body: >-
-      Tres opciones, de mejor a peor: **dejarlo en el hotel** después del *check-out* —casi todos lo
-      guardan hasta la tarde y es gratis—; las **consignas de estación**, que se pagan con la tarjeta
-      IC y en [Shinjuku](#shinjuku) o Tokio hay a cientos, aunque las grandes se llenan pronto; o **mandarlo al
-      aeropuerto por [takkyūbin](#takkyubin)** el día anterior, que es la opción cómoda si sobra
-      presupuesto.
+      Tres opciones, de mejor a peor:
 
-      Con las manos libres, el día empieza de verdad.
+      - **Dejarlo en el hotel** después del *check-out*. Casi todos lo guardan hasta la tarde y es gratis.
+      - **Las consignas de estación**, que se pagan con la tarjeta IC. En [Shinjuku](#shinjuku) o en
+      Tokio hay a cientos, pero las grandes se llenan pronto.
+      - **Mandarlo al aeropuerto** por [takkyūbin](#takkyubin) el día anterior. Es la opción cómoda si
+      sobra presupuesto.
   - block: Mediodía
     time: "10:00–15:00"
     title: Las últimas compras, y lo que falte
     body: >-
       Es el día de rematar la lista: el ***depachika*** de [Ginza](#ginza) para la comida que se lleva
       a casa —té, dulces, encurtidos envasados—, la papelería, y lo que se vio hace dos semanas y no
-      se compró. Aviso de aduana: **la fruta fresca y las plantas no pasan**, y algunos productos
+      se compró. Aviso de aduana: la fruta fresca y las plantas no pasan, y algunos productos
       cárnicos tampoco.
 
       Y si sobra tiempo, algo tranquilo y cerca: el jardín [**Hama-rikyū**](https://www.google.com/maps/search/?api=1&query=Hamarikyu%20Gardens%20Tokyo), que está a un paso de
@@ -35,17 +35,17 @@ blocks:
     time: "15:00–18:00"
     title: Al aeropuerto
     body: >-
-      El vuelo sale de **Haneda**, así que el traslado es corto: **unos cuarenta minutos** desde
+      El vuelo sale de **Haneda**, así que el traslado es corto: unos cuarenta minutos desde
       Shinjuku por la línea Keikyū o el monorraíl, no la hora y media de Narita. Con salida a las
-      **21:00**, dejar el centro a las **18:00** es cómodo y a las 18:30 es justo. Ver
+      21:00, dejar el centro a las 18:00 es cómodo y a las 18:30 es justo. Ver
       [los vuelos](#vuelos).
     window:
       label: Antes de pasar el control
       body: >-
         Dos trámites de última hora, y el primero **esta vez sí se puede hacer**: la fianza de la
-        tarjeta IC física solo se devuelve **en Haneda**, y de Haneda salís — hay mostrador en la
-        terminal. El segundo es **el tax-free**, que este año podría haber cambiado al reembolso en
-        aeropuerto: si es así, las compras tienen que ir **sin abrir** y el mostrador está antes del
+        tarjeta IC física solo se devuelve en Haneda, y de Haneda salís — hay mostrador en la
+        terminal. El segundo es el tax-free, que este año podría haber cambiado al reembolso en
+        aeropuerto: si es así, las compras tienen que ir sin abrir y el mostrador está antes del
         control. Ver [dinero](#dinero).
   - block: Noche
     time: "21:00"
@@ -61,6 +61,6 @@ alt:
   label: Si te desmarcas
   body: >-
     Si el vuelo sale de **Haneda** en vez de Narita, el día gana dos horas y el aeropuerto tiene
-    premio: en la **Terminal 3 hay una réplica de una calle de Edo** en la cuarta planta, con puestos
+    premio: en la Terminal 3 hay una réplica de una calle de Edo en la cuarta planta, con puestos
     y farolillos, y una terraza al aire libre desde la que se ven despegar los aviones. Es la mejor
     espera de aeropuerto de Asia.

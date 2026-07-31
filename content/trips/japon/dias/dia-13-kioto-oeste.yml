@@ -34,7 +34,7 @@ blocks:
 
       Al lado, [**Ōkōchi Sansō**](https://www.google.com/maps/search/?api=1&query=Okochi%20Sanso%20Villa%20Kyoto):
       la entrada incluye **té y dulce** y sirve para lo que aquí hace falta: sentarse. Ver
-      [Arashiyama](#arashiyama). Después, el puente **Togetsukyō**. Lo que
+      [Arashiyama](#arashiyama). Después, el puente Togetsukyō. Lo que
       son y de dónde vienen, en [Arashiyama](#arashiyama).
   - block: Mediodía
     time: "12:00–14:30"
@@ -47,12 +47,14 @@ blocks:
     time: "14:30–17:00"
     title: El sendero de la capa de seda
     body: >-
-      El **Kinkaku-ji** se recorre en veinte minutos, así que ir hasta el noroeste solo por él no
-      compensa: lo que compensa es el ***Kinukake no Michi***, dos kilómetros y medio a pie que
-      enlazan tres templos. El pabellón dorado —**el que se ve es de 1955**, porque el original lo
-      quemó un monje en 1950 y Mishima hizo con aquello *El pabellón de oro*—, el [**Ryōan-ji**](https://www.google.com/maps/search/?api=1&query=Ryoanji%20Temple%20Kyoto) con
-      quince rocas de las que **nunca se ven las quince a la vez**, y el [**Ninna-ji**](https://www.google.com/maps/search/?api=1&query=Ninnaji%20Temple%20Kyoto) del año 888, con
-      su palacio imperial y su pagoda, donde ya no queda nadie. Ver [Kinkaku-ji](#kinkakuji).
+      Tres templos en una línea, y los tres del mismo tirón:
+
+      - El **pabellón dorado**. El que se ve es de 1955: el original lo quemó un monje en 1950, y de
+      aquello sacó Mishima *El pabellón de oro*.
+      - El [**Ryōan-ji**](https://www.google.com/maps/search/?api=1&query=Ryoanji%20Kyoto) y sus quince
+      rocas, de las que **nunca se ven las quince a la vez**.
+      - El [**Ninna-ji**](https://www.google.com/maps/search/?api=1&query=Ninnaji%20Kyoto), del año 888,
+      con su palacio imperial y su pagoda. Aquí ya no queda nadie.
     window:
       label: Ventana óptima
       body: >-
@@ -70,9 +72,15 @@ blocks:
 alt:
   label: Si te desmarcas
   body: >-
-    Arashiyama tiene tres desvíos que casi nadie hace: [**Iwatayama**](https://www.google.com/maps/search/?api=1&query=Arashiyama%20Monkey%20Park%20Iwatayama), el parque de macacos en lo alto
-    de la colina, donde **las jaulas son para las personas** y desde donde se ve Kioto entero;
-    [**Saga-Toriimoto**](https://www.google.com/maps/search/?api=1&query=Saga%20Toriimoto%20Preserved%20Street%20Kyoto), un distrito histórico protegido subiendo desde el bambusal, que acaba en
-    [**Adashino Nenbutsu-ji**](https://www.google.com/maps/search/?api=1&query=Adashino%20Nenbutsuji%20Kyoto) y sus **ocho mil estatuillas de piedra** recogidas de tumbas sin nombre;
-    y el [**Kimono Forest**](https://www.google.com/maps/search/?api=1&query=Kimono%20Forest%20Arashiyama) de la estación del tranvía Randen, seiscientos cilindros con estampados de
-    kimono iluminados por dentro al anochecer.
+    Arashiyama tiene tres desvíos que casi nadie hace:
+
+    - [**Iwatayama**](https://www.google.com/maps/search/?api=1&query=Iwatayama%20Monkey%20Park%20Kyoto),
+    el parque de macacos de lo alto de la colina. **Las jaulas son para las personas.** Y desde
+    arriba se ve Kioto entero.
+    - [**Saga-Toriimoto**](https://www.google.com/maps/search/?api=1&query=Saga%20Toriimoto%20Kyoto),
+    un distrito histórico protegido que se sube desde el bambusal. Acaba en el
+    [**Adashino Nenbutsu-ji**](https://www.google.com/maps/search/?api=1&query=Adashino%20Nenbutsuji%20Kyoto)
+    y sus **ocho mil estatuillas** de piedra, recogidas de tumbas sin nombre.
+    - El [**Kimono Forest**](https://www.google.com/maps/search/?api=1&query=Kimono%20Forest%20Arashiyama)
+    de la estación del tranvía Randen: seiscientos cilindros con estampados de kimono, iluminados
+    por dentro al anochecer.

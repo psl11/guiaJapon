@@ -12,7 +12,6 @@ cuando: "Días 11-13 · de 10:00 a 17:00; a mediodía es intransitable"
 precio: "¥200–1.000 por parada (1–6 €)"
 reserva: "No"
 colas: "Según puesto"
-veg: "Muy buenas opciones · es el reino del **tsukemono** (encurtidos), el *yuba*, el tofu, el sésamo y el matcha"
 badge: "«La cocina de Kioto» · cuatro siglos de mercado"
 quePedir: >-
   ***Tsukemono*** para probar en el mostrador —los dan a catar—, ***yuba*** (la nata de la leche de soja), y ***tamagoyaki*** recién cortado.
@@ -20,7 +19,7 @@ body: >-
   Cuatrocientos metros cubiertos con **más de cien puestos**, funcionando como mercado desde hace cuatro siglos y conocido como «la cocina de Kioto». No es un mercado de restaurantes disfrazado: sigue habiendo casas que llevan cinco generaciones vendiendo **una sola cosa** —un encurtido, un tofu, un cuchillo—.
 
 
-  Es, además, **el mejor sitio de todo el viaje para alguien vegetariano**: la cocina de Kioto se construyó sobre verdura y soja porque la ciudad está tierra adentro y el pescado llegaba mal. El *yuba* y el tofu de aquí son un producto serio, no un sucedáneo.
+  Y explica de un vistazo **por qué Kioto cocina distinto**: la ciudad está tierra adentro, el pescado llegaba mal, y la carta se construyó sobre verdura, soja y encurtido. El *yuba* y el tofu de aquí no son guarnición: son el producto principal, con casas que llevan cinco generaciones haciendo solo eso.
 seenIn:
   - ref: '#kioto'
     label: "Kioto"

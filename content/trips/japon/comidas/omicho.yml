@@ -12,7 +12,6 @@ cuando: "Día 10 · por la mañana; a mediodía se llena"
 precio: "¥500 de picoteo · ¥2.500–4.000 un *kaisendon* (3–26 €)"
 reserva: "No"
 colas: "Sí en los mostradores de *donburi*, de 11:30 a 13:30"
-veg: "Difícil · es un mercado de pescado. Hay fruta, *korokke* de verdura, encurtidos y té; para comer sentado, mejor buscar fuera"
 badge: "Mercado desde la era Edo"
 quePedir: >-
   Para quien coma pescado, un ***kaisendon*** —cuenco de arroz cubierto de sashimi— y una **ostra abierta al momento**. Para el resto, *korokke* y fruta de Ishikawa.
@@ -20,7 +19,7 @@ body: >-
   Doscientos puestos bajo techo desde el siglo XVIII, cuando el clan Maeda montó aquí el mercado de la ciudad. Kanazawa da al mar del Japón y en **noviembre se abre la veda del cangrejo de las nieves**, que es el gran acontecimiento gastronómico del año en esta costa: lo veréis por todas partes con su etiqueta amarilla.
 
 
-  Es honesto decirlo: **para alguien vegetariano este mercado no es un destino de comida**, es un destino de mirar. Lo que sí funciona es comprar aquí la fruta y los encurtidos y comer en otro sitio — Kanazawa es también ciudad de dulces y de té.
+  Un aviso de horario que sí importa: **los mostradores de *donburi* revientan de 11:30 a 13:30** y muchos cierran cuando se acaba el género. A las nueve de la mañana se ve el mercado trabajando; a la una se ve la cola.
 seenIn:
   - ref: '#kanazawa'
     label: "Kanazawa"

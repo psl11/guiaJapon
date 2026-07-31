@@ -12,7 +12,6 @@ cuando: "Día 5 · a la ida o a la vuelta del santuario"
 precio: "¥200–800 por parada (1–5 €)"
 reserva: "No"
 colas: "Sí en los puestos famosos"
-veg: "Buenas opciones · *senbei* de arroz, *korokke* de verdura, boniato asado y helado de matcha; el *shirasu* (angula) no lo es"
 badge: "La calle de Kamakura"
 quePedir: >-
   Un ***senbei*** de arroz recién asado a la brasa, del tamaño de un plato, y **boniato asado** si hace frío — en noviembre lo hará.
@@ -20,7 +19,7 @@ body: >-
   Cuatrocientos metros de tiendas y puestos entre la estación y el gran santuario, y la manera clásica de hacer Kamakura: se come de pie mientras se sube. En noviembre huele todo el rato a **boniato asado en piedras**, que es uno de los olores del otoño japonés.
 
 
-  La especialidad local es el ***shirasu***, angula cruda o hervida sobre arroz, que aquí llega del mar de enfrente — **no es apta para vegetarianos**, pero el resto de la calle sí da mucho juego.
+  La especialidad local es el ***shirasu***, angula diminuta cruda o hervida sobre arroz, que llega del mar de enfrente y solo se come fresquísima: **fuera de la costa no existe**, y en Kamakura la sirven a doscientos metros de donde se pesca.
 seenIn:
   - ref: '#kamakura-zen'
     label: "Kamakura"

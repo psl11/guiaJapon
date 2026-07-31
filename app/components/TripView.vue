@@ -28,7 +28,6 @@ const recoGroups = computed(() => RECO_KINDS
 // Gastronomía ─────────────────────────────────────────────────────────────────
 // Guía de platos/bebidas + directorio por ciudad → las 7 categorías. Las ciudades salen del propio
 // contenido (en orden de aparición), no de una lista escrita aquí: así un destino nuevo se añade
-// creando ficheros. Los `soloEl` van a un bloque aparte por ciudad.
 const GASTRO_CATS = [
   { key: 'desayuno', label: 'Desayunos' },
   { key: 'cafe', label: 'Cafés de especialidad' },
@@ -282,7 +281,7 @@ const indexOpen = ref(false)
         id="gastronomia"
         overline="La mesa"
         title="*Gastronomía*"
-        dek="Dónde comer y beber bien, con lo local y auténtico por delante. Cada sitio con su estatus vegetariano explícito, su sello si lo tiene (Michelin, Bib Gourmand, Asia's 50 Best…) y su encaje con el itinerario. Y una guía de los platos y bebidas que no hay que perderse."
+        dek="Dónde comer y beber bien, con lo local y auténtico por delante. Cada sitio con su sello si lo tiene (Michelin, Bib Gourmand, Asia's 50 Best…) y su encaje con el itinerario. Y una guía de los platos y bebidas que no hay que perderse."
       />
 
       <template v-if="platosGuia.length || bebidasGuia.length">

@@ -239,9 +239,9 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 
 ## 8. Estado y qué falta
 
-**Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · **24 platos y bebidas** ·
-**62 locales en 10 ciudades** · 5 de salir · 10 recomendaciones prácticas · 56 fotos · PWA offline
-completo.
+**Hecho:** 21 días · 42 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
+59 locales en 10 ciudades · 5 de salir · 9 recomendaciones prácticas · 65 fotos · PWA offline
+completo y verificado.
 
 **La capa gastronómica** se construyó con el mismo criterio que la de `guiaVietnam`: por ciudad y en
 siete categorías (`desayuno · cafe · comida · cena · street-food · postre · cocteleria`), y **cada
@@ -251,10 +251,16 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
   un puesto de ranking **si está verificado**. Cuando no hay premio, el badge describe el porqué
   («Casa de 1465», «Inside Kyoto») en vez de inventar un galardón. Un badge falso envenena las 61
   fichas restantes.
-- **`veg` es obligatorio y explícito, y en Japón no es trivial.** El problema no es la carne visible
-  sino el ***dashi*** de bonito, que está debajo de la sopa de miso, de la salsa de la soba y del
-  tempura — es decir, **de los platos que parecen vegetales**. Ningún `veg` debe decir solo «sí»:
-  tiene que decir qué preguntar. La reco `veg-japon` lleva la frase en japonés.
+- **En este viaje NO hay vegetarianos** y la guía no debe comportarse como si los hubiera. Se montó
+  la capa entera —campo `veg` en las 86 fichas, una reco sobre el *dashi*, tres locales veganos y un
+  bloque de «no aptos»— arrastrando el contexto de `guiaVietnam`, donde sí es central. Se retiró:
+  `veg` quedó **opcional en el esquema y sin pintar** en las tarjetas. Si alguna vez viaja alguien
+  vegetariano, el campo sigue existiendo y basta con volver a renderizarlo.
+
+  Lo que **sí se queda**, porque es cultura y no advertencia: la [shōjin ryōri](#) como cocina de
+  monasterio —con Shigetsu dentro del Tenryū-ji, Ajiro con estrella e Izusen en Daitoku-ji—, el
+  *dashi* como ingrediente y el *wagashi* explicado por sus tres ingredientes. La regla al escribir:
+  **describir de qué está hecho un plato es interesante; advertir a alguien que no viene, no.**
 
 **Falta:**
 - Fotos propias de Shibuya, Ueno, Tsukiji e Hiroshima (Pablo las tiene sin subir).

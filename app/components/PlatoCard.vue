@@ -1,17 +1,10 @@
 <script setup lang="ts">
 // PlatoCard — una ficha de la GUÍA DE PLATOS Y BEBIDAS (no un local): qué es · historia · dónde se
-// prepara mejor · picante · versión vegetariana (obligatoria y explícita) · dónde probarlo (enlaces
-// a los locales del directorio). Sin <MDC unwrap>. El chip VEG se colorea por su propio texto.
+// prepara mejor · picante · dónde probarlo (enlaces a los locales que lo sirven).
 import type { Plato } from '~~/shared/schemas'
 
 const props = defineProps<{ plato: Plato }>()
 
-const vegClass = computed(() => {
-  const v = props.plato.veg.toLowerCase()
-  if (/^no\b|no apto|no existe|no hay|no de serie|no en/.test(v)) return 'veg--no'
-  if (/^s[íi]\b|existe|f[áa]cil|habitual|apto|excelente/.test(v)) return 'veg--si'
-  return 'veg--ok'
-})
 </script>
 
 <template>
@@ -53,14 +46,6 @@ const vegClass = computed(() => {
       class="plato-body"
     >
       <MDC :value="plato.body" />
-    </div>
-
-    <div
-      class="plato-veg"
-      :class="vegClass"
-    >
-      <span class="plato-label">¿Versión vegetariana?</span>
-      <MDC :value="plato.veg" />
     </div>
 
     <div

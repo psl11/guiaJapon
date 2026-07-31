@@ -160,7 +160,7 @@ export const RecoSchema = z.object({
 // Un restaurante / café / puesto / bar. Se agrupa por `part` (país) → `city` → `category` (el orden
 // del cliente). Los chips de un vistazo (tipo · precio · reserva · colas · VEG · sello) son campos
 // estructurados; el porqué va en `body`. `veg` es OBLIGATORIO y siempre explícito (la novia es
-// vegetariana). `badge` = sello de prestigio verificado (★ Michelin, Bib Gourmand, Asia's 50 Best,
+// vegetariana en las guías que la necesiten). `badge` = sello de prestigio verificado (★ Michelin, Bib Gourmand, Asia's 50 Best,
 // Vietnam Coracle…). NO usar `meta` (reservado de Content v3 → «[object Object]»).
 export const ComidaSchema = z.object({
   slug: z.string(),
@@ -174,11 +174,13 @@ export const ComidaSchema = z.object({
   tipo: z.string(), // 'puesto callejero' · 'familiar' · 'moderno' · 'histórico' · 'rooftop'…
   area: z.string().optional(), // zona / dirección aproximada
   cuando: z.string().optional(), // encaje logístico con el itinerario: 'Casco viejo · cualquier día' · 'West Lake · Día 15'
-  soloEl: z.boolean().optional(), // true = icono NO-veg → va al bloque «Los intocables · no aptos para vegetarianos», fuera del directorio veg-friendly
+  soloEl: z.boolean().optional(), // sin uso en este viaje (heredado de guiaVietnam, donde separa los no aptos)
   precio: z.string().optional(), // '50–70k ₫ (~2–2,6 €)'
   reserva: z.string().optional(), // 'No' · 'Recomendable' · 'Imprescindible'
   colas: z.string().optional(), // 'Sí, van rápidas' · 'No'
-  veg: z.string(), // OBLIGATORIO y explícito: '100% vegetariano' · 'buenas opciones veg' · 'no apto (solo él)'…
+  // Sin vegetarianos en este viaje (los cuatro comen de todo), así que el campo no se pide ni se
+  // pinta. Se conserva opcional por si una guía futura lo necesita — en guiaVietnam sí es central.
+  veg: z.string().optional(),
   badge: z.string().optional(), // sello: '★ Michelin' · 'Bib Gourmand' · "Asia's 50 Best" · 'Vietnam Coracle'…
   quePedir: Md.optional(), // qué pedir
   body: Md, // por qué merece la pena (+ contexto/fuente)
@@ -201,7 +203,7 @@ export const PlatoSchema = z.object({
   historia: Md.optional(), // historia / curiosidad
   dondeMejor: z.string().optional(), // dónde se prepara mejor
   picante: z.string().optional(), // 'Suave' · 'Medio' · 'Alto' · '—'
-  veg: z.string(), // OBLIGATORIO: versión vegetariana (existe/cómo pedirla, o «no apto»)
+  veg: z.string().optional(), // sin vegetarianos en este viaje; ver nota en ComidaSchema
   body: Md.optional(),
   seenIn: z.array(Link).optional(), // dónde probarlo → enlaces a locales (comida)
 })

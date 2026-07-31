@@ -1,20 +1,13 @@
 <script setup lang="ts">
 // ComidaCard — una entrada del directorio gastronómico (restaurante/café/puesto/bar). Se mira de un
 // vistazo: sello (Michelin/50 Best…) + tipo · zona · encaje logístico + chips (precio · reserva ·
-// colas · VEG coloreado por estatus) + «qué pedir» destacado + el porqué en <MDC>. El chip VEG es
-// obligatorio (la novia es vegetariana); su color sale del propio texto. Sin <MDC unwrap> → hidrata
-// limpio. Los cruces (`seenIn`) van como enlaces internos (los resuelve el plugin anchor-nav).
+// colas) + «qué pedir» destacado + el porqué en <MDC>. Los campos cortos van con `inlineMd`, no con
+// <MDC unwrap>, para que hidrate limpio (ver trampa 3.8 de CLAUDE.md).
+// Los cruces (`seenIn`) van como enlaces internos (los resuelve el plugin anchor-nav).
 import type { Comida } from '~~/shared/schemas'
 
 const props = defineProps<{ comida: Comida }>()
 
-// Estatus veg para el color del chip: verde = apto/100%, cinabrio = no apto, ámbar = opciones/limitado.
-const vegClass = computed(() => {
-  const v = props.comida.veg.toLowerCase()
-  if (/no apto|no veg|no vegetarian/.test(v)) return 'veg--no'
-  if (/(100\s*%|vegano|vegana|excelente|apto)/.test(v) && !/limitad|no apto/.test(v)) return 'veg--si'
-  return 'veg--ok'
-})
 
 // Enlace de mapa auto-generado (búsqueda, no URL de sitio inventada): nombre + zona + ciudad.
 const mapsUrl = computed(() =>
@@ -68,15 +61,6 @@ const mapsUrl = computed(() =>
         v-if="comida.colas"
         class="cchip"
       >Colas: <span v-html="inlineMd(comida.colas)" /></span>
-    </div>
-
-    <div
-      class="comida-veg"
-      :class="vegClass"
-    >
-      <!-- inlineMd: este campo se escribe con **fuerte** y *cursiva* y salían los asteriscos
-           a la vista. Enlaces NO — lo vigila tests/data/inline-md-subset.spec.ts. -->
-      <span v-html="inlineMd(comida.veg)" />
     </div>
 
     <div

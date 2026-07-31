@@ -34,7 +34,7 @@ un sitio fijo**: antes de escribir esa expresión, mira de qué bloque hablas.
 
 ---
 
-## 3. Las nueve trampas que ya nos han costado tiempo
+## 3. Las diez trampas que ya nos han costado tiempo
 
 **3.1 · Content v3 NO valida `type:'data'` contra zod en el build.** Es un fallo conocido
 (nuxt/content#3351). Un YAML mal formado pasa el build y revienta en runtime. **La puerta real es
@@ -96,6 +96,22 @@ cualquiera de las tres. Está probada contra los tres bugs reales: se reintroduj
 `.output/public` bajo el subpath correcto, cargar, esperar a que el SW esté `active`, **matar el
 servidor** y recargar. Si sale el 500, no hay offline. Es la única prueba que vale, porque
 **con cobertura un sitio sin offline se ve exactamente igual que uno con offline**.
+
+**3.10 · `white-space: nowrap` + `flex-shrink: 0` en un chip con texto libre saca scroll
+horizontal en móvil.** La pareja le dice al elemento que **no puede partir línea NI encoger**, así
+que un valor largo —«Uno de los tres grandes mercados matinales de Japón» en un `badge`— estira su
+fila flex por encima del ancho de la pantalla. En la gastronomía sacaba **37 px de scroll** a 375 px
+y no lo veía nadie porque **en escritorio no pasa**. Solo es seguro si además trunca
+(`text-overflow: ellipsis`), que es lo que hace `.gi-label`.
+
+La otra mitad del mismo problema es la prosa: un token indivisible más ancho que su columna
+—`ticket.angkorenterprise.gov.kh`, 236 px en una de 209— rompe la caja igual. Por eso hay una regla
+global de `overflow-wrap: break-word` en `p, li, td…`.
+
+**Lo vigila `tests/unit/cssOverflow.spec.ts`**, que comprueba la causa de forma estática (jsdom no
+calcula layout, así que no puede medir el desbordamiento). **La medición de verdad es en el
+navegador a 320 y 375 px**, contando elementos cuyo `scrollWidth > clientWidth` o cuyo borde derecho
+pasa del viewport. Hazlo siempre que toques una tarjeta.
 
 ---
 

@@ -6,6 +6,34 @@
 
 * { box-sizing: border-box; }
 
+/* Geometría del escritorio ancho. Las tres medidas van juntas porque se calculan una contra otra:
+   el índice y la columna de lectura forman UN bloque que se centra entero, en vez de centrar solo
+   la prosa y dejar el índice colgando en el margen. --measure NO crece con la pantalla más allá de
+   lo que la lectura aguanta (~80 caracteres): una línea de 1400 px no se lee, se escanea. El
+   espacio que sobra lo gana el índice, que es lo que sí lo necesitaba —a 200 px truncaba con «…». */
+:root {
+  --measure:  720px;   /* columna de lectura */
+  --rail:     200px;   /* índice fijo */
+  --rail-gap: 3.5rem;  /* aire entre índice y prosa */
+}
+
+/* Barras de scroll acopladas al tema: pista transparente, pulgar tenue que se despierta al pasar.
+   `scrollbar-color` se hereda desde html, así que cubre también el scroll interno del índice. */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) transparent;
+}
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  /* El borde transparente + background-clip deja el pulgar más fino que la canaleta sin que la
+     pista tenga que pintar nada: es el único modo de tener margen alrededor del pulgar. */
+  background: var(--scroll-thumb); background-clip: content-box;
+  border: 3px solid transparent; border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--scroll-thumb-hover); background-clip: content-box; }
+::-webkit-scrollbar-corner { background: transparent; }
+
 body {
   margin: 0;
   background: var(--bg);
@@ -17,7 +45,7 @@ body {
   transition: background .4s ease, color .4s ease;
 }
 
-.wrap { max-width: 720px; margin: 0 auto; padding: 0 1.5rem; }
+.wrap { max-width: var(--measure); margin: 0 auto; padding: 0 1.5rem; }
 
 /* ── Topbar ────────────────────────────────────────────────────────────────── */
 .topbar {
@@ -67,7 +95,7 @@ body {
 /* Móvil / estrecho: panel deslizante sobre backdrop. */
 .gi-backdrop {
   position: fixed; inset: 0; z-index: 40;
-  background: color-mix(in srgb, var(--ink) 45%, transparent);
+  background: var(--scrim);
   opacity: 0; pointer-events: none; transition: opacity .25s ease;
 }
 .guide-index.is-open .gi-backdrop { opacity: 1; pointer-events: auto; }
@@ -77,7 +105,7 @@ body {
   display: flex; flex-direction: column;
   padding: 1.1rem 1.15rem 1.6rem;
   background: var(--bg-elev); border-right: 1px solid var(--line);
-  box-shadow: 0 0 40px color-mix(in srgb, var(--ink) 22%, transparent);
+  box-shadow: 0 0 40px var(--scrim-shadow);
   transform: translateX(-102%); visibility: hidden;
   /* visibility retrasada hasta que acaba el deslizamiento de salida: así el panel cerrado NO es
      enfocable con teclado (fuera del árbol de accesibilidad y del tab-order) sin perder la animación. */
@@ -140,20 +168,125 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
-/* Desktop ancho: índice fijo en el margen izquierdo, siempre visible (sin backdrop ni botón). */
+/* Desktop ancho: índice fijo en el margen izquierdo, siempre visible (sin backdrop ni botón).
+   El índice está `position: fixed` y la prosa en flujo, así que no hay grid que los case: los
+   alinea la aritmética de --shell-left, que es el borde izquierdo del bloque de dos columnas.
+   Las dos reglas leen la MISMA variable — si se tocan las medidas, se tocan arriba, no aquí. */
 @media (min-width: 1200px) {
+  :root {
+    --rail:     clamp(200px, 15vw, 300px);
+    --rail-gap: clamp(2.75rem, 4vw, 5rem);
+    --shell:      calc(var(--rail) + var(--rail-gap) + var(--measure));
+    --shell-left: max(1.5rem, calc((100vw - var(--shell)) / 2));
+  }
   .gi-btn, .gi-backdrop, .gi-close { display: none; }
   .gi-panel {
     position: fixed; transform: none; transition: none; box-shadow: none; visibility: visible;
-    top: 5.1rem; left: max(1.25rem, calc((100vw - 720px) / 2 - 224px));
-    width: 200px; height: auto; max-height: calc(100vh - 7rem);
+    top: 5.1rem; left: var(--shell-left);
+    width: var(--rail); height: auto; max-height: calc(100vh - 7rem);
     padding: 0; background: transparent; border-right: 0;
   }
+  /* margin-left explícito (no `auto`) es lo que desplaza la prosa a su columna: centrar la prosa
+     por su cuenta la dejaría encima del índice o descuadrada respecto a él. */
+  .wrap { margin-left: calc(var(--shell-left) + var(--rail) + var(--rail-gap)); margin-right: auto; }
   .gi-head { margin-bottom: .8rem; }
+  /* Con el rail ancho ya no hace falta truncar: el título entero cabe, y si no, parte en dos
+     líneas. El `nowrap` solo tenía sentido a 200 px (ver tests/unit/cssOverflow.spec.ts). */
+  .gi-label { white-space: normal; overflow: visible; text-overflow: clip; }
+}
+
+/* Por encima de ~1660 px la línea puede crecer un poco sin salirse de medida legible (~80 car.). */
+@media (min-width: 1660px) {
+  :root { --measure: 800px; }
 }
 
 /* ── Hero de la Parte II ─────────────────────────────────────────────────────── */
 .hero { padding: 4rem 0 1rem; }
+/* Con portada el aire de arriba sobra: la ilustración ya es la entrada. En retrato va a cero —la
+   portada arranca pegada a la cabecera y llega de borde a borde, que es lo que la hace parecer la
+   pantalla de la app y no una imagen dentro de una página—; en apaisado se recupera el aire porque
+   ahí la portada no toca los bordes laterales y sin margen superior quedaría descolgada. */
+.hero:has(.hero-portada) { padding-top: 0; }
+
+/* Portada ilustrada con el titular encima. Tres decisiones que la hacen parecer del sitio y no un
+   banner pegado:
+   1. Se desborda 1.5rem a cada lado —justo el padding de .wrap—, así que en móvil llega de borde
+      a borde y en escritorio sobresale un punto de la columna de texto. Sin `100vw`: esa unidad
+      incluye la barra de scroll y saca desbordamiento horizontal (ver CLAUDE.md 3.10).
+   2. El velo que hace legible el titular ESTÁ HECHO DEL PROPIO FONDO (`var(--bg)` degradando a
+      transparente). Por eso no hay versión clara y versión oscura: en washi la ilustración se
+      aclara hacia el papel y en la noche de laca se oscurece hacia la laca, con la misma regla.
+      Y como el degradado acaba en `--bg` opaco, la imagen se disuelve por abajo en vez de cortar
+      en seco: el velo y el fundido son la misma cosa, no dos capas peleándose.
+   3. El velo entra por donde NO está el protagonista: por la izquierda en apaisado (Blastoise
+      ocupa la derecha) y solo por abajo en retrato (donde está centrado). */
+.hero-media { position: relative; margin: 0 -1.5rem 2.2rem; }
+.hero-media:not(.has-portada) { margin: 0; }
+
+.hero-portada {
+  display: block;
+  aspect-ratio: 3 / 4; max-height: 68vh;
+  background: var(--bg-soft); /* reserva el hueco con color del tema mientras decodifica */
+}
+.hero-portada img {
+  display: block; width: 100%; height: 100%;
+  /* El recorte en vertical se ancla arriba: así entran enteros el recuadro de caligrafía (que
+     empieza a 2 px del borde) y la cara. Lo que se pierde por abajo es justo lo que el velo
+     iba a tapar de todas formas. */
+  object-fit: cover; object-position: 50% 0;
+}
+/* La ilustración es luminosa y cálida; a plena intensidad sobre la noche de laca deslumbra. */
+[data-theme="dark"] .hero-portada img { filter: brightness(.84) saturate(.92); }
+
+.has-portada::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to top,
+    var(--bg) 1%,
+    color-mix(in srgb, var(--bg) 78%, transparent) 26%,
+    color-mix(in srgb, var(--bg) 30%, transparent) 46%,
+    transparent 66%);
+}
+.hero-titular { position: relative; }
+.has-portada .hero-titular {
+  position: absolute; z-index: 1; left: 0; right: 0; bottom: 0;
+  padding: 0 1.5rem 1.1rem;
+  /* Halo del color del fondo, no una sombra negra: mismo truco que el velo. Cubre lo que el
+     degradado no llega a cubrir —la cola del eyebrow, que se adentra más que el titular. */
+  text-shadow: 0 1px 10px var(--bg), 0 0 3px color-mix(in srgb, var(--bg) 65%, transparent);
+}
+/* El titular ya no abre la página: la imagen lo hace. Sin este ajuste el h1 sobre la ilustración
+   pide dos líneas más de las que hay sitio en retrato. */
+/* Escala pensada para que «Japón, bajando del otoño» entre en UNA línea a lo ancho de la
+   portada, que es lo que la mantiene como una banda baja y no como un bloque que tapa la
+   ilustración. 7.2vw es el punto donde cabe todavía a 320 px. */
+.has-portada .hero-titular h1 { font-size: clamp(1.6rem, 7.2vw, 3.9rem); margin-top: .5rem; }
+.has-portada .eyebrow { font-size: .6rem; letter-spacing: .13em; }
+
+/* A partir de aquí entra el fichero apaisado (ver el <picture> de TripView): mismo ratio que el
+   original, así que no recorta nada, y el titular se va a la banda izquierda. */
+@media (min-width: 720px) {
+  .hero:has(.hero-portada) { padding-top: 1.4rem; }
+  .hero-portada { aspect-ratio: 1630 / 1018; max-height: none; }
+  .hero-portada img { object-position: 50% 50%; }
+  .has-portada::after {
+    background:
+      /* El vertical lleva ahora el peso —el titular cruza toda la banda—; el horizontal se queda
+         como refuerzo suave por la izquierda, donde arranca la lectura. */
+      linear-gradient(to top,
+        var(--bg) 1%,
+        color-mix(in srgb, var(--bg) 72%, transparent) 22%,
+        transparent 56%),
+      linear-gradient(to right,
+        color-mix(in srgb, var(--bg) 72%, transparent) 0%,
+        color-mix(in srgb, var(--bg) 38%, transparent) 34%,
+        transparent 68%);
+  }
+  /* Ancho completo, no una columna a la izquierda: el titular cabe en una línea y una banda baja
+     de dos renglones tapa menos que un bloque estrecho de cuatro. */
+  .has-portada .hero-titular { padding-bottom: 1.7rem; }
+  .has-portada .hero-titular h1 { font-size: clamp(1.9rem, 3.5vw, 3.1rem); }
+  .has-portada .eyebrow { font-size: .64rem; letter-spacing: .15em; }
+}
 .eyebrow {
   font-family: 'JetBrains Mono', monospace;
   font-size: .72rem; font-weight: 500; letter-spacing: .22em; text-transform: uppercase;

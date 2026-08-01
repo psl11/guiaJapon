@@ -25,6 +25,15 @@
   --shadow:     0 1px 3px rgba(35,30,22,.07), 0 12px 32px rgba(35,30,22,.06);
   --shadow-elev:0 2px 8px rgba(35,30,22,.11), 0 24px 48px rgba(35,30,22,.09);
 
+  /* Velo del índice deslizante y su halo. NO pueden derivar de --ink: en oscuro la tinta es clara
+     y el velo salía gris lechoso sobre la noche de laca. Van por token, uno por tema. */
+  --scrim:        rgba(31,30,28,.45);
+  --scrim-shadow: rgba(31,30,28,.22);
+
+  /* Pulgar de las barras de scroll. La pista va siempre transparente (ver base.css). */
+  --scroll-thumb:       rgba(31,30,28,.20);
+  --scroll-thumb-hover: rgba(31,30,28,.38);
+
   /* Relleno índigo fijo de las cabeceras de ficha (mismo en ambos temas: es su propio mundo). */
   --ficha-fill: #26415c;
 }
@@ -46,4 +55,12 @@
   --line-soft:  #272b31;
   --shadow:     0 1px 3px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.32);
   --shadow-elev:0 2px 8px rgba(0,0,0,.5), 0 24px 48px rgba(0,0,0,.42);
+
+  /* Más negro que el fondo (#14161a) y más opaco que en claro: sobre una página ya oscura, un
+     velo flojo no separa nada. El halo va a negro puro, que en oscuro es sombra y no resplandor. */
+  --scrim:        rgba(5,7,10,.68);
+  --scrim-shadow: rgba(0,0,0,.55);
+
+  --scroll-thumb:       rgba(235,229,216,.16);
+  --scroll-thumb-hover: rgba(235,229,216,.30);
 }

@@ -158,6 +158,15 @@ const nav = computed(() => {
 })
 
 const indexOpen = ref(false)
+
+// Portada: un <img src> plano NO recibe el prefijo de baseURL de Nuxt (mismo caso que CardPhoto),
+// así que se antepone a mano para que resuelva bajo /guiaJapon/ en GitHub Pages.
+const base = useRuntimeConfig().app.baseURL
+const heroSrc = computed(() => trip.value?.heroImage && base + trip.value.heroImage.src)
+const heroSrcAlta = computed(() => {
+  const alta = trip.value?.heroImage?.srcAlta
+  return alta ? base + alta : heroSrc.value
+})
 </script>
 
 <template>
@@ -194,14 +203,41 @@ const indexOpen = ref(false)
       v-if="trip"
       class="hero"
     >
-      <div class="eyebrow">
-        {{ trip.eyebrow }}
+      <!-- Portada + titular. El envoltorio existe SIEMPRE (aunque el viaje no traiga ilustración)
+           para no duplicar el titular en un v-else: sin portada es un div transparente y el eyebrow
+           y el h1 fluyen como toda la vida; con ella, `.has-portada` los superpone desde la CSS.
+           `fetchpriority=high` y nada de lazy: es lo primero que se ve (al contrario que CardPhoto,
+           que sí difiere porque vive en el scroll). -->
+      <div
+        class="hero-media"
+        :class="{ 'has-portada': !!trip.heroImage }"
+      >
+        <picture
+          v-if="trip.heroImage"
+          class="hero-portada"
+        >
+          <source
+            media="(max-width: 719px)"
+            :srcset="heroSrcAlta"
+          >
+          <img
+            :src="heroSrc"
+            :alt="trip.heroImage.alt"
+            fetchpriority="high"
+            decoding="async"
+          >
+        </picture>
+        <div class="hero-titular">
+          <div class="eyebrow">
+            {{ trip.eyebrow }}
+          </div>
+          <!-- Título y entradilla son inline: `inlineMd` (v-html) en vez de <MDC unwrap="p">, que
+               envolvía el texto en un <div> — inválido dentro del <p class="lede"> y causa de su
+               mismatch de hidratación. Ver app/utils/inline-md.ts. -->
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <h1 v-html="inlineMd(trip.title)" />
+        </div>
       </div>
-      <!-- Título y entradilla son inline: `inlineMd` (v-html) en vez de <MDC unwrap="p">, que
-           envolvía el texto en un <div> — inválido dentro del <p class="lede"> y causa de su
-           mismatch de hidratación. Ver app/utils/inline-md.ts. -->
-      <!-- eslint-disable-next-line vue/no-v-html -->
-      <h1 v-html="inlineMd(trip.title)" />
       <!-- eslint-disable-next-line vue/no-v-html -->
       <p
         v-if="trip.lede"

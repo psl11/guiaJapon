@@ -234,6 +234,14 @@ export const TripSchema = z.object({
   title: Md, // con *cursiva* para el acento en momiji
   eyebrow: z.string(), // 'Tokio · Kamakura · … — 6 a 13 de noviembre de 2026'
   heroMeta: z.string().optional(),
+  // Portada ilustrada, opcional. NO usa `Img`: esa exige `credit` porque son fotos de Commons con
+  // licencia que atribuir, y esta es ilustración propia. Dos ficheros porque un recorte apaisado
+  // no sobrevive a un móvil en vertical: `srcAlta` es la versión en retrato y la elige el <picture>.
+  heroImage: z.object({
+    src: z.string(), // 'img/hero/portada-ancha.webp' — relativo, sin barra inicial
+    srcAlta: z.string().optional(), // versión en retrato para móvil
+    alt: z.string(),
+  }).optional(),
   quote: z.string().optional(),
   quoteAttr: z.string().optional(),
   lede: Md.optional(), // párrafo de entrada de la Parte II

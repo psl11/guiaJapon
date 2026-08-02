@@ -1,0 +1,50 @@
+slug: nunoya-ryokan
+navLabel: "Nunoya Ryokan"
+trip: japon
+city: Matsumoto
+order: 3
+status: candidato
+title: Nunoya Ryokan
+tipo: ryokan en casa de comercio
+area: Nakamachi, Matsumoto
+noches: 1 noche · día 6
+lat: 36.2338076
+lon: 137.9727871
+estaciones:
+  - nombre: Matsumoto
+    lineas: JR Chūō · JR Ōito · Alpico a Kamikōchi
+    minutos: 12
+    lat: 36.2307332
+    lon: 137.9644409
+image:
+  src: img/hoteles/nunoya-ryokan.webp
+  alt: La fachada blanca de almacén tradicional del Nunoya Ryokan, con su rótulo de madera y la noren en la puerta.
+  credit: Foto del establecimiento · Booking
+  creditUrl: https://www.booking.com/hotel/jp/nunoyalu-guan.es.html
+habitaciones: Dos habitaciones
+deadline: Cancelación gratuita hasta el 5 de septiembre
+rating: 9,3 en Booking · 275 reseñas
+nota: El 9,3 es la nota más alta de los cuatro alojamientos de la guía.
+body: >-
+  Está en **Nakamachi**, que no es una dirección cualquiera: es la calle de los *kura*, los almacenes
+  de muros blancos encalados y entramado negro que levantaron los comerciantes de Matsumoto después
+  del incendio de 1888 porque no ardían. El ryokan ocupa uno de ellos, y esa fachada de la foto es
+  literalmente el motivo por el que la calle se visita.
+
+
+  Por dentro es lo que promete: tatami, futón y madera. Las reseñas —275, con un 9,3 que es la nota
+  más alta de las cuatro fichas de esta guía— repiten dos cosas, **el desayuno y el trato de los
+  dueños**, que es exactamente lo que se va a buscar a un ryokan y lo que un hotel de cadena no da.
+
+
+  Para el día 6 encaja bien: doce minutos andando desde la estación con la maleta, y otros once
+  hasta el [castillo](#matsumoto-jo). Y como al día siguiente se sube a [Kamikōchi](#kamikochi),
+  dormir una noche a la japonesa antes de la montaña tiene su lógica de guion.
+link:
+  url: https://www.booking.com/hotel/jp/nunoyalu-guan.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#matsumoto-jo"
+    label: El castillo
+  - ref: "#dia-6-matsumoto"
+    label: Día 6 · Matsumoto

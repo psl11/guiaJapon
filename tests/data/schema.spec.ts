@@ -3,7 +3,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs'
 import { join, basename } from 'node:path'
 import { parse } from 'yaml'
 import type { ZodTypeAny } from 'zod'
-import { TripSchema, ActoSchema, FichaSchema, InversionSchema, DiaSchema, RecoSchema, ComidaSchema, PlatoSchema, SalirSchema } from '../../shared/schemas'
+import { TripSchema, ActoSchema, FichaSchema, InversionSchema, DiaSchema, RecoSchema, ComidaSchema, PlatoSchema, SalirSchema, HotelSchema, ParadaSchema } from '../../shared/schemas'
 
 // La PUERTA DE VALIDACIÓN DE DATOS. Nuxt Content v3 NO valida las colecciones `type:'data'` contra
 // zod en build (nuxt/content#3351) → un enum inválido o un requerido ausente se desplegaría en
@@ -38,6 +38,10 @@ const COLLECTIONS: { dir: string, schema: ZodTypeAny, name: string, single?: boo
   { dir: 'comidas', schema: ComidaSchema, name: 'comida' },
   { dir: 'platos', schema: PlatoSchema, name: 'plato' },
   { dir: 'salir', schema: SalirSchema, name: 'salir' },
+  { dir: 'hoteles', schema: HotelSchema, name: 'hotel' },
+  // `paradas` NO es colección de Content (ver ParadaSchema): sólo la lee el script del mapa. Aquí
+  // sí entra, porque la validación de sus lat/lon es lo único que impide que el mapa salga torcido.
+  { dir: 'paradas', schema: ParadaSchema, name: 'parada' },
 ]
 
 // Anclas de LUGAR pendientes: fichas de monumento/sitio (Parte I) aún no escritas. Los chips
@@ -134,10 +138,13 @@ describe('contenido · integridad de anclas seenIn', () => {
 // umbrales de sección + la categoría de platos + las categorías de reco colapsadas + las ciudades de
 // gastronomía (mismo citySlug que TripView). Incluirlas solo PREVIENE falsos positivos, nunca los causa.
 const citySlug = (c: string) => 'gastro-' + c.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+// Las paradas de «Dónde dormir» usan el mismo slugificador con prefijo propio (ver stopSlug en TripView).
+const stopSlug = (c: string) => 'hotel-' + c.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
 const FIXED_ANCHORS = new Set<string>([
-  'el-plan', 'gasto', 'reservas', 'gastronomia', 'salir', 'japon', 'gastro-platos',
+  'el-plan', 'gasto', 'reservas', 'gastronomia', 'salir', 'japon', 'gastro-platos', 'dormir-hoteles',
   'dormir', 'reservar', 'moverse', // categorías de reco colapsadas en el índice
   ...docs.filter(d => d.collection === 'comida' && d.city).map(d => citySlug(d.city as string)),
+  ...docs.filter(d => d.collection === 'hotel' && d.city).map(d => stopSlug(d.city as string)),
 ])
 
 describe('contenido · integridad de anclas del cuerpo markdown', () => {

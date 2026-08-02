@@ -228,6 +228,85 @@ export const SalirSchema = z.object({
   seenIn: z.array(Link).optional(),
 })
 
+// ── HOTEL — la entrada del directorio de alojamiento (sección «Dónde dormir») ─
+// Un alojamiento de un tramo del itinerario. Se agrupa por `city`, que NO es la ciudad a secas sino
+// la PARADA («Tokio · Akihabara» y «Tokio · Shinjuku» son dos, porque en Tokio se duerme en dos
+// barrios distintos y esa es la trampa que más ficheros toca de esta guía).
+//
+// `status` es lo que hace útil la sección durante los meses previos: un tramo puede tener DOS
+// entradas en `candidato` compitiendo (reserva doble con cancelación gratuita) y se resuelve
+// pasando una a `confirmado` y borrando la otra. `deadline` es la fecha en que eso deja de ser
+// gratis — el dato que de verdad caduca.
+//
+// NO usar `meta` ni `id`: reservados de Content v3 (los sobrescribe). Por eso la línea suelta de
+// datos se llama `nota`, igual que en RecoSchema.
+export const HotelSchema = z.object({
+  slug: z.string(),
+  trip: z.string(),
+  city: z.string(), // la PARADA: 'Tokio · Akihabara' · 'Kamikōchi' · 'Kioto'
+  order: z.number(), // orden dentro de la colección (itinerario); único en todo el viaje
+  status: z.enum(['confirmado', 'candidato', 'descartado']),
+  title: z.string(), // nombre del hotel
+  navLabel: z.string().optional(),
+  tipo: z.string(), // 'hotel de negocios' · 'ryokan' · 'casa de montaña' · 'business nuevo'
+  area: z.string().optional(), // 'Kanda-Sudachō, Chiyoda'
+  noches: z.string().optional(), // '5 noches · días 1-5'
+  // Las estaciones a pie, ESTRUCTURADAS (no una frase suelta): de aquí salen a la vez la línea
+  // resumen de la tarjeta y el diagrama de StopMap, que se autocompone sin coordenadas a mano.
+  // Una parada nueva no necesita geometría: basta con listar sus estaciones.
+  estaciones: z.array(z.object({
+    nombre: z.string(), // 'Akihabara'
+    lineas: z.string().optional(), // 'JR Yamanote · Chūō-Sōbu · Hibiya · Tsukuba Express'
+    minutos: z.number(), // andando, desde la puerta del hotel
+    lat: z.number().optional(),
+    lon: z.number().optional(),
+  })).optional(),
+  // Coordenadas VERIFICADAS (Nominatim/Overpass, contrastadas contra la dirección postal) — de
+  // ellas sale el mapa real que hornea scripts/build-stopmap.mjs. La regla 4.5 sigue en pie: no se
+  // inventan. Si un alojamiento no geocodifica con certeza, se deja sin lat/lon y no sale en el mapa.
+  lat: z.number().optional(),
+  lon: z.number().optional(),
+  // Foto del establecimiento. OJO: no es una foto de Commons como el resto de la guía — las de un
+  // hotel concreto no existen con licencia libre. Va con `credit` al establecimiento y `creditUrl`
+  // a su ficha de reserva. Si algún día hay foto propia (fotos-originales/), sustituye a esta.
+  image: Img.optional(),
+  precio: z.string().optional(), // total del tramo, no por noche
+  habitaciones: z.string().optional(), // 'Dos dobles' — los cuatro no caben en una
+  rating: z.string().optional(), // '8,6 · 1.428 reseñas' — SIEMPRE con la fuente y verificado
+  deadline: z.string().optional(), // 'Cancelación gratuita hasta el 5 de noviembre'
+  nota: z.string().optional(), // línea suelta. NUNCA `meta` (reservado de Content v3)
+  body: Md, // el porqué: qué compra esa ubicación y qué se paga por ella
+  link: z.object({ url: z.string(), label: z.string() }).optional(), // la reserva
+  seenIn: z.array(Link).optional(), // cruces (ficha de barrio, día…)
+})
+
+// ── PARADA — los puntos de interés que salen en el mapa de «Dónde dormir» ─────
+// OJO, ESTA NO ES UNA COLECCIÓN DE NUXT CONTENT, y es a propósito. Sus datos sólo los consume
+// scripts/build-stopmap.mjs, que hornea el mapa en build y deja las posiciones ya calculadas en
+// app/components/stopMapsGeo.js. Registrarla en content.config.ts obligaría a Content a materializar
+// un `sql_dump.txt` que nadie consulta — y en una PWA con precaché total eso es peso muerto que se
+// descarga en cada móvil. Aquí no hace falta: el runtime nunca la mira.
+//
+// Lo que sí hace falta es VALIDARLA, porque un `lat` escrito como texto rompería el mapa en
+// silencio. De eso se encarga tests/data/schema.spec.ts, que lee los .yml del disco y no depende de
+// Content para nada. Por eso el fichero vive en content/ pero fuera del registro de colecciones.
+//
+// `puntos` sale del contenido que ya existe: son los lugares que nombra la ficha del barrio, con las
+// coordenadas VERIFICADAS en Nominatim/Overpass contra su dirección. Regla 4.5: no se inventan. Si
+// un sitio no geocodifica con certeza (Super Potato, que no está en OSM), se queda fuera del mapa.
+export const ParadaSchema = z.object({
+  slug: z.string(),
+  trip: z.string(),
+  city: z.string(), // debe COINCIDIR con el `city` de los hoteles de esa parada — es la clave de unión
+  order: z.number(),
+  puntos: z.array(z.object({
+    nombre: z.string(),
+    tipo: z.string(), // 'santuario' · 'catedral ortodoxa' · 'centro de arte'…
+    lat: z.number(),
+    lon: z.number(),
+  })),
+})
+
 // ── TRIP — metadatos de portada ──────────────────────────────────────────────
 export const TripSchema = z.object({
   slug: z.string(), // 'japon'
@@ -274,4 +353,6 @@ export type Reco = z.infer<typeof RecoSchema>
 export type Comida = z.infer<typeof ComidaSchema>
 export type Plato = z.infer<typeof PlatoSchema>
 export type Salir = z.infer<typeof SalirSchema>
+export type Hotel = z.infer<typeof HotelSchema>
+export type Parada = z.infer<typeof ParadaSchema>
 export type Trip = z.infer<typeof TripSchema>

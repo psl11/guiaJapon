@@ -1,0 +1,55 @@
+slug: resol-akihabara
+navLabel: "Hotel Resol Akihabara"
+trip: japon
+city: Tokio · Akihabara
+order: 1
+status: candidato
+title: Hotel Resol Akihabara
+tipo: hotel de diseño
+area: Kanda-Sudachō, Chiyoda
+noches: 5 noches · días 1-5
+lat: 35.6967393
+lon: 139.7739276
+estaciones:
+  - nombre: Akihabara
+    lineas: JR Yamanote · Chūō-Sōbu · Hibiya · Tsukuba Express
+    minutos: 3
+    lat: 35.6986182
+    lon: 139.7738947
+  - nombre: Iwamotochō
+    lineas: Toei Shinjuku
+    minutos: 2
+    lat: 35.6956140
+    lon: 139.7753176
+image:
+  src: img/hoteles/resol-akihabara.webp
+  alt: El vestíbulo del Hotel Resol Akihabara, de ladrillo oscuro, madera y mesa comunal.
+  credit: Foto del establecimiento · Booking
+  creditUrl: https://www.booking.com/hotel/jp/hotel-resol-akihabara.es.html
+habitaciones: Dos dobles
+rating: 8,6 en Booking · 1.428 reseñas
+deadline: Cancelación gratuita hasta el 5 de noviembre
+body: >-
+  Es el mejor nudo de transporte de los dos candidatos, y en Tokio eso es lo que decide un hotel. La
+  estación de Akihabara concentra **Yamanote, Chūō-Sōbu, Hibiya y Tsukuba Express** en el mismo
+  edificio, a tres minutos andando: el día 4 se baja a [Tsukiji](#tsukiji) por la Hibiya en once
+  minutos sin cambiar de andén, y el día 5 la salida hacia Kamakura pasa por la estación de Tokio,
+  que son cuatro minutos de Yamanote.
+
+
+  Y tiene una carta que el otro no. Por Iwamotochō, a dos minutos, pasa la Toei Shinjuku: **línea
+  directa hasta [Shinjuku](#shinjuku) sin transbordo**, que es donde se duerme la segunda mitad del
+  viaje.
+
+
+  Con 1.428 reseñas es el de muestra más grande de los cuatro que se compararon, y no es una cadena
+  de negocios: se nota en el acabado y en la cama. Lo que se le critica de forma consistente es
+  **el tamaño de las habitaciones**, que en Tokio es el estándar y no una sorpresa.
+link:
+  url: https://www.booking.com/hotel/jp/hotel-resol-akihabara.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#akihabara"
+    label: El barrio
+  - ref: "#dia-1-vuelo"
+    label: Día 1 · llegada

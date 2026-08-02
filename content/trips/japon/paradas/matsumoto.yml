@@ -1,0 +1,13 @@
+slug: matsumoto
+trip: japon
+city: Matsumoto
+order: 2
+puntos:
+  - nombre: Matsumoto-jō
+    tipo: castillo
+    lat: 36.2386353
+    lon: 137.9688709
+  - nombre: Nakamachi-dōri
+    tipo: calle de almacenes
+    lat: 36.2337998
+    lon: 137.9714984

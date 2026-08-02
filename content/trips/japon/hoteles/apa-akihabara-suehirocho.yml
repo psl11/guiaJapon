@@ -1,0 +1,56 @@
+slug: apa-akihabara-suehirocho
+navLabel: "APA Akihabara Suehirochō"
+trip: japon
+city: Tokio · Akihabara
+order: 2
+status: candidato
+title: APA Hotel Akihabara Suehirochō-Ekimae
+tipo: business, edificio nuevo
+area: Sotokanda, Chiyoda
+noches: 5 noches · días 1-5
+lat: 35.7016430
+lon: 139.7713281
+estaciones:
+  - nombre: Suehirochō
+    lineas: Ginza
+    minutos: 1
+    lat: 35.7029361
+    lon: 139.7716793
+  - nombre: Akihabara
+    lineas: JR Yamanote · Chūō-Sōbu · Hibiya · Tsukuba Express
+    minutos: 5
+    lat: 35.6986182
+    lon: 139.7738947
+image:
+  src: img/hoteles/apa-akihabara-suehirocho.webp
+  alt: La fachada naranja del APA Hotel Akihabara Suehirochō-Ekimae, con su rótulo sobre la entrada.
+  credit: Foto del establecimiento · Booking
+  creditUrl: https://www.booking.com/hotel/jp/apahoteru-qiu-xie-yuan-mo-guang-ting-yi-qian.es.html
+habitaciones: Dos dobles
+rating: 8,6 en Booking · 4,6 sobre 5 en TripAdvisor
+deadline: Cancelación gratuita hasta el 5 de noviembre
+nota: Abrió en agosto de 2024 — el edificio más nuevo de los cuatro que se compararon.
+body: >-
+  Su ventaja no se ve en el mapa: es la línea Ginza, que desde su portal encadena sin un solo
+  transbordo [Ueno](#ueno) y Asakusa el día 2, [Shibuya](#shibuya) el día 3 y [Ginza](#ginza) el
+  día 4. **Tres de los cinco días resueltos** sin bajar a otro andén. Lo que se paga por ello son
+  cinco minutos más de caminata cada vez que haga falta un tren JR.
+
+
+  Ser el edificio más nuevo le da las dos notas más altas de la comparación: **4,6 sobre 5 en
+  TripAdvisor y 9,5 en limpieza**. En una cadena de business japonesa, que es exactamente lo que
+  es, la antigüedad del edificio explica casi toda la distancia entre una estancia buena y una
+  mediocre.
+
+
+  Un detalle del sitio: Suehirochō es de 1930 y pertenece a la línea Ginza, **el primer metro de
+  Asia**, inaugurado en 1927 entre Ueno y Asakusa. Se nota al bajar, porque los andenes son más
+  estrechos y más bajos que los de cualquier línea moderna.
+link:
+  url: https://www.booking.com/hotel/jp/apahoteru-qiu-xie-yuan-mo-guang-ting-yi-qian.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#akihabara"
+    label: El barrio
+  - ref: "#dia-1-vuelo"
+    label: Día 1 · llegada

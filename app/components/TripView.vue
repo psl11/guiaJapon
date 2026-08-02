@@ -8,7 +8,7 @@
 // "Añadir un viaje = añadir ficheros": las páginas son one-liners <TripView :slug>.
 const props = defineProps<{ slug: string }>()
 
-const { trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir } = await useTrip(props.slug)
+const { trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir, hoteles } = await useTrip(props.slug)
 
 const hayRelato = computed(() => actos.value.length + fichas.value.length > 0)
 const hayPlan = computed(() => dias.value.length + inversiones.value.length > 0)
@@ -51,6 +51,18 @@ const gastroCities = computed(() => [...new Set(comidas.value.map(c => c.city))]
 }).filter(c => c.cats.length + c.soloEl.length > 0))
 const hayGastro = computed(() => comidas.value.length + platos.value.length > 0)
 
+// Dónde dormir ────────────────────────────────────────────────────────────────
+// Directorio de alojamiento agrupado por PARADA (`city`), en orden de itinerario. La parada no es
+// la ciudad: en Tokio se duerme en dos barrios distintos y son dos grupos. Como en gastronomía, las
+// paradas salen del propio contenido (orden de aparición según `order`), no de una lista aquí.
+const stopSlug = (c: string) => 'hotel-' + c.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
+const hotelStops = computed(() => [...new Set(hoteles.value.map(h => h.city))].map(city => ({
+  city,
+  anchor: stopSlug(city),
+  items: hoteles.value.filter(h => h.city === city),
+})))
+const hayHoteles = computed(() => hoteles.value.length > 0)
+
 // Salir · música y librerías (jazz + librerías) — sección propia, agrupada por kind.
 const SALIR_KINDS = [
   { key: 'jazz', label: 'Música en vivo · jazz' },
@@ -73,7 +85,9 @@ const knownAnchors = computed(() => new Set<string>([
   ...comidas.value.map(c => c.slug),
   ...platos.value.map(p => p.slug),
   ...salir.value.map(s => s.slug),
-  'el-plan', 'gasto', 'reservas', 'gastronomia', 'salir', 'japon', 'historia',
+  ...hoteles.value.map(h => h.slug),
+  ...hotelStops.value.map(s => s.anchor),
+  'el-plan', 'gasto', 'reservas', 'dormir-hoteles', 'gastronomia', 'salir', 'japon', 'historia',
 ]))
 
 // Índice flotante ─────────────────────────────────────────────────────────────
@@ -125,6 +139,15 @@ const nav = computed(() => {
     // 4 entradas en vez de 17: es un directorio para hojear por bloques, no ítem a ítem.
     const items = recoGroups.value.map(g => ({ id: g.kind, label: g.label, kind: 'reco' as const }))
     groups.push({ key: 'reservas', label: 'Los prácticos', anchor: 'reservas', items })
+  }
+  // Dónde dormir: una entrada por PARADA, no hotel a hotel (un tramo puede tener dos candidatos).
+  if (hayHoteles.value) {
+    groups.push({
+      key: 'dormir-hoteles',
+      label: 'Dónde dormir',
+      anchor: 'dormir-hoteles',
+      items: hotelStops.value.map(s => ({ id: s.anchor, label: s.city, kind: 'reco' as const })),
+    })
   }
   // Gastronomía: índice compacto (platos + una entrada por ciudad), no local a local.
   if (hayGastro.value) {
@@ -291,8 +314,8 @@ const heroSrcAlta = computed(() => {
       <Threshold
         id="reservas"
         overline="Los prácticos"
-        title="Reservas y *dónde dormir*"
-        dek="El tablero de lo que hay que reservar —con su estado— y dónde dormir en cada tramo. Lo pendiente en oro; lo cerrado, en índigo."
+        title="Reservas y *prácticos*"
+        dek="El tablero de lo que hay que reservar —con su estado— y lo que conviene saber en destino: dinero, equipaje, etiqueta, transporte. Lo pendiente en oro; lo cerrado, en índigo."
       />
       <div
         v-for="g in recoGroups"
@@ -307,6 +330,35 @@ const heroSrcAlta = computed(() => {
           v-for="r in g.items"
           :key="r.slug"
           :reco="r"
+        />
+      </div>
+    </template>
+
+    <!-- Dónde dormir: el directorio de alojamiento, agrupado por parada del itinerario. -->
+    <template v-if="hayHoteles">
+      <Threshold
+        id="dormir-hoteles"
+        overline="La cama"
+        title="*Dónde dormir*"
+        dek="Un bloque por parada, con lo que de verdad decide un hotel en Japón: qué estaciones tiene en la puerta. Lo confirmado en índigo; lo que todavía compite, en oro y con su fecha de cancelación."
+      />
+      <div
+        v-for="s in hotelStops"
+        :id="s.anchor"
+        :key="s.city"
+        class="gastro-city"
+      >
+        <h3 class="gastro-city-name">
+          {{ s.city }}
+        </h3>
+        <StopMapReal
+          :anchor="s.anchor"
+          :city="s.city"
+        />
+        <HotelCard
+          v-for="h in s.items"
+          :key="h.slug"
+          :hotel="h"
         />
       </div>
     </template>

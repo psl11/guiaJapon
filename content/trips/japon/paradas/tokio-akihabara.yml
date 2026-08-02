@@ -1,0 +1,25 @@
+slug: tokio-akihabara
+trip: japon
+city: Tokio · Akihabara
+order: 1
+puntos:
+  - nombre: Kanda Myōjin
+    tipo: santuario
+    lat: 35.7019403
+    lon: 139.7677388
+  - nombre: Yushima Seidō
+    tipo: templo confuciano
+    lat: 35.7004002
+    lon: 139.7665903
+  - nombre: Nikolai-dō
+    tipo: catedral ortodoxa
+    lat: 35.6980047
+    lon: 139.7655163
+  - nombre: 3331 Arts Chiyoda
+    tipo: centro de arte
+    lat: 35.7043030
+    lon: 139.7708026
+  - nombre: Origami Kaikan
+    tipo: taller de papel
+    lat: 35.7028866
+    lon: 139.7654925

@@ -1,0 +1,51 @@
+slug: matsumoto-kagetsu
+navLabel: "Matsumoto Hotel Kagetsu"
+trip: japon
+city: Matsumoto
+order: 4
+status: candidato
+title: Matsumoto Hotel Kagetsu
+tipo: hotel histórico
+area: Ōte, sobre Nawate-dōri
+noches: 1 noche · día 6
+lat: 36.2360501
+lon: 137.9724408
+estaciones:
+  - nombre: Matsumoto
+    lineas: JR Chūō · JR Ōito · Alpico a Kamikōchi
+    minutos: 14
+    lat: 36.2307332
+    lon: 137.9644409
+image:
+  src: img/hoteles/matsumoto-kagetsu.webp
+  alt: La entrada iluminada del Matsumoto Hotel Kagetsu de noche, con celosía de madera y escalinata de piedra.
+  credit: Foto del establecimiento · Booking
+  creditUrl: https://www.booking.com/hotel/jp/matsumoto-kagetsu.es.html
+habitaciones: Dos habitaciones
+deadline: Cancelación gratuita hasta el 5 de septiembre
+rating: 8,4 en Booking · 1.955 reseñas
+nota: Abrió en 1887 — es el hotel más antiguo de Matsumoto.
+body: >-
+  Lleva abierto desde **1887** y es el hotel más viejo de la ciudad, lo que en Japón significa que
+  atravesó la era Meiji, dos guerras y el terremoto: casi nada de eso queda en pie. Su dirección
+  postal es *Nawate-dōri*, la calle de las ranas que bordea el río Metoba, así que se sale por la
+  puerta y ya se está en el paseo.
+
+
+  El interior va en la clave local, que es el **mingei** —el movimiento de artesanía popular que
+  tiene en Matsumoto su capital—: madera oscura, muebles de oficio y lámparas de papel, más cerca de
+  una casa de campo señorial que de un lobby. Tiene además baño común de estilo termal, que después
+  de un día de tren se agradece.
+
+
+  Frente al Nunoya cambia dos cosas. Está **seis minutos del [castillo](#matsumoto-jo) en vez de
+  once**, que es su ventaja real; y baja a 8,4 —aunque sobre 1.955 reseñas, una muestra siete veces
+  mayor—. A cambio, la estación queda dos minutos más lejos.
+link:
+  url: https://www.booking.com/hotel/jp/matsumoto-kagetsu.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#matsumoto-jo"
+    label: El castillo
+  - ref: "#dia-6-matsumoto"
+    label: Día 6 · Matsumoto

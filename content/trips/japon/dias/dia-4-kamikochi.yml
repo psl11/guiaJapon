@@ -6,8 +6,8 @@ eyebrow: El plan · Día 4 · lun 9 nov
 title: Kamikōchi, *de una sentada*
 dek: >-
   El día más largo del viaje y el que más paga. Un valle a mil quinientos metros donde los coches
-  están prohibidos desde 1975, recorrido de punta a punta en una sola jornada, y al final un baño
-  termal al otro lado del túnel antes de bajar a dormir a [Takayama](#takayama).
+  están prohibidos desde 1975, recorrido de punta a punta en una sola jornada, y al final el pueblo
+  termal del otro lado del túnel: cena de montaña, baño al aire libre y a dormir.
 blocks:
   - block: Amanecer
     time: "06:30–08:30"
@@ -22,12 +22,13 @@ blocks:
       ningún otro sitio accesible de Japón: hay hoteles, restaurantes y gente, y aun así lo único que
       se oye es el río.
     window:
-      label: Las maletas ya están en Takayama
+      label: Las maletas ya van por delante
       body: >-
-        **Esto se resuelve el día anterior, no hoy.** Las maletas grandes salen por
-        [takkyūbin](#takkyubin) desde el hotel de Tokio y esperan en el de Takayama; aquí arriba se
-        anda con mochila pequeña y se duerme esta noche con lo que llegó por delante. En un valle sin
-        coches ni ascensores, cargar con equipaje no es incómodo: es inviable.
+        **Esto se resuelve el día anterior, no hoy.** Las maletas grandes salieron por
+        [takkyūbin](#takkyubin) desde el hotel de Tokio y esperan en el de Takayama, donde llegáis
+        mañana; hoy y esta noche se va con mochila pequeña. Y para dormir en un ryokan no hace falta
+        más: **el yukata, las toallas y el jabón los pone la casa**. En un valle sin coches ni
+        ascensores, cargar con equipaje no es incómodo: es inviable.
   - block: Mañana
     time: "08:30–12:00"
     title: Kappabashi y el río Azusa
@@ -53,7 +54,7 @@ blocks:
       abajo y comérselo en una orilla**. Comer a la vista del Hotaka nevado, sin una mesa alrededor,
       es mejor plan que cualquier comedor.
   - block: Tarde
-    time: "13:00–16:00"
+    time: "13:00–16:30"
     title: Río abajo, hasta el estanque Taishō
     body: >-
       El paseo esencial va **río abajo** hasta el estanque Taishō, una hora larga por la orilla. El
@@ -69,37 +70,44 @@ blocks:
         del río y pone las cumbres en naranja; a las **cuatro y media es de noche** y la temperatura
         se desploma en cuanto cae tras la pared. Guantes en la mochila: operar una cámara con los
         dedos desnudos a esa hora dura poco.
-  - block: Tarde
-    time: "16:00–17:30"
-    title: El baño de Hirayu, con el reloj puesto
+
+        Durmiendo en Hirayu podéis apurar hasta el último autobús, **el de las 17:30**, sin mirar el
+        reloj a media tarde. Es la ventaja escondida de no seguir hasta Takayama esta noche.
+  - block: Noche
+    time: "17:00–19:00"
+    title: Hirayu, y meterse en el agua
     body: >-
       Veinticinco minutos de autobús por el túnel y se sale del parque en
       [**Hirayu Onsen**](https://www.google.com/maps/search/?api=1&query=Hirayu%20Onsen%20Takayama),
       el pueblo termal donde arranca la carretera del valle. Sus aguas llevan brotando desde el siglo
-      XVI y el baño público está **en la propia terminal de autobuses**, así que no hay que ir a
-      ninguna parte: se entra con la mochila, se paga poco y se sale a coger el siguiente. Después de
-      siete horas andando a mil quinientos metros y con la temperatura bajo cero fuera, un
-      *[rotenburo](#onsen)* al aire libre es la mejor hora del día.
-    window:
-      label: La trampa de los dos últimos autobuses
-      body: >-
-        Leed esto dos veces, porque los horarios están puestos para engañar. **El último autobús de
-        Kamikōchi a Hirayu sale a las 17:30 y llega a las 17:55 — y el último de Hirayu a Takayama
-        sale también a las 17:30.** Es decir: quien coge el último de arriba se queda tirado abajo.
+      XVI y ahí se duerme: posadas de madera al pie del paso, cena a hora fija con cocina de la
+      región y baño comunal.
 
-        La combinación que funciona es salir del valle sobre las **16:00**, plantarse en Hirayu a las
-        16:25 y coger el de las **17:30**, que deja en Takayama a las 18:31. Da para una hora larga
-        de baño y para nada más. **Confirmad los horarios exactos de noviembre en la terminal al
-        subir**, no al bajar: todo el día cuelga de estos dos autobuses.
+      Después de siete horas andando a mil quinientos metros y con la temperatura bajo cero fuera, un
+      *[rotenburo](#onsen)* al aire libre no es un extra del día: es el final que justifica el resto.
+      Y a diferencia de un baño de paso, aquí se puede entrar antes de cenar, otra vez después y
+      otra por la mañana.
+    window:
+      label: Reservadlo, y confirmad el último autobús
+      body: >-
+        **Hirayu hay que reservarlo**, y es lo único del tramo de montaña que corre prisa — pero es
+        un pueblo termal abierto todo el año con varias casas, no las doce camas estacionales del
+        valle. El Hirayukan y el Okuhida Onsen Yamano Hotel son los dos nombres que se repiten.
+
+        Y aunque hoy ya no hay enlace que perder, mirad igual **la hora del último autobús desde
+        Kamikōchi** —en temporada sale a las 17:30— al subir y no al bajar. En noviembre los
+        horarios se aligeran y quedarse dentro del valle no es una opción: no hay dónde dormir.
   - block: Noche
-    time: "desde las 18:30"
-    title: Bajar a Takayama
+    time: "desde las 19:00"
+    title: Cena de montaña, y silencio
     body: >-
-      Se llega de noche a un pueblo de montaña con las maletas ya esperando en el hotel, y eso —
-      después de trece horas de puerta a puerta — es exactamente lo que se necesita. Lo de
-      [Takayama](#takayama) empieza mañana al amanecer, así que hoy toca cenar cerca y poco más.
-      Buscad **hōba miso**, que se hace a la mesa sobre una hoja de magnolia, o el **buey de Hida**,
-      que aquí no es una etiqueta de restaurante turístico sino la ganadería del valle.
+      La cena de una posada de Okuhida es lo que la montaña da: **hōba miso** —miso a la brasa sobre
+      una hoja de magnolio, que es el plato de esta comarca—, verdura de montaña, río y, si la casa
+      se estira, **buey de Hida**, que aquí no es una etiqueta de restaurante turístico sino la
+      ganadería del valle de al lado.
+
+      Después no hay nada que hacer, y ese es el plan. Trece horas de puerta a puerta, un baño más
+      antes de dormir y mañana sin prisa.
 alt:
   label: Si te desmarcas
   body: >-

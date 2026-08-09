@@ -71,3 +71,5 @@ seenIn:
     label: "Día 3 · Matsumoto"
   - ref: '#dia-4-kamikochi'
     label: "Día 4 · la noche de Hirayu"
+  - ref: '#dia-5-takayama'
+    label: "Día 5 · el baño del amanecer"

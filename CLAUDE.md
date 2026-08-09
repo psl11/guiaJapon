@@ -340,15 +340,22 @@ santuarios más visitados del país es un mal cambio. Nikkō se queda en el **d�
 la ficha del momiji explica el descarte en vez de callarlo.
 
 **El segundo cambio fue Kamikōchi, y salió de un problema.** Las camas del valle estaban vendidas
-—sus reservas abren en enero—, así que se planteó dormir en Hirayu y entrar dos veces. Pero la
-segunda entrada solo existía para amortizar la noche: **sin dormir arriba, es un día de ida y vuelta
-y punto.** Se comprimió a una jornada larga —Matsumoto → valle entero → baño en Hirayu → Takayama—,
-lo que ahorró un día del itinerario **y eliminó la reserva más frágil del viaje**.
+—sus reservas abren en enero—, así que el plan original de **entrar dos veces al valle con una noche
+en medio dejó de tener sentido**: la segunda entrada solo existía para amortizar la noche de dentro.
+Sin ella es un día de ida y vuelta y punto. Se comprimió a una jornada larga —Matsumoto → valle
+entero de punta a punta— y eso ahorró un día del itinerario, que se fue a Nara.
 
-**La trampa que costó encontrarla, y que está escrita en tres sitios:** el último autobús de
+**Y se duerme en Hirayu Onsen**, no en Takayama. Esto se probó de las dos maneras y la diferencia
+importa: bajando de paso cabe **un** baño con el reloj puesto; durmiendo allí caben **tres** —antes
+de cenar, después y al amanecer—, que es lo que se estaba comprando. Los mercados matinales de
+Takayama se mudaron entonces al **día 6**, antes del autobús a Shirakawa-gō, donde siguen teniendo
+su franja de amanecer.
+
+**La trampa que costó encontrarla**, y la razón de más para dormir en Hirayu: el último autobús de
 Kamikōchi a Hirayu sale a las **17:30** y llega a las 17:55; el último de Hirayu a Takayama sale
-**también a las 17:30**. Quien coge el último de arriba se queda tirado abajo, en un pueblo sin
-reserva. Hay que salir del valle sobre las **16:00**.
+**también a las 17:30**. Quien intente encadenarlos se queda tirado abajo. Durmiendo en Hirayu el
+problema no existe — pero si alguien vuelve a plantear seguir hasta Takayama esa noche, que sepa que
+hay que salir del valle sobre las **16:00**.
 
 **Lo que se perdió y no se disimula:** el amanecer en el estanque Taishō. La inversión
 `dormir-en-kamikochi` se conserva **aunque la decisión ya no exista**, porque explica el porqué a

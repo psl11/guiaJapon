@@ -9,6 +9,25 @@ dek: >-
   para dos metros de nieve y para fabricar pólvora en secreto. Se termina en Kanazawa, que es otra
   cosa completamente distinta.
 blocks:
+  - block: Amanecer
+    time: "06:15–08:15"
+    title: Los mercados, antes de que llegue nadie
+    body: >-
+      Takayama tiene **dos mercados matinales** y llevan celebrándose desde el periodo Edo: el de
+      Miyagawa, en la orilla del río, y el de Jinya-mae, frente a la antigua oficina de gobierno.
+      Abren sobre las 6:00 o las 7:00 y recogen a mediodía. No son mercados para turistas: se venden
+      encurtidos, verdura de montaña, manzanas de Hida, flores y *mitarashi dango* —bolitas de arroz
+      a la brasa con salsa de soja— que se comen andando. Ver [Takayama](#takayama).
+
+      Dan de sobra para dos horas antes del autobús, y el desayuno se hace ahí mismo.
+    window:
+      label: Ventana óptima
+      body: >-
+        **Es la única hora en que este pueblo es de los suyos**, y por eso está aquí y no ayer. A las
+        diez llegan los autobuses de día desde Nagoya y [Kanazawa](#kanazawa), y hasta las cuatro de
+        la tarde Sanmachi es una fila india — que es exactamente lo que visteis ayer. El contraste
+        entre las siete y las once de la mañana no lo tiene ningún otro sitio del viaje, y hoy lo
+        cogéis por el lado bueno.
   - block: Mañana
     time: "08:30–09:30"
     title: El autobús a Shirakawa-gō
@@ -20,11 +39,10 @@ blocks:
     window:
       label: Mandad las maletas
       body: >-
-        **Hoy es el segundo envío por [takkyūbin](#takkyubin).** Las maletas grandes salen esta mañana
-        del hotel de Takayama hacia el de **Tokio** y llegan mañana, a la vez que vosotros; se viaja
-        con lo justo. En
-        Shirakawa-gō se anda por caminos de tierra y en Kanazawa se llega de noche: cargar con
-        equipaje aquí no tiene ningún sentido.
+        **Hoy es el segundo envío por [takkyūbin](#takkyubin)**, y se pide en recepción anoche, no
+        esta mañana con los mercados abiertos. Las maletas grandes salen del hotel de Takayama hacia
+        el de **Tokio** y llegan mañana, a la vez que vosotros. En Shirakawa-gō se anda por caminos de
+        tierra y en Kanazawa se llega de noche: cargar con equipaje aquí no tiene ningún sentido.
   - block: Mediodía
     time: "09:30–13:30"
     title: Ogimachi, y por qué los tejados están así

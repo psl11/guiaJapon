@@ -5,34 +5,40 @@ order: 5
 eyebrow: El plan · Día 5 · mar 10 nov
 title: Takayama, el pueblo que pagó *en carpinteros*
 dek: >-
-  Segunda noche en la misma cama y ninguna hora que cumplir, que después de ayer se agradece. Un
-  pueblo de montaña con tres calles de casas de madera negra intactas, dos mercados que abren al
-  amanecer y la mejor historia fiscal de Japón. Y por la noche, el sitio vacío.
+  Se empieza en el agua y se termina en un pueblo de montaña: baño de amanecer en
+  [Hirayu](#kamikochi-en-el-dia), una hora de autobús y tres calles de casas de madera negra
+  intactas, con la mejor historia fiscal de Japón detrás. Y por la noche, el sitio vacío.
 blocks:
   - block: Amanecer
-    time: "06:30–08:30"
-    title: Los mercados de la mañana
+    time: "06:30–09:00"
+    title: El baño de la mañana, y bajar
     body: >-
-      Takayama tiene **dos mercados matinales** y llevan celebrándose desde el periodo Edo: el de
-      Miyagawa, en la orilla del río, y el de Jinya-mae, frente a la antigua oficina de
-      gobierno. Abren sobre las 6:00 o las 7:00 y recogen a mediodía. No son mercados para
-      turistas: se venden encurtidos, verdura de montaña, manzanas de Hida, flores y *mitarashi
-      dango* —bolitas de arroz a la brasa con salsa de soja— que se comen andando. Ver
-      [Takayama](#takayama).
+      En un ryokan el baño de antes del desayuno es la mitad del asunto: el agua está más caliente
+      que el aire, sale vapor, y el bosque de la ladera amanece con escarcha. **Los onsen abren de
+      madrugada precisamente para esto.** Después, el desayuno japonés de la casa —arroz, pescado,
+      encurtidos, sopa de miso— y a la terminal, que está en el mismo pueblo.
+
+      Una hora de autobús hasta [Takayama](#takayama), bajando el valle del río. Se llega a media
+      mañana y las maletas grandes llevan un día esperando en el hotel.
     window:
-      label: Ventana óptima
+      label: Lo que se gana durmiendo aquí
       body: >-
-        Es la única hora en que este pueblo es de los suyos. A las diez llegan los autobuses de día
-        desde Nagoya y [Kanazawa](#kanazawa), y hasta las cuatro de la tarde Sanmachi es una fila india. **El
-        contraste entre las siete y las once de la mañana no lo tiene ningún otro sitio del viaje.**
+        Ayer se podía haber seguido hasta Takayama con el último autobús y ahorrarse una cama. No se
+        hace por esto: **el baño de la noche, el de después de cenar y el del amanecer son tres, y de
+        paso solo cabe uno**. Lo que aquí se compra no es el sitio, es el número de veces que se
+        entra al agua.
   - block: Mañana
-    time: "08:30–12:00"
+    time: "10:00–12:00"
     title: Sanmachi y las bolas de cedro
     body: >-
       Tres calles de casas de comerciantes intactas, con canales de agua a los lados: se andan en una
       hora larga. El juego es **mirar hacia arriba**, porque sobre varias puertas cuelga una bola de
       ramas de cedro y su color dice si la sake de esa casa ya está lista — el porqué, en
       [la ficha de Takayama](#takayama).
+
+      A esta hora ya han llegado los autobuses de día desde Nagoya y Kanazawa, así que Sanmachi va
+      llena. **No es un problema, es un aplazamiento**: mañana al amanecer el pueblo vuelve a ser de
+      los suyos y esa es la hora que se ha reservado para los mercados.
 
       Hay **seis destilerías en tres calles** y casi todas dejan catar. Id de menos a más, que son
       pequeñas y se acumula.
@@ -73,8 +79,11 @@ blocks:
     body: >-
       A partir de las cinco de la tarde el pueblo se vacía de golpe y **es cuando mejor está**: las
       farolas encendidas sobre los canales, las casas cerradas y nadie por la calle. Es la razón de
-      dormir aquí en vez de pasar de largo. Cenad *[soba](#soba)* de trigo sarraceno de la zona, o *hōba
-      miso* —miso a la brasa sobre una hoja de magnolio, que es el plato de esta montaña.
+      dormir aquí en vez de pasar de largo. Cenad *[soba](#soba)* de trigo sarraceno de la zona — el
+      *hōba miso* probablemente ya cayó anoche en la posada.
+
+      Y poned el despertador: **mañana los mercados abren a las seis** y el autobús a
+      [Shirakawa-gō](#shirakawa-go) sale a las ocho y media.
 alt:
   label: Si te desmarcas
   body: >-

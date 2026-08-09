@@ -174,6 +174,21 @@ Más que eso satura.
 **4.6 · Cada ficha de barrio de Tokio termina con «Lo que no sale en las listas»** — los *author
 picks* y las rarezas de ese barrio. Antes vivían en una ficha «gemas» aparte y estorbaban.
 
+**4.8 · El día dice qué se hace; el nodo de traslados dice cómo se llega.** Es la regla 4.1 aplicada
+al transporte, y es nueva (ago 2026). El campo `traslados` de cada día pinta una tarjeta en índigo en
+la CABECERA —desde/hasta, medio, duración, hora recomendada, nota— que se consulta la víspera de un
+vistazo. Tres cosas que hay que respetar al escribirlo:
+
+- **`hora` es recomendación, no horario.** Los horarios de 2026 no están publicados y los autobuses
+  de montaña cambian en noviembre. Se escribe «salir 09:00», nunca «09:04».
+- **`medio` y `nota` van por `inlineMd`: no admiten enlaces** (trampa 3.2). El porqué del trayecto,
+  con sus enlaces, sigue yendo en el `body` del bloque que lo cuenta. Lo vigila
+  `tests/data/inline-md-subset.spec.ts`, que ya los tiene declarados.
+- **La fila de metadatos es un flex con tres celdas de texto libre**, o sea exactamente la forma que
+  sacó 37 px de scroll en la gastronomía (trampa 3.10). Está a salvo por `flex-wrap: wrap` en la fila
+  y `min-width: 0; overflow-wrap: break-word` en las celdas, y **hay un test que lo sostiene** en
+  `cssOverflow.spec.ts`. Si tocas ese CSS, no le quites ninguna de las dos.
+
 **4.7 · Antes rotular nada que rotular mal.** Dos fichas siguen sin foto (Ebisu, Masakado) porque no
 hay imagen libre verificable. Es la decisión correcta.
 

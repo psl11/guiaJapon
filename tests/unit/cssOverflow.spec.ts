@@ -51,6 +51,22 @@ describe('maquetación móvil · nada puede desbordar', () => {
       '      demasiado largas. Sin ella un dominio largo saca scroll horizontal en móvil.').toBe(true)
   })
 
+  it('la fila de metadatos del traslado puede envolver', () => {
+    // El nodo de traslados (`.dia-move-meta`) es una fila flex con TRES celdas de texto libre, y la
+    // primera —el medio de transporte, «Hokuriku Shinkansen *Kagayaki*»— es larga. Es exactamente la
+    // forma que sacó 37 px de scroll en la gastronomía. Aquí no puede pasar porque la fila envuelve,
+    // pero eso hay que sostenerlo: sin `flex-wrap` las tres celdas se pelean por 320 px.
+    const meta = reglas(CSS).find(r => r.selector === '.dia-move-meta')
+    expect(meta, 'No existe la regla .dia-move-meta').toBeTruthy()
+    expect(/flex-wrap:\s*wrap/.test(meta!.cuerpo),
+      '`.dia-move-meta` es una fila flex con texto libre y DEBE llevar `flex-wrap: wrap`.').toBe(true)
+
+    const celdas = reglas(CSS).find(r => r.selector === '.dia-move-meta > span')
+    expect(celdas && /overflow-wrap:\s*(break-word|anywhere)/.test(celdas.cuerpo) && /min-width:\s*0/.test(celdas.cuerpo),
+      'Las celdas de `.dia-move-meta` necesitan `min-width: 0` y `overflow-wrap` para poder\n' +
+      '      encoger dentro del flex: sin `min-width: 0` un hijo flex no baja de su contenido.').toBe(true)
+  })
+
   it('las cabeceras de tarjeta se apilan en pantalla estrecha', () => {
     // El nombre del local y su sello no caben en la misma fila por debajo de ~560 px.
     expect(/@media[^{]*max-width:\s*5[0-9]{2}px[\s\S]*?\.comida-head[^}]*flex-direction:\s*column/.test(CSS),

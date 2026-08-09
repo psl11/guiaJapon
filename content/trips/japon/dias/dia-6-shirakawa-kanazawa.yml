@@ -8,6 +8,19 @@ dek: >-
   Día de autobús con una parada larga en medio: un valle aislado donde las casas se construyeron
   para dos metros de nieve y para fabricar pólvora en secreto. Se termina en Kanazawa, que es otra
   cosa completamente distinta.
+traslados:
+  - desde: "Takayama"
+    hasta: "Shirakawa-gō"
+    medio: "Autobús Nōhi"
+    duracion: "50 min"
+    hora: "salir 08:30"
+    nota: "**Hay que reservarlo**: plazas limitadas y en temporada se llena. No lo cubre el JR Pass."
+  - desde: "Shirakawa-gō"
+    hasta: "Kanazawa"
+    medio: "Autobús Nōhi / Hokutetsu"
+    duracion: "1 h 15"
+    hora: "salir 13:30"
+    nota: "También con reserva. Se llega de noche, así que las maletas van por delante."
 blocks:
   - block: Amanecer
     time: "06:15–08:15"

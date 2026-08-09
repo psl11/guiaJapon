@@ -8,6 +8,18 @@ dek: >-
   Una hora de tren y se cambia de país. Kamakura fue la capital de Japón durante siglo y medio, la de
   los samuráis y no la de los emperadores, y hoy es un pueblo de mar con templos zen entre montañas.
   Se hace de norte a sur, cuesta abajo, y se acaba en la playa.
+traslados:
+  - desde: "Tokio"
+    hasta: "Kamakura"
+    medio: "JR Yokosuka o Shōnan-Shinjuku"
+    duracion: "1 h"
+    hora: "salir 07:30"
+    nota: "**¥940 por trayecto.** Directo desde Tokio, Shinagawa o Shinjuku, sin transbordo."
+  - desde: "Kamakura"
+    hasta: "Tokio"
+    medio: "JR, el mismo de la ida"
+    duracion: "1 h"
+    hora: "al caer la tarde"
 blocks:
   - block: Mañana
     time: "08:00–11:00"

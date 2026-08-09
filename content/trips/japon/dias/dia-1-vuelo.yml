@@ -8,6 +8,13 @@ dek: >-
   Un día que en realidad empieza el jueves. Se sale de Madrid la tarde anterior, se aterriza en
   Tokio a las **19:50** del viernes y se llega hecho polvo — eso es lo normal y no pasa nada. El plan de
   hoy es corto a propósito: hotel, cenar cerca, diez minutos de calle y a dormir.
+traslados:
+  - desde: "Haneda T3"
+    hasta: "Akihabara"
+    medio: "Monorraíl + JR Yamanote"
+    duracion: "45 min"
+    hora: "al salir de aduanas"
+    nota: "Un solo transbordo, en Hamamatsuchō. Con cola de inmigración y maletas, del avión al hotel se va a las 21:30."
 blocks:
   - block: El vuelo
     time: "la noche anterior y todo el día"

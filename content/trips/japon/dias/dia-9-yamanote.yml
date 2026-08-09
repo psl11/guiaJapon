@@ -9,6 +9,19 @@ dek: >-
   santuario. Y luego, el contraste que define Tokio: un bosque de cien mil árboles plantados a mano
   en el centro de la ciudad y, a quince minutos andando, el cruce peatonal más transitado del
   planeta.
+traslados:
+  - desde: "Tokio"
+    hasta: "Narita T1"
+    medio: "Keisei *Skyliner* desde Ueno o Nippori"
+    duracion: "36 min"
+    hora: "salir del hotel 08:00"
+    nota: "**Solo el que vuela.** ¥2.580. El mostrador cierra a las 11:10 y el vuelo sale a las 12:10."
+  - desde: "Akihabara"
+    hasta: "Harajuku"
+    medio: "JR Yamanote"
+    duracion: "20 min"
+    hora: "salir 08:15"
+    nota: "Los otros tres, en dirección contraria y por la misma línea."
 blocks:
   - block: Amanecer
     time: "06:30–08:00"

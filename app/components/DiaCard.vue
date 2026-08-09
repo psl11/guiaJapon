@@ -33,6 +33,54 @@ defineProps<{ dia: Dia }>()
       <MDC :value="dia.dek" />
     </div>
 
+    <!--
+      TRASLADOS. En la cabecera del día y no dentro del arco, porque un traslado no es un momento
+      sino la costura entre dos días: se consulta la víspera. Va en índigo (el color de lo
+      consultivo, igual que las alternativas) para no competir con la espina en momiji.
+      Todo el texto por `inlineMd`, nunca <MDC>: son celdas inline y un <div> aquí rompe la
+      hidratación (ver trampa 3.8 del manual).
+    -->
+    <div
+      v-if="dia.traslados?.length"
+      class="dia-moves"
+    >
+      <div class="dia-moves-label">
+        Cómo se llega
+      </div>
+      <ol class="dia-moves-list">
+        <li
+          v-for="(t, i) in dia.traslados"
+          :key="i"
+          class="dia-move"
+        >
+          <p class="dia-move-route">
+            {{ t.desde }} <span
+              class="dia-move-arrow"
+              aria-hidden="true"
+            >→</span> {{ t.hasta }}
+          </p>
+          <p class="dia-move-meta">
+            <!-- eslint-disable-next-line vue/no-v-html -->
+            <span
+              class="dia-move-medio"
+              v-html="inlineMd(t.medio)"
+            />
+            <span class="dia-move-dur">{{ t.duracion }}</span>
+            <span
+              v-if="t.hora"
+              class="dia-move-hora"
+            >{{ t.hora }}</span>
+          </p>
+          <!-- eslint-disable-next-line vue/no-v-html -->
+          <p
+            v-if="t.nota"
+            class="dia-move-nota"
+            v-html="inlineMd(t.nota)"
+          />
+        </li>
+      </ol>
+    </div>
+
     <div class="dia-blocks">
       <section
         v-for="(b, i) in dia.blocks"

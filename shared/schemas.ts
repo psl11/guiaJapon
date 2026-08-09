@@ -122,6 +122,26 @@ export const DiaSchema = z.object({
     window: z.object({ label: z.string(), body: Md }).optional(),
     dim: z.boolean().optional(), // bloque de descanso → nodo en oro, no en momiji
   })),
+  // ── TRASLADOS — el nodo de conexión (ago 2026) ─────────────────────────────
+  // Los bloques cuentan QUÉ SE HACE; esto cuenta CÓMO SE LLEGA, que en un viaje de once mudanzas es
+  // la mitad de la logística y estaba disuelta en la prosa. Va aparte y en la CABECERA del día,
+  // porque un traslado no es un momento sino la costura entre dos días: se lee de un vistazo la
+  // víspera —medio · duración · a qué hora salir— y no leyéndose el bloque entero.
+  //
+  // `hora` es RECOMENDACIÓN, no horario oficial: los horarios de 2026 no están publicados y los de
+  // los autobuses de montaña cambian en noviembre. Escribe «salir 09:00», no «09:04».
+  //
+  // `medio` y `nota` se sirven con `inlineMd`, así que NO admiten enlaces (trampa 3.2). El porqué
+  // de cada trayecto —y sus enlaces— va en el `body` del bloque que lo cuenta.
+  traslados: z.array(z.object({
+    desde: z.string(),
+    hasta: z.string(),
+    medio: Md, // 'Limited express *Azusa*' · 'Autobús Nōhi'
+    duracion: z.string(), // '2 h 40' · '25 min'
+    hora: z.string().optional(), // 'salir 09:00' · 'último a las 17:30'
+    nota: Md.optional(), // 'No lleva vagón libre: asiento reservado obligatorio'
+  })).optional(),
+
   // ── ALTERNATIVAS — nuevo en Japón ──────────────────────────────────────────
   // Este viaje tiene DOS lectores a la vez: tres primerizos, para los que el plan principal son los
   // clásicos bien contados, y un repetidor (quinto viaje) que ya los ha visto. En vez de escribir dos

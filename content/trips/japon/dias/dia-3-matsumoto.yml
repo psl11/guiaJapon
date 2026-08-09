@@ -8,6 +8,18 @@ dek: >-
   El día que el viaje cambia de tema. Se deja Tokio en un tren que sube al interior, y al bajar hay
   montañas en el horizonte, aire frío y un castillo de madera del siglo XVI que nunca ha sido
   reconstruido. Matsumoto es la bisagra: el último sitio con estación antes de los Alpes.
+traslados:
+  - desde: "Akihabara"
+    hasta: "Shinjuku"
+    medio: "JR Chūō-Sōbu (la amarilla)"
+    duracion: "20 min"
+    hora: "salir 08:15"
+  - desde: "Shinjuku"
+    hasta: "Matsumoto"
+    medio: "Limited express *Azusa*"
+    duracion: "2 h 40"
+    hora: "salir 09:00"
+    nota: "**¥6.620.** Reservad asiento en el lado izquierdo, que es el de las vistas del lago Suwa."
 blocks:
   - block: Mañana
     time: "09:00–12:00"

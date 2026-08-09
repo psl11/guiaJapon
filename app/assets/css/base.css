@@ -607,6 +607,52 @@ a.chip:focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; }
 .dia-dek p { margin: 0; }
 .dia-dek em { font-style: italic; }
 
+/* TRASLADOS — el nodo de conexión, en la cabecera del día (ago 2026).
+   Los bloques cuentan qué se hace; esto, cómo se llega. Va en ÍNDIGO como las alternativas porque
+   es del mismo registro (se consulta, no se narra) y arriba porque se mira la víspera.
+
+   OJO al montar esto (trampa 3.10): las tres celdas de `.dia-move-meta` llevan texto libre y
+   NINGUNA puede llevar `white-space: nowrap` con `flex-shrink: 0` — «Tren Alpico + autobús Nōhi»
+   estiraría su fila por encima de los 320 px y sacaría scroll horizontal que en escritorio no se
+   ve. Por eso: `flex-wrap` en la fila y `overflow-wrap` en las celdas. Medido a 320 y 375. */
+.dia-moves {
+  margin-top: 1.4rem;
+  background: color-mix(in srgb, var(--indigo) 7%, transparent);
+  border: 1px solid color-mix(in srgb, var(--indigo) 22%, transparent);
+  border-radius: 10px; padding: .7rem .9rem .8rem;
+}
+.dia-moves-label {
+  font-family: 'JetBrains Mono', monospace; font-size: .6rem; font-weight: 500;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--indigo);
+  display: flex; align-items: center; gap: .4rem; margin-bottom: .5rem;
+}
+.dia-moves-label::before { content: "⇢"; font-size: .9rem; }
+.dia-moves-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .65rem; }
+.dia-move + .dia-move { border-top: 1px dashed color-mix(in srgb, var(--indigo) 20%, transparent); padding-top: .65rem; }
+.dia-move-route {
+  margin: 0; font-family: 'Cormorant Garamond', serif; font-size: 1.12rem;
+  font-weight: 600; line-height: 1.25; color: var(--ink); overflow-wrap: break-word;
+}
+.dia-move-arrow { color: var(--indigo); font-family: 'Lora', Georgia, serif; padding: 0 .1rem; }
+.dia-move-meta {
+  margin: .22rem 0 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .55rem;
+  font-family: 'JetBrains Mono', monospace; font-size: .68rem; line-height: 1.45;
+}
+.dia-move-meta > span { overflow-wrap: break-word; min-width: 0; }
+.dia-move-medio { color: var(--ink-soft); }
+.dia-move-medio em { font-style: italic; }
+.dia-move-medio strong { color: var(--ink); font-weight: 600; }
+.dia-move-dur { color: var(--indigo); font-weight: 500; }
+.dia-move-dur::before { content: "· "; color: var(--ink-faint); }
+.dia-move-hora { color: var(--ink-faint); }
+.dia-move-hora::before { content: "· "; }
+.dia-move-nota {
+  margin: .3rem 0 0; font-size: .88rem; line-height: 1.45; color: var(--ink-faint);
+  overflow-wrap: break-word;
+}
+.dia-move-nota strong { color: var(--ink-soft); font-weight: 600; }
+.dia-move-nota em { font-style: italic; }
+
 .dia-blocks { margin-top: 1.6rem; display: flex; flex-direction: column; gap: 1.1rem; }
 .dia-block { background: var(--bg-elev); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); }
 .dia-bhead {

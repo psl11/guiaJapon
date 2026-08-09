@@ -7,6 +7,13 @@ title: El último día, que *dura hasta las nueve*
 dek: >-
   El vuelo sale a las 21:00, así que hoy no es un día de aeropuerto: son ocho horas útiles de ciudad
   con la maleta ya cerrada. Solo hay que resolver dónde dejarla.
+traslados:
+  - desde: "Shinjuku"
+    hasta: "Haneda T3"
+    medio: "JR Yamanote + monorraíl, o Keikyū"
+    duracion: "40 min"
+    hora: "salir 17:00"
+    nota: "El vuelo sale a las 21:00. Aquí **sí se devuelve la fianza de la tarjeta IC**: es el único aeropuerto donde se puede."
 blocks:
   - block: Mañana
     time: "09:00–10:00"

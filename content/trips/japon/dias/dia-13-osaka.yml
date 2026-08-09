@@ -9,6 +9,24 @@ dek: >-
   [**Fushimi Inari**](#fushimi-inari) — que a las siete es otro sitio distinto del que sale en las
   fotos. Después, media hora de tren y el contrario exacto de [Kioto](#kioto): sin patrimonio que
   defender, sin contención y con una palabra propia para definirse. Comer de pie y mirar carteles.
+traslados:
+  - desde: "Kioto"
+    hasta: "Fushimi Inari"
+    medio: "JR línea Nara"
+    duracion: "5 min"
+    hora: "salir 06:45"
+  - desde: "Fushimi Inari"
+    hasta: "Osaka"
+    medio: "Keihan o JR"
+    duracion: "50 min"
+    hora: "salir 09:30"
+    nota: "Sin volver a Kioto: la línea sigue hacia el sur."
+  - desde: "Osaka"
+    hasta: "Kioto"
+    medio: "JR Special Rapid"
+    duracion: "29 min"
+    hora: "el que apetezca"
+    nota: "Salen cada quince minutos hasta casi medianoche, así que la noche de Dōtonbori no tiene hora de cierre."
 blocks:
   - block: Amanecer
     time: "06:45–08:45"

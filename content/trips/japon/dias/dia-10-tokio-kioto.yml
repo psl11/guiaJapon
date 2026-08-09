@@ -8,6 +8,13 @@ dek: >-
   El día bisagra del viaje. Se sale de Tokio por el viejo Tōkaidō y se llega a la ciudad que fue
   capital durante mil años, justo cuando empieza su mejor quincena. Hoy no hay agenda: hay que
   aterrizar.
+traslados:
+  - desde: "Tokio"
+    hasta: "Kioto"
+    medio: "Tōkaidō Shinkansen *Nozomi*"
+    duracion: "2 h 15"
+    hora: "salir 09:00"
+    nota: "**¥13.850.** Pedid **ventanilla E**: es el lado del Fuji, que aparece a los cuarenta minutos."
 blocks:
   - block: Mañana
     time: "09:00–11:30"

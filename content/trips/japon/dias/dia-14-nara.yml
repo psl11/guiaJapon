@@ -8,6 +8,18 @@ dek: >-
   Cuarenta y cinco minutos al sur y ciento cincuenta años atrás. Un buda de bronce de quince metros
   dentro de uno de los edificios de madera más grandes del mundo, y mil doscientos ciervos sueltos
   que llevan trece siglos siendo mensajeros de los dioses.
+traslados:
+  - desde: "Kioto"
+    hasta: "Nara"
+    medio: "JR línea Nara"
+    duracion: "45 min"
+    hora: "salir 08:00"
+    nota: "**¥720.** El Tōdai-ji abre a las 7:30 y los autobuses de día llegan a media mañana."
+  - desde: "Nara"
+    hasta: "Kioto"
+    medio: "JR, el mismo de la ida"
+    duracion: "45 min"
+    hora: "con luz de tarde"
 blocks:
   - block: Mañana
     time: "08:00–10:00"

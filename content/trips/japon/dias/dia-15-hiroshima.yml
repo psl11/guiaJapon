@@ -8,6 +8,13 @@ dek: >-
   Dos horas de Shinkansen y el día más difícil del viaje. No es un día de monumentos: es un día de
   entender una decisión —qué se conserva y qué se rehace— y de comprobar que la ciudad de alrededor
   está muy viva.
+traslados:
+  - desde: "Kioto"
+    hasta: "Hiroshima"
+    medio: "Sanyō Shinkansen *Nozomi*"
+    duracion: "1 h 40"
+    hora: "salir 07:30"
+    nota: "**¥11.600.** Saliendo a esa hora cabe parar en **Himeji** y seguir: el castillo se ve desde el andén."
 blocks:
   - block: Mañana
     time: "08:00–10:30"

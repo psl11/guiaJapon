@@ -30,7 +30,16 @@ const trips = readdirSync(TRIPS, { withFileTypes: true }).filter(d => d.isDirect
 const INLINE_FIELDS: { dir: string, single?: boolean, pick: (doc: Record<string, unknown>) => { field: string, value: unknown }[] }[] = [
   { dir: '', single: true, pick: d => [{ field: 'title', value: d.title }, { field: 'lede', value: d.lede }] }, // hero (TripView)
   { dir: 'actos', pick: d => [{ field: 'title', value: d.title }, { field: 'lead', value: d.lead }] }, // ActoCard
-  { dir: 'dias', pick: d => [{ field: 'title', value: d.title }] }, // DiaCard
+  {
+    dir: 'dias', // DiaCard: título del día + las celdas del nodo de traslados
+    pick: d => [
+      { field: 'title', value: d.title },
+      ...(Array.isArray(d.traslados) ? d.traslados : []).flatMap((t, i) => [
+        { field: `traslados[${i}].medio`, value: (t as { medio?: unknown }).medio },
+        { field: `traslados[${i}].nota`, value: (t as { nota?: unknown }).nota },
+      ]),
+    ],
+  },
   { dir: 'inversiones', pick: d => [{ field: 'title', value: d.title }] }, // InversionCard
   { dir: 'platos', pick: d => [{ field: 'dondeMejor', value: d.dondeMejor }, { field: 'picante', value: d.picante }] }, // PlatoCard (v-html con inlineMd)
   { dir: 'comidas', pick: d => [{ field: 'veg', value: d.veg }, { field: 'tipo', value: d.tipo }, { field: 'precio', value: d.precio }, { field: 'colas', value: d.colas }] }, // ComidaCard

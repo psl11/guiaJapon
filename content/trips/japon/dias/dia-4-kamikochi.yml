@@ -8,6 +8,19 @@ dek: >-
   El día más largo del viaje y el que más paga. Un valle a mil quinientos metros donde los coches
   están prohibidos desde 1975, recorrido de punta a punta en una sola jornada, y al final el pueblo
   termal del otro lado del túnel: cena de montaña, baño al aire libre y a dormir.
+traslados:
+  - desde: "Matsumoto"
+    hasta: "Kamikōchi"
+    medio: "Tren Alpico + autobús Nōhi"
+    duracion: "2 h"
+    hora: "salir 06:30"
+    nota: "**Los directos se llenan** y se compran online. Con transbordo en Shin-Shimashima si no cuadra."
+  - desde: "Kamikōchi"
+    hasta: "Hirayu Onsen"
+    medio: "Autobús Nōhi"
+    duracion: "25 min"
+    hora: "el último, 17:30"
+    nota: "Se paga a bordo, sin reserva. Confirmad la hora del último en la terminal **al subir**, no al bajar."
 blocks:
   - block: Amanecer
     time: "06:30–08:30"

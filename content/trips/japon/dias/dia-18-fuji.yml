@@ -9,6 +9,24 @@ dek: >-
   montaña en vehículo privado y en español, con [Turismo Victoria](https://turismovictoria.com). Eso
   quita la parte incómoda —los tres transbordos y la decisión meteorológica de las seis de la
   mañana— y deja una sola obligación: **estar en Shin-Fuji a las 8:30**.
+traslados:
+  - desde: "Shinjuku"
+    hasta: "Shinagawa"
+    medio: "JR Yamanote"
+    duracion: "20 min"
+    hora: "salir 06:15"
+  - desde: "Shinagawa"
+    hasta: "Shin-Fuji"
+    medio: "Tōkaidō Shinkansen *Kodama*"
+    duracion: "1 h"
+    hora: "el de las 07:04"
+    nota: "**En Shin-Fuji solo para el Kodama** — ni Nozomi ni Hikari. Llega a las 08:03 y la recogida es a las 08:30."
+  - desde: "Shin-Fuji"
+    hasta: "Tokio"
+    medio: "Tōkaidō Shinkansen *Kodama*"
+    duracion: "1 h"
+    hora: "al acabar, ~18:30"
+    nota: "Confirmad la hora de fin con la empresa y mirad el último Kodama: no pasa cada diez minutos."
 blocks:
   - block: Amanecer
     time: "06:15–08:05"

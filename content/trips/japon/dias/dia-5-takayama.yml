@@ -8,6 +8,13 @@ dek: >-
   Se empieza en el agua y se termina en un pueblo de montaña: baño de amanecer en
   [Hirayu](#kamikochi-en-el-dia), una hora de autobús y tres calles de casas de madera negra
   intactas, con la mejor historia fiscal de Japón detrás. Y por la noche, el sitio vacío.
+traslados:
+  - desde: "Hirayu Onsen"
+    hasta: "Takayama"
+    medio: "Autobús Nōhi"
+    duracion: "1 h"
+    hora: "salir 09:00"
+    nota: "Después del baño y el desayuno de la posada. Sin reserva, se paga a bordo."
 blocks:
   - block: Amanecer
     time: "06:30–09:00"

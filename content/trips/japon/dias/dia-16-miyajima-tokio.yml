@@ -7,6 +7,19 @@ title: La isla que *era el dios*, y cuatro horas de vuelta
 dek: >-
   Una mañana en una isla donde el santuario está construido sobre el agua porque pisar tierra era
   profanarla, y por la tarde el tren largo de vuelta a Tokio. Hoy la marea manda más que el reloj.
+traslados:
+  - desde: "Hiroshima"
+    hasta: "Miyajima"
+    medio: "JR Sanyō + ferry JR"
+    duracion: "40 min"
+    hora: "salir 07:30"
+    nota: "**¥620 ida y vuelta.** El ferry entra por delante del torii solo en algunas salidas."
+  - desde: "Hiroshima"
+    hasta: "Tokio"
+    medio: "Sanyō y Tōkaidō Shinkansen *Nozomi*"
+    duracion: "4 h"
+    hora: "salir 15:00"
+    nota: "**¥19.000.** Es el tramo largo del viaje: comprad el *ekiben* en Hiroshima."
 blocks:
   - block: Mañana
     time: "07:30–08:30"

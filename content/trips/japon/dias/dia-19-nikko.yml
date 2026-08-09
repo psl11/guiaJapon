@@ -8,6 +8,18 @@ dek: >-
   Dos horas al norte y el contrario exacto de todo lo demás: donde Japón presume de madera sin
   pintar, aquí hay laca, oro y quinientas tallas policromadas. No es mal gusto — es una operación
   política que sigue funcionando cuatrocientos años después.
+traslados:
+  - desde: "Asakusa"
+    hasta: "Nikkō"
+    medio: "Tōbu Limited Express *Spacia*"
+    duracion: "2 h"
+    hora: "salir 07:00"
+    nota: "**¥4.100 ida y vuelta.** Más cómodo y más barato que la vía JR, que obliga a cambiar en Utsunomiya. Sacadlo la víspera."
+  - desde: "Nikkō"
+    hasta: "Asakusa"
+    medio: "Tōbu *Spacia*, el último"
+    duracion: "2 h"
+    hora: "al atardecer"
 blocks:
   - block: Mañana
     time: "07:00–09:30"

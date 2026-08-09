@@ -4,11 +4,13 @@ trip: japon
 order: 2
 kind: reservar
 title: Los vuelos, ida y vuelta
-area: Madrid ⇄ Tokio · Air China vía Pekín
+area: Madrid ⇄ Tokio (Air China) · Alicante/Barcelona ⇄ Tokio (SWISS)
 status: reservado
-note: "Los cuatro comprados · tres salen por Haneda, uno por Narita"
+note: "Los cuatro emitidos · tres por Haneda el 6, el cuarto por Narita ya el 2"
 body: >-
-  **Los cuatro billetes están comprados**, y sus horarios fijan tres cosas del plan:
+  **Los cuatro billetes están comprados y emitidos**, y sus horarios fijan la forma del viaje. No son
+  el mismo billete: tres van juntos con **Air China vía Pekín**, y el cuarto va por su cuenta con
+  **SWISS vía Zúrich** — cuatro días antes y por otro aeropuerto.
 
 
   **Ida ·** Air China desde **Madrid**, saliendo el **jueves 5** —no el 6— porque el trayecto se come
@@ -21,8 +23,22 @@ body: >-
   y treinta y cinco minutos de escala**, y **CA 907** Pekín 01:55 → Madrid 07:20 del viernes 27.
 
 
-  **Vuelta del cuarto ·** sale por **Narita el sábado 14 a las 12:10**. Con las ocho horas de huso a
-  favor se aterriza en Barcelona ese mismo día, que era la condición.
+  **Ida del cuarto ·** `[✓ emitido el 8 de agosto · 1.129,85 € ida y vuelta]` sale de
+  **Alicante** y llega **cuatro días antes que el grupo**: **LX 2173** ALC 09:40 → Zúrich 12:00 del
+  **domingo 1**, y **NH 6752** Zúrich 13:05 → **Narita 10:20 del lunes 2**. El largo son **trece horas
+  y cuarto** — la ruta sur, que desde 2022 rodea el espacio aéreo ruso y añade hora y pico a cualquier
+  Europa-Japón.
+
+
+  **Vuelta del cuarto ·** **NH 6751** **Narita 12:10 del sábado 14** → Zúrich 18:40, y **LX 1950**
+  Zúrich 21:10 → **Barcelona 23:00** el mismo día, que era la condición.
+
+
+  **Lo que abre esa ida: cuatro días de más.** El cuarto pisa Japón el **lunes 2** y el grupo no
+  aterriza hasta el **viernes 6 a las 19:50**. Son **el 2, el 3, el 4 y el 5 en solitario**, y esta
+  guía **no los cubre**: empieza el día 6, cuando el viaje es de cuatro. Están fuera a propósito, no
+  por olvido — pero conviene tenerlo presente al leer, porque el «día 1» de aquí es el quinto día en
+  el país para uno de los cuatro.
 
 
   Ese horario es el que decide la forma de las dos primeras semanas. Un vuelo de mediodía no se coge
@@ -33,12 +49,23 @@ body: >-
   [el día 9](#dia-9-yamanote).
 
 
-  Tres consecuencias que conviene tener presentes:
+  Y del billete del cuarto salen cuatro avisos, ninguno grave pero los cuatro fáciles de pasar por
+  alto:
 
 
-  - **La escala de vuelta en Pekín es de 1 h 35.** Da, pero no sobra; conviene confirmar con la
-    aerolínea si el equipaje va facturado hasta Madrid o hay que recogerlo en Pekín, porque eso
-    cambia el cálculo por completo.
+  - **El número es de ANA; el avión es de SWISS.** NH 6752 y NH 6751 son códigos compartidos del **LX
+    160 / LX 161**, un Boeing 777-300ER de SWISS. Facturación, equipaje, asientos y cualquier
+    incidencia, **con SWISS** — buscar el vuelo por el número de ANA lleva a callejones sin salida.
+  - **La escala de ida en Zúrich es de 65 minutos.** Es legal y va todo en un mismo billete —si se
+    pierde por retraso del ALC, reubican—, pero no sobra nada: conviene **facturar el equipaje hasta
+    Narita** desde Alicante y no llevar nada que obligue a recoger y volver a pasar. La de vuelta, con
+    2 h 30, es cómoda.
+  - **Se sale de Alicante y se vuelve a Barcelona.** El billete es asimétrico, así que hay que
+    resolver aparte cómo llegar a **ALC para las 09:40 de un domingo 1 de noviembre** — que con ese
+    horario significa, casi seguro, dormir allí la víspera.
+  - **La escala de vuelta en Pekín es de 1 h 35** (esta, la de los otros tres). Da, pero no sobra;
+    conviene confirmar con la aerolínea si el equipaje va facturado hasta Madrid o hay que recogerlo
+    en Pekín, porque eso cambia el cálculo por completo.
   - **La fianza de la tarjeta IC solo se devuelve en Haneda.** El que sale por Narita o la devuelve
     antes, o se queda la tarjeta — que dura diez años y no caduca (ver
     [cómo moverse](#transporte-tokio)).

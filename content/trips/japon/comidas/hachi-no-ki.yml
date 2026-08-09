@@ -8,7 +8,7 @@ title: Hachi-no-ki
 navLabel: "Hachi-no-ki"
 tipo: shōjin ryōri · cocina de monasterio zen
 area: 350 Yamanouchi · junto a la puerta de Kenchō-ji, Kita-Kamakura
-cuando: "Comida del día 5, entre los templos zen y el Daibutsu"
+cuando: "Comida del día 8, entre los templos zen y el Daibutsu"
 precio: "Menús desde ~¥3.500 · soba o udon sueltos, ~¥1.300"
 reserva: "Recomendable para los menús"
 colas: "Con reserva, ninguna"
@@ -34,7 +34,7 @@ link:
   url: "https://www.hachinoki.co.jp/"
   label: Hachi-no-ki
 seenIn:
-  - ref: '#dia-5-kamakura'
-    label: "Día 5 · al mediodía"
+  - ref: '#dia-8-kamakura'
+    label: "Día 8 · al mediodía"
   - ref: '#kamakura-zen'
     label: "Los templos zen"

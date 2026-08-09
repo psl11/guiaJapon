@@ -11,20 +11,24 @@ descubrir.
 Guía de viaje a Japón (**6–26 de noviembre de 2026**, 21 días, cuatro viajeros) publicada como sitio
 estático en https://psl11.github.io/guiaJapon/. Bifurcada de `guiaVietnam`, que comparte plataforma.
 
-**El dato que ordena todo el contenido:** el grupo son cuatro, **tres hacen los 21 días** y **uno se
-separa el 13 de noviembre** (la jornada 8). Para tres es su primer viaje a Japón; para el cuarto, el
-quinto. La guía cuenta el viaje entero y sirve a los dos lectores a la vez.
+**El dato que ordena todo el contenido:** el grupo son cuatro, **tres hacen los 21 días** y **uno
+vuela de vuelta el sábado 14 de noviembre** (la jornada 9). Para tres es su primer viaje a Japón;
+para el cuarto, el quinto. La guía cuenta el viaje entero y sirve a los dos lectores a la vez.
 
-Ojo con las dos fechas del que se baja, porque no son la misma y se confunden fácil: **baja de la
-montaña el viernes 13** —Kamikōchi, Matsumoto, el Azusa, el N'EX, noche junto al aeropuerto— y
-**vuela el sábado 14 a las 12:10 desde Narita**. Es el único de los cuatro que no sale por Haneda,
-y eso arrastra dos cosas por el contenido: su maleta de [takkyūbin](#) no va a Takayama con las
-otras tres, y no puede devolver la fianza de la tarjeta IC en su aeropuerto de salida.
+**Y ese vuelo es lo que da forma a todo el itinerario, así que conviene entenderlo antes de tocar
+nada.** Sale de **Narita a las 12:10**, no de Haneda como los otros tres. Un vuelo de mediodía no se
+coge desde los Alpes esa mañana —se comprobó: desde Takayama, el primer tren del día llega a Narita
+después de que cierre el mostrador—, así que **la ruta sube a la montaña primero y vuelve a Tokio
+antes de la despedida**. De ahí la forma en dos bucles, y de ahí que el grupo se separe en un hotel
+de la capital y no en una parada de autobús de montaña. Arrastra además dos detalles por el
+contenido: su maleta no viaja con las otras tres, y **la fianza de la tarjeta IC no se devuelve en
+Narita**, solo en Haneda.
 
-**Y un dato que toca muchos ficheros: en Tokio se duerme en dos barrios distintos.** Las cinco
-primeras noches en **Akihabara** y las cinco últimas en **Shinjuku**. No es casual —la ventaja de
-Shinjuku es la noche, y la noche no se usa con jet lag— pero significa que **«donde dormís» no es
-un sitio fijo**: antes de escribir esa expresión, mira de qué bloque hablas.
+**Y un dato que toca muchos ficheros: en Tokio se duerme en dos barrios y en tres tandas.**
+**Akihabara** las dos noches de la ida (6-7) y las tres de la escala (12-14); **Shinjuku** las cinco
+últimas (21-25). No es casual —la ventaja de Shinjuku es la noche, y la noche no se usa con jet
+lag— pero significa que **«donde dormís» no es un sitio fijo**: antes de escribir esa expresión,
+mira de qué bloque hablas.
 
 ---
 
@@ -297,23 +301,66 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
 - Sin foto verificable: Ebisu-Meguro y Masakado.
 - Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
   hay forma de verificar que una imagen de Commons sea ese local.
-- **La noche del 12 en Hirayu Onsen, sin reservar.** Es lo único que corre prisa. Y es la
-  consecuencia de la lección de abajo: como las camas del valle se agotaron, hay que asegurar las de
-  abajo antes de que pase lo mismo.
-- Sin ficha de hotel: Hirayu y el de Narita. **No se han inventado**, que es la regla 4.7 — cuando
-  se elija el establecimiento concreto, van a `hoteles/` con sus coordenadas de verdad.
+- **Los hoteles están sin rehacer, y es deliberado.** El itinerario cambió de forma entera (ver
+  abajo) y las camas de Takayama, Kanazawa, Kioto, Hiroshima y las tres tandas de Tokio hay que
+  volver a buscarlas. En `hoteles/` solo se han ajustado los campos `noches` para que no mientan;
+  **no se ha inventado ningún establecimiento**, que es la regla 4.7. Es la siguiente tarea grande.
+- **Los horarios de autobús de noviembre en Kamikōchi, sin confirmar.** Todo el día 4 cuelga de dos
+  autobuses y los horarios usados son los de temporada general.
 
-**Cerrado desde la última pasada (ago 2026), y qué cambió en el contenido:**
-- **Los cuatro vuelos están comprados.** El cuarto sale de **Narita el sábado 14 a las 12:10**, no
-  la noche del 13 como se planeó. Eso reescribió el día 8 entero: ya no termina en un aeropuerto
-  esa misma noche, sino durmiendo al lado de la pista.
-- **La noche dentro de Kamikōchi no pudo ser: estaba vendida.** Se duerme en **Hirayu Onsen**, al
-  otro lado del túnel. Cuesta **el amanecer en el estanque Taishō** —que era la razón declarada de
-  subir— y por eso hay tres sitios donde eso se dice sin adornar: el día 7, el día 8 y la inversión
-  `dormir-en-kamikochi`, que se conserva **aunque la decisión ya no exista** porque explica el
-  porqué a quien lea esto a tiempo. La reco cambió de slug: `kamikochi-reserva` → `hirayu-onsen`.
-- **El Fuji del día 23 va contratado**: excursión guiada en español de diez horas con
-  [Turismo Victoria](https://turismovictoria.com), recogida en **Shin-Fuji a las 8:30**. Dos
-  consecuencias: el día 18 ya no es una decisión meteorológica de las seis de la mañana, y **el día
-  20 dejó de ser la segunda oportunidad del Fuji** y pasó a ser comodín de verdad. La trampa al
-  comprar el tren: **en Shin-Fuji solo para el Kodama**, ni Nozomi ni Hikari.
+---
+
+## 9. La reforma de agosto de 2026: por qué el itinerario tiene esta forma
+
+Si llegas nuevo y el plan te parece raro —¿por qué la montaña casi de entrada, si el jet lag se paga
+mejor en una ciudad?— la respuesta está aquí, y conviene leerla antes de «arreglar» nada.
+
+**El desencadenante fue el cuarto vuelo.** Se compró para el **sábado 14 a las 12:10 desde Narita**,
+y eso rompió el itinerario anterior, que tenía al grupo en los Alpes ese fin de semana. Se comprobó
+con horarios reales: desde Takayama, el primer Hida sale a las 06:45 y se llega a Narita hacia las
+12:00 — una hora después de que cierre el mostrador. **No era apretado, era imposible.**
+
+Se evaluaron dos formas antes de elegir. La primera —ida y vuelta a Matsumoto dejando Hida y
+Kanazawa para después— añadía **siete horas** de transporte y se descartó. La que se adoptó mantiene
+los Alpes y el Hida enteros y en orden, y solo cambia la puerta de salida: **se vuelve a Tokio desde
+Kanazawa** (Hokuriku Shinkansen, 2 h 30) en vez de bajar a Kioto. Cuesta **+2 h 40 y ~¥21.000 por
+persona**, y a cambio:
+
+- La despedida ocurre en un hotel de Tokio, no en un cruce de carreteras de montaña.
+- **Los barrios grandes de Tokio se reparten mejor.** La Yamanote —Meiji Jingū, Harajuku, Shibuya—
+  cae el **sábado 14**, que es la víspera del *shichi-go-san*: el mejor fin de semana del año para
+  estar en Meiji Jingū, y salió por casualidad. Y Tsukiji, Ginza y el día de compras se van al
+  final (22-25), al pico de la hoja roja.
+
+**Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
+Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta
+—Chūzenji, Irohazaka— tiene el color en **octubre**, así que adelantarlo del 24 al 14 no la salva:
+solo gana unos días en la zona baja del Tōshōgū, y a cambio lo pone en **sábado**, que en uno de los
+santuarios más visitados del país es un mal cambio. Nikkō se queda en el **día 19**, donde estaba, y
+la ficha del momiji explica el descarte en vez de callarlo.
+
+**El segundo cambio fue Kamikōchi, y salió de un problema.** Las camas del valle estaban vendidas
+—sus reservas abren en enero—, así que se planteó dormir en Hirayu y entrar dos veces. Pero la
+segunda entrada solo existía para amortizar la noche: **sin dormir arriba, es un día de ida y vuelta
+y punto.** Se comprimió a una jornada larga —Matsumoto → valle entero → baño en Hirayu → Takayama—,
+lo que ahorró un día del itinerario **y eliminó la reserva más frágil del viaje**.
+
+**La trampa que costó encontrarla, y que está escrita en tres sitios:** el último autobús de
+Kamikōchi a Hirayu sale a las **17:30** y llega a las 17:55; el último de Hirayu a Takayama sale
+**también a las 17:30**. Quien coge el último de arriba se queda tirado abajo, en un pueblo sin
+reserva. Hay que salir del valle sobre las **16:00**.
+
+**Lo que se perdió y no se disimula:** el amanecer en el estanque Taishō. La inversión
+`dormir-en-kamikochi` se conserva **aunque la decisión ya no exista**, porque explica el porqué a
+quien lea la guía a tiempo — esa es la regla, no borrar las renuncias.
+
+**El Fuji del 23 no se movió.** Está contratado con [Turismo Victoria](https://turismovictoria.com):
+diez horas guiadas en español, recogida en **Shin-Fuji a las 8:30**, y el cuarto viajero ya no está.
+La trampa al comprar el tren: **en Shin-Fuji solo para el Kodama**, ni Nozomi ni Hikari.
+
+**Cómo se hizo el renumerado, por si hay que repetirlo.** Los 21 días cambiaron de orden y de slug a
+la vez, con colisiones entre nombres (`dia-5-kamakura` → `dia-8-kamakura` mientras existía
+`dia-8-bajada`). La forma que funcionó: cargar **todos** los ficheros en memoria, aplicar el mapa,
+borrar el directorio y reescribir — y en la misma pasada sustituir las anclas `#dia-…` en todo
+`content/`. Cuidado con el paso siguiente: remapear «día N» en la prosa **pisa los ficheros que ya
+hayas reescrito a mano** con los números nuevos. Hazlo antes de escribir a mano, no después.

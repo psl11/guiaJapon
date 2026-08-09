@@ -13,9 +13,9 @@ blocks:
     time: "07:00–09:30"
     title: El Spacia desde Asakusa
     body: >-
-      El **Tōbu Limited Express** sale de Asakusa y llega en unas dos horas con asiento reservado.
-      Es más cómodo y más barato que la vía JR, que obliga a ir a Utsunomiya en Shinkansen y cambiar.
-      Conviene sacarlo la víspera. Ver [Nikkō](#nikko).
+      El **Tōbu Limited Express** sale de Asakusa y llega a Nikkō en unas dos horas con asiento
+      reservado. Es más cómodo y más barato que la vía JR, que obliga a ir a Utsunomiya en Shinkansen
+      y cambiar. Conviene sacarlo la víspera. Ver [Nikkō](#nikko).
     window:
       label: Hoy sí importa el día de la semana
       body: >-
@@ -47,19 +47,24 @@ blocks:
       Y aquí hay que ser honesto: **la parte alta de Nikkō tiene su momiji a finales de octubre**, así
       que a estas alturas de noviembre el color de arriba ya ha pasado. Abajo, en la zona del
       santuario, queda algo. Si el día va justo, el santuario vale por sí solo y la montaña puede
-      dejarse.
+      dejarse. Ver [el momiji](#momiji).
   - block: Noche
     time: "noche"
     title: Vuelta con el último Spacia
     body: >-
-      Se vuelve a Asakusa, que es el barrio de la primera mañana del viaje. Cerrar aquí, después de veinte
-      días, en la misma estación desde la que se salió al amanecer del día 2, tiene su cosa. Y a diez
-      minutos está la calle de las croquetas y los bares al aire libre de [**Hoppy-dōri**](https://www.google.com/maps/search/?api=1&query=Hoppy%20Street%20Asakusa%20Tokyo).
+      Se vuelve a Asakusa, que es el barrio de la primera mañana del viaje. Cerrar aquí, después de
+      diecinueve días, en la misma estación desde la que se salió al amanecer del día 2, tiene su
+      cosa. Y a diez minutos está la calle de las croquetas y los bares al aire libre de
+      [**Hoppy-dōri**](https://www.google.com/maps/search/?api=1&query=Hoppy%20Street%20Asakusa%20Tokyo).
 alt:
   label: Si te desmarcas
   body: >-
     En Nikkō, saltarse el [Tōshōgū](https://www.google.com/maps/search/?api=1&query=Nikko%20Toshogu%20Shrine) —herejía— y hacer el [**Rinnō-ji**](https://www.google.com/maps/search/?api=1&query=Rinnoji%20Temple%20Nikko) y el **Futarasan**, más antiguos,
     mucho más sobrios y sin nadie; o el paseo por la garganta de Kanmangafuchi, donde hay
     setenta estatuas de Jizō alineadas junto al río de las que se dice que nunca sale la misma
-    cuenta dos veces. Y si el grupo prefiere no salir de Tokio: el martes es buen día para
-    [Kamakura](#kamakura-zen) por segunda vez, o para el Museo Ghibli si se sacó entrada.
+    cuenta dos veces.
+
+    Y si a estas alturas del viaje el cuerpo no pide dos horas de tren, este es buen día para
+    quedarse en Tokio: los jardines clásicos —el **Rikugi-en**, el **Koishikawa Kōrakuen**— están en
+    su mejor semana y abren de noche, y los museos de [Ueno](#ueno), que ayer cerraron por el
+    traslado del festivo, hoy también. Es el último hueco grande antes del vuelo.

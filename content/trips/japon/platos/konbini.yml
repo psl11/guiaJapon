@@ -23,7 +23,7 @@ historia: >-
 dondeMejor: >-
   El *ekiben*, en el andén o en el vestíbulo, nunca en el tren. Los mejores de Tokio están en el
   **depachika** de los grandes almacenes de Ginza o en la propia estación de Tokio, que tiene una
-  galería entera dedicada — es la compra obligada antes del **Azusa a Matsumoto** del día 6.
+  galería entera dedicada — es la compra obligada antes del **Azusa a Matsumoto** del día 3.
 picante: "—"
 body: |
   **Lo que hay que probar del konbini**, que no es una lista de emergencia sino de gusto:
@@ -41,7 +41,7 @@ body: |
   maletas por *takkyūbin*, pago de entradas, baño limpio y wifi. Es el equipamiento urbano más útil
   del país.
 seenIn:
-  - ref: '#dia-6-matsumoto'
-    label: "Día 6 · el ekiben del Azusa"
+  - ref: '#dia-3-matsumoto'
+    label: "Día 3 · el ekiben del Azusa"
   - ref: '#dinero'
     label: El cajero del konbini

@@ -96,5 +96,5 @@ seenIn:
     label: "Takayama"
   - ref: '#kanazawa'
     label: "Kanazawa"
-  - ref: '#dia-8-bajada'
-    label: "Día 8 · el grupo sigue hacia aquí"
+  - ref: '#dia-6-shirakawa-kanazawa'
+    label: "Día 6 · el valle"

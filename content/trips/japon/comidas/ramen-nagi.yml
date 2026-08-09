@@ -8,7 +8,7 @@ title: Ramen Nagi
 navLabel: "Ramen Nagi"
 tipo: barra de ramen en un segundo piso · abierta 24 horas
 area: Golden Gai G2, 2.ª planta · 1-1-10 Kabukichō, Shinjuku
-cuando: "La noche del día 3, al salir de Golden Gai — o a cualquier hora, literalmente"
+cuando: "La noche del día 9, al salir de Golden Gai — o a cualquier hora, literalmente"
 precio: "Desde ¥820 (~6 €), difícil pasar de ¥1.200"
 reserva: "No se puede"
 colas: "Sí, y en la escalera. Van rápidas"
@@ -21,7 +21,7 @@ body: >-
   que están acostumbrados casi todos. La primera cucharada descoloca; la quinta engancha.
 
 
-  Encaja perfecto con el plan de la noche del día 3: los bares de [Golden Gai](https://www.google.com/maps/search/?api=1&query=Golden%20Gai%20Shinjuku%20Tokyo) son diminutos y **un
+  Encaja perfecto con el plan de la noche del día 9: los bares de [Golden Gai](https://www.google.com/maps/search/?api=1&query=Golden%20Gai%20Shinjuku%20Tokyo) son diminutos y **un
   grupo de cuatro no cabe casi en ninguno**, así que la cena acaba siendo por turnos o de pie. Esto
   resuelve el hambre a cualquier hora, cuesta seis euros y está en el mismo callejón.
 
@@ -34,5 +34,5 @@ link:
 seenIn:
   - ref: '#ramen'
     label: El ramen
-  - ref: '#dia-3-yamanote'
-    label: "Día 3 · por la noche"
+  - ref: '#dia-9-yamanote'
+    label: "Día 9 · por la noche"

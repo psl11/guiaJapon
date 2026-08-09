@@ -15,7 +15,7 @@ colas: "Sí a la hora punta de oficina"
 badge: "Lonely Planet"
 quePedir: "El *sukiyaki* de ternera o cerdo, que es lo suyo. Al mediodía, en menú."
 body: >-
-  Japonés de manual y de barrio, en el sitio exacto donde termina el paseo del día 4. Sirve **guisos
+  Japonés de manual y de barrio, en el sitio exacto donde termina el paseo del día 20. Sirve **guisos
   tradicionales y *sukiyaki*** en raciones generosas —lo que aquí es casi una rareza— y compra el
   género en las tiendas *gourmet* de [**Nihonbashi**](https://www.google.com/maps/search/?api=1&query=Nihonbashi%20Bridge%20Tokyo), que es el barrio de los comercios centenarios de
   Tokio: la casa del té, la del alga, la de los cuchillos.
@@ -26,7 +26,7 @@ body: >-
   de todas las carreteras de Japón, hoy aplastado por una autopista — que es exactamente la historia
   que cuenta ese tramo del día.
 seenIn:
-  - ref: '#dia-4-tsukiji-ginza'
-    label: "Día 4 · Nihonbashi"
+  - ref: '#dia-20-tsukiji-ginza'
+    label: "Día 20 · Nihonbashi"
   - ref: '#acto-4-edo'
     label: "Acto 4 · el kilómetro cero"

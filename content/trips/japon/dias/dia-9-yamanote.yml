@@ -1,16 +1,38 @@
-slug: dia-3-yamanote
-navLabel: "Día 3 · Meiji y Shibuya"
+slug: dia-9-yamanote
+navLabel: "Día 9 · Yamanote"
 trip: japon
-order: 3
-eyebrow: El plan · Día 3 · dom 8 nov
-title: Del bosque de *Meiji* al cruce de Shibuya
+order: 9
+eyebrow: El plan · Día 9 · sáb 14 nov
+title: El adiós, y del bosque de *Meiji* al cruce de Shibuya
 dek: >-
-  El día del contraste que define Tokio: un bosque de cien mil árboles plantados a mano en el centro
-  de la ciudad, y a quince minutos andando, el cruce peatonal más transitado del planeta. Y es
-  domingo, que aquí no es un detalle del calendario sino parte del plan.
+  El día se parte en dos a primera hora: uno coge el Skyliner hacia Narita y los otros tres bajan al
+  santuario. Y luego, el contraste que define Tokio: un bosque de cien mil árboles plantados a mano
+  en el centro de la ciudad y, a quince minutos andando, el cruce peatonal más transitado del
+  planeta.
 blocks:
   - block: Amanecer
-    time: "06:30"
+    time: "06:30–08:00"
+    title: Donde el grupo se parte
+    body: >-
+      La despedida es en un desayuno de hotel y en una boca de metro, que es infinitamente mejor que
+      una parada de autobús en la montaña. **El vuelo sale de Narita a las 12:10** y con el mostrador
+      cerrando una hora antes hay que estar allí a las nueve y media: saliendo del hotel sobre las
+      ocho sobra tiempo. Ver [los vuelos](#vuelos).
+
+      Ocho días, dos ciudades, un valle sin coches y un pueblo de montaña. A los otros tres les
+      quedan doce días más, y hoy los empiezan a cuatro paradas de aquí. Queda pendiente lo que no
+      cupo — que en Japón es siempre casi todo, y por eso se vuelve una quinta vez.
+    window:
+      label: Cómo se va a Narita
+      body: >-
+        Desde [Akihabara](#akihabara) gana el **Skyliner de Keisei** —desde Ueno o Nippori, a dos
+        paradas, **36 minutos** hasta la terminal— frente al Narita Express, que es más caro y obliga
+        a cambiar. Sale cada veinte o cuarenta minutos desde las seis de la mañana.
+
+        Y un aviso que no es obvio: **la fianza de la tarjeta IC no se devuelve en Narita**, solo en
+        Haneda. O se devuelve antes, o la tarjeta se guarda para la próxima vez — que dura diez años.
+  - block: Mañana
+    time: "08:30"
     title: Meiji Jingū al abrir
     body: >-
       El santuario [**abre al amanecer y cierra al atardecer**](#meiji-jingu), sin horario fijo: sigue al sol. Entrar
@@ -20,25 +42,23 @@ blocks:
       esa hora solo hay sacerdotes barriendo. Es el sitio más silencioso del centro de Tokio y solo lo
       es una hora al día.
     window:
-      label: Ventana óptima
+      label: El mejor día del año para estar aquí, y es casualidad
       body: >-
-        Segundo y último madrugón fácil: el cuerpo todavía va desfasado, pero mañana ya no. Y hay un
-        premio de domingo: es **el día de las bodas sintoístas**, así que a media mañana hay
-        posibilidades reales de cruzarse con una procesión nupcial —novia de *shiromuku* blanco
-        bajo un parasol rojo, sacerdotes delante— atravesando el patio.
+        **El 15 de noviembre se celebra el *shichi-go-san***, el rito en que los niños de siete,
+        cinco y tres años van al santuario vestidos de gala tradicional — y Meiji Jingū es *el* sitio
+        donde se hace en Tokio. Este año el 15 cae en domingo, así que **hoy, sábado 14, es la
+        víspera y el santuario estará en su fin de semana grande**: el patio lleno de críos de tres
+        años con kimono y cara de circunstancias, y familias enteras de fotógrafo contratado.
 
-        Y este domingo concreto trae una segunda carta. El **15 de noviembre** se celebra el
-        *shichi-go-san*, el rito en que los niños de siete, cinco y tres años van al santuario
-        vestidos de gala tradicional — y Meiji Jingū es *el* sitio donde se hace en Tokio. Como el 15
-        cae en domingo, las familias reparten las visitas por los fines de semana de alrededor, así
-        que hoy, domingo 8, hay bastantes números de encontrarse el patio lleno de críos de tres años con
-        kimono y cara de circunstancias. Ninguna de las dos cosas se puede reservar: solo estar allí.
+        En sábado hay además **bodas sintoístas**, así que a media mañana también se puede cruzar una
+        procesión nupcial —novia de *shiromuku* blanco bajo un parasol rojo, sacerdotes delante—
+        atravesando el patio. Ninguna de las dos cosas se puede reservar: solo estar allí.
   - block: Mañana
     time: "10:00–13:00"
     title: Harajuku, Omotesandō y las dos aceras
     body: >-
       Se sale del bosque y a doscientos metros está [**Takeshita-dōri**](https://www.google.com/maps/search/?api=1&query=Takeshita%20Street%20Harajuku%20Tokyo), la calle de la moda
-      adolescente: estrecha, gritona, saturada, con crepes y tiendas de disfraces. Un domingo está
+      adolescente: estrecha, gritona, saturada, con crepes y tiendas de disfraces. Un sábado está
       imposible, y verla así es justamente el punto. El antídoto está a la vuelta: [**Omotesandō**](https://www.google.com/maps/search/?api=1&query=Omotesando%20Tokyo), la
       avenida arbolada donde media docena de arquitectos con Pritzker se han construido una tienda
       —Itō, Sejima, Kuma, Herzog & de Meuron— y que se recorre mirando fachadas, no escaparates.
@@ -50,9 +70,9 @@ blocks:
       su día fue una proeza de ingeniería y que volvió a usarse en los Juegos de 2020. Es el edificio
       que mejor cuenta el Japón que se reinventó después de la guerra, y está de camino.
     window:
-      label: Por qué en domingo, y dónde mirar
+      label: Por qué en fin de semana, y dónde mirar
       body: >-
-        Porque [Harajuku](#harajuku) en domingo **es otra cosa**: es el día en que la gente se viste
+        Porque [Harajuku](#harajuku) en fin de semana **es otra cosa**: es cuando la gente se viste
         para venir. Y el sitio exacto es el [**Jingū-bashi**](https://www.google.com/maps/search/?api=1&query=Jingubashi%20Harajuku%20Tokyo),
         el puentecito entre la estación y la entrada del santuario: ahí es donde se concentran.
         Cada estilo tiene nombre propio y se distingue a la vista — los cuatro que vais a ver
@@ -105,7 +125,7 @@ alt:
 
     - El [**Museo Nezu**](https://www.google.com/maps/search/?api=1&query=Nezu%20Museum%20Tokyo), un
     edificio de Kengo Kuma con un jardín que no parece Tokio. A diez minutos de
-    [Omotesandō](#harajuku), y **abre los domingos**.
+    [Omotesandō](#harajuku), y cierra los lunes, no hoy.
     - [**Shimokitazawa**](https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Tokyo), dos
     paradas al oeste: segunda mano, discos y teatro pequeño. Es donde va la gente de esta ciudad
     cuando no quiere turistas.

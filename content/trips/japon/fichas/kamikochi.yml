@@ -44,7 +44,7 @@ sections:
       todo el año, y por eso se ve el fondo de grava como si no hubiera agua encima. Es agua tan
       pobre en nutrientes que apenas cría algas — de ahí la transparencia.
 
-      El día 7 lo recorréis entero: [ver el plan](#dia-7-kamikochi).
+      El día 4 lo recorréis entero: [ver el plan](#dia-4-kamikochi).
   - heading: Un misionero inglés y la palabra «Alpes»
     body: |
       A finales del XIX, un misionero británico llamado **Walter Weston** empezó a subir estas
@@ -56,23 +56,24 @@ sections:
   - heading: "Dormir dentro: por qué no pudo ser"
     body: |
       El valle tiene una docena escasa de alojamientos, todos estacionales, y cierran incluso antes
-      que la carretera: varios el 10, el Shirakabaso el 14 de noviembre. La noche del 12 es, por
-      tanto, **de las últimas que se venden en toda la temporada** — y las reservas abren en enero
-      para el año entero.
+      que la carretera: varios el 10, el Shirakabaso el 14 de noviembre. Las últimas noches de la
+      temporada son, por tanto, **de las primeras que se venden** — y las reservas abren en enero
+      para el año entero. Cuando se preguntó, estaban vendidas.
 
-      Con esas cuentas, el resultado era previsible: **estaban vendidas**. Así que se duerme abajo,
-      en [Hirayu Onsen](#hirayu-onsen), al otro lado del túnel. No hay término medio, porque **no hay
-      pueblo**: dentro del valle no existe el «bajamos al hotel del centro», existe el hotel del
-      valle o veinticinco minutos de autobús.
+      No hay término medio, porque **no hay pueblo**: dentro del valle no existe el «bajamos al hotel
+      del centro», existe el hotel del valle o veinticinco minutos de autobús hasta
+      [Hirayu](https://www.google.com/maps/search/?api=1&query=Hirayu%20Onsen%20Takayama). Así que el
+      plan es el otro: **entrar y salir en el día**, aprovechando que las sendas son llanas y que en
+      una jornada larga cabe el valle entero de punta a punta.
 
-      Lo que eso cuesta en concreto —básicamente el amanecer en el estanque Taishō, que es la única
-      hora del día en que el agua está quieta y no hay nadie— está desglosado en
-      [dormir en el valle](#dormir-en-kamikochi). Y cómo queda el plan resultante, en el
-      [día 7](#dia-7-kamikochi) y el [día 8](#dia-8-bajada).
+      Lo que cuesta en concreto —el atardecer, la noche sin una sola farola y sobre todo el amanecer
+      en el estanque Taishō— está desglosado en [dormir en el valle](#dormir-en-kamikochi). Y cómo
+      queda el día resultante, en el [día 4](#dia-4-kamikochi).
 curiosidades:
   - >-
     **El valle cierra el 15 de noviembre y no vuelve a abrir hasta el 16 de abril.** Cinco meses al
-    año la carretera está cortada y Kamikōchi se queda solo con la nieve.
+    año la carretera está cortada y Kamikōchi se queda solo con la nieve. Entráis seis días antes de
+    que eche el cierre.
   - >-
     El nombre significa **«el lugar por donde bajaron los dioses»**: se escribía *kamikōchi* con el
     carácter de *kami*, por el kami **Hotakami**, que según la tradición descendió a estas cumbres.
@@ -82,7 +83,5 @@ curiosidades:
     Weston**, que a finales del XIX empezó a subirlas por deporte y no por peregrinación. Tiene un
     relieve en el sendero.
 seenIn:
-  - ref: '#dia-7-kamikochi'
-    label: "Día 7 · Kamikōchi"
-  - ref: '#dia-8-bajada'
-    label: "Día 8 · la segunda mañana"
+  - ref: '#dia-4-kamikochi'
+    label: "Día 4 · Kamikōchi"

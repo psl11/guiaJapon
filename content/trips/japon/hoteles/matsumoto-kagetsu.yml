@@ -7,7 +7,7 @@ status: candidato
 title: Matsumoto Hotel Kagetsu
 tipo: hotel histórico
 area: Ōte, sobre Nawate-dōri
-noches: 1 noche · día 6
+noches: 1 noche · día 3 · dom 8 nov
 lat: 36.2360501
 lon: 137.9724408
 estaciones:
@@ -47,5 +47,5 @@ link:
 seenIn:
   - ref: "#matsumoto-jo"
     label: El castillo
-  - ref: "#dia-6-matsumoto"
-    label: Día 6 · Matsumoto
+  - ref: "#dia-3-matsumoto"
+    label: Día 3 · Matsumoto

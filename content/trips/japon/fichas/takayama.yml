@@ -83,7 +83,7 @@ curiosidades:
 seenIn:
   - ref: '#el-mapa-del-viaje'
     label: "El mapa del viaje"
-  - ref: '#dia-8-bajada'
-    label: "Día 8 · el grupo sigue hacia aquí"
+  - ref: '#dia-5-takayama'
+    label: "Día 5 · el pueblo"
   - ref: '#acto-4-edo'
     label: "Acto 4 · Edo"

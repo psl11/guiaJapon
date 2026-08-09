@@ -7,7 +7,7 @@ status: candidato
 title: Nunoya Ryokan
 tipo: ryokan en casa de comercio
 area: Nakamachi, Matsumoto
-noches: 1 noche · día 6
+noches: 1 noche · día 3 · dom 8 nov
 lat: 36.2338076
 lon: 137.9727871
 estaciones:
@@ -37,7 +37,7 @@ body: >-
   dueños**, que es exactamente lo que se va a buscar a un ryokan y lo que un hotel de cadena no da.
 
 
-  Para el día 6 encaja bien: doce minutos andando desde la estación con la maleta, y otros once
+  Para el día 3 encaja bien: doce minutos andando desde la estación con la maleta, y otros once
   hasta el [castillo](#matsumoto-jo). Y como al día siguiente se sube a [Kamikōchi](#kamikochi),
   dormir una noche a la japonesa antes de la montaña tiene su lógica de guion.
 link:
@@ -46,5 +46,5 @@ link:
 seenIn:
   - ref: "#matsumoto-jo"
     label: El castillo
-  - ref: "#dia-6-matsumoto"
-    label: Día 6 · Matsumoto
+  - ref: "#dia-3-matsumoto"
+    label: Día 3 · Matsumoto

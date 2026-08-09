@@ -1,8 +1,8 @@
-slug: dia-6-matsumoto
-navLabel: "Día 6 · Matsumoto"
+slug: dia-3-matsumoto
+navLabel: "Día 3 · Matsumoto"
 trip: japon
-order: 6
-eyebrow: El plan · Día 6 · mié 11 nov
+order: 3
+eyebrow: El plan · Día 3 · dom 8 nov
 title: El *castillo negro* y el giro hacia la montaña
 dek: >-
   El día que el viaje cambia de tema. Se deja Tokio en un tren que sube al interior, y al bajar hay
@@ -14,8 +14,8 @@ blocks:
     title: El Azusa sube al interior
     body: >-
       Salida de [**Shinjuku**](#shinjuku) en el limited express **Azusa** —desde el hotel de
-      Akihabara va directa la Chūō-Sōbu amarilla, sin transbordo, pero es tren de cercanías y a esa
-      hora con las maletas grandes conviene salir con margen—, dos horas y media largas subiendo por la
+      [Akihabara](#akihabara) va directa la Chūō-Sōbu amarilla, sin transbordo, pero es tren de
+      cercanías y conviene salir con margen—, dos horas y media largas subiendo por la
       cuenca de Kōfu y el lago Suwa entre montañas que se van poniendo serias. El tren lleva el nombre
       del río Azusa, el mismo que veréis mañana bajando por [Kamikōchi](#kamikochi): sube a buscar su
       nacimiento. Es el primer tren de verdad del
@@ -69,11 +69,14 @@ blocks:
     window:
       label: Antes de dormir
       body: >-
-        **Esta noche se separan las maletas.** Mañana se sube a Kamikōchi, donde no hay coches ni
-        ascensores y el equipaje es un estorbo: lo que no quepa en una mochila se manda por
-        ***takkyūbin*** directamente al hotel de [Takayama](#takayama), que lo recibe pasado mañana. Es el servicio
-        de mensajería más fiable del mundo y cuesta unos pocos miles de yenes. Preguntad en recepción
-        **hoy**, no mañana por la mañana.
+        **Esto ya debería estar resuelto desde ayer.** Mañana se sube a Kamikōchi, donde no hay
+        coches ni ascensores y el equipaje es un estorbo, y **se duerme en [Takayama](#takayama) sin
+        volver a pasar por aquí**: las maletas grandes salieron esta mañana de Tokio por
+        ***takkyūbin*** y os esperan allí. A Matsumoto se llega con lo de una noche.
+
+        Si por lo que sea no salieron, se manda **hoy mismo desde el hotel de Matsumoto** — pero
+        entonces llegan un día tarde y mañana se duerme sin ellas. Es el único punto del viaje donde
+        el equipaje no admite improvisación.
 alt:
   label: Si te desmarcas
   body: >-

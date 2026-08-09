@@ -67,9 +67,7 @@ curiosidades:
     pero en muchos sitios los intercambian de un día para otro, para que ambos sexos disfruten de los
     dos baños. Fiaos del carácter, no del color.
 seenIn:
-  - ref: '#dia-6-matsumoto'
-    label: "Día 6 · Matsumoto"
-  - ref: '#dia-7-kamikochi'
-    label: "Día 7 · la noche de Hirayu"
-  - ref: '#dia-8-bajada'
-    label: "Día 8 · el baño del amanecer"
+  - ref: '#dia-3-matsumoto'
+    label: "Día 3 · Matsumoto"
+  - ref: '#dia-4-kamikochi'
+    label: "Día 4 · la noche de Hirayu"

@@ -46,7 +46,7 @@ blocks:
       diez de la noche. Del aeropuerto se llega con un solo transbordo: monorraíl hasta
       Hamamatsuchō y la Yamanote hacia el norte, o el Keikyū hasta Shinagawa y la misma Yamanote.
       La agenda de hoy es esta y no hay más: dejar las maletas en [**Akihabara**](#akihabara), que es
-      la base de estos cinco primeros días, y salir a cenar algo cerca.
+      la base de estas dos noches y de las tres de la escala, y salir a cenar algo cerca.
     window:
       label: Por qué no forzar la primera noche
       body: >-
@@ -59,7 +59,7 @@ blocks:
         primera noche no es rendirse sino sentido común.
 
         Y ahí parar. Mañana el cuerpo os va a levantar de madrugada queráis o no, y **la primera
-        mañana es la mejor de las cinco**: Sensō-ji vacío al amanecer solo funciona si os habéis
+        mañana lo vale**: Sensō-ji vacío al amanecer solo funciona si os habéis
         acostado. Ya habrá noches — quedan veinte.
   - block: Noche
     time: "primera noche"

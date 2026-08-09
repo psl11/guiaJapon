@@ -31,7 +31,7 @@ link:
   url: "https://www.hyatt.com/park-hyatt/tyoph-park-hyatt-tokyo"
   label: Park Hyatt Tokyo
 seenIn:
-  - ref: '#dia-3-yamanote'
-    label: "Día 3 · por la noche"
+  - ref: '#dia-9-yamanote'
+    label: "Día 9 · por la noche"
   - ref: '#barrios-de-tokio'
     label: "Shinjuku"

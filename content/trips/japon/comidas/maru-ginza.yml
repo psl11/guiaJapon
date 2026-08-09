@@ -8,7 +8,7 @@ title: Maru
 navLabel: "Maru (Ginza)"
 tipo: kaiseki moderna · cocina abierta y barra
 area: Edificio Ichigo Ginza 612, 2.ª planta · 6-12-15 Ginza
-cuando: "Comida del día 4, al subir de Tsukiji"
+cuando: "Comida del día 20, al subir de Tsukiji"
 precio: "Menú de mediodía desde ~¥1.100 · cena desde ~¥6.000"
 reserva: "Recomendable para cenar; al mediodía se suele entrar"
 colas: "Al mediodía, poco"
@@ -29,5 +29,5 @@ body: >-
   Está en un edificio de oficinas y hay que subir en ascensor, que es como está la mitad de la buena
   cocina de esta ciudad: **mirar hacia arriba** en Ginza y en [Shinjuku](#shinjuku) es donde aparecen los sitios.
 seenIn:
-  - ref: '#dia-4-tsukiji-ginza'
-    label: "Día 4 · al mediodía"
+  - ref: '#dia-20-tsukiji-ginza'
+    label: "Día 20 · al mediodía"

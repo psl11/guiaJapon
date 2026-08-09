@@ -3,11 +3,11 @@ navLabel: "Día 20 · Tsukiji y Ginza"
 trip: japon
 order: 20
 eyebrow: El plan · Día 20 · mié 25 nov
-title: El lunes que *cierra todo* — y lo que abre
+title: El último día entero, y *la semana en que la ciudad se pone roja*
 dek: >-
-  En Japón el lunes es el día de descanso de los museos, y hoy cierran el Museo Nacional, los
-  Jardines del Palacio Imperial y Hama-rikyū. Lejos de ser el día malo, es el día que se planifica
-  al revés: hoy toca justamente lo que no cierra los lunes y sí cerraba ayer.
+  Mañana solo hay medio día antes del vuelo, así que este es el último completo — y cae dentro de la
+  quincena buena del [momiji](#momiji) de Tokio, que es la razón aritmética de haber guardado la
+  ciudad para el final. Un mercado, un sótano de grandes almacenes y un jardín de agua salada.
 blocks:
   - block: Mañana
     time: "09:00–11:30"
@@ -40,45 +40,62 @@ blocks:
     window:
       label: Por qué el depachika
       body: >-
-        Porque es el sitio donde mejor se entiende de golpe la relación de este país con la comida —el
-        envoltorio, la estacionalidad, la obsesión por el producto perfecto— y porque **está abierto
-        un lunes**. Los domingos también, pero los domingos tocaba Harajuku. Bonus para el día 6: de
-        aquí sale el mejor *ekiben* posible para el tren a Matsumoto.
+        Porque es el sitio donde mejor se entiende de golpe la relación de este país con la comida:
+        el envoltorio, la estacionalidad, la obsesión por el producto perfecto. Y porque hoy es el
+        último día con tiendas abiertas y calma para mirar — **mañana esto mismo se hace con prisa y
+        con la maleta ya cerrada**. De aquí sale además el mejor *ekiben* posible para un tren, y
+        conviene saberlo antes de que llegue el del aeropuerto.
   - block: Tarde
     time: "14:00–16:30"
-    title: El foso del palacio, sin entrar
+    title: Un jardín de agua salada, y el kilómetro cero
     body: >-
-      Los **Jardines del Palacio Imperial cierran los lunes** —y también los viernes—, así que hoy no
-      se entra. Pero lo que hay fuera se anda igual: la plaza de Kōkyo Gaien con sus pinos negros
-      recortados, el [**Nijūbashi**](https://www.google.com/maps/search/?api=1&query=Nijubashi%20Bridge%20Imperial%20Palace%20Tokyo) (el puente de dos arcos, la foto clásica) y los fosos de piedra
-      ciclópea que son lo único que queda del castillo de Edo, que fue la mayor fortaleza del
-      mundo. Se cierra el paseo en [**Nihonbashi**](https://www.google.com/maps/search/?api=1&query=Nihonbashi%20Bridge%20Tokyo), el puente que era el kilómetro cero de todas las
-      carreteras del país y que hoy vive humillado bajo una autopista de hormigón — una imagen que
-      cuenta el siglo XX japonés mejor que un museo.
+      Diez minutos andando desde Ginza hacia el mar está
+      [**Hama-rikyū**](https://www.google.com/maps/search/?api=1&query=Hamarikyu%20Gardens%20Tokyo), que
+      era el coto de caza de los Tokugawa y hoy es un jardín rodeado de rascacielos. Tiene una
+      particularidad que no tiene ningún otro de la ciudad: **su estanque es de agua de mar y sube y
+      baja con la marea**, porque está conectado con la bahía por una compuerta. En medio hay una
+      casa de té a la que se llega por tres puentes de madera, y donde por unos pocos cientos de
+      yenes sirven *matcha* batido y un dulce mirando el agua. Es el último sitio tranquilo del
+      viaje y está en su mejor semana del año.
+
+      Y de vuelta hacia el norte, quince minutos, se cierra el paseo en
+      [**Nihonbashi**](https://www.google.com/maps/search/?api=1&query=Nihonbashi%20Bridge%20Tokyo): el
+      puente que era el kilómetro cero de todas las carreteras del país —de él se medían las
+      distancias del [Tōkaidō](#kioto) que bajasteis en tren— y que hoy vive humillado bajo una
+      autopista de hormigón levantada para los Juegos del 64. Es una imagen que cuenta el siglo XX
+      japonés mejor que un museo.
     window:
-      label: Un apunte de temporada
+      label: Por fin, el momiji de la ciudad
       body: >-
-        Aviso honesto para no esperar lo que no toca: [**llegáis dos semanas antes del momiji de
-        Tokio**](#momiji). El pico de la hoja roja en la ciudad va del 20 de noviembre al 5 de diciembre, y la
-        célebre avenida de ginkgos de [**Meiji Jingū Gaien**](https://www.google.com/maps/search/?api=1&query=Meiji%20Jingu%20Gaien%20Ginkgo%20Avenue%20Tokyo) amarillea hacia el 25. En vuestras fechas
-        los arces están empezando y los ginkgos verdean todavía. No es la temporada de postal — es la
-        semana anterior, con la mitad de gente.
+        Aquí se cobra la apuesta que ordena el itinerario entero. **El pico de la hoja roja en Tokio
+        va del 20 de noviembre al 5 de diciembre**, así que hoy estáis dentro: es exactamente por
+        esto por lo que la ciudad se guardó para el final en vez de gastarla en la primera semana.
+        Ver [el momiji](#momiji).
+
+        Y hoy justamente amarillea la avenida de ginkgos de
+        [**Meiji Jingū Gaien**](https://www.google.com/maps/search/?api=1&query=Meiji%20Jingu%20Gaien%20Ginkgo%20Avenue%20Tokyo),
+        que va con su calendario propio y cae hacia el 25. Son ciento cuarenta y seis árboles en
+        trescientos metros y está a media hora de aquí: si alguien quiere cambiar Nihonbashi por eso,
+        hoy es el día exacto y no otro.
   - block: Noche
     time: "noche"
     title: Luz artificial
     body: >-
-      Para cerrar el día que cierra todo, algo que precisamente abre los lunes y solo funciona de
-      noche: [**teamLab Borderless**](https://www.google.com/maps/search/?api=1&query=teamLab%20Borderless%20Azabudai%20Hills%20Tokyo), en Azabudai Hills. Salas sin mapa donde las obras se salen de una
+      Para cerrar la última noche entera, algo que solo funciona de noche:
+      [**teamLab Borderless**](https://www.google.com/maps/search/?api=1&query=teamLab%20Borderless%20Azabudai%20Hills%20Tokyo), en Azabudai Hills. Salas sin mapa donde las obras se salen de una
       habitación y entran en la siguiente, y donde uno acaba descalzo en un estanque de luz. Es
       espectáculo digital y no arte antiguo, y a tres primerizos les va a parecer lo más japonés del
       viaje aunque no lo sea en absoluto. **Hay que comprar la entrada con días de antelación** y ojo
-      con el calendario: cierra el primer y el tercer martes de mes, pero los lunes abre.
+      con el calendario: **cierra el primer y el tercer martes de mes**, lo cual hoy no estorba, pero
+      la entrada se compra con fecha y hora y no se cambia.
 alt:
   label: Si te desmarcas
   body: >-
-    Si teamLab ya lo tienes visto, el lunes te deja igualmente una carta que no cierra. El Museo Nezu
-    no: ese cierra hoy también.
+    Si teamLab ya lo tienes visto, hoy es miércoles y no cierra nada, así que la carta está entera.
+    El [**Museo Nezu**](https://www.google.com/maps/search/?api=1&query=Nezu%20Museum%20Tokyo) es la
+    mejor opción y hoy sí abre —cierra los lunes—: un edificio de Kengo Kuma con un jardín en cuesta
+    que no parece Tokio, y que en la última semana de noviembre tiene sus propios arces.
 
-    Pero el **Kabuki-za de Ginza** vende *hitomakumi*, entradas de un solo acto, en taquilla y para
+    Y sin moverse del mediodía, el **Kabuki-za de Ginza** vende *hitomakumi*, entradas de un solo acto, en taquilla y para
     el mismo día, por unos pocos euros. Entras, ves cuarenta minutos de kabuki desde el cuarto piso y
     te vas. Es exactamente la dosis correcta la primera vez.

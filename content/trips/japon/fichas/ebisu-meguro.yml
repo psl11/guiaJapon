@@ -87,6 +87,8 @@ curiosidades:
     El [**Tokyo Photographic Art Museum**](https://www.google.com/maps/search/?api=1&query=Tokyo%20Photographic%20Art%20Museum) guarda más de treinta mil copias y es el museo público de
     fotografía más importante del país. Está dentro de un complejo comercial y **casi nadie lo pisa**.
 seenIn:
+  - ref: '#dia-10-tokio-centro'
+    label: "Día 10 · Sengaku-ji y Ebisu"
   - ref: '#barrios-de-tokio'
     label: "El mapa de los barrios"
   - ref: '#acto-4-edo'

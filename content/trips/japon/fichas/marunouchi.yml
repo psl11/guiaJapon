@@ -90,8 +90,8 @@ curiosidades:
     Se puede cruzar todo el distrito, **de la puerta del Palacio al parque de Hibiya, sin salir a la
     superficie**: la red de pasadizos subterráneos enlaza las estaciones de los dos lados de las vías.
 seenIn:
-  - ref: '#dia-20-tsukiji-ginza'
-    label: "Día 20 · por la tarde"
+  - ref: '#dia-10-tokio-centro'
+    label: "Día 10 · el jardín este y Marunouchi"
   - ref: '#masakado'
     label: "La tumba de Masakado"
   - ref: '#acto-4-edo'

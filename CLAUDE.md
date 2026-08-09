@@ -288,8 +288,8 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 
 ## 8. Estado y qué falta
 
-**Hecho:** 21 días · 42 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-59 locales en 10 ciudades · 5 de salir · 9 recomendaciones prácticas · 65 fotos · PWA offline
+**Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
+58 locales en 9 ciudades · 5 de salir · 9 recomendaciones prácticas · 65 fotos · PWA offline
 completo y verificado.
 
 **La capa gastronómica** se construyó con el mismo criterio que la de `guiaVietnam`: por ciudad y en
@@ -386,3 +386,49 @@ la vez, con colisiones entre nombres (`dia-5-kamakura` → `dia-8-kamakura` mien
 borrar el directorio y reescribir — y en la misma pasada sustituir las anclas `#dia-…` en todo
 `content/`. Cuidado con el paso siguiente: remapear «día N» en la prosa **pisa los ficheros que ya
 hayas reescrito a mano** con los números nuevos. Hazlo antes de escribir a mano, no después.
+
+---
+
+## 9 bis. Nara fuera, un domingo de Tokio dentro (ago 2026, después de la reforma)
+
+El día de **Nara se ha eliminado** y el día que liberaba se ha gastado en **un domingo entero en el
+centro de Tokio** (día 10, 15 de noviembre). Fue decisión del grupo, sin matices: no querían ir.
+
+El cambio salió redondo por una razón aritmética que conviene entender antes de volver a tocarlo:
+**quitar un día en Kansai y meter uno en Tokio deja intactas todas las fechas del 20 de noviembre en
+adelante**. Hiroshima sigue clavada al viernes 20 y Miyajima al sábado 21, con sus mismos números de
+día. Solo se movieron los días 10 a 14, y los días 15 a 21 no se tocaron. Si alguna vez hay que
+deshacerlo, se deshace igual de barato.
+
+Tres cosas que decidió esta reforma y que no hay que revertir por descuido:
+
+- **El Shinkansen de bajada va ahora en lunes**, no en domingo. Era una fricción que el propio mapa
+  del viaje listaba como aviso, y ha desaparecido.
+- **Kioto pasa a cuatro noches de verdad** (16-19). El mapa ya decía «cuatro noches» y eran cinco:
+  ahora la frase es cierta.
+- **La ficha de Nara y el bar de Nara se borraron**, y todos los `[Nara](#nara)` del resto de la guía
+  se convirtieron en texto plano. Nara se sigue mencionando mucho —es historia del país, no una
+  parada— pero ya no enlaza a ninguna parte. La renuncia queda contada en el mapa del viaje, que es
+  donde van las renuncias.
+
+**Ya no queda día comodín.** El de Kansai se ha gastado. De aquí en adelante, meter algo en el
+itinerario obliga a quitar algo.
+
+**Y de paso salieron tres errores de día de la semana que venían de la reforma de agosto** y que no
+tenían nada que ver con Nara. Los tres están arreglados, pero valen como aviso de lo que hay que
+mirar cuando se renumeran días: **el `eyebrow` dice la fecha, pero la prosa dice el día de la semana,
+y la prosa no se renumera sola.**
+
+- El día 6 (mié 11 nov) tenía una ventana titulada «Una carta de hoy, que es domingo 15» con el
+  *shichi-go-san* dentro. Se ha borrado: el *shichi-go-san* vive ahora en el día 10, que sí es el 15.
+- El día 20 (mié 25 nov) se llamaba «El lunes que cierra todo» y **todo el día colgaba de los cierres
+  de los lunes** — los jardines del Palacio, el Museo Nezu, teamLab. En miércoles no cierra nada, así
+  que el día se ha rearmado sobre otra premisa: es el último completo y cae dentro del pico del
+  momiji.
+- Ese mismo día 20 avisaba de que «llegáis dos semanas antes del momiji de Tokio» cuando el 25 de
+  noviembre está **dentro** del pico (20 nov – 5 dic) que la propia ficha del momiji declara. Era una
+  contradicción directa con el `rationale` de `trip.yml`.
+
+**Si vuelves a renumerar días, la comprobación barata** es cruzar cada `eyebrow` con lo que dice el
+cuerpo: `grep -n "lunes\|martes\|domingo\|víspera\|mañana es"` sobre `dias/` y mirarlo uno a uno.
+Los tests no cazan nada de esto, porque son datos válidos que dicen mentiras.

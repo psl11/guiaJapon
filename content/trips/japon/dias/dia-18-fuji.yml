@@ -3,67 +3,103 @@ navLabel: "Día 18 · El Fuji"
 trip: japon
 order: 18
 eyebrow: El plan · Día 18 · lun 23 nov · festivo
-title: El Fuji, si el cielo *da permiso*
+title: El Fuji, con *guía y furgoneta*
 dek: >-
-  El único día del viaje que depende entero del parte meteorológico. En invierno el Fuji se ve
-  muchísimos más días que en verano, pero sigue escondiéndose la mitad del tiempo — y es festivo
-  nacional, lo que cambia las reglas de todo lo demás.
+  El único día del viaje que va contratado de principio a fin: diez horas dando la vuelta a la
+  montaña en vehículo privado y en español, con [Turismo Victoria](https://turismovictoria.com). Eso
+  quita la parte incómoda —los tres transbordos y la decisión meteorológica de las seis de la
+  mañana— y deja una sola obligación: **estar en Shin-Fuji a las 8:30**.
 blocks:
   - block: Amanecer
-    time: "06:00"
-    title: Mirar por la ventana y decidir
+    time: "06:15–08:05"
+    title: Bajar a Shinagawa y coger un Kodama
     body: >-
-      Esta es la decisión del día y se toma antes de desayunar. **Si el cielo está limpio, se va al
-      Fuji.** Si está cubierto, no merece la pena: se va a Kawaguchiko a ver una montaña que no está,
-      y son cinco horas de transporte para nada. Hay dos días marcados para esto —hoy y el 25— así
-      que se puede cambiar sin perder nada. Ver [el Fuji](#fuji).
+      El punto de recogida no es Kawaguchiko sino **Shin-Fuji**, en la vertiente sur, que es estación
+      de Shinkansen. Desde [Shinjuku](#shinjuku) son la Yamanote hasta Shinagawa (unos veinte
+      minutos) y de ahí una hora de tren: el **Kodama de las 07:04 llega a las 08:03**, con media
+      hora de colchón antes de la cita. El anterior, a las 06:37, deja allí a las 07:34 por si se
+      prefiere esperar sentado. Ronda los **¥5.200** sin reserva.
     window:
-      label: Cómo saberlo con antelación
+      label: El error que se paga caro
       body: >-
-        Hay **cámaras en directo** apuntando a la montaña desde el lago Kawaguchi que se consultan
-        desde el móvil, y la regla local: si se ve el Fuji desde Tokio a primera hora
-        —del mirador del [Gobierno Metropolitano](https://www.google.com/maps/search/?api=1&query=Tokyo%20Metropolitan%20Government%20Building), por ejemplo— es que hoy es el día. La nubosidad suele
-        aumentar según avanza la mañana, así que cuanto más temprano, mejor.
+        **En Shin-Fuji solo para el Kodama.** Ni el Nozomi ni el Hikari se detienen ahí — pasan de
+        largo camino de Nagoya—, así que el buscador de billetes hay que forzarlo o se acaba comprando
+        un tren que no sirve. Y hoy es **festivo con puente**: reservad asiento en vez de ir a
+        vagón libre. Ya que se reserva, **el asiento E** es el del lado del Fuji, en los dos
+        sentidos; la montaña aparece justo antes de llegar.
   - block: Mañana
-    time: "07:30–10:00"
-    title: Subir al lago
+    time: "08:30–13:00"
+    title: La cara norte, que es la de la postal
     body: >-
-      Dos horas desde [Shinjuku](#shinjuku): **autobús directo** hasta la estación de Kawaguchiko, que es lo más
-      cómodo y hay que reservar; o tren con transbordo en Ōtsuki y la línea Fujikyū, que es más caro
-      y más bonito. El autobús sale de la terminal Busta, encima de la estación de Shinjuku.
-  - block: Mediodía
-    time: "10:00–15:00"
-    title: Los tres sitios que funcionan
-    body: >-
-      El Fuji no se «visita»: se mira desde algún sitio, y el sitio importa mucho. Los tres que dan la
-      foto:
-
-      - **Chūreitō**, la pagoda de cinco pisos sobre Fujiyoshida: **cuatrocientos escalones** y desde
-        arriba la composición pagoda + montaña que sale en todas partes. Es la imagen y es real.
-      - **La orilla norte del lago Kawaguchi**, donde el Fuji se refleja en el agua si no hay viento.
-        A primera hora es cuando el lago está quieto.
-      - El **teleférico del Kachi-Kachi**, que sube en tres minutos a un mirador sobre el lago con la
-        montaña enfrente.
+      La excursión empieza donde empieza cualquier lista: la **pagoda Chūreitō** sobre Fujiyoshida,
+      casi cuatrocientos escalones para llegar a la composición de pagoda, arces y cono nevado que
+      es la imagen del país. Conviene saber que la pagoda es de **1963** y que es un monumento a los
+      caídos, no un templo antiguo — está ahí porque alguien eligió muy bien el sitio. De ahí se
+      sigue a los **lagos** de la falda norte, donde el Fuji se refleja si no hay viento, y a
+      **Iyashi no Sato**, una aldea de casas de paja en la orilla del lago Saiko reconstruida como
+      museo al aire libre después de que un desprendimiento se llevara la original en 1966.
     window:
-      label: Que hoy sea festivo cambia cosas
+      label: Lo que la furgoneta resuelve
       body: >-
-        **El 23 de noviembre es el *Kinrō Kansha no Hi***, festivo nacional del trabajo, y cae en
-        lunes: hay puente. Eso significa **más gente en Kawaguchiko** —es destino de fin de semana
-        para los tokiotas— y, en Tokio, un efecto útil: los **museos que cierran los lunes hoy abren**
-        y **trasladan su cierre al martes 24**. Tenedlo en cuenta para mañana.
-  - block: Noche
-    time: "noche"
-    title: Vuelta, y compensación
+        Estos cuatro sitios no están conectados entre sí por transporte público de manera razonable:
+        de la pagoda a las cuevas hay líneas de autobús con una o dos frecuencias por hora y horarios
+        que no encajan. **Por libre se hacen dos, tres como mucho**, y se pasa el día esperando. Es
+        exactamente lo que se está comprando.
+  - block: Mediodía
+    time: "13:00–14:30"
+    title: Comer en el pueblo
     body: >-
-      Se vuelve con luz de tarde. Y si el día ha salido nublado y se ha cambiado de plan, la
-      compensación de estar en Tokio un festivo es que **todo lo que normalmente cierra los lunes
-      está abierto**: el Museo Nacional de [Ueno](#ueno), los jardines, el Museo Nezu. Es
-      probablemente el mejor lunes posible para hacer museos en esta ciudad.
+      La comida va incluida y se hace en el pueblo tradicional, que en esta zona significa una cosa
+      concreta: **hōtō**, el plato de Yamanashi. Fideos anchos y planos de trigo cocidos dentro de un
+      caldo espeso de miso con calabaza, taro y verdura de invierno, servido en la propia olla de
+      hierro. No es un ramen ni una sopa de fideos al uso —la masa se cuece en el caldo y lo espesa—
+      y es comida de montaña de noviembre en el sentido literal.
+  - block: Tarde
+    time: "14:30–18:30"
+    title: Debajo de la lava
+    body: >-
+      La tarde va por el subsuelo y es la parte que casi nadie espera. En **864** el Fuji tuvo la
+      erupción *Jōgan*: una colada enorme que bajó por la ladera norte, partió en dos un lago y se
+      solidificó formando tubos huecos. Esos tubos son hoy la **cueva de hielo de Narusawa** y la
+      **cueva de viento de Fugaku**, que se mantienen cerca de cero grados todo el año y que durante
+      décadas se usaron como neveras naturales para guardar semillas y huevos de gusano de seda.
+      Sobre esa misma colada creció el bosque de **Aokigahara**, que se recorre por pasarela. Y al
+      final, las **cataratas Shiraito**: ciento cincuenta metros de ancho de agua saliendo
+      directamente de la pared de roca, porque no es un río lo que cae — es el deshielo del Fuji que
+      lleva décadas filtrándose y aflora aquí de golpe.
+    window:
+      label: Cómo ir vestido
+      body: >-
+        Las cuevas se andan **agachado y por suelo mojado**: escaleras metálicas estrechas, techo
+        bajo y hielo. Y en Shiraito se moja el que se acerca. Calzado con suela agarrada y una capa
+        impermeable, no la ropa de andar por Tokio.
+  - block: Noche
+    time: "18:30–20:30"
+    title: La vuelta
+    body: >-
+      La excursión termina donde empezó y el Kodama de vuelta deja en Tokio en poco más de una hora.
+      Se llega al hotel sobre las ocho y media, con el día hecho y sin haber mirado un mapa en toda
+      la jornada — que después de diecisiete días conduciéndose solos es, en sí mismo, parte de lo
+      que se ha pagado.
+    window:
+      label: Confirmad la hora de fin
+      body: >-
+        Diez horas contadas desde las 8:30 dan las **18:30**, pero el regreso depende del tráfico de
+        un festivo y de cuánto se alargue la última parada. **Preguntadlo el día antes por WhatsApp**
+        y mirad la hora del último Kodama con margen — no es un tren que pase cada diez minutos.
 alt:
   label: Si te desmarcas
   body: >-
-    **Hakone**, en la otra vertiente: un circuito de tren de montaña, funicular, teleférico sobre un
-    valle volcánico humeante y barco pirata por el lago Ashi, con el **Museo al Aire Libre** y sus
-    esculturas de Moore y Picasso entre las montañas. Se hace en el día desde Shinjuku con un pase
-    combinado, tiene **onsen de verdad** y —esto importa— **funciona aunque el Fuji esté tapado**,
-    porque el plan no es la montaña sino el recorrido.
+    Hoy no hay desmarque: está contratado y pagado, y el punto de encuentro está a hora y media de
+    Tokio. Lo que sí conviene es saber **qué se está dejando fuera**, porque la excursión cubre la
+    falda y no la ciudad.
+
+    Que hoy sea el ***Kinrō Kansha no Hi***, festivo nacional del trabajo, tiene un efecto útil en
+    Tokio que hoy no se aprovecha: **los museos que cierran los lunes hoy abren** y trasladan su
+    cierre al **martes 24**. Como mañana toca [Nikkō](#nikko), no molesta — pero si alguien se
+    plantea saltarse la excursión, este es el mejor lunes del año para el Museo Nacional de
+    [Ueno](#ueno) y el Nezu.
+
+    Y la otra cara de la montaña, para otro viaje: **Hakone**, con su circuito de tren de montaña,
+    funicular, teleférico sobre un valle volcánico humeante y barco por el lago Ashi. Tiene onsen de
+    verdad y funciona aunque el Fuji esté tapado, porque el plan no es la montaña sino el recorrido.

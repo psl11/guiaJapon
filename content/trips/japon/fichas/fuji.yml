@@ -54,11 +54,29 @@ sections:
       - **La orilla norte del lago Kawaguchi**, para el reflejo. Solo funciona **sin viento**, y eso
         pasa sobre todo a primera hora.
       - **El teleférico Kachi-Kachi**, tres minutos hasta un mirador sobre el lago.
-      - **Desde el Shinkansen**, entre Shin-Fuji y Mishima: yendo hacia Tokio queda **a la derecha**,
-        asiento E.
+      - **Desde el Shinkansen**, en el tramo entre Shizuoka y Mishima, y sobre todo al pasar por
+        **Shin-Fuji**. El truco del asiento: la numeración va fija al vagón, así que **el E de clase
+        turista —el D en Green Car— cae del lado de la montaña en los dos sentidos**. Saliendo de
+        Tokio es el lado derecho.
       - **Desde el propio Tokio**: el mirador del [**Gobierno Metropolitano**](https://www.google.com/maps/search/?api=1&query=Tokyo%20Metropolitan%20Government%20Building) en
         [Shinjuku](#shinjuku), [Shibuya Sky](#shibuya) y el [**Bunkyō Civic Center**](https://www.google.com/maps/search/?api=1&query=Bunkyo%20Civic%20Center%20Tokyo) lo enmarcan al
         oeste en los días limpios de invierno.
+  - heading: La montaña por debajo
+    body: |
+      Lo que se ve desde lejos es un cono; lo que se pisa alrededor es una colada. En **864** el Fuji
+      tuvo la erupción *Jōgan*, que bajó por la falda norte, represó y partió en dos un lago y se
+      enfrió formando **tubos de lava** huecos. De ahí salen tres cosas que la excursión del
+      [día 18](#dia-18-fuji) recorre en una tarde:
+
+      - **La cueva de hielo de Narusawa y la de viento de Fugaku**, dos de esos tubos. Se mantienen
+        cerca de cero grados todo el año, y antes de que existiera la refrigeración se usaron como
+        almacén de semillas y de huevos de gusano de seda.
+      - **Aokigahara**, el bosque que creció encima de la colada. Tiene una reputación que se le ha
+        quedado pegada y una realidad geológica más interesante: raíces que no pueden hundirse
+        porque debajo hay roca, así que crecen a lo ancho y en superficie.
+      - **Las cataratas Shiraito**, en la falda suroeste: **ciento cincuenta metros de ancho** de
+        agua que no baja de ningún río, sino que **sale directamente de la pared de roca**. Es el
+        deshielo del Fuji, filtrado durante años por la lava porosa, aflorando de golpe.
   - heading: Lo que no sale en las listas
     body: |
       - **Oshino Hakkai** — ocho estanques alimentados por agua de deshielo del Fuji filtrada durante
@@ -83,6 +101,4 @@ curiosidades:
     ceniza.
 seenIn:
   - ref: '#dia-18-fuji'
-    label: "Día 18 · el Fuji"
-  - ref: '#dia-20-flexible'
-    label: "Día 20 · el segundo intento"
+    label: "Día 18 · la excursión"

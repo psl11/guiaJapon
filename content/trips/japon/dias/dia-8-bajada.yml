@@ -3,75 +3,96 @@ navLabel: "Día 8 · La bajada"
 trip: japon
 order: 8
 eyebrow: El plan · Día 8 · vie 13 nov
-title: El amanecer helado, y *ocho husos* de vuelta
+title: La segunda mañana del valle, y *ocho husos* de vuelta
 dek: >-
-  El último día no es un día de aeropuerto: es el mejor amanecer del viaje y luego una tarde de
-  trenes. Aquí el grupo se parte —ellos siguen al oeste hacia [Takayama](#takayama), tú bajas al este— y el huso
-  horario devuelve lo que se llevó a la ida.
+  Una mañana más en Kamikōchi, y luego el día en que el grupo se parte: ellos siguen al oeste hacia
+  [Takayama](#takayama), tú bajas al este. Tu vuelo no sale hoy sino mañana a mediodía, así que este
+  no es un día de aeropuerto — es un día de trenes sin prisa que termina durmiendo junto a la pista.
 blocks:
   - block: Amanecer
-    time: "06:00–08:00"
-    title: El estanque Taishō con escarcha
+    time: "06:00–07:30"
+    title: El baño antes de que se enfríe el día
     body: >-
-      Amanece hacia las **6:15** y hace frío de verdad: bajo cero, con escarcha sobre la hierba y
-      probablemente niebla levantándose del agua. Ese es exactamente el motivo de madrugar. En el
-      estanque Taishō, a esa hora y sin viento, el agua se queda quieta y los troncos muertos y la
-      pared del Hotaka nevada se reflejan enteros. Es la fotografía por la que se sube a este
-      valle, y solo existe una hora al día — en un valle donde, además, esta semana no hay nadie.
+      En [Hirayu](#hirayu-onsen) amanece hacia las **6:15** y a esa hora hace bastante menos de cero.
+      Es el momento del *rotenburo*: agua a cuarenta y tantos grados al aire libre, vapor, y el bosque
+      de la ladera todavía con escarcha. Los onsen abren de madrugada precisamente para esto y el
+      desayuno de la posada viene después. Ver [los onsen](#onsen).
     window:
-      label: Ventana óptima
+      label: Lo que hoy no va a poder ser
       body: >-
-        Las tres condiciones se dan juntas justo ahora: **aire de noviembre** (el más transparente del
-        año), agua en calma (antes de que entre la brisa de media mañana) y nieve reciente en las
-        cumbres. En verano hay bruma y gente; en octubre, color pero multitudes. Ponte el despertador
-        y llévate guantes: a esa temperatura, operar la cámara con los dedos desnudos dura poco.
+        Conviene decirlo claro para no salir con la expectativa equivocada. **La fotografía del
+        estanque Taishō al amanecer no entra en este viaje**: exige dormir dentro del valle y salir
+        andando a las seis, y esas camas estaban vendidas. Lo que sí entra es la versión de media
+        mañana —agua todavía quieta, escarcha en las orillas de sombra y las cumbres nevadas— porque
+        en un valle a mil quinientos metros con paredes de tres mil **el sol tarda en pasar por
+        encima del Hotaka**, y hasta que pasa el fondo sigue frío y azul.
   - block: Mañana
-    time: "09:00–11:00"
+    time: "07:30–10:30"
+    title: Subir otra vez, con lo puesto
+    body: >-
+      El primer autobús de Hirayu vuelve a entrar al valle temprano y hoy se sube **sin equipaje y
+      sin agenda**: las maletas ya van camino de Takayama y lo de ayer ya está visto. Es la mañana
+      para lo que se quedó fuera — el sendero río arriba hasta el **estanque Myōjin**, que es la
+      hora en que está mejor, o volver al Taishō con otra luz. Dos horas y media dan de sobra para
+      una de las dos cosas, y para ninguna de las dos con prisa. Ver [Kamikōchi](#kamikochi).
+    window:
+      label: Comprobadlo la noche antes
+      body: >-
+        **En noviembre los horarios se aligeran** y esta mañana depende entera de dos autobuses: el
+        que sube y el que baja. Preguntad las horas exactas en recepción al llegar, no mañana. Y si
+        el encaje sale justo, la mañana en el valle es lo que se sacrifica — no el margen del que
+        tiene un avión.
+  - block: Mediodía
+    time: "11:00–13:00"
     title: Donde el grupo se parte
     body: >-
-      Se baja del valle en el mismo autobús por el que se subió. En [**Hirayu Onsen**](https://www.google.com/maps/search/?api=1&query=Hirayu%20Onsen%20Takayama), nudo de
-      carreteras al otro lado del túnel, el grupo sigue hacia el **oeste** —Takayama, y de ahí
-      [Shirakawa-gō](#shirakawa-go), [Kanazawa](#kanazawa), [Kioto](#kioto) y el resto de sus tres semanas— y uno de los cuatro vuelve al este, hacia Matsumoto y el aeropuerto. Si cuadran los horarios, merece la pena bajar todos juntos hasta Hirayu y darse el
-      baño de despedida en sus aguas termales antes de separarse: es un final mucho mejor que un
-      adiós en una parada de autobús.
-    window:
-      label: Verificar antes
-      body: >-
-        El enlace **Hirayu → Matsumoto** existe, pero en noviembre los horarios se aligeran y no hay
-        margen para improvisar con un vuelo esperando. Confirmadlo la noche anterior en recepción,
-        y si el encaje es justo, la opción segura es no desviarse a Hirayu y bajar directo a
-        Matsumoto por donde se vino.
+      De vuelta en Hirayu, el nudo de carreteras hace de frontera. El grupo sigue hacia el **oeste**
+      —Takayama a menos de una hora, y de ahí [Shirakawa-gō](#shirakawa-go),
+      [Kanazawa](#kanazawa), [Kioto](#kioto) y el resto de sus tres semanas— y uno de los cuatro
+      toma el autobús contrario, hacia Matsumoto. Comed juntos aquí antes de subir cada uno al suyo:
+      es un final bastante mejor que un adiós en un andén.
   - block: Tarde
-    time: "12:00–17:00"
-    title: Matsumoto, el Azusa y Tokio
+    time: "13:00–19:00"
+    title: Matsumoto, el Azusa y Narita
     body: >-
-      De Matsumoto a [**Shinjuku**](#shinjuku), otras dos horas y media de Azusa, esta vez viendo el paisaje al
-      revés: de las montañas al valle y del valle a la ciudad, que es el resumen del viaje en una
-      ventanilla. Con margen de sobra para llegar al aeropuerto — la cadena entera desde [Kamikōchi](#kamikochi)
-      ronda las **seis horas** contando esperas, y no hay que correr en ningún tramo.
+      La cadena de vuelta son cuatro tramos encadenados y ninguno va apretado: **Hirayu → Matsumoto**
+      en autobús (hora y media), **el Azusa hasta [Shinjuku](#shinjuku)** (dos horas y media, esta vez
+      viendo el paisaje al revés — de las montañas al valle y del valle a la ciudad, que es el
+      resumen del viaje en una ventanilla) y el **Narita Express** desde la misma estación (hora y
+      veinte, ¥3.250). Del valle a la terminal se va en unas **seis horas** contando esperas.
     window:
       label: La aritmética del último día
       body: >-
-        Aquí está el truco que salva el día. Los vuelos de Tokio a Barcelona salen sobre todo
-        **entre las 21:00 y medianoche**, y con una escala tardan unas veintiuna horas. Saliendo de
-        noche del viernes 13 y ganando las ocho horas del huso, se aterriza en Barcelona hacia el
-        mediodía del 14 — que era la condición. Es decir: no se pierde el viernes 13. Se amanece en
-        un valle de los Alpes japoneses y se cena en un avión.
+        Aquí está el motivo de hacerlo así. El vuelo sale de **Narita a las 12:10 del sábado**, y con
+        el mostrador cerrando una hora antes hay que estar allí a las **nueve y media**. Intentarlo
+        desde Tokio esa mañana obliga a un primer tren de las seis y media; intentarlo desde
+        Takayama, directamente no llega. Bajando hoy y **durmiendo junto al aeropuerto**, mañana solo
+        hay que desayunar. Ver [los vuelos](#vuelos).
   - block: Noche
-    time: "~22:00"
-    title: El vuelo
-    dim: true
+    time: "~20:00"
+    title: Dormir al lado de la pista
     body: >-
-      Ocho días, dos ciudades, un pueblo de montaña y un valle que cierra dos días después de que os
-      vayáis. Los otros tres siguen trece días más; a ti te espera Barcelona a mediodía. Y queda
-      pendiente lo que no cupo — que en Japón es siempre casi todo, y por eso se vuelve una quinta
-      vez.
+      Narita tiene hoteles dentro y alrededor, y a estas alturas del viaje el criterio es uno solo:
+      que no haya que coger nada mañana. Los del propio recinto —el **Nine Hours de la Terminal 2**,
+      cápsulas, o el **Nikko Narita** y los Toyoko Inn con *shuttle* gratuito de diez minutos— dejan
+      la última noche resuelta por poco dinero.
+
+
+      Ocho días, dos ciudades, un pueblo de montaña y un valle que cierra dos días después. Los otros
+      tres siguen trece días más; a ti te espera Barcelona mañana por la tarde. Y queda pendiente lo
+      que no cupo — que en Japón es siempre casi todo, y por eso se vuelve una quinta vez.
+    dim: true
 alt:
   label: Si te desmarcas
   body: >-
-    Si al final el vuelo sale de Nagoya en vez de Tokio, el día cambia de sentido y mejora.
+    Con un vuelo a mediodía del sábado hay una variante que cambia el día entero: **no bajar hoy**.
 
-    Desde Hirayu se sigue con el grupo hasta Takayama: su casco antiguo de casas de madera y el
-    mercado matinal de Miyagawa, esta vez con ellos. Y de allí sale el **limited express Hida** hasta
-    Nagoya en unas dos horas y media, siguiendo el desfiladero del río. Es uno de los trayectos de
-    tren más bonitos del país.
+    Se sigue con el grupo desde Hirayu hasta [Takayama](#takayama), se duerme allí con ellos y se
+    hace su mañana —el mercado de Miyagawa al amanecer, que es la mejor hora del pueblo— antes de
+    despedirse. El problema es la vuelta: desde Takayama, el **limited express Hida** tarda dos horas
+    y media hasta Nagoya, más el Shinkansen y el traslado a Narita. Sale sobre el papel y **no deja
+    ni un minuto de colchón**, así que solo tiene sentido si el vuelo se mueve a la tarde.
+
+    La variante razonable de verdad es la contraria: **saltarse la segunda mañana en el valle**,
+    bajar directo a Matsumoto y usar la tarde en su [castillo](#matsumoto-jo), que el día 6 se vio
+    con prisa. Y luego el mismo tren a Narita.

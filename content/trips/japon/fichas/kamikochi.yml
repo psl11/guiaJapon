@@ -53,22 +53,22 @@ sections:
       Alpes japoneses», y en buena medida que el montañismo exista aquí como afición. Hay un
       relieve conmemorativo en el sendero, y cada primera semana de junio se celebra una
       ceremonia en su honor.
-  - heading: Lo que hay que reservar, y cuándo
+  - heading: "Dormir dentro: por qué no pudo ser"
     body: |
-      Este es **el único punto frágil de todo el viaje**, y conviene decirlo aquí en frío. El valle
-      tiene una docena escasa de alojamientos, todos estacionales, y cierran antes que la
-      carretera: varios el 10, el Shirakabaso el 14 de noviembre. Es decir, la noche del 12 es
-      de las últimas que se venden en toda la temporada.
+      El valle tiene una docena escasa de alojamientos, todos estacionales, y cierran incluso antes
+      que la carretera: varios el 10, el Shirakabaso el 14 de noviembre. La noche del 12 es, por
+      tanto, **de las últimas que se venden en toda la temporada** — y las reservas abren en enero
+      para el año entero.
 
-      Las reservas abren **en enero** para el año entero y las casas del [Kappabashi](https://www.google.com/maps/search/?api=1&query=Kappa%20Bridge%20Kamikochi) se llenan meses
-      antes. No hay plan B: no existe el «bajamos a un hotel del pueblo», porque no hay pueblo —
-      lo más cercano es Hirayu, al otro lado del túnel, y el último autobús sale a media tarde. O se
-      duerme dentro o se hace el valle en una excursión de día, que es un viaje completamente
-      distinto y bastante peor.
+      Con esas cuentas, el resultado era previsible: **estaban vendidas**. Así que se duerme abajo,
+      en [Hirayu Onsen](#hirayu-onsen), al otro lado del túnel. No hay término medio, porque **no hay
+      pueblo**: dentro del valle no existe el «bajamos al hotel del centro», existe el hotel del
+      valle o veinticinco minutos de autobús.
 
-      Las condiciones concretas de esas fechas —temperatura, escarcha, luz— están en el
-      [plan del día 7](#dia-7-kamikochi) y en [dormir en Kamikōchi](#dormir-en-kamikochi).
-      Aquí basta con la parte que caduca: **reservar es lo primero que hay que hacer del viaje**.
+      Lo que eso cuesta en concreto —básicamente el amanecer en el estanque Taishō, que es la única
+      hora del día en que el agua está quieta y no hay nadie— está desglosado en
+      [dormir en el valle](#dormir-en-kamikochi). Y cómo queda el plan resultante, en el
+      [día 7](#dia-7-kamikochi) y el [día 8](#dia-8-bajada).
 curiosidades:
   - >-
     **El valle cierra el 15 de noviembre y no vuelve a abrir hasta el 16 de abril.** Cinco meses al
@@ -85,4 +85,4 @@ seenIn:
   - ref: '#dia-7-kamikochi'
     label: "Día 7 · Kamikōchi"
   - ref: '#dia-8-bajada'
-    label: "Día 8 · el amanecer"
+    label: "Día 8 · la segunda mañana"

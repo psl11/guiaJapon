@@ -11,9 +11,15 @@ descubrir.
 Guía de viaje a Japón (**6–26 de noviembre de 2026**, 21 días, cuatro viajeros) publicada como sitio
 estático en https://psl11.github.io/guiaJapon/. Bifurcada de `guiaVietnam`, que comparte plataforma.
 
-**El dato que ordena todo el contenido:** el grupo son cuatro, **tres hacen los 21 días** y **uno
-vuelve a Barcelona el 13 de noviembre** (la jornada 8). Para tres es su primer viaje a Japón; para el
-cuarto, el quinto. La guía cuenta el viaje entero y sirve a los dos lectores a la vez.
+**El dato que ordena todo el contenido:** el grupo son cuatro, **tres hacen los 21 días** y **uno se
+separa el 13 de noviembre** (la jornada 8). Para tres es su primer viaje a Japón; para el cuarto, el
+quinto. La guía cuenta el viaje entero y sirve a los dos lectores a la vez.
+
+Ojo con las dos fechas del que se baja, porque no son la misma y se confunden fácil: **baja de la
+montaña el viernes 13** —Kamikōchi, Matsumoto, el Azusa, el N'EX, noche junto al aeropuerto— y
+**vuela el sábado 14 a las 12:10 desde Narita**. Es el único de los cuatro que no sale por Haneda,
+y eso arrastra dos cosas por el contenido: su maleta de [takkyūbin](#) no va a Takayama con las
+otras tres, y no puede devolver la fianza de la tarjeta IC en su aeropuerto de salida.
 
 **Y un dato que toca muchos ficheros: en Tokio se duerme en dos barrios distintos.** Las cinco
 primeras noches en **Akihabara** y las cinco últimas en **Shinjuku**. No es casual —la ventaja de
@@ -291,6 +297,23 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
 - Sin foto verificable: Ebisu-Meguro y Masakado.
 - Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
   hay forma de verificar que una imagen de Commons sea ese local.
-- **El cuarto vuelo sin comprar** (vuelta el 13).
-- **Y lo único que caduca: la noche del Shirakabaso en Kamikōchi.** El valle cierra el 15 de
-  noviembre, el hotel el 14, las reservas abrieron en enero y **no hay plan B**.
+- **La noche del 12 en Hirayu Onsen, sin reservar.** Es lo único que corre prisa. Y es la
+  consecuencia de la lección de abajo: como las camas del valle se agotaron, hay que asegurar las de
+  abajo antes de que pase lo mismo.
+- Sin ficha de hotel: Hirayu y el de Narita. **No se han inventado**, que es la regla 4.7 — cuando
+  se elija el establecimiento concreto, van a `hoteles/` con sus coordenadas de verdad.
+
+**Cerrado desde la última pasada (ago 2026), y qué cambió en el contenido:**
+- **Los cuatro vuelos están comprados.** El cuarto sale de **Narita el sábado 14 a las 12:10**, no
+  la noche del 13 como se planeó. Eso reescribió el día 8 entero: ya no termina en un aeropuerto
+  esa misma noche, sino durmiendo al lado de la pista.
+- **La noche dentro de Kamikōchi no pudo ser: estaba vendida.** Se duerme en **Hirayu Onsen**, al
+  otro lado del túnel. Cuesta **el amanecer en el estanque Taishō** —que era la razón declarada de
+  subir— y por eso hay tres sitios donde eso se dice sin adornar: el día 7, el día 8 y la inversión
+  `dormir-en-kamikochi`, que se conserva **aunque la decisión ya no exista** porque explica el
+  porqué a quien lea esto a tiempo. La reco cambió de slug: `kamikochi-reserva` → `hirayu-onsen`.
+- **El Fuji del día 23 va contratado**: excursión guiada en español de diez horas con
+  [Turismo Victoria](https://turismovictoria.com), recogida en **Shin-Fuji a las 8:30**. Dos
+  consecuencias: el día 18 ya no es una decisión meteorológica de las seis de la mañana, y **el día
+  20 dejó de ser la segunda oportunidad del Fuji** y pasó a ser comodín de verdad. La trampa al
+  comprar el tren: **en Shin-Fuji solo para el Kodama**, ni Nozomi ni Hikari.

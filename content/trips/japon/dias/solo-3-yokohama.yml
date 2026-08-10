@@ -1,9 +1,9 @@
-slug: solo-4-yokohama
-navLabel: "Solo · jue 5 · Yokohama"
+slug: solo-3-yokohama
+navLabel: "Solo · mié 4 · Yokohama"
 trip: japon
 tramo: solo
-order: 104
-eyebrow: En solitario · jue 5 nov
+order: 103
+eyebrow: En solitario · mié 4 nov
 title: Kioto en Yokohama, y el puerto *por donde entró todo*
 dek: >-
   Yokohama tiene fama de centro comercial junto al mar, y esa parte se puede saltar entera. Lo que
@@ -65,6 +65,24 @@ blocks:
         El **Archivo Histórico de Yokohama**, junto al puerto, es pequeño y cuenta exactamente esto: la
         llegada de Perry, el tratado, los años en que esta ciudad fue la rendija por la que Japón miró
         afuera. Está en el antiguo consulado británico y se ve en cuarenta minutos.
+  - block: Media tarde
+    time: "15:00–16:00"
+    title: Chigusa, el primer jazz kissa de Japón
+    body: >-
+      A tres minutos de la estación de Sakuragichō, en el barrio de **Noge**, está
+      [**Chigusa**](#chigusa) — y no es «un jazz kissa antiguo», es **el primero**. Lo abrió **Mamoru
+      Yoshida en 1933** con un gramófono y cien discos de pizarra. En **1945 un bombardeo se llevó el
+      local y la colección entera**; Yoshida lo reconstruyó y volvió a comprar los discos uno a uno.
+
+      Ha cerrado y resucitado varias veces desde entonces; la última en **2012**, cuando un grupo de
+      parroquianos de toda la vida se organizó para levantarlo otra vez a pocos metros del sitio
+      original. Se escucha y no se charla, casi todo en vinilo, veinte y pico plazas.
+    window:
+      label: Y por esto Yokohama es hoy y no mañana
+      body: >-
+        **Chigusa cierra los jueves.** El resto de la semana abre de 12:00 a 22:00, así que el plan
+        original —Yokohama el jueves 5— lo perdía por un día. Cambiado el orden con
+        [Kawagoe](#solo-4-kawagoe), que no cierra ningún día, salen las dos cosas.
   - block: Atardecer
     time: "16:00–18:00"
     title: Ōsanbashi, la terminal sin escaleras

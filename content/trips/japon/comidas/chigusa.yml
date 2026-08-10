@@ -1,0 +1,40 @@
+slug: chigusa
+trip: japon
+part: japon
+city: Yokohama
+category: cafe
+order: 14
+title: Jazz Kissa Chigusa
+navLabel: "Chigusa (jazz kissa)"
+tipo: jazz kissa · el más antiguo de Japón, desde 1933
+area: Noge, Naka-ku · 3 min de la estación de Sakuragichō
+cuando: "En solitario · mié 4, después de Sankeien · CIERRA LOS JUEVES"
+precio: "¥700–1.200 (5–8 €)"
+reserva: "No"
+colas: "Poca cosa · es pequeño, 20 y pico plazas"
+badge: "El jazz kissa más antiguo del país"
+quePedir: >-
+  Café solo y sentarse de cara a los altavoces. Si quieres pedir un disco, se pide **antes** de que
+  empiece la cara que está sonando — no se interrumpe.
+body: >-
+  El ***jazz kissa*** es el otro gran género del café de escucha, y este es **el primero de todos**.
+  Lo abrió **Mamoru Yoshida en 1933** con un gramófono y cerca de cien discos de pizarra, en el barrio
+  de **Noge**. En 1945 un bombardeo americano se llevó el local **y la colección entera**. Yoshida lo
+  reconstruyó desde cero y volvió a comprar discos uno a uno.
+
+
+  Ha muerto y resucitado varias veces desde entonces: la última, en **2012**, cuando un grupo de
+  parroquianos de toda la vida se organizó para levantarlo otra vez a pocos metros del sitio original,
+  con los altavoces y los discos que se habían salvado. No es nostalgia de diseño: es un local que la
+  ciudad se negó a perder.
+
+
+  Se escucha, no se charla: sin humo, **sin conversación alta**, casi todo en vinilo y de swing antiguo
+  a jazz experimental. Encaja perfecto al bajar de Sankeien camino del puerto — pero **ojo con el día**.
+  Abre de **12:00 a 22:00 y cierra los jueves**, que es exactamente el motivo por el que Yokohama pasó
+  al miércoles en este plan.
+seenIn:
+  - ref: '#solo-3-yokohama'
+    label: "Solo · mié 4 · Yokohama"
+  - ref: '#cafe-kissaten'
+    label: "El café japonés"

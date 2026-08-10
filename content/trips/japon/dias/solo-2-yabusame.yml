@@ -92,3 +92,23 @@ blocks:
         Las fachadas de Omotesandō son casi todas de vidrio y metal: **funcionan a última hora**, cuando
         el sol entra bajo y se encienden desde dentro. A mediodía son planas. El Nezu cierra a las 17:00,
         así que si lo quieres, entra antes y deja la avenida para la caída.
+  - block: Noche
+    time: "18:00–19:30"
+    title: El kissa donde está prohibido hablar
+    body: >-
+      Bajando Omotesandō se llega a Shibuya, y ahí está el remate del día: el [**Meikyoku Kissa
+      Lion**](#meikyoku-kissa-lion), de **1926**. Es un *café de música maestra* — el género que nació
+      cuando oír una sinfonía costaba más que un sueldo y la única manera era pagar un café en un local
+      con equipo. Las butacas están atornilladas **mirando a los altavoces**, como en un cine; hay un
+      programa impreso de lo que va a sonar; la luz es de vela.
+
+      Y **no se habla**: ni conversación, ni móvil, ni cámara. Se pide en voz baja, se sienta uno y se
+      escucha. A tres minutos del cruce más ruidoso del mundo.
+    dim: true
+    window:
+      label: Por qué cierra bien el día
+      body: >-
+        Porque llevas desde las nueve y media de pie y con gente: museo, gentío del festival, caballos,
+        avenida. El Lion es lo contrario de todo eso y **no te deja hacer nada** —ni mirar el móvil ni
+        hablar—, que es justo lo que hace falta antes de volver a Ueno al baño. Deja la cámara guardada:
+        aquí está prohibida, y esa es media gracia del sitio.

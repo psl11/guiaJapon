@@ -34,9 +34,10 @@ blocks:
     window:
       label: Por qué esta sala y no el museo
       body: >-
-        Porque el Honkan pide tres horas y hoy tienes hora y media. Y porque el Hōryū-ji conecta con lo
-        que vas a ver luego con el grupo: **Nara es el día 14**, y esas figuras salieron de allí. Ver
-        primero los bronces y después el templo vacío del que se los llevaron es el orden bueno.
+        Porque el Honkan pide tres horas y hoy tienes hora y media. Y porque, con **Nara fuera del
+        itinerario del grupo**, esta sala es lo más cerca que vas a estar del Japón del siglo VII en todo
+        el viaje: son las piezas del Hōryū-ji —el conjunto de madera más antiguo del mundo— sin tener
+        que bajar a Nara a por ellas. Es un premio de consolación que resulta ser mejor que el premio.
   - block: Mediodía
     time: "12:00–13:00"
     title: Llegar pronto a la explanada oeste

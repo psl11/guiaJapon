@@ -1,0 +1,86 @@
+slug: solo-4-yokohama
+navLabel: "Solo · jue 5 · Yokohama"
+trip: japon
+tramo: solo
+order: 104
+eyebrow: En solitario · jue 5 nov
+title: Kioto en Yokohama, y el puerto *por donde entró todo*
+dek: >-
+  Yokohama tiene fama de centro comercial junto al mar, y esa parte se puede saltar entera. Lo que
+  hay que hacer aquí son dos cosas: un jardín donde un magnate de la seda coleccionó edificios
+  históricos de medio Japón, y el muelle por el que el país dejó de estar cerrado.
+traslados:
+  - desde: "Ueno"
+    hasta: "Negishi"
+    medio: "JR Keihin-Tōhoku, directo"
+    duracion: "~1 h"
+    hora: "salir 08:15"
+    nota: "Sin transbordos desde Ueno. Desde Negishi, autobús (~10 min) hasta Honmoku Sannotani."
+  - desde: "Sankeien"
+    hasta: "Motomachi-Chūkagai"
+    medio: "Autobús + Minatomirai"
+    duracion: "~35 min"
+    hora: "salir 13:00"
+blocks:
+  - block: Mañana
+    time: "09:00–12:30"
+    title: Sankeien, el jardín que compró edificios
+    body: >-
+      **Hara Tomitarō** hizo una fortuna con la seda cuando Yokohama era el puerto por el que salía toda
+      la del país. Y en vez de construirse una mansión, se dedicó a **comprar edificios históricos por
+      todo Japón, desmontarlos y remontarlos** en sus dieciocho hectáreas junto al mar. Luego, en
+      **1906**, abrió el jardín al público.
+
+      Hay **diecisiete construcciones, diez de ellas Bien Cultural Importante**, traídas de Kioto, Nara y
+      Kamakura: casas de té, una sala de templo, una residencia de la familia Tokugawa — y una **pagoda
+      de tres pisos de 1457**, que es **la más antigua de madera que queda en todo el Kantō**. Puestas en
+      un paisaje de estanques y colinas que se recorre en un par de horas largas.
+
+      Es, literalmente, arquitectura de Kioto **sin Kioto**: sin autobuses, sin cola y sin las mil
+      personas que tendrás delante el día 11.
+    window:
+      label: Aviso honesto sobre las hojas
+      body: >-
+        El kōyō de Sankeien **pica de mediados de noviembre a mediados de diciembre**, así que el 5 llegas
+        **dos semanas pronto**: verás verde y algún arce adelantado, no el rojo de las fotos. El jardín
+        aguanta igual —lo que lo hace no son las hojas, son los edificios—, pero ve sabiéndolo. Abre a
+        las **09:00** y la mejor luz es esa primera hora, con niebla sobre el estanque.
+  - block: Mediodía
+    time: "13:30–15:00"
+    title: El barranco de los extranjeros
+    body: >-
+      Yokohama era una **aldea de pescadores** hasta que los barcos negros de Perry forzaron la apertura
+      y en **1859** se abrió como puerto al comercio exterior. Todo lo que hoy suena a japonés moderno
+      entró por aquí: el primer periódico en inglés, el primer ferrocarril, la primera cervecería, el
+      primer helado, las farolas de gas.
+
+      La colonia extranjera vivió arriba, en el **Yamate**, «el barranco»: casas de madera de estilo
+      occidental con porche y jardín, un cementerio extranjero y vistas al puerto. Se baja de ahí a
+      **Motomachi** —la calle donde compraban— y se acaba en el **Chūkagai**, el **barrio chino más
+      grande de Japón**: cuatrocientos y pico restaurantes en unas pocas manzanas, con sus cuatro puertas
+      orientadas a los puntos cardinales. Comer aquí es lo obvio y está bien.
+    window:
+      label: Si te va la historia y no las tiendas
+      body: >-
+        El **Archivo Histórico de Yokohama**, junto al puerto, es pequeño y cuenta exactamente esto: la
+        llegada de Perry, el tratado, los años en que esta ciudad fue la rendija por la que Japón miró
+        afuera. Está en el antiguo consulado británico y se ve en cuarenta minutos.
+  - block: Atardecer
+    time: "16:00–18:00"
+    title: Ōsanbashi, la terminal sin escaleras
+    body: >-
+      Y para cerrar, el mejor sitio de Yokohama y encima gratis: la **terminal de cruceros de
+      Ōsanbashi**. Por fuera no parece un edificio sino **una duna de madera** — una cubierta continua de
+      tablas que sube y baja sin un solo escalón ni una sola columna a la vista, proyectada en 2002 por
+      Foreign Office Architects. Se camina por encima como por un paisaje.
+
+      Desde ahí, el puerto entero y la silueta de Minato Mirai enfrente. Está **abierta día y noche**, no
+      se paga, y al ponerse el sol la madera se calienta de color mientras se encienden las torres. Con
+      un 35 mm es de los mejores encuadres de todo el viaje.
+    window:
+      label: Ventana óptima
+      body: >-
+        **La media hora anterior y la media hora posterior a la puesta de sol** — en noviembre, hacia las
+        16:40. La madera con el sol bajo y luego el azul con la ciudad encendida: son dos fotos distintas
+        con veinte minutos de diferencia y las dos merecen la pena. Después, vuelta a Ueno (~50 min) y
+        último baño largo, que mañana llega el grupo.

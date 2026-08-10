@@ -1,0 +1,56 @@
+slug: dormy-inn-ueno-okachimachi
+navLabel: "Dormy Inn Ueno-Okachimachi"
+trip: japon
+city: Tokio · Ueno (en solitario)
+order: 5
+status: candidato
+title: Dormy Inn Ueno-Okachimachi Hot Spring
+tipo: business con onsen natural
+area: Ueno / Okachimachi, Taitō
+noches: 4 noches · 2 a 5 nov · solo el cuarto viajero
+habitaciones: Una individual
+nota: Baños en la planta 12 · agua termal natural · 15:00 a 10:00 del día siguiente
+body: >-
+  **Esto es el Candeo de Shimbashi, pero con agua de verdad.** Lo que enganchó allí era el Sky Spa: la
+  planta alta, el baño al aire libre y la sauna. Aquí está lo mismo —**baños en la planta 12, con parte
+  exterior, baño frío y sauna**— y encima el agua es **termal natural**, no calentada. Abren de las
+  **15:00 a las 10:00 del día siguiente** (la sauna cierra de 01:00 a 05:00), así que llegues a la hora
+  que llegues, hay baño.
+
+
+  Y la costumbre de la casa, que es marca de la cadena: el ***yonaki soba***, un cuenco de ramen
+  **gratis** que sirven a partir de las nueve y media de la noche en el vestíbulo. Suena a anécdota y
+  es exactamente lo que quieres el día que aterrizas a las diez y media de la mañana con ocho husos
+  encima.
+
+
+  **Por qué Ueno y no Shimbashi, esta vez.** Los cuatro días piden tres salidas y Ueno las gana todas:
+  es **la terminal del Skyliner** que te trae de Narita, tiene la Yamanote a Ikebukuro para
+  [Kawagoe](#solo-3-kawagoe) en quince minutos, y el Keihin-Tōhoku directo a
+  [Yokohama](#solo-4-yokohama). Encima, **los museos nacionales que el día 3 abren gratis están a
+  cinco minutos andando** — y el hotel del grupo, en Akihabara, está **a una parada**: el cambio del
+  día 6 es un trayecto de tres minutos con la maleta.
+
+
+  **A verificar al reservar:** que la habitación sea de no fumadores (la cadena aún tiene plantas de
+  fumadores) y si hay **restricción por tatuajes** en el baño, que en onsen de hotel suele ser laxa
+  pero conviene preguntar. Y ojo: son **cuatro noches que van por tu cuenta**, fuera del bote del
+  grupo.
+estaciones:
+  - nombre: Okachimachi
+    lineas: JR Yamanote · Keihin-Tōhoku
+    minutos: 4
+  - nombre: Ueno-Hirokōji
+    lineas: Ginza
+    minutos: 3
+  - nombre: Ueno
+    lineas: JR Yamanote · Keihin-Tōhoku · Keisei Skyliner · Ginza · Hibiya
+    minutos: 8
+link:
+  url: "https://www.google.com/maps/search/?api=1&query=Dormy+Inn+Ueno+Okachimachi+Hot+Spring+Tokyo"
+  label: Ver en el mapa
+seenIn:
+  - ref: '#solo-1-narita'
+    label: Solo · lun 2 · llegada
+  - ref: '#solo-5-fukagawa'
+    label: Solo · vie 6 · el cambio

@@ -1,0 +1,88 @@
+slug: solo-3-kawagoe
+navLabel: "Solo · mié 4 · Kawagoe"
+trip: japon
+tramo: solo
+order: 103
+eyebrow: En solitario · mié 4 nov
+title: La única habitación que queda *del castillo de Edo*
+dek: >-
+  Kawagoe se vende como «la pequeña Edo» por su calle de almacenes de barro, y está bien — pero el
+  motivo de verdad para venir está en un templo a veinte minutos de esa calle, y no lo sabe casi
+  ningún visitante. Miércoles, día laborable: la ciudad estará como debe estar.
+traslados:
+  - desde: "Ueno"
+    hasta: "Ikebukuro"
+    medio: "JR Yamanote"
+    duracion: "~15 min"
+    hora: "salir 08:15"
+  - desde: "Ikebukuro"
+    hasta: "Kawagoe"
+    medio: "Tōbu Tōjō, *kyūkō* (exprés)"
+    duracion: "~30 min"
+    hora: "salir 08:35"
+    nota: "El exprés no lleva suplemento: mismo billete que el local, la mitad de paradas. ~¥500."
+blocks:
+  - block: Mañana
+    time: "09:30–11:00"
+    title: Kita-in, y las tres salas que sobrevivieron
+    body: >-
+      Del castillo de Edo —la fortaleza más grande del mundo en su día, el centro del poder de los
+      Tokugawa durante dos siglos y medio— **no queda nada**: lo que no se llevaron los incendios lo
+      remató el terremoto de 1923, y encima de su solar está hoy el Palacio Imperial. Con una excepción,
+      y está aquí.
+
+      Cuando Kawagoe se quemó en **1638**, el tercer shōgun, **Tokugawa Iemitsu**, mandó desmontar varios
+      pabellones del **Momijiyama** del castillo de Edo, subirlos por el río y remontarlos en el
+      **Kita-in**. Siguen en pie. Se entra descalzo y se recorren: el **kyakuden**, donde está **la sala
+      en la que nació Iemitsu**, y el **shoin**, que era **el tocador de Kasuga no Tsubone**, su nodriza
+      —la mujer que gobernó el harén del shōgun y que es un personaje mayor de la historia japonesa—.
+
+      Dicho claro: **este es el único sitio del planeta donde se puede entrar en una habitación del
+      castillo de Edo**. Y aparte hay un jardín seco, y los **538 rakan** —quinientas y pico estatuillas
+      de discípulos de Buda, cada una con una cara distinta, ninguna repetida—.
+    window:
+      label: Por qué lo primero
+      body: >-
+        Abre a las **8:50** y cierra a las **16:30**, y está a veinte minutos andando de la estación, en
+        dirección contraria a la calle de los almacenes. Si lo dejas para después de comer acabas
+        corriendo, y esto es lo que has venido a ver. Entrada **¥400**.
+  - block: Mediodía
+    time: "11:30–14:00"
+    title: La calle de los kurazukuri
+    body: >-
+      Ahora sí, la postal: **Ichiban-gai**, una calle entera de **kurazukuri**, las casas-almacén de los
+      comerciantes de Edo — muros de barro de treinta centímetros, tejas negras pesadas y grandes
+      portones de hierro. Se construían así **contra el fuego**, que era la plaga de las ciudades de
+      madera; Kawagoe conserva la hilera porque el gran incendio de 1893 se llevó lo demás y se
+      reconstruyó justo con esta técnica.
+
+      En mitad de la calle está la **Toki no Kane**, la torre del campanario: da la hora **cuatro veces
+      al día** —06:00, 12:00, 15:00 y 18:00—, así que si andas por aquí a mediodía la oyes. Y a un lado,
+      **Kashiya Yokochō**, el callejón de los dulces: dos docenas de tiendas de caramelo artesano y
+      galleta de boniato, que es el producto de Kawagoe.
+    window:
+      label: Ventana óptima
+      body: >-
+        **Entre semana.** Kawagoe está a media hora de Ikebukuro y los fines de semana y festivos se
+        llena de tokiotas; un miércoles de noviembre la calle es fotografiable de verdad. Y para la
+        cámara: los muros negros piden **luz lateral**, así que la calle funciona mejor a media mañana o
+        a media tarde que al mediodía plano.
+  - block: Tarde
+    time: "14:00–16:30"
+    title: Hikawa, y los túneles de los deseos
+    body: >-
+      A quince minutos al norte, el **Hikawa Jinja** es santuario de parejas desde hace mil quinientos
+      años, y lo lleva al extremo: un **túnel de dos mil emas** —las tablillas de madera de los deseos—
+      formando un pasillo, y en verano miles de móviles de cristal. Aunque no te vaya el asunto
+      romántico, es de los sitios más fotogénicos de Kantō.
+
+      Y si sobra tarde, la **Kurazukuri Shiryōkan** o el pequeño museo de la ciudad explican bien cómo se
+      levantaba un muro de esos. Vuelta a Ikebukuro y de ahí a Ueno; el baño de la doce sigue en su
+      sitio.
+    window:
+      label: Si prefieres apurar la luz
+      body: >-
+        La alternativa a Hikawa es quedarse en la calle vieja hasta el atardecer: los almacenes con el
+        sol bajo y las tiendas encendiendo los faroles es la mejor hora del día aquí. Kawagoe se vacía
+        pronto —los excursionistas cogen el tren de las cinco—, así que **la última hora la tienes casi
+        para ti**.

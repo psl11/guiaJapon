@@ -1,0 +1,94 @@
+slug: solo-2-yabusame
+navLabel: "Solo · mar 3 · Yabusame"
+trip: japon
+tramo: solo
+order: 102
+eyebrow: En solitario · mar 3 nov · festivo
+title: El día que el calendario *regala*
+dek: >-
+  De los cuatro días sueltos, este es el que no se elige: es **Bunka no Hi**, el Día de la Cultura, y
+  trae dos cosas que solo pasan hoy. Por la mañana, los museos nacionales abren gratis —y los cuatro
+  grandes están a cinco minutos del hotel—. Por la tarde, el Meiji Jingū saca los caballos.
+traslados:
+  - desde: "Ueno"
+    hasta: "Yoyogi"
+    medio: "JR Yamanote"
+    duracion: "~25 min"
+    hora: "salir 11:30"
+    nota: "**Yoyogi, no Harajuku.** El yabusame es en la explanada oeste y por Harajuku se entra por el otro extremo del bosque."
+blocks:
+  - block: Mañana
+    time: "09:30–11:15"
+    title: El Museo Nacional, y hoy sin pagar
+    body: >-
+      Hoy **el Tokyo National Museum es gratis** —como el de Arte Occidental, el de Ciencias y el de
+      Arte Moderno—, y los tienes todos en el parque de Ueno, a cinco minutos andando. Con hora y media
+      no se ve el museo entero, así que la jugada es ir a **una sola sala** y verla bien: la **galería de
+      los Tesoros del Hōryū-ji**.
+
+      Es un edificio aparte, de **Yoshio Taniguchi** (el mismo que rehízo el MoMA), y dentro guarda
+      **cuarenta y ocho estatuillas budistas de bronce del siglo VII** que el templo Hōryū-ji de Nara
+      cedió a la casa imperial en 1878. Están en una penumbra casi total, alineadas en vitrinas negras,
+      cada una con su punto de luz. Es una de las mejores salas de museo del mundo y casi nadie que
+      visita Tokio por primera vez llega a ella.
+    window:
+      label: Por qué esta sala y no el museo
+      body: >-
+        Porque el Honkan pide tres horas y hoy tienes hora y media. Y porque el Hōryū-ji conecta con lo
+        que vas a ver luego con el grupo: **Nara es el día 14**, y esas figuras salieron de allí. Ver
+        primero los bronces y después el templo vacío del que se los llevaron es el orden bueno.
+  - block: Mediodía
+    time: "12:00–13:00"
+    title: Llegar pronto a la explanada oeste
+    body: >-
+      El Meiji Jingū celebra hoy su **Gran Festival de Otoño**, y el bosque está distinto: hay
+      **exposición de crisantemos** —la flor imperial, cultivada en formas que tardan un año— y
+      demostraciones de artes marciales y música de corte a lo largo del día.
+
+      Pero hay que llegar con hora de margen, porque el sitio del yabusame **se llena y cierran el
+      acceso cuando revienta**. Se ve de pie, gratis, sin entrada ni reserva. Cómete algo antes: dentro
+      no vas a querer moverte.
+    window:
+      label: El error que comete todo el mundo
+      body: >-
+        Bajarse en **Harajuku**. El yabusame es en la **explanada oeste** y la estación buena es
+        **Yoyogi**; desde Harajuku son quince minutos más de bosque y llegas cuando ya no hay hueco en
+        primera fila.
+  - block: Tarde
+    time: "13:00–14:30"
+    title: Yabusame, tiro con arco a caballo
+    body: >-
+      A las **13:00** empieza. Primero un **rito por la paz** hacia las 13:10, y a las **13:15 suena el
+      tambor de salida**. Entonces los arqueros bajan una pista larga **al galope**, con traje de caza
+      del período Kamakura, y disparan a **tres blancos sucesivos a su izquierda** sin tocar las riendas.
+
+      No es una competición ni un espectáculo: es un **rito sintoísta**. Los arqueros no compiten por
+      puntería, ofrecen los disparos a los dioses pidiendo paz, buena cosecha y salud. Cuando un blanco
+      revienta, la grada entera responde.
+    window:
+      label: Para la cámara
+      body: >-
+        Con un 35 mm fijo no vas a congelar al caballo pasando: **no lo intentes**. Lo que sí tienes es
+        todo lo demás — los arqueros esperando turno, los trajes, las caras de la gente apretada contra
+        la cuerda, el humo del tambor. La foto de este día no es el galope, es el rito alrededor del
+        galope.
+  - block: Atardecer
+    time: "15:00–18:00"
+    title: Omotesandō, la calle de los arquitectos
+    body: >-
+      Cuando se deshaga el gentío, el bosque del Meiji Jingū se queda tranquilo otra vez: es el momento
+      de andarlo despacio y ver los crisantemos sin cola. Y al salir por el sur tienes **Omotesandō**,
+      que para quinta visita es mejor plan que Shibuya: en un kilómetro de avenida hay edificios de
+      **Tadao Andō, Kengo Kuma, SANAA, Toyo Itō y Herzog & de Meuron** —la Prada de burbujas de cristal
+      es de estos últimos—. Es un catálogo de arquitectura japonesa contemporánea a pie de calle, gratis
+      y sin cola.
+
+      Si quieres rematar dentro, el **Museo Nezu** está al final de la avenida: colección de arte
+      asiático en un edificio de Kuma y, detrás, **un jardín con estanque y casas de té** que no espera
+      nadie en mitad de Aoyama.
+    window:
+      label: Ventana óptima
+      body: >-
+        Las fachadas de Omotesandō son casi todas de vidrio y metal: **funcionan a última hora**, cuando
+        el sol entra bajo y se encienden desde dentro. A mediodía son planas. El Nezu cierra a las 17:00,
+        así que si lo quieres, entra antes y deja la avenida para la caída.

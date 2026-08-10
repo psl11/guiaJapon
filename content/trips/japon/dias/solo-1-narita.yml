@@ -1,0 +1,93 @@
+slug: solo-1-narita
+navLabel: "Solo · lun 2 · Narita"
+trip: japon
+tramo: solo
+order: 101
+eyebrow: En solitario · lun 2 nov
+title: Aterrizar y *no* ir a Tokio
+dek: >-
+  El avión abre la puerta a las 10:20 y el grupo no llega hasta el viernes. La tentación es coger el
+  Skyliner y plantarse en el centro con las maletas y ocho husos encima; el plan es el contrario —
+  quedarse en Chiba dos horas y entrar en Tokio ya de noche, habiendo visto algo.
+traslados:
+  - desde: "Narita T1"
+    hasta: "Narita (ciudad)"
+    medio: "Keisei línea principal"
+    duracion: "~10 min"
+    hora: "salir en cuanto se pase la aduana, ~11:30"
+    nota: "**No cojas el Skyliner todavía.** Se va a la estación de Narita, dos paradas, con el tren local."
+  - desde: "Narita (ciudad)"
+    hasta: "Ueno"
+    medio: "Keisei *Skyliner*"
+    duracion: "~50 min"
+    hora: "salir hacia las 17:00"
+    nota: "El Skyliner para en Narita ciudad, no solo en el aeropuerto. ¥2.570 hasta Ueno."
+blocks:
+  - block: Mañana
+    time: "10:20–11:30"
+    title: Narita T1, y la primera decisión
+    body: >-
+      El **LX 160** —con número de ANA, avión de SWISS— para en la **T1**, que es la de Star Alliance.
+      Entre desembarcar, inmigración y equipaje se van tranquilamente **una hora larga**. Dos cosas antes
+      de salir de la terminal: la **tarjeta IC** (Suica o Pasmo) y, si lo vas a usar, la **eSIM**
+      activada. Y deja la maleta en una consigna de la estación de Narita ciudad — vas a andar dos horas
+      y no apetece hacerlo arrastrando.
+    window:
+      label: Por qué no ir directo a Tokio
+      body: >-
+        Porque hoy no da para Tokio. Has dormido a trozos en trece horas de avión y el hotel no te va a
+        dar la habitación hasta las tres. Si te vas al centro, la tarde se convierte en arrastrar el
+        equipaje y luchar contra el sueño en una cafetería. Narita ciudad está a **diez minutos** en
+        dirección contraria, tiene el templo más importante del este de Japón y **no cierra**.
+  - block: Mediodía
+    time: "~12:00"
+    title: La calle de las anguilas
+    body: >-
+      De la estación al templo hay **unos diez minutos** por la **omotesandō**, la calle de peregrinación:
+      una cuesta de casas bajas de madera, tiendas de encurtidos y, sobre todo, **anguila**. Narita es
+      ciudad de **unagi** desde que los peregrinos que venían a pie al templo la comían del río Tone, y
+      todavía hoy verás a los cocineros abriendo las anguilas **en la calle, delante del local**, con un
+      punzón y un cuchillo. Es de las estampas más fotografiables de Kantō y no está montada para nadie:
+      lleva haciéndose así trescientos años.
+
+      Comer aquí un **unadon** —anguila a la brasa con salsa dulce sobre arroz— es el primer plato del
+      viaje y uno bueno. La casa de referencia es **Kawatoyo**, en mitad de la cuesta; se hace cola, van
+      rápidas.
+    window:
+      label: Ventana óptima
+      body: >-
+        Justo a la hora de comer, que es cuando los cocineros están abriendo anguila en la puerta. A media
+        tarde la calle sigue ahí pero el espectáculo se acaba, y muchos locales cierran a media tarde
+        porque viven del mediodía.
+  - block: Tarde
+    time: "~13:30–16:30"
+    title: Narita-san Shinshō-ji
+    body: >-
+      El **Narita-san Shinshō-ji** es de **940** y uno de los grandes templos Shingon del país: no es un
+      sitio de paso hacia el aeropuerto, es un complejo enorme con **pagoda de tres pisos de 1712**, sala
+      principal, y un **parque de 165.000 m²** detrás que casi nadie cruza.
+
+      Lo que hay que ver es el **goma**: el rito del fuego, varias veces al día, en el que los monjes
+      queman tablillas de madera con peticiones mientras tocan el taiko. Se entra sin pagar, se descalza
+      uno y se sienta. Dura media hora larga y es de lo más físico que tiene el budismo japonés —el calor,
+      el humo y el tambor—. Al terminar, la gente lleva sus bolsos y carteras al humo para que los pase.
+    window:
+      label: Por qué hoy y no otro día
+      body: >-
+        Porque es lunes y **un templo no cierra en lunes**, que es justo lo que se lleva por delante media
+        agenda japonesa. Y porque estás aquí una sola vez: cuando vuelvas al aeropuerto el día 14 será a
+        las nueve de la mañana con un vuelo a las 12:10, y no habrá tiempo de nada.
+  - block: Noche
+    time: "18:00 en adelante"
+    title: Ueno, el baño y a dormir
+    body: >-
+      Skyliner hasta **Ueno**, check-in y —esto es lo importante hoy— **al baño de la planta 12**. Después,
+      cena corta cerca del hotel y a la cama pronto: mañana es festivo y el plan empieza temprano.
+    dim: true
+    window:
+      label: El truco contra el jet lag
+      body: >-
+        Ocho husos al este es la dirección mala, la que cuesta. Lo que mejor funciona es **no dormir de
+        día, cenar pronto, meterse en agua caliente y acostarse a la hora local**. El baño no es un
+        capricho: subir la temperatura corporal y dejarla caer después es de las pocas cosas que
+        adelantan el reloj de verdad.

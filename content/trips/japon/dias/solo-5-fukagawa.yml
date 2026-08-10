@@ -1,0 +1,82 @@
+slug: solo-5-fukagawa
+navLabel: "Solo · vie 6 · el relevo"
+trip: japon
+tramo: solo
+order: 105
+eyebrow: En solitario · vie 6 nov · empalma con el Día 1
+title: El último día solo, que acaba *de cuatro*
+dek: >-
+  Los otros tres pasan hoy el día entero en un avión y no pisan el hotel hasta las nueve y media de
+  la noche. O sea que este día también es tuyo entero — con la única obligación de cambiar de hotel
+  por el camino. Es el día de las cosas lentas, porque a partir de mañana el viaje va en grupo.
+traslados:
+  - desde: "Ueno"
+    hasta: "Akihabara"
+    medio: "JR Yamanote — una parada"
+    duracion: "3 min"
+    hora: "a mediodía, con la maleta"
+    nota: "Aquí se deja el Dormy Inn y se entra en el hotel del grupo. Si no dan la habitación, dejan la maleta."
+blocks:
+  - block: Mañana
+    time: "09:00–12:00"
+    title: Fukagawa, de donde salió Bashō
+    body: >-
+      Al otro lado del Sumida está **Fukagawa**, y es el sitio con más literatura por metro cuadrado de
+      Tokio: aquí vivió **Matsuo Bashō** en su cabaña junto al río, y **de aquí salió en 1689** a andar
+      los dos mil cuatrocientos kilómetros del *Oku no Hosomichi*, la *Senda hacia tierras hondas*. Hay
+      un museo pequeño y una **estatua suya mirando al río** que gira al atardecer.
+
+      Al lado, el **Kiyosumi Teien**: un jardín de estanque que Iwasaki, el fundador de Mitsubishi, llenó
+      de **piedras traídas en barco desde todo Japón** — cada roca es de una provincia, y hay un camino
+      de piedras planas que cruza el agua a ras. Todo esto está contado en [la ficha de
+      Ryōgoku](#ryogoku), que además te lleva al museo Edo-Tokio y al mundo del sumō.
+    window:
+      label: Por qué hoy
+      body: >-
+        Porque es lo contrario de todo lo que viene después. Los próximos veinte días son once mudanzas,
+        trenes con hora y un grupo que hay que coordinar; esto es un barrio de canales donde no hay nada
+        que coger. Y porque **cierra el hilo literario** que la guía lleva abierto desde
+        [los libros](#japon-cine-libros): mañana empieza el viaje que Bashō haría al revés.
+  - block: Mediodía
+    time: "~12:30"
+    title: El cambio de hotel
+    body: >-
+      Una parada de Yamanote y ya estás en **Akihabara**, en el hotel del grupo. Deja la maleta aunque no
+      haya habitación —siempre la guardan— y aprovecha para lo práctico de antes de que lleguen: comprar
+      lo que falte, dejar resuelto el **takkyūbin** si vas a mandar equipaje a los Alpes, y **recargar la
+      tarjeta IC**.
+    dim: true
+    window:
+      label: Un apunte de dinero
+      body: >-
+        Cinco noches en dos hoteles distintos significa **dos reservas**, y la del Dormy Inn sale de tu
+        bolsillo, no del bote común. Conviene tenerlo separado desde el principio para que las cuentas
+        del grupo no se enreden a la vuelta.
+  - block: Tarde
+    time: "libre"
+    title: Lo que te quedara pendiente
+    body: >-
+      La tarde es puro comodín. Si el jet lag ya está resuelto y quieres apurar, aquí van tres cosas de
+      quinta visita, ninguna de las cuales hará el grupo: el **Intermediatheque** de Marunouchi —la
+      colección decimonónica de la Universidad de Tokio en un edificio de los treinta, gratis, y contada
+      en [su ficha](#marunouchi)—; el **valle de Todoroki**, el único barranco de Tokio, en Setagaya; o
+      simplemente **Yanaka** a la caída, que es lo más parecido que le queda a la ciudad al Tokio de
+      antes de la guerra.
+    window:
+      label: O nada de esto
+      body: >-
+        Hoy también es legítimo no hacer nada. Llevas cuatro días andando y mañana empiezan veintiuno más
+        con tres personas que acaban de bajarse de un vuelo de veinte horas. **Guardar fuerzas es una
+        opción con argumento.**
+  - block: Noche
+    time: "21:30"
+    title: Llegan los otros tres
+    body: >-
+      El **CA 421** aterriza en **Haneda a las 19:50** y, con el traslado, están en la habitación sobre
+      las **21:30** — molidos, con ocho husos encima y sin cenar. A partir de aquí manda
+      [el Día 1](#dia-1-vuelo) y esta sección se acaba.
+
+      Lo mejor que puedes hacer por ellos esta noche es tener localizado **dónde se cena tarde y cerca**,
+      porque a esa hora, con ese cansancio, decidir es lo último que apetece. Y contarles lo justo: ya
+      llevas cuatro días de ventaja y mañana el viaje empieza de cero para los cuatro.
+    dim: true

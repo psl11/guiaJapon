@@ -109,6 +109,12 @@ export const DiaSchema = z.object({
   slug: z.string(), // 'dia-5-kamakura'
   trip: z.string(),
   order: z.number(), // 1..8, orden cronológico del viaje
+  // ── TRAMO — de quién es este día (ago 2026) ────────────────────────────────
+  // El viaje del grupo son los días 1-21 y es lo que lee todo el mundo. Pero uno de los cuatro
+  // llega el 2 de noviembre, cuatro días antes que los demás, y esos días son SUYOS: no se pueden
+  // mezclar en la espina común porque los otros tres leerían un plan que no es el suyo. `solo` los
+  // saca a su propia sección, detrás del plan del grupo. Si falta, el día es del grupo.
+  tramo: z.enum(['grupo', 'solo']).optional(),
   navLabel: z.string().optional(), // etiqueta corta para el índice flotante
   eyebrow: z.string(), // 'El plan · Día 5 · mar 10 nov'
   title: Md, // 'Kamakura, el *otro* Japón' (la *cursiva* va en momiji)

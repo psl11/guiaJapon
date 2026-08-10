@@ -13,6 +13,12 @@ const { trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir, h
 const hayRelato = computed(() => actos.value.length + fichas.value.length > 0)
 const hayPlan = computed(() => dias.value.length + inversiones.value.length > 0)
 
+// El día a día se parte en dos espinas. La del grupo son los 21 días que lee todo el mundo; la de
+// `solo` son los días que el cuarto viajero pasa en Japón antes de que aterricen los demás. Van en
+// secciones distintas porque mezclarlas haría que tres de los cuatro leyeran un plan que no es suyo.
+const diasGrupo = computed(() => dias.value.filter(d => d.tramo !== 'solo'))
+const diasSolo = computed(() => dias.value.filter(d => d.tramo === 'solo'))
+
 // Recomendaciones (Parte I · prácticos): agrupadas por tipo, en orden fijo de grupo.
 // 'comer' ya no está: la comida vive en la sección Gastronomía. Quedan dormir · reservar · moverse.
 const RECO_KINDS = [
@@ -87,7 +93,7 @@ const knownAnchors = computed(() => new Set<string>([
   ...salir.value.map(s => s.slug),
   ...hoteles.value.map(h => h.slug),
   ...hotelStops.value.map(s => s.anchor),
-  'el-plan', 'gasto', 'reservas', 'dormir-hoteles', 'gastronomia', 'salir', 'japon', 'historia',
+  'el-plan', 'el-plan-solo', 'gasto', 'reservas', 'dormir-hoteles', 'gastronomia', 'salir', 'japon', 'historia',
 ]))
 
 // Índice flotante ─────────────────────────────────────────────────────────────
@@ -117,12 +123,20 @@ function fichaItems(list: { slug: string, navLabel?: string, title: string, zone
 const nav = computed(() => {
   const groups: { key: string, label: string, anchor: string, items: { id: string, label: string, numeral?: string, kind: 'acto' | 'ficha' | 'inversion' | 'dia' | 'reco' | 'heading' }[] }[] = []
   // El plan primero (lo práctico): el día a día, el gasto y las reservas —cada bloque, un grupo.
-  if (dias.value.length) {
+  if (diasGrupo.value.length) {
     groups.push({
       key: 'plan',
       label: 'El viaje, día a día',
       anchor: 'el-plan',
-      items: dias.value.map(d => ({ id: d.slug, label: d.navLabel ?? stripMd(d.title), kind: 'dia' as const })),
+      items: diasGrupo.value.map(d => ({ id: d.slug, label: d.navLabel ?? stripMd(d.title), kind: 'dia' as const })),
+    })
+  }
+  if (diasSolo.value.length) {
+    groups.push({
+      key: 'plan-solo',
+      label: 'Los cuatro días de más',
+      anchor: 'el-plan-solo',
+      items: diasSolo.value.map(d => ({ id: d.slug, label: d.navLabel ?? stripMd(d.title), kind: 'dia' as const })),
     })
   }
   if (inversiones.value.length) {
@@ -289,10 +303,26 @@ const heroSrcAlta = computed(() => {
         <MDC :value="trip.rationale" />
       </section>
       <DiaCard
-        v-for="d in dias"
+        v-for="d in diasGrupo"
         :key="d.slug"
         :dia="d"
       />
+
+      <!-- Los días del cuarto viajero, que llega el 2 y no el 6. Sección aparte a propósito: los
+           otros tres no deben leer esto como parte de su plan. -->
+      <template v-if="diasSolo.length">
+        <Threshold
+          id="el-plan-solo"
+          overline="Antes de que lleguen los demás · 2 a 6 de noviembre"
+          title="Los cuatro días *de más*"
+          dek="El cuarto billete aterriza en Narita el lunes 2 y el grupo no llega hasta el viernes 6 por la noche. Esto **no es parte del viaje común**: son los días sueltos de uno solo, en su quinta vez en Tokio, y por eso van por detrás y aparte."
+        />
+        <DiaCard
+          v-for="d in diasSolo"
+          :key="d.slug"
+          :dia="d"
+        />
+      </template>
 
       <template v-if="inversiones.length">
         <Threshold

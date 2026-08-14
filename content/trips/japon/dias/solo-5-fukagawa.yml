@@ -10,12 +10,12 @@ dek: >-
   la noche. O sea que este día también es tuyo entero — con la única obligación de cambiar de hotel
   por el camino. Es el día de las cosas lentas, porque a partir de mañana el viaje va en grupo.
 traslados:
-  - desde: "Ueno"
-    hasta: "Akihabara"
-    medio: "JR Yamanote — una parada"
-    duracion: "3 min"
+  - desde: "Kanda-Sudachō"
+    hasta: "Akihabara (hotel del grupo)"
+    medio: "A pie"
+    duracion: "~10 min"
     hora: "a mediodía, con la maleta"
-    nota: "Aquí se deja el Dormy Inn y se entra en el hotel del grupo. Si no dan la habitación, dejan la maleta."
+    nota: "El relevo más fácil del viaje: se deja el Super Hotel Premier y se entra en el hotel del grupo **andando**, sin coger nada."
 blocks:
   - block: Mañana
     time: "09:00–12:00"
@@ -41,15 +41,16 @@ blocks:
     time: "~12:30"
     title: El cambio de hotel
     body: >-
-      Una parada de Yamanote y ya estás en **Akihabara**, en el hotel del grupo. Deja la maleta aunque no
-      haya habitación —siempre la guardan— y aprovecha para lo práctico de antes de que lleguen: comprar
+      Diez minutos andando desde Kanda-Sudachō y ya estás en el hotel del grupo, **sin coger un solo
+      tren**. Deja la maleta aunque no haya habitación —siempre la guardan— y aprovecha para lo práctico
+      de antes de que lleguen: comprar
       lo que falte, dejar resuelto el **takkyūbin** si vas a mandar equipaje a los Alpes, y **recargar la
       tarjeta IC**.
     dim: true
     window:
       label: Un apunte de dinero
       body: >-
-        Cinco noches en dos hoteles distintos significa **dos reservas**, y la del Dormy Inn sale de tu
+        Cuatro noches en dos hoteles distintos significan **dos reservas**, y las dos salen de tu
         bolsillo, no del bote común. Conviene tenerlo separado desde el principio para que las cuentas
         del grupo no se enreden a la vuelta.
   - block: Tarde

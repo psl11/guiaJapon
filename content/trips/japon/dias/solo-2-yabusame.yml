@@ -7,9 +7,15 @@ eyebrow: En solitario · mar 3 nov · festivo
 title: El día que el calendario *regala*
 dek: >-
   De los cuatro días sueltos, este es el que no se elige: es **Bunka no Hi**, el Día de la Cultura, y
-  trae dos cosas que solo pasan hoy. Por la mañana, los museos nacionales abren gratis —y los cuatro
-  grandes están a cinco minutos del hotel—. Por la tarde, el Meiji Jingū saca los caballos.
+  trae dos cosas que solo pasan hoy. Por la mañana, los museos nacionales abren gratis —los cuatro
+  grandes, juntos en el parque de Ueno—. Por la tarde, el Meiji Jingū saca los caballos.
 traslados:
+  - desde: "Shimbashi"
+    hasta: "Ueno"
+    medio: "JR Yamanote"
+    duracion: "~12 min"
+    hora: "salir 09:00"
+    nota: "Los cuatro museos que hoy abren gratis están en el parque de Ueno."
   - desde: "Ueno"
     hasta: "Yoyogi"
     medio: "JR Yamanote"
@@ -22,7 +28,7 @@ blocks:
     title: El Museo Nacional, y hoy sin pagar
     body: >-
       Hoy **el Tokyo National Museum es gratis** —como el de Arte Occidental, el de Ciencias y el de
-      Arte Moderno—, y los tienes todos en el parque de Ueno, a cinco minutos andando. Con hora y media
+      Arte Moderno—, y los tienes los cuatro juntos en el parque de Ueno. Con hora y media
       no se ve el museo entero, así que la jugada es ir a **una sola sala** y verla bien: la **galería de
       los Tesoros del Hōryū-ji**.
 
@@ -111,5 +117,5 @@ blocks:
       body: >-
         Porque llevas desde las nueve y media de pie y con gente: museo, gentío del festival, caballos,
         avenida. El Lion es lo contrario de todo eso y **no te deja hacer nada** —ni mirar el móvil ni
-        hablar—, que es justo lo que hace falta antes de volver a Ueno al baño. Deja la cámara guardada:
+        hablar—, que es justo lo que hace falta antes de volver a Shimbashi al Sky Spa. Deja la cámara guardada:
         aquí está prohibida, y esa es media gracia del sitio.

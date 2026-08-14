@@ -1,0 +1,39 @@
+slug: sabouru
+trip: japon
+part: japon
+city: Tokio
+category: cafe
+order: 32
+title: Sabouru
+navLabel: "Sabouru (Jinbōchō)"
+tipo: kissaten de 1955 · el mismo dueño desde entonces
+area: Jinbōchō · a un minuto de la salida A7
+cuando: "En solitario · vie 6, con el barrio de los libros"
+precio: "¥600–1.100 (4–7 €)"
+reserva: "No"
+colas: "Sí a la hora de comer · van rápidas"
+badge: "Sesenta y cinco años con el mismo maestro"
+quePedir: >-
+  Café, y de comer la ***pizza toast*** —pan de molde grueso con tomate y queso al horno, un invento
+  de kissaten de los años cincuenta—. Y si te apetece la extravagancia local, un **cream soda** de esos
+  colores imposibles con la bola de helado encima.
+body: >-
+  Sabouru abrió en **1955** y lo sigue llevando el mismo hombre, **el maestro Suzuki**, que pasa de los
+  ochenta y cinco. Eso es lo que lo distingue de casi todo lo demás: no es un kissaten restaurado ni
+  reabierto por nostálgicos, es uno que **nunca ha parado**.
+
+  Por fuera, un tótem y una fachada de troncos que parece una cabaña; por dentro, tres plantas
+  diminutas de madera oscura, techos bajos, luz de ámbar, y las paredes cubiertas de grafitis
+  garabateados por sesenta años de estudiantes. Está en **Jinbōchō**, el barrio de las librerías de
+  viejo, y lleva desde el principio siendo la sala de estar de los que rebuscan libros ahí fuera.
+
+  **Cierra los domingos**, así que el viernes 6 —tu último día suelto— es el momento, y cae a un paso
+  de Akihabara. Es el kissaten menos solemne de los cuatro: aquí no se viene a callarse ni a estudiar el
+  café, se viene a que no te echen en tres horas.
+seenIn:
+  - ref: '#solo-5-fukagawa'
+    label: "Solo · vie 6"
+  - ref: '#jimbocho'
+    label: "Jinbōchō, el barrio de los libros"
+  - ref: '#cafe-kissaten'
+    label: "El café japonés"

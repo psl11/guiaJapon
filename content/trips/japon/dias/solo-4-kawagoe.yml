@@ -10,11 +10,12 @@ dek: >-
   motivo de verdad para venir está en un templo a veinte minutos de esa calle, y no lo sabe casi
   ningún visitante. Jueves, día laborable: la ciudad estará como debe estar.
 traslados:
-  - desde: "Ueno"
+  - desde: "Akihabara"
     hasta: "Ikebukuro"
     medio: "JR Yamanote"
-    duracion: "~15 min"
-    hora: "salir 08:15"
+    duracion: "~20 min"
+    hora: "salir 08:05"
+    nota: "Contad los 7-8 min a pie desde Kanda-Sudachō hasta la estación."
   - desde: "Ikebukuro"
     hasta: "Kawagoe"
     medio: "Tōbu Tōjō, *kyūkō* (exprés)"
@@ -77,7 +78,7 @@ blocks:
       romántico, es de los sitios más fotogénicos de Kantō.
 
       Y si sobra tarde, la **Kurazukuri Shiryōkan** o el pequeño museo de la ciudad explican bien cómo se
-      levantaba un muro de esos. Vuelta a Ikebukuro y de ahí a Ueno; el baño de la doce sigue en su
+      levantaba un muro de esos. Vuelta a Ikebukuro y de ahí a Akihabara; el onsen sigue en su
       sitio.
     window:
       label: Si prefieres apurar la luz

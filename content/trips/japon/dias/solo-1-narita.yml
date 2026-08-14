@@ -17,11 +17,11 @@ traslados:
     hora: "salir en cuanto se pase la aduana, ~11:30"
     nota: "**No cojas el Skyliner todavía.** Se va a la estación de Narita, dos paradas, con el tren local."
   - desde: "Narita (ciudad)"
-    hasta: "Ueno"
-    medio: "Keisei *Skyliner*"
-    duracion: "~50 min"
-    hora: "salir hacia las 17:00"
-    nota: "El Skyliner para en Narita ciudad, no solo en el aeropuerto. ¥2.570 hasta Ueno."
+    hasta: "Shimbashi"
+    medio: "Keisei línea principal → línea Asakusa"
+    duracion: "~75 min"
+    hora: "salir hacia las 16:45"
+    nota: "Muchos servicios enlazan **directos con la línea Asakusa** y llegan a Shimbashi sin transbordo; si el tuyo no, se cambia en Aoto. ~¥1.400."
 blocks:
   - block: Mañana
     time: "10:20–11:30"
@@ -79,9 +79,9 @@ blocks:
         las nueve de la mañana con un vuelo a las 12:10, y no habrá tiempo de nada.
   - block: Noche
     time: "18:00 en adelante"
-    title: Ueno, el baño y a dormir
+    title: Shimbashi, el Sky Spa y a dormir
     body: >-
-      Skyliner hasta **Ueno**, check-in y —esto es lo importante hoy— **al baño de la planta 12**. Después,
+      Hasta **Shimbashi**, check-in en el [Candeo](#candeo-shimbashi) y —esto es lo importante hoy— **al Sky Spa de la última planta**. Después,
       cena corta cerca del hotel y a la cama pronto: mañana es festivo y el plan empieza temprano.
     dim: true
     window:

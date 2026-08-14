@@ -1,0 +1,45 @@
+slug: super-hotel-premier-akihabara
+navLabel: "Super Hotel Premier Akihabara"
+trip: japon
+city: Tokio · Akihabara (en solitario)
+order: 6
+status: confirmado
+title: Super Hotel Premier Akihabara
+tipo: business con onsen natural
+area: Kanda-Sudachō, Chiyoda
+noches: 2 noches · 4 y 5 nov · solo el cuarto viajero
+habitaciones: Una individual
+nota: Onsen natural «Oku-Yugawara no Yu» · 15:00 a 09:30
+body: >-
+  La segunda mitad de los días en solitario cambia de barrio a propósito: **acerca al grupo**. El
+  hotel del día 6 está en Akihabara, así que estas dos noches se duermen ya en el mismo distrito y el
+  relevo del viernes deja de ser un traslado.
+
+
+  Y mantiene lo que importa: **agua termal natural**, la llamada ***Oku-Yugawara no Yu*** —traída de
+  la zona de aguas de Oku-Yugawara, en Kanagawa—, con **parte interior y parte exterior**, abierta de
+  **15:00 a 09:30**. Ojo con la gama, que no es la misma que la del Candeo: **Super Hotel es business
+  ajustado**, con habitaciones pequeñas, y la queja recurrente de este es que **el baño se queda
+  corto de tamaño**. A cambio, desayuno incluido, barra libre de bebidas por la tarde y un precio
+  bastante por debajo.
+
+
+  **Un apunte de andar:** Kanda-Sudachō no está pegado a la estación JR de Akihabara, son **siete u
+  ocho minutos a pie**. Para [Kawagoe](#solo-4-kawagoe) eso significa contar ese margen antes del
+  Yamanote a Ikebukuro. A cambio queda **cerca de Jinbōchō**, que es justo donde acaba el
+  [viernes](#solo-5-fukagawa).
+estaciones:
+  - nombre: Iwamotochō
+    lineas: Toei Shinjuku
+    minutos: 3
+  - nombre: Akihabara
+    lineas: JR Yamanote · Keihin-Tōhoku · Chūō-Sōbu · Hibiya · Tsukuba Express
+    minutos: 8
+link:
+  url: "https://www.google.com/maps/search/?api=1&query=Super+Hotel+Premier+Akihabara+Kanda+Sudacho"
+  label: Ver en el mapa
+seenIn:
+  - ref: '#solo-4-kawagoe'
+    label: Solo · jue 5 · Kawagoe
+  - ref: '#solo-5-fukagawa'
+    label: Solo · vie 6 · el relevo

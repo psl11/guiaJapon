@@ -10,12 +10,12 @@ dek: >-
   hay que hacer aquí son dos cosas: un jardín donde un magnate de la seda coleccionó edificios
   históricos de medio Japón, y el muelle por el que el país dejó de estar cerrado.
 traslados:
-  - desde: "Ueno"
+  - desde: "Shimbashi"
     hasta: "Negishi"
     medio: "JR Keihin-Tōhoku, directo"
-    duracion: "~1 h"
-    hora: "salir 08:15"
-    nota: "Sin transbordos desde Ueno. Desde Negishi, autobús (~10 min) hasta Honmoku Sannotani."
+    duracion: "~45 min"
+    hora: "salir 08:30"
+    nota: "**Antes hay que mudarse.** Se deja el Candeo, se llevan las maletas al hotel de Akihabara (~10 min de Yamanote) y de ahí se baja. Desde Negishi, autobús (~10 min) hasta Honmoku Sannotani."
   - desde: "Sankeien"
     hasta: "Motomachi-Chūkagai"
     medio: "Autobús + Minatomirai"
@@ -41,7 +41,7 @@ blocks:
     window:
       label: Aviso honesto sobre las hojas
       body: >-
-        El kōyō de Sankeien **pica de mediados de noviembre a mediados de diciembre**, así que el 5 llegas
+        El kōyō de Sankeien **pica de mediados de noviembre a mediados de diciembre**, así que el 4 llegas
         **dos semanas pronto**: verás verde y algún arce adelantado, no el rojo de las fotos. El jardín
         aguanta igual —lo que lo hace no son las hojas, son los edificios—, pero ve sabiéndolo. Abre a
         las **09:00** y la mejor luz es esa primera hora, con niebla sobre el estanque.
@@ -100,5 +100,5 @@ blocks:
       body: >-
         **La media hora anterior y la media hora posterior a la puesta de sol** — en noviembre, hacia las
         16:40. La madera con el sol bajo y luego el azul con la ciudad encendida: son dos fotos distintas
-        con veinte minutos de diferencia y las dos merecen la pena. Después, vuelta a Ueno (~50 min) y
-        último baño largo, que mañana llega el grupo.
+        con veinte minutos de diferencia y las dos merecen la pena. Después, vuelta a **Akihabara** (~50 min),
+        primera noche en el [Super Hotel Premier](#super-hotel-premier-akihabara) y su onsen.

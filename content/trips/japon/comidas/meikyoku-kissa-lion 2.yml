@@ -1,0 +1,42 @@
+slug: meikyoku-kissa-lion
+trip: japon
+part: japon
+city: Tokio
+category: cafe
+order: 4
+title: Meikyoku Kissa Lion
+navLabel: "Kissa Lion (música)"
+tipo: meikyoku kissa · café de escucha, desde 1926
+area: Shibuya · Dōgenzaka, cuesta arriba desde el cruce
+cuando: "En solitario · mar 3, al bajar de Omotesandō"
+precio: "¥600–900 (4–6 €)"
+reserva: "No"
+colas: "A veces, y se espera en silencio"
+badge: "El más puro de todos: aquí no se habla"
+quePedir: >-
+  Un café solo, y ya está. Nadie viene aquí por el café — se pide para tener derecho a la butaca. Se
+  paga al salir.
+body: >-
+  Si buscas pureza, esto es el fondo del pozo. El **Lion** abrió en **1926** y es un ***meikyoku
+  kissa***: un «café de música maestra», el género que nació cuando un disco de clásica costaba lo que
+  un sueldo y la única forma de oír una sinfonía era pagar un café en un local que tuviera el equipo.
+  El edificio actual es de **1950**, levantado sobre las ruinas que dejaron los bombardeos.
+
+
+  Dentro no es un café con música: **es una sala de conciertos que sirve café**. Las butacas están
+  atornilladas **mirando todas hacia los altavoces** —dos torres construidas a mano, del tamaño de un
+  armario—, como en un cine. La luz es de vela. Hay un programa impreso con lo que va a sonar y a qué
+  hora, y se cumple.
+
+
+  **Y no se habla.** No es una recomendación educada: está prohibido conversar, y también sacar el
+  móvil y hacer fotos. Se entra, se pide en voz baja, se sienta uno y se escucha una hora. Es
+  probablemente el sitio más silencioso de Tokio y está a tres minutos del cruce de Shibuya, que es el
+  más ruidoso.
+seenIn:
+  - ref: '#solo-2-yabusame'
+    label: "Solo · mar 3"
+  - ref: '#shibuya'
+    label: "Shibuya"
+  - ref: '#cafe-kissaten'
+    label: "El café japonés"

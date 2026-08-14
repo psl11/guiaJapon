@@ -1,0 +1,41 @@
+slug: candeo-shimbashi
+navLabel: "Candeo Shimbashi"
+trip: japon
+city: Tokio · Shimbashi (en solitario)
+order: 5
+status: confirmado
+title: Candeo Hotels Tokyo Shimbashi
+tipo: business alto con Sky Spa
+area: Shimbashi, Minato
+noches: 2 noches · 2 y 3 nov · solo el cuarto viajero
+habitaciones: Una individual
+nota: Sky Spa en la última planta · baño semiabierto y sauna
+body: >-
+  **Repetir a sabiendas.** Ya se durmió aquí en un viaje anterior y el motivo de volver es uno: el
+  **Sky Spa**, el baño de la última planta, semiabierto al cielo, con sauna. Un *ōfuro* de hotel con
+  vistas y sin salir del edificio, que después de trece horas de avión y ocho husos es la mejor
+  herramienta que hay contra el jet lag: subir la temperatura del cuerpo y dejarla caer es de las pocas
+  cosas que adelantan el reloj de verdad.
+
+
+  **La logística sale mejor de lo esperado para estas dos noches.** Desde Narita hay **un solo tren**:
+  el **Keisei Access Express** enlaza con la línea Asakusa y llega **directo a Shimbashi** en unos 70
+  minutos por ~¥1.400 — más barato que el Skyliner y sin arrastrar la maleta por ningún transbordo. Y
+  para el día de [Yokohama](#solo-3-yokohama), Shimbashi es la mejor base de Tokio: **Tōkaidō directo,
+  veinticinco minutos**, bastante mejor que desde el norte de la ciudad.
+
+
+  Lo que se paga a cambio es el día 2: los museos que abren gratis el festivo están en **Ueno**, a doce
+  minutos de Yamanote. Nada grave.
+estaciones:
+  - nombre: Shimbashi
+    lineas: JR Yamanote · Keihin-Tōhoku · Tōkaidō · Yokosuka · Ginza · Toei Asakusa · Yurikamome
+    minutos: 3
+link:
+  url: "https://www.google.com/maps/search/?api=1&query=Candeo+Hotels+Tokyo+Shimbashi"
+  label: Ver en el mapa
+seenIn:
+  - ref: '#solo-1-narita'
+    label: Solo · lun 2 · llegada
+  - ref: '#solo-3-yokohama'
+    label: Solo · mié 4 · Yokohama

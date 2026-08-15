@@ -570,6 +570,12 @@ a.chip:focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; }
 .inversion dd p:last-child { margin-bottom: 0; }
 .inversion dd strong { color: var(--ink); font-weight: 600; }
 .inversion dd em { font-style: italic; }
+/* El ledger admite listas (las enumeraciones de precios del JR Pass). Sin esto heredarían el
+   padding-left de 40px del navegador, que en la columna de 1fr del grid se sale por la derecha en
+   móvil — el mismo mecanismo de la trampa 3.10. Espejo de `.ficha-section-body ul/li`. */
+.inversion dd ul { margin: .5rem 0; padding-left: 1.1rem; }
+.inversion dd li { margin-bottom: .4rem; color: var(--ink-soft); font-size: 1rem; line-height: 1.6; }
+.inversion dd li:last-child { margin-bottom: 0; }
 .inversion .curiosidades { margin-top: 1.4rem; }
 
 @media (max-width: 560px) {

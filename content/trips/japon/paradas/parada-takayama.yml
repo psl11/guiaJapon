@@ -1,0 +1,17 @@
+slug: parada-takayama
+trip: japon
+city: Takayama
+order: 3
+puntos:
+  - nombre: Sanmachi Suji
+    tipo: casco viejo
+    lat: 36.1423584
+    lon: 137.2592478
+  - nombre: Mercado de Miyagawa
+    tipo: mercado matinal
+    lat: 36.1446938
+    lon: 137.2578518
+  - nombre: Takayama Jin'ya
+    tipo: oficina de gobierno de Edo
+    lat: 36.1396918
+    lon: 137.2576178

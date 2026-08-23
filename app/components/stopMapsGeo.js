@@ -96,6 +96,52 @@ export const stopMaps = {
       }
     ]
   },
+  "hotel-takayama": {
+    "image": "img/mapas/hotel-takayama.webp",
+    "w": 950,
+    "h": 785,
+    "hoteles": [
+      {
+        "slug": "gift-takayama",
+        "title": "Hotel and Spa Gift TAKAYAMA",
+        "status": "confirmado",
+        "x": 32.249,
+        "y": 51.09
+      }
+    ],
+    "estaciones": [
+      {
+        "nombre": "Takayama",
+        "x": 10.937,
+        "y": 65.695
+      },
+      {
+        "nombre": "Terminal Nōhi",
+        "x": 12.811,
+        "y": 52.021
+      }
+    ],
+    "puntos": [
+      {
+        "nombre": "Sanmachi Suji",
+        "tipo": "casco viejo",
+        "x": 89.062,
+        "y": 47.575
+      },
+      {
+        "nombre": "Mercado de Miyagawa",
+        "tipo": "mercado matinal",
+        "x": 75.366,
+        "y": 13.237
+      },
+      {
+        "nombre": "Takayama Jin'ya",
+        "tipo": "oficina de gobierno de Edo",
+        "x": 73.07,
+        "y": 86.781
+      }
+    ]
+  },
   "hotel-tokio-roppongi": {
     "image": "img/mapas/hotel-tokio-roppongi.webp",
     "w": 771,

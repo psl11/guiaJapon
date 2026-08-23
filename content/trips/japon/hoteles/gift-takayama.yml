@@ -1,0 +1,50 @@
+slug: gift-takayama
+navLabel: "Gift Takayama"
+trip: japon
+city: Takayama
+order: 4
+status: confirmado
+title: Hotel and Spa Gift TAKAYAMA
+tipo: hotel nuevo con baño público y sauna
+area: Tenmachō 6-22, al lado de la estación
+noches: 1 noche · día 5 · mar 10 nov
+lat: 36.1421193
+lon: 137.2534572
+estaciones:
+  - nombre: Takayama
+    lineas: JR Takayama · limited express Hida
+    minutos: 5
+    lat: 36.1411260
+    lon: 137.2512850
+  - nombre: Terminal Nōhi
+    lineas: Autobuses a Hirayu · Shirakawa-gō · Kanazawa
+    minutos: 5
+    lat: 36.1420560
+    lon: 137.2514760
+nota: Baño público y sauna, de 06:00 a 10:00 y de 15:00 a 24:00.
+body: >-
+  Lo que decide esta cama es la distancia a la terminal de autobuses, que se usa dos veces en menos
+  de veinticuatro horas: se llega desde Hirayu por la mañana y **se sale hacia
+  [Shirakawa-gō](#shirakawa-go) a las ocho y media del día siguiente**, después de los mercados. Con
+  la estación y la terminal a cinco minutos, ninguna de las dos cosas obliga a madrugar de más ni a
+  cargar con nada.
+
+
+  Tiene baño público con sauna, abierto de seis a diez y de tres de la tarde a medianoche, que son
+  las dos franjas que este día concreto pide: el pueblo se vacía a las cinco y no hay nada que hacer
+  después de cenar. No es agua termal como la de anoche —eso se quedó en el valle—, pero después del
+  Higashiyama entero cuenta igual.
+
+
+  Es un hotel nuevo y con una manía simpática: **se llama Gift porque el nombre lo eligieron a
+  votación** entre vecinos, huéspedes y plantilla, y montan actividades con gente del pueblo una vez
+  al mes. Son ciento dos habitaciones, así que de casa de huéspedes no tiene nada; la gracia está en
+  que aquí las maletas grandes llevan un día esperando y todo lo demás se resuelve andando.
+link:
+  url: https://www.booking.com/hotel/jp/and-spa-gift-takayama.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#takayama"
+    label: El pueblo
+  - ref: "#dia-5-takayama"
+    label: Día 5 · Takayama

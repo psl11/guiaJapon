@@ -11,16 +11,9 @@ export const stopMaps = {
       {
         "slug": "resol-akihabara",
         "title": "Hotel Resol Akihabara",
-        "status": "candidato",
+        "status": "confirmado",
         "x": 77.475,
         "y": 78.916
-      },
-      {
-        "slug": "apa-akihabara-suehirocho",
-        "title": "APA Hotel Akihabara Suehirochō-Ekimae",
-        "status": "candidato",
-        "x": 57.2,
-        "y": 34.843
       }
     ],
     "estaciones": [
@@ -33,11 +26,6 @@ export const stopMaps = {
         "nombre": "Iwamotochō",
         "x": 88.317,
         "y": 89.029
-      },
-      {
-        "nombre": "Suehirochō",
-        "x": 59.939,
-        "y": 23.22
       }
     ],
     "puntos": [
@@ -81,16 +69,9 @@ export const stopMaps = {
       {
         "slug": "nunoya-ryokan",
         "title": "Nunoya Ryokan",
-        "status": "candidato",
+        "status": "confirmado",
         "x": 87.598,
         "y": 58.659
-      },
-      {
-        "slug": "matsumoto-kagetsu",
-        "title": "Matsumoto Hotel Kagetsu",
-        "status": "candidato",
-        "x": 84.476,
-        "y": 36.492
       }
     ],
     "estaciones": [
@@ -112,6 +93,47 @@ export const stopMaps = {
         "tipo": "calle de almacenes",
         "x": 75.981,
         "y": 58.736
+      }
+    ]
+  },
+  "hotel-tokio-roppongi": {
+    "image": "img/mapas/hotel-tokio-roppongi.webp",
+    "w": 771,
+    "h": 881,
+    "hoteles": [
+      {
+        "slug": "candeo-roppongi",
+        "title": "Candeo Hotels Tokyo Roppongi",
+        "status": "confirmado",
+        "x": 87.448,
+        "y": 68.247
+      }
+    ],
+    "estaciones": [
+      {
+        "nombre": "Roppongi",
+        "x": 71.568,
+        "y": 57.799
+      }
+    ],
+    "puntos": [
+      {
+        "nombre": "Museo Mori",
+        "tipo": "arte contemporáneo",
+        "x": 46.594,
+        "y": 89.108
+      },
+      {
+        "nombre": "Centro Nacional de Arte",
+        "tipo": "sala de exposiciones",
+        "x": 12.504,
+        "y": 25.238
+      },
+      {
+        "nombre": "Museo Suntory",
+        "tipo": "artes decorativas",
+        "x": 61.059,
+        "y": 10.944
       }
     ]
   }

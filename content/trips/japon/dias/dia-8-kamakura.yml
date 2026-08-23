@@ -14,7 +14,7 @@ traslados:
     medio: "JR Yokosuka o Shōnan-Shinjuku"
     duracion: "1 h"
     hora: "salir 07:30"
-    nota: "**¥940 por trayecto.** Directo desde Tokio, Shinagawa o Shinjuku, sin transbordo."
+    nota: "**¥940 por trayecto.** Desde Roppongi, la Hibiya deja en Ebisu y allí el Shōnan-Shinjuku va directo a Kamakura."
   - desde: "Kamakura"
     hasta: "Tokio"
     medio: "JR, el mismo de la ida"

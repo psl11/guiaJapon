@@ -1,0 +1,44 @@
+slug: candeo-roppongi
+navLabel: "Candeo Roppongi"
+trip: japon
+city: Tokio · Roppongi
+order: 4
+status: confirmado
+title: Candeo Hotels Tokyo Roppongi
+tipo: business alto con Sky Spa
+area: Roppongi 6-chōme, Minato
+noches: 4 noches · días 7-10 · del 12 al 16 nov
+lat: 35.6620341
+lon: 139.7326404
+estaciones:
+  - nombre: Roppongi
+    lineas: Hibiya · Toei Ōedo
+    minutos: 2
+    lat: 35.6628364
+    lon: 139.7313268
+nota: Sky Spa en la azotea · el cuarto viajero solo duerme aquí las dos primeras noches.
+body: >-
+  La escala de Tokio cambia de barrio: estas cuatro noches se duermen en [Roppongi](#roppongi) y no
+  en Akihabara. Lo que se gana es la **Hibiya**, que arranca a dos minutos de la puerta —salida 3—,
+  cruza la ciudad en diagonal y llega directa a Akihabara y a Ueno: el Tokio de abajo sigue estando
+  a un solo tren. Lo que se pierde es la costumbre, porque los callejones que se aprendieron la
+  primera semana ya no están debajo del hotel.
+
+
+  Su carta grande es la de la casa: el **Sky Spa** de la azotea, baño al aire libre y sauna, que es
+  el mismo argumento por el que el cuarto viajero durmió en el Candeo de Shimbashi al llegar. Vale
+  doble esta semana concreta, porque se aterriza aquí después de cuatro días de montaña y de dos
+  horas y media de Shinkansen.
+
+
+  Y la ubicación tiene un premio que el itinerario no pedía: el triángulo de museos —Mori, Centro
+  Nacional de Arte, Suntory— **queda a diez minutos andando**. Era el plan alternativo del día 10 y
+  ahora está debajo de la cama, que es la mejor forma de tener un plan B.
+link:
+  url: https://www.booking.com/hotel/jp/candeo-hotels-toyo-roppongi.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#roppongi"
+    label: El barrio
+  - ref: "#dia-7-kanazawa-tokio"
+    label: Día 7 · vuelta a Tokio

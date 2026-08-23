@@ -1,0 +1,37 @@
+slug: sanzoan-hirayu
+navLabel: "Sanzōan · Hirayu"
+trip: japon
+city: Hirayu Onsen
+order: 3
+status: confirmado
+title: Hirayu no Mori Bettei · Yūka Sanzōan
+tipo: ryokan de seis habitaciones, con termal en cada una
+area: Hirayu 672-1, Okuhida Onsengō · Takayama, Gifu
+noches: 1 noche · día 4 · lun 9 nov
+rating: 9,4 en Booking · solo 7 reseñas
+nota: Agua termal en la propia habitación, y las dieciséis pozas de la casa madre al lado.
+body: >-
+  Es el *bettei* —la casa aparte— de **Hirayu no Mori**, la casa de baños grande del pueblo, y son
+  seis habitaciones y ni una más. Cada una es un par de estancias de tatami en un edificio de
+  aire de granja vieja, y cada una tiene **su propia bañera de agua termal corriendo sin recircular**,
+  que es la diferencia entre bañarse cuando toca y bañarse cuando apetece.
+
+
+  El manantial se llama *Yunotaira no yu* y era el comunal de cuando Hirayu vivía de sus *tōji*, las
+  curas de agua de semanas enteras: sale caliente, y esa es su fama. Al lado, en la casa madre, hay
+  **dieciséis pozas al aire libre** entre las de hombres y las de mujeres, y los huéspedes pueden
+  pasar a recorrerlas.
+
+
+  La cena y el desayuno se sirven en la habitación —buey de Hida a la plancha de barro, sashimi,
+  soba y lo que dé la temporada—, así que después de bajar del valle no hay que volver a salir. Que
+  es exactamente lo que se compró al elegir esta cama y no una en Takayama:
+  [tres baños en vez de uno](#kamikochi-en-el-dia), antes de cenar, después y al amanecer.
+link:
+  url: https://www.booking.com/hotel/jp/tang-uxiang-san-zang-an.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#kamikochi"
+    label: El valle
+  - ref: "#dia-4-kamikochi"
+    label: Día 4 · la noche de Hirayu

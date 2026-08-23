@@ -3,11 +3,11 @@ navLabel: "Hotel Resol Akihabara"
 trip: japon
 city: Tokio · Akihabara
 order: 1
-status: candidato
+status: confirmado
 title: Hotel Resol Akihabara
 tipo: hotel de diseño
 area: Kanda-Sudachō, Chiyoda
-noches: 6 noches · días 1-2 y 7-10
+noches: 2 noches · días 1-2 · 6 y 7 nov
 lat: 35.6967393
 lon: 139.7739276
 estaciones:
@@ -29,20 +29,20 @@ image:
 habitaciones: Dos dobles
 rating: 8,6 en Booking · 1.428 reseñas
 deadline: Cancelación gratuita hasta el 5 de noviembre
+nota: Aquí se junta el grupo — el cuarto viajero llega andando desde Kanda-Sudachō el día 1.
 body: >-
-  Es el mejor nudo de transporte de los dos candidatos, y en Tokio eso es lo que decide un hotel. La
-  estación de Akihabara concentra **Yamanote, Chūō-Sōbu, Hibiya y Tsukuba Express** en el mismo
-  edificio, a tres minutos andando: el día 20 se baja a [Tsukiji](#tsukiji) por la Hibiya en once
-  minutos sin cambiar de andén, y el día 8 la salida hacia Kamakura pasa por la estación de Tokio,
-  que son cuatro minutos de Yamanote.
+  Cubre las dos primeras noches, que son las que peor se llevan, y lo que compra es la estación.
+  Akihabara junta **Yamanote, Chūō-Sōbu, Hibiya y Tsukuba Express** en el mismo edificio a tres
+  minutos de la puerta: el día 2 se sale hacia [Ueno](#ueno) y Asakusa por la Hibiya sin cambiar de
+  andén, que es exactamente el plan de la primera mañana con ocho husos encima.
 
 
-  Y tiene una carta que el otro no. Por Iwamotochō, a dos minutos, pasa la Toei Shinjuku: **línea
-  directa hasta [Shinjuku](#shinjuku) sin transbordo**, que es donde se duerme la segunda mitad del
-  viaje.
+  Y tiene una carta que se usa el día 3. Por Iwamotochō, a dos minutos, pasa la Toei Shinjuku:
+  **línea directa hasta [Shinjuku](#shinjuku) sin transbordo**, que es de donde sale el Azusa hacia
+  la montaña, con las maletas grandes ya camino de Takayama.
 
 
-  Con 1.428 reseñas es el de muestra más grande de los cuatro que se compararon, y no es una cadena
+  Con 1.428 reseñas es el de muestra más grande de los alojamientos de la guía, y no es una cadena
   de negocios: se nota en el acabado y en la cama. Lo que se le critica de forma consistente es
   **el tamaño de las habitaciones**, que en Tokio es el estándar y no una sorpresa.
 link:

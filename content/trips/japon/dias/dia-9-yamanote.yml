@@ -10,18 +10,18 @@ dek: >-
   en el centro de la ciudad y, a quince minutos andando, el cruce peatonal más transitado del
   planeta.
 traslados:
-  - desde: "Tokio"
+  - desde: "Roppongi"
     hasta: "Narita T1"
-    medio: "Keisei *Skyliner* desde Ueno o Nippori"
-    duracion: "36 min"
+    medio: "Hibiya hasta Ueno · Keisei *Skyliner*"
+    duracion: "1 h"
     hora: "salir del hotel 08:00"
-    nota: "**Solo el que vuela.** ¥2.580. El mostrador cierra a las 11:10 y el vuelo sale a las 12:10."
-  - desde: "Akihabara"
+    nota: "**Solo el que vuela.** ¥2.580 el Skyliner. El mostrador cierra a las 11:10 y el vuelo sale a las 12:10."
+  - desde: "Roppongi"
     hasta: "Harajuku"
-    medio: "JR Yamanote"
+    medio: "Hibiya hasta Ebisu · JR Yamanote"
     duracion: "20 min"
     hora: "salir 08:15"
-    nota: "Los otros tres, en dirección contraria y por la misma línea."
+    nota: "Los otros tres, hacia el oeste y por el otro extremo de la misma línea."
 blocks:
   - block: Amanecer
     time: "06:30–08:00"
@@ -38,9 +38,10 @@ blocks:
     window:
       label: Cómo se va a Narita
       body: >-
-        Desde [Akihabara](#akihabara) gana el **Skyliner de Keisei** —desde Ueno o Nippori, a dos
-        paradas, **36 minutos** hasta la terminal— frente al Narita Express, que es más caro y obliga
-        a cambiar. Sale cada veinte o cuarenta minutos desde las seis de la mañana.
+        Desde [Roppongi](#roppongi) gana el **Skyliner de Keisei**: la Hibiya lleva directa a Ueno sin
+        transbordo y allí se sube al tren que hace la terminal en **36 minutos**. Sale cada veinte o
+        cuarenta minutos desde las seis de la mañana, así que no hay que cuadrar nada — basta con
+        aparecer.
 
         Y un aviso que no es obvio: **la fianza de la tarjeta IC no se devuelve en Narita**, solo en
         Haneda. O se devuelve antes, o la tarjeta se guarda para la próxima vez — que dura diez años.

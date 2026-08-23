@@ -1,0 +1,17 @@
+slug: tokio-roppongi
+trip: japon
+city: Tokio · Roppongi
+order: 3
+puntos:
+  - nombre: Museo Mori
+    tipo: arte contemporáneo
+    lat: 35.6604320
+    lon: 139.7292610
+  - nombre: Centro Nacional de Arte
+    tipo: sala de exposiciones
+    lat: 35.6653369
+    lon: 139.7264411
+  - nombre: Museo Suntory
+    tipo: artes decorativas
+    lat: 35.6664346
+    lon: 139.7304575

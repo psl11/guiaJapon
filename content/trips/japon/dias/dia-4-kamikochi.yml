@@ -101,11 +101,11 @@ blocks:
       Y a diferencia de un baño de paso, aquí se puede entrar antes de cenar, otra vez después y
       otra por la mañana.
     window:
-      label: Reservadlo, y confirmad el último autobús
+      label: La cama está puesta, y el autobús no
       body: >-
-        **Hirayu hay que reservarlo**, y es lo único del tramo de montaña que corre prisa — pero es
-        un pueblo termal abierto todo el año con varias casas, no las doce camas estacionales del
-        valle. El Hirayukan y el Okuhida Onsen Yamano Hotel son los dos nombres que se repiten.
+        La cama de esta noche es el **Sanzōan**, el *bettei* de la casa de baños del pueblo: seis
+        habitaciones, agua termal dentro de cada una y las dieciséis pozas de la casa madre al lado.
+        La cena se sirve en la habitación y a hora fija, así que la hora de llegada importa.
 
         Y aunque hoy ya no hay enlace que perder, mirad igual **la hora del último autobús desde
         Kamikōchi** —en temporada sale a las 17:30— al subir y no al bajar. En noviembre los
@@ -114,10 +114,11 @@ blocks:
     time: "desde las 19:00"
     title: Cena de montaña, y silencio
     body: >-
-      La cena de una posada de Okuhida es lo que la montaña da: **hōba miso** —miso a la brasa sobre
-      una hoja de magnolio, que es el plato de esta comarca—, verdura de montaña, río y, si la casa
-      se estira, **buey de Hida**, que aquí no es una etiqueta de restaurante turístico sino la
-      ganadería del valle de al lado.
+      La cena de una posada de Okuhida es lo que la montaña da, y esta se sirve en la propia
+      habitación: **buey de Hida** a la plancha de barro —que aquí no es una etiqueta de restaurante
+      turístico sino la ganadería del valle de al lado—, sashimi, soba y lo que dé la temporada. Si
+      cae el **hōba miso**, miso a la brasa sobre una hoja de magnolio, ese es el plato de la
+      comarca.
 
       Después no hay nada que hacer, y ese es el plan. Trece horas de puerta a puerta, un baño más
       antes de dormir y mañana sin prisa.

@@ -1,5 +1,0 @@
-# NADA de esto entra en el repo. Aquí vive la sesión del navegador —incluida la cookie
-# `sessionid` de Instagram, que es una credencial— y los datos personales del volcado.
-# El README lo daba por hecho desde el principio; el fichero faltaba.
-data/
-node_modules/

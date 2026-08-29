@@ -218,20 +218,18 @@ bajo `/guiaJapon/`, así que hay que navegar a `http://localhost:3001/guiaJapon/
 no llega a producción en silencio. No es adorno: en guiaVietnam el despliegue corría solo el
 `generate` y hubo que añadir la puerta a posteriori. Si tocas el workflow, no la quites.
 
-### El extractor de Instagram (`tools/instagram/`)
+### El extractor de Instagram — **no está en el repo**
 
-Saca los sitios que alguien del grupo comparte por mensaje privado. **Su `data/` está gitignorado**
-—ahí vive la cookie `sessionid`, que es una credencial— y solo se versiona el código.
+Igual que el escáner de abajo, vive fuera (`tools/` está en el `.gitignore`). Se escribió para un
+volcado concreto —los 422 posts que Alba compartió por mensaje privado, ver §10— y se sacó del repo
+por ser de un solo uso; su `data/` guardaba además la cookie `sessionid`, que es una credencial.
 
-```bash
-cd tools/instagram
-npm run collect:dm -- --hilo <fbid>   # abre el navegador y pagina el hilo entero
-npm run parse:dm   -- --hilo <fbid>
-npm run identify:dm -- --dias 21 --de alba
-npm run review:dm                      # hoja markdown de lo que quedó sin resolver
-```
+**Lo que se conserva aquí es lo caro: el conocimiento.** Si hay que volver a hacerlo, esto ahorra la
+tarde entera. Era un Chromium con perfil persistente (login a mano, cero credenciales en código) que
+paginaba el hilo y volcaba a JSON; el resto era normalizar e identificar por cascada de señales
+—ubicación etiquetada, comillas `「」`, línea de chincheta `📍`, cuenta mencionada—.
 
-**Las cuatro trampas que costaron la tarde, por si hay que repetirlo:**
+**Las cuatro trampas que costaron la tarde:**
 
 1. **El mensajero nuevo de Instagram NO usa el esquema clásico.** Todo el mundo documenta
    `item_id` / `item_type` / `timestamp` (µs). El hilo de 2026 llega por
@@ -249,8 +247,13 @@ npm run review:dm                      # hoja markdown de lo que quedó sin reso
    cuenta y el enlace. Se rehidrata con `/api/v1/media/<pk>/info/`, sacando el `pk` del parámetro
    `id` del `target_url`. Salieron 262 de 263.
 
-La paginación no usa cursor: se **reemite la propia petición de la página** subiendo el tamaño de
-página, porque el `doc_id` cambia cada semana y no se puede construir a mano.
+La paginación no usa cursor: hay que **reemitir la propia petición de la página** subiendo el tamaño
+de página, porque el `doc_id` cambia cada semana y no se puede construir a mano.
+
+Y una lección de proceso, no de código: **con un humano delante, que conduzca él**. La rueda del
+ratón simulada depende de acertar con un contenedor virtualizado que Instagram cambia cada dos por
+tres; un dedo en el trackpad no falla nunca. Al final ni hizo falta — la API resolvió el hilo entero
+en cinco peticiones.
 
 ### El escáner editorial
 
@@ -511,8 +514,9 @@ vaya. Ese se pierde por un día y conviene que esté escrito.
 
 Alba compartió por mensaje privado **422 posts**, de los que 193 eran de Japón. De ahí salen **66
 fichas** a partir de **65 posts** —uno, la lista de restaurantes de Tokio, alimenta dos—: 48 sitios de comer y 18
-tarjetas. El resto se descartó con motivo —fuera de ruta, listas de
-captación de leads, duplicados de lo ya escrito— y el recuento está en `tools/instagram/`.
+tarjetas. El resto se descartó con motivo: 12 fuera de ruta, 18
+alojamientos, 21 de captación de leads («comenta AYUDA»), 12 listas genéricas ya minadas, 21 con el
+caption demasiado corto y 44 duplicados de algo ya escrito o sin nombre que buscar.
 
 **Cómo está montado, y por qué así:**
 

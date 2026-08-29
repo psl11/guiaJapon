@@ -42,3 +42,9 @@ Rough Guides/
 # Fotos originales: entran aquí, salen optimizadas a public/img/ (ver su README)
 fotos-originales/*
 !fotos-originales/README.md
+
+# Herramientas de un solo uso: el extractor de Instagram (tools/instagram/) vive en local y no se
+# versiona. Fue para un volcado concreto —los 422 posts que Alba compartió por privado— y su `data/`
+# guarda la sesión del navegador, que es una credencial. Lo aprendido está en el CLAUDE.md §5; si
+# algún día hace falta otra vez, se recupera de ahí o se vuelve a escribir.
+tools/

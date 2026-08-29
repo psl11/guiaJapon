@@ -1,0 +1,39 @@
+slug: tonkatsu-marushichi-ginza
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 103
+title: Tonkatsu Marushichi Ginza
+navLabel: "Tonkatsu Marushichi"
+tipo: tonkatsu, con el katsudon a la brasa como firma
+area: Ginza 4-13-3, a 170 m de Higashi-Ginza
+cuando: "Tokio · día 20 · comida de 11:00 a 15:00"
+precio: "Sin publicar; el tramo habitual del tonkatsu de Ginza"
+reserva: "No se aceptan. Por orden de llegada"
+colas: "Sí, en el turno de comida"
+badge: "Katsudon a la brasa, no rebozado en salsa"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/Db9WFd3T69A/
+quePedir: "El *katsudon* de la casa: aquí el filete va **a la brasa** antes del cuenco."
+body: >-
+  Tonkatsu en Ginza a ciento setenta metros de la boca de Higashi-Ginza, que es la parada del
+  [Kabuki-za](#ginza). Su firma es un *katsudon* que no se hace como el clásico: en vez de cocer el
+  filete rebozado en caldo y cerrarlo con huevo, aquí pasa antes por la brasa.
+
+
+  Dos datos que condicionan el día. **No aceptan reservas** —se entra por orden de llegada— y el
+  turno de comida es de once a tres, con última comanda a las 14:30. El día 20 pasa por Ginza entre
+  las 11:30 y las dos de la tarde, así que encaja sin tocar nada, pero llegando pronto.
+
+
+  Por la noche vuelve a abrir de cinco a ocho, con última comanda a las 19:30, que en Tokio es
+  temprano. Si la idea es cenar aquí, hay que contarlo: no es un sitio al que se llegue a las nueve.
+link:
+  url: https://tabelog.com/en/tokyo/A1301/A130101/13297660/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#tonkatsu"
+    label: El tonkatsu
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · Ginza

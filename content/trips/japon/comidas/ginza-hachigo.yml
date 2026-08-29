@@ -1,0 +1,41 @@
+slug: ginza-hachigo
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 137
+title: Ginza Hachigō
+navLabel: "Ginza Hachigō"
+tipo: chūka soba, seis asientos, setenta cuencos al día
+area: Ginza
+cuando: "Tokio · día 20 · setenta raciones y se acaba"
+precio: "~¥1.500 (unos 10 €), más ¥500 de gestión al reservar"
+reserva: "Por internet, en TableCheck, con ¥500 por persona"
+colas: "Ya no: se resolvió con la reserva online"
+badge: "Una estrella Michelin en 2023 — la perdió en la guía de 2024"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DTK9HFOEW-e/
+quePedir: "*Chūka soba*. Solo hacen uno; lo que se elige es si lleva **huevo curado** o todos los aderezos."
+body: >-
+  Lo lleva Yasushi Matsumura, que dejó una carrera en alta cocina japonesa para hacer ramen, y esta
+  es su tercera casa. Hace **un solo plato** —*chūka soba*, el ramen clásico de soja— y **setenta
+  cuencos al día** en una barra de seis asientos. Cuesta alrededor de mil quinientos yenes: diez
+  euros por algo que se cocina con criterio de restaurante de estrella.
+
+
+  Y ahí está la corrección que hay que hacerle a la lista de la que sale. **Tuvo una estrella
+  Michelin en la guía de 2023, y la perdió en la de 2024** — igual que los otros dos ramen
+  estrellados de Tokio, que se quedaron sin ella el mismo año. Sigue siendo el mismo cuenco y el
+  mismo cocinero; lo que ya no es cierto es llamarlo «ramen con estrella».
+
+
+  Desde finales de 2023 **se reserva por internet** en TableCheck, con quinientos yenes de gestión por
+  persona. Eso ha eliminado la cola, que era el motivo por el que casi nadie entraba.
+link:
+  url: https://www.tablecheck.com/en/shops/ginza-hachigo/reserve
+  label: Reservar
+seenIn:
+  - ref: "#ramen"
+    label: El ramen
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · Ginza

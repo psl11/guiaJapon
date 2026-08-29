@@ -1,0 +1,38 @@
+slug: shogun-burger
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 120
+title: Shogun Burger
+navLabel: "Shogun Burger"
+tipo: hamburguesa de wagyu, cadena con varias sedes
+area: Shibuya, Kabukichō y Azabudai Hills, entre otras
+cuando: "Tokio · cualquier día · abre de 11:00 a 22:00 o más"
+precio: "¥1.180-2.780 la hamburguesa"
+reserva: "No"
+badge: "Cadena de wagyu con sede en casi todos los barrios del plan"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DRseWffjPAy/
+quePedir: "La doble con queso. Es la que da nombre a la casa."
+body: >-
+  Hamburguesa de wagyu cien por cien, entre 1.180 y 2.780 yenes según el montaje. Quien la
+  recomienda la llama la mejor de Tokio, y es una opinión discutible; lo que no se discute es la
+  logística, que aquí es la razón de estar en la guía.
+
+
+  Es **una cadena**, y por una vez eso juega a favor: hay sede en [Shibuya](#shibuya), en la torre de
+  Kabukichō —o sea al lado de la noche del día 9— y en Azabudai Hills, a un paso del hotel de
+  Roppongi. Abren de once de la mañana a diez o once de la noche todos los días.
+
+
+  Frente a las otras dos hamburguesas de esta lista, la diferencia está clara:
+  [Henry's Burger](#henrys-burger-harajuku) es más barata y con mejor carne pero solo está en
+  Harajuku, y [atami](#atami-akasaka) es un menú de barra de cuarenta y siete euros con reserva. Esta
+  es la que se puede improvisar.
+link:
+  url: https://tabelog.com/en/tokyo/A1303/A130301/13264382/
+  label: Ver en Tabelog (Shibuya)
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · Shibuya

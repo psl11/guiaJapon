@@ -1,0 +1,38 @@
+slug: alba-adashino-nenbutsuji
+trip: japon
+order: 5
+fuente: alba
+kind: ver
+title: Los ocho mil budas de Adashino Nenbutsu-ji
+navLabel: "Adashino Nenbutsu-ji"
+tipo: templo con ocho mil budas de piedra y su propio bambusal
+city: Kioto
+area: A mitad de Saga-Toriimoto, veinte minutos a pie del bambusal grande
+cuando: "Día 12 · martes 17 de noviembre · 9:00 a 16:30 · ¥1.000"
+dia:
+  ref: "#dia-12-kioto-oeste"
+  label: "Día 12 · Arashiyama"
+aviso: "Cierra **miércoles y sábados**. Con el oeste movido al martes entra; si algún día vuelve al miércoles, se cae."
+url: https://www.instagram.com/reel/DSK1iTVgF3Y/
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Adashino%20Nenbutsuji%20Kyoto
+  label: Google Maps
+body: >-
+  Circula como «el bambusal secreto de Arashiyama»: un pasillo de bambú detrás del templo, más denso
+  y más corto que el famoso, a veinte minutos andando por la calle conservada de Saga-Toriimoto. Pero
+  el bambú es lo de menos — el templo guarda **más de ocho mil budas de piedra**, puestos durante
+  siglos por las almas de los viajeros que morían en el camino y quedaban sin enterrar. La entrada
+  sube a mil yenes desde abril de 2026.
+
+
+  Abre de nueve a cuatro y media, con última entrada a las cuatro, y **cierra miércoles y sábados**.
+  Ese detalle es la mitad del motivo por el que el día del oeste se pasó a martes; la otra mitad es
+  [Otagi](#alba-otagi-nenbutsuji), quinientos metros más arriba, que cierra los miércoles.
+
+
+  Y una cosa que no cambia: el bambú **sin cola de verdad** sigue siendo el del plan del día, entrando
+  por el [Tenryū-ji](#arashiyama) a las 8:30 y saliendo por su puerta trasera antes de los autobuses.
+  Esto es un templo con un pasillo de bambú detrás, no un sustituto del bosque.
+seenIn:
+  - ref: "#alba-otagi-nenbutsuji"
+    label: El otro Nenbutsu-ji

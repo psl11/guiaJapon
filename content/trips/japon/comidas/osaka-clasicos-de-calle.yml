@@ -1,0 +1,41 @@
+slug: osaka-clasicos-de-calle
+trip: japon
+part: japon
+city: Osaka
+category: street-food
+order: 140
+title: Los clásicos de calle de Osaka
+navLabel: "Clásicos de calle"
+tipo: cuatro paradas de las de toda la vida, entre Namba y Kuromon
+area: Ebisubashi-suji, Namba y el mercado de Kuromon
+cuando: "Osaka · día 14 · todo cae entre el mercado y Dōtonbori"
+precio: "551: ¥200 la pieza · Rikuro: ~¥1.000 la tarta entera"
+reserva: "No"
+colas: "En Rikuro, siempre. En el 551, va rápida"
+badge: "El 551 abrió en 1945"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DQ13Oz3gsez/
+quePedir: "Los *butaman* del **551 Hōrai** —bollo al vapor relleno de cerdo— y la tarta de queso de **Rikuro**, recién salida."
+body: >-
+  Lo que un osaqueño se lleva cuando vuelve a casa. **551 Hōrai** abrió en 1945 y sus *butaman* son
+  una institución hasta el punto de que las cajas rojas al vapor se reconocen en el tren: doscientos
+  yenes la pieza, cuatrocientos sesenta el par. La casa madre está en Ebisubashi-suji, en pleno
+  Namba, o sea entre [Kuromon](#kuromon) y Dōtonbori.
+
+
+  **Rikuro Ojisan** hace la tarta de queso que tiembla, recién horneada y entera por unos mil yenes.
+  Aquí conviene contar la otra cara: uno de los posts de Alba sostiene que **está sobrevalorada** y
+  que hay mejores en la ciudad. Las dos cosas son verdad a la vez — es un clásico y es una cola larga.
+
+
+  Completan la ronda los *takoyaki* de **Juhachiban** y el helado de leche de Hokkaidō de **Milky
+  Paradise**. Todo esto cae dentro del bloque de mediodía del día 14 sin desviarse: son las mismas
+  cuatro manzanas.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=551%20Horai%20Namba%20Osaka
+  label: Google Maps
+seenIn:
+  - ref: "#dia-14-osaka"
+    label: Día 14 · Osaka
+  - ref: "#takoyaki"
+    label: El takoyaki

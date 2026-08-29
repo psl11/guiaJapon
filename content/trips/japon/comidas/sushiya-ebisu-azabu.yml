@@ -1,0 +1,40 @@
+slug: sushiya-ebisu-azabu
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 142
+title: Seis barras de sushi en Ebisu y Azabu
+navLabel: "Seis barras de sushi"
+tipo: lista corta con dirección, sin comprobar una a una
+area: Ebisu, Akasaka, Nishi-Shinjuku y Shibuya
+cuando: "Tokio · días 7 a 10, que es la tanda de Roppongi"
+precio: "Sin publicar"
+reserva: "Sí, en una barra de sushi siempre"
+badge: "Direcciones tal como las dio la fuente"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DLmdZFFzDYS/
+quePedir: "El *omakase*. En una barra de este tipo no se pide a la carta."
+body: >-
+  Seis barras de *[sushi](#sushi)* repartidas por el sur de Tokio, casi todas en el radio del hotel
+  de [Roppongi](#roppongi). Igual que la lista de Kioto, **esto es una pista y no una recomendación
+  comprobada**: llegan con dirección y cuenta de Instagram, nada más.
+
+  - **Sushi Kenshin** — Ebisu 2-8-13, Shibuya.
+  - **Sushi Tanji** — Akasaka 6-15-14, Minato.
+  - **Sushi Hatsume** — Nishi-Shinjuku 7-10-10, sótano.
+  - **Sushi Inase** — Shibuya 3-15-5, sótano.
+  - **Ura Hatsume** — Ebisu 1-25-11, Shibuya.
+  - **Sushi Kumakura** — Ebisu 1, Minato.
+
+
+  Cuatro de las seis están en Ebisu o Akasaka, o sea a un paso de donde ya lleva esta guía por otras
+  razones: [Pizza Marumo](#pizza-marumo-ebisu) y [Shodai](#shodai-ebisu) están en la misma zona de
+  Ebisu, y [atami](#atami-akasaka) en Akasaka. Si alguna noche se quiere sushi de barra sin salir del
+  barrio, aquí hay por dónde empezar a mirar.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Ebisu%20sushi%20Tokyo
+  label: Google Maps
+seenIn:
+  - ref: "#roppongi"
+    label: El barrio

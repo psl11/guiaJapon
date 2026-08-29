@@ -1,0 +1,34 @@
+slug: alba-timos-dotonbori
+trip: japon
+order: 14
+fuente: alba
+kind: truco
+title: Los hombres de negro de Dōtonbori
+navLabel: "Los timos de Dōtonbori"
+tipo: aviso · captadores de calle en Osaka y Tokio
+city: Osaka
+area: Dōtonbori de noche · y Kabukichō en Tokio
+cuando: "Día 14 · el bloque de noche, de 18:00 a 22:00"
+dia:
+  ref: "#dia-14-osaka"
+  label: "Día 14 · Dōtonbori"
+aviso: "La regla, en una frase: **un restaurante bueno no necesita salir a la calle a pescar clientes.**"
+url: https://www.instagram.com/reel/DT74VYsEhEM/
+body: >-
+  Lo cuenta un cocinero español que vive en Japón y coincide con lo que avisa medio Osaka: **de noche
+  en Dōtonbori hay hombres con carteles que te enseñan fotos de comida espectacular** y te llevan a un
+  local escondido. Lo que sale después es congelado recalentado, a precio inflado. El nombre japonés
+  del oficio es *kyakuhiki* y en Tokio se concentra en Kabukichō.
+
+
+  No es un problema de seguridad sino de dinero y de decepción, y tiene una defensa de una sola
+  frase: si alguien tiene que salir a buscarte a la calle, es porque nadie entra solo. Lo mismo vale
+  para los tours gastronómicos que se venden allí mismo.
+
+
+  Hay un tercer aviso del mismo bloque que sí es de seguridad: **en Harajuku circula la estafa del
+  casting**, alguien que te para por la calle, te dice que tienes «el look» y te propone una sesión de
+  fotos. Aquí la respuesta correcta es la misma que con el resto: no.
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · Harajuku

@@ -1,0 +1,35 @@
+slug: alba-donki-escondido
+trip: japon
+order: 13
+fuente: alba
+kind: truco
+title: El Don Quijote de al lado del Don Quijote
+navLabel: "El Donki de Shibuya"
+tipo: truco de compras · la misma tienda sin la cola
+city: Tokio
+area: Dōgenzaka 2-25-12, frente al MEGA de Udagawachō
+cuando: "Día 9 o día 17 · abierto hasta muy tarde"
+dia:
+  ref: "#dia-17-compras"
+  label: "Día 17 · compras"
+url: https://www.instagram.com/reel/DZCaUjXNvCM/
+link:
+  url: https://www.donki.com/en/store/shop_detail.php?shop_id=671
+  label: La sede anexa
+body: >-
+  El MEGA Don Quijote de Shibuya es uno de los más grandes de Japón y a media tarde es una marea de
+  gente. Lo que cuenta el vídeo —hecho por japoneses— es que los de allí no van a ese: **hay una
+  segunda sede a un minuto andando, con los mismos precios y sin la cola**.
+
+
+  Comprobado que existen las dos: el **Honten** está en Udagawachō 28-6, que es el famoso, y el
+  **Bekkan**, la sede anexa, en Dōgenzaka 2-25-12. Que la segunda esté más vacía es lo que dicen
+  ellos, no algo que pueda verificar desde aquí — pero el dato de que son dos tiendas distintas a un
+  paso sí es verdad, y saberlo cuesta cero.
+
+
+  Aplica al día 17, que es el de comprar, y también a la noche del día 9 en [Shibuya](#shibuya): el
+  Donki cierra tardísimo y es el sitio donde acaban casi todas las listas de cosas por traer.
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · Shibuya

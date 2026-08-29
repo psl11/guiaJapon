@@ -1,0 +1,39 @@
+slug: alba-welcome-suica
+trip: japon
+order: 8
+fuente: alba
+kind: truco
+title: La Welcome Suica, que no lleva fianza
+navLabel: "Welcome Suica"
+tipo: tarjeta IC sin depósito, veintiocho días
+city: Tokio
+area: Máquinas propias en las terminales 1 y 2·3 de Narita
+cuando: "Al aterrizar · resuelve la fianza que no se devuelve en Narita"
+dia:
+  ref: "#transporte-tokio"
+  label: "La ficha de la tarjeta IC"
+aviso: "El saldo que sobre **no se devuelve nunca**, ni antes ni después de caducar. Hay que llegar al final con la tarjeta casi a cero."
+url: https://www.instagram.com/reel/DWk2K0DFBh6/
+link:
+  url: https://www.jreast.co.jp/en/multi/welcomesuica/purchase.html
+  label: Página de JR East
+body: >-
+  La guía ya avisa de que la fianza de una tarjeta IC normal **solo se devuelve en Haneda, no en
+  Narita**. Esta es la salida a ese callejón: la Welcome Suica **no lleva fianza**, así que no hay
+  nada que reclamar al irse. Se compra en máquinas dedicadas de las terminales 1 y 2·3 de Narita y en
+  los mostradores del JR East Travel Service Center.
+
+
+  Dura **veintiocho días desde el primer uso**, que cubre de sobra los veintiuno del viaje y también
+  los veinticinco del cuarto viajero. La contrapartida está en el aviso de arriba y es real: donde la
+  Suica normal devuelve los quinientos yenes del depósito y el saldo restante menos doscientos veinte
+  de comisión, esta **no devuelve nada**.
+
+
+  De ahí sale la única regla práctica: recargarla en tramos cortos según se acabe, y no meterle diez
+  mil yenes el primer día. Para quien vuela desde Narita —que en este grupo es el cuarto viajero el
+  día 9— la cuenta sale a favor de la Welcome Suica; para quien sale por Haneda, las dos valen y la
+  normal recupera el depósito.
+seenIn:
+  - ref: "#solo-1-narita"
+    label: El día de llegar por Narita

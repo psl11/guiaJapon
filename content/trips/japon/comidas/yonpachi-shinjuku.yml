@@ -1,0 +1,37 @@
+slug: yonpachi-shinjuku
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 110
+title: Yonpachi Gyojō Nishi-Shinjuku
+navLabel: "Yonpachi Gyojō"
+tipo: izakaya de pescado, con bonito a la paja
+area: Nishi-Shinjuku 1-2-5, cinco minutos de la salida oeste
+cuando: "Tokio · día 9 · la noche de Shinjuku"
+precio: "Sin publicar; tramo de izakaya de pescado"
+reserva: "Recomendable el fin de semana"
+badge: "Cadena con trato directo con las lonjas"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DTo-B8Lke8n/
+quePedir: "El bonito **quemado con paja** delante de la mesa, y el sashimi del día."
+body: >-
+  Una *izakaya* de pescado a cinco minutos de la salida oeste de Shinjuku, que compra directamente a
+  cofradías de pescadores y hace el bonito *tataki* quemándolo con paja a la vista. Es la respuesta
+  de quien la recomienda a una pregunta concreta: dónde cenar en Shinjuku sin caer en una trampa
+  para turistas.
+
+
+  Conviene decir lo que es: **una cadena**, con sedes en Akihabara, Shinagawa y varias más. Aquí eso
+  no es un defecto sino justamente lo que la hace útil — el pescado es bueno, los precios están a la
+  vista y nadie sale a la calle a pescar clientes, que es el filtro que importa en esta zona.
+
+
+  Encaja en la noche del día 9, que ya termina en [los callejones de Shinjuku](#shinjuku). Es la
+  alternativa con mesa a picar de barra en barra.
+link:
+  url: https://tabelog.com/en/tokyo/A1304/A130401/13146549/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · la noche

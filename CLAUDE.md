@@ -36,6 +36,7 @@ mira de qué bloque hablas.
 
 - **Nuxt 4** con `nuxi generate` → GitHub Pages (`nitro.preset: 'github_pages'`, `app.baseURL`).
 - **@nuxt/content v3**, colecciones `type: 'data'` sobre ficheros YAML en `content/trips/japon/`.
+  Once colecciones; la más nueva es **`recomendados/`** (ago 2026) — ver §10.
 - **Los esquemas viven en `shared/schemas.ts`** y los consumen dos sitios: `content.config.ts` (tipos
   y columnas SQL) y los tests. Una sola fuente de verdad.
 - **PWA con precaché total** (`@vite-pwa/nuxt`): app shell, contenido y las 56 fotos, ~13 MB.
@@ -217,6 +218,40 @@ bajo `/guiaJapon/`, así que hay que navegar a `http://localhost:3001/guiaJapon/
 no llega a producción en silencio. No es adorno: en guiaVietnam el despliegue corría solo el
 `generate` y hubo que añadir la puerta a posteriori. Si tocas el workflow, no la quites.
 
+### El extractor de Instagram (`tools/instagram/`)
+
+Saca los sitios que alguien del grupo comparte por mensaje privado. **Su `data/` está gitignorado**
+—ahí vive la cookie `sessionid`, que es una credencial— y solo se versiona el código.
+
+```bash
+cd tools/instagram
+npm run collect:dm -- --hilo <fbid>   # abre el navegador y pagina el hilo entero
+npm run parse:dm   -- --hilo <fbid>
+npm run identify:dm -- --dias 21 --de alba
+npm run review:dm                      # hoja markdown de lo que quedó sin resolver
+```
+
+**Las cuatro trampas que costaron la tarde, por si hay que repetirlo:**
+
+1. **El mensajero nuevo de Instagram NO usa el esquema clásico.** Todo el mundo documenta
+   `item_id` / `item_type` / `timestamp` (µs). El hilo de 2026 llega por
+   `get_slide_thread_nullable → as_ig_direct_thread → slide_messages.edges[].node`, con
+   **`message_id` / `content_type` / `timestamp_ms`**. Buscar por la forma vieja daba **cero
+   mensajes con el hilo abierto delante**, que es el fallo más desconcertante posible.
+2. **Habla por `/api/graphql`**, no por `/api/v1/…` ni por `/graphql`. Un filtro de URL que pida
+   esos dos se come todo el tráfico del chat sin dar ni un error.
+3. **El número de `/direct/t/<n>` NO es el `thread_fbid`**: en un chat de dos es el **fbid del
+   otro**. Y la bandeja precarga peticiones de OTROS hilos, así que si se coge «la primera
+   plantilla que pase» se pagina la conversación equivocada — pasó, y se volcaron 682 mensajes de
+   otra persona antes de notarlo. Por eso el hilo se pasa explícito y se sobrescribe en las
+   variables.
+4. **El `xma` trae el caption vacío** en la mayoría de reels compartidos: solo el nombre de la
+   cuenta y el enlace. Se rehidrata con `/api/v1/media/<pk>/info/`, sacando el `pk` del parámetro
+   `id` del `target_url`. Salieron 262 de 263.
+
+La paginación no usa cursor: se **reemite la propia petición de la página** subiendo el tamaño de
+página, porque el `doc_id` cambia cada semana y no se puede construir a mano.
+
 ### El escáner editorial
 
 Vive fuera del repo (se regenera fácil): detecta variantes de un mismo topónimo, tipografía, tics
@@ -289,8 +324,8 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-58 locales en 9 ciudades · 5 de salir · 9 recomendaciones prácticas · 65 fotos · PWA offline
-completo y verificado.
+**109 locales** en 10 ciudades · 5 de salir · 9 recomendaciones prácticas · **18 recomendados del
+grupo** (§10) · 65 fotos · PWA offline completo y verificado.
 
 **La capa gastronómica** se construyó con el mismo criterio que la de `guiaVietnam`: por ciudad y en
 siete categorías (`desayuno · cafe · comida · cena · street-food · postre · cocteleria`), y **cada
@@ -316,6 +351,9 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
 - Sin foto verificable: Ebisu-Meguro y Masakado.
 - Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
   hay forma de verificar que una imagen de Commons sea ese local.
+- **Faltan las camas de Kioto (4 noches), Hiroshima (1) y la última tanda de Tokio (días 16-20).**
+  Confirmadas ya: Akihabara, Matsumoto, Hirayu, Takayama, **Kanazawa** (Hotel Forza, ago 2026) y
+  Roppongi. Lo de abajo se escribió cuando no había ninguna y se conserva porque la regla sigue en pie.
 - **Los hoteles están sin rehacer, y es deliberado.** El itinerario cambió de forma entera (ver
   abajo) y las camas de Takayama, Kanazawa, Kioto, Hiroshima y las tres tandas de Tokio hay que
   volver a buscarlas. En `hoteles/` solo se han ajustado los campos `noches` para que no mientan;
@@ -432,3 +470,74 @@ y la prosa no se renumera sola.**
 **Si vuelves a renumerar días, la comprobación barata** es cruzar cada `eyebrow` con lo que dice el
 cuerpo: `grep -n "lunes\|martes\|domingo\|víspera\|mañana es"` sobre `dias/` y mirarlo uno a uno.
 Los tests no cazan nada de esto, porque son datos válidos que dicen mentiras.
+
+
+---
+
+## 9 ter. Kioto: por qué el 12 es el oeste y el 13 el este (ago 2026)
+
+**Estaban al revés y se intercambiaron.** Si alguien mira el orden y le parece arbitrario, esta es la
+razón, y es de calendario: **los dos templos Nenbutsu-ji de Saga-Toriimoto cierran los miércoles** —el
+Otagi, con sus mil doscientos rakan tallados por aficionados, y el Adashino, con ocho mil budas, que
+además cierra sábados—. El día de Arashiyama era miércoles, así que **los dos templos de esa calle
+cerraban justo el día que se pasaba por allí**.
+
+Se comprobó sitio por sitio antes de mover nada, y el resultado es que **el intercambio no rompe
+nada**: Tenryū-ji, Ōkōchi Sansō, Jōjakkō-ji, Giō-ji, Kinkaku-ji, Ryōan-ji, Ninna-ji, Kiyomizu-dera y
+Kōdai-ji **abren todos los días**. En Kioto, de todo lo que toca este viaje, lo único con cierre
+entre semana son esos dos templos.
+
+**Lo que el cambio NO hace es crear horas.** El día del oeste ya iba lleno y en noviembre anochece a
+las 16:40. Subir a Saga-Toriimoto son unas dos horas desde donde acaba la villa Ōkōchi. Por eso está
+escrito **dentro del día como decisión y no como plan**, diciendo que lo que se paga es el Ninna-ji,
+que es el último de los tres del noroeste.
+
+**El renumerado se hizo como manda §9:** cargar los dos ficheros en memoria, borrar, reescribir con
+los nombres nuevos, y en la misma pasada las anclas y **las trece referencias de prosa repartidas por
+nueve ficheros** —incluida la ficha de cine y libros, que remitía al día del pabellón dorado por *El
+pabellón de oro* de Mishima—. Y los dos datos que además del número llevaban fecha: «el día 13 es
+martes» y «el día 13 es el 18 de noviembre». **Los tests no cazan nada de esto**: son datos válidos
+que dicen mentiras.
+
+**De paso se cerró el asunto del *raitoappu*.** El día lo dejaba en «las fechas las publica cada
+templo en octubre». Ya se saben las de 2026: **Shōren-in del 7 de noviembre al 7 de diciembre** —y
+vuelve a abrir de noche **tras cinco años cerrado por obras**—, Kōdai-ji de finales de octubre a
+principios de diciembre, y **Kiyomizu-dera del 21 al 30**, que es justo después de que el grupo se
+vaya. Ese se pierde por un día y conviene que esté escrito.
+
+---
+
+## 10. La capa de «Recomendados por el grupo» (ago 2026)
+
+Alba compartió por mensaje privado **422 posts**, de los que 193 eran de Japón. De ahí salen **66
+fichas** a partir de **65 posts** —uno, la lista de restaurantes de Tokio, alimenta dos—: 48 sitios de comer y 18
+tarjetas. El resto se descartó con motivo —fuera de ruta, listas de
+captación de leads, duplicados de lo ya escrito— y el recuento está en `tools/instagram/`.
+
+**Cómo está montado, y por qué así:**
+
+- Un local de comer es una `comida` con **`fuente`** (`alba` | `pablo`) y **`fuenteUrl`** (el post de
+  origen). Pinta un chip en la tarjeta.
+- Lo que no es un restaurante —un mercado con fecha fija, un taller de palillos, un aviso de estafa—
+  va a la colección **`recomendados/`**, con `kind` (`ver` · `taller` · `truco`) y **`url`
+  obligatorio**. No cabía en `recos`, cuyos `kind` describen la logística del viaje y no un hallazgo
+  de alguien.
+- **La sección NO duplica nada.** Lista los locales en una línea que salta a su ficha de
+  Gastronomía, y pinta tarjeta entera solo para lo demás. Copiar la ficha habría roto la regla 4.1.
+
+**Las dos reglas que la hacen fiable, y que no hay que relajar:**
+
+1. **Verificar antes de escribir, y escribir la corrección cuando la haya.** De los 66, más de
+   quince contradicen a su propio vídeo: Otafuku tiene 35 asientos y no 8; Odai Sushi, 7 y no 10; el
+   mercado de Ōedo no sigue la regla de «primer sábado y tercer domingo»; los tres ramen con estrella
+   de Tokio **la perdieron en la guía de 2024**; los cajeros de 7-Eleven solo son gratis con
+   Mastercard. Ese trabajo es el valor de la capa entera.
+2. **Cuando algo no encaja, se dice.** Hay fichas que existen para explicar por qué NO se va: Onigiri
+   Bongo (cola de dos a cinco horas), SUNDOWNER (cierra los viernes y el día de Kamakura es viernes),
+   Sen (Ikebukuro no sale en ningún día), Okudosan (cuatro cubiertos al día). Y las que llegan sin
+   confirmar lo llevan escrito: la bolsa de 3COINS, los precios de Daibokujō.
+
+**El presupuesto de peso está subido a propósito.** `scripts/check-weight.mjs` pasó de 550 a **900 KB**
+de payload gzip para que cupiera todo esto de golpe; hoy va por 618. **Cuando se filtre la capa hay
+que volver a bajarlo** a la holgura real — está anotado en el propio script y no es decorativo: el
+payload es lo que se descarga en la primera carga online.

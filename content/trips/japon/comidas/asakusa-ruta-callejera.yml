@@ -1,0 +1,41 @@
+slug: asakusa-ruta-callejera
+trip: japon
+part: japon
+city: Tokio
+category: street-food
+order: 136
+title: La ruta a pie de Asakusa
+navLabel: "Ruta a pie de Asakusa"
+tipo: cuatro paradas de calle a cinco minutos unas de otras
+area: Asakusa 2-chōme, alrededor del Sensō-ji
+cuando: "Tokio · día 2 · todas abren a las 10:00"
+precio: "¥300 el melonpan · el resto, precio de puesto"
+reserva: "No"
+colas: "En el melonpan, siempre"
+badge: "Las cuatro caben en una manzana"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DWRzNqpDz5C/
+quePedir: "El melonpan **recién salido del horno**, y el de anguila en cuenco pequeño para poder seguir andando."
+body: >-
+  Cuatro paradas de calle alrededor del [Sensō-ji](#sensoji), todas a cinco minutos andando unas de
+  otras y todas abriendo a las diez, que es exactamente la hora en la que el día 2 vuelve a Asakusa
+  para verlo convertido en mercado:
+
+  - **Asakusa Kagetsudō** (Asakusa 2-7-13) — el *melonpan* gigante, trescientos yenes, y setecientos
+  si se pide relleno de helado de vainilla o matcha. **Hornea hasta que se acaba**, así que a última
+  hora puede no quedar.
+  - **Asakusa Unana** (2-7-21) — cuenco de anguila a la brasa a precio de puesto, de 10:00 a 17:15 y
+  hasta las 18:15 los fines de semana. Es lo que se ve en los vídeos de comida callejera del templo.
+  - **Asakusa Menchi** (2-3-3) — la croqueta frita de carne picada de ternera y cerdo, de 10:00 a
+  19:00.
+  - **Tokyo Curry Pan** — el pan relleno de curry y frito, la otra institución del barrio.
+
+
+  Después de comer, **Kappabashi está a diez minutos** y es donde el día ya iba: la calle de los
+  cuchillos y la vajilla. La ruta entera cabe entre el templo y esa calle sin dar un rodeo.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Asakusa%20Kagetsudo%20Tokyo
+  label: Google Maps
+seenIn:
+  - ref: "#dia-2-shitamachi"
+    label: Día 2 · Asakusa

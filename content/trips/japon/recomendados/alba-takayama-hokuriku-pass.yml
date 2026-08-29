@@ -1,0 +1,36 @@
+slug: alba-takayama-hokuriku-pass
+trip: japon
+order: 2
+fuente: alba
+kind: truco
+title: El Takayama-Hokuriku Pass, y por qué tampoco sale
+navLabel: "Takayama-Hokuriku Pass"
+tipo: pase regional de cinco días · ¥19.800
+cuando: "Cubriría los días 5 y 6 · hay que decidirlo antes de salir"
+dia:
+  ref: "#jr-pass"
+  label: "La cuenta del JR Pass"
+aviso: "Solo para visado de *Temporary Visitor*, y con pasaporte extranjero."
+url: https://www.instagram.com/reel/DXb1FjbDLCJ/
+link:
+  url: https://touristpass.jp/en/takayama_hokuriku/
+  label: Web oficial del pase
+body: >-
+  Este pase parece hecho a medida del agujero que deja el JR Pass en este viaje. La guía ya explica
+  que **los autobuses de montaña no son JR** —Hirayu a Takayama, Takayama a Shirakawa-gō, Shirakawa-gō
+  a Kanazawa— y el Takayama-Hokuriku sí los cubre, incluidos los de reserva obligatoria. Cuesta
+  **19.800 yenes** y vale cinco días seguidos.
+
+
+  Y aun así no sale, por una razón de mapa. Su área va de Kansai y Nagoya hasta Kanazawa, y **se
+  acaba justo ahí**: el Hokuriku Shinkansen de Kanazawa a Tokio, que son 14.380 yenes y el trayecto
+  más caro de todo el tramo alpino, queda fuera. Tampoco entran el Azusa a Matsumoto ni el autobús
+  de Alpico a Kamikōchi, que son los días 3 y 4.
+
+
+  Lo que quedaría dentro son los autobuses de los días 5 y 6, unos pocos miles de yenes. Pagar casi
+  veinte mil por eso no tiene defensa. Va aquí para que no haya que volver a hacer esta cuenta:
+  **está hecha y sale que no**, igual que la del pase nacional.
+seenIn:
+  - ref: "#dia-6-shirakawa-kanazawa"
+    label: Los autobuses en cuestión

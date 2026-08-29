@@ -1,0 +1,33 @@
+slug: alba-omoide-yokocho-turistada
+trip: japon
+order: 7
+fuente: alba
+kind: truco
+title: «Omoide Yokochō es una turistada»
+navLabel: "La pega a Omoide Yokochō"
+tipo: discrepancia con lo que dice esta guía
+city: Tokio
+cuando: "Día 9 · la noche de Shinjuku"
+dia:
+  ref: "#dia-9-yamanote"
+  label: "Día 9 · la noche"
+url: https://www.instagram.com/reel/DTuzzuoEk0K/
+body: >-
+  Va aquí porque **contradice a la guía**, y esconderlo sería peor. Un cocinero español afincado en
+  Japón sostiene que Omoide Yokochō no es ningún referente gastronómico sino una trampa para
+  turistas: cuatro fotos y a comer a otro sitio. Propone en su lugar Torikizoku, la cadena de
+  *yakitori* donde todo el menú vale lo mismo.
+
+
+  El plan del día 9 lo manda ahí a cenar, y sigue mandándolo, por una razón que no es la comida: esos
+  dos pasillos de barras bajo faroles rojos son lo que queda del mercado negro de posguerra, y verlos
+  es parte de entender [Shinjuku](#shinjuku). Nadie ha dicho que se coma mejor ahí que en el barrio.
+
+
+  Lo útil del aviso es la advertencia de al lado: **si en esa zona alguien os aborda en la calle para
+  llevaros a un local, es un** *kyakuhiki* **y hay que decir que no**. Un sitio bueno no necesita
+  salir a pescar clientes. El cubierto anunciado en la puerta de los bares de Golden Gai es otra cosa
+  y sí es legítimo.
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: La noche que discute

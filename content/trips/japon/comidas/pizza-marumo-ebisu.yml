@@ -1,0 +1,38 @@
+slug: pizza-marumo-ebisu
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 108
+title: Pizza Marumo
+navLabel: "Pizza Marumo"
+tipo: napolitana con producto japonés, horno de leña
+area: Ebisu-Minami 1-11-13, tres minutos de la estación de Ebisu
+cuando: "Tokio · días 7 a 10 · 11:30-15:00 y 17:00-23:00"
+precio: "Sin publicar; tramo de napolitana de autor"
+reserva: "Muy recomendable, y con meses. Barra a veces sin ella, llegando pronto"
+colas: "Para la barra, sí"
+badge: "Su cocinero, entre los diez mejores pizzeros de 2023"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DaPt9MZtP-x/
+quePedir: "La *Japanese Umami*: crema de shiitake, mozzarella, pecorino, caballa, **bonito seco, kombu**, cebolleta, sésamo y soja."
+body: >-
+  Napolitana hecha con técnica italiana y despensa japonesa. La casa abrió en 2022 en
+  [Ebisu](#ebisu-meguro) y su pizza insignia lleva base de crema de shiitake y, encima, virutas de
+  bonito, kombu y soja: los tres pilares del *dashi* puestos sobre una masa fermentada veinticuatro
+  horas y cocida en un horno de leña hecho a medida por un alfarero de hornos.
+
+
+  El cocinero, Yuki Motokura, se formó en Savoy y **entró en la lista de los diez mejores pizzeros
+  del mundo en 2023**. Abre todos los días en dos turnos, de 11:30 a 15:00 y de 17:00 a 23:00, y está
+  a tres minutos de la estación de Ebisu, o sea a un salto de la tanda de noches de Roppongi.
+
+
+  Reservar cuesta: se llena con meses. La rendija es la barra, que a veces cae llegando pronto a la
+  comida o al final del servicio.
+link:
+  url: https://pizza-marumo.com/menu.html
+  label: La carta
+seenIn:
+  - ref: "#ebisu-meguro"
+    label: El barrio

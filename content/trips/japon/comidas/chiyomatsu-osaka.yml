@@ -1,0 +1,39 @@
+slug: chiyomatsu-osaka
+trip: japon
+part: japon
+city: Osaka
+category: comida
+order: 112
+title: Katsudon Chiyomatsu
+navLabel: "Chiyomatsu"
+tipo: katsudon de cinco centímetros de grosor
+area: Sennichimae 1-1-10, Chūō — entre Namba y Kuromon
+cuando: "Osaka · día 14 · cae dentro del bloque de Kuromon"
+precio: "¥1.250 el normal · ¥2.400 el especial de 450 g"
+reserva: "No"
+colas: "Alrededor de una hora. El local es pequeño"
+badge: "La abrió un exluchador de sumo"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DbYY4nWy32c/
+quePedir: "**El normal, no el especial.** El de 450 g es un desafío; quienes lo piden coinciden en que el pequeño está más tierno."
+body: >-
+  Un *[tonkatsu](#tonkatsu)* de cinco centímetros de grosor sobre arroz, cocinado a baja temperatura
+  para que el interior aguante ese calibre sin secarse, y rematado con huevo y cebolla en salsa dulce
+  de soja. La casa la abrió un exluchador de sumo, lo que explica bastante bien el tamaño de las
+  raciones.
+
+
+  Está en Sennichimae, a un paso del mercado de [Kuromon](#kuromon), o sea dentro del bloque que el
+  día 14 dedica a comer de doce a tres. **La cola ronda la hora** porque el local tiene poquísimos
+  asientos; hay salida por la puerta de atrás, que es pedir el *katsu sando* para llevar.
+
+
+  Y una advertencia que sale de quienes lo han comido: el «especial» son cuatrocientos cincuenta
+  gramos de cerdo y se hace largo, con la carne más dura que la del normal. El de mil doscientos
+  cincuenta yenes es el que hay que pedir.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=%E3%81%8B%E3%81%A4%E4%B8%BC%20%E3%81%A1%E3%82%88%E6%9D%BE%20%E5%8D%83%E6%97%A5%E5%89%8D
+  label: Google Maps
+seenIn:
+  - ref: "#dia-14-osaka"
+    label: Día 14 · Kuromon

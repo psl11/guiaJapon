@@ -1,0 +1,36 @@
+slug: alba-kioto-osaka-sin-shinkansen
+trip: japon
+order: 4
+fuente: alba
+kind: truco
+title: Kioto a Osaka sin Shinkansen
+navLabel: "Kioto ↔ Osaka"
+tipo: truco de transporte · ahorra ¥870 por trayecto
+cuando: "Día 14 · jueves 19 de noviembre"
+dia:
+  ref: "#dia-14-osaka"
+  label: "Día 14 · Osaka"
+aviso: "El tren turístico *Kyo-train Garaku* que sale en el vídeo **no circula ese día**: solo va fines de semana y festivos."
+url: https://www.instagram.com/reel/DZfY_VjTrzj/
+link:
+  url: https://www.japan-guide.com/e/e4006.html
+  label: Comparativa de rutas
+body: >-
+  Para ir de Kioto a Osaka hay dos trenes y la diferencia de tiempo no compensa la de precio. El
+  **Special Rapid de la línea JR Kioto** tarda veintiocho minutos y cuesta **580 yenes**; el
+  Shinkansen tarda entre trece y quince y cuesta **1.450** sin reservar. Son trece minutos a cambio
+  de ochocientos setenta yenes, y además el Shinkansen deja en Shin-Ōsaka, no en Osaka, así que hay
+  que transbordar de todos modos.
+
+
+  Con cuatro personas y un viaje de ida y vuelta el mismo día, la diferencia son casi siete mil
+  yenes. Es de los pocos ahorros de este viaje que no cuestan nada: el tren normal sale cada pocos
+  minutos y no necesita reserva.
+
+
+  El vídeo propone además el *Kyo-train Garaku* de Hankyu, un tren temático con vagones por
+  estaciones y jardín zen dentro, por 410 yenes. Es cierto y es bonito, pero **solo circula fines de
+  semana y festivos**, y el día de Osaka es jueves. No se puede coger.
+seenIn:
+  - ref: "#jr-pass"
+    label: La cuenta del pase

@@ -1,0 +1,39 @@
+slug: kyoto-cinco-de-nakagyo
+trip: japon
+part: japon
+city: Kioto
+category: cena
+order: 141
+title: Cinco direcciones de cena en Kioto
+navLabel: "Cinco cenas en Kioto"
+tipo: lista corta con dirección, sin comprobar una a una
+area: Nakagyō, Shimogyō, Sakyō y Pontochō
+cuando: "Kioto · días 11 a 13"
+precio: "Sin publicar"
+reserva: "Según el sitio"
+badge: "Direcciones tal como las dio la fuente"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DcH-yDFPL_P/
+quePedir: "Depende del sitio. La lista da la dirección, no la carta."
+body: >-
+  Una lista de cinco cenas en Kioto que llega con dirección exacta y poco más. **Va aquí como pista,
+  no como recomendación verificada**: a diferencia del resto de fichas de esta guía, no he
+  comprobado horarios, precios ni si siguen abiertos. Sirve para tener nombres a mano si una noche
+  se cae el plan.
+
+  - **Muni** — izakaya. Zaimokuchō 186, 2ª planta, Nakagyō.
+  - **Oni Tofu** — tofu. Suhamachō 647-2, Shimogyō.
+  - **Kobe Beef Kisshokichi** — teppanyaki. Kamiōsakachō 521, 8ª planta, Nakagyō.
+  - **Yakiniku Genshu Goshu** — yakiniku. Tanaka Monzenchō 103, Sakyō.
+  - **Pontochō Kiraku** — shabu-shabu y sukiyaki. Kashiwayachō 169-2, Nakagyō.
+
+
+  De los cinco, el de Pontochō es el que mejor encaja con el itinerario: **el día 12 termina
+  precisamente ahí**, y en esa misma calle está [GANSAN](#gansan-pontocho), que sí está comprobado y
+  tiene reservados al río.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Pontocho%20Kyoto
+  label: Google Maps
+seenIn:
+  - ref: "#dia-12-kioto-oeste"
+    label: Día 12 · la noche

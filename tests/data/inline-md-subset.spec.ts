@@ -42,6 +42,7 @@ const INLINE_FIELDS: { dir: string, single?: boolean, pick: (doc: Record<string,
   },
   { dir: 'inversiones', pick: d => [{ field: 'title', value: d.title }] }, // InversionCard
   { dir: 'platos', pick: d => [{ field: 'dondeMejor', value: d.dondeMejor }, { field: 'picante', value: d.picante }] }, // PlatoCard (v-html con inlineMd)
+  { dir: 'recomendados', pick: d => [{ field: 'tipo', value: d.tipo }, { field: 'aviso', value: d.aviso }] }, // RecomendadoCard (v-html con inlineMd)
   { dir: 'comidas', pick: d => [{ field: 'veg', value: d.veg }, { field: 'tipo', value: d.tipo }, { field: 'precio', value: d.precio }, { field: 'colas', value: d.colas }] }, // ComidaCard
   {
     dir: 'fichas', // FichaCard: epíteto + encabezados de sección

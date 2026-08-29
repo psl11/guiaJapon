@@ -1,0 +1,37 @@
+slug: atami-akasaka
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 118
+title: atami
+navLabel: "atami"
+tipo: menú de cinco pases con hamburguesa de wagyu a la leña
+area: Akasaka 3-9-2, tres minutos de Akasaka-Mitsuke
+cuando: "Tokio · días 7 a 10 · solo comidas, en tres turnos"
+precio: "~¥7.800 el menú (unos 47 €)"
+reserva: "Obligatoria. Ocho asientos, todos de barra"
+badge: "Selección Japan's Best Wagyu 2026, número 8"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DbK83juxPQY/
+quePedir: "No se elige: cinco pases pequeños que terminan en la hamburguesa y un helado de leche de la casa."
+body: >-
+  Ocho asientos, todos de barra, y un solo menú al mediodía: cinco pases que van creciendo hasta una
+  hamburguesa de wagyu negro cien por cien **asada sobre leña**, sin ligantes, y un helado de leche
+  para cerrar. Cuesta unos 7.800 yenes, que para una hamburguesa suena a disparate hasta que se ve
+  que no se está pagando una hamburguesa sino un menú de barra.
+
+
+  Está en Akasaka-Mitsuke, a tres minutos del metro y a un salto del hotel de Roppongi, y aparece en
+  la selección **Japan's Best Wagyu de 2026 en el puesto ocho**, que es un sello comprobable y no una
+  frase de vídeo.
+
+
+  El horario es el filtro: **solo mediodía, en tres turnos —11:00, 12:00 y 13:00— y solo con
+  reserva**. Con ocho plazas por turno, esto se decide con semanas, no con días.
+link:
+  url: https://tabelog.com/en/tokyo/A1308/A130801/13292684/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#roppongi"
+    label: El barrio

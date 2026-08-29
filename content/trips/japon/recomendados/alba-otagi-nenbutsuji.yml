@@ -1,0 +1,40 @@
+slug: alba-otagi-nenbutsuji
+trip: japon
+order: 10
+fuente: alba
+kind: ver
+title: Los mil doscientos rakan de Otagi Nenbutsu-ji
+navLabel: "Otagi Nenbutsu-ji"
+tipo: templo con mil doscientas figuras talladas por aficionados
+city: Kioto
+area: Saga-Toriimoto Fukatanichō 2-5, Ukyō — al final de la calle conservada
+cuando: "Día 12 · martes 17 de noviembre · 9:00 a 16:15 · ¥500"
+dia:
+  ref: "#dia-12-kioto-oeste"
+  label: "Día 12 · Arashiyama"
+aviso: "Cierra los miércoles. **Por eso se invirtieron los días 12 y 13**: con el oeste en martes, abre."
+url: https://www.instagram.com/reel/DPTD4lzgR2E/
+link:
+  url: https://www.insidekyoto.com/otagi-nenbutsu-ji-temple
+  label: Ficha en Inside Kyoto
+body: >-
+  Mil doscientas figuras de piedra de los *rakan* —los discípulos del Buda— cubriendo la ladera, cada
+  una con una cara distinta. Lo extraordinario es quién las hizo: **no las talló un escultor sino
+  aficionados llegados de todo Japón** durante la restauración del templo en los años ochenta, bajo la
+  dirección del monje y escultor Kōchō Nishimura. Hay figuras con raqueta de tenis, con cámara de
+  fotos, riéndose a carcajadas. Cuesta quinientos yenes.
+
+
+  Este templo es la razón por la que el itinerario cambió. Cierra los miércoles, y el día de
+  Arashiyama era miércoles; su vecino [Adashino](#alba-adashino-nenbutsuji), a quinientos metros,
+  cierra miércoles **y** sábados. **Los dos templos de esa calle cerraban justo el día que se pasaba
+  por allí.** Al intercambiar el este y el oeste de Kioto —que no rompía ningún otro horario— los dos
+  se abrieron de golpe.
+
+
+  Está al final de Saga-Toriimoto, al pie del monte Atago, unos veinticinco minutos andando cuesta
+  arriba desde donde termina la villa Ōkōchi Sansō. Se sube parando en Adashino, en el Giō-ji y en el
+  Jōjakkō-ji, que abren todos los días.
+seenIn:
+  - ref: "#alba-adashino-nenbutsuji"
+    label: El otro Nenbutsu-ji

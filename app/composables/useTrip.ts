@@ -1,4 +1,4 @@
-import type { Trip, Acto, Ficha, Inversion, Dia, Reco, Comida, Plato, Salir, Hotel } from '~~/shared/schemas'
+import type { Trip, Acto, Ficha, Inversion, Dia, Reco, Comida, Plato, Salir, Hotel, Recomendado } from '~~/shared/schemas'
 
 // `useTrip(slug)` — punto de entrada ÚNICO y tipado de los datos de un viaje.
 //
@@ -13,7 +13,7 @@ import type { Trip, Acto, Ficha, Inversion, Dia, Reco, Comida, Plato, Salir, Hot
 // castea el retorno a los tipos zod de shared/schemas.ts (la misma fuente que valida en tests) por
 // coherencia con el resto de la plataforma.
 export async function useTrip(slug: string) {
-  const [trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir, hoteles] = await Promise.all([
+  const [trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir, hoteles, recomendados] = await Promise.all([
     useAsyncData(`trip-${slug}`, () => queryCollection('trip').where('slug', '=', slug).first()),
     useAsyncData(`actos-${slug}`, () => queryCollection('acto').where('trip', '=', slug).order('order', 'ASC').all()),
     useAsyncData(`fichas-${slug}`, () => queryCollection('ficha').where('trip', '=', slug).order('order', 'ASC').all()),
@@ -24,6 +24,7 @@ export async function useTrip(slug: string) {
     useAsyncData(`platos-${slug}`, () => queryCollection('plato').where('trip', '=', slug).order('order', 'ASC').all()),
     useAsyncData(`salir-${slug}`, () => queryCollection('salir').where('trip', '=', slug).order('order', 'ASC').all()),
     useAsyncData(`hoteles-${slug}`, () => queryCollection('hotel').where('trip', '=', slug).order('order', 'ASC').all()),
+    useAsyncData(`recomendados-${slug}`, () => queryCollection('recomendado').where('trip', '=', slug).order('order', 'ASC').all()),
   ])
 
   return {
@@ -37,5 +38,6 @@ export async function useTrip(slug: string) {
     platos: platos.data as unknown as Ref<Plato[]>,
     salir: salir.data as unknown as Ref<Salir[]>,
     hoteles: hoteles.data as unknown as Ref<Hotel[]>,
+    recomendados: recomendados.data as unknown as Ref<Recomendado[]>,
   }
 }

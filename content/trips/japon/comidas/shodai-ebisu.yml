@@ -1,0 +1,38 @@
+slug: shodai-ebisu
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 109
+title: Shodai
+navLabel: "Shodai"
+tipo: curry udon blanco, casa de soba
+area: Ebisu-Minami 1-1-10, cinco minutos de la estación
+cuando: "Tokio · días 7 a 10 · seguido, de 11:30 a 21:30"
+precio: "Sin publicar; tramo de casa de fideos de barrio"
+reserva: "No"
+colas: "Sí. Se llega quince minutos antes de abrir"
+badge: "Lo blanco no es nata: es mousse de patata"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DUYHqIMAM29/
+quePedir: "El *white curry udon*, y en versión picante — pica poco. La montaña blanca **se mezcla con el curry**."
+body: >-
+  El curry udon es un clásico de casa de fideos, pero aquí llega cubierto de una montaña blanca que
+  todo el mundo confunde con nata. **Es una mousse de patata con base de dashi**, y al mezclarla con
+  el curry de debajo la salsa se vuelve cremosa. Ese truco es lo que ha puesto la casa en circulación.
+
+
+  Es una casa de *soba* de barrio en Ebisu-Minami, cinco minutos andando de la estación —a una
+  manzana de [Pizza Marumo](#pizza-marumo-ebisu), lo que convierte ese trozo de calle en la parada
+  gastronómica más rentable de la tanda de Roppongi—. Abre seguido de 11:30 a 21:30, sin partir el
+  servicio, que en Tokio se agradece.
+
+
+  Hay cola casi siempre y no aceptan reserva: quien quiera entrar sin esperar tiene que estar allí un
+  cuarto de hora antes de que abran.
+link:
+  url: https://tabelog.com/en/tokyo/A1303/A130302/13118189/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#udon"
+    label: El udon

@@ -1,0 +1,43 @@
+slug: menya-inoichi
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 97
+title: Men-ya Inoichi
+navLabel: "Men-ya Inoichi"
+tipo: ramen de dashi, dieciséis asientos
+area: Ebisunochō 542, Shimogyo — cerca de la estación
+cuando: "Kioto · día 11, la comida del día de llegada"
+precio: "Menos de ¥1.500 (unos 9 €)"
+reserva: "No — hay sistema de tique con hora de vuelta"
+colas: "Sí, y largas. El tique evita hacerlas de pie"
+badge: "Bib Gourmand · nueve guías seguidas, de 2016 a 2024"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DbpUGhToxwZ/
+quePedir: "El de *dashi* claro. Es la casa: caldo **cien por cien de pescado**, sin cerdo."
+body: >-
+  Un ramen con distinción de la guía Michelin por menos de diez euros, que es la razón por la que
+  circula. El Bib Gourmand no es una estrella: premia precisamente esto, comer muy bien barato. Y no
+  es un año suelto —lo tiene en **nueve guías consecutivas, de 2016 a 2024**—, que es lo que separa
+  un sitio bueno de un sitio con un buen año.
+
+
+  Lo que hace distinto a este ramen es de dónde sale el caldo. Aquí no hay hueso de cerdo: es
+  *dashi* de pescado al cien por cien, mezcla de varias virutas —entre ellas bonito de un
+  *katsuobushi* de la propia Kioto— extraído a baja temperatura. Sale un caldo transparente y salado
+  de una manera que no se parece al *tonkotsu* — el mismo *dashi* que sostiene medio recetario
+  japonés, aquí puesto en el centro del cuenco.
+
+
+  Encaja en el día 11 casi por geografía: son dieciséis asientos en Shimogyo, a un paseo de la
+  estación, y ese día se llega en el Nozomi a media mañana con el mediodía por delante. **Hay cola
+  siempre**, pero funciona por tique: se coge, se da una vuelta y se vuelve a la hora que digan.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Menya%20Inoichi%20Kyoto
+  label: Google Maps
+seenIn:
+  - ref: "#dia-11-tokio-kioto"
+    label: Día 11 · llegada a Kioto
+  - ref: "#ramen"
+    label: El ramen

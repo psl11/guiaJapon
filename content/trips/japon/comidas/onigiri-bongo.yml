@@ -1,0 +1,40 @@
+slug: onigiri-bongo
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 104
+title: Onigiri Bongo
+navLabel: "Onigiri Bongo"
+tipo: barra de onigiri hechos al momento, desde 1960
+area: Kita-Ōtsuka 2-26-3, Toshima — junto a la estación de Ōtsuka
+cuando: "Tokio · sin hueco natural en el itinerario. Cierra domingos"
+precio: "¥300-600 la pieza · menú de tres con sopa, ¥1.000"
+reserva: "No"
+colas: "De dos a cinco horas. No es una errata"
+badge: "Abierta en 1960 · más de cincuenta rellenos"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DYhbQyZtL45/
+quePedir: "Se eligen los rellenos en la barra, como en un sushi. Los famosos son la **yema curada** y el *mentaiko*."
+body: >-
+  Una barra de *onigiri* abierta en 1960 en Ōtsuka, en la que las bolas se hacen delante y de una en
+  una, con arroz Koshihikari y más de cincuenta rellenos a elegir. Salen mucho más grandes de lo que
+  cabe esperar: casi todo el mundo pide tres y casi nadie los termina.
+
+
+  Y ahora lo que hay que decir antes de que nadie coja el Yamanote hasta allí: **la cola va de dos a
+  cinco horas**. No es la cola de un sitio de moda, es la que tiene todos los días. Abre de 11:30 a
+  medianoche y cierra los domingos, así que de los días de Tokio de este viaje se cae el 17, que es
+  domingo, y el 20 pasa entero por Ginza y Tsukiji, en la otra punta de la línea.
+
+
+  La conclusión honesta es que **no le encuentro hueco**, y va en la guía por eso mismo, no a pesar
+  de eso: para que quien lo vea circular por vídeo sepa lo que cuesta de verdad. Si alguien quiere
+  onigiri de barra hecho al momento, [Yadoroku](#onigiri-yadoroku) está en Asakusa, es de 1954 y es
+  la casa más antigua del gremio en Tokio.
+link:
+  url: https://tabelog.com/en/tokyo/A1323/A132302/13276342/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#onigiri"
+    label: El onigiri

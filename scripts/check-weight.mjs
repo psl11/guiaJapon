@@ -15,7 +15,11 @@ const MB = 1024 * 1024
 const BUDGET = {
   maxImage: 500 * KB, // una sola foto sin optimizar dispara esto (hoy la mayor ~333 KB)
   totalImg: 15 * MB, // descarga offline de fotos (hoy ~7,7 MB → holgura para ~doblar)
-  payloadGz: 550 * KB, // _payload.json comprimido (hoy ~339 KB → holgura de ~60%)
+  // Subido de 550 a 900 KB (ago 2026) para que quepa la capa de «Recomendados por el grupo»: unos
+  // doscientos hallazgos compartidos por el grupo que entran primero enteros y se filtran después.
+  // El techo NO es decorativo — el payload es lo que se descarga en la primera carga online — así
+  // que cuando termine el filtrado hay que volver a bajarlo a la holgura real, no dejarlo aquí.
+  payloadGz: 900 * KB, // _payload.json comprimido (534 KB al subir el techo)
 }
 
 const fails = []

@@ -1,0 +1,41 @@
+slug: ramen-nishiki-kyoto
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 133
+title: Ramen Nishiki
+navLabel: "Ramen Nishiki"
+tipo: ramen de caldo de besugo, con sede de matcha aparte
+area: Higashiyama · la casa madre en Hashimotochō 416
+cuando: "Kioto · día 13 · 11:00-15:00 y 18:00-21:00. Cierra lunes"
+precio: "Sin publicar; tramo de ramen de autor"
+reserva: "No"
+colas: "Poca a mediodía, según quien lo recomienda"
+badge: "Caldo de besugo, no de cerdo"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/Db6WGhqBeii/
+quePedir: "El de besugo en la casa madre. En la sede *Nishiki Sui* está el **ramen de matcha**, que es lo raro."
+body: >-
+  Casi todo el ramen de Japón se sostiene sobre hueso de cerdo o soja. Este va de **besugo**: un
+  caldo de *tai* delicado y limpio, en Higashiyama, que es justo donde el día 13 pasa la tarde
+  camino de Gion. Abre de once a tres y de seis a nueve, y cierra los lunes; el día 13 es miércoles.
+
+
+  Quien lo recomienda insiste en un detalle práctico que en Kioto vale oro: **entró a las doce en
+  punto sin cola**, mientras media ciudad hace dos horas de espera en los sitios que circulan por
+  vídeo.
+
+
+  La casa tiene una segunda sede, *Nishiki Sui*, en Kiyomotochō, que abrió en febrero de 2026 como
+  **el primer restaurante de Japón dedicado por completo al ramen de matcha**: cuatro caldos, todos
+  con té verde, incluido uno que mezcla matcha con el mismo besugo y otro con yuzu. Es una rareza
+  reciente y está a diez minutos de la primera.
+link:
+  url: https://tabelog.com/en/kyoto/A2601/A260301/26044023/
+  label: Ver en Tabelog (Nishiki Sui)
+seenIn:
+  - ref: "#dia-13-kioto-este"
+    label: Día 13 · Higashiyama
+  - ref: "#ramen"
+    label: El ramen

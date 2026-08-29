@@ -1,0 +1,40 @@
+slug: henrys-burger-harajuku
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 101
+title: Henry's Burger Harajuku
+navLabel: "Henry's Burger"
+tipo: hamburguesa aplastada de wagyu A5
+area: Jingūmae 6-12-15, entre Harajuku y Omotesandō
+cuando: "Tokio · día 9, la comida de Harajuku"
+precio: "¥1.000-2.000 (6-12 €)"
+reserva: "No, salvo la STEAK SLAB"
+colas: "Sí. Cinco o diez taburetes fuera y una veintena de sitios arriba"
+badge: "Del dueño del yakiniku de carbón Nakahara"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DS4r9FTElCN/
+quePedir: "La de wagyu a secas. La *Henry's Monster* son **diez pisos de carne** y es un reto, no una comida."
+body: >-
+  La monta Kentarō Nakahara, que es quien lleva *Sumibi Yakiniku Nakahara*, uno de los asadores de
+  carbón con más nombre de Tokio. La idea es sencilla y cara de hacer: **carne de wagyu A5 picada
+  gruesa**, aplastada contra la plancha al pedirla para que se forme costra, y un pan dulce que
+  aguanta la grasa. Sale por entre mil y dos mil yenes, que para lo que hay dentro es poco.
+
+
+  Está en Jingūmae 6, a un paso de la [Cat Street](#harajuku), justo en el tramo que el día 9 recorre
+  entre las once y la una. Abre de once a ocho todos los días, así que no hay que cuadrar nada:
+  quedan cinco o diez taburetes en la calle y unos veinte asientos en la planta de arriba, y se entra
+  sin reserva.
+
+
+  La versión grande, la *Henry's Monster*, lleva diez hamburguesas apiladas y cuesta 6.480 yenes. Es
+  un desafío de carta, no un plato; se nombra porque circula en vídeo y conviene saber que existe
+  para no pedirla por error.
+link:
+  url: https://tabelog.com/en/tokyo/A1306/A130601/13297491/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · Harajuku

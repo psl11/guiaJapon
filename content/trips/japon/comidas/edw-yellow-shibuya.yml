@@ -1,0 +1,38 @@
+slug: edw-yellow-shibuya
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 105
+title: EDW Yellow Shibuya
+navLabel: "EDW Yellow"
+tipo: omurice de tortilla babé, en un sótano
+area: Udagawachō 26-5, sótano del edificio Ikushin
+cuando: "Tokio · día 9 · abre a las 11:00"
+precio: "~¥2.000 (unos 12 €)"
+reserva: "No"
+colas: "Una hora en punta. Se llega veinte minutos antes de abrir o se espera"
+badge: "Solo pago electrónico — no aceptan efectivo"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DU46egikSSg/
+quePedir: "El *omurice* de hamburguesa con **doble queso** y demiglás. Es lo que pide casi toda la sala."
+body: >-
+  *Omurice* —arroz con kétchup envuelto en tortilla— en la versión que se ha hecho viral: la tortilla
+  se abre en la mesa y se derrama sobre el arroz, con demiglás y una hamburguesa rellena de queso
+  encima. Está en un sótano de Udagawachō, en pleno [Shibuya](#shibuya).
+
+
+  El problema es de horario, no de comida. **Abre a las once y la cola pasa de la hora en punta**, y
+  el día 9 tiene Harajuku de diez a una y Shibuya de tres a cinco: la hora buena para entrar aquí
+  cae justo en medio de la mañana de Harajuku. O se sacrifica esa mañana, o se acepta esperar. Con
+  Henry's Burger y Menchirashi a diez minutos en la misma jornada, esta es la tercera opción, no la
+  primera.
+
+
+  Un detalle que se paga caro si se ignora: **no aceptan efectivo**. Solo tarjeta o pago por móvil.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=EDW%20yellow%20Shibuya%20Udagawacho%20Tokyo
+  label: Google Maps
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · Shibuya

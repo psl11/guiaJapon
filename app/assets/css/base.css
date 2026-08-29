@@ -320,6 +320,11 @@ body {
   margin: 1.15rem 0 0; text-wrap: balance;
 }
 .threshold-title em { font-style: italic; color: var(--accent); font-weight: 500; }
+/* «Recomendados» es la palabra más larga de cualquier umbral de la guía y, con el SUELO del clamp
+   —3rem, o sea 48 px, que a 320 px es lo que manda— se sale de su caja por 5 px. Medido en el
+   navegador a 320, que es la única forma de verlo (jsdom no calcula layout). Se baja el mínimo solo
+   aquí: tocar el clamp global encogería los otros ocho títulos sin ninguna razón. */
+#recomendados .threshold-title { font-size: clamp(2.5rem, 9vw, 5rem); }
 .threshold-dek {
   font-family: 'Cormorant Garamond', serif; font-style: italic;
   font-size: clamp(1.3rem, 3.6vw, 1.7rem); line-height: 1.4; color: var(--ink-soft);
@@ -869,10 +874,64 @@ a.chip:focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; }
   background: color-mix(in srgb, var(--gold) 14%, transparent);
   border-color: color-mix(in srgb, var(--gold) 38%, transparent); color: var(--gold);
 }
+/* Quién trae el sitio (campo `fuente`). Va DELANTE de los chips de precio/reserva a propósito:
+   es el chip por el que se escanea la lista cuando alguien busca «lo de Alba», no un dato más de
+   la ficha. Sin `nowrap` ni `flex-shrink: 0` — la trampa 3.10 — aunque aquí el texto sea corto. */
+.cchip.fuente--alba {
+  background: color-mix(in srgb, var(--indigo) 14%, transparent);
+  border-color: color-mix(in srgb, var(--indigo) 40%, transparent); color: var(--indigo);
+  font-weight: 600;
+}
+.cchip.fuente--pablo {
+  background: color-mix(in srgb, var(--gold) 14%, transparent);
+  border-color: color-mix(in srgb, var(--gold) 40%, transparent); color: var(--gold);
+  font-weight: 600;
+}
 .cchip.veg--no {
   background: color-mix(in srgb, var(--accent) 12%, transparent);
   border-color: color-mix(in srgb, var(--accent) 34%, transparent); color: var(--accent);
 }
+/* ═══ RECOMENDADOS — los hallazgos de una persona del grupo ══════════════════════════════════════
+   Reutiliza la caja de .comida (misma familia visual: es un directorio que se escanea) y añade
+   dos cosas propias: el aviso en cinabrio y el enlace al post de origen, que es el contrato de la
+   sección — toda recomendación se puede contrastar en su fuente. */
+.recomendado {
+  margin: 0 0 1rem; padding: 1.2rem 1.4rem; scroll-margin-top: 84px;
+  background: var(--bg-elev); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow);
+}
+.reco-aviso {
+  margin: .7rem 0 0; padding: .5rem .8rem; border-radius: 8px;
+  font-size: .92rem; line-height: 1.5; color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  border-left: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.comida-link.comida-fuente {
+  color: var(--indigo);
+  border-color: color-mix(in srgb, var(--indigo) 38%, transparent);
+  background: color-mix(in srgb, var(--indigo) 8%, transparent);
+}
+/* La lista compacta de locales dentro de «Recomendados»: no repite la tarjeta, sólo salta a ella.
+   `overflow-wrap` y `min-width:0` en las celdas porque el nombre de un local puede ser largo y esta
+   es una fila flex — el mismo par que evitó los 37 px de scroll de la gastronomía (trampa 3.10). */
+.reco-lista { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: .5rem; }
+.reco-lista li {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .6rem;
+  padding: .5rem .8rem; border-radius: 8px; min-width: 0;
+  background: color-mix(in srgb, var(--ink-faint) 5%, transparent);
+  border: 1px solid var(--line);
+}
+.reco-lista li > a:first-child { font-weight: 600; color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.reco-lista li > a:first-child:hover { color: var(--indigo); text-decoration: underline; }
+.reco-lista-meta {
+  font-family: 'JetBrains Mono', monospace; font-size: .62rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--ink-faint); min-width: 0; overflow-wrap: anywhere;
+}
+.reco-lista-post {
+  margin-left: auto; font-family: 'JetBrains Mono', monospace; font-size: .62rem;
+  color: var(--indigo); text-decoration: none; white-space: nowrap;
+}
+.reco-lista-post:hover { text-decoration: underline; }
+
 .comida-pedir {
   margin-top: .8rem; padding: .65rem .9rem; border-radius: 8px;
   background: color-mix(in srgb, var(--indigo) 6%, transparent);

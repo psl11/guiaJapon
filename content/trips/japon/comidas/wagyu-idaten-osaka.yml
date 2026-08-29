@@ -1,0 +1,38 @@
+slug: wagyu-idaten-osaka
+trip: japon
+part: japon
+city: Osaka
+category: comida
+order: 113
+title: Wagyu Idaten
+navLabel: "Wagyu Idaten"
+tipo: wagyu A5 en caja lacada, solo a mediodía
+area: Namba 1-8-20, segunda planta — a un minuto de la estación
+cuando: "Osaka · día 14 · 11:30 a 14:30, última comanda a las 14:00"
+precio: "Sin publicar; caja de wagyu A5"
+reserva: "No se aceptan"
+colas: "Sí, y el turno es corto"
+badge: "Abierto en julio de 2023"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DU2PTNNkuat/
+quePedir: "La caja de wagyu **de vaca**, que es la carne que anuncian. Va sobre arroz, en *jūbako* lacada."
+body: >-
+  Wagyu A5 laminado sobre arroz y servido en *jūbako*, la caja lacada de varios pisos que se usa en
+  las comidas de celebración. La casa abrió en julio de 2023 y está a un minuto de la salida de
+  Namba, en una segunda planta.
+
+
+  El detalle que manda es el horario: **solo abre a mediodía, de 11:30 a 14:30, y cierra la comanda a
+  las dos**. El día 14 tiene ese hueco ocupado por [Kuromon](#kuromon), a seiscientos metros; o esta
+  caja sustituye al mercado, o no cabe. No aceptan reservas, así que además hay que contar la cola
+  dentro de una ventana de tres horas.
+
+
+  El vídeo que lo trae anuncia también turno de noche. **No aparece en la ficha de reservas de la
+  casa**, que solo publica el de mediodía, así que no lo doy por bueno.
+link:
+  url: https://wagyu-idaten.com/
+  label: Web del restaurante
+seenIn:
+  - ref: "#dia-14-osaka"
+    label: Día 14 · el mediodía

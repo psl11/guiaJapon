@@ -1,0 +1,37 @@
+slug: dekasan-osaka
+trip: japon
+part: japon
+city: Osaka
+category: comida
+order: 124
+title: Dekasan
+navLabel: "Dekasan"
+tipo: sandwichería de tortilla y de entraña
+area: Kawarayamachi 3-5-17, Chūō
+cuando: "Osaka · día 14 · solo de 11:00 a 16:00"
+precio: "Sin publicar; tramo de sandwichería"
+reserva: "No"
+colas: "De veinte a cuarenta y cinco minutos, incluso para llevar"
+badge: "El de entraña es lo raro, no el de huevo"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DQ9G0U8kqHp/
+quePedir: "El *harami sando* —de entraña—, que es el que casi nadie hace. El de tortilla es el famoso."
+body: >-
+  Sandwichería diminuta en Kawarayamachi. El *tamago sando* japonés —pan de molde sin corteza y una
+  tortilla gruesa y esponjosa dentro— es un clásico de konbini que aquí se hace en versión de
+  restaurante; y además tienen uno de entraña, que es mucho menos común.
+
+
+  El horario manda: **abre de once a cuatro y nada más**, así que solo entra en el bloque de mediodía
+  del día 14, compitiendo directamente con el mercado. Y la cola va de veinte a cuarenta y cinco
+  minutos incluso pidiendo para llevar, porque el local tiene poquísimo sitio.
+
+
+  Puesto al lado de las otras opciones de ese mediodía, esta es la de picar andando: se pide, se
+  espera y se come por la calle camino de [Shinsekai](#osaka).
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Dekasan%20Kawarayamachi%20Osaka
+  label: Google Maps
+seenIn:
+  - ref: "#dia-14-osaka"
+    label: Día 14 · el mediodía

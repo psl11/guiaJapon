@@ -1,0 +1,37 @@
+slug: odai-sushi-kyoto
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 134
+title: Odai Sushi
+navLabel: "Odai Sushi"
+tipo: barra de siete asientos en una casa particular
+area: Sagakariwakechō 9-22, Ukyō — en Saga, camino de Arashiyama
+cuando: "Kioto · día 12 · cae en el lado oeste, el de Arashiyama"
+precio: "¥4.000 el omakase (unos 24 €)"
+reserva: "Recomendable, aunque admiten quien llega"
+colas: "No: son siete sitios y se llena solo"
+badge: "Sin cartel en la puerta y sin carta · solo efectivo"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DQmoTSaD_1w/
+quePedir: "No hay nada que pedir. El cocinero pone **lo que compró esa mañana**, pieza a pieza."
+body: >-
+  Una casa familiar convertida en barra de sushi en una calle residencial de Saga. **No hay cartel
+  fuera ni carta dentro**: el cocinero sirve lo que ha comprado esa mañana, pieza a pieza, y se come
+  en silencio. El *omakase* cuesta cuatro mil yenes, que para lo que es resulta poco.
+
+
+  Está en Ukyō, o sea en el lado oeste de la ciudad, camino de [Arashiyama](#arashiyama) — el mismo
+  lado que ahora recorre el día 12. Eso lo pone a tiro sin desviarse.
+
+
+  Dos correcciones al vídeo que lo trae: **son siete asientos, no diez**, y aunque se puede entrar
+  sin reserva, con cuatro personas eso es jugársela. Y **solo aceptan efectivo**. Al ser una casa en
+  un barrio de vecinos, la norma no escrita es la obvia: no montar ruido en la calle.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Odai%20Sushi%20Sagakariwakecho%20Kyoto
+  label: Google Maps
+seenIn:
+  - ref: "#dia-12-kioto-oeste"
+    label: Día 12 · el oeste

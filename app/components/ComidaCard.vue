@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // ComidaCard — una entrada del directorio gastronómico (restaurante/café/puesto/bar). Se mira de un
-// vistazo: sello (Michelin/50 Best…) + tipo · zona · encaje logístico + chips (precio · reserva ·
+// vistazo: sello (Michelin/50 Best…) + tipo · zona · encaje logístico + chips (quién lo trae · precio · reserva ·
 // colas) + «qué pedir» destacado + el porqué en <MDC>. Los campos cortos van con `inlineMd`, no con
 // <MDC unwrap>, para que hidrate limpio (ver trampa 3.8 de CLAUDE.md).
 // Los cruces (`seenIn`) van como enlaces internos (los resuelve el plugin anchor-nav).
@@ -46,9 +46,14 @@ const mapsUrl = computed(() =>
     </div>
 
     <div
-      v-if="comida.precio || comida.reserva || comida.colas"
+      v-if="comida.precio || comida.reserva || comida.colas || comida.fuente"
       class="comida-chips"
     >
+      <span
+        v-if="comida.fuente"
+        class="cchip"
+        :class="`fuente--${comida.fuente}`"
+      >Recomienda {{ comida.fuente === 'alba' ? 'Alba' : 'Pablo' }}</span>
       <span
         v-if="comida.precio"
         class="cchip"

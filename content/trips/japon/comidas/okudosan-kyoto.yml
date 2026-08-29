@@ -1,0 +1,41 @@
+slug: okudosan-kyoto
+trip: japon
+part: japon
+city: Kioto
+category: desayuno
+order: 100
+title: Okudosan
+navLabel: "Okudosan"
+tipo: desayuno japonés a la olla, cuatro cubiertos al día
+area: Uzumasa Katsuragichō 10-3, Ukyō — a 166 m de Uzumasa-Kōryūji
+cuando: "Kioto · solo si alguien renuncia al bambusal del día 12"
+precio: "~¥3.000 (unos 18 €)"
+reserva: "Obligatoria, y es el cuello de botella"
+colas: "No hay: no se puede entrar sin reserva"
+badge: "Cuatro cubiertos al día, arroz a la olla de leña"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DcXJiRaPddN/
+quePedir: "Todo, y repetir: arroz de puchero, sopa de **miso blanco** y una decena de guarniciones, sin límite."
+body: >-
+  Un desayuno japonés completo servido en una casa de Uzumasa: arroz cocido en olla de barro sobre
+  el *okudo-san* —el fogón de leña que da nombre a la casa—, sopa de miso blanco con cerdo y una
+  decena de platillos, todo con repetición libre. La anguila a la brasa es lo que más se nombra.
+
+
+  El problema no es el precio ni la calidad: es el aforo. **Sirve cuatro cubiertos al día y solo con
+  reserva**, lo que lo convierte menos en un restaurante que en una lotería. El reel que lo trae
+  habla de diez asientos; la plataforma donde se reserva dice cuatro. Conviene saberlo antes de
+  ilusionarse.
+
+
+  Y hay un choque de horarios que no se puede disimular: está en Uzumasa, en la línea Randen que va
+  hacia [Arashiyama](#arashiyama), o sea en el camino del día 12 — pero ese día empieza a las siete
+  de la mañana en el bambusal, que es una de las tres horas mejor elegidas del viaje. **Un desayuno
+  con reserva y el bambusal vacío no caben el mismo día.** Está aquí porque alguien puede querer
+  hacer ese cambio, no porque yo lo recomiende.
+link:
+  url: https://www.tablecheck.com/en/okudosan
+  label: Reservar en TableCheck
+seenIn:
+  - ref: "#dia-12-kioto-oeste"
+    label: Día 12 · el día con el que choca

@@ -1,0 +1,41 @@
+slug: menchirashi-harajuku
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 102
+title: Menchirashi
+navLabel: "Menchirashi"
+tipo: udon de casa, con carbonara en la carta
+area: Jingūmae 6-13-7, en un callejón de la Cat Street
+cuando: "Tokio · día 9 · sábado, hasta las 21:30"
+precio: "¥950 el carbonara udon (unos 6 €)"
+reserva: "No"
+colas: "Permanentes. Cuarenta y cinco minutos en hora punta"
+badge: "Fideo amasado, cortado y hervido al momento"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DUxX4xakRGQ/
+quePedir: "El *carbonara udon*, que es lo que lo hizo famoso. El aumento de ración no se cobra."
+body: >-
+  Udon hecho en la casa siguiendo la regla de los tres «recién»: **amasado, cortado y hervido al
+  momento**. Lo que lo puso en circulación no es eso, sino un plato que no debería funcionar y
+  funciona — el udon a la carbonara, con yema y pimienta, a novecientos cincuenta yenes.
+
+
+  Está a ciento cincuenta metros de [Henry's Burger](#henrys-burger-harajuku), en un callejón que
+  sale de la Cat Street, o sea dentro del mismo tramo del día 9. Abre de 11:30 a 21:30 salvo los
+  martes, que cierra a las 16:30; el día 9 es sábado, así que da igual.
+
+
+  La cola es la pega y es constante, no de fin de semana: hay gente esperando prácticamente siempre.
+  Quien lo recomienda esperó cuarenta y cinco minutos en la cena y le puso un siete sobre diez —
+  merece probarlo, no merece media hora larga de pie. Con dos sitios buenos a la misma distancia, la
+  decisión razonable es mirar la cola y elegir.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Menchirashi%20Jingumae%20Shibuya%20Tokyo
+  label: Google Maps
+seenIn:
+  - ref: "#udon"
+    label: El udon
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · Harajuku

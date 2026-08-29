@@ -1,0 +1,40 @@
+slug: alba-enoshima
+trip: japon
+order: 18
+fuente: alba
+kind: ver
+title: Seguir el Enoden hasta Enoshima
+navLabel: "Enoshima"
+tipo: la isla del final de la línea, con torre y cuevas
+city: Kamakura
+area: Tres paradas más allá de Kamakura-kōkōmae
+cuando: "Día 8 · el atardecer, que ya se pasa en esa línea"
+dia:
+  ref: "#dia-8-kamakura"
+  label: "Día 8 · Kamakura"
+aviso: "**Las cuevas de Iwaya cierran hacia las 16:00** en estas fechas, antes de que se ponga el sol. O se va pronto o se renuncia a ellas."
+url: https://www.instagram.com/reel/DaZiOOcGX-c/
+link:
+  url: https://www.japan-guide.com/e/e3117.html
+  label: Guía de la isla
+body: >-
+  El día 8 ya termina montado en el Enoden mirando el mar desde el paso a nivel de Kamakura-kōkōmae,
+  con **Enoshima al fondo**. Este post propone lo evidente: seguir tres paradas más y cruzar el
+  puente a la isla.
+
+
+  Lo que hay allí, con los números delante. La **Sea Candle**, el faro-mirador, abre de 9:00 a 20:00
+  con última entrada a las 19:30 y cuesta **¥300**; hay un pase de día de **¥1.000** que además cubre
+  las escaleras mecánicas y el jardín Samuel Cocking. Las **cuevas de Iwaya**, excavadas por el mar y
+  recorridas con vela, cuestan ¥500 aparte — pero en noviembre cierran sobre las cuatro, o sea antes
+  del atardecer.
+
+
+  **Y ahí está la decisión.** En noviembre el sol se pone a las 16:40, y ese atardecer el plan actual
+  lo gasta en el paso a nivel. Ver la puesta desde sesenta metros de altura en la Sea Candle es la
+  alternativa real, y es buena; lo que no cabe es hacer las dos cosas ni añadir las cuevas. De camino,
+  entre Kamakura y la isla, quedan la playa de **Shichirigahama**, el santuario **Goryō** y la casa de
+  té **Mushinan**, todos en paradas del mismo tren.
+seenIn:
+  - ref: "#dia-8-kamakura"
+    label: El día que lo absorbe

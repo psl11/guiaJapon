@@ -8,7 +8,7 @@
 // "Añadir un viaje = añadir ficheros": las páginas son one-liners <TripView :slug>.
 const props = defineProps<{ slug: string }>()
 
-const { trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir, hoteles } = await useTrip(props.slug)
+const { trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir, hoteles, recomendados } = await useTrip(props.slug)
 
 const hayRelato = computed(() => actos.value.length + fichas.value.length > 0)
 const hayPlan = computed(() => dias.value.length + inversiones.value.length > 0)
@@ -79,6 +79,32 @@ const salirGroups = computed(() => SALIR_KINDS
   .filter(g => g.items.length))
 const haySalir = computed(() => salir.value.length > 0)
 
+// Recomendados por una persona del grupo ──────────────────────────────────────
+// La sección tiene DOS orígenes a propósito y no duplica nada:
+//  · `recomendados` — lo que no es un restaurante (mercados, talleres, trucos). Tarjeta completa.
+//  · `comidas` con `fuente` — los locales, que ya tienen su ficha en Gastronomía. Aquí sólo se
+//    listan en una línea que salta a esa ficha. Copiar la tarjeta entera sería la regla 4.1 rota:
+//    un sitio se cuenta en un lugar, y los demás enlazan.
+const RECO_FUENTES = [
+  { key: 'alba', label: 'Alba' },
+  { key: 'pablo', label: 'Pablo' },
+] as const
+const RECOMENDADO_KINDS = [
+  { key: 'ver', label: 'Sitios a los que ir' },
+  { key: 'taller', label: 'Cosas que hacer' },
+  { key: 'truco', label: 'Trucos y avisos' },
+] as const
+const fuenteSlug = (f: string) => `recomendados-${f}`
+const fuenteGroups = computed(() => RECO_FUENTES.map(f => ({
+  ...f,
+  anchor: fuenteSlug(f.key),
+  comidas: comidas.value.filter(c => c.fuente === f.key),
+  kinds: RECOMENDADO_KINDS
+    .map(k => ({ ...k, items: recomendados.value.filter(r => r.fuente === f.key && r.kind === k.key) }))
+    .filter(g => g.items.length),
+})).filter(f => f.comidas.length + f.kinds.length > 0))
+const hayRecomendados = computed(() => fuenteGroups.value.length > 0)
+
 // Todas las anclas que existen en la página (slugs de todo el contenido + umbrales fijos). Un chip
 // "dónde lo veréis" de una ficha se vuelve enlace clicable SOLO si su destino ya existe; si aún no
 // (p. ej. una ficha de monumento por escribir), queda como etiqueta. Se auto-activan al crecer la guía.
@@ -92,8 +118,10 @@ const knownAnchors = computed(() => new Set<string>([
   ...platos.value.map(p => p.slug),
   ...salir.value.map(s => s.slug),
   ...hoteles.value.map(h => h.slug),
+  ...recomendados.value.map(r => r.slug),
   ...hotelStops.value.map(s => s.anchor),
-  'el-plan', 'el-plan-solo', 'gasto', 'reservas', 'dormir-hoteles', 'gastronomia', 'salir', 'japon', 'historia',
+  ...fuenteGroups.value.map(f => f.anchor),
+  'el-plan', 'el-plan-solo', 'gasto', 'reservas', 'dormir-hoteles', 'gastronomia', 'salir', 'recomendados', 'japon', 'historia',
 ]))
 
 // Índice flotante ─────────────────────────────────────────────────────────────
@@ -169,6 +197,16 @@ const nav = computed(() => {
     if (platos.value.length) items.push({ id: 'gastro-platos', label: 'Platos y bebidas', kind: 'reco' as const })
     for (const cg of gastroCities.value) items.push({ id: cg.anchor, label: cg.city, kind: 'reco' as const })
     groups.push({ key: 'gastronomia', label: 'Gastronomía', anchor: 'gastronomia', items })
+  }
+  // Recomendados: una entrada por persona, no hallazgo a hallazgo — la lista es larga y el índice
+  // ya lo es. Dentro de la sección cada uno tiene su propio bloque.
+  if (hayRecomendados.value) {
+    groups.push({
+      key: 'recomendados',
+      label: 'Recomendados por el grupo',
+      anchor: 'recomendados',
+      items: fuenteGroups.value.map(f => ({ id: f.anchor, label: f.label, kind: 'reco' as const })),
+    })
   }
   if (haySalir.value) {
     groups.push({ key: 'salir', label: 'Salir · música y librerías', anchor: 'salir', items: salir.value.map(s => ({ id: s.slug, label: s.navLabel ?? s.title, kind: 'reco' as const })) })
@@ -491,6 +529,67 @@ const heroSrcAlta = computed(() => {
           :key="s.slug"
           :salir="s"
         />
+      </div>
+    </template>
+
+    <!-- Recomendados por el grupo: lo que trajo cada uno, con el enlace al post de origen.
+         Los locales de comer NO se repiten aquí — se listan en una línea que salta a su ficha de
+         Gastronomía, que es donde están contados (regla 4.1). -->
+    <template v-if="hayRecomendados">
+      <Threshold
+        id="recomendados"
+        overline="Lo que trajo cada uno"
+        title="Recomendados *por el grupo*"
+        dek="Los hallazgos que trae cada uno, con el enlace al sitio del que salieron para poder contrastarlos. Los restaurantes viven en Gastronomía; aquí está todo lo demás."
+      />
+      <div
+        v-for="f in fuenteGroups"
+        :id="f.anchor"
+        :key="f.key"
+        class="gastro-city"
+      >
+        <h3 class="gastro-city-name">
+          {{ f.label }}
+        </h3>
+        <div
+          v-if="f.comidas.length"
+          class="gastro-cat"
+        >
+          <div class="gastro-cat-label">
+            Sitios de comer · la ficha está en Gastronomía
+          </div>
+          <ul class="reco-lista">
+            <li
+              v-for="c in f.comidas"
+              :key="c.slug"
+            >
+              <a :href="`#${c.slug}`">{{ c.title }}</a>
+              <span class="reco-lista-meta">{{ [c.city, c.area].filter(Boolean).join(' · ') }}</span>
+              <a
+                v-if="c.fuenteUrl"
+                class="reco-lista-post"
+                :href="c.fuenteUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >▶ el post ↗</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          v-for="g in f.kinds"
+          :key="g.key"
+          class="gastro-cat"
+        >
+          <div class="gastro-cat-label">
+            {{ g.label }}
+          </div>
+          <RecomendadoCard
+            v-for="r in g.items"
+            :key="r.slug"
+            :reco="r"
+            :known-anchors="knownAnchors"
+          />
+        </div>
       </div>
     </template>
 

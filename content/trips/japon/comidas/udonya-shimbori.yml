@@ -1,0 +1,36 @@
+slug: udonya-shimbori
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 125
+title: Udonya Shimbori
+navLabel: "Udonya Shimbori"
+tipo: udon de mezcla de Fukuoka y Sanuki
+area: Sendagaya 5-23-9, primera planta del edificio Morufo
+cuando: "Tokio · día 9 · sábado, solo comida de 11:30 a 15:30"
+precio: "Sin publicar; tramo de casa de udon"
+reserva: "No"
+colas: "Sí, incluso entre semana al mediodía"
+badge: "Solo efectivo — ni tarjeta ni pago por móvil"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DcYtdlJz5My/
+quePedir: "Los dos platos de la casa. El fideo se amasa, se corta y se hierve al momento, sin precocido."
+body: >-
+  Abrió en 2020 con una idea concreta: mezclar el *udon* blando de Fukuoka con el elástico de Sanuki.
+  **Nada está precocido** —se amasa, se corta y se hierve al pedirlo—, que es lo que explica la
+  textura y también la espera.
+
+
+  Está en Sendagaya, a un paso de [Harajuku](#harajuku), o sea dentro del radio del día 9. Y el
+  horario recorta: de martes a viernes abre a mediodía y por la noche, **el sábado solo a mediodía,
+  de 11:30 a 15:30, y domingos y lunes cierra**. El día 9 es sábado, así que hay una única ventana.
+
+
+  **Solo efectivo.** Ni tarjeta ni móvil, que en un barrio como este descoloca a mucha gente.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Udon%20Shimbori%20Sendagaya%20Tokyo
+  label: Google Maps
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · Harajuku

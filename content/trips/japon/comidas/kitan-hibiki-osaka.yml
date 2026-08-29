@@ -1,0 +1,38 @@
+slug: kitan-hibiki-osaka
+trip: japon
+part: japon
+city: Osaka
+category: comida
+order: 123
+title: Kitan Hibiki
+navLabel: "Kitan Hibiki"
+tipo: yakiniku y steak, con una hamburguesa de wagyu por horas
+area: Namba 1-1-7, cinco minutos de la estación
+cuando: "Osaka · día 14 · la hamburguesa, solo 12:00-15:00 y 17:00-19:00"
+precio: "Sin publicar"
+reserva: "Sí — y cobran el 100% si se cancela el mismo día"
+badge: "La hamburguesa es una colaboración con Gui's Burger"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DbISwMQvJ9m/
+quePedir: "La hamburguesa de wagyu, y dentro de su franja. Fuera de ella la casa es un asador de carne."
+body: >-
+  La casa es un yakiniku y asador en Namba; la hamburguesa de wagyu que circula en vídeo es una
+  colaboración con Gui's Burger y **no está disponible todo el día**. Se sirve de doce a tres, con
+  última comanda a las 14:30, y de cinco a siete. A partir de las siete la carta pasa a menú de
+  carne y la hamburguesa desaparece.
+
+
+  Eso la mete con calzador en el día 14: la ventana de tarde se cierra a las siete y el bloque de
+  Dōtonbori empieza a las seis, así que hay que llegar pronto o comerla a mediodía en vez de ir a
+  [Kuromon](#kuromon).
+
+
+  Y dos condiciones de la reserva que conviene leer antes de hacerla: **cancelar el mismo día cuesta
+  el cien por cien**, y llegar quince minutos tarde equivale a cancelar. Con un día tan cargado como
+  el 14, eso es un riesgo real.
+link:
+  url: https://tabelog.com/en/osaka/A2701/A270202/27141837/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#dia-14-osaka"
+    label: Día 14 · Osaka

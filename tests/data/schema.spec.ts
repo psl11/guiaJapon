@@ -3,7 +3,7 @@ import { readFileSync, readdirSync, existsSync } from 'node:fs'
 import { join, basename } from 'node:path'
 import { parse } from 'yaml'
 import type { ZodTypeAny } from 'zod'
-import { TripSchema, ActoSchema, FichaSchema, InversionSchema, DiaSchema, RecoSchema, ComidaSchema, PlatoSchema, SalirSchema, HotelSchema, ParadaSchema } from '../../shared/schemas'
+import { TripSchema, ActoSchema, FichaSchema, InversionSchema, DiaSchema, RecoSchema, ComidaSchema, PlatoSchema, SalirSchema, HotelSchema, RecomendadoSchema, ParadaSchema } from '../../shared/schemas'
 
 // La PUERTA DE VALIDACIÓN DE DATOS. Nuxt Content v3 NO valida las colecciones `type:'data'` contra
 // zod en build (nuxt/content#3351) → un enum inválido o un requerido ausente se desplegaría en
@@ -39,6 +39,7 @@ const COLLECTIONS: { dir: string, schema: ZodTypeAny, name: string, single?: boo
   { dir: 'platos', schema: PlatoSchema, name: 'plato' },
   { dir: 'salir', schema: SalirSchema, name: 'salir' },
   { dir: 'hoteles', schema: HotelSchema, name: 'hotel' },
+  { dir: 'recomendados', schema: RecomendadoSchema, name: 'recomendado' },
   // `paradas` NO es colección de Content (ver ParadaSchema): sólo la lee el script del mapa. Aquí
   // sí entra, porque la validación de sus lat/lon es lo único que impide que el mapa salga torcido.
   { dir: 'paradas', schema: ParadaSchema, name: 'parada' },

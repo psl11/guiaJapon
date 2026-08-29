@@ -1,0 +1,37 @@
+slug: sen-ikebukuro
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 128
+title: Sen · 遷
+navLabel: "Sen · 遷"
+tipo: tsukemen de caldo concentrado, barra con jazz
+area: Nishi-Ikebukuro 1-24-8, primera planta del edificio Edo-han
+cuando: "Tokio · sin día natural en este itinerario"
+precio: "¥1.580 el tsukemen de aceite negro, según el vídeo"
+reserva: "No — máquina de tiques"
+badge: "Tres tipos de hueso y cuatro de pescado en el mismo caldo"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DUqE-r1Eo2K/
+quePedir: "El *tsukemen* de aceite negro. Se elige ración —170, 220 o 270 g— **al mismo precio**."
+body: >-
+  Esto no es ramen sino *[tsukemen](#tsukemen)*: el fideo va aparte y se moja en un caldo mucho más
+  concentrado. El de la casa mezcla hueso de cerdo y de pollo con cuatro *dashi* de pescado, y el
+  fideo, de trigo de Hokkaidō, se puede pedir frío o recién escurrido. Las tres raciones cuestan lo
+  mismo.
+
+
+  La sala es de barra, con diseño negro y jazz de fondo, y se pide en máquina. Es de las cosas que
+  explican por qué el *tsukemen* de Ikebukuro tiene fama propia: el barrio es su cuna.
+
+
+  Y el pero, dicho claro: **Ikebukuro no aparece en ningún día de este viaje**. Está al noroeste de
+  la Yamanote y ninguna jornada pasa cerca. Va en la guía por si alguien se desmarca una tarde, no
+  porque encaje.
+link:
+  url: https://tabelog.com/en/tokyo/A1305/A130501/13313917/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#tsukemen"
+    label: El tsukemen

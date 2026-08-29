@@ -1,0 +1,37 @@
+slug: tokito-karahori
+trip: japon
+part: japon
+city: Osaka
+category: comida
+order: 127
+title: tokito · と木と
+navLabel: "tokito"
+tipo: barra de bocadillos de wagyu, en un callejón de Karahori
+area: Kawarayamachi 1-2-11, cinco minutos de Tanimachi-6-chōme
+cuando: "Osaka · día 14 · solo mediodía, y llegando pronto"
+precio: "¥1.700-3.500"
+reserva: "No"
+colas: "Hacen pocos bocadillos de wagyu al día y se acaban"
+badge: "Del mismo grupo que myneighbor · solo efectivo"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/DWNpeQMEhIp/
+quePedir: "El de wagyu, si queda, y si no el de tortilla. Del wagyu hacen **unos pocos al día**."
+body: >-
+  Una barra diminuta en el barrio de Karahori, en un callejón residencial, llevada por dos personas
+  que hablan poco inglés. Viene del mismo grupo que *myneighbor*, que es una casa con nombre en
+  Osaka, y hace bocadillos: uno de wagyu y otro de tortilla, entre 1.700 y 3.500 yenes.
+
+
+  El detalle que decide si se come o no: **del de wagyu hacen unas pocas unidades al día**, así que o
+  se llega pronto o se queda uno con el de tortilla. **Solo aceptan efectivo.**
+
+
+  Karahori queda entre el castillo y Namba, así que geográficamente cabe en el mediodía del día 14,
+  pero compite con [Kuromon](#kuromon) y con las otras dos barras de la lista. Con un solo día en
+  Osaka, esto es una elección, no un añadido.
+link:
+  url: https://www.tablecheck.com/en/tokito-karahori
+  label: Reservar
+seenIn:
+  - ref: "#dia-14-osaka"
+    label: Día 14 · el mediodía

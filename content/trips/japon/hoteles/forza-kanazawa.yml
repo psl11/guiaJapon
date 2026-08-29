@@ -1,0 +1,47 @@
+slug: forza-kanazawa
+navLabel: "Forza Kanazawa"
+trip: japon
+city: Kanazawa
+order: 5
+status: confirmado
+title: Hotel Forza Kanazawa
+tipo: business de diseño, doce tipos de habitación
+area: Yasuechō 2-10, enfrente del mercado de Ōmichō
+noches: 1 noche · día 6 · mié 11 nov
+lat: 36.5727585
+lon: 136.6556879
+estaciones:
+  - nombre: Kanazawa
+    lineas: Hokuriku Shinkansen · IR Ishikawa · terminal de autobuses Hokutetsu y Nōhi
+    minutos: 11
+    lat: 36.5781665
+    lon: 136.6487948
+rating: "9,0 en Booking · 6.205 reseñas"
+nota: Entrada a las 14:00, salida a las 11:00 · teléfono 076-222-7411
+body: >-
+  Esta cama la elige el mercado. El hotel está en Yasuechō, a **ciento veinte metros de la puerta de
+  [Ōmichō](#omicho)** —enfrente, literalmente—, y ese es el sitio donde la mañana siguiente se
+  desayuna antes del tren. Trescientos años de puestos de pescado a dos minutos andando resuelven de
+  un plumazo la única comida complicada del día 7, que va con el reloj puesto.
+
+
+  Lo segundo es la estación, a **ochocientos sesenta metros**: once minutos con maleta. Cuenta dos
+  veces en menos de veinticuatro horas, porque los autobuses de Shirakawa-gō llegan a esa misma
+  terminal la tarde anterior y de ahí sale a las dos el *Kagayaki* de vuelta a Tokio. Con la salida a
+  las once y el tren a las dos, las maletas se quedan en recepción y la mañana no se recorta.
+
+
+  Lo que no queda al lado es el jardín: al [Kenroku-en](#kanazawa) hay **un kilómetro largo**, unos
+  quince minutos a pie, y hay que salir a oscuras para estar dentro cuando abre a las siete. Es la
+  contrapartida de dormir junto al mercado y no junto al parque, y compensa: al jardín se va una vez
+  y al mercado se vuelve.
+link:
+  url: https://www.hotelforza.jp/kanazawa/
+  label: Web del hotel
+seenIn:
+  - ref: "#kanazawa"
+    label: La ciudad
+  - ref: "#dia-6-shirakawa-kanazawa"
+    label: Día 6 · llegada
+  - ref: "#dia-7-kanazawa-tokio"
+    label: Día 7 · la mañana

@@ -1,0 +1,36 @@
+slug: alba-bolsa-3coins
+trip: japon
+order: 9
+fuente: alba
+kind: truco
+title: La bolsa de 3COINS en vez de una maleta más
+navLabel: "La bolsa de 3COINS"
+tipo: truco de equipaje · unos ¥550
+city: Tokio
+cuando: "Día 17 · el día de comprar"
+dia:
+  ref: "#dia-17-compras"
+  label: "Día 17 · compras"
+aviso: "**Sin confirmar en el catálogo de la casa.** Lo dicen dos viajeros distintos; lo que sí aparece a ese precio es otra bolsa, de plástico transparente."
+url: https://www.instagram.com/reel/DVvJuk5kV5W/
+link:
+  url: https://www.google.com/maps/search/?api=1&query=3COINS%20Tokyo
+  label: Buscar una tienda
+body: >-
+  El problema del día 17 es de bulto, no de dinero: se compra más de lo que cabe, y una maleta nueva
+  en Japón cuesta lo que cuesta. La alternativa que circula es **una bolsa de rafia de 3COINS por
+  unos quinientos cincuenta yenes**, que aguanta más de veinte kilos, pasa como equipaje facturado y
+  se dobla para el viaje de ida.
+
+
+  Lo cuentan dos personas distintas y por separado, que es la única corroboración que tengo: **no he
+  encontrado ese producto concreto en el catálogo de la casa**. Lo que sí figura a ese precio es una
+  bolsa de plástico transparente de 40 × 80 × 30 cm para unos ocho kilos, que no es lo mismo. Así que
+  va como pista para mirar en tienda, no como dato.
+
+
+  El complemento sí es fácil de creer y cuesta cien yenes: **bolsas de vacío en Daiso**, con las que
+  la ropa se comprime a la mitad. Eso resuelve buena parte del problema sin comprar nada más.
+seenIn:
+  - ref: "#dia-17-compras"
+    label: El día de comprar

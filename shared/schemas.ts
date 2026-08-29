@@ -208,10 +208,58 @@ export const ComidaSchema = z.object({
   // pinta. Se conserva opcional por si una guía futura lo necesita — en guiaVietnam sí es central.
   veg: z.string().optional(),
   badge: z.string().optional(), // sello: '★ Michelin' · 'Bib Gourmand' · "Asia's 50 Best" · 'Vietnam Coracle'…
+  // QUIÉN LO RECOMIENDA (ago 2026). No confundir con `badge`, que es PROCEDENCIA VERIFICADA de un
+  // sello de prestigio: esto es autoría de la recomendación, la persona del grupo que trajo el
+  // sitio. La mayoría de las 61 fichas no lo llevan —salen de guías y de fuentes publicadas— y se
+  // quedan sin chip; solo se marca lo que viene de alguien concreto, que es lo que permite luego
+  // decir en un día «y cerca tenéis estos de Alba». Enum y no texto libre: son dos personas y una
+  // errata escrita a mano se vería igual de bien y agruparía mal.
+  fuente: z.enum(['alba', 'pablo']).optional(),
+  // El post del que salió la recomendación. Va aparte de `link` —que es la reserva o la web del
+  // local— porque son dos cosas distintas: uno lleva a reservar mesa, el otro a ver el vídeo que
+  // convenció a alguien. La sección «Recomendados» lo usa para poder volver al original.
+  fuenteUrl: z.string().optional(),
   quePedir: Md.optional(), // qué pedir
   body: Md, // por qué merece la pena (+ contexto/fuente)
   link: z.object({ url: z.string(), label: z.string() }).optional(),
   seenIn: z.array(Link).optional(), // cruces (plato relacionado, ficha de lugar…)
+})
+
+// ── RECOMENDADO — lo que trae alguien del grupo y no es un restaurante ────────
+// Nace de un caso concreto (ago 2026): Alba compartió doscientos reels de Japón por mensaje
+// privado y la mitad no eran sitios de comer — un mercado de antigüedades con fecha fija, un
+// taller donde graban palillos, el truco de la bolsa de rafia que pasa como facturada.
+//
+// POR QUÉ NO CABÍA EN LO QUE YA HABÍA. Un local de comer es una `comida` (y ahí `fuente` dice
+// quién lo trajo). Pero un mercado no es gastronomía, un taller no es alojamiento y un aviso de
+// estafa no es una `reco` —cuyos `kind` son dormir/reservar/moverse/practico y describen la
+// logística del viaje, no un hallazgo de alguien—. Meterlos a la fuerza en cualquiera de las tres
+// habría roto el criterio de esas secciones, que es lo que las hace legibles.
+//
+// La regla 4.1 sigue mandando: el DÍA dice qué se hace, esto dice QUÉ ES y de dónde salió. Por eso
+// `dia` es un enlace al día donde encaja y no una copia de su plan.
+//
+// `url` es OBLIGATORIO y es la razón de ser de la colección: se puede volver al post original.
+export const RecomendadoSchema = z.object({
+  slug: z.string(),
+  trip: z.string(),
+  order: z.number(), // orden dentro de (fuente · kind)
+  fuente: z.enum(['alba', 'pablo']), // quién lo trajo. Aquí NO es opcional: sin autor no hay sección.
+  kind: z.enum(['ver', 'taller', 'truco']), // sitio al que ir · experiencia que se hace · aviso práctico
+  title: z.string(),
+  navLabel: z.string().optional(),
+  tipo: z.string(), // 'mercado de antigüedades' · 'taller de palillos' · 'truco de equipaje'
+  city: z.string().optional(),
+  area: z.string().optional(),
+  cuando: z.string().optional(), // encaje con el itinerario: 'Día 2 · sáb 7 nov · 9:00-16:00'
+  // El día donde encaja. Enlace, no texto: así el índice de anclas lo valida y no se queda colgado
+  // si algún día se renumeran las jornadas (que ya ha pasado dos veces).
+  dia: Link.optional(),
+  aviso: z.string().optional(), // la condición que lo puede tumbar: 'Cierra si llueve'
+  body: Md, // qué es y por qué merece la pena, en dos o tres frases
+  url: z.string(), // el post original — sin esto la sección no tiene sentido
+  link: z.object({ url: z.string(), label: z.string() }).optional(), // web oficial / Google Maps
+  seenIn: z.array(Link).optional(),
 })
 
 // ── PLATO — la guía de platos y bebidas imprescindibles ───────────────────────
@@ -377,6 +425,7 @@ export type Inversion = z.infer<typeof InversionSchema>
 export type Dia = z.infer<typeof DiaSchema>
 export type Reco = z.infer<typeof RecoSchema>
 export type Comida = z.infer<typeof ComidaSchema>
+export type Recomendado = z.infer<typeof RecomendadoSchema>
 export type Plato = z.infer<typeof PlatoSchema>
 export type Salir = z.infer<typeof SalirSchema>
 export type Hotel = z.infer<typeof HotelSchema>

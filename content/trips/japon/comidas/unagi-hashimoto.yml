@@ -1,0 +1,38 @@
+slug: unagi-hashimoto
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 148
+title: Unagi Hashimoto
+navLabel: "Unagi Hashimoto"
+tipo: casa de anguila desde 1835 · sexta generación
+area: 2-5-7 Suidō, Bunkyō · 3 min de Edogawabashi
+cuando: "Tokio · cualquier comida; encaja bien el día 9 o el 17"
+precio: "¥4.000-8.000"
+reserva: "Recomendable"
+colas: "No, con reserva"
+badge: "Guía Michelin · abierta desde 1835"
+quePedir: >-
+  El ***una-jū***, la anguila sobre arroz en caja lacada. Y probar el *tare* solo, antes de mezclar:
+  es lo que distingue a una casa de otra.
+body: >-
+  **Abrió en 1835, en tiempos del shogunato, y la lleva la misma familia — sexta generación.** Eso son
+  casi doscientos años haciendo un solo plato, en un edificio de estilo *sukiya* en una calle tranquila
+  de Edogawabashi.
+
+  La anguila a la brasa es **el plato de Tokio por excelencia** y aquí se hace al **estilo de Edo**,
+  que no es el de Kioto: en el este se abre la anguila **por el lomo** —abrirla por el vientre era mal
+  presagio en una ciudad de samuráis— y **se cuece al vapor entre las dos brasadas**, lo que la deja
+  mucho más tierna que la versión de Kansai.
+
+  Lo que se hereda de verdad es el ***tare***, la salsa: se va rellenando el mismo puchero desde hace
+  generaciones, así que en el que mojan hoy queda algo del de 1835. El de esta casa tiene fama de
+  estar **en el punto justo, ni dulce ni salado**.
+
+  **Y llena un hueco doble de la guía:** el *unagi* es uno de los tres o cuatro platos que hay que
+  comer en Tokio, y no solo no había casa apuntada — **tampoco tiene ficha de plato**, al contrario que
+  el [tempura](#tempura), el [tonkatsu](#tonkatsu) o el [yakitori](#yakitori).
+seenIn:
+  - ref: '#dia-9-yamanote'
+    label: "Día 9 · Yamanote"

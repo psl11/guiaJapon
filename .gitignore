@@ -48,3 +48,8 @@ fotos-originales/*
 # guarda la sesión del navegador, que es una credencial. Lo aprendido está en el CLAUDE.md §5; si
 # algún día hace falta otra vez, se recupera de ahí o se vuelve a escribir.
 tools/
+
+# Copias de conflicto de iCloud («nombre 2.yml»): rompen la puerta de datos
+* 2.yml
+* 2.yaml
+* 2.md

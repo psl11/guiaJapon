@@ -1,0 +1,41 @@
+slug: mikawa-zezankyo
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 147
+title: Mikawa Zezankyo
+navLabel: "Mikawa Zezankyo"
+tipo: tempura edomae · nueve asientos en barra
+area: Monzen-Nakachō, Kōtō · a un paso del Sumida
+cuando: "Solo · viernes 6 · la comida de Fukagawa, y hay que reservar con mucho"
+precio: "Más de ¥10.000"
+reserva: "Imprescindible, y con semanas"
+colas: "No — solo hay nueve sitios"
+badge: "★ Michelin desde 2011"
+quePedir: >-
+  El menú del chef, que no se elige. Y **comer cada pieza en cuanto la deja delante**: la tempura tiene
+  una ventana de treinta segundos y esperar por educación es el único error posible aquí.
+body: >-
+  **Y esta cae justo donde estás la mañana del viernes.** Está en **Monzen-Nakachō**, o sea en el
+  Fukagawa que ya vas a recorrer siguiendo a Bashō — a unas calles del Sumida.
+
+  Lo lleva **Tetsuya Saotome**, al que en Tokio llaman **«el dios de la tempura»**. Empezó **dos días
+  después de terminar la secundaria**, fregando platos en el Tensho de Ueno; estuvo **quince años**
+  formándose antes de abrir lo suyo a los veintinueve, en Nihonbashi, en **1976**. La casa se mudó
+  aquí en 2009. Tiene **estrella Michelin desde 2011** y, ya con más de ochenta años, **sigue
+  friendo todos los días**.
+
+  Lo que se ve desde la barra —hay **nueve asientos**— es tempura *edomae* de manual: pescado de la
+  bahía de Edo y verdura de temporada, con **la temperatura del aceite y el tiempo de fritura
+  cambiando en cada pieza**. No es rebozado: es una técnica distinta por ingrediente, hecha delante
+  de ti.
+
+  **Es cara y hay que reservar con semanas**, así que va como lo que es — el capricho argumentado de
+  tus días en solitario. Si no hay hueco o prefieres tenerlo en Ginza el [día 20](#dia-20-tsukiji-ginza),
+  la otra casa de referencia es **Tempura Kondo**, también con estrella.
+seenIn:
+  - ref: '#tempura'
+    label: La tempura
+  - ref: '#solo-5-fukagawa'
+    label: "Solo · viernes 6 · Fukagawa"

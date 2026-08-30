@@ -26,5 +26,11 @@ body: >-
   el arroz —se deshace—, y el jengibre es para limpiar el paladar entre piezas, no para poner encima.
   Si hay *omakase*, es dejar elegir al chef: casi siempre la mejor decisión.
 seenIn:
+  - ref: '#tsukiji-sushi-sei'
+    label: Sushi Sei (Tsukiji, 1889)
+  - ref: '#shutoku-ganso'
+    label: Shutoku (Tsukiji)
+  - ref: '#unitora'
+    label: Unitora, erizo
   - ref: '#daiwa-sushi'
     label: Daiwa Sushi (Toyosu)

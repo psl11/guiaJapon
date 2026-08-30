@@ -1,0 +1,35 @@
+slug: unitora
+trip: japon
+part: japon
+city: Tokio
+category: desayuno
+order: 98
+title: Sushidokoro Unitora
+navLabel: "Unitora うに虎"
+tipo: especialista en erizo · barra y cuencos
+area: 4-10-16 Tsukiji, Chūō · edificio Yonchōme Chōkai, planta baja
+cuando: "Día 20 · el desayuno de mercado, a primera hora"
+precio: "~¥3.000-6.000 el cuenco de uni, según variedad"
+reserva: "No"
+colas: "Sí, y avanza rápido"
+quePedir: >-
+  El ***uni-don*** de varias procedencias, que es la gracia de la casa: llegan **tres o cuatro erizos
+  distintos en el mismo cuenco** para compararlos. Si no, el mixto con atún y salmón real.
+body: >-
+  **Aquí se viene por una sola cosa: el *uni*.** La casa se abastece de erizo de temporada de todo
+  Japón —sobre todo de **Hokkaidō**— y lo compra cada madrugada en Toyosu, y lo que la distingue es
+  que sirve **varias procedencias juntas para que se noten las diferencias**: el *bafun-uni* es más
+  pequeño, más oscuro y más dulce; el *murasaki-uni*, más pálido y más limpio. Son dos animales
+  distintos y saben distinto, y hasta que no se prueban al lado no se entiende de qué habla la gente.
+
+  Es la comida de mercado que mejor encaja con la mañana del [día 20](#dia-20-tsukiji-ginza): se come
+  en un cuenco, se tarda veinte minutos, abre temprano y está a dos calles del centro del mercado
+  exterior. Y noviembre es **buena época de erizo** en Hokkaidō, que no es poca cosa.
+
+  *(El grupo tiene varias casas por Tsukiji con el mismo nombre —honten, nakadōri, hanare—. La
+  dirección de arriba es la que corresponde al enlace que pasaste.)*
+seenIn:
+  - ref: '#sushi'
+    label: El sushi
+  - ref: '#tsukiji'
+    label: "Tsukiji"

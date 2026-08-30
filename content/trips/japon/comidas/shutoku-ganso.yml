@@ -1,0 +1,34 @@
+slug: shutoku-ganso
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 97
+title: Shutoku Ganso
+navLabel: "Shutoku 秀徳"
+tipo: barra edomae del mercado exterior
+area: 4-14-16 Tsukiji, Chūō · mercado exterior
+cuando: "Día 20 · abre a las 11:00, justo al final de la mañana de Tsukiji"
+precio: "~¥3.000-5.000 el juego de nigiri"
+reserva: "No"
+colas: "Sí, desde que abre"
+quePedir: >-
+  El juego de nigiri del día. Aquí el pescado lo eligen ellos en Toyosu de madrugada, así que la carta
+  fija importa menos que lo que haya entrado.
+body: >-
+  Sushi *edomae* hecho en la barra por itamae que se abastecen esa misma madrugada, en pleno mercado
+  exterior. El ***元祖*** del nombre significa **«el original»** — Shutoku tiene varias casas por
+  Tsukiji y esta es la primera, cosa que conviene saber porque el rótulo se repite a tres calles de
+  distancia.
+
+  Es el registro intermedio del mercado: ni el taburete de pie de los puestos, ni la formalidad de
+  [Sushi Sei](#tsukiji-sushi-sei). Barra, delantal, y el pescado que entró hoy.
+
+  **Ojo con la hora, que es su único problema para vosotros:** **abre a las 11:00** —y luego cierra de
+  15:00 a 17:00—, mientras que la mañana de Tsukiji del [día 20](#dia-20-tsukiji-ginza) está planteada
+  de 09:00 a 11:30. O se estira media hora el mercado, o se cambia el orden de la mañana.
+seenIn:
+  - ref: '#sushi'
+    label: El sushi
+  - ref: '#tsukiji'
+    label: "Tsukiji"

@@ -1,0 +1,37 @@
+slug: tsukiji-sushi-sei
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 96
+title: Tsukiji Sushi Sei
+navLabel: "Sushi Sei"
+tipo: barra edomae de 1889 · la casa madre
+area: 4-13-5 Tsukiji, Chūō · mercado exterior
+cuando: "Día 20 · la mañana de Tsukiji, si se estira hasta las 11:30"
+precio: "~¥3.000-6.000 a mediodía; el omakase, bastante más"
+reserva: "Conviene para el honten; en la sucursal, cola"
+colas: "Sí, y a mediodía largas"
+badge: "Abierta desde 1889"
+quePedir: >-
+  El **omakase corto de mediodía**, que es donde está la relación calidad-precio. Y si es a la carta,
+  dejar que el itamae mande el orden.
+body: >-
+  **La casa a la que ya fuiste en 2017**, y la que mejor explica qué es el sushi *edomae*: **abrió en
+  Tsukiji en 1889** y sigue siendo la matriz del grupo Sushi Sei, con más de ciento treinta años
+  haciendo lo mismo. No es un sitio de mercado con taburetes — es una barra formal, con mostrador de
+  madera y silencio.
+
+  *Edomae* significa literalmente **«delante de Edo»**, la bahía de Tokio: el sushi nació aquí como
+  comida rápida de puesto callejero en el siglo XIX, con el pescado marinado o hervido porque no había
+  hielo. Lo que hace una barra de este nivel es seguir aplicando esas técnicas —el curado, el
+  *nikiri*, el arroz a temperatura de cuerpo— cuando ya no hacen falta.
+
+  **Un detalle al reservar:** hay **honten** (la casa madre) y varias sucursales alrededor, la *new
+  branch* entre ellas. Están a un par de calles y no son lo mismo de precio ni de ambiente. Si lo que
+  buscáis es la de 1889, **especificad *honten***.
+seenIn:
+  - ref: '#sushi'
+    label: El sushi
+  - ref: '#tsukiji'
+    label: "Tsukiji"

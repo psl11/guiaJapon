@@ -1,0 +1,40 @@
+slug: tonkatsu-marugo
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 149
+title: Tonkatsu Marugo
+navLabel: "Marugo 丸五"
+tipo: tonkatsu desde 1975 · con cola en la puerta
+area: 1-8-14 Sotokanda, Chiyoda · 4 min de Akihabara, salida Electric Town
+cuando: "Cualquier día de miércoles a domingo · a cuatro minutos de vuestro hotel"
+precio: "¥2.000-3.000"
+reserva: "No se acepta"
+colas: "Sí, y hay que ir antes de que abra"
+badge: "Bib Gourmand"
+quePedir: >-
+  El ***tokujō rōsu*** (lomo especial) si os gusta la grasa, o el ***tokujō hire*** (solomillo) si no.
+  Son los dos cortes gruesos por los que existe la casa.
+body: >-
+  **Abierto en 1975, Bib Gourmand de la Guía Michelin de Tokio — y a cuatro minutos andando de vuestro
+  hotel**, saliendo por la Electric Town de Akihabara. Es de los pocos casos en que la casa buena de un
+  plato cae literalmente al lado de donde dormís.
+
+  Lo que hace distinto a Marugo es la técnica: **cortes muy gruesos fritos despacio y a baja
+  temperatura**, en vez del rebozado rápido y ardiendo de la mayoría. Sale una pieza que por fuera
+  cruje y por dentro sigue rosa. Es tonkatsu de escuela, no de cadena.
+
+  **Dos avisos prácticos que aquí deciden si coméis o no.** El primero: **cierra lunes y martes**, y
+  abre en dos turnos cortos —**11:30-14:00 y 17:00-20:00**—. El segundo: **hay cola siempre**. Desde que
+  salió en las guías extranjeras no es raro encontrar veinte personas esperando **quince minutos antes
+  de abrir**, así que la única manera es plantarse antes de la hora.
+
+  **Cuándo os encaja.** Cualquier noche que estéis en el hotel de Akihabara de miércoles a domingo — y
+  muy bien el **viernes 6**, cuando cambias de alojamiento a mediodía y tienes la tarde libre antes de
+  que lleguen los otros tres a las nueve y media.
+seenIn:
+  - ref: '#tonkatsu'
+    label: El tonkatsu
+  - ref: '#akihabara'
+    label: "Akihabara"

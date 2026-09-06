@@ -354,13 +354,15 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
 - Sin foto verificable: Ebisu-Meguro y Masakado.
 - Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
   hay forma de verificar que una imagen de Commons sea ese local.
-- **Faltan las camas de Kioto (4 noches), Hiroshima (1) y la última tanda de Tokio (días 16-20).**
-  Confirmadas ya: Akihabara, Matsumoto, Hirayu, Takayama, **Kanazawa** (Hotel Forza, ago 2026) y
-  Roppongi. Lo de abajo se escribió cuando no había ninguna y se conserva porque la regla sigue en pie.
+- **Faltan las camas de Hiroshima (1 noche) y la última tanda de Tokio (días 16-20).**
+  Confirmadas ya: Akihabara, Matsumoto, Hirayu, Takayama, **Kanazawa** (Hotel Forza, ago 2026),
+  Roppongi y **Kioto** (hotel androoms Kyoto Shichijō, sep 2026; la ficha lleva el número de reserva
+  en `nota`). Lo de abajo se escribió cuando no había ninguna y se conserva porque la regla sigue en pie.
 - **Los hoteles están sin rehacer, y es deliberado.** El itinerario cambió de forma entera (ver
-  abajo) y las camas de Takayama, Kanazawa, Kioto, Hiroshima y las tres tandas de Tokio hay que
-  volver a buscarlas. En `hoteles/` solo se han ajustado los campos `noches` para que no mientan;
-  **no se ha inventado ningún establecimiento**, que es la regla 4.7. Es la siguiente tarea grande.
+  abajo) y las camas de Takayama, Kanazawa, Kioto, Hiroshima y las tres tandas de Tokio hubo que
+  volver a buscarlas; a septiembre de 2026 solo quedan Hiroshima y la última tanda de Tokio. En
+  `hoteles/` solo se han ajustado los campos `noches` para que no mientan; **no se ha inventado
+  ningún establecimiento**, que es la regla 4.7. Es la siguiente tarea grande.
 - **Los horarios de autobús de noviembre en Kamikōchi, sin confirmar.** Todo el día 4 cuelga de dos
   autobuses y los horarios usados son los de temporada general.
 

@@ -1,0 +1,59 @@
+slug: androoms-kyoto-shichijo
+navLabel: "androoms Kioto"
+trip: japon
+city: Kioto
+order: 7
+status: confirmado
+title: hotel androoms Kyoto Shichijō
+tipo: business de diseño con baño grande y sauna
+area: Ebisunochō 730, Shimogyō — a cinco minutos de la salida Karasuma de la estación
+noches: 4 noches · días 11-14 · del 16 al 20 nov
+lat: 34.9889855
+lon: 135.7571848
+estaciones:
+  - nombre: Kioto
+    lineas: Tōkaidō y Sanyō Shinkansen · JR Sagano · JR Nara · metro Karasuma · terminal de autobuses
+    minutos: 5
+    lat: 34.9853497
+    lon: 135.7587660
+habitaciones: Una triple para tres — dos individuales y un sofá cama
+rating: "8,9 en Booking · 3.747 reseñas"
+nota: "**Reserva 3889-8950-2084** · entrada 15:00, salida 10:00 · teléfono 075-353-5700"
+body: >-
+  Esta cama la elige la estación, y no es una comodidad genérica: **tres de las cuatro mañanas de
+  Kioto arrancan en ella**. El Sagano hacia Arashiyama a las siete, el JR Nara hacia Fushimi Inari a
+  las 6:45 y el Nozomi a Hiroshima a las 7:30 salen todos de aquí, y la vuelta tarde de Osaka acaba
+  en el mismo andén. El hotel está en el lado norte, el de la salida Karasuma, que es el de los
+  trenes locales y la terminal de autobuses hacia Higashiyama. Cuatrocientos metros: se sale del
+  vestíbulo y se está en la puerta.
+
+
+  Lo que se paga son las noches. [Kioto](#kioto) se cena y se pasea en el centro —Nishiki, Pontochō,
+  Gion con los faroles— y desde aquí eso son **dos paradas de metro** por la línea Karasuma, o un
+  taxi de diez minutos que entre tres no es nada. Se aceptó a sabiendas: con días que empiezan a
+  las seis, la noche de Kioto es corta de todas formas. Y el barrio tiene una carta que el plan del
+  día 11 ya usaba sin saberlo: [Men-ya Inoichi](#menya-inoichi), el ramen con Bib Gourmand, está en
+  la misma manzana, en Ebisunochō.
+
+
+  El hotel es de la cadena Solare, de estética contemporánea y habitaciones compactas, con **baño
+  grande y sauna gratis** para los huéspedes, lavandería y bicis de alquiler. Se eligió por delante
+  de los business veteranos de enfrente de la estación por el edificio y por la cama: la triple son
+  dos individuales y un sofá cama, y no dos semidobles de 120 cm para tres personas.
+
+
+  Y la logística de maletas, que aquí tiene dos fechas. Las grandes llegan por
+  [takkyūbin](#takkyubin) el martes 17, enviadas desde el Candeo la mañana del lunes. Salen hacia
+  Tokio el viernes 20, y como el tren es a las 7:30 **hay que dejarlas en recepción la noche
+  anterior con el envío ya tramitado**: el recogedor pasa después de que os hayáis ido. Se pregunta
+  al hacer el check-in el lunes y queda resuelto.
+link:
+  url: https://www.booking.com/hotel/jp/androoms-kyoto-shichijo.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#kioto"
+    label: La ciudad
+  - ref: "#dia-11-tokio-kioto"
+    label: Día 11 · llegada
+  - ref: "#dia-15-hiroshima"
+    label: Día 15 · la mañana

@@ -354,13 +354,21 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
 - Sin foto verificable: Ebisu-Meguro y Masakado.
 - Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
   hay forma de verificar que una imagen de Commons sea ese local.
-- **Faltan las camas de Hiroshima (1 noche) y la última tanda de Tokio (días 16-20).**
+- **Falta la última tanda de Tokio (días 16-20, cinco noches en Shinjuku).** Es la única que queda.
   Confirmadas ya: Akihabara, Matsumoto, Hirayu, Takayama, **Kanazawa** (Hotel Forza, ago 2026),
-  Roppongi y **Kioto** (hotel androoms Kyoto Shichijō, sep 2026; la ficha lleva el número de reserva
-  en `nota`). Lo de abajo se escribió cuando no había ninguna y se conserva porque la regla sigue en pie.
+  Roppongi, **Kioto** (hotel androoms Kyoto Shichijō, sep 2026; la ficha lleva el número de reserva
+  en `nota`) e **Hiroshima** (Via Inn Prime Shinkansen-guchi, sep 2026). Lo de abajo se escribió
+  cuando no había ninguna y se conserva porque la regla sigue en pie.
+- **Hiroshima, por qué esa y no otra** (Via Inn Prime Shinkansen-guchi, sep 2026). La eligió el
+  sábado, no el viernes: las tres citas del día 16 —tren a Miyajima, vuelta a por las maletas y
+  Shinkansen a Tokio— salen todas del **paso libre norte-sur** de la estación, un corredor techado
+  y sin torno, y el hotel está a 350 m por el lado del Shinkansen. Por eso se descartó el centro,
+  que servía mejor al viernes. **Lo único que puede tumbar ese argumento es la consigna**: se sale a
+  las 07:15 y no se vuelve hasta las 14:45, o sea siete horas y media guardadas después del
+  *check-out*. Está escrito en la ficha para que se pregunte al hacer la entrada.
 - **Los hoteles están sin rehacer, y es deliberado.** El itinerario cambió de forma entera (ver
   abajo) y las camas de Takayama, Kanazawa, Kioto, Hiroshima y las tres tandas de Tokio hubo que
-  volver a buscarlas; a septiembre de 2026 solo quedan Hiroshima y la última tanda de Tokio. En
+  volver a buscarlas; a septiembre de 2026 solo queda por reservar la última tanda de Tokio. En
   `hoteles/` solo se han ajustado los campos `noches` para que no mientan; **no se ha inventado
   ningún establecimiento**, que es la regla 4.7. Es la siguiente tarea grande.
 - **Los horarios de autobús de noviembre en Kamikōchi, sin confirmar.** Todo el día 4 cuelga de dos

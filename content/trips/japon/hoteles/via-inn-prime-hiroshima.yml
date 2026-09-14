@@ -1,0 +1,62 @@
+slug: via-inn-prime-hiroshima
+navLabel: "Via Inn Hiroshima"
+trip: japon
+city: Hiroshima
+order: 8
+status: confirmado
+title: Via Inn Prime Hiroshima Shinkansen-guchi
+tipo: business de JR West con baño grande y *rotenburo* en la última planta
+area: "Matsubara-chō 1-6, Minami-ku — tres minutos al oeste de la salida del Shinkansen"
+noches: 1 noche · día 15 · vie 20 nov
+lat: 34.3997391
+lon: 132.4748632
+estaciones:
+  - nombre: Hiroshima
+    lineas: Sanyō Shinkansen · JR Sanyō · JR Kure · JR Geibi · tranvía Hiroden
+    minutos: 4
+    lat: 34.3978256
+    lon: 132.4755766
+habitaciones: Dos dobles para tres
+rating: "8,8 en Booking · 3.186 reseñas"
+nota: "Entrada 15:00, salida 10:00 · *smart check-in* sin pasar por recepción · teléfono 082-568-5489"
+body: >-
+  Esta cama la elige el sábado, no el viernes. Está a trescientos cincuenta metros de la estación por
+  el lado norte, el del Shinkansen, y entre la puerta y los andenes se cruza el **paso libre
+  norte-sur**: un corredor público y techado que atraviesa la estación de
+  [Hiroshima](#hiroshima) sin necesidad de billete. Por ahí salen las tres citas del día siguiente
+  —el tren de primera hora hacia [Miyajima](#miyajima), la vuelta a por las maletas a media tarde y
+  el Shinkansen de las tres—, y ninguna obliga a pisar la calle.
+
+
+  Y está la consigna, que aquí no es un detalle menor. Se sale del hotel antes de las siete y media y
+  no se vuelve hasta pasadas las dos, así que las bolsas se quedan **siete horas y media guardadas
+  después del *check-out***. En recepción eso es gratis y está garantizado; en las taquillas de la
+  estación, un sábado de puente y en plena temporada de hoja roja, es una apuesta. Conviene
+  preguntarlo al hacer la entrada, porque es el único punto por el que este hotel podría fallar.
+
+
+  Lo que se paga a cambio es el centro. El parque de la Paz y las planchas de okonomiyaki quedan a
+  **un cuarto de hora en tranvía**, no andando, y la habitación no se abre hasta las tres de la
+  tarde: el viernes se llega a las diez y media, se dejan las bolsas y se sale hacia el parque sin
+  subir. Para este día concreto no es mala noticia, porque el tranvía de vuelta ya estaba en el plan
+  por otro motivo — algunos de los vagones que circulan hoy estaban aquí en 1945, y el
+  [día 15](#dia-15-hiroshima) manda subirse a uno a propósito. Desde agosto de 2025 el Hiroden entra
+  además dentro del edificio de la estación, en la segunda planta, que es el primer caso en Japón.
+
+
+  Y luego está el baño, que es la razón de haber elegido este y no cualquiera de los otros doce que
+  rodean la estación. Ocupa la última planta, tiene *rotenburo* al aire libre y se llama
+  **紅葉の湯, *Momiji no Yu*: el baño de la hoja roja**. Lleváis tres semanas bajando detrás del
+  frente del color, de los alerces pelados de Kamikōchi a [el momiji](#momiji) de Kioto, y dormís
+  aquí la víspera del fin de semana en que llega abajo del todo. A la mañana siguiente vais al
+  Momijidani, el valle de los arces. El hotel no lo sabe, pero encaja.
+link:
+  url: https://www.booking.com/hotel/jp/vuiainguang-dao-xin-gan-xian-kou.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#hiroshima"
+    label: La ciudad
+  - ref: "#dia-15-hiroshima"
+    label: Día 15 · llegada
+  - ref: "#dia-16-miyajima-tokio"
+    label: Día 16 · la mañana

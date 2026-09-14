@@ -24,11 +24,13 @@ de la capital y no en una parada de autobús de montaña. Arrastra además dos d
 contenido: su maleta no viaja con las otras tres, y **la fianza de la tarjeta IC no se devuelve en
 Narita**, solo en Haneda.
 
-**Y un dato que toca muchos ficheros: en Tokio se duerme en dos barrios y en tres tandas.**
-**Akihabara** las dos noches de la ida (6-7) y las tres de la escala (12-14); **Shinjuku** las cinco
-últimas (21-25). No es casual —la ventaja de Shinjuku es la noche, y la noche no se usa con jet
-lag— pero significa que **«donde dormís» no es un sitio fijo**: antes de escribir esa expresión,
-mira de qué bloque hablas.
+**Y un dato que toca muchos ficheros: en Tokio se duerme en tres barrios y en tres tandas.**
+**Akihabara** las dos noches de la ida (6-7), **Roppongi** las cuatro de la escala (12-15) y
+**Shinjuku** las cinco últimas (21-25). El orden no es casual —la ventaja de Shinjuku es la noche, y
+la noche no se usa con jet lag—, pero significa que **«donde dormís» no es un sitio fijo**: antes de
+escribir esa expresión, mira de qué bloque hablas. La trampa concreta es la escala: durante meses
+fue Akihabara también, así que **cualquier frase que prometa el barrio para la vuelta está
+desfasada**.
 
 ---
 

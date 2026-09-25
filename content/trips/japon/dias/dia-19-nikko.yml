@@ -8,6 +8,9 @@ dek: >-
   Dos horas al norte y el contrario exacto de todo lo demás: donde Japón presume de madera sin
   pintar, aquí hay laca, oro y quinientas tallas policromadas. No es mal gusto — es una operación
   política que sigue funcionando cuatrocientos años después.
+duerme:
+  - apa-asakusa-kaminarimon
+  - koko-ginza-1chome
 traslados:
   - desde: "Asakusa"
     hasta: "Nikkō"

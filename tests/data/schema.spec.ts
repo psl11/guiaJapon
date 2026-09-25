@@ -168,6 +168,17 @@ describe('contenido · integridad de anclas del cuerpo markdown', () => {
   })
 })
 
+describe('contenido · «hoy se duerme en» (dia.duerme)', () => {
+  it('cada slug de `duerme` es un hotel que existe', () => {
+    // DiaCard filtra en silencio los slugs que no encuentra: un typo dejaría el día sin su hotel,
+    // sin error de build ni de test. Aquí sí falla.
+    const hoteles = new Set(docs.filter(d => d.collection === 'hotel').map(d => d.slug))
+    const rotos = docs.filter(d => d.collection === 'dia')
+      .flatMap(d => ((parse(d.raw)?.duerme ?? []) as string[]).filter(s => !hoteles.has(s)).map(s => `${d.rel}: ${s}`))
+    expect(rotos, `duerme apunta a hoteles inexistentes:\n  ${rotos.join('\n  ')}`).toEqual([])
+  })
+})
+
 describe('contenido · fotos (image)', () => {
   it('cada image.src existe en public/ y es relativo (sin barra inicial)', () => {
     // Img.src es solo z.string(): un typo daría un banner 404 SILENCIOSO (imagen lazy que no carga,

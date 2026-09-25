@@ -9,6 +9,8 @@ dek: >-
   Kawagoe se vende como «la pequeña Edo» por su calle de almacenes de barro, y está bien — pero el
   motivo de verdad para venir está en un templo a veinte minutos de esa calle, y no lo sabe casi
   ningún visitante. Jueves, día laborable: la ciudad estará como debe estar.
+duerme:
+  - super-hotel-premier-akihabara
 traslados:
   - desde: "Akihabara"
     hasta: "Ikebukuro"

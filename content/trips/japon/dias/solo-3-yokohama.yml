@@ -9,6 +9,8 @@ dek: >-
   Yokohama tiene fama de centro comercial junto al mar, y esa parte se puede saltar entera. Lo que
   hay que hacer aquí son dos cosas: un jardín donde un magnate de la seda coleccionó edificios
   históricos de medio Japón, y el muelle por el que el país dejó de estar cerrado.
+duerme:
+  - super-hotel-premier-akihabara
 traslados:
   - desde: "Shimbashi"
     hasta: "Negishi"

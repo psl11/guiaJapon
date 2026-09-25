@@ -9,6 +9,8 @@ dek: >-
   De los cuatro días sueltos, este es el que no se elige: es **Bunka no Hi**, el Día de la Cultura, y
   trae dos cosas que solo pasan hoy. Por la mañana, los museos nacionales abren gratis —los cuatro
   grandes, juntos en el parque de Ueno—. Por la tarde, el Meiji Jingū saca los caballos.
+duerme:
+  - candeo-shimbashi
 traslados:
   - desde: "Shimbashi"
     hasta: "Ueno"

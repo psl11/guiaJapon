@@ -8,6 +8,8 @@ dek: >-
   El día de las postales, y el único que exige madrugar de verdad. Un templo colgado sobre un
   barranco, dos cuestas empedradas y un barrio de casas de té — con diez mil personas más si se
   llega tarde.
+duerme:
+  - androoms-kyoto-shichijo
 blocks:
   - block: Amanecer
     time: "06:00–08:00"

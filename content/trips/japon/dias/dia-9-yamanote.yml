@@ -9,6 +9,8 @@ dek: >-
   santuario. Y luego, el contraste que define Tokio: un bosque de cien mil árboles plantados a mano
   en el centro de la ciudad y, a quince minutos andando, el cruce peatonal más transitado del
   planeta.
+duerme:
+  - candeo-roppongi
 traslados:
   - desde: "Roppongi"
     hasta: "Narita T1"

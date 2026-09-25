@@ -664,6 +664,25 @@ a.chip:focus-visible { outline: 2px solid var(--indigo); outline-offset: 2px; }
 .dia-move-nota strong { color: var(--ink-soft); font-weight: 600; }
 .dia-move-nota em { font-style: italic; }
 
+/* DUERME — «Hoy se duerme en», debajo de los traslados. Fila flex con nombres de hotel libres:
+   `flex-wrap` y `overflow-wrap`, nunca `nowrap` (trampa 3.10). */
+.dia-sleep {
+  margin: .7rem 0 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem .55rem;
+  font-size: .95rem; line-height: 1.45; color: var(--ink-soft);
+}
+.dia-sleep > span { overflow-wrap: break-word; min-width: 0; }
+.dia-sleep-label {
+  font-family: 'JetBrains Mono', monospace; font-size: .6rem; font-weight: 500;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--indigo);
+}
+.dia-sleep-label::before { content: "☾ "; font-size: .8rem; }
+.dia-sleep a { color: var(--ink); font-weight: 600; text-decoration-color: color-mix(in srgb, var(--indigo) 45%, transparent); }
+.dia-sleep-or { color: var(--ink-faint); font-style: italic; margin-right: .4rem; }
+.dia-sleep-cand {
+  margin-left: .35rem; font-family: 'JetBrains Mono', monospace; font-size: .6rem;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--gold);
+}
+
 .dia-blocks { margin-top: 1.6rem; display: flex; flex-direction: column; gap: 1.1rem; }
 .dia-block { background: var(--bg-elev); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); }
 .dia-bhead {

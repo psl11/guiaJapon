@@ -1,0 +1,55 @@
+slug: koko-ginza-1chome
+navLabel: "KOKO Ginza 1-chome"
+trip: japon
+city: Tokio · Asakusa o Ginza
+order: 10
+status: candidato
+title: KOKO HOTEL Ginza 1-chome
+tipo: business de cadena
+area: "Ginza 1-9-5, Chūō — el extremo norte de Ginza, junto a Kyōbashi"
+noches: 5 noches · días 16-20 · del 21 al 26 nov
+lat: 35.6741741
+lon: 139.7690900
+estaciones:
+  - nombre: Ginza-itchōme
+    lineas: Tokyo Metro Yūrakuchō · salida 10
+    minutos: 1
+    lat: 35.6741841
+    lon: 139.7675609
+  - nombre: Kyōbashi
+    lineas: Tokyo Metro Ginza · salida 2
+    minutos: 3
+    lat: 35.676696
+    lon: 139.7700412
+  - nombre: Takarachō
+    lineas: Toei Asakusa · salida A3
+    minutos: 4
+    lat: 35.6754339
+    lon: 139.7718846
+  - nombre: Ginza
+    lineas: Ginza · Hibiya · Marunouchi · salida A13
+    minutos: 5
+nota: "Reserva doble con cancelación gratuita: compite con el APA Asakusa Kaminarimon."
+body: >-
+  Es la cama que elige el día del [Fuji](#dia-18-fuji). **Takarachō**, a cuatro minutos, está en la
+  Toei Asakusa, y sus trenes hacia Haneda o Misakiguchi dejan en Shinagawa en unos doce minutos, sin
+  transbordo. Google propone ir andando a Tokio Estación, un cuarto de hora, pero la estación es tan
+  grande que el andén del Shinkansen queda bastante más lejos que la entrada.
+
+
+  [Nikkō](#dia-19-nikko) queda a un solo tren: la línea Ginza desde **Kyōbashi**, a tres minutos,
+  termina en Asakusa en unos quince. El jueves del vuelo, la Toei Asakusa sigue **directa hasta
+  Haneda**, igual que desde el APA.
+
+
+  Lo que gana frente al otro es el resto de la semana. El [día 20](#dia-20-tsukiji-ginza) —Tsukiji,
+  [Ginza](#ginza), Hamarikyū— se hace andando desde la puerta, y la mitad del día de compras también.
+  Lo que pierde es el madrugón de Nikkō: son quince minutos de metro donde el APA tiene cuatro andando.
+link:
+  url: https://www.booking.com/hotel/jp/koko-yin-zuo-yi-ding-mu.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#ginza"
+    label: El barrio
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · Tsukiji y Ginza

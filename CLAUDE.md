@@ -25,12 +25,15 @@ contenido: su maleta no viaja con las otras tres, y **la fianza de la tarjeta IC
 Narita**, solo en Haneda.
 
 **Y un dato que toca muchos ficheros: en Tokio se duerme en tres barrios y en tres tandas.**
-**Akihabara** las dos noches de la ida (6-7), **Roppongi** las cuatro de la escala (12-15) y
-**Shinjuku** las cinco últimas (21-25). El orden no es casual —la ventaja de Shinjuku es la noche, y
-la noche no se usa con jet lag—, pero significa que **«donde dormís» no es un sitio fijo**: antes de
-escribir esa expresión, mira de qué bloque hablas. La trampa concreta es la escala: durante meses
-fue Akihabara también, así que **cualquier frase que prometa el barrio para la vuelta está
-desfasada**.
+**Akihabara** las dos noches de la ida (6-7), **Roppongi** las cuatro de la escala (12-15) y las
+cinco últimas (21-25) **entre Asakusa y Ginza, todavía sin decidir** (sep 2026): hay dos reservas
+con cancelación gratuita compitiendo, el APA Asakusa Kaminarimon y el KOKO Ginza 1-chome. Las dos
+están en la **Toei Asakusa**, que va directa a los dos madrugones de esa semana —Shinagawa para el
+Fuji, Asakusa para Nikkō— y a Haneda. Durante meses la guía dijo **Shinjuku**; se descartó porque no
+llega bien a ninguno de los dos trenes (y el directo JR-Tōbu a Nikkō solo sale temprano en fin de
+semana). Así que **«donde dormís» no es un sitio fijo**: antes de escribir esa expresión, mira de
+qué bloque hablas. **Cuando se decida, hay que reescribir** los traslados de los días 18 y 21, la
+noche del día 16 y los textos que hoy dicen «Asakusa o Ginza» (`grep -rn "Asakusa o\|Asakusa y Ginza"`).
 
 ---
 
@@ -187,6 +190,10 @@ vistazo. Tres cosas que hay que respetar al escribirlo:
 - **`medio` y `nota` van por `inlineMd`: no admiten enlaces** (trampa 3.2). El porqué del trayecto,
   con sus enlaces, sigue yendo en el `body` del bloque que lo cuenta. Lo vigila
   `tests/data/inline-md-subset.spec.ts`, que ya los tiene declarados.
+- **Debajo va «Hoy se duerme en»**, que sale del campo `duerme` del día: una lista de slugs de
+  `hoteles/` (dos si el tramo tiene candidatos compitiendo). Enlaza a la tarjeta del hotel y no
+  repite sus datos. Al añadir o renombrar un hotel, actualiza los `duerme`; si un slug no existe,
+  lo caza `schema.spec.ts`.
 - **La fila de metadatos es un flex con tres celdas de texto libre**, o sea exactamente la forma que
   sacó 37 px de scroll en la gastronomía (trampa 3.10). Está a salvo por `flex-wrap: wrap` en la fila
   y `min-width: 0; overflow-wrap: break-word` en las celdas, y **hay un test que lo sostiene** en
@@ -356,7 +363,8 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
 - Sin foto verificable: Ebisu-Meguro y Masakado.
 - Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
   hay forma de verificar que una imagen de Commons sea ese local.
-- **Falta la última tanda de Tokio (días 16-20, cinco noches en Shinjuku).** Es la única que queda.
+- **Falta decidir la última tanda de Tokio (días 16-20, cinco noches).** Hay dos candidatos
+  reservados con cancelación —APA Asakusa Kaminarimon y KOKO Ginza 1-chome—, ver §1.
   Confirmadas ya: Akihabara, Matsumoto, Hirayu, Takayama, **Kanazawa** (Hotel Forza, ago 2026),
   Roppongi, **Kioto** (hotel androoms Kyoto Shichijō, sep 2026; la ficha lleva el número de reserva
   en `nota`) e **Hiroshima** (Via Inn Prime Shinkansen-guchi, sep 2026). Lo de abajo se escribió

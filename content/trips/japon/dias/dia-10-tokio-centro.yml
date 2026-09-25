@@ -8,6 +8,8 @@ dek: >-
   Primer día de los tres solos, y el único del viaje que se pasa entero en el centro exacto de Tokio.
   Que resulta ser un vacío: ciento quince hectáreas de bosque con foso a las que casi no se entra, y
   alrededor el distrito financiero más caro del país construido sobre lo que fue un castillo.
+duerme:
+  - candeo-roppongi
 blocks:
   - block: Mañana
     time: "08:00–09:30"
@@ -121,7 +123,7 @@ blocks:
     body: >-
       Del mirador de Ebisu a la cama hay **dos paradas de Hibiya**, que es la ventaja de haber dormido
       esta semana en Roppongi. Y es la última noche aquí: mañana las maletas salen hacia Kioto y a la
-      vuelta el hotel estará en Shinjuku, al otro lado de la ciudad.
+      vuelta el hotel estará en otro barrio, más al este: Asakusa o Ginza, según la reserva que se quede.
 
 
       Para cenar, lo que el barrio tiene y no se ve desde la avenida:

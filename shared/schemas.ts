@@ -148,6 +148,13 @@ export const DiaSchema = z.object({
     nota: Md.optional(), // 'No lleva vagón libre: asiento reservado obligatorio'
   })).optional(),
 
+  // ── DUERME — dónde acaba el día (sep 2026) ─────────────────────────────────
+  // Slugs de `hoteles/` en los que se duerme ESA noche. Pinta en la cabecera del día un enlace a la
+  // tarjeta de «Dónde dormir», para no tener que buscar el hotel en el directorio. Es una lista
+  // porque un tramo puede tener dos `candidato` compitiendo: se listan los dos hasta que uno se
+  // confirme. Sin campo = no se duerme en tierra (la noche del vuelo). Lo valida schema.spec.ts.
+  duerme: z.array(z.string()).optional(),
+
   // ── ALTERNATIVAS — nuevo en Japón ──────────────────────────────────────────
   // Este viaje tiene DOS lectores a la vez: tres primerizos, para los que el plan principal son los
   // clásicos bien contados, y un repetidor (quinto viaje) que ya los ha visto. En vez de escribir dos
@@ -304,7 +311,7 @@ export const SalirSchema = z.object({
 
 // ── HOTEL — la entrada del directorio de alojamiento (sección «Dónde dormir») ─
 // Un alojamiento de un tramo del itinerario. Se agrupa por `city`, que NO es la ciudad a secas sino
-// la PARADA («Tokio · Akihabara» y «Tokio · Shinjuku» son dos, porque en Tokio se duerme en dos
+// la PARADA («Tokio · Akihabara» y «Tokio · Roppongi» son dos, porque en Tokio se duerme en tres
 // barrios distintos y esa es la trampa que más ficheros toca de esta guía).
 //
 // `status` es lo que hace útil la sección durante los meses previos: un tramo puede tener DOS

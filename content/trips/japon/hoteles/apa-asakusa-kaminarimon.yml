@@ -1,0 +1,48 @@
+slug: apa-asakusa-kaminarimon
+navLabel: "APA Asakusa Kaminarimon"
+trip: japon
+city: Tokio · Asakusa o Ginza
+order: 9
+status: candidato
+title: APA Hotel Asakusa Kaminarimon
+tipo: business de cadena, habitación pequeña
+area: "Kaminarimon 2-14-1, Taitō — dos minutos de la puerta Kaminarimon del Sensō-ji"
+noches: 5 noches · días 16-20 · del 21 al 26 nov
+lat: 35.7101168
+lon: 139.7951861
+estaciones:
+  - nombre: Asakusa (Toei)
+    lineas: Toei Asakusa · salida A4
+    minutos: 2
+  - nombre: Asakusa (Ginza)
+    lineas: Tokyo Metro Ginza · salida 2
+    minutos: 3
+  - nombre: Asakusa (Tōbu)
+    lineas: Tōbu Skytree · el Spacia a Nikkō
+    minutos: 4
+    lat: 35.7119514
+    lon: 139.7983683
+nota: "Reserva doble con cancelación gratuita: compite con el KOKO Ginza 1-chome."
+body: >-
+  Es la cama que elige el día de [Nikkō](#dia-19-nikko). El tren sale de la estación Tōbu de
+  Asakusa, a cuatro minutos andando de la puerta, y el madrugón del martes se queda en bajar a la
+  calle. Ningún otro hotel de Tokio lo pone más fácil.
+
+
+  El día del [Fuji](#dia-18-fuji) tampoco se sufre. La **Toei Asakusa** sale a dos minutos y sus
+  trenes hacia Haneda o Misakiguchi llegan a Shinagawa sin transbordo, en unos veinticinco minutos.
+  La misma línea resuelve el jueves del vuelo: **directa a Haneda**, con las maletas y sin cambiar
+  de andén.
+
+
+  Lo que se paga es la distancia al resto de la semana. Tsukiji, Ginza y el jardín de Hamarikyū
+  quedan a veinte minutos de metro, no andando. Y es un APA: habitaciones de las más pequeñas de
+  Tokio, algo que se nota más en cinco noches seguidas que en una.
+link:
+  url: https://www.booking.com/hotel/jp/apa-tokyo-asakusa-kaminarimon.es.html
+  label: Ver en Booking
+seenIn:
+  - ref: "#sensoji"
+    label: El Sensō-ji, en la puerta
+  - ref: "#dia-19-nikko"
+    label: Día 19 · Nikkō

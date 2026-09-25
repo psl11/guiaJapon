@@ -9,6 +9,8 @@ dek: >-
   El avión abre la puerta a las 10:20 y el grupo no llega hasta el viernes. La tentación es coger el
   Skyliner y plantarse en el centro con las maletas y ocho husos encima; el plan es el contrario —
   quedarse en Chiba dos horas y entrar en Tokio ya de noche, habiendo visto algo.
+duerme:
+  - candeo-shimbashi
 traslados:
   - desde: "Narita T1"
     hasta: "Narita (ciudad)"

@@ -8,6 +8,8 @@ dek: >-
   Una hora de tren y se cambia de país. Kamakura fue la capital de Japón durante siglo y medio, la de
   los samuráis y no la de los emperadores, y hoy es un pueblo de mar con templos zen entre montañas.
   Se hace de norte a sur, cuesta abajo, y se acaba en la playa.
+duerme:
+  - candeo-roppongi
 traslados:
   - desde: "Tokio"
     hasta: "Kamakura"

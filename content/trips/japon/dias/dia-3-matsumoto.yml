@@ -8,6 +8,8 @@ dek: >-
   El día que el viaje cambia de tema. Se deja Tokio en un tren que sube al interior, y al bajar hay
   montañas en el horizonte, aire frío y un castillo de madera del siglo XVI que nunca ha sido
   reconstruido. Matsumoto es la bisagra: el último sitio con estación antes de los Alpes.
+duerme:
+  - nunoya-ryokan
 traslados:
   - desde: "Akihabara"
     hasta: "Shinjuku"

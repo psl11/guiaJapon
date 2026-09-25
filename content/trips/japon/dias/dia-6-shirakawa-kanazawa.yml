@@ -8,6 +8,8 @@ dek: >-
   Día de autobús con una parada larga en medio: un valle aislado donde las casas se construyeron
   para dos metros de nieve y para fabricar pólvora en secreto. Se termina en Kanazawa, que es otra
   cosa completamente distinta.
+duerme:
+  - forza-kanazawa
 traslados:
   - desde: "Takayama"
     hasta: "Shirakawa-gō"

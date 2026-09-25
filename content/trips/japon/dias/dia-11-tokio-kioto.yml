@@ -8,6 +8,8 @@ dek: >-
   El día bisagra del viaje. Se sale de Tokio por el viejo Tōkaidō y se llega a la ciudad que fue
   capital durante mil años, justo cuando empieza su mejor quincena. Hoy no hay agenda: hay que
   aterrizar.
+duerme:
+  - androoms-kyoto-shichijo
 traslados:
   - desde: "Tokio"
     hasta: "Kioto"

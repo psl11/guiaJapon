@@ -8,6 +8,8 @@ dek: >-
   Se empieza en el agua y se termina en un pueblo de montaña: baño de amanecer en
   [Hirayu](#kamikochi-en-el-dia), una hora de autobús y tres calles de casas de madera negra
   intactas, con la mejor historia fiscal de Japón detrás. Y por la noche, el sitio vacío.
+duerme:
+  - gift-takayama
 traslados:
   - desde: "Hirayu Onsen"
     hasta: "Takayama"

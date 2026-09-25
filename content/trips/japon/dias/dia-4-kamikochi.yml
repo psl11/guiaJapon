@@ -8,6 +8,8 @@ dek: >-
   El día más largo del viaje y el que más paga. Un valle a mil quinientos metros donde los coches
   están prohibidos desde 1975, recorrido de punta a punta en una sola jornada, y al final el pueblo
   termal del otro lado del túnel: cena de montaña, baño al aire libre y a dormir.
+duerme:
+  - sanzoan-hirayu
 traslados:
   - desde: "Matsumoto"
     hasta: "Kamikōchi"

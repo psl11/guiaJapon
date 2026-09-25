@@ -8,6 +8,8 @@ dek: >-
   Dos horas de Shinkansen y el día más difícil del viaje. No es un día de monumentos: es un día de
   entender una decisión —qué se conserva y qué se rehace— y de comprobar que la ciudad de alrededor
   está muy viva.
+duerme:
+  - via-inn-prime-hiroshima
 traslados:
   - desde: "Kioto"
     hasta: "Hiroshima"

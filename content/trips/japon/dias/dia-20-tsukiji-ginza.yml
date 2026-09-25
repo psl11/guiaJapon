@@ -8,6 +8,9 @@ dek: >-
   Mañana solo hay medio día antes del vuelo, así que este es el último completo — y cae dentro de la
   quincena buena del [momiji](#momiji) de Tokio, que es la razón aritmética de haber guardado la
   ciudad para el final. Un mercado, un sótano de grandes almacenes y un jardín de agua salada.
+duerme:
+  - apa-asakusa-kaminarimon
+  - koko-ginza-1chome
 blocks:
   - block: Mañana
     time: "09:00–11:30"

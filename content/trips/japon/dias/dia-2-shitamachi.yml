@@ -8,6 +8,8 @@ dek: >-
   La primera mañana es la mejor del viaje y casi nadie la aprovecha. Vais a estar despiertos a las
   cinco sin quererlo: en vez de pelearse con eso, se usa. Sensō-ji vacío al amanecer, el barrio de
   los oficios cuando abre la persiana, y una tarde en el Tokio que sobrevivió a las bombas.
+duerme:
+  - resol-akihabara
 blocks:
   - block: Amanecer
     time: "06:00"

@@ -8,6 +8,8 @@ dek: >-
   Un día que en realidad empieza el jueves. Se sale de Madrid la tarde anterior, se aterriza en
   Tokio a las **19:50** del viernes y se llega hecho polvo — eso es lo normal y no pasa nada. El plan de
   hoy es corto a propósito: hotel, cenar cerca, diez minutos de calle y a dormir.
+duerme:
+  - resol-akihabara
 traslados:
   - desde: "Haneda T3"
     hasta: "Akihabara"

@@ -8,6 +8,8 @@ dek: >-
   Kanazawa entera en una mañana larga —el jardín a las siete, dos barrios y una casa por dentro— y
   por la tarde el Shinkansen que cierra el arco de la montaña. Se vuelve a Tokio, que es donde el
   grupo se despide pasado mañana.
+duerme:
+  - candeo-roppongi
 traslados:
   - desde: "Kanazawa"
     hasta: "Tokio"

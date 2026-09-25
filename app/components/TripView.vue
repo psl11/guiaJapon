@@ -68,6 +68,10 @@ const hotelStops = computed(() => [...new Set(hoteles.value.map(h => h.city))].m
   items: hoteles.value.filter(h => h.city === city),
 })))
 const hayHoteles = computed(() => hoteles.value.length > 0)
+// «Hoy se duerme en»: los hoteles de `dia.duerme`, resueltos por slug y en el orden declarado.
+const hotelesDe = (d: { duerme?: string[] }) => (d.duerme ?? [])
+  .map(s => hoteles.value.find(h => h.slug === s))
+  .filter((h): h is NonNullable<typeof h> => !!h)
 
 // Salir · música y librerías (jazz + librerías) — sección propia, agrupada por kind.
 const SALIR_KINDS = [
@@ -344,6 +348,7 @@ const heroSrcAlta = computed(() => {
         v-for="d in diasGrupo"
         :key="d.slug"
         :dia="d"
+        :hoteles="hotelesDe(d)"
       />
 
       <!-- Los días del cuarto viajero, que llega el 2 y no el 6. Sección aparte a propósito: los
@@ -359,6 +364,7 @@ const heroSrcAlta = computed(() => {
           v-for="d in diasSolo"
           :key="d.slug"
           :dia="d"
+          :hoteles="hotelesDe(d)"
         />
       </template>
 

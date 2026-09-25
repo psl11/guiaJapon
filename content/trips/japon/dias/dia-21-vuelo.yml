@@ -8,10 +8,10 @@ dek: >-
   El vuelo sale a las 21:00, así que hoy no es un día de aeropuerto: son ocho horas útiles de ciudad
   con la maleta ya cerrada. Solo hay que resolver dónde dejarla.
 traslados:
-  - desde: "Shinjuku"
+  - desde: "El hotel"
     hasta: "Haneda T3"
-    medio: "JR Yamanote + monorraíl, o Keikyū"
-    duracion: "40 min"
+    medio: "Toei Asakusa y Keikyū, sin transbordo"
+    duracion: "30–45 min"
     hora: "salir 17:00"
     nota: "El vuelo sale a las 21:00. Aquí **sí se devuelve la fianza de la tarjeta IC**: es el único aeropuerto donde se puede."
 blocks:
@@ -22,8 +22,8 @@ blocks:
       Tres opciones, de mejor a peor:
 
       - **Dejarlo en el hotel** después del *check-out*. Casi todos lo guardan hasta la tarde y es gratis.
-      - **Las consignas de estación**, que se pagan con la tarjeta IC. En [Shinjuku](#shinjuku) o en
-      Tokio hay a cientos, pero las grandes se llenan pronto.
+      - **Las consignas de estación**, que se pagan con la tarjeta IC. En Tokio Estación o en
+      Asakusa hay a cientos, pero las grandes se llenan pronto.
       - **Mandarlo al aeropuerto** por [takkyūbin](#takkyubin) el día anterior. Es la opción cómoda si
       sobra presupuesto.
   - block: Mediodía
@@ -37,15 +37,16 @@ blocks:
 
       Y si sobra tiempo, algo tranquilo y cerca: el jardín
       [**Kyū Shiba Rikyū**](https://www.google.com/maps/search/?api=1&query=Kyu%20Shiba%20Rikyu%20Garden%20Tokyo),
-      pegado a la estación de Hamamatsuchō y por tanto **en el camino al monorraíl de Haneda**. Es
+      pegado a Daimon, que es parada de la Toei Asakusa: **está en el camino a Haneda**. Es
       pequeño, es del siglo XVII y se recorre en media hora con la maleta al lado — que es
       exactamente lo que hoy se puede permitir.
   - block: Tarde
     time: "15:00–18:00"
     title: Al aeropuerto
     body: >-
-      El vuelo sale de **Haneda**, así que el traslado es corto: unos cuarenta minutos desde
-      Shinjuku por la línea Keikyū o el monorraíl, no la hora y media de Narita. Con salida a las
+      El vuelo sale de **Haneda**, así que el traslado es corto: de treinta a cuarenta y cinco
+      minutos desde el hotel, porque la Toei Asakusa sigue por la Keikyū hasta la terminal sin
+      transbordo. No es la hora y media de Narita. Con salida a las
       21:00, dejar el centro a las 18:00 es cómodo y a las 18:30 es justo. Ver
       [los vuelos](#vuelos).
     window:

@@ -8,9 +8,10 @@
 // del día va con `inlineMd` (app/utils/inline-md.ts, auto-importado): función pura, mismo HTML en
 // servidor y cliente. La prosa (dek, cuerpo, ventana) va con <MDC :value> SIN unwrap dentro de su
 // contenedor <div>, donde el div raíz de MDC es HTML válido.
-import type { Dia } from '~~/shared/schemas'
+import type { Dia, Hotel } from '~~/shared/schemas'
 
-defineProps<{ dia: Dia }>()
+// `hoteles` llega ya resuelto desde TripView (los de `dia.duerme`, en ese orden).
+defineProps<{ dia: Dia, hoteles?: Hotel[] }>()
 </script>
 
 <template>
@@ -80,6 +81,33 @@ defineProps<{ dia: Dia }>()
         </li>
       </ol>
     </div>
+
+    <!--
+      DUERME. Justo debajo de los traslados, porque es su destino: dónde acaba el día. Un enlace a
+      la tarjeta del hotel en «Dónde dormir», sin repetir sus datos (regla 4.1: aquí no se explica
+      el hotel, se señala). Texto libre en fila flex → mismas defensas que `.dia-move-meta` (3.10).
+    -->
+    <p
+      v-if="hoteles?.length"
+      class="dia-sleep"
+    >
+      <span class="dia-sleep-label">Hoy se duerme en</span>
+      <span
+        v-for="(h, i) in hoteles"
+        :key="h.slug"
+        class="dia-sleep-item"
+      >
+        <span
+          v-if="i > 0"
+          class="dia-sleep-or"
+        >o</span>
+        <a :href="`#${h.slug}`">{{ h.title }}</a>
+        <span
+          v-if="h.status === 'candidato'"
+          class="dia-sleep-cand"
+        >candidato</span>
+      </span>
+    </p>
 
     <div class="dia-blocks">
       <section

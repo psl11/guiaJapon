@@ -8,6 +8,8 @@ dek: >-
   Los dos extremos de [Kioto](#kioto) en un día, y los dos con el mismo problema: son las cosas más
   fotografiadas del país. La diferencia entre un buen recuerdo y una decepción está entera en la
   hora a la que se llega.
+duerme:
+  - androoms-kyoto-shichijo
 blocks:
   - block: Amanecer
     time: "07:00–09:00"

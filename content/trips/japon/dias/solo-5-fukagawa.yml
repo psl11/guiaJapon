@@ -9,6 +9,8 @@ dek: >-
   Los otros tres pasan hoy el día entero en un avión y no pisan el hotel hasta las nueve y media de
   la noche. O sea que este día también es tuyo entero — con la única obligación de cambiar de hotel
   por el camino. Es el día de las cosas lentas, porque a partir de mañana el viaje va en grupo.
+duerme:
+  - resol-akihabara
 traslados:
   - desde: "Kanda-Sudachō"
     hasta: "Akihabara (hotel del grupo)"

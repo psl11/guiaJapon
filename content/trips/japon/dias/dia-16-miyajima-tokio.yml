@@ -7,6 +7,9 @@ title: La isla que *era el dios*, y cuatro horas de vuelta
 dek: >-
   Una mañana en una isla donde el santuario está construido sobre el agua porque pisar tierra era
   profanarla, y por la tarde el tren largo de vuelta a Tokio. Hoy la marea manda más que el reloj.
+duerme:
+  - apa-asakusa-kaminarimon
+  - koko-ginza-1chome
 traslados:
   - desde: "Hiroshima"
     hasta: "Miyajima"
@@ -82,14 +85,11 @@ blocks:
     time: "noche"
     title: Tokio otra vez, y otro barrio
     body: >-
-      Se vuelve a Tokio por tercera vez, y a un tercer barrio: estos cinco últimos días se duermen en
-      [**Shinjuku**](#shinjuku), ni en [Akihabara](#akihabara) ni en Roppongi, y el cambio está
-      pensado.
-      Al principio interesaba dormir barato, tranquilo y cerca del Tokio viejo, con el cuerpo pidiendo
-      cama a las nueve; ahora el huso ya no molesta, es pico de hoja roja y las noches se aprovechan —
-      y Shinjuku es el sitio de Tokio donde eso se nota más. Las maletas grandes deberían estar ya
-      esperando aquí. Quedan **cinco días sin cambiar de cama**, y son además los tres barrios
-      grandes de la ciudad, guardados a propósito para esta semana.
+      Se vuelve a Tokio por tercera vez, y a un tercer barrio: ni [Akihabara](#akihabara) ni
+      Roppongi. Hay dos reservas compitiendo, una en Asakusa y otra en Ginza, y las dos por la misma
+      razón: están en la **Toei Asakusa**, la línea que va directa a los dos madrugones de esta semana
+      —Shinagawa para el Fuji, Asakusa para Nikkō— y después sigue hasta Haneda. Las maletas grandes
+      deberían estar ya esperando en el hotel. Quedan **cinco días sin cambiar de cama**.
 alt:
   label: Si te desmarcas
   body: >-

@@ -5,9 +5,8 @@
 //
 // POR QUÉ HORNEADO Y NO UN WIDGET. Un mapa vivo (Google Maps, Leaflet) pide tiles por red mientras
 // se hace pan y zoom, y esos tiles NO se pueden precachear porque no se pueden enumerar: sólo sabes
-// cuáles necesitas cuando el usuario arrastra. Esta guía tiene precaché total y una puerta en CI
-// (scripts/check-offline.mjs); un mapa vivo la rompería. Horneado, el mapa es una imagen más del
-// precache y funciona en un avión igual que las otras 69 fotos.
+// cuáles necesitas cuando el usuario arrastra. Esta guía tiene precaché total; un mapa vivo no
+// cabría en él. Horneado, el mapa es una imagen más del precache, igual que las otras 69 fotos.
 //
 // NO se ejecuta en build ni en runtime — sólo a mano, cuando cambian los alojamientos. Igual que
 // scripts/build-map.mjs, del que copia el patrón.
@@ -31,8 +30,7 @@ const TILE = 256
 const UA = 'guiaJapon/1.0 (mapa estático de una guía de viaje personal; https://github.com/psl11/guiaJapon)'
 const PAD = 0.14 // margen alrededor del grupo de puntos, en fracción del lado mayor
 // Techo generoso a propósito: manda el DETALLE, no el peso. Con 900 px este barrio caía a z16 y la
-// imagen (371×605) se veía borrosa al escalarla en la tarjeta; a z17 son 742×1210 px y ~200 KB, muy
-// por debajo del tope de 500 KB por imagen que vigila scripts/check-weight.mjs.
+// imagen (371×605) se veía borrosa al escalarla en la tarjeta; a z17 son 742×1210 px y ~200 KB.
 const MAX_PX = 1400
 const MIN_SPAN_M = 420 // si los puntos están muy juntos, no acercar más de esto (evita el zoom absurdo)
 

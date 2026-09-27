@@ -10,6 +10,14 @@ dek: >-
   reconstruido. Matsumoto es la bisagra: el último sitio con estación antes de los Alpes.
 duerme:
   - nunoya-ryokan
+mapa:
+  slug: dia-3-matsumoto
+  paradas:
+    - { nombre: Estación de Matsumoto, lat: 36.2307332, lon: 137.9644409 }
+    - { nombre: Matsumoto-jō, hora: "12:30", llegada: a-pie, lat: 36.2386353, lon: 137.9688709 }
+    - { nombre: Nawate-dōri, hora: "15:00", zona: Río Metoba, llegada: a-pie, lat: 36.2346128, lon: 137.9719918 }
+    - { nombre: Nakamachi, zona: Río Metoba, llegada: a-pie, lat: 36.2335932, lon: 137.9713243 }
+    - { nombre: Nunoya Ryokan, hora: noche, zona: Río Metoba, llegada: a-pie, lat: 36.2338076, lon: 137.9727871 }
 traslados:
   - desde: "Akihabara"
     hasta: "Shinjuku"
@@ -27,50 +35,53 @@ blocks:
     time: "09:00–12:00"
     title: El Azusa sube al interior
     body: >-
-      Salida de [**Shinjuku**](#shinjuku) en el limited express **Azusa** —desde el hotel de
-      [Akihabara](#akihabara) va directa la Chūō-Sōbu amarilla, sin transbordo, pero es tren de
-      cercanías y conviene salir con margen—, dos horas y media largas subiendo por la
-      cuenca de Kōfu y el lago Suwa entre montañas que se van poniendo serias. El tren lleva el nombre
-      del río Azusa, el mismo que veréis mañana bajando por [Kamikōchi](#kamikochi): sube a buscar su
-      nacimiento. Es el primer tren de verdad del
-      viaje —los de Tokio son metro con otro nombre— y conviene hacerlo bien: asiento reservado en el
-      lado izquierdo para las vistas, un *ekiben* comprado en la estación y comido a bordo, que
-      es una institución nacional y no una merienda.
+      Desde [Shinjuku](#shinjuku), dos horas y media largas en el **Azusa**, subiendo por la cuenca
+      de Kōfu y el lago Suwa entre montañas que se van poniendo serias. El tren lleva el nombre del
+      río que veréis mañana en [Kamikōchi](#kamikochi): sube a buscar su nacimiento. Es el primer
+      tren de verdad del viaje y conviene hacerlo bien: asiento en el lado izquierdo y un *ekiben*
+      comprado en la estación y comido a bordo, que es una institución nacional y no una merienda.
     window:
       label: La cuenta del JR Pass, aquí
       body: >-
         Este billete cuesta unos **¥6.620** en asiento libre. Sumado a Kamakura y a los traslados del
         aeropuerto, vuestro gasto total en JR ronda los ¥21.000 — frente a los ¥50.000 que
-        cuesta el JR Pass de 7 días, que además ni cubriría los 8 del viaje. No compréis el pase:
+        cuesta el JR Pass de 7 días, que además solo cubre siete de los veintiún días. No compréis el pase:
         billetes sueltos, y el metro de Tokio no es JR de todas formas.
   - block: Mediodía
     time: "12:30–15:00"
     title: Matsumoto-jō, uno de los doce que quedan
     body: >-
-      De los cientos de castillos que tuvo Japón, **solo doce conservan su torre del homenaje
-      original**: el resto son reconstrucciones de hormigón de los años sesenta. Este es uno de los
-      doce, es Tesoro Nacional y es el más antiguo de cinco plantas del país —su torre se levantó
-      hacia 1594—. Lo llaman [**Karasu-jō**](#matsumoto-jo), el castillo cuervo, por su laca negra. Por dentro se
-      sube por escaleras de madera casi verticales, en calcetines, con las troneras para arcabuces a
-      la altura de la cara; y por fuera se refleja entero en el foso, con los Alpes detrás.
+      Del tren al castillo se va andando. Primero por fuera, desde el foso, donde se refleja entero
+      con los Alpes detrás; luego por dentro, en calcetines, por escaleras de madera casi verticales
+      y con las troneras para arcabuces a la altura de la cara.
     window:
       label: Por qué importa que sea original
       body: >-
         Porque se nota, y porque explica el resto del viaje. Una reconstrucción de hormigón tiene
         ascensor y vitrinas; esta tiene **escalones de sesenta centímetros y techos bajos** que
         obligan a subir agachado, y se entiende de golpe que un castillo japonés no era un palacio
-        sino una máquina de guerra en madera. Es la mejor lección de historia que da este viaje, y se
-        aprende con las rodillas.
+        sino una máquina de guerra en madera. Se aprende con las rodillas.
+    ver:
+      - ficha: matsumoto-jo
+        nota: Por qué solo quedan doce torres originales, y la terraza para ver la luna que se le añadió en paz.
   - block: Tarde
     time: "15:00–17:00"
     title: Nakamachi, Nawate y las ranas
     body: >-
-      Dos calles a la orilla del río Metoba, y las dos merecen. [**Nakamachi**](https://www.google.com/maps/search/?api=1&query=Nakamachi%20Street%20Matsumoto) es la calle de los
-      almacenes ***kura***: muros blancos con enrejado negro de rombos, antiguos depósitos de
-      comerciantes de sake reconvertidos en talleres de artesanía y cafés. Enfrente, [**Nawate-dōri**](https://www.google.com/maps/search/?api=1&query=Nawate%20Street%20Matsumoto),
-      un pasaje estrecho junto al agua tomado por ranas: estatuas, tiendas, un santuario ranil.
-      La broma tiene raíz — el río estaba lleno de ranas hasta que se contaminó, y el barrio las
-      adoptó como emblema al limpiarlo.
+      Bajando del castillo, dos calles enfrentadas a la orilla del río Metoba: primero Nawate-dōri,
+      el pasaje de las ranas, y al otro lado del puente Nakamachi, la de los almacenes, que es
+      también la calle del ryokan.
+    ver:
+      - nombre: Nawate-dōri
+        maps: Nawate Street Matsumoto
+        nota: "Pasaje junto al río tomado por ranas: el barrio las adoptó como emblema cuando limpió el agua."
+        lat: 36.2346128
+        lon: 137.9719918
+      - nombre: Nakamachi
+        maps: Nakamachi Street Matsumoto
+        nota: Almacenes ***kura*** de muro blanco y rombos negros, antiguos depósitos de sake hoy talleres y cafés.
+        lat: 36.2335932
+        lon: 137.9713243
   - block: Noche
     time: "noche"
     title: Soba, caballo y sake de montaña
@@ -91,6 +102,9 @@ blocks:
         Si por lo que sea no salieron, se manda **hoy mismo desde el hotel de Matsumoto** — pero
         entonces llegan un día tarde y mañana se duerme sin ellas. Es el único punto del viaje donde
         el equipaje no admite improvisación.
+    comer:
+      - comida: soba-matsumoto
+        nota: Las casas de soba de Nakamachi, a un paso del ryokan. Las buenas cierran cuando se acaba la masa.
 alt:
   label: Si te desmarcas
   body: >-

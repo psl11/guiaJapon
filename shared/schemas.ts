@@ -127,6 +127,38 @@ export const DiaSchema = z.object({
     // "ventana óptima": el porqué de ese momento (luz/gentío/frío). El alma del plan.
     window: z.object({ label: z.string(), body: Md }).optional(),
     dim: z.boolean().optional(), // bloque de descanso → nodo en oro, no en momiji
+    // RUTA A PIE (sep 2026): un mapa horneado con el recorrido en puntitos y un enlace a Google Maps
+    // para reproducirlo. Para los paseos cortos donde «ir a X» es ambiguo —Chūō-dōri mide kilómetros
+    // y Maps la resuelve en Ginza—. Las coordenadas tienen que salir de una fuente (el hotel, OSM):
+    // nunca inventadas (regla 4.5). La imagen y el trazado los genera scripts/build-routemap.mjs.
+    ruta: z.object({
+      slug: z.string(), // nombre de la imagen: public/img/rutas/<slug>.webp
+      desde: z.object({ nombre: z.string(), lat: z.number(), lon: z.number() }),
+      hasta: z.object({ nombre: z.string(), lat: z.number(), lon: z.number() }),
+    }).optional(),
+    // QUÉ VER Y DÓNDE COMER (sep 2026). El día era el único sitio que se lee de corrido, y las
+    // fichas, la gastronomía y los recomendados de Alba quedaban en secciones aparte que había que
+    // descubrir: de 115 locales solo 16 salían en algún día. Estas dos listas los cruzan con el
+    // bloque en el que caen, POR REFERENCIA: el día no copia la ficha ni el local, los pinta en
+    // pequeño (foto, una línea, enlaces) y salta a la tarjeta entera. Una sola fuente de verdad.
+    //
+    //  · `ver` — una ficha (`ficha`), un recomendado (`reco`) o un sitio suelto sin ficha (`nombre`
+    //    + `maps`, la consulta de búsqueda de Google Maps: regla 4.5). `nota` es UNA línea, con
+    //    `inlineMd`: sin enlaces (trampa 3.2). Coordenadas solo para el sitio suelto, y de fuente.
+    //  · `comer` — slugs de `comidas/`, con una `nota` opcional de por qué en este bloque.
+    ver: z.array(z.object({
+      ficha: z.string().optional(),
+      reco: z.string().optional(),
+      nombre: z.string().optional(),
+      maps: z.string().optional(),
+      nota: z.string().optional(),
+      lat: z.number().optional(),
+      lon: z.number().optional(),
+    })).optional(),
+    comer: z.array(z.object({
+      comida: z.string(),
+      nota: z.string().optional(),
+    })).optional(),
   })),
   // ── TRASLADOS — el nodo de conexión (ago 2026) ─────────────────────────────
   // Los bloques cuentan QUÉ SE HACE; esto cuenta CÓMO SE LLEGA, que en un viaje de once mudanzas es
@@ -154,6 +186,24 @@ export const DiaSchema = z.object({
   // porque un tramo puede tener dos `candidato` compitiendo: se listan los dos hasta que uno se
   // confirme. Sin campo = no se duerme en tierra (la noche del vuelo). Lo valida schema.spec.ts.
   duerme: z.array(z.string()).optional(),
+
+  // ── MAPA DEL DÍA — el recorrido de un vistazo (sep 2026) ────────────────────
+  // Un mapa horneado al final del día con las paradas numeradas en orden, las zonas en círculos
+  // (se calculan de sus paradas: nada de coordenadas a ojo) y cómo se llega a cada una: a pie en
+  // puntitos por las calles reales, en metro o tren en línea discontinua. Es para RECORDAR el día
+  // sin releerlo, no para navegar: para eso está el enlace de Maps de cada sitio en el cuerpo.
+  // Coordenadas siempre de fuente (el hotel, OSM). Lo genera scripts/build-routemap.mjs.
+  mapa: z.object({
+    slug: z.string(), // public/img/rutas/<slug>.webp
+    paradas: z.array(z.object({
+      nombre: z.string(),
+      hora: z.string().optional(), // '06:00' — la del bloque, orientativa
+      zona: z.string().optional(), // 'Asakusa' — agrupa paradas en un círculo con nombre
+      llegada: z.enum(['a-pie', 'metro', 'tren']).optional(), // cómo se llega desde la anterior
+      lat: z.number(),
+      lon: z.number(),
+    })).min(2),
+  }).optional(),
 
   // ── ALTERNATIVAS — nuevo en Japón ──────────────────────────────────────────
   // Este viaje tiene DOS lectores a la vez: tres primerizos, para los que el plan principal son los
@@ -227,6 +277,10 @@ export const ComidaSchema = z.object({
   // convenció a alguien. La sección «Recomendados» lo usa para poder volver al original.
   fuenteUrl: z.string().optional(),
   quePedir: Md.optional(), // qué pedir
+  // Posición para el mapa del día. De fuente (OSM), nunca a ojo: si no se encuentra, se deja sin
+  // ellas y el local sale en la lista del día pero no en el mapa.
+  lat: z.number().optional(),
+  lon: z.number().optional(),
   body: Md, // por qué merece la pena (+ contexto/fuente)
   link: z.object({ url: z.string(), label: z.string() }).optional(),
   seenIn: z.array(Link).optional(), // cruces (plato relacionado, ficha de lugar…)
@@ -265,6 +319,8 @@ export const RecomendadoSchema = z.object({
   aviso: z.string().optional(), // la condición que lo puede tumbar: 'Cierra si llueve'
   body: Md, // qué es y por qué merece la pena, en dos o tres frases
   url: z.string(), // el post original — sin esto la sección no tiene sentido
+  lat: z.number().optional(), // para el mapa del día; de fuente, como en `comidas`
+  lon: z.number().optional(),
   link: z.object({ url: z.string(), label: z.string() }).optional(), // web oficial / Google Maps
   seenIn: z.array(Link).optional(),
 })

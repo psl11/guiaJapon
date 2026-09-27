@@ -10,84 +10,149 @@ dek: >-
   llega tarde.
 duerme:
   - androoms-kyoto-shichijo
+mapa:
+  slug: dia-13-kioto-este
+  paradas:
+    - { nombre: Hotel androoms, lat: 34.9889855, lon: 135.7571848 }
+    - { nombre: Kiyomizu-dera, hora: "06:00", zona: Higashiyama, llegada: tren, lat: 34.9943030, lon: 135.7844389 }
+    - { nombre: Sannenzaka, zona: Higashiyama, llegada: a-pie, lat: 34.9983625, lon: 135.7791596 }
+    - { nombre: Pagoda de Yasaka, zona: Higashiyama, llegada: a-pie, lat: 34.9985564, lon: 135.7792488 }
+    - { nombre: Kōdai-ji, hora: "11:30", zona: Higashiyama, llegada: a-pie, lat: 35.0003033, lon: 135.7805956 }
+    - { nombre: Chion-in, zona: Higashiyama, llegada: a-pie, lat: 35.0056216, lon: 135.7835389 }
+    - { nombre: Hanamikōji, hora: "14:00", zona: Gion, llegada: a-pie, lat: 35.0044755, lon: 135.7751432 }
+    - { nombre: Shirakawa, zona: Gion, llegada: a-pie, lat: 35.0055773, lon: 135.7745018 }
+    - { nombre: Shōren-in, hora: noche, llegada: a-pie, lat: 35.0076015, lon: 135.7833999 }
 blocks:
   - block: Amanecer
     time: "06:00–08:00"
     title: Kiyomizu-dera al abrir
     body: >-
       **Kiyomizu-dera abre a las 6:00**, y es de los poquísimos templos de Japón que lo hacen: a esa
-      hora se puede estar solo en la plataforma. Dos cosas que hacer estando allí — asomarse al borde
+      hora se puede estar solo en la plataforma. Dos cosas que hacer estando allí: asomarse al borde
       del tablado, que vuela trece metros sobre la ladera, y bajar a la cascada **Otowa** a beber de
       **uno solo** de sus tres canales. Beber de los tres anula el favor, y hay cola de japoneses que
-      lo saben. Todo lo demás, en [Higashiyama](#higashiyama).
+      lo saben.
     window:
       label: Ventana óptima
       body: >-
         Este es **el mejor consejo de todo Kioto** y casi nadie lo sigue: entre las 10:00 y las 17:00
         las cuestas se andan en fila india. A las siete de la mañana son otra ciudad, con las tiendas
-        cerradas y la luz entrando de lado entre las casas de madera. Merece la pena renunciar a una
-        hora de sueño.
+        cerradas y la luz entrando de lado entre las casas de madera.
+    ver:
+      - ficha: higashiyama
+        nota: La plataforma sin clavos, los saltos de Edo y qué es y qué no es una geisha.
+      - nombre: Kiyomizu-dera
+        maps: Kiyomizu-dera Kyoto
+        nota: Del año 778, anterior a la ciudad. El tablado de 1633 y la cascada Otowa debajo.
+        lat: 34.9943030
+        lon: 135.7844389
   - block: Mañana
     time: "08:00–11:30"
     title: Sannenzaka, Ninenzaka y la pagoda
     body: >-
-      Se baja de Kiyomizu por las dos cuestas empedradas
-      —[Sannenzaka](https://www.google.com/maps/search/?api=1&query=Sannenzaka%20Kyoto) y Ninenzaka—
-      con la **pagoda de Yasaka** asomando al fondo, que es el plano que todo el mundo tiene en la
-      cabeza. Se anda despacio y se mira hacia dentro de las tiendas, que son de cerámica y de té y
-      no de imanes.
+      Se baja de Kiyomizu por las dos cuestas empedradas, Sannenzaka y Ninenzaka, con la **pagoda de
+      Yasaka** asomando al fondo, que es el plano que todo el mundo tiene en la cabeza. Se anda
+      despacio y se mira hacia dentro de las tiendas, que son de cerámica y de té y no de imanes.
 
       Y **pisad con cuidado**: la superstición local dice que tropezar en ellas trae tres o dos años
       de mala suerte, según la cuesta. Venden amuletos para arreglarlo en la propia calle, que es un
       modelo de negocio redondo.
-
-      A media mañana, un café en el [**% Arabica**](#arabica-higashiyama) con la pagoda en el
-      ventanal: hay cola siempre y avanza en diez minutos.
+    ver:
+      - nombre: Sannenzaka y Ninenzaka
+        maps: Sannenzaka Kyoto
+        nota: «La cuesta de los tres años» y «la de los dos», distrito histórico protegido.
+        lat: 34.9983625
+        lon: 135.7791596
+      - nombre: Pagoda de Yasaka
+        maps: Yasaka Pagoda Hokanji Kyoto
+        nota: La postal de la ladera, al fondo de la cuesta.
+        lat: 34.9985564
+        lon: 135.7792488
+    comer:
+      - comida: arabica-higashiyama
+        nota: El café con la pagoda en el ventanal. Hay cola siempre y avanza en diez minutos.
   - block: Mediodía
     time: "11:30–14:00"
     title: Kōdai-ji y el camino hacia el norte
     body: >-
-      La ladera sigue hacia arriba y pierde gente con cada manzana. [**Kōdai-ji**](https://www.google.com/maps/search/?api=1&query=Kodaiji%20Temple%20Kyoto), el templo que la
-      viuda de Hideyoshi levantó en su memoria, tiene un jardín seco y **aperturas nocturnas en
-      otoño** de las mejores de la ciudad — apuntadlo para esta noche. Y [**Chion-in**](https://www.google.com/maps/search/?api=1&query=Chion-in%20Temple%20Kyoto) merece la parada por su
-      puerta y su campana, las dos desmesuradas por motivos que cuenta [la ficha](#higashiyama).
+      La ladera sigue hacia arriba y pierde gente con cada manzana. Kōdai-ji tiene un jardín seco y
+      **aperturas nocturnas en otoño** de las mejores de la ciudad: apuntadlo para esta noche. Y
+      Chion-in merece la parada por su puerta y su campana, las dos desmesuradas.
+    ver:
+      - nombre: Kōdai-ji
+        maps: Kodaiji Temple Kyoto
+        nota: El templo que la viuda de Hideyoshi levantó en su memoria. De noche se ilumina.
+        lat: 35.0003033
+        lon: 135.7805956
+      - nombre: Chion-in
+        maps: Chion-in Temple Kyoto
+        nota: La puerta de madera más grande de Japón y una campana de setenta toneladas.
+        lat: 35.0056216
+        lon: 135.7835389
+    comer:
+      - comida: ramen-nishiki-kyoto
+        nota: Ramen de caldo de besugo. Entrando a las doce en punto, sin cola.
   - block: Tarde
     time: "14:00–17:00"
     title: Gion, y qué es y qué no es una geisha
     body: >-
-      Al norte queda **Gion**, y basta con dos calles: [**Hanamikōji**](https://www.google.com/maps/search/?api=1&query=Hanamikoji%20Gion%20Kyoto),
-      la de las casas de té con celosía, y el canal de Shirakawa, que es la más bonita y la que
-      menos gente hace. El momento es al encender los faroles, no antes.
+      Al norte queda **Gion**, y basta con dos calles: Hanamikōji, la de las casas de té con celosía,
+      y el canal de Shirakawa, que es la más bonita y la que menos gente hace. El momento es al
+      encender los faroles, no antes.
 
       Un aviso para no hacer el ridículo: **casi ninguna de las «geishas» que se ven de día por aquí
-      lo es.** Quién es quién, cómo se distingue de verdad y por qué importa, en
-      [la ficha de Higashiyama](#higashiyama) — leedlo antes de sacar la cámara.
+      lo es.** Quién es quién y cómo se distingue está en la ficha de Higashiyama: leedlo antes de
+      sacar la cámara.
     window:
       label: Una norma que se multa
       body: >-
         Hay **callejuelas privadas cerradas al turismo y con multa**, señalizadas en la entrada. La
         regla del barrio, que vale para todo Japón: no se persigue, no se toca y no se fotografía
         de cerca sin permiso.
+    ver:
+      - nombre: Hanamikōji
+        maps: Hanamikoji Gion Kyoto
+        nota: La calle de las casas de té con celosía de madera.
+        lat: 35.0044755
+        lon: 135.7751432
+      - nombre: Canal de Shirakawa
+        maps: Tatsumi Bridge Shirakawa Gion Kyoto
+        nota: El puente Tatsumi y las casas sobre el agua, con los faroles recién encendidos.
+        lat: 35.0055773
+        lon: 135.7745018
+    comer:
+      - comida: kagizen-yoshifusa
+        nota: "El *kuzukiri* de una confitería de 1726, en Shijō: no se puede llevar."
+      - comida: k36-rooftop
+        nota: La azotea sobre los tejados de Higashiyama para el atardecer. Reservar con días.
   - block: Noche
     time: "noche"
     title: El raitoappu
     body: >-
       En temporada de otoño varios templos de esta ladera **iluminan el jardín hasta las 21:00**: se
-      llaman *raitoappu*, cuestan un poco más que la entrada normal y son de las mejores cosas
-      que se pueden hacer en Kioto. Los dos de aquí son
-      [**Kōdai-ji**](https://www.google.com/maps/search/?api=1&query=Kodaiji%20Temple%20Kyoto) y el
-      **Shōren-in**, y las fechas de 2026 ya se saben:
+      llaman *raitoappu*, cuestan un poco más que la entrada normal y son de las mejores cosas que se
+      pueden hacer en Kioto. Los dos de aquí son Kōdai-ji y el **Shōren-in**, y las fechas de 2026 ya
+      se saben:
 
       - **Shōren-in — del 7 de noviembre al 7 de diciembre**, de 17:30 a 21:30 con última entrada a
-      las 21:00, entre ¥800 y ¥1.000. Hoy entra de sobra. Y hay un motivo extra para ir: **vuelve a
-      abrir de noche después de cinco años cerrado por obras**, así que 2026 es su primer otoño
-      iluminado desde entonces.
+      las 21:00, entre ¥800 y ¥1.000. Hoy entra de sobra, y **vuelve a abrir de noche después de
+      cinco años cerrado por obras**.
       - **Kōdai-ji** — de finales de octubre a principios de diciembre, desde las 17:00, ¥600. Las
       fechas exactas las publica el templo y conviene confirmarlas, pero la ventana cubre estos días.
 
       **El que no vais a ver es el de Kiyomizu-dera**: en 2026 va del 21 al 30 de noviembre y salís de
-      Kioto el día 20. Por un día. No es una pérdida grande —el de arriba lo compensa—, pero mejor
-      saberlo que descubrirlo esa tarde.
+      Kioto el viernes 20. Por un día.
+    ver:
+      - nombre: Shōren-in
+        maps: Shorenin Temple Kyoto
+        nota: Su primer otoño iluminado en cinco años. Última entrada a las 21:00.
+        lat: 35.0076015
+        lon: 135.7833999
+    comer:
+      - comida: nandaimon-nishiki
+        nota: Wagyu a la plancha junto a Nishiki, sin cortar el servicio. Última comanda a las 20:00.
+      - comida: maruman-kyoto
+        nota: Barra de sushi de un matrimonio en Shijō, abierta hasta la una. Avisar antes.
 alt:
   label: Si te desmarcas
   body: >-
@@ -95,4 +160,6 @@ alt:
     hecho al revés que todo el mundo: de norte a sur y a última hora, cuando la marea va en la
     otra dirección y no queda casi nadie. Son dos kilómetros junto a un canal, con un templo en cada
     extremo — cuáles y por qué, en [Higashiyama](#higashiyama).
+
+    O [**Kurama y Kibune**](https://www.google.com/maps/search/?api=1&query=Kurama%20Kibune%20Kyoto), al
     norte en tren, dos pueblos de montaña unidos por un sendero de una hora con un onsen al final.

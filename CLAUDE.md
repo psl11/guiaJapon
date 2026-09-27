@@ -104,11 +104,12 @@ Al añadir un componente de tarjeta nuevo, esto es lo primero que hay que mirar.
 3. **`@nuxt/content` v3 lee el contenido con SQLite compilado a WASM** (dos ficheros de 836 KB) y
    `wasm` no estaba en `globPatterns`. Los `sql_dump.txt` sí se cacheaban; el motor que los lee, no.
 
-**Ya no hace falta descubrirlo en un avión: hay puerta.** `node scripts/check-offline.mjs` corre
-después de `nuxi generate` —y **en CI antes de desplegar**— y falla con código 1 si vuelve a pasar
-cualquiera de las tres. Está probada contra los tres bugs reales: se reintrodujo cada uno y los cazó.
+**El offline ya no es requisito (sep 2026).** Se retiraron la puerta `check-offline` y el
+presupuesto `check-weight`, y ya no corren en CI. La PWA sigue montada y los tres fixes siguen en
+`nuxt.config.ts`, pero nada vigila que el offline funcione: puede romperse en silencio, y está
+aceptado. Solo afecta a este repo; guiaVietnam conserva sus puertas.
 
-**Y la comprobación manual, para cuando se toque el service worker:** `npx nuxi generate`, servir
+**La comprobación manual, si alguna vez vuelve a importar:** `npx nuxi generate`, servir
 `.output/public` bajo el subpath correcto, cargar, esperar a que el SW esté `active`, **matar el
 servidor** y recargar. Si sale el 500, no hay offline. Es la única prueba que vale, porque
 **con cobertura un sitio sin offline se ve exactamente igual que uno con offline**.
@@ -199,6 +200,32 @@ vistazo. Tres cosas que hay que respetar al escribirlo:
   y `min-width: 0; overflow-wrap: break-word` en las celdas, y **hay un test que lo sostiene** en
   `cssOverflow.spec.ts`. Si tocas ese CSS, no le quites ninguna de las dos.
 
+**4.9 · El día es el hilo que lo conecta todo** (sep 2026). Fichas, gastronomía y recomendados
+eran secciones aparte que había que descubrir: de 115 locales solo 16 salían en algún día, y 7 de
+los 48 de Alba. Ahora cada bloque del día lleva dos listas **por referencia**, no copiadas:
+
+- **`ver`** — una ficha (`ficha: slug`, sale con su foto), un recomendado (`reco: slug`) o un sitio
+  sin ficha (`nombre` + `maps`, la consulta de búsqueda, + `lat/lon` de OSM si se tiene).
+- **`comer`** — slugs de `comidas/`. La tarjeta de Gastronomía gana sola el chip «En el plan: día N».
+
+Cada una con una `nota` de UNA línea (inlineMd, sin enlaces). **El cuerpo del bloque se queda en
+lo que se hace y en qué orden**: la historia está en la ficha, el porqué del local en su tarjeta.
+Si el cuerpo repite lo que ya dice una `nota`, sobra el cuerpo.
+
+Los locales y recomendados llevan `lat/lon` **de OpenStreetMap** (Nominatim, comprobando que la
+dirección devuelta es la del local: «梅園» a secas dio uno de Yushima, no el de Asakusa). Si no está
+en OSM, se queda sin coordenadas: sale en la lista, no en el mapa. El mapa del día (`mapa`) les
+pone letra (A, B…) y la lista del bloque muestra la misma; lo que coincide con una parada del
+recorrido lleva el número de la parada, y lo que cae a más de 2,5 km de cualquier parada (Himeji en
+el día de Hiroshima) sale en la lista sin letra, para no estirar el mapa a cientos de kilómetros.
+Tras tocar `ver`, `comer` o coordenadas, corre `node scripts/build-routemap.mjs`.
+
+Aplicado a los 26 días en sep 2026: 89 de los 115 locales y 39 de los 48 de Alba salen ya en algún
+día; los nueve de Alba que no, tienen su motivo escrito en su propia ficha o chocan con el día de la
+semana. Unos cien sitios siguen sin coordenadas porque OSM no los tiene: van en la lista con la
+marca apagada. **El campo `cuando` de las comidas quedó redundante** —el chip «En el plan» sale
+solo— y es el que se desfasa cada vez que se renumera: al tocarlo, mejor quitarle el número de día.
+
 **4.7 · Antes rotular nada que rotular mal.** Dos fichas siguen sin foto (Ebisu, Masakado) porque no
 hay imagen libre verificable. Es la decisión correcta.
 
@@ -209,21 +236,28 @@ hay imagen libre verificable. Es la decisión correcta.
 ```bash
 npx vitest run tests        # LA puerta. 23 tests: esquemas, anclas, orders, subset inline
 npx nuxi generate           # build estático a .output/public
-node scripts/check-weight.mjs   # presupuesto: imagen ≤500 KB, total ≤15 MB, payload ≤550 KB gzip
-node scripts/check-offline.mjs  # LA PUERTA DEL OFFLINE — mira el sw.js generado, no el contenido
+node scripts/build-routemap.mjs # hornea los mapas de `ruta` (bloque) y `mapa` (día)
 ```
 
-`check-offline` es la lección del avión convertida en test. Comprueba que **toda** entrada del
-precache existe como fichero (una sola que falle aborta el `addAll()` y deja el sitio sin service
-worker), que está `ignoreURLParametersMatching` (sin él el payload con query de build no se
-encuentra y sale un 500), que el `.wasm` de SQLite se precachea (es lo que lee el contenido) y que
-el `navigateFallback` apunta a algo cacheado. **Corre en CI antes de desplegar.**
+**Rutas a pie en un bloque del día** (sep 2026): el campo `ruta` (`slug`, `desde`, `hasta` con
+lat/lon de fuente, nunca inventadas) pinta un mapa de OSM con el recorrido peatonal real en
+puntitos y un enlace a Google Maps con indicaciones. El enlace usa coordenadas, no nombres: con el
+nombre, Maps resolvía «Chuo-dori» en Ginza, a 3 km. Tras añadir o cambiar una `ruta`, corre el
+script: sin él el bloque sale sin mapa.
+
+**El día de un vistazo** (sep 2026): el campo `mapa` del día pinta al final un mapa con las paradas
+numeradas, las zonas en círculos y cómo se llega a cada parada (`llegada`: `a-pie` en puntitos por
+calles reales, `metro`/`tren` en recta discontinua), y una leyenda con la hora. Es para recordar el
+día sin releerlo. Las zonas no llevan coordenadas: se calculan de sus paradas. La primera parada es
+la salida (el hotel) y va con una «S». Primer caso: el día 2.
+
+No hay presupuesto de peso ni puerta del offline: se retiraron en sep 2026 (ver trampa 3.9).
 
 En `.claude/launch.json` está el servidor de desarrollo (`japon-dev`, puerto 3001). El sitio vive
 bajo `/guiaJapon/`, así que hay que navegar a `http://localhost:3001/guiaJapon/`, no a la raíz.
 
-**Los tres corren también en CI**, y en ese orden: `.github/workflows/deploy.yml` ejecuta
-`test:unit && test:data` **antes** de `generate`, y el presupuesto de peso después. Un YAML inválido
+**Los tests corren también en CI**: `.github/workflows/deploy.yml` ejecuta
+`test:unit && test:data` **antes** de `generate`. Un YAML inválido
 no llega a producción en silencio. No es adorno: en guiaVietnam el despliegue corría solo el
 `generate` y hubo que añadir la puerta a posteriori. Si tocas el workflow, no la quites.
 
@@ -337,7 +371,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 
 **Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
 **109 locales** en 10 ciudades · 5 de salir · 9 recomendaciones prácticas · **18 recomendados del
-grupo** (§10) · 65 fotos · PWA offline completo y verificado.
+grupo** (§10) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **La capa gastronómica** se construyó con el mismo criterio que la de `guiaVietnam`: por ciudad y en
 siete categorías (`desayuno · cafe · comida · cena · street-food · postre · cocteleria`), y **cada
@@ -560,8 +594,3 @@ caption demasiado corto y 44 duplicados de algo ya escrito o sin nombre que busc
    Bongo (cola de dos a cinco horas), SUNDOWNER (cierra los viernes y el día de Kamakura es viernes),
    Sen (Ikebukuro no sale en ningún día), Okudosan (cuatro cubiertos al día). Y las que llegan sin
    confirmar lo llevan escrito: la bolsa de 3COINS, los precios de Daibokujō.
-
-**El presupuesto de peso está subido a propósito.** `scripts/check-weight.mjs` pasó de 550 a **900 KB**
-de payload gzip para que cupiera todo esto de golpe; hoy va por 618. **Cuando se filtre la capa hay
-que volver a bajarlo** a la holgura real — está anotado en el propio script y no es decorativo: el
-payload es lo que se descarga en la primera carga online.

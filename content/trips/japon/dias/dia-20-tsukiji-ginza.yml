@@ -11,103 +11,141 @@ dek: >-
 duerme:
   - apa-asakusa-kaminarimon
   - koko-ginza-1chome
+mapa:
+  slug: dia-20-tsukiji-ginza
+  paradas:
+    - { nombre: "Salida · hotel de Asakusa (o de Ginza)", lat: 35.7101168, lon: 139.7951861 }
+    - { nombre: Mercado exterior de Tsukiji, hora: "09:00", zona: Tsukiji, llegada: metro, lat: 35.6653884, lon: 139.7704732 }
+    - { nombre: Tsukiji Hongan-ji, zona: Tsukiji, llegada: a-pie, lat: 35.6665999, lon: 139.7721277 }
+    - { nombre: Depachika del Mitsukoshi, hora: "11:30", zona: Ginza, llegada: a-pie, lat: 35.6711936, lon: 139.7659061 }
+    - { nombre: Hama-rikyū, hora: "14:00", llegada: a-pie, lat: 35.6601760, lon: 139.7638239 }
+    - { nombre: Nihonbashi, llegada: metro, lat: 35.6840677, lon: 139.7745029 }
+    - { nombre: teamLab Borderless, hora: noche, zona: Azabudai, llegada: metro, lat: 35.6620024, lon: 139.7434178 }
 blocks:
   - block: Mañana
     time: "09:00–11:30"
     title: Tsukiji, que hoy sí
     body: >-
-      El mercado mayorista se mudó a [Toyosu](https://www.google.com/maps/search/?api=1&query=Toyosu%20Market%20Tokyo) en 2018, pero [**el mercado exterior de Tsukiji se quedó**](#tsukiji)
-      —cuatrocientos puestos de pescaderos, cuchilleros, tiendas de alga y barras de desayuno— y es
-      donde de verdad se come. *Tamagoyaki* en pincho, ostras abiertas al momento, atún a la brasa,
-      *dashimaki*: se desayuna de pie y a base de picar. Y no se compra nada en el primer puesto: se
-      da una vuelta entera y luego se decide.
+      El mayorista se mudó a [Toyosu](https://www.google.com/maps/search/?api=1&query=Toyosu%20Market%20Tokyo)
+      en 2018, pero el mercado exterior se quedó, y es donde de verdad se come. *Tamagoyaki* en
+      pincho, ostras abiertas al momento, atún a la brasa: se desayuna de pie y a base de picar. Y no
+      se compra nada en el primer puesto: se da una vuelta entera y luego se decide.
 
-      **Y si en algún momento del viaje toca sentarse a una barra de sushi de mercado, es aquí.** Tres
-      casas, de menos a más ceremonia: [**Unitora**](#unitora), que es un cuenco de erizo de varias
-      procedencias en veinte minutos y abre temprano; [**Shutoku**](#shutoku-ganso), barra *edomae* con
-      el pescado que entró esa madrugada; y [**Sushi Sei**](#tsukiji-sushi-sei), la casa madre de
-      **1889**, que ya es una comida formal y no una parada de mercado.
+      **Si en algún momento del viaje toca sentarse a una barra de sushi de mercado, es aquí.** Abajo
+      van las tres casas, de menos a más ceremonia.
     window:
       label: Ventana óptima
       body: >-
-        Doble motivo para que sea hoy y a esta hora. **Tsukiji cierra los domingos**, así que de
-        vuestros tres días de Tokio este es el único que encaja. Y dentro del día, la franja es
-        estrecha: antes de las 9:00 la prioridad la tienen los compradores profesionales y no es
-        vuestro sitio; a partir de las 13:00 empieza a cerrar y a las 15:00 no queda nada. Entre
-        las nueve y las once y media está todo abierto y aún se puede andar.
+        **Tsukiji cierra los domingos**, y además algunos miércoles que se publican mes a mes: hoy es
+        miércoles, así que comprobad el calendario del mercado. Antes de las 9:00 la prioridad es de
+        los compradores profesionales; a partir de las 13:00 empieza a cerrar. Entre las nueve y las
+        once y media está todo abierto y aún se puede andar.
 
-        **Con una excepción que hay que tener en cuenta si queréis sentaros:** las barras de sushi del
-        mercado no abren todas a la vez. **Unitora** abre con el mercado; **Shutoku** no levanta la
-        persiana hasta las **11:00** y [Sushi Sei](#tsukiji-sushi-sei) va por ahí. O sea que un desayuno
-        de erizo entra sin tocar nada, pero **una comida sentada obliga a estirar la mañana hasta las
-        doce** y comerse media hora de Ginza. Decidid antes de salir del hotel, no en la puerta.
+        **Las barras no abren a la vez.** Unitora abre con el mercado; Shutoku no levanta la persiana
+        hasta las **11:00** y Sushi Sei va por ahí. Un desayuno de erizo entra sin tocar nada; **una
+        comida sentada obliga a estirar la mañana hasta las doce**. Decidid antes de salir del hotel.
+    ver:
+      - ficha: tsukiji
+        nota: Por qué el mercado exterior no se fue a Toyosu, y qué se come de pie.
+      - nombre: Tsukiji Hongan-ji
+        maps: Tsukiji Hongwanji Temple Tokyo
+        nota: Un templo budista con fachada de la India antigua, de 1934. A dos manzanas.
+        lat: 35.6665999
+        lon: 139.7721277
+    comer:
+      - comida: unitora
+        nota: El cuenco de erizo de varias procedencias, en veinte minutos. Abre con el mercado.
+      - comida: shutoku-ganso
+        nota: "Barra *edomae* con el pescado de esa madrugada. Abre a las 11:00: hay que estirar."
+      - comida: tsukiji-sushi-sei
+        nota: La casa madre de 1889, ya comida formal. Pedid el *honten* al reservar.
   - block: Mediodía
     time: "11:30–14:00"
     title: Ginza, y el Japón que se mira a sí mismo
     body: >-
-      Se sube andando desde el mercado a **Ginza**, que es la respuesta japonesa a la avenida de lujo
-      y no se parece a ninguna: aquí los grandes almacenes son instituciones y hay que bajar al sótano.
-      El *depachika* —la planta de alimentación bajo los *depāto*, en el [Mitsukoshi](https://www.google.com/maps/search/?api=1&query=Ginza%20Mitsukoshi%20Tokyo) o el
-      Matsuya— es uno de los espectáculos de esta ciudad: dos mil metros cuadrados de comida
-      presentada como joyería, con melones de cien euros y mostradores de *[wagashi](#wagashi)* que parecen un
-      muestrario de estaciones. Se prueba, se compra la comida de mañana en el tren, y no se paga
-      entrada por nada de esto.
-
-      Si en vez de picar del sótano apetece sentarse, a ciento setenta metros de Higashi-Ginza está
-      [**Tonkatsu Marushichi**](#tonkatsu-marushichi-ginza), que hace el *katsudon* pasando el filete
-      por la brasa en vez de cocerlo. No reservan y cierran la comanda a las 14:30, así que es de
-      llegar pronto o dejarlo.
+      Se sube andando desde el mercado a **Ginza**, donde los grandes almacenes son instituciones y
+      hay que bajar al sótano. El *depachika* del Mitsukoshi o del Matsuya es uno de los espectáculos
+      de esta ciudad: comida presentada como joyería, con melones de cien euros y mostradores de
+      *[wagashi](#wagashi)* que parecen un muestrario de estaciones. Se prueba, se compra la comida de
+      mañana en el tren, y no se paga entrada por nada de esto.
     window:
       label: Por qué el depachika
       body: >-
-        Porque es el sitio donde mejor se entiende de golpe la relación de este país con la comida:
-        el envoltorio, la estacionalidad, la obsesión por el producto perfecto. Y porque hoy es el
-        último día con tiendas abiertas y calma para mirar — **mañana esto mismo se hace con prisa y
-        con la maleta ya cerrada**. De aquí sale además el mejor *ekiben* posible para un tren, y
-        conviene saberlo antes de que llegue el del aeropuerto.
+        Porque es donde mejor se entiende de golpe la relación de este país con la comida: el
+        envoltorio, la estacionalidad, la obsesión por el producto perfecto. Y porque **mañana esto
+        mismo se hace con prisa y con la maleta ya cerrada**.
+    ver:
+      - ficha: ginza
+        nota: Por qué el barrio se llama como una casa de la moneda, y lo que casi nadie hace en él.
+      - nombre: Depachika del Mitsukoshi
+        maps: Ginza Mitsukoshi Tokyo
+        nota: El gran almacén más antiguo de Japón, que empezó vendiendo kimonos en 1673.
+        lat: 35.6711936
+        lon: 139.7659061
+    comer:
+      - comida: tonkatsu-marushichi-ginza
+        nota: El *katsudon* con el filete a la brasa. Sin reserva y última comanda a las 14:30.
+      - comida: ginza-hachigo
+        nota: Un solo ramen, setenta cuencos al día y seis asientos. Se reserva en TableCheck.
+      - comida: ginza-sushi-banya-kai
+        nota: "*Omakase* de veintidós pases por menos de sesenta euros. Turno de 12:00 a 14:30."
+      - comida: maru-ginza
+        nota: "*Kaiseki* joven con menú de mediodía de unos diez euros."
   - block: Tarde
     time: "14:00–16:30"
     title: Un jardín de agua salada, y el kilómetro cero
     body: >-
-      Diez minutos andando desde Ginza hacia el mar está
-      [**Hama-rikyū**](https://www.google.com/maps/search/?api=1&query=Hamarikyu%20Gardens%20Tokyo), que
-      era el coto de caza de los Tokugawa y hoy es un jardín rodeado de rascacielos. Tiene una
-      particularidad que no tiene ningún otro de la ciudad: **su estanque es de agua de mar y sube y
-      baja con la marea**, porque está conectado con la bahía por una compuerta. En medio hay una
-      casa de té a la que se llega por tres puentes de madera, y donde por unos pocos cientos de
-      yenes sirven *matcha* batido y un dulce mirando el agua. Es el último sitio tranquilo del
-      viaje y está en su mejor semana del año.
+      Diez minutos andando desde Ginza hacia el mar está Hama-rikyū, el antiguo coto de caza de los
+      Tokugawa. En medio del estanque hay una casa de té a la que se llega por tres puentes de madera,
+      donde sirven *matcha* batido y un dulce mirando el agua. Es el último sitio tranquilo del viaje
+      y está en su mejor semana del año.
 
-      Y de vuelta hacia el norte, quince minutos, se cierra el paseo en
-      [**Nihonbashi**](https://www.google.com/maps/search/?api=1&query=Nihonbashi%20Bridge%20Tokyo): el
-      puente que era el kilómetro cero de todas las carreteras del país —de él se medían las
-      distancias del [Tōkaidō](#kioto) que bajasteis en tren— y que hoy vive humillado bajo una
-      autopista de hormigón levantada para los Juegos del 64. Es una imagen que cuenta el siglo XX
-      japonés mejor que un museo.
+      De vuelta hacia el norte, quince minutos, se cierra el paseo en Nihonbashi, el puente del que se
+      medían las distancias del [Tōkaidō](#kioto) que bajasteis en tren, y que hoy vive humillado bajo
+      una autopista de hormigón levantada para los Juegos del 64.
     window:
       label: Por fin, el momiji de la ciudad
       body: >-
-        Aquí se cobra la apuesta que ordena el itinerario entero. **El pico de la hoja roja en Tokio
-        va del 20 de noviembre al 5 de diciembre**, así que hoy estáis dentro: es exactamente por
-        esto por lo que la ciudad se guardó para el final en vez de gastarla en la primera semana.
-        Ver [el momiji](#momiji).
+        **El pico de la hoja roja en Tokio va del 20 de noviembre al 5 de diciembre**, así que hoy
+        estáis dentro: por esto se guardó la ciudad para el final. Ver [el momiji](#momiji).
 
-        Y hoy justamente amarillea la avenida de ginkgos de
-        [**Meiji Jingū Gaien**](https://www.google.com/maps/search/?api=1&query=Meiji%20Jingu%20Gaien%20Ginkgo%20Avenue%20Tokyo),
-        que va con su calendario propio y cae hacia el 25. Son ciento cuarenta y seis árboles en
-        trescientos metros y está a media hora de aquí: si alguien quiere cambiar Nihonbashi por eso,
-        hoy es el día exacto y no otro.
+        Y hoy justamente amarillea la avenida de ginkgos de Meiji Jingū Gaien, que cae hacia el 25.
+        Está a media hora: si alguien quiere cambiar Nihonbashi por eso, hoy es el día exacto.
+    ver:
+      - nombre: Hama-rikyū
+        maps: Hamarikyu Gardens Tokyo
+        nota: El único estanque de Tokio de agua de mar, que sube y baja con la marea.
+        lat: 35.6601760
+        lon: 139.7638239
+      - nombre: Nihonbashi
+        maps: Nihonbashi Bridge Tokyo
+        nota: El kilómetro cero del país, bajo una autopista. El siglo XX japonés en una imagen.
+        lat: 35.6840677
+        lon: 139.7745029
+      - nombre: Avenida de ginkgos de Gaien
+        maps: Meiji Jingu Gaien Ginkgo Avenue Tokyo
+        nota: Ciento cuarenta y seis árboles en trescientos metros, en su punto hacia el 25.
   - block: Noche
     time: "noche"
     title: Luz artificial
     body: >-
-      Para cerrar la última noche entera, algo que solo funciona de noche:
-      [**teamLab Borderless**](https://www.google.com/maps/search/?api=1&query=teamLab%20Borderless%20Azabudai%20Hills%20Tokyo), en Azabudai Hills. Salas sin mapa donde las obras se salen de una
-      habitación y entran en la siguiente, y donde uno acaba descalzo en un estanque de luz. Es
-      espectáculo digital y no arte antiguo, y a tres primerizos les va a parecer lo más japonés del
-      viaje aunque no lo sea en absoluto. **Hay que comprar la entrada con días de antelación** y ojo
-      con el calendario: **cierra el primer y el tercer martes de mes**, lo cual hoy no estorba, pero
-      la entrada se compra con fecha y hora y no se cambia.
+      Para cerrar la última noche entera, algo que solo funciona de noche: salas sin mapa donde las
+      obras se salen de una habitación y entran en la siguiente, y donde uno acaba descalzo en un
+      estanque de luz. Es espectáculo digital y no arte antiguo, y a tres primerizos les va a parecer
+      lo más japonés del viaje aunque no lo sea en absoluto.
+    ver:
+      - nombre: teamLab Borderless
+        maps: teamLab Borderless Azabudai Hills Tokyo
+        nota: "Entrada con días de antelación, con fecha y hora. Cierra el 1.er y 3.er martes: hoy no estorba."
+        lat: 35.6620024
+        lon: 139.7434178
+    comer:
+      - comida: shogun-burger
+        nota: Tiene sede en Azabudai Hills, el mismo complejo de teamLab. Abre hasta las diez.
+      - comida: ore-no-dashi
+        nota: "*Oden* por piezas y de pie en Ginza 7-chōme, a precio de barra."
+      - comida: bar-high-five
+        nota: La última copa, en la escuela de coctelería de Ginza. Sin carta, y conviene reservar.
 alt:
   label: Si te desmarcas
   body: >-

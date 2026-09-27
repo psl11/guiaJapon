@@ -11,6 +11,16 @@ dek: >-
   históricos de medio Japón, y el muelle por el que el país dejó de estar cerrado.
 duerme:
   - super-hotel-premier-akihabara
+mapa:
+  slug: solo-3-yokohama
+  paradas:
+    - { nombre: Estación de Negishi, lat: 35.4156485, lon: 139.6350416 }
+    - { nombre: Sankeien, hora: "09:00", llegada: tren, lat: 35.4171400, lon: 139.6593804 }
+    - { nombre: "Yamate, el cementerio extranjero", hora: "13:30", zona: Yamate, llegada: tren, lat: 35.4396867, lon: 139.6519204 }
+    - { nombre: Motomachi, zona: Yamate, llegada: a-pie, lat: 35.4402292, lon: 139.6479342 }
+    - { nombre: Chūkagai, zona: Chūkagai, llegada: a-pie, lat: 35.4430778, lon: 139.6441021 }
+    - { nombre: Chigusa, hora: "15:00", zona: Noge, llegada: metro, lat: 35.4487932, lon: 139.6299321 }
+    - { nombre: Ōsanbashi, hora: "16:00", llegada: a-pie, lat: 35.4499770, lon: 139.6461070 }
 traslados:
   - desde: "Shimbashi"
     hasta: "Negishi"
@@ -28,79 +38,93 @@ blocks:
     time: "09:00–12:30"
     title: Sankeien, el jardín que compró edificios
     body: >-
-      **Hara Tomitarō** hizo una fortuna con la seda cuando Yokohama era el puerto por el que salía toda
-      la del país. Y en vez de construirse una mansión, se dedicó a **comprar edificios históricos por
-      todo Japón, desmontarlos y remontarlos** en sus dieciocho hectáreas junto al mar. Luego, en
-      **1906**, abrió el jardín al público.
+      **Hara Tomitarō** hizo una fortuna con la seda cuando toda la del país salía por Yokohama, y en
+      vez de una mansión **compró edificios históricos de medio Japón**, los desmontó y los remontó en
+      dieciocho hectáreas junto al mar. Abrió el jardín al público en **1906**.
 
-      Hay **diecisiete construcciones, diez de ellas Bien Cultural Importante**, traídas de Kioto, Nara y
-      Kamakura: casas de té, una sala de templo, una residencia de la familia Tokugawa — y una **pagoda
-      de tres pisos de 1457**, que es **la más antigua de madera que queda en todo el Kantō**. Puestas en
-      un paisaje de estanques y colinas que se recorre en un par de horas largas.
-
-      Es, literalmente, arquitectura de Kioto **sin Kioto**: sin autobuses, sin cola y sin las mil
-      personas que tendrás delante el día 11.
+      Hay **diecisiete construcciones, diez de ellas Bien Cultural Importante**, traídas de Kioto, Nara
+      y Kamakura, entre estanques y colinas. Es arquitectura de Kioto **sin Kioto**: sin autobuses, sin
+      cola y sin las mil personas que tendrás delante en los días de Kioto.
     window:
       label: Aviso honesto sobre las hojas
       body: >-
-        El kōyō de Sankeien **pica de mediados de noviembre a mediados de diciembre**, así que el 4 llegas
-        **dos semanas pronto**: verás verde y algún arce adelantado, no el rojo de las fotos. El jardín
-        aguanta igual —lo que lo hace no son las hojas, son los edificios—, pero ve sabiéndolo. Abre a
-        las **09:00** y la mejor luz es esa primera hora, con niebla sobre el estanque.
+        El kōyō de Sankeien **pica de mediados de noviembre a mediados de diciembre**: el 4 llegas **dos
+        semanas pronto**, con verde y algún arce adelantado. Lo que hace el jardín son los edificios.
+        Abre a las **09:00** y la mejor luz es esa primera hora, con niebla sobre el estanque.
+    ver:
+      - nombre: Sankeien
+        maps: Sankeien Garden Yokohama
+        nota: "Casas de té, una residencia Tokugawa y una **pagoda de 1457**, la de madera más antigua del Kantō."
+        lat: 35.4171400
+        lon: 139.6593804
   - block: Mediodía
     time: "13:30–15:00"
     title: El barranco de los extranjeros
     body: >-
       Yokohama era una **aldea de pescadores** hasta que los barcos negros de Perry forzaron la apertura
-      y en **1859** se abrió como puerto al comercio exterior. Todo lo que hoy suena a japonés moderno
-      entró por aquí: el primer periódico en inglés, el primer ferrocarril, la primera cervecería, el
-      primer helado, las farolas de gas.
+      y en **1859** se abrió al comercio exterior. Por aquí entró el primer periódico en inglés, el
+      primer ferrocarril, la primera cervecería y el primer helado.
 
-      La colonia extranjera vivió arriba, en el **Yamate**, «el barranco»: casas de madera de estilo
-      occidental con porche y jardín, un cementerio extranjero y vistas al puerto. Se baja de ahí a
-      **Motomachi** —la calle donde compraban— y se acaba en el **Chūkagai**, el **barrio chino más
-      grande de Japón**: cuatrocientos y pico restaurantes en unas pocas manzanas, con sus cuatro puertas
-      orientadas a los puntos cardinales. Comer aquí es lo obvio y está bien.
+      Se empieza arriba, en el **Yamate**, donde vivió la colonia extranjera; se baja a **Motomachi**, la
+      calle donde compraban, y se acaba comiendo en el **Chūkagai**, el barrio chino más grande de Japón.
     window:
       label: Si te va la historia y no las tiendas
       body: >-
-        El **Archivo Histórico de Yokohama**, junto al puerto, es pequeño y cuenta exactamente esto: la
-        llegada de Perry, el tratado, los años en que esta ciudad fue la rendija por la que Japón miró
-        afuera. Está en el antiguo consulado británico y se ve en cuarenta minutos.
+        El **Archivo Histórico de Yokohama**, junto al puerto, cuenta exactamente esto: Perry, el
+        tratado, los años en que esta ciudad fue la rendija por la que Japón miró afuera. Se ve en
+        cuarenta minutos.
+    ver:
+      - nombre: Cementerio extranjero de Yamate
+        maps: Yokohama Foreign General Cemetery
+        nota: Casas de madera con porche, el cementerio de la colonia y vistas al puerto.
+        lat: 35.4396867
+        lon: 139.6519204
+      - nombre: Motomachi
+        maps: Motomachi Shopping Street Yokohama
+        nota: La calle comercial de los extranjeros, al pie del barranco.
+        lat: 35.4402292
+        lon: 139.6479342
+      - nombre: Chūkagai
+        maps: Yokohama Chinatown
+        nota: Cuatrocientos y pico restaurantes y cuatro puertas orientadas a los puntos cardinales.
+        lat: 35.4430778
+        lon: 139.6441021
+      - nombre: Archivo Histórico de Yokohama
+        maps: Yokohama Archives of History
+        nota: En el antiguo consulado británico. Pequeño, y es la historia del puerto entera.
+        lat: 35.4475178
+        lon: 139.6438048
   - block: Media tarde
     time: "15:00–16:00"
     title: Chigusa, el primer jazz kissa de Japón
     body: >-
-      A tres minutos de la estación de Sakuragichō, en el barrio de **Noge**, está
-      [**Chigusa**](#chigusa) — y no es «un jazz kissa antiguo», es **el primero**. Lo abrió **Mamoru
-      Yoshida en 1933** con un gramófono y cien discos de pizarra. En **1945 un bombardeo se llevó el
-      local y la colección entera**; Yoshida lo reconstruyó y volvió a comprar los discos uno a uno.
-
-      Ha cerrado y resucitado varias veces desde entonces; la última en **2012**, cuando un grupo de
-      parroquianos de toda la vida se organizó para levantarlo otra vez a pocos metros del sitio
-      original. Se escucha y no se charla, casi todo en vinilo, veinte y pico plazas.
+      A tres minutos de la estación de Sakuragichō, en el barrio de **Noge**, está el primer jazz kissa
+      del país, de **1933**. Se escucha y no se charla, casi todo en vinilo, veinte y pico plazas.
     window:
       label: Y por esto Yokohama es hoy y no mañana
       body: >-
         **Chigusa cierra los jueves.** El resto de la semana abre de 12:00 a 22:00, así que el plan
         original —Yokohama el jueves 5— lo perdía por un día. Cambiado el orden con
         [Kawagoe](#solo-4-kawagoe), que no cierra ningún día, salen las dos cosas.
+    comer:
+      - comida: chigusa
+        nota: Café solo, de cara a los altavoces. Si pides disco, antes de que empiece la cara.
   - block: Atardecer
     time: "16:00–18:00"
     title: Ōsanbashi, la terminal sin escaleras
     body: >-
-      Y para cerrar, el mejor sitio de Yokohama y encima gratis: la **terminal de cruceros de
-      Ōsanbashi**. Por fuera no parece un edificio sino **una duna de madera** — una cubierta continua de
-      tablas que sube y baja sin un solo escalón ni una sola columna a la vista, proyectada en 2002 por
-      Foreign Office Architects. Se camina por encima como por un paisaje.
-
-      Desde ahí, el puerto entero y la silueta de Minato Mirai enfrente. Está **abierta día y noche**, no
-      se paga, y al ponerse el sol la madera se calienta de color mientras se encienden las torres. Con
-      un 35 mm es de los mejores encuadres de todo el viaje.
+      Para cerrar, el mejor sitio de Yokohama y gratis: la **terminal de cruceros de Ōsanbashi**, abierta
+      día y noche. Desde arriba, el puerto entero y la silueta de Minato Mirai enfrente; al ponerse el
+      sol la madera se calienta de color mientras se encienden las torres.
     window:
       label: Ventana óptima
       body: >-
-        **La media hora anterior y la media hora posterior a la puesta de sol** — en noviembre, hacia las
-        16:40. La madera con el sol bajo y luego el azul con la ciudad encendida: son dos fotos distintas
-        con veinte minutos de diferencia y las dos merecen la pena. Después, vuelta a **Akihabara** (~50 min),
+        **La media hora anterior y la posterior a la puesta de sol**, hacia las 16:40: la madera con el
+        sol bajo y luego el azul con la ciudad encendida. Después, vuelta a **Akihabara** (~50 min),
         primera noche en el [Super Hotel Premier](#super-hotel-premier-akihabara) y su onsen.
+    ver:
+      - nombre: Terminal de Ōsanbashi
+        maps: Osanbashi Yokohama International Passenger Terminal
+        nota: "Una duna de tablas sin un escalón ni una columna a la vista, de Foreign Office Architects (2002)."
+        lat: 35.4499770
+        lon: 139.6461070

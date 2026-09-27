@@ -11,6 +11,15 @@ dek: >-
 duerme:
   - apa-asakusa-kaminarimon
   - koko-ginza-1chome
+mapa:
+  slug: dia-19-nikko
+  paradas:
+    - { nombre: Estación Tōbu-Nikkō, hora: "09:30", lat: 36.7474687, lon: 139.6198394 }
+    - { nombre: Shinkyō, zona: Nikkō, llegada: a-pie, lat: 36.7533178, lon: 139.6040375 }
+    - { nombre: Rinnō-ji, zona: Nikkō, llegada: a-pie, lat: 36.7547249, lon: 139.6007590 }
+    - { nombre: "Tōshōgū y el Yōmeimon", zona: Nikkō, llegada: a-pie, lat: 36.7576378, lon: 139.5991100 }
+    - { nombre: Futarasan-jinja, zona: Nikkō, llegada: a-pie, lat: 36.7584003, lon: 139.5966644 }
+    - { nombre: "Vuelta a la estación, al Spacia", hora: atardecer, llegada: tren, lat: 36.7474687, lon: 139.6198394 }
 traslados:
   - desde: "Asakusa"
     hasta: "Nikkō"
@@ -28,15 +37,15 @@ blocks:
     time: "07:00–09:30"
     title: El Spacia desde Asakusa
     body: >-
-      El **Tōbu Limited Express** sale de Asakusa y llega a Nikkō en unas dos horas con asiento
-      reservado. Es más cómodo y más barato que la vía JR, que obliga a ir a Utsunomiya en Shinkansen
-      y cambiar. Conviene sacarlo la víspera. Ver [Nikkō](#nikko).
+      El Tōbu Limited Express sale de Asakusa y llega a Nikkō en unas dos horas con asiento reservado.
+      Del andén al santuario hay autobús o veinticinco minutos a pie
+      cuesta arriba, y andando se pasa por el puente Shinkyō.
     window:
       label: Hoy sí importa el día de la semana
       body: >-
         **Ayer fue festivo**, así que los museos que cierran los lunes **han trasladado su cierre a
-        hoy, martes**. Da igual para Nikkō —los santuarios no cierran— pero es una razón más para que
-        el plan de hoy sea este y no un día de museos en Tokio.
+        hoy, martes**. A Nikkō le da igual —los santuarios no cierran—, pero es una razón más para que
+        hoy toque esto y no museos en Tokio.
   - block: Mediodía
     time: "09:30–13:00"
     title: Convertir a un hombre en dios
@@ -51,26 +60,54 @@ blocks:
       de la vida, y representan la infancia.
       - **El gato dormido.** Al otro lado del panel hay gorriones. El gato duerme y los pájaros juegan
       sin miedo: la paz de los Tokugawa, tallada en veinte centímetros.
+    ver:
+      - ficha: nikko
+        nota: Por qué el clan más sobrio del país enterró a su fundador bajo laca y oro.
+      - nombre: Shinkyō
+        maps: Shinkyo Bridge Nikko
+        nota: El puente lacado que solo cruzaban el shōgun y los peregrinos imperiales. Se ve entero desde la carretera.
+        lat: 36.7533178
+        lon: 139.6040375
+      - nombre: Tōshōgū
+        maps: Nikko Toshogu Shrine
+        nota: "El mausoleo de Ieyasu. Tras el gato dormido, **207 escalones** hasta su tumba, que esta sí es sobria."
+        lat: 36.7576378
+        lon: 139.5991100
+      - nombre: Rinnō-ji
+        maps: Rinnoji Temple Nikko
+        nota: El templo del conjunto, más antiguo y mucho más tranquilo. Queda de paso.
+        lat: 36.7547249
+        lon: 139.6007590
   - block: Tarde
     time: "13:00–16:00"
     title: El bosque, y una decisión honesta
     body: >-
-      Detrás del santuario, la carretera de [**Irohazaka**](https://www.google.com/maps/search/?api=1&query=Irohazaka%20Winding%20Road%20Nikko)
-      trepa en zigzag hasta el **lago Chūzenji** y la cascada de [**Kegon**](https://www.google.com/maps/search/?api=1&query=Kegon%20Falls%20Nikko).
-      Son cincuenta minutos de autobús desde la estación, y de ahí sale la decisión de la tarde.
+      Detrás del santuario, la carretera de Irohazaka trepa en zigzag hasta el lago Chūzenji y la
+      cascada de Kegon: cincuenta minutos de autobús desde la estación.
 
       Y aquí hay que ser honesto: **la parte alta de Nikkō tiene su momiji a finales de octubre**, así
       que a estas alturas de noviembre el color de arriba ya ha pasado. Abajo, en la zona del
       santuario, queda algo. Si el día va justo, el santuario vale por sí solo y la montaña puede
-      dejarse. Ver [el momiji](#momiji).
+      dejarse.
+    ver:
+      - nombre: Irohazaka
+        maps: Irohazaka Winding Road Nikko
+        nota: Cuarenta y ocho curvas de horquilla, una por sílaba del viejo silabario.
+      - nombre: Cascada de Kegon
+        maps: Kegon Falls Nikko
+        nota: Noventa y siete metros de caída junto al lago Chūzenji, con ascensor hasta el pie.
+      - ficha: momiji
+        nota: Por qué el color baja por la ladera, y por qué Nikkō no se adelantó al día 9.
   - block: Noche
     time: "noche"
     title: Vuelta con el último Spacia
     body: >-
-      Se vuelve a Asakusa, que es el barrio de la primera mañana del viaje. Cerrar aquí, después de
-      diecinueve días, en la misma estación desde la que se salió al amanecer del día 2, tiene su
-      cosa. Y a diez minutos está la calle de las croquetas y los bares al aire libre de
-      [**Hoppy-dōri**](https://www.google.com/maps/search/?api=1&query=Hoppy%20Street%20Asakusa%20Tokyo).
+      Se vuelve a Asakusa, el barrio de la primera mañana del viaje, y cerrar aquí diecinueve días
+      después tiene su cosa. Se cena por el barrio.
+    ver:
+      - nombre: Hoppy-dōri
+        maps: Hoppy Street Asakusa Tokyo
+        nota: Croquetas y bares al aire libre, a diez minutos de la estación de Asakusa.
 alt:
   label: Si te desmarcas
   body: >-
@@ -81,5 +118,5 @@ alt:
 
     Y si a estas alturas del viaje el cuerpo no pide dos horas de tren, este es buen día para
     quedarse en Tokio: los jardines clásicos —el **Rikugi-en**, el **Koishikawa Kōrakuen**— están en
-    su mejor semana y abren de noche, y los museos de [Ueno](#ueno), que ayer cerraron por el
-    traslado del festivo, hoy también. Es el último hueco grande antes del vuelo.
+    su mejor semana y abren de noche. Los museos de [Ueno](#ueno), en cambio, no: hoy cierran por
+    el traslado del festivo. Es el último hueco grande antes del vuelo.

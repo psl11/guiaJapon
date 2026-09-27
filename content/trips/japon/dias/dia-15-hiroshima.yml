@@ -10,6 +10,16 @@ dek: >-
   está muy viva.
 duerme:
   - via-inn-prime-hiroshima
+mapa:
+  slug: dia-15-hiroshima
+  paradas:
+    - { nombre: Via Inn Prime, lat: 34.3997391, lon: 132.4748632 }
+    - { nombre: Cúpula de la Bomba Atómica, hora: "11:00", zona: Parque de la Paz, llegada: tren, lat: 34.3954661, lon: 132.4535245 }
+    - { nombre: Monumento a los Niños, zona: Parque de la Paz, llegada: a-pie, lat: 34.3941363, lon: 132.4527566 }
+    - { nombre: Cenotafio, zona: Parque de la Paz, llegada: a-pie, lat: 34.3929718, lon: 132.4525711 }
+    - { nombre: Museo Memorial de la Paz, hora: "13:00", zona: Parque de la Paz, llegada: a-pie, lat: 34.3918121, lon: 132.4521048 }
+    - { nombre: Okonomimura, hora: noche, zona: Shintenchi, llegada: a-pie, lat: 34.3912894, lon: 132.4618940 }
+    - { nombre: Vuelta al hotel, llegada: tren, lat: 34.3997391, lon: 132.4748632 }
 traslados:
   - desde: "Kioto"
     hasta: "Hiroshima"
@@ -22,80 +32,103 @@ blocks:
     time: "08:00–10:30"
     title: El Shinkansen al oeste
     body: >-
-      Hora y cuarenta desde [Kioto](#kioto) por el Sanyō Shinkansen. Es el tramo largo del viaje y el mejor
-      para leer con antelación lo que viene: la [ficha de Hiroshima](#hiroshima) conviene llevarla
-      hecha, porque el parque se anda mucho mejor sabiendo lo que se mira.
+      Hora y cuarenta desde Kioto por el Sanyō Shinkansen, el tramo bueno para leerse la ficha de
+      Hiroshima: el parque se anda mucho mejor sabiendo lo que se mira.
 
-      **Y hay una parada que cabe por el camino.** El Shinkansen para en **Himeji**, a una hora de
-      Kioto, y desde el andén se ve el castillo: el [**Himeji-jō**](https://www.google.com/maps/search/?api=1&query=Himeji%20Castle) es
-      **el mejor conservado de Japón**, el único grande que no ardió ni fue bombardeado, Patrimonio
-      de la Humanidad y Tesoro Nacional, a quince minutos andando en línea recta desde la estación.
-      La cuenta sale: **saliendo de Kioto a las 07:30 se está en el castillo a las 09:00**, se ve en
-      dos horas largas y se llega a Hiroshima hacia la una, con la tarde entera para el parque.
-      Cuesta madrugar una hora y una consigna. Con [Matsumoto](#matsumoto-jo) ya hecho, la
-      comparación es lo interesante: **Matsumoto es negro, de guerra y de llanura; Himeji es blanco,
-      de prestigio y sobre una colina**. Son los dos supervivientes de verdad de los doce originales
-      que siguen en pie, y son opuestos.
+      **Y cabe una parada por el camino.** El Shinkansen para en Himeji, a una hora de Kioto, y el
+      castillo está a quince minutos andando en línea recta desde la estación. Saliendo a las 07:30
+      se está en él a las 09:00, se ve en dos horas largas y se llega a Hiroshima hacia la una, con la
+      tarde entera para el parque. Cuesta madrugar una hora y una consigna.
     window:
       label: El tercer envío de maletas
       body: >-
-        **Hoy salen las maletas grandes hacia Tokio.** Quedan dos noches fuera —Hiroshima y la vuelta—
-        y cargar con equipaje hasta [Miyajima](#miyajima) y luego cuatro horas de tren no tiene sentido. Ver
-        [takkyūbin](#takkyubin).
+        **Hoy salen las maletas grandes hacia Tokio.** Quedan dos noches fuera, y cargar con ellas
+        hasta Miyajima y luego cuatro horas de tren no tiene sentido. Ver [takkyūbin](#takkyubin).
+    ver:
+      - nombre: Castillo de Himeji
+        maps: Himeji Castle
+        nota: "El mejor conservado de Japón y el opuesto de Matsumoto: blanco, de prestigio y sobre una colina."
+        lat: 34.8393313
+        lon: 134.6940200
+      - ficha: matsumoto-jo
+        nota: Los dos supervivientes de verdad, para compararlos con el de hace dos semanas.
   - block: Mediodía
     time: "11:00–13:00"
     title: La cúpula, y el eje
     body: >-
-      Se entra por la cúpula y se baja hacia el sur, que es como está pensado el recorrido. Lo que
-      hay que hacer aquí es **una sola cosa y hacerla bien**: colocarse en el punto exacto delante del
-      cenotafio desde el que el arco enmarca la llama y, al fondo, la ruina. Están alineados a
-      propósito y el efecto solo aparece desde ahí.
-
-      El porqué de todo esto —quién la construyó, por qué sigue en pie y por qué se decidió no
-      arreglarla— está en [la ficha de Hiroshima](#hiroshima), y merece leerse en el tren.
+      Se entra por la cúpula y se baja hacia el sur, que es como está pensado el recorrido. Aquí hay
+      que hacer **una sola cosa y hacerla bien**: colocarse delante del cenotafio en el punto exacto
+      desde el que el arco enmarca la llama y, al fondo, la ruina.
     window:
       label: El detalle que se pasa por alto
       body: >-
         Buscad el epitafio del cenotafio y fijaos en que **no tiene sujeto**: es lo que más se
         discute del parque y se entiende mejor teniéndolo delante.
+    ver:
+      - ficha: hiroshima
+        nota: Quién levantó la cúpula, por qué sigue en pie y por qué se decidió no arreglarla.
+      - nombre: Cúpula de la Bomba Atómica
+        maps: Atomic Bomb Dome Hiroshima
+        nota: La bomba estalló casi encima y los muros aguantaron. Solo se refuerza, no se restaura.
+        lat: 34.3954661
+        lon: 132.4535245
+      - nombre: Cenotafio de las víctimas
+        maps: Cenotaph for the A-bomb Victims Hiroshima
+        nota: "El eje de Kenzō Tange: arco, llama y ruina alineados desde un solo punto."
+        lat: 34.3929718
+        lon: 132.4525711
   - block: Tarde
     time: "13:00–16:00"
     title: El museo
     body: >-
-      El **Museo Memorial de la Paz** se renovó entero en 2019 y hoy apenas usa texto: son objetos y
-      testimonios en primera persona. Es duro, está hecho sin sensacionalismo y sin señalar
-      culpables, y se sale en silencio.
-
-      Dos avisos prácticos que importan más de lo que parecen: **hora y media larga como mínimo**, y
-      no encadenarlo con nada. Hace falta una hora de calle después, y por eso el bloque siguiente
-      es un paseo.
-
-      Fuera, el **Monumento a los Niños**, por Sadako Sasaki. Llegan millones de grullas de papel
-      cada año desde colegios de todo el mundo y se exponen en vitrinas alrededor.
+      El Museo Memorial de la Paz son objetos y testimonios en primera persona, casi sin texto. Es
+      duro, está hecho sin sensacionalismo y se sale en silencio. Dos avisos: **hora y media larga
+      como mínimo**, y no encadenarlo con nada; por eso el bloque siguiente es un paseo.
+    ver:
+      - nombre: Museo Memorial de la Paz
+        maps: Hiroshima Peace Memorial Museum
+        nota: Renovado entero en 2019. Un triciclo, un uniforme, una sombra en un escalón.
+        lat: 34.3918121
+        lon: 132.4521048
+      - nombre: Monumento a los Niños
+        maps: Children's Peace Monument Hiroshima
+        nota: Por Sadako Sasaki y sus mil grullas. Llegan millones cada año, en vitrinas alrededor.
+        lat: 34.3941363
+        lon: 132.4527566
   - block: Atardecer
     time: "16:00–18:00"
     title: La ciudad que está viva
     body: >-
-      Y ahora lo importante: **Hiroshima es una ciudad de un millón doscientos mil habitantes**, no un
-      cementerio. Dos maneras de comprobarlo antes de cenar, y las dos cuestan cero:
+      **Hiroshima es una ciudad de un millón doscientos mil habitantes**, no un cementerio. Dos
+      maneras de comprobarlo antes de cenar, y las dos cuestan cero:
 
-      - Buscad las **placas de los árboles supervivientes** —los *hibakujumoku*—, que hay varias en el
-        propio parque. Son fáciles de pasar por alto y cambian la manera de mirar el sitio.
+      - Buscad las **placas de los árboles supervivientes**, los *hibakujumoku*: hay varias en el
+        propio parque y cambian la manera de mirar el sitio.
       - Y **volved en tranvía** aunque no haga falta: algunos de los vagones que circulan hoy estaban
-        aquí en 1945. [La ficha](#hiroshima) cuenta cuáles.
+        aquí en 1945.
+    ver:
+      - nombre: Shukkei-en
+        maps: Shukkeien Garden Hiroshima
+        nota: Jardín de 1620 arrasado y replantado, con un ginkgo superviviente. El contrapeso al parque.
+        lat: 34.4003377
+        lon: 132.4674494
   - block: Noche
     time: "noche"
     title: Okonomimura
     body: >-
-      A cenar a [**Okonomimura**](https://www.google.com/maps/search/?api=1&query=Okonomimura%20Hiroshima),
-      un edificio con más de veinte planchas apiladas en varias plantas: se elige puesto, se sienta uno
-      a la barra y el cocinero lo monta delante. Pedid el de aquí, que **no tiene nada que ver con el
-      de Osaka** —ver [el okonomiyaki](#okonomiyaki)— y, si hay, ostras: noviembre es el arranque
-      de su temporada.
+      A cenar al edificio de las planchas: se elige puesto, se sienta uno a la barra y el cocinero lo
+      monta delante. Pedid el de aquí, que **no tiene nada que ver con el de Osaka** —ver
+      [el okonomiyaki](#okonomiyaki)— y, si hay, ostras: noviembre es el arranque de su temporada.
+    comer:
+      - comida: okonomimura
+        nota: Veinticinco planchas en cuatro plantas. Sentaos donde haya clientela local.
+      - comida: hassho
+        nota: La alternativa si se quiere una sola casa y no la lotería del puesto. Pedidlo crujiente.
+      - comida: step1-hiroshima
+        nota: Para seguir después. Abre de 20:00 a 5:00 todos los días, en Nagarekawa.
 alt:
   label: Si te desmarcas
   body: >-
-    [**Shukkei-en**](https://www.google.com/maps/search/?api=1&query=Shukkeien%20Garden%20Hiroshima), un jardín de 1620 arrasado por la bomba y replantado, con un ginkgo superviviente
-    dentro y casi nadie: es el contrapeso exacto al parque, a diez minutos andando. Y el **Museo de
-    Arte Contemporáneo**, en la colina de Hijiyama, con una colección construida a propósito alrededor
-    de la idea de la reconstrucción.
+    **Shukkei-en** sin prisa, en vez del tranvía: casi nadie y un ginkgo superviviente dentro. Y el
+    **Museo de Arte Contemporáneo**, en la colina de Hijiyama, con una colección construida a propósito
+    alrededor de la idea de la reconstrucción.

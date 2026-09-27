@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { TRIP_INDEX, buildTripIndex } from '~/composables/useTripIndex'
 // TripView — poseedor de la página. Llama a useTrip(slug) y renderiza en dos tiempos:
 //  · El plan (lo práctico, primero): hero del viaje → día a día (DiaCard) → dinero (InversionCard)
 //    → reservas y dónde dormir (RecoCard). Es lo que se usa durante el viaje.
@@ -9,6 +10,8 @@
 const props = defineProps<{ slug: string }>()
 
 const { trip, actos, fichas, inversiones, dias, recos, comidas, platos, salir, hoteles, recomendados } = await useTrip(props.slug)
+// Cruces día ↔ fichas/locales/recomendados (ver composables/useTripIndex.ts).
+provide(TRIP_INDEX, buildTripIndex({ fichas, comidas, recomendados, dias }))
 
 const hayRelato = computed(() => actos.value.length + fichas.value.length > 0)
 const hayPlan = computed(() => dias.value.length + inversiones.value.length > 0)

@@ -179,6 +179,26 @@ describe('contenido · «hoy se duerme en» (dia.duerme)', () => {
   })
 })
 
+describe('contenido · qué ver y dónde comer (blocks[].ver / comer)', () => {
+  it('cada referencia apunta a una ficha, un recomendado o un local que existen', () => {
+    // Igual que `duerme`: DiaCard descarta en silencio lo que no encuentra.
+    const de = (c: string) => new Set(docs.filter(d => d.collection === c).map(d => d.slug))
+    const fichas = de('ficha'), recos = de('recomendado'), comidas = de('comida')
+    const rotos: string[] = []
+    for (const d of docs.filter(d => d.collection === 'dia')) {
+      for (const b of (parse(d.raw)?.blocks ?? []) as { ver?: Record<string, string>[], comer?: { comida: string }[] }[]) {
+        for (const v of b.ver ?? []) {
+          if (v.ficha && !fichas.has(v.ficha)) rotos.push(`${d.rel}: ficha ${v.ficha}`)
+          if (v.reco && !recos.has(v.reco)) rotos.push(`${d.rel}: reco ${v.reco}`)
+          if (!v.ficha && !v.reco && !v.nombre) rotos.push(`${d.rel}: un «ver» sin ficha, reco ni nombre`)
+        }
+        for (const c of b.comer ?? []) if (!comidas.has(c.comida)) rotos.push(`${d.rel}: comida ${c.comida}`)
+      }
+    }
+    expect(rotos, `referencias rotas:\n  ${rotos.join('\n  ')}`).toEqual([])
+  })
+})
+
 describe('contenido · fotos (image)', () => {
   it('cada image.src existe en public/ y es relativo (sin barra inicial)', () => {
     // Img.src es solo z.string(): un typo daría un banner 404 SILENCIOSO (imagen lazy que no carga,

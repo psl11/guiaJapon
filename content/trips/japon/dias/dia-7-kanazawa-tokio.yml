@@ -10,6 +10,16 @@ dek: >-
   grupo se despide pasado mañana.
 duerme:
   - candeo-roppongi
+mapa:
+  slug: dia-7-kanazawa-tokio
+  paradas:
+    - { nombre: Hotel Forza, lat: 36.5727585, lon: 136.6556879 }
+    - { nombre: Kenroku-en, hora: "07:00", llegada: a-pie, lat: 36.5624267, lon: 136.6623546 }
+    - { nombre: Higashi Chaya, hora: "09:00", llegada: a-pie, lat: 36.5725559, lon: 136.6666756 }
+    - { nombre: "Nagamachi · casa Nomura", llegada: a-pie, lat: 36.5640834, lon: 136.6499971 }
+    - { nombre: Museo del Siglo XXI, llegada: a-pie, lat: 36.5608382, lon: 136.6582097 }
+    - { nombre: Ōmichō, hora: "12:00", llegada: a-pie, lat: 36.5717309, lon: 136.6559877 }
+    - { nombre: "Estación · Tsuzumi-mon", hora: "14:00", llegada: a-pie, lat: 36.5777907, lon: 136.6491024 }
 traslados:
   - desde: "Kanazawa"
     hasta: "Tokio"
@@ -22,72 +32,104 @@ blocks:
     time: "07:00–09:00"
     title: Kenroku-en con el yukitsuri
     body: >-
-      **El Kenroku-en abre a las 7:00** —antes que casi nada en Japón— y esa hora vale doble hoy: es
-      uno de los **Tres Grandes Jardines** del país y a esa hora lo tenéis con los jardineros dentro y
-      nadie más. De dónde sale su nombre y qué seis cosas hay que buscar mientras se anda, en
-      [la ficha de Kanazawa](#kanazawa) — vale la pena llevarlo leído, porque el jardín está diseñado
-      para que se vean por turnos y no de golpe.
+      **El Kenroku-en abre a las 7:00** —antes que casi nada en Japón— y esa hora vale doble hoy: uno
+      de los **Tres Grandes Jardines** del país con los jardineros dentro y nadie más. Conviene llevar
+      la ficha leída, porque el jardín está diseñado para que sus seis cualidades se vean por turnos y
+      no de golpe.
     window:
       label: Ventana óptima
       body: >-
-        **A partir del 1 de noviembre los jardineros montan el *yukitsuri***: postes altos junto a los
-        pinos de los que cuelgan decenas de cuerdas en abanico, atadas rama a rama para que la nieve
-        no las parta. Llegáis en la segunda semana, así que lo veréis **montado o montándose, con los
-        jardineros trabajando** — que es todavía mejor. Es la imagen de la ciudad y solo existe entre
-        noviembre y marzo.
+        **A partir del 1 de noviembre los jardineros montan el *yukitsuri***: cuerdas en abanico desde
+        postes altos, atadas rama a rama para que la nieve no parta los pinos. Llegáis en la segunda
+        semana, así que lo veréis **montado o montándose, con los jardineros trabajando** — que es
+        todavía mejor. Solo existe entre noviembre y marzo.
+    ver:
+      - ficha: kanazawa
+        nota: El clan que gastó en arte para no parecer peligroso, y las seis cualidades del jardín.
+      - nombre: Kenroku-en
+        maps: Kenrokuen Garden Kanazawa
+        nota: Abre a las 7:00. Con el *yukitsuri* montándose, la estampa de la ciudad.
+        lat: 36.5624267
+        lon: 136.6623546
   - block: Mañana
     time: "09:00–12:00"
     title: Un barrio de té, otro de samuráis y un cilindro de cristal
     body: >-
-      Dos barrios enteros, a quince minutos andando el uno del otro. **En los dos hay que entrar en
-      una casa**, que es donde está la diferencia: por fuera son fachadas; por dentro, cómo se vivía.
-
-      - La **Shima**, en [Higashi Chaya](#kanazawa): una casa de té del siglo XIX intacta.
-      - La **casa Nomura**, en
-        [Nagamachi](https://www.google.com/maps/search/?api=1&query=Nagamachi%20Samurai%20District%20Kanazawa),
-        el barrio de los samuráis. Sus tapias de barro estarán ya envueltas en esteras de paja contra
-        el hielo.
-      - Y el **Museo del Siglo XXI de Arte Contemporáneo**, el cilindro de cristal de SANAA con la
-        piscina de Leandro Erlich. Cierra los lunes y hoy es jueves, así que esta vez sí entra.
+      Dos barrios enteros, a quince minutos andando el uno del otro, y **en los dos hay que entrar en
+      una casa**: por fuera son fachadas; por dentro, cómo se vivía. Primero Higashi Chaya, luego
+      Nagamachi, y de vuelta hacia el centro el museo de SANAA.
+    ver:
+      - nombre: "Higashi Chaya y la casa Shima"
+        maps: Higashi Chaya District Kanazawa
+        nota: El barrio de casas de té; la **Shima** es una del siglo XIX intacta, y se entra.
+        lat: 36.5725559
+        lon: 136.6666756
+      - nombre: "Nagamachi y la casa Nomura"
+        maps: Nomura Samurai House Kanazawa
+        nota: Tapias de barro ya envueltas en esteras de paja contra el hielo, y un jardín diminuto.
+        lat: 36.5640834
+        lon: 136.6499971
+      - nombre: Museo del Siglo XXI
+        maps: 21st Century Museum of Contemporary Art Kanazawa
+        nota: El cilindro de SANAA con la piscina de Erlich. Cierra los lunes; hoy es jueves.
+        lat: 36.5608382
+        lon: 136.6582097
+    comer:
+      - comida: higashi-chaya-te
+        nota: Matcha y *wagashi* dentro de una antigua casa de geishas, al acabar el barrio.
   - block: Mediodía
     time: "12:00–14:00"
     title: El ekiben del mar del Japón
     body: >-
-      Kanazawa vive de una de las mejores lonjas del país y eso se nota en su estación: sus
-      ***ekiben*** son de marisco, no de pollo frito. Comprad uno para el tren y comedlo a bordo, que
-      es lo que hace todo el mundo y no un apaño — ver [konbini y ekiben](#konbini). Antes, si queda
-      hueco, el mercado de **Ōmichō**: trescientos años de puestos de pescado bajo techo, y las barras
-      del fondo sirven *kaisendon* a mediodía.
+      Kanazawa vive de una de las mejores lonjas del país y sus ***ekiben*** son de marisco, no de
+      pollo frito: se compra uno para el tren y se come a bordo, que es lo que hace todo el mundo —
+      ver [konbini y ekiben](#konbini)—. Antes, si queda hueco, Ōmichō, enfrente del hotel.
+    ver:
+      - nombre: Tsuzumi-mon
+        maps: Tsuzumi-mon Gate Kanazawa Station
+        nota: La puerta de madera en forma de tambor de nō, a la salida de la estación.
+        lat: 36.5777907
+        lon: 136.6491024
+    comer:
+      - comida: omicho
+        nota: "*Kaisendon* en las barras del fondo, y el cangrejo de las nieves recién abierta la veda."
   - block: Tarde
     time: "14:00–17:00"
     title: Dos horas y media, y se acaba la montaña
     body: >-
       El **Hokuriku Shinkansen** deja en Tokio en dos horas y media largas, cruzando por debajo de la
-      misma cordillera que se ha estado mirando desde abajo cuatro días. Es el trayecto que cierra el
-      arco: se sale del mar del Japón, se pasa por Nagano y se entra en la llanura del Kantō, que a
-      partir de aquí ya no se abandona hasta Kioto.
-
-      **Reservad asiento**: el Kagayaki, que es el rápido, **no lleva vagones libres** — no es que se
-      llenen, es que no existen.
+      cordillera que se ha estado mirando cuatro días: se sale del mar del Japón, se pasa por Nagano y
+      se entra en la llanura del Kantō, que ya no se abandona hasta Kioto. **Asiento reservado**: el
+      Kagayaki no lleva vagones libres — no es que se llenen, es que no existen.
     window:
       label: Las maletas, otra vez por delante
       body: >-
-        **Esta mañana sale el segundo envío por [takkyūbin](#takkyubin)**, desde el hotel de Kanazawa
-        al de Tokio. Y ojo con un detalle que se hace mal en piloto automático: **el hotel de estas
-        cuatro noches no es el de la llegada ni el del final**. Son tres direcciones distintas en la
-        misma ciudad; esta semana se duerme en Roppongi. Mirad la reserva de ahora, no la vieja.
+        **Esta mañana sale el segundo envío por [takkyūbin](#takkyubin)**, del hotel de Kanazawa al de
+        Tokio. Y ojo en piloto automático: **el hotel de estas cuatro noches no es el de la llegada ni
+        el del final**. Esta semana se duerme en Roppongi; mirad la reserva de ahora, no la vieja.
   - block: Noche
     time: "noche"
     title: Volver a una ciudad que ya se conoce
     body: >-
-      Llegar a Tokio por segunda vez no se parece en nada a llegar la primera: ya sabéis leer el
-      metro, ya tenéis la tarjeta cargada y ya no os pilla de sorpresa la escala de la estación. Lo
-      que sí es nuevo es el barrio — **estas cuatro noches se duermen en [Roppongi](#roppongi)**, a
-      veinte minutos de la estación de Tokio por Marunouchi y Hibiya. Es la noche para lo que en la
-      primera vuelta daba pereza organizar, porque mañana no hay que madrugar para coger nada.
+      Llegar a Tokio por segunda vez no se parece a la primera: ya sabéis leer el metro y tenéis la
+      tarjeta cargada. Lo nuevo es el barrio —**estas cuatro noches, Roppongi**, a veinte minutos de
+      la estación de Tokio por Marunouchi y Hibiya— y que mañana no hay que madrugar para coger nada.
 
-      Y hay una cuenta que conviene hacer esta noche: **le quedan a uno de vosotros dos días**. Ver
+      Y una cuenta que conviene hacer esta noche: **le quedan a uno de vosotros dos días**. Ver
       [los vuelos](#vuelos).
+    ver:
+      - ficha: roppongi
+        nota: Los tres museos del barrio y lo que Akasaka guarda detrás de sus muros.
+      - nombre: Gonpachi
+        maps: Gonpachi Nishiazabu Tokyo
+        nota: "El *izakaya* que copió *Kill Bill*: turístico y caro, pero vale una copa."
+        lat: 35.6601650
+        lon: 139.7235945
+    comer:
+      - comida: shogun-burger
+        nota: Wagyu sin reserva en la sede de Azabudai Hills, a un paso del hotel.
+      - comida: toufuya-ukai
+        nota: Si el viaje va a tener una cena cara, esta, al pie de la Torre de Tokio. Con reserva.
 alt:
   label: Si te desmarcas
   body: >-

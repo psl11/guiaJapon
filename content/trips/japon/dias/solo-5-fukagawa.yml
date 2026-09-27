@@ -11,6 +11,15 @@ dek: >-
   por el camino. Es el día de las cosas lentas, porque a partir de mañana el viaje va en grupo.
 duerme:
   - resol-akihabara
+mapa:
+  slug: solo-5-fukagawa
+  paradas:
+    - { nombre: Estación de Kiyosumi-Shirakawa, hora: "09:00", lat: 35.6820504, lon: 139.7987644 }
+    - { nombre: Kiyosumi Teien, zona: Fukagawa, llegada: a-pie, lat: 35.6799810, lon: 139.7977865 }
+    - { nombre: Museo Bashō, zona: Fukagawa, llegada: a-pie, lat: 35.6861290, lon: 139.7940920 }
+    - { nombre: Estatua de Bashō, zona: Fukagawa, llegada: a-pie, lat: 35.6837769, lon: 139.7939490 }
+    - { nombre: "Cambio de hotel, al Resol", hora: "12:30", llegada: metro, lat: 35.6967393, lon: 139.7739276 }
+    - { nombre: "Jinbōchō y Sabouru", hora: tarde, zona: Jinbōchō, llegada: a-pie, lat: 35.6955733, lon: 139.7586758 }
 traslados:
   - desde: "Kanda-Sudachō"
     hasta: "Akihabara (hotel del grupo)"
@@ -23,68 +32,94 @@ blocks:
     time: "09:00–12:00"
     title: Fukagawa, de donde salió Bashō
     body: >-
-      Al otro lado del Sumida está **Fukagawa**, y es el sitio con más literatura por metro cuadrado de
+      Al otro lado del Sumida está **Fukagawa**, el sitio con más literatura por metro cuadrado de
       Tokio: aquí vivió **Matsuo Bashō** en su cabaña junto al río, y **de aquí salió en 1689** a andar
-      los dos mil cuatrocientos kilómetros del *Oku no Hosomichi*, la *Senda hacia tierras hondas*. Hay
-      un museo pequeño y una **estatua suya mirando al río** que gira al atardecer.
-
-      Al lado, el **Kiyosumi Teien**: un jardín de estanque que Iwasaki, el fundador de Mitsubishi, llenó
-      de **piedras traídas en barco desde todo Japón** — cada roca es de una provincia, y hay un camino
-      de piedras planas que cruza el agua a ras. Todo esto está contado en [la ficha de
-      Ryōgoku](#ryogoku), que además te lleva al museo Edo-Tokio y al mundo del sumō.
+      los dos mil cuatrocientos kilómetros del *Oku no Hosomichi*. Se ven el museo pequeño y la
+      estatua junto al río, y al lado, el jardín Kiyosumi Teien.
     window:
       label: Por qué hoy
       body: >-
-        Porque es lo contrario de todo lo que viene después. Los próximos veinte días son once mudanzas,
-        trenes con hora y un grupo que hay que coordinar; esto es un barrio de canales donde no hay nada
-        que coger. Y porque **cierra el hilo literario** que la guía lleva abierto desde
+        Porque es lo contrario de todo lo que viene después: veinte días de once mudanzas, trenes con
+        hora y un grupo que coordinar, frente a un barrio de canales donde no hay nada que coger. Y
+        porque **cierra el hilo literario** que la guía lleva abierto desde
         [los libros](#japon-cine-libros): mañana empieza el viaje que Bashō haría al revés.
+    ver:
+      - ficha: ryogoku
+        nota: El barrio del sumo, de al lado, con el museo Edo-Tokio y el templo del *goma*.
+      - nombre: Museo Bashō
+        maps: Basho Museum Koto Tokyo
+        nota: Pequeño, junto a donde estuvo la cabaña del poeta.
+        lat: 35.6861290
+        lon: 139.7940920
+      - nombre: Estatua de Bashō
+        maps: Matsuo Basho statue Sumida River Terrace Koto
+        nota: Mirando al río. Gira al atardecer.
+        lat: 35.6837769
+        lon: 139.7939490
+      - nombre: Kiyosumi Teien
+        maps: Kiyosumi Teien Garden Tokyo
+        nota: "El estanque de Iwasaki, el de Mitsubishi: **piedras traídas en barco de todo Japón** y un camino que cruza el agua a ras."
+        lat: 35.6799810
+        lon: 139.7977865
+    comer:
+      - comida: koffee-mameya-kakeru
+        nota: "El curso de café, con reserva por web: un grano, cuatro extracciones. A un paso del jardín."
+      - comida: mikawa-zezankyo
+        nota: "Tempura con estrella en Monzen-Nakachō, **nueve sitios** y reserva con semanas. El capricho del viaje en solitario."
   - block: Mediodía
     time: "~12:30"
     title: El cambio de hotel
     body: >-
       Diez minutos andando desde Kanda-Sudachō y ya estás en el hotel del grupo, **sin coger un solo
-      tren**. Deja la maleta aunque no haya habitación —siempre la guardan— y aprovecha para lo práctico
-      de antes de que lleguen: comprar
-      lo que falte, dejar resuelto el **takkyūbin** si vas a mandar equipaje a los Alpes, y **recargar la
-      tarjeta IC**.
+      tren**. Deja la maleta aunque no haya habitación —siempre la guardan— y resuelve lo práctico antes
+      de que lleguen: comprar lo que falte, el **takkyūbin** si vas a mandar equipaje a los Alpes, y
+      **recargar la tarjeta IC**.
     dim: true
     window:
       label: Un apunte de dinero
       body: >-
-        Cuatro noches en dos hoteles distintos significan **dos reservas**, y las dos salen de tu
-        bolsillo, no del bote común. Conviene tenerlo separado desde el principio para que las cuentas
-        del grupo no se enreden a la vuelta.
+        Cuatro noches en dos hoteles distintos son **dos reservas**, y las dos salen de tu bolsillo, no
+        del bote común. Tenlo separado desde el principio para que las cuentas del grupo no se enreden.
   - block: Tarde
     time: "libre"
     title: Lo que te quedara pendiente
     body: >-
-      La tarde es puro comodín, y el mejor uso está **a diez minutos andando de Akihabara**:
-      **Jinbōchō**, el barrio de las librerías de viejo, con [su ficha](#jimbocho) y su hilera de
-      kissaten. El que hay que pisar es [**Sabouru**](#sabouru), de **1955** y con **el mismo dueño desde
-      entonces** —el maestro Suzuki, que pasa de los ochenta y cinco—: tres plantas diminutas de madera,
-      techos bajos y las paredes garabateadas por sesenta años de estudiantes. Pizza toast y café. Cierra
-      los domingos, así que hoy sí.
+      La tarde es puro comodín, y el mejor uso está a un paseo de Akihabara: **Jinbōchō**, el barrio de
+      las librerías de viejo, con [su ficha](#jimbocho) y su hilera de kissaten.
 
-      Si prefieres otra cosa, aquí van dos que tampoco hará el grupo: el **Intermediatheque** de
-      Marunouchi —la colección decimonónica de la Universidad de Tokio en un edificio de los treinta,
-      gratis, contada en [su ficha](#marunouchi)—, o el **valle de Todoroki**, el único barranco de
-      Tokio, en Setagaya.
+      Si prefieres otra cosa, dos que tampoco hará el grupo: el **Intermediatheque** de Marunouchi, o el
+      **valle de Todoroki**.
     window:
       label: O nada de esto
       body: >-
         Hoy también es legítimo no hacer nada. Llevas cuatro días andando y mañana empiezan veintiuno más
         con tres personas que acaban de bajarse de un vuelo de veinte horas. **Guardar fuerzas es una
         opción con argumento.**
+    ver:
+      - nombre: Jinbōchō
+        maps: Jimbocho Book Town Tokyo
+        nota: Ciento treinta librerías de viejo. Casi todo cierra los domingos; hoy es viernes.
+        lat: 35.6953570
+        lon: 139.7597837
+      - ficha: marunouchi
+        nota: "El Intermediatheque: la colección decimonónica de la Universidad de Tokio, gratis, sobre la estación."
+      - nombre: Valle de Todoroki
+        maps: Todoroki Valley Setagaya
+        nota: El único barranco de Tokio, en Setagaya, al otro lado de la ciudad.
+    comer:
+      - comida: sabouru
+        nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."
+      - comida: glitch-coffee
+        nota: El café de tueste claro del barrio, entre las librerías.
   - block: Noche
     time: "21:30"
     title: Llegan los otros tres
     body: >-
       El **CA 421** aterriza en **Haneda a las 19:50** y, con el traslado, están en la habitación sobre
-      las **21:30** — molidos, con ocho husos encima y sin cenar. A partir de aquí manda
+      las **21:30**, molidos, con ocho husos encima y sin cenar. A partir de aquí manda
       [el Día 1](#dia-1-vuelo) y esta sección se acaba.
 
-      Lo mejor que puedes hacer por ellos esta noche es tener localizado **dónde se cena tarde y cerca**,
-      porque a esa hora, con ese cansancio, decidir es lo último que apetece. Y contarles lo justo: ya
-      llevas cuatro días de ventaja y mañana el viaje empieza de cero para los cuatro.
+      Lo mejor que puedes hacer por ellos es tener localizado **dónde se cena tarde y cerca**, porque a
+      esa hora decidir es lo último que apetece. Y contarles lo justo: mañana el viaje empieza de cero
+      para los cuatro.
     dim: true

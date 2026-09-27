@@ -38,6 +38,14 @@ const INLINE_FIELDS: { dir: string, single?: boolean, pick: (doc: Record<string,
         { field: `traslados[${i}].medio`, value: (t as { medio?: unknown }).medio },
         { field: `traslados[${i}].nota`, value: (t as { nota?: unknown }).nota },
       ]),
+      // Las notas de «qué ver» y «dónde comer» de cada bloque: una línea, sin enlaces.
+      ...(Array.isArray(d.blocks) ? d.blocks : []).flatMap((b, i) => {
+        const blk = b as { ver?: { nota?: unknown }[], comer?: { nota?: unknown }[] }
+        return [
+          ...(blk.ver ?? []).map((v, j) => ({ field: `blocks[${i}].ver[${j}].nota`, value: v.nota })),
+          ...(blk.comer ?? []).map((c, j) => ({ field: `blocks[${i}].comer[${j}].nota`, value: c.nota })),
+        ]
+      }),
     ],
   },
   { dir: 'inversiones', pick: d => [{ field: 'title', value: d.title }] }, // InversionCard

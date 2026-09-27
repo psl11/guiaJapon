@@ -11,6 +11,18 @@ dek: >-
   planeta.
 duerme:
   - candeo-roppongi
+mapa:
+  slug: dia-9-yamanote
+  paradas:
+    - { nombre: Hotel Candeo, lat: 35.6620341, lon: 139.7326404 }
+    - { nombre: Meiji Jingū, hora: "08:30", zona: Harajuku, llegada: tren, lat: 35.6748417, lon: 139.6996266 }
+    - { nombre: Takeshita-dōri, hora: "10:00", zona: Harajuku, llegada: a-pie, lat: 35.6711612, lon: 139.7049553 }
+    - { nombre: Omotesandō, zona: Harajuku, llegada: a-pie, lat: 35.6672683, lon: 139.7079259 }
+    - { nombre: Cat Street, hora: "15:00", llegada: a-pie, lat: 35.6640432, lon: 139.7027577 }
+    - { nombre: "Cruce y Hachikō", zona: Shibuya, llegada: a-pie, lat: 35.6590597, lon: 139.7006279 }
+    - { nombre: Shibuya Sky, hora: "16:00", zona: Shibuya, llegada: a-pie, lat: 35.6583792, lon: 139.7022161 }
+    - { nombre: Omoide Yokochō, hora: noche, zona: Shinjuku, llegada: tren, lat: 35.6928662, lon: 139.6995502 }
+    - { nombre: Golden Gai, zona: Shinjuku, llegada: a-pie, lat: 35.6939905, lon: 139.7047001 }
 traslados:
   - desde: "Roppongi"
     hasta: "Narita T1"
@@ -30,9 +42,8 @@ blocks:
     title: Donde el grupo se parte
     body: >-
       La despedida es en un desayuno de hotel y en una boca de metro, que es infinitamente mejor que
-      una parada de autobús en la montaña. **El vuelo sale de Narita a las 12:10** y con el mostrador
-      cerrando una hora antes hay que estar allí a las nueve y media: saliendo del hotel sobre las
-      ocho sobra tiempo. Ver [los vuelos](#vuelos).
+      una parada de autobús en la montaña. **El vuelo sale de Narita a las 12:10** y el mostrador
+      cierra una hora antes: saliendo del hotel sobre las ocho sobra tiempo. Ver [los vuelos](#vuelos).
 
       Ocho días, dos ciudades, un valle sin coches y un pueblo de montaña. A los otros tres les
       quedan doce días más, y hoy los empiezan a cuatro paradas de aquí. Queda pendiente lo que no
@@ -40,10 +51,9 @@ blocks:
     window:
       label: Cómo se va a Narita
       body: >-
-        Desde [Roppongi](#roppongi) gana el **Skyliner de Keisei**: la Hibiya lleva directa a Ueno sin
-        transbordo y allí se sube al tren que hace la terminal en **36 minutos**. Sale cada veinte o
-        cuarenta minutos desde las seis de la mañana, así que no hay que cuadrar nada — basta con
-        aparecer.
+        Gana el **Skyliner de Keisei**: la Hibiya lleva directa a Ueno sin transbordo y allí se sube al
+        tren que hace la terminal en **36 minutos**. Sale cada veinte o cuarenta minutos desde las seis,
+        así que basta con aparecer.
 
         Y un aviso que no es obvio: **la fianza de la tarjeta IC no se devuelve en Narita**, solo en
         Haneda. O se devuelve antes, o la tarjeta se guarda para la próxima vez — que dura diez años.
@@ -51,104 +61,170 @@ blocks:
     time: "08:30"
     title: Meiji Jingū al abrir
     body: >-
-      El santuario [**abre al amanecer y cierra al atardecer**](#meiji-jingu), sin horario fijo: sigue al sol. Entrar
-      con los primeros es cruzar el **torii de ciprés** de doce metros y recorrer un kilómetro de
-      grava bajo un bosque de cien mil árboles donados de todo el país en los años veinte —un
-      bosque enteramente plantado por el hombre que hoy parece primario— hasta un santuario donde a
-      esa hora solo hay sacerdotes barriendo. Es el sitio más silencioso del centro de Tokio y solo lo
-      es una hora al día.
+      El santuario **abre al amanecer y cierra al atardecer**: sigue al sol. Entrar con los primeros es
+      cruzar el **torii de ciprés** de doce metros y recorrer un kilómetro de grava bajo un bosque
+      plantado a mano en los años veinte, hasta un patio donde a esa hora solo hay sacerdotes
+      barriendo. Es el sitio más silencioso del centro de Tokio, y solo lo es una hora al día.
     window:
       label: El mejor día del año para estar aquí, y es casualidad
       body: >-
-        **El 15 de noviembre se celebra el *shichi-go-san***, el rito en que los niños de siete,
-        cinco y tres años van al santuario vestidos de gala tradicional — y Meiji Jingū es *el* sitio
-        donde se hace en Tokio. Este año el 15 cae en domingo, así que **hoy, sábado 14, es la
-        víspera y el santuario estará en su fin de semana grande**: el patio lleno de críos de tres
-        años con kimono y cara de circunstancias, y familias enteras de fotógrafo contratado. Aquí se
-        ve en su versión multitudinaria; mañana, en el santuario de al lado de casa, se verá la de
-        barrio.
+        **El 15 de noviembre se celebra el *shichi-go-san***, el rito en que los niños de siete, cinco
+        y tres años van al santuario vestidos de gala, y Meiji Jingū es *el* sitio donde se hace en
+        Tokio. Este año el 15 cae en domingo, así que **hoy, sábado 14, es la víspera y el santuario
+        estará en su fin de semana grande**: críos de tres años con kimono y cara de circunstancias, y
+        familias con fotógrafo contratado. Mañana se verá la versión de barrio.
 
-        En sábado hay además **bodas sintoístas**, así que a media mañana también se puede cruzar una
-        procesión nupcial —novia de *shiromuku* blanco bajo un parasol rojo, sacerdotes delante—
-        atravesando el patio. Ninguna de las dos cosas se puede reservar: solo estar allí.
+        En sábado hay además **bodas sintoístas**: con suerte, una novia de *shiromuku* blanco bajo un
+        parasol rojo cruzando el patio. Ninguna de las dos cosas se reserva: solo estar allí.
+    ver:
+      - ficha: meiji-jingu
+        nota: El bosque diseñado a ciento cincuenta años vista para parecer primario.
+      - nombre: Meiji Jingū Gyoen
+        maps: Meiji Jingu Gyoen Tokyo
+        nota: El jardín de pago dentro del recinto. En noviembre no va casi nadie.
   - block: Mañana
     time: "10:00–13:00"
     title: Harajuku, Omotesandō y las dos aceras
     body: >-
-      Se sale del bosque y a doscientos metros está [**Takeshita-dōri**](https://www.google.com/maps/search/?api=1&query=Takeshita%20Street%20Harajuku%20Tokyo), la calle de la moda
-      adolescente: estrecha, gritona, saturada, con crepes y tiendas de disfraces. Un sábado está
-      imposible, y verla así es justamente el punto. El antídoto está a la vuelta: [**Omotesandō**](https://www.google.com/maps/search/?api=1&query=Omotesando%20Tokyo), la
-      avenida arbolada donde media docena de arquitectos con Pritzker se han construido una tienda
-      —Itō, Sejima, Kuma, Herzog & de Meuron— y que se recorre mirando fachadas, no escaparates.
-      Doscientos metros separan la cultura pop más ruidosa del país de su arquitectura más seria.
+      Se sale del bosque y a doscientos metros está Takeshita-dōri, la calle de la moda adolescente:
+      estrecha, gritona, imposible un sábado, y verla así es justamente el punto. El antídoto está a la
+      vuelta: Omotesandō, la avenida donde media docena de arquitectos con Pritzker se han construido
+      una tienda, y que se recorre mirando fachadas, no escaparates. Doscientos metros separan la
+      cultura pop más ruidosa del país de su arquitectura más seria.
 
-      Comer cae aquí, y hay dos sitios a ciento cincuenta metros uno de otro en Jingūmae 6, los dos
-      traídos por Alba: [**Henry's Burger**](#henrys-burger-harajuku), wagyu A5 aplastado a la
-      plancha, y [**Menchirashi**](#menchirashi-harajuku), udon de casa con un carbonara que no
-      debería funcionar. La forma sensata de elegir es mirar las dos colas.
-
-      Y entre el bosque y el gentío queda el **parque Yoyogi**, que fue la villa olímpica de 1964
-      antes de ser parque. De aquellos Juegos sobrevive, en su borde, el Gimnasio Nacional de
-      Yoyogi de Kenzō Tange: una cubierta de acero suspendida como un puente colgante, que en
-      su día fue una proeza de ingeniería y que volvió a usarse en los Juegos de 2020. Es el edificio
-      que mejor cuenta el Japón que se reinventó después de la guerra, y está de camino.
+      Entre el bosque y el gentío queda el **parque Yoyogi**, villa olímpica de 1964, con el gimnasio
+      de Kenzō Tange en su borde. Comer cae aquí: los cuatro de abajo los trajo Alba y están en el
+      mismo kilómetro. La forma sensata de elegir es mirar las colas.
     window:
       label: Por qué en fin de semana, y dónde mirar
       body: >-
-        Porque [Harajuku](#harajuku) en fin de semana **es otra cosa**: es cuando la gente se viste
-        para venir. Y el sitio exacto es el [**Jingū-bashi**](https://www.google.com/maps/search/?api=1&query=Jingubashi%20Harajuku%20Tokyo),
-        el puentecito entre la estación y la entrada del santuario: ahí es donde se concentran.
-        Cada estilo tiene nombre propio y se distingue a la vista — los cuatro que vais a ver
-        están en [la ficha de Harajuku](#harajuku), y saberlos cambia bastante lo que se mira.
+        Porque Harajuku en fin de semana **es otra cosa**: es cuando la gente se viste para venir, y
+        se concentran en el Jingū-bashi. Cada estilo tiene nombre propio y se distingue a la vista; los
+        cuatro que vais a ver están en la ficha.
 
-        Lo que sí va aquí porque es una norma y no un dato: **se pide permiso antes de fotografiar**.
-        Van vestidos para que se les vea, no para que se les persiga.
+        Una norma, no un dato: **se pide permiso antes de fotografiar**. Van vestidos para que se les
+        vea, no para que se les persiga.
+    ver:
+      - ficha: harajuku
+        nota: Los cuatro estilos del Jingū-bashi y el catálogo de edificios de Omotesandō.
+      - nombre: Jingū-bashi
+        maps: Jingubashi Harajuku Tokyo
+        nota: El puentecito entre la estación y el santuario, donde se concentran los disfraces.
+        lat: 35.6697179
+        lon: 139.7024123
+      - nombre: Takeshita-dōri
+        maps: Takeshita Street Harajuku Tokyo
+        nota: Trescientos cincuenta metros de crepes, disfraces e *idol shops*. Un sábado, el fenómeno.
+        lat: 35.6711612
+        lon: 139.7049553
+      - nombre: Omotesandō
+        maps: Omotesando Tokyo
+        nota: Prada de Herzog & de Meuron, Dior de SANAA y la rampa en espiral de Andō.
+        lat: 35.6672683
+        lon: 139.7079259
+      - nombre: Gimnasio Nacional de Yoyogi
+        maps: Yoyogi National Gymnasium Tokyo
+        nota: La cubierta colgante de Tange para 1964. Se ve por fuera, y está de camino.
+        lat: 35.6670580
+        lon: 139.6997785
+    comer:
+      - comida: henrys-burger-harajuku
+        nota: Wagyu A5 aplastado a la plancha, sin reserva. Abre todos los días de once a ocho.
+      - comida: menchirashi-harajuku
+        nota: El udon a la carbonara, a ciento cincuenta metros. Cola casi siempre.
+      - comida: udonya-shimbori
+        nota: "Udon de Fukuoka y Sanuki. El sábado solo abre a mediodía, y **solo efectivo**."
+      - comida: yamacho-harajuku
+        nota: Udon hirviendo en cazuela de barro, por mil yenes. Solo mediodía; el domingo cierra.
   - block: Tarde
     time: "15:00–17:00"
     title: El cruce, y la ciudad desde arriba
     body: >-
-      Se baja a Shibuya por **[Cat Street](#shibuya)**, un pasadizo peatonal y curvo que evita las
-      avenidas: veinte minutos entre tiendas pequeñas, y sus curvas son las del río Shibuya, que
-      corre entubado justo debajo. Al final, [**el cruce**](#shibuya) donde tres mil personas atraviesan a la vez sin rozarse, y la estatua de
-      [**Hachikō**](https://www.google.com/maps/search/?api=1&query=Hachiko%20Statue%20Shibuya%20Tokyo), el perro que esperó a su dueño nueve años en esa puerta. Verlo desde la calle está
-      bien; verlo desde arriba lo explica. Para eso, [**Shibuya Sky**](https://www.google.com/maps/search/?api=1&query=Shibuya%20Sky%20Tokyo), la azotea abierta de la torre
-      Scramble Square, con la ciudad de 360 grados y —si el aire está limpio— el Fuji recortado al
-      oeste.
+      Se baja a Shibuya por **Cat Street**, un pasadizo peatonal y curvo que evita las avenidas: veinte
+      minutos entre tiendas pequeñas, y sus curvas son las del río Shibuya, entubado justo debajo. Al
+      final, el cruce donde tres mil personas atraviesan a la vez sin rozarse, y la estatua de Hachikō.
+      Verlo desde la calle está bien; verlo desde arriba lo explica, y para eso está Shibuya Sky, con
+      la ciudad a 360 grados y —si el aire está limpio— el Fuji al oeste.
     window:
       label: Ventana óptima
       body: >-
-        Aquí hay que **reservar con antelación y elegir la franja del atardecer**, que en noviembre es
-        temprana: el sol se pone hacia las 16:40. La entrada ideal es sobre las 16:00, para coger
-        la última luz sobre el Fuji, el crepúsculo y el encendido de la ciudad en una sola visita. Y
-        noviembre juega a favor en algo concreto: el aire de invierno es el más transparente del
-        año y el Fuji se ve muchísimos más días que en verano.
+        Hay que **reservar con antelación y elegir la franja del atardecer**: el sol se pone hacia las
+        16:40, así que se entra sobre las 16:00 para coger la última luz sobre el Fuji, el crepúsculo y
+        el encendido de la ciudad en una sola visita. El aire de noviembre es el más transparente del
+        año.
+    ver:
+      - ficha: shibuya
+        nota: Hachikō, el río tapado bajo Cat Street y las cuatro ventanas al cruce.
+      - nombre: Cat Street
+        maps: Cat Street Harajuku Tokyo
+        nota: Un kilómetro peatonal y curvo de Harajuku a Shibuya, sin tráfico.
+        lat: 35.6640432
+        lon: 139.7027577
+      - nombre: Hachikō
+        maps: Hachiko Statue Shibuya Tokyo
+        nota: La estatua del perro que esperó nueve años, junto al cruce. Hay cola para la foto.
+        lat: 35.6590597
+        lon: 139.7006279
+      - nombre: Shibuya Sky
+        maps: Shibuya Sky Tokyo
+        nota: La azotea abierta de Scramble Square. Franja de las 16:00, con reserva.
+        lat: 35.6583792
+        lon: 139.7022161
+      - nombre: Nonbei Yokochō
+        maps: Nonbei Yokocho Shibuya Tokyo
+        nota: Barras minúsculas de posguerra junto a las vías, a cincuenta metros del cruce.
+    comer:
+      - comida: edw-yellow-shibuya
+        nota: El *omurice* que se abre en la mesa, en Udagawachō. Solo pago electrónico.
+      - comida: chatei-hatou
+        nota: Café de manga de franela a dos calles del cruce, donde el ruido baja de golpe.
+      - comida: shogun-burger
+        nota: Wagyu sin reserva y sin cola que cuadrar, con sede en Shibuya.
+      - comida: tsuta-yoyogi-uehara
+        nota: El primer ramen con estrella Michelin, a dos paradas por la Chiyoda. Reserva por internet.
   - block: Noche
     time: "noche"
     title: Los callejones de Shinjuku
     body: >-
-      Cena a veinte minutos en tren: la Sōbu amarilla va directa desde casa y sin transbordo. Dos
-      callejones pegados el uno al otro y muy distintos:
-      **Omoide Yokochō**, dos pasillos de barras de seis taburetes bajo faroles rojos donde se cena
-      [yakitori](#yakitori) al humo; y el laberinto de Golden Gai, doscientos bares diminutos de
-      dos plantas, cada uno con su tema.
+      Cena a veinte minutos de casa, en dos callejones pegados y muy distintos: **Omoide Yokochō**,
+      dos pasillos de barras de seis taburetes bajo faroles rojos donde se cena [yakitori](#yakitori)
+      al humo, y el laberinto de Golden Gai, doscientos bares diminutos de dos plantas, cada uno con
+      su tema.
 
       Aviso para un grupo de cuatro: **no cabéis juntos en casi ningún sitio**, así que la noche va
       por turnos o de pie. Varios bares cobran cubierto, está anunciado en la puerta y no es una
-      estafa. Y si a alguien le da hambre a la una de la mañana, el
-      [Ramen Nagi](#ramen-nagi) está abierto dentro del propio Golden Gai.
+      estafa.
 
-      Un aviso que no hacía falta si durmierais aquí: **mirad el último tren antes de la tercera
-      copa**. Es la diferencia entre veinte minutos de Sōbu y un taxi de cuatro o cinco mil yenes.
-
-      De dónde salen estos callejones y por qué siguen ahí, en [la ficha de Shinjuku](#shinjuku).
+      Y **mirad el último tren antes de la tercera copa**: es la diferencia entre veinte minutos de
+      vuelta y un taxi de cuatro o cinco mil yenes.
+    ver:
+      - ficha: shinjuku
+        nota: De dónde salen estos callejones y por qué nadie los ha demolido.
+      - nombre: Omoide Yokochō
+        maps: Omoide Yokocho Shinjuku Tokyo
+        nota: Dos pasillos de *yakitori* bajo faroles rojos, lo que queda del mercado negro.
+        lat: 35.6928662
+        lon: 139.6995502
+      - nombre: Golden Gai
+        maps: Golden Gai Shinjuku Tokyo
+        nota: Doscientos bares de seis plazas. Cubierto anunciado en la puerta, y es legítimo.
+        lat: 35.6939905
+        lon: 139.7047001
+      - reco: alba-omoide-yokocho-turistada
+        nota: La pega de Alba a Omoide Yokochō, y el aviso de los captadores en la calle.
+    comer:
+      - comida: yonpachi-shinjuku
+        nota: "La alternativa con mesa: *izakaya* de pescado con bonito quemado a la paja."
+      - comida: ramen-nagi
+        nota: Ramen de sardina seca dentro del propio Golden Gai, abierto las veinticuatro horas.
 alt:
   label: Si te desmarcas
   body: >-
     Tres desvíos que se hacen desde aquí mismo:
 
     - El [**Museo Nezu**](https://www.google.com/maps/search/?api=1&query=Nezu%20Museum%20Tokyo), un
-    edificio de Kengo Kuma con un jardín que no parece Tokio. A diez minutos de
-    [Omotesandō](#harajuku), y cierra los lunes, no hoy.
+    edificio de Kengo Kuma con un jardín que no parece Tokio. A diez minutos de Omotesandō, y cierra
+    los lunes, no hoy.
     - [**Shimokitazawa**](https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Tokyo), dos
     paradas al oeste: segunda mano, discos y teatro pequeño. Es donde va la gente de esta ciudad
     cuando no quiere turistas.

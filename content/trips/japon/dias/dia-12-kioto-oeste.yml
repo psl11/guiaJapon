@@ -10,6 +10,17 @@ dek: >-
   hora a la que se llega.
 duerme:
   - androoms-kyoto-shichijo
+mapa:
+  slug: dia-12-kioto-oeste
+  paradas:
+    - { nombre: Saga-Arashiyama, hora: "07:00", zona: Arashiyama, lat: 35.0187788, lon: 135.6814128 }
+    - { nombre: Bambusal, zona: Arashiyama, llegada: a-pie, lat: 35.0167419, lon: 135.6711482 }
+    - { nombre: Tenryū-ji, hora: "08:30", zona: Arashiyama, llegada: a-pie, lat: 35.0162243, lon: 135.6729408 }
+    - { nombre: Ōkōchi Sansō, zona: Arashiyama, llegada: a-pie, lat: 35.0166334, lon: 135.6695863 }
+    - { nombre: Togetsukyō, zona: Arashiyama, llegada: a-pie, lat: 35.0128713, lon: 135.6777623 }
+    - { nombre: Kinkaku-ji, hora: "14:30", zona: Noroeste, llegada: tren, lat: 35.0395293, lon: 135.7295373 }
+    - { nombre: Ryōan-ji, zona: Noroeste, llegada: a-pie, lat: 35.0334630, lon: 135.7180884 }
+    - { nombre: Ninna-ji, zona: Noroeste, llegada: a-pie, lat: 35.0298117, lon: 135.7141499 }
 blocks:
   - block: Amanecer
     time: "07:00–09:00"
@@ -19,43 +30,62 @@ blocks:
       **con la primera luz**. Cuatrocientos metros de camino entre cañas de veinte metros.
 
       El consejo es raro y es el bueno: **parad y callaos un minuto**. Lo que está protegido aquí
-      oficialmente no es la vista, es el sonido —y a las diez de la mañana no se oye nada porque hay
-      mil personas hablando. Ver [Arashiyama](#arashiyama).
+      oficialmente no es la vista, es el sonido, y a las diez de la mañana no se oye nada porque hay
+      mil personas hablando.
     window:
       label: Ventana óptima
       body: >-
         **A las siete se camina solo; a las diez es una estación de metro en hora punta.** No hay
         término medio, y por eso este día empieza antes que ningún otro de Kioto.
+    ver:
+      - ficha: arashiyama
+        nota: El bosque protegido por su sonido, el jardín de Musō Sōseki y el pueblo de detrás.
+      - nombre: Bambusal de Arashiyama
+        maps: Arashiyama Bamboo Grove
+        nota: Abierto siempre y gratis. A las siete, para vosotros.
+        lat: 35.0167419
+        lon: 135.6711482
   - block: Mañana
     time: "09:00–12:00"
     title: Tenryū-ji, la villa vacía y el río
     body: >-
       **Tenryū-ji abre a las 8:30** y tiene una puerta trasera que da directamente al bambusal, así
       que el truco es hacerlo al revés que todo el mundo: **primero el jardín, y se sale por detrás
-      al bosque** antes de que lleguen los autobuses.
-
-      Al lado, [**Ōkōchi Sansō**](https://www.google.com/maps/search/?api=1&query=Okochi%20Sanso%20Villa%20Kyoto):
-      la entrada incluye **té y dulce** y sirve para lo que aquí hace falta: sentarse. Ver
-      [Arashiyama](#arashiyama). Después, el puente Togetsukyō. Lo que
-      son y de dónde vienen, en [Arashiyama](#arashiyama).
+      al bosque** antes de que lleguen los autobuses. Al lado, Ōkōchi Sansō, para sentarse. Después,
+      el puente Togetsukyō.
 
       **Y aquí hay una decisión que tomar, y es la razón por la que este día es martes y no
       miércoles.** Donde termina la villa arranca **Saga-Toriimoto**, una calle conservada que sube
-      hacia el monte Atago y que en veinticinco minutos andando lleva a dos templos que no se parecen
-      a nada: el [**Adashino Nenbutsu-ji**](#alba-adashino-nenbutsuji), con ocho mil budas de piedra
-      puestos por los viajeros que morían en el camino, y el
-      [**Otagi Nenbutsu-ji**](#alba-otagi-nenbutsuji), con mil doscientas figuras de los discípulos
-      del Buda talladas por aficionados de todo el país en los años ochenta —una con raqueta de
-      tenis, otra con cámara de fotos—. De paso quedan el Giō-ji y el Jōjakkō-ji.
+      hacia el monte Atago y que en veinticinco minutos andando lleva a los dos Nenbutsu-ji. De paso
+      quedan el Giō-ji y el Jōjakkō-ji.
 
       Cuesta unas dos horas con la subida, y en noviembre **el sol se pone a las 16:40**. Quien suba
       llega al noroeste con tiempo para el pabellón dorado y el Ryōan-ji, pero no para los tres:
       **el Ninna-ji es lo que se paga**. Los dos templos cierran los miércoles, así que esta puerta
       solo existe hoy.
-
-      Y para comer antes de cruzar la ciudad, [**Itsukichaya**](#itsukichaya-arashiyama) está en la
-      isla que queda entre los dos brazos del río, con el Togetsukyō delante. **Es solo con reserva
-      por internet**, y las mesas al agua se agotan con meses, así que o se decide ahora o no hay.
+    ver:
+      - nombre: Tenryū-ji
+        maps: Tenryuji Temple Arashiyama Kyoto
+        nota: El jardín de 1339 que mejor conserva su trazado en Japón, con el monte como fondo prestado.
+        lat: 35.0162243
+        lon: 135.6729408
+      - nombre: Ōkōchi Sansō
+        maps: Okochi Sanso Villa Kyoto
+        nota: La villa de una estrella del cine mudo. La entrada incluye té y dulce, y está vacía.
+        lat: 35.0166334
+        lon: 135.6695863
+      - nombre: Togetsukyō
+        maps: Togetsukyo Bridge Arashiyama
+        nota: «El puente que cruza la luna», con la ladera encendida detrás en otoño.
+        lat: 35.0128713
+        lon: 135.6777623
+      - reco: alba-adashino-nenbutsuji
+        nota: Ocho mil budas de piedra de viajeros muertos en el camino. Cierra miércoles y sábados.
+      - reco: alba-otagi-nenbutsuji
+        nota: Mil doscientos discípulos del Buda tallados por aficionados en los ochenta. Cierra los miércoles.
+    comer:
+      - comida: shigetsu
+        nota: "*Shōjin ryōri* dentro del Tenryū-ji, mirando al jardín. Solo a mediodía."
   - block: Mediodía
     time: "12:00–14:30"
     title: Cruzar la ciudad al noroeste
@@ -63,44 +93,63 @@ blocks:
       Kioto tiene el transporte como punto flaco —**el metro son dos líneas en cruz** y casi todo va
       en autobús urbano, que en temporada va lleno—. Este traslado es el peor del día: conviene
       hacerlo comiendo, o coger un taxi entre cuatro, que sale a cuenta.
+    comer:
+      - comida: itsukichaya-arashiyama
+        nota: "*Obanzai* en la isla del río, frente al Togetsukyō. Solo con reserva por internet y en efectivo."
+      - comida: odai-sushi-kyoto
+        nota: "*Omakase* sin cartel ni carta en una casa de Saga. Siete asientos, solo efectivo."
   - block: Tarde
     time: "14:30–17:00"
     title: El sendero de la capa de seda
     body: >-
-      Tres templos en una línea, y los tres del mismo tirón:
-
-      - El **pabellón dorado**. El que se ve es de 1955: el original lo quemó un monje en 1950, y de
-      aquello sacó Mishima *El pabellón de oro*.
-      - El [**Ryōan-ji**](https://www.google.com/maps/search/?api=1&query=Ryoanji%20Kyoto) y sus quince
-      rocas, de las que **nunca se ven las quince a la vez**.
-      - El [**Ninna-ji**](https://www.google.com/maps/search/?api=1&query=Ninnaji%20Kyoto), del año 888,
-      con su palacio imperial y su pagoda. Aquí ya no queda nadie.
+      Tres templos en una línea, y los tres del mismo tirón: el pabellón dorado, el jardín seco del
+      Ryōan-ji y el Ninna-ji, donde ya no queda nadie.
     window:
       label: Ventana óptima
       body: >-
         El pabellón mira al este, así que **la luz buena es la de la mañana**; por la tarde va a
         contraluz. A cambio, a las cuatro de la tarde hay la mitad de gente. Si la foto importa más
         que la calma, hay que invertir el día entero y empezar por aquí.
+    ver:
+      - ficha: kinkakuji
+        nota: El pabellón de 1955, el monje que quemó el original en 1950 y la novela de Mishima.
+      - nombre: Ryōan-ji
+        maps: Ryoanji Temple Kyoto
+        nota: Quince rocas sobre grava, y desde ningún punto del porche se ven las quince.
+        lat: 35.0334630
+        lon: 135.7180884
+      - nombre: Ninna-ji
+        maps: Ninnaji Temple Kyoto
+        nota: Del año 888, con palacio imperial y pagoda. El palacio se paga aparte y merece la pena.
+        lat: 35.0298117
+        lon: 135.7141499
   - block: Noche
     time: "noche"
     title: Pontochō
     body: >-
       De vuelta al centro, **Pontochō** es un callejón de cuatrocientos metros paralelo al río Kamo,
-      ancho como un pasillo, con farolillos y restaurantes a los dos lados — muchos con terraza
-      volada sobre el agua en verano. Es turístico y sigue siendo bonito. Y a dos calles está
-      [**Nishiki**](https://www.google.com/maps/search/?api=1&query=Nishiki%20Market%20Kyoto) de noche, con los puestos cerrados y las persianas pintadas.
+      ancho como un pasillo, con farolillos y restaurantes a los dos lados. Es turístico y sigue
+      siendo bonito. Y a dos calles está Nishiki de noche, con los puestos cerrados y las persianas
+      pintadas.
+    ver:
+      - nombre: Pontochō
+        maps: Pontocho Kyoto
+        nota: El callejón de los farolillos, entre Sanjō y Shijō, pegado al río.
+        lat: 35.0042456
+        lon: 135.7712126
+    comer:
+      - comida: gansan-pontocho
+        nota: Yakiniku de ternera de Matsusaka con reservados al río. Solo cena, y hay que reservar.
+      - comida: bees-knees
+        nota: La coctelería de Kioto en Asia's 50 Best, detrás de una puerta sin rótulo.
 alt:
   label: Si te desmarcas
   body: >-
-    Arashiyama tiene tres desvíos que casi nadie hace:
+    Arashiyama tiene dos desvíos que casi nadie hace, además de la subida a Saga-Toriimoto:
 
     - [**Iwatayama**](https://www.google.com/maps/search/?api=1&query=Iwatayama%20Monkey%20Park%20Kyoto),
     el parque de macacos de lo alto de la colina. **Las jaulas son para las personas.** Y desde
     arriba se ve Kioto entero.
-    - [**Saga-Toriimoto**](https://www.google.com/maps/search/?api=1&query=Saga%20Toriimoto%20Kyoto),
-    un distrito histórico protegido que se sube desde el bambusal. Acaba en el
-    [**Adashino Nenbutsu-ji**](https://www.google.com/maps/search/?api=1&query=Adashino%20Nenbutsuji%20Kyoto)
-    y sus **ocho mil estatuillas** de piedra, recogidas de tumbas sin nombre.
     - El [**Kimono Forest**](https://www.google.com/maps/search/?api=1&query=Kimono%20Forest%20Arashiyama)
     de la estación del tranvía Randen: seiscientos cilindros con estampados de kimono, iluminados
     por dentro al anochecer.

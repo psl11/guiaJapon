@@ -11,6 +11,16 @@ dek: >-
   grandes, juntos en el parque de Ueno—. Por la tarde, el Meiji Jingū saca los caballos.
 duerme:
   - candeo-shimbashi
+mapa:
+  slug: solo-2-yabusame
+  paradas:
+    - { nombre: Estación de Ueno, hora: "09:15", lat: 35.7140413, lon: 139.7771164 }
+    - { nombre: "Galería del Hōryū-ji", hora: "09:30", zona: Ueno, llegada: a-pie, lat: 35.7186648, lon: 139.7740864 }
+    - { nombre: Estación de Yoyogi, hora: "12:00", llegada: tren, lat: 35.6830147, lon: 139.7020698 }
+    - { nombre: "Meiji Jingū, el yabusame", hora: "13:00", zona: Meiji Jingū, llegada: a-pie, lat: 35.6748417, lon: 139.6996266 }
+    - { nombre: Omotesandō, hora: "15:00", zona: Omotesandō, llegada: a-pie, lat: 35.6651609, lon: 139.7125432 }
+    - { nombre: Museo Nezu, zona: Omotesandō, llegada: a-pie, lat: 35.6622429, lon: 139.7172555 }
+    - { nombre: Meikyoku Kissa Lion, hora: "18:00", zona: Shibuya, llegada: a-pie, lat: 35.6592775, lon: 139.6963633 }
 traslados:
   - desde: "Shimbashi"
     hasta: "Ueno"
@@ -29,95 +39,100 @@ blocks:
     time: "09:30–11:15"
     title: El Museo Nacional, y hoy sin pagar
     body: >-
-      Hoy **el Tokyo National Museum es gratis** —como el de Arte Occidental, el de Ciencias y el de
-      Arte Moderno—, y los tienes los cuatro juntos en el parque de Ueno. Con hora y media
-      no se ve el museo entero, así que la jugada es ir a **una sola sala** y verla bien: la **galería de
-      los Tesoros del Hōryū-ji**.
-
-      Es un edificio aparte, de **Yoshio Taniguchi** (el mismo que rehízo el MoMA), y dentro guarda
-      **cuarenta y ocho estatuillas budistas de bronce del siglo VII** que el templo Hōryū-ji de Nara
-      cedió a la casa imperial en 1878. Están en una penumbra casi total, alineadas en vitrinas negras,
-      cada una con su punto de luz. Es una de las mejores salas de museo del mundo y casi nadie que
-      visita Tokio por primera vez llega a ella.
+      Hoy **el Tokyo National Museum es gratis**, como el de Arte Occidental, el de Ciencias y el de
+      Arte Moderno, los cuatro en el parque de Ueno. Hora y media no da para el museo entero, así que
+      la jugada es **una sola sala** y verla bien: la **galería de los Tesoros del Hōryū-ji**.
     window:
       label: Por qué esta sala y no el museo
       body: >-
         Porque el Honkan pide tres horas y hoy tienes hora y media. Y porque, con **Nara fuera del
-        itinerario del grupo**, esta sala es lo más cerca que vas a estar del Japón del siglo VII en todo
-        el viaje: son las piezas del Hōryū-ji —el conjunto de madera más antiguo del mundo— sin tener
-        que bajar a Nara a por ellas. Es un premio de consolación que resulta ser mejor que el premio.
+        itinerario del grupo**, estas son las piezas del Hōryū-ji —el conjunto de madera más antiguo
+        del mundo— sin bajar a Nara a por ellas. Un premio de consolación mejor que el premio.
+    ver:
+      - ficha: ueno
+        nota: Por qué el parque es un escudo contra los demonios, y qué hay en cada museo.
+      - nombre: Galería de los Tesoros del Hōryū-ji
+        maps: Gallery of Horyuji Treasures Tokyo National Museum
+        nota: "Edificio de **Yoshio Taniguchi**: cuarenta y ocho budas de bronce del siglo VII en penumbra, cada uno con su luz."
+        lat: 35.7186648
+        lon: 139.7740864
   - block: Mediodía
     time: "12:00–13:00"
     title: Llegar pronto a la explanada oeste
     body: >-
-      El Meiji Jingū celebra hoy su **Gran Festival de Otoño**, y el bosque está distinto: hay
-      **exposición de crisantemos** —la flor imperial, cultivada en formas que tardan un año— y
-      demostraciones de artes marciales y música de corte a lo largo del día.
+      El Meiji Jingū celebra hoy su **Gran Festival de Otoño**: hay **exposición de crisantemos**, la
+      flor imperial cultivada en formas que tardan un año, y artes marciales y música de corte a lo
+      largo del día.
 
-      Pero hay que llegar con hora de margen, porque el sitio del yabusame **se llena y cierran el
-      acceso cuando revienta**. Se ve de pie, gratis, sin entrada ni reserva. Cómete algo antes: dentro
-      no vas a querer moverte.
+      Hay que llegar con hora de margen, porque el sitio del yabusame **se llena y cierran el acceso
+      cuando revienta**. Se ve de pie, gratis, sin entrada. Cómete algo antes: dentro no vas a querer
+      moverte.
     window:
       label: El error que comete todo el mundo
       body: >-
         Bajarse en **Harajuku**. El yabusame es en la **explanada oeste** y la estación buena es
-        **Yoyogi**; desde Harajuku son quince minutos más de bosque y llegas cuando ya no hay hueco en
-        primera fila.
+        **Yoyogi**; desde Harajuku son quince minutos más de bosque y llegas sin hueco en primera fila.
+    ver:
+      - ficha: meiji-jingu
+        nota: El santuario de un emperador, dentro de un bosque plantado a mano.
   - block: Tarde
     time: "13:00–14:30"
     title: Yabusame, tiro con arco a caballo
     body: >-
-      A las **13:00** empieza. Primero un **rito por la paz** hacia las 13:10, y a las **13:15 suena el
-      tambor de salida**. Entonces los arqueros bajan una pista larga **al galope**, con traje de caza
-      del período Kamakura, y disparan a **tres blancos sucesivos a su izquierda** sin tocar las riendas.
+      A las **13:00** empieza: un **rito por la paz** hacia las 13:10 y, a las **13:15**, el tambor de
+      salida. Los arqueros bajan una pista larga **al galope**, con traje de caza del período Kamakura,
+      y disparan a **tres blancos sucesivos a su izquierda** sin tocar las riendas.
 
-      No es una competición ni un espectáculo: es un **rito sintoísta**. Los arqueros no compiten por
-      puntería, ofrecen los disparos a los dioses pidiendo paz, buena cosecha y salud. Cuando un blanco
-      revienta, la grada entera responde.
+      No es una competición: es un **rito sintoísta**, disparos ofrecidos a los dioses por la paz, la
+      cosecha y la salud. Cuando un blanco revienta, la grada entera responde.
     window:
       label: Para la cámara
       body: >-
-        Con un 35 mm fijo no vas a congelar al caballo pasando: **no lo intentes**. Lo que sí tienes es
-        todo lo demás — los arqueros esperando turno, los trajes, las caras de la gente apretada contra
-        la cuerda, el humo del tambor. La foto de este día no es el galope, es el rito alrededor del
-        galope.
+        Con un 35 mm fijo no vas a congelar al caballo: **no lo intentes**. La foto de este día no es
+        el galope, es el rito alrededor del galope — los arqueros esperando turno, los trajes, las caras
+        contra la cuerda.
   - block: Atardecer
     time: "15:00–18:00"
     title: Omotesandō, la calle de los arquitectos
     body: >-
-      Cuando se deshaga el gentío, el bosque del Meiji Jingū se queda tranquilo otra vez: es el momento
-      de andarlo despacio y ver los crisantemos sin cola. Y al salir por el sur tienes **Omotesandō**,
-      que para quinta visita es mejor plan que Shibuya: en un kilómetro de avenida hay edificios de
-      **Tadao Andō, Kengo Kuma, SANAA, Toyo Itō y Herzog & de Meuron** —la Prada de burbujas de cristal
-      es de estos últimos—. Es un catálogo de arquitectura japonesa contemporánea a pie de calle, gratis
-      y sin cola.
-
-      Si quieres rematar dentro, el **Museo Nezu** está al final de la avenida: colección de arte
-      asiático en un edificio de Kuma y, detrás, **un jardín con estanque y casas de té** que no espera
-      nadie en mitad de Aoyama.
+      Cuando se deshaga el gentío, el bosque se queda tranquilo: es el momento de ver los crisantemos
+      sin cola. Al salir por el sur, **Omotesandō**, que para quinta visita es mejor plan que Shibuya:
+      un kilómetro de avenida con edificios de **Andō, Kuma, SANAA, Itō y Herzog & de Meuron**. Al
+      final de la avenida, si quieres rematar dentro, el Museo Nezu.
     window:
       label: Ventana óptima
       body: >-
-        Las fachadas de Omotesandō son casi todas de vidrio y metal: **funcionan a última hora**, cuando
-        el sol entra bajo y se encienden desde dentro. A mediodía son planas. El Nezu cierra a las 17:00,
-        así que si lo quieres, entra antes y deja la avenida para la caída.
+        Las fachadas son casi todas de vidrio y metal: **funcionan a última hora**, cuando se encienden
+        desde dentro. El Nezu cierra a las 17:00, así que entra antes y deja la avenida para la caída.
+    ver:
+      - ficha: harajuku
+        nota: Edificio por edificio, qué hay en el catálogo de arquitectura de Omotesandō.
+      - nombre: Museo Nezu
+        maps: Nezu Museum Tokyo
+        nota: Arte asiático en un edificio de Kuma y, detrás, un jardín con estanque y casas de té.
+        lat: 35.6622429
+        lon: 139.7172555
+    comer:
+      - comida: henrys-burger-harajuku
+        nota: La comida que no has hecho. Wagyu A5 a la plancha, abre todos los días de once a ocho.
+      - comida: menchirashi-harajuku
+        nota: "El udon a la carbonara, en la Cat Street. **Los martes cierra a las 16:30**: ve primero."
+      - comida: harajuku-gyoza-lou
+        nota: Gyōza a trescientos yenes la ración, en veinte minutos y en Meiji-dōri.
   - block: Noche
     time: "18:00–19:30"
     title: El kissa donde está prohibido hablar
     body: >-
-      Bajando Omotesandō se llega a Shibuya, y ahí está el remate del día: el [**Meikyoku Kissa
-      Lion**](#meikyoku-kissa-lion), de **1926**. Es un *café de música maestra* — el género que nació
-      cuando oír una sinfonía costaba más que un sueldo y la única manera era pagar un café en un local
-      con equipo. Las butacas están atornilladas **mirando a los altavoces**, como en un cine; hay un
-      programa impreso de lo que va a sonar; la luz es de vela.
-
-      Y **no se habla**: ni conversación, ni móvil, ni cámara. Se pide en voz baja, se sienta uno y se
-      escucha. A tres minutos del cruce más ruidoso del mundo.
+      Bajando Omotesandō se llega a Shibuya, y ahí está el remate del día: un café de música maestra
+      de **1926**, con las butacas atornilladas **mirando a los altavoces** y un programa impreso de lo
+      que va a sonar. **No se habla**: ni conversación, ni móvil, ni cámara. A tres minutos del cruce
+      más ruidoso del mundo.
     dim: true
     window:
       label: Por qué cierra bien el día
       body: >-
-        Porque llevas desde las nueve y media de pie y con gente: museo, gentío del festival, caballos,
-        avenida. El Lion es lo contrario de todo eso y **no te deja hacer nada** —ni mirar el móvil ni
-        hablar—, que es justo lo que hace falta antes de volver a Shimbashi al Sky Spa. Deja la cámara guardada:
-        aquí está prohibida, y esa es media gracia del sitio.
+        Porque llevas desde las nueve y media de pie y con gente. El Lion es lo contrario y **no te deja
+        hacer nada**, que es justo lo que hace falta antes de volver a Shimbashi al Sky Spa.
+    comer:
+      - comida: meikyoku-kissa-lion
+        nota: Un café solo, que es lo que da derecho a la butaca. Se paga al salir.

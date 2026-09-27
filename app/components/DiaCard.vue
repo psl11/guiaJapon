@@ -9,9 +9,19 @@
 // servidor y cliente. La prosa (dek, cuerpo, ventana) va con <MDC :value> SIN unwrap dentro de su
 // contenedor <div>, donde el div raíz de MDC es HTML válido.
 import type { Dia, Hotel } from '~~/shared/schemas'
+import { dayMaps } from './routeMapsGeo.js'
 
 // `hoteles` llega ya resuelto desde TripView (los de `dia.duerme`, en ese orden).
-defineProps<{ dia: Dia, hoteles?: Hotel[] }>()
+const props = defineProps<{ dia: Dia, hoteles?: Hotel[] }>()
+
+// Letra de cada punto en el mapa del día (la reparte scripts/build-routemap.mjs), para que la lista
+// del bloque y el mapa se señalen entre sí.
+const letras = computed<Record<string, string>>(() => {
+  const g = props.dia.mapa && (dayMaps as Record<string, { extras?: { key: string, letra: string }[], enParada?: Record<string, string> }>)[props.dia.mapa.slug]
+  // Lo que coincide con una parada del recorrido lleva su número («#3»), no una letra.
+  const paradas = Object.fromEntries(Object.entries(g?.enParada ?? {}).map(([k, n]) => [k, '#' + n]))
+  return { ...paradas, ...Object.fromEntries((g?.extras ?? []).map(e => [e.key, e.letra])) }
+})
 </script>
 
 <template>
@@ -130,6 +140,16 @@ defineProps<{ dia: Dia, hoteles?: Hotel[] }>()
           <div class="dia-btext">
             <MDC :value="b.body" />
           </div>
+          <RouteMap
+            v-if="b.ruta"
+            :ruta="b.ruta"
+          />
+          <BlockPicks
+            v-if="b.ver || b.comer"
+            :ver="b.ver"
+            :comer="b.comer"
+            :letras="letras"
+          />
           <div
             v-if="b.window"
             class="dia-window"
@@ -144,6 +164,11 @@ defineProps<{ dia: Dia, hoteles?: Hotel[] }>()
         </div>
       </section>
     </div>
+
+    <DayMap
+      v-if="dia.mapa"
+      :mapa="dia.mapa"
+    />
 
     <!--
       ALTERNATIVAS. Va FUERA del arco de bloques a propósito: no es un momento del día, es una carta

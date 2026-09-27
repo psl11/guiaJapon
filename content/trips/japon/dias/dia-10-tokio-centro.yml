@@ -10,76 +10,104 @@ dek: >-
   alrededor el distrito financiero más caro del país construido sobre lo que fue un castillo.
 duerme:
   - candeo-roppongi
+mapa:
+  slug: dia-10-tokio-centro
+  paradas:
+    - { nombre: Hotel Candeo, lat: 35.6620341, lon: 139.7326404 }
+    - { nombre: Kanda Myōjin, hora: "08:00", llegada: metro, lat: 35.7019403, lon: 139.7677388 }
+    - { nombre: Tumba de Masakado, hora: "09:30", zona: Palacio, llegada: metro, lat: 35.6872651, lon: 139.7627019 }
+    - { nombre: Higashi Gyoen, zona: Palacio, llegada: a-pie, lat: 35.6867006, lon: 139.7573959 }
+    - { nombre: Nijūbashi, zona: Palacio, llegada: a-pie, lat: 35.6802215, lon: 139.7535986 }
+    - { nombre: Estación de Tokio, hora: "12:30", zona: Marunouchi, llegada: a-pie, lat: 35.6811505, lon: 139.7659765 }
+    - { nombre: Sengaku-ji, hora: "15:00", llegada: tren, lat: 35.6373043, lon: 139.7360455 }
+    - { nombre: Yebisu Garden Place, llegada: tren, lat: 35.6420419, lon: 139.7135595 }
+    - { nombre: Azabu-Jūban, hora: noche, llegada: metro, lat: 35.6567021, lon: 139.7361025 }
 blocks:
   - block: Mañana
     time: "08:00–09:30"
     title: El santuario de la esquina, en su día grande
     body: >-
       Se empieza cruzando la ciudad en diagonal: la **Hibiya** va de Roppongi a Akihabara sin
-      transbordo y de la boca de metro al santuario hay siete minutos cuesta arriba. Allí está el
-      [**Kanda Myōjin**](https://www.google.com/maps/search/?api=1&query=Kanda%20Myojin%20Shrine%20Tokyo),
-      el santuario que guarda este trozo de ciudad desde hace mil años y al que las tiendas de
-      [Akihabara](#akihabara) llevan los ordenadores a bendecir — hay amuletos para el disco duro, y
-      no es una broma para turistas. Dentro está consagrado **Taira no Masakado**, que es el hilo del
-      que tira todo el día: dentro de una hora vais a estar de pie delante de su tumba.
+      transbordo y de la boca de metro al santuario hay siete minutos cuesta arriba. El Kanda Myōjin
+      guarda este trozo de ciudad desde hace mil años, y las tiendas de Akihabara le llevan los
+      ordenadores a bendecir. Dentro está consagrado **Taira no Masakado**, el hilo del que tira todo
+      el día: dentro de una hora vais a estar delante de su tumba.
     window:
       label: Por qué hoy, y no cualquier domingo
       body: >-
         **Hoy, 15 de noviembre, se celebra el *shichi-go-san***: los niños de siete, cinco y tres años
-        van al santuario vestidos de gala. Cae en la fecha exacta y en domingo, así que los patios
-        van a estar llenos de críos con kimono y de familias con fotógrafo contratado. Ayer lo
-        rozasteis en [Meiji Jingū](#meiji-jingu), que es donde se hace a lo grande; aquí se ve la
-        versión de barrio, con veinte familias en vez de doscientas, y se está mucho más cerca.
+        van al santuario vestidos de gala, y cae en la fecha exacta y en domingo. Ayer lo rozasteis en
+        [Meiji Jingū](#meiji-jingu), que es donde se hace a lo grande; aquí se ve la versión de barrio,
+        con veinte familias en vez de doscientas, y mucho más cerca.
 
         No se reserva ni se paga: la única condición es pasarse por la mañana, que es cuando van.
+    ver:
+      - nombre: Kanda Myōjin
+        maps: Kanda Myojin Shrine Tokyo
+        nota: Amuletos para el disco duro, y no es broma para turistas. Consagrado a Masakado.
+        lat: 35.7019403
+        lon: 139.7677388
+      - nombre: Yushima Seidō
+        maps: Yushima Seido Tokyo
+        nota: Templo confuciano de laca negra, de 1690, a cinco minutos. No hay nadie nunca.
+        lat: 35.7004002
+        lon: 139.7665903
+      - nombre: Nikolai-dō
+        maps: Nikolai-do Holy Resurrection Cathedral Tokyo
+        nota: Una catedral ortodoxa rusa de 1891 con cúpula verde, en Surugadai.
+        lat: 35.6980047
+        lon: 139.7655163
+      - ficha: akihabara
+        nota: El barrio del santuario, y lo que merece la pena de él.
   - block: Mañana
     time: "09:30–12:30"
     title: Ōtemachi, y el castillo que no está
     body: >-
-      Dos paradas de metro y se sale entre torres de oficinas, a [**la tumba de
-      Masakado**](#masakado): treinta metros cuadrados sin edificar en el suelo más caro del mundo,
-      con incienso fresco puesto esta misma mañana. La historia —la cabeza que voló desde Kioto, el
-      terremoto, el rayo, la excavadora volcada— está en su ficha y conviene llevarla leída, porque
-      el sitio en sí se ve en cinco minutos y lo que impresiona es saber que **una ciudad de catorce
-      millones de habitantes lleva un siglo sin atreverse a tocarlo**.
+      Dos paradas de metro y se sale entre torres de oficinas, a la tumba de Masakado: treinta metros
+      cuadrados sin edificar en el suelo más caro del mundo, con incienso fresco de esta misma mañana.
+      Se ve en cinco minutos; lo que impresiona es saber que **una ciudad de catorce millones lleva un
+      siglo sin atreverse a tocarlo**, y para eso hay que llevar la ficha leída.
 
-      De ahí se cruza al foso y se entra en el [**Higashi Gyoen**](#marunouchi), el jardín este del
-      Palacio Imperial. Es gratis, y dentro está lo único que queda de lo que fue la mayor fortaleza
-      del mundo: los muros de piedra ciclópea, la torre de vigilancia **Fujimi-yagura** y, sobre
-      todo, el basamento vacío de la torre del homenaje, que ardió en 1657 y que el shogunato decidió
-      no reconstruir para gastarse el dinero en rehacer la ciudad. Se sube en dos minutos y desde
-      arriba se entiende de golpe qué había aquí. Se sale por Kōkyo Gaien, la explanada de pinos
-      negros recortados, a ver el [**Nijūbashi**](https://www.google.com/maps/search/?api=1&query=Nijubashi%20Bridge%20Imperial%20Palace%20Tokyo).
+      De ahí se cruza al foso y se entra en el **Higashi Gyoen**, el jardín este del Palacio, gratis:
+      muros ciclópeos, la Fujimi-yagura y el basamento vacío de la torre del homenaje, que ardió en
+      1657 y no se reconstruyó. Se sube en dos minutos y desde arriba se entiende qué había aquí. Se
+      sale por Kōkyo Gaien, la explanada de pinos negros, hasta el Nijūbashi.
     window:
       label: La única ventana del viaje para entrar
       body: >-
-        **Los Jardines del Palacio cierran los lunes y los viernes**, y esa es la razón de que este
-        bloque esté hoy y no en la semana de vuelta: el día 20, que es el otro que pasa por aquí, no
-        se puede entrar. De los días de Tokio que os quedan, este domingo es el que abre.
+        **Los Jardines del Palacio cierran los lunes y los viernes**, y por eso este bloque va hoy y no
+        en la semana de vuelta: el día 20, el otro que pasa por aquí, no se puede entrar.
 
-        Un aviso de temporada para no esperar lo que no toca: el [pico de la hoja roja en la
-        ciudad](#momiji) va del 20 de noviembre al 5 de diciembre, así que los arces del jardín están
-        empezando. Lo veréis rojo de verdad al volver, dentro de diez días.
+        Y sin esperar lo que no toca: el [pico de la hoja roja en la ciudad](#momiji) va del 20 de
+        noviembre al 5 de diciembre, así que los arces están empezando. Rojos de verdad, dentro de diez
+        días.
+    ver:
+      - ficha: masakado
+        nota: La cabeza que voló desde Kioto, el rayo y la excavadora volcada.
+      - ficha: marunouchi
+        nota: El mayor castillo del mundo, del que quedan el suelo y las piedras.
+      - nombre: Fujimi-yagura
+        maps: Fujimi-yagura Imperial Palace East Gardens Tokyo
+        nota: Una de las tres torres de vigilancia que sobrevivieron, dentro del jardín este.
+        lat: 35.6841917
+        lon: 139.7566017
+      - nombre: Nijūbashi
+        maps: Nijubashi Bridge Imperial Palace Tokyo
+        nota: El puente de dos arcos de todas las fotos, al final de los pinos de Kōkyo Gaien.
+        lat: 35.6802215
+        lon: 139.7535986
   - block: Mediodía
     time: "12:30–15:00"
     title: Marunouchi, «dentro del círculo»
     body: >-
-      El nombre lo dice todo: *maru-no-uchi* es «dentro del recinto», porque este distrito entero
-      estaba dentro de los fosos del castillo. Hoy es el barrio de los bancos, y lo que hay que ver
-      es gratis y cabe en tres paradas. La [**estación de Tokio**](#marunouchi), de 1914, en ladrillo
-      rojo, restaurada en 2012 recuperando las cúpulas que perdió en los bombardeos — asomaos al
-      vestíbulo norte a mirar los ocho relieves del zodiaco del techo abovedado. Encima de ella, en
-      el edificio KITTE, la
-      [**Intermediatheque**](https://www.google.com/maps/search/?api=1&query=Intermediatheque%20Tokyo):
-      la colección científica de la Universidad de Tokio —esqueletos de ballena, aves disecadas,
-      instrumentos de medición— montada en vitrinas de madera del XIX con criterio de galería. Y a
-      cinco minutos, el [**Tokyo International
-      Forum**](https://www.google.com/maps/search/?api=1&query=Tokyo%20International%20Forum) de
-      Rafael Viñoly, un casco de barco de cristal de sesenta metros puesto del revés.
+      *Maru-no-uchi* es «dentro del recinto»: este distrito entero estaba dentro de los fosos del
+      castillo. Hoy es el barrio de los bancos, y lo que hay que ver es gratis y cabe en tres paradas:
+      la estación de Tokio de 1914 —asomaos al vestíbulo norte a mirar los relieves del zodiaco—, la
+      Intermediatheque encima de ella y, a cinco minutos, el Tokyo International Forum.
 
-      Para comer, dos opciones sin salir de aquí: el sótano de alimentación de unos grandes almacenes
-      o la **Ramen Street** de la estación, ocho casas de [ramen](#ramen) buenas y una a una de cada
-      región, en el sitio con menos alma imaginable.
+      Para comer, sin salir de aquí: el sótano de alimentación de unos grandes almacenes o la **Ramen
+      Street** de la estación, ocho casas de [ramen](#ramen) buenas, una de cada región, en el sitio
+      con menos alma imaginable.
     window:
       label: Lo que solo pasa en domingo
       body: >-
@@ -89,50 +117,93 @@ blocks:
         primer y el tercer domingo de mes**, y hoy es el tercero — pero confirmadlo en su calendario,
         que se publica año a año y algún mes salta por obras en la plaza.
 
-        Y si además está montada la terraza de la avenida **Nakadōri**, que en temporada peatonalizan
-        los fines de semana y llenan de mesas entre los olmos, la comida del mediodía se resuelve
-        sola y al aire libre.
+        Y si está montada la terraza de la avenida **Nakadōri**, que en temporada peatonalizan los
+        fines de semana y llenan de mesas entre los olmos, la comida se resuelve sola y al aire libre.
+    ver:
+      - nombre: Estación de Tokio
+        maps: Tokyo Station Marunouchi Building
+        nota: Ladrillo rojo de 1914, con las cúpulas recuperadas en 2012. Mirad el techo del vestíbulo norte.
+        lat: 35.6811505
+        lon: 139.7659765
+      - nombre: Intermediatheque
+        maps: Intermediatheque Tokyo
+        nota: Ballenas, minerales y aves de la Universidad de Tokio en vitrinas del XIX. Gratis.
+        lat: 35.6800322
+        lon: 139.7645340
+      - nombre: Tokyo International Forum
+        maps: Tokyo International Forum
+        nota: El casco de barco de cristal de Viñoly, puesto del revés. Se entra libre.
+        lat: 35.6767901
+        lon: 139.7635414
+    comer:
+      - comida: onigiri-konga-nihonbashi
+        nota: Onigiri para llevar en el Takashimaya de Nihonbashi. En domingo, confirmad a qué hora abre.
   - block: Tarde
     time: "15:00–18:00"
     title: Los cuarenta y siete, y la última luz desde una fábrica de cerveza
     body: >-
-      Un cuarto de hora hacia el sur, a Shinagawa, y al templo
-      [**Sengaku-ji**](#ebisu-meguro): aquí están enterrados en filas, alrededor de su señor, los
-      cuarenta y siete *rōnin* del *Chūshingura*. Esperaron casi dos años fingiendo vidas disolutas,
-      asaltaron la villa de Kira una noche de diciembre de 1702, le cortaron la cabeza, la trajeron
-      hasta esta tumba y luego se entregaron; el shōgun les dejó morir con honor y se hicieron
-      seppuku los cuarenta y siete, incluido un chico de quince años. Tres siglos después
-      **las tumbas siguen humeando de incienso todos los días**. Es real, no es una leyenda, y es la
-      continuación exacta del código que os contaron los templos de [Kamakura](#kamakura-zen).
+      Un cuarto de hora hacia el sur, a Shinagawa, y al templo **Sengaku-ji**, donde están enterrados
+      en filas, alrededor de su señor, los cuarenta y siete *rōnin* del *Chūshingura*. Tres siglos
+      después **las tumbas siguen humeando de incienso todos los días**. Es la continuación exacta del
+      código que contaron los templos de [Kamakura](#kamakura-zen).
 
-      Tres paradas de Yamanote y se acaba en **Ebisu**, un barrio que se llama como una marca de
-      cerveza que a su vez se llamaba como un dios. En el solar de la antigua fábrica está hoy
-      [**Yebisu Garden Place**](#ebisu-meguro), y arriba del todo de su torre de treinta y nueve
-      plantas hay **un mirador gratuito que no usa nadie**. Abajo, en el mismo complejo, el mejor
-      museo de fotografía del país.
+      Tres paradas de Yamanote y se acaba en **Ebisu**, el barrio que se llama como una cerveza que se
+      llamaba como un dios. En el solar de la fábrica está Yebisu Garden Place, con **un mirador
+      gratuito que no usa nadie** en lo alto de su torre, y abajo el mejor museo de fotografía del país.
     window:
       label: Ventana óptima
       body: >-
-        En noviembre **el sol se pone en Tokio a las cuatro y media**, así que la cuenta es sencilla:
-        salir de Sengaku-ji sobre las cuatro deja el mirador de Ebisu justo en el crepúsculo y el
-        encendido de la ciudad. Es gratis y no hay que reservar, que es lo contrario de lo que os
-        pasó ayer en Shibuya Sky.
+        En noviembre **el sol se pone en Tokio a las cuatro y media**: saliendo de Sengaku-ji sobre las
+        cuatro se llega al mirador de Ebisu justo en el crepúsculo. Es gratis y no hay que reservar,
+        que es lo contrario de lo que pasó ayer en Shibuya Sky.
+    ver:
+      - nombre: Sengaku-ji
+        maps: Sengakuji Temple Tokyo
+        nota: Las cuarenta y siete tumbas de los *rōnin*, con incienso fresco a diario.
+        lat: 35.6373043
+        lon: 139.7360455
+      - ficha: ebisu-meguro
+        nota: El Chūshingura entero —la espera de dos años, el asalto, el seppuku— y el barrio de la cerveza.
+      - nombre: Mirador de Yebisu Garden Place
+        maps: Yebisu Garden Place Tower Tokyo
+        nota: Gratis, en lo alto de la torre de treinta y nueve plantas. Para el crepúsculo.
+        lat: 35.6420419
+        lon: 139.7135595
+      - nombre: Museo de Fotografía de Tokio
+        maps: Tokyo Photographic Art Museum
+        nota: Tres plantas de exposiciones, casi nunca lleno, en el mismo complejo.
+        lat: 35.6415430
+        lon: 139.7133962
+    comer:
+      - comida: shodai-ebisu
+        nota: El curry udon con mousse de patata. Abre seguido hasta las 21:30; cola casi siempre.
+      - comida: pizza-marumo-ebisu
+        nota: Napolitana con bonito y kombu, a una manzana. Turno de cena desde las 17:00, con reserva.
   - block: Noche
     time: "noche"
     title: La última noche de esta mitad
     body: >-
-      Del mirador de Ebisu a la cama hay **dos paradas de Hibiya**, que es la ventaja de haber dormido
-      esta semana en Roppongi. Y es la última noche aquí: mañana las maletas salen hacia Kioto y a la
-      vuelta el hotel estará en otro barrio, más al este: Asakusa o Ginza, según la reserva que se quede.
+      Del mirador de Ebisu a la cama hay **dos paradas de Hibiya**. Y es la última noche aquí: mañana
+      las maletas salen hacia Kioto y a la vuelta el hotel estará en otro barrio, más al este: Asakusa
+      o Ginza, según la reserva que se quede.
 
-
-      Para cenar, lo que el barrio tiene y no se ve desde la avenida:
-      [**Azabu-Jūban**](https://www.google.com/maps/search/?api=1&query=Azabu%20Juban%20Tokyo) —una
-      parada de Ōedo o un cuarto de hora cuesta abajo— es una calle comercial de toda la vida, con
-      confiterías viejas y barras pequeñas, en mitad del distrito más caro de la ciudad.
+      Para cenar, lo que el barrio tiene y no se ve desde la avenida: **Azabu-Jūban**, una parada de
+      Ōedo o un cuarto de hora cuesta abajo, calle comercial de toda la vida con confiterías viejas y
+      barras pequeñas en mitad del distrito más caro de la ciudad.
 
       Y antes de dormir, **la maleta de mañana**: solo lo de una noche, porque el grueso viaja por su
-      cuenta. Cómo funciona eso, en [takkyūbin](#takkyubin).
+      cuenta. Cómo funciona, en [takkyūbin](#takkyubin).
+    ver:
+      - nombre: Azabu-Jūban
+        maps: Azabu Juban Tokyo
+        nota: Calle comercial de toda la vida, con confiterías viejas, a un paseo del hotel.
+        lat: 35.6567021
+        lon: 139.7361025
+    comer:
+      - comida: azabu-kuroshari
+        nota: Omakase de arroz teñido de negro con carbón, en Azabu-Jūban. Turnos de 18:00 y 20:00.
+      - comida: sushiya-ebisu-azabu
+        nota: Seis barras de sushi del barrio, como pista sin comprobar. Siempre con reserva.
 alt:
   label: Si te desmarcas
   body: >-

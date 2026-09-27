@@ -35,79 +35,82 @@ blocks:
     time: "06:30–08:05"
     title: Bajar a Shinagawa y coger un Kodama
     body: >-
-      El punto de recogida no es Kawaguchiko sino **Shin-Fuji**, en la vertiente sur, que es estación
-      de Shinkansen. Desde el hotel, la Toei Asakusa llega a Shinagawa sin transbordo —unos doce
-      minutos desde Takarachō, veinticinco desde Asakusa— y de ahí es una hora de tren: el **Kodama de las 07:04 llega a las 08:03**, con media
-      hora de colchón antes de la cita. El anterior, a las 06:37, deja allí a las 07:34 por si se
-      prefiere esperar sentado. Ronda los **¥5.200** sin reserva.
+      La recogida no es en Kawaguchiko sino en **Shin-Fuji**, en la vertiente sur. Toei Asakusa hasta
+      Shinagawa y de ahí una hora de Kodama: el de las 07:04 llega a las 08:03, con media hora de
+      colchón. El anterior, a las 06:37, deja allí a las 07:34. Ronda los **¥5.200** sin reserva.
     window:
       label: El error que se paga caro
       body: >-
-        **En Shin-Fuji solo para el Kodama.** Ni el Nozomi ni el Hikari se detienen ahí — pasan de
-        largo camino de Nagoya—, así que el buscador de billetes hay que forzarlo o se acaba comprando
-        un tren que no sirve. Y hoy es **festivo con puente**: reservad asiento en vez de ir a
-        vagón libre. Ya que se reserva, **el asiento E** es el del lado del Fuji, en los dos
-        sentidos; la montaña aparece justo antes de llegar.
+        **En Shin-Fuji solo para el Kodama**: el buscador de billetes hay que forzarlo o se acaba
+        comprando un Nozomi que pasa de largo. Hoy es **festivo con puente**, así que asiento
+        reservado, y ya puestos **el asiento E**, que es el del lado del Fuji en los dos sentidos.
   - block: Mañana
     time: "08:30–13:00"
     title: La cara norte, que es la de la postal
     body: >-
-      La excursión empieza donde empieza cualquier lista: la **pagoda Chūreitō** sobre Fujiyoshida,
-      casi cuatrocientos escalones para llegar a la composición de pagoda, arces y cono nevado que
-      es la imagen del país. Conviene saber que la pagoda es de **1963** y que es un monumento a los
-      caídos, no un templo antiguo — está ahí porque alguien eligió muy bien el sitio. De ahí se
-      sigue a los **lagos** de la falda norte, donde el Fuji se refleja si no hay viento, y a
-      **Iyashi no Sato**, una aldea de casas de paja en la orilla del lago Saiko reconstruida como
-      museo al aire libre después de que un desprendimiento se llevara la original en 1966.
+      Se empieza por la pagoda Chūreitō sobre Fujiyoshida, casi cuatrocientos escalones hasta la
+      imagen del país. Después, los lagos de la falda norte y la aldea de Iyashi no Sato, junto al
+      lago Saiko.
     window:
       label: Lo que la furgoneta resuelve
       body: >-
-        Estos cuatro sitios no están conectados entre sí por transporte público de manera razonable:
-        de la pagoda a las cuevas hay líneas de autobús con una o dos frecuencias por hora y horarios
-        que no encajan. **Por libre se hacen dos, tres como mucho**, y se pasa el día esperando. Es
-        exactamente lo que se está comprando.
+        Estos sitios no se conectan bien en transporte público: autobuses de una o dos frecuencias por
+        hora que no encajan entre sí. **Por libre se hacen dos, tres como mucho.** Es exactamente lo
+        que se está comprando.
+    ver:
+      - ficha: fuji
+        nota: Por qué la montaña fabrica su propia nube, y desde dónde se deja ver.
+      - nombre: Pagoda Chūreitō
+        maps: Chureito Pagoda Fujiyoshida
+        nota: "Es de **1963** y es un monumento a los caídos, no un templo antiguo: alguien eligió muy bien el sitio."
+      - nombre: Lago Kawaguchi
+        maps: Lake Kawaguchi Fujikawaguchiko
+        nota: El reflejo del Fuji solo sale sin viento, y eso pasa sobre todo a primera hora.
+      - nombre: Iyashi no Sato
+        maps: Saiko Iyashi no Sato Nenba
+        nota: Aldea de casas de paja reconstruida como museo tras el desprendimiento de 1966.
   - block: Mediodía
     time: "13:00–14:30"
     title: Comer en el pueblo
     body: >-
-      La comida va incluida y se hace en el pueblo tradicional, que en esta zona significa una cosa
-      concreta: **hōtō**, el plato de Yamanashi. Fideos anchos y planos de trigo cocidos dentro de un
-      caldo espeso de miso con calabaza, taro y verdura de invierno, servido en la propia olla de
-      hierro. No es un ramen ni una sopa de fideos al uso —la masa se cuece en el caldo y lo espesa—
-      y es comida de montaña de noviembre en el sentido literal.
+      La comida va incluida y en esta zona significa **hōtō**, el plato de Yamanashi: fideos anchos de
+      trigo cocidos dentro de un caldo espeso de miso con calabaza, taro y verdura de invierno, en su
+      olla de hierro. La masa se cuece en el caldo y lo espesa: comida de montaña de noviembre.
   - block: Tarde
     time: "14:30–18:30"
     title: Debajo de la lava
     body: >-
-      La tarde va por el subsuelo y es la parte que casi nadie espera. En **864** el Fuji tuvo la
-      erupción *Jōgan*: una colada enorme que bajó por la ladera norte, partió en dos un lago y se
-      solidificó formando tubos huecos. Esos tubos son hoy la **cueva de hielo de Narusawa** y la
-      **cueva de viento de Fugaku**, que se mantienen cerca de cero grados todo el año y que durante
-      décadas se usaron como neveras naturales para guardar semillas y huevos de gusano de seda.
-      Sobre esa misma colada creció el bosque de **Aokigahara**, que se recorre por pasarela. Y al
-      final, las **cataratas Shiraito**: ciento cincuenta metros de ancho de agua saliendo
-      directamente de la pared de roca, porque no es un río lo que cae — es el deshielo del Fuji que
-      lleva décadas filtrándose y aflora aquí de golpe.
+      La tarde va por el subsuelo, por la colada de la erupción *Jōgan* de 864: dos cuevas que son
+      tubos de lava, el bosque que creció encima y, al final, las cataratas Shiraito.
     window:
       label: Cómo ir vestido
       body: >-
-        Las cuevas se andan **agachado y por suelo mojado**: escaleras metálicas estrechas, techo
-        bajo y hielo. Y en Shiraito se moja el que se acerca. Calzado con suela agarrada y una capa
-        impermeable, no la ropa de andar por Tokio.
+        Las cuevas se andan **agachado y por suelo mojado**, con escaleras metálicas, techo bajo y
+        hielo, y en Shiraito se moja el que se acerca. Suela que agarre y una capa impermeable.
+    ver:
+      - nombre: Cueva de hielo de Narusawa
+        maps: Narusawa Ice Cave
+        nota: Un tubo de lava cerca de cero grados todo el año, que sirvió de nevera natural.
+      - nombre: Cueva de viento de Fugaku
+        maps: Fugaku Wind Cave
+        nota: Otro tubo de la misma colada, donde se guardaban semillas y huevos de gusano de seda.
+      - nombre: Aokigahara
+        maps: Aokigahara Forest
+        nota: "Bosque sobre roca: las raíces no pueden hundirse y crecen a lo ancho. Se recorre por pasarela."
+      - nombre: Cataratas Shiraito
+        maps: Shiraito Falls Fujinomiya
+        nota: Ciento cincuenta metros de ancho de agua que sale de la pared de roca, no de un río.
   - block: Noche
     time: "18:30–20:30"
     title: La vuelta
     body: >-
-      La excursión termina donde empezó y el Kodama de vuelta deja en Tokio en poco más de una hora.
-      Se llega al hotel sobre las ocho y media, con el día hecho y sin haber mirado un mapa en toda
-      la jornada — que después de diecisiete días conduciéndose solos es, en sí mismo, parte de lo
-      que se ha pagado.
+      La excursión termina donde empezó y el Kodama deja en Tokio en poco más de una hora. Hotel sobre
+      las ocho y media, sin haber mirado un mapa en toda la jornada.
     window:
       label: Confirmad la hora de fin
       body: >-
-        Diez horas contadas desde las 8:30 dan las **18:30**, pero el regreso depende del tráfico de
-        un festivo y de cuánto se alargue la última parada. **Preguntadlo el día antes por WhatsApp**
-        y mirad la hora del último Kodama con margen — no es un tren que pase cada diez minutos.
+        Diez horas desde las 8:30 dan las **18:30**, pero depende del tráfico de un festivo.
+        **Preguntadlo el día antes por WhatsApp** y mirad el último Kodama con margen.
 alt:
   label: Si te desmarcas
   body: >-

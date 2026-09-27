@@ -10,6 +10,15 @@ dek: >-
   aterrizar.
 duerme:
   - androoms-kyoto-shichijo
+mapa:
+  slug: dia-11-tokio-kioto
+  paradas:
+    - { nombre: Estación de Kioto, hora: "11:30", lat: 34.9861909, lon: 135.7600629 }
+    - { nombre: Men-ya Inoichi, hora: "12:00", zona: Centro, llegada: metro, lat: 35.0013284, lon: 135.7669452 }
+    - { nombre: Nishiki, zona: Centro, llegada: a-pie, lat: 35.0050244, lon: 135.7655699 }
+    - { nombre: "Río Kamo, en Shijō", zona: Centro, llegada: a-pie, lat: 35.0038208, lon: 135.7715003 }
+    - { nombre: Tō-ji, hora: "15:00", llegada: metro, lat: 34.9806311, lon: 135.7477192 }
+    - { nombre: Hotel androoms, hora: noche, llegada: a-pie, lat: 34.9889855, lon: 135.7571848 }
 traslados:
   - desde: "Tokio"
     hasta: "Kioto"
@@ -22,68 +31,85 @@ blocks:
     time: "09:00–11:30"
     title: El Nozomi por el Tōkaidō
     body: >-
-      Dos horas y cuarto de Tokio a Kioto por la **línea de tren de alta velocidad más transitada del
-      mundo**, que va calcada sobre el viejo Tōkaidō, la carretera que unía Edo con la capital
-      imperial y que Hiroshige recorrió estación a estación en sus cincuenta y tres estampas. Se sale
-      de una ciudad de mil seiscientos años menos y se llega a la que mandaba antes.
+      Dos horas y cuarto de Tokio a Kioto por la **línea de alta velocidad más transitada del
+      mundo**, calcada sobre el viejo Tōkaidō, la carretera que unía Edo con la capital imperial y
+      que Hiroshige recorrió estación a estación en sus cincuenta y tres estampas.
 
       Se baja en **lunes**, que es media ventaja: el Nozomi de media mañana va bastante más vacío que
-      el del domingo, aunque conviene reservar igual. Y pedid **ventanilla E**: es el lado del
-      [Fuji](#fuji), que aparece a la derecha unos cuarenta minutos después de salir, entre Shin-Fuji
-      y Mishima. Con suerte y cielo limpio, es el mejor peaje de un billete de tren.
+      el del domingo, aunque conviene reservar igual. El [Fuji](#fuji) asoma por la ventanilla E
+      entre Shin-Fuji y Mishima.
     window:
       label: El tercer envío de maletas
       body: >-
         **Sale esta mañana desde el hotel de Tokio al de Kioto**, por [takkyūbin](#takkyubin), y
-        llega mañana. Se viaja con lo de una noche. Es el mismo movimiento que se hará al revés
-        dentro de una semana — y entonces habrá que acordarse de que el hotel de vuelta a Tokio
-        **no es este**.
+        llega mañana. Se viaja con lo de una noche. El movimiento se repite al revés dentro de una
+        semana, y entonces el hotel de vuelta a Tokio **no es este**.
+    comer:
+      - comida: kurasu-kyoto
+        nota: El primer café al bajar del tren, a dos minutos de la estación y con la maleta al lado.
   - block: Mediodía
     time: "12:00–15:00"
     title: Entender la retícula antes de andarla
     body: >-
       No se empieza por lo grande. Con la tarde entera y las maletas en camino, lo que funciona es
-      **orientarse**: Kioto es una retícula del año 794 copiada de Chang'an, la capital china, y en
-      cuanto se entiende que las calles van norte-sur y este-oeste y que muchas se llaman por su
-      número —*Shijō* es «cuarta avenida», *Sanjō* la tercera—, la ciudad deja de ser un laberinto y
-      se convierte en un tablero. Ver [Kioto](#kioto).
+      **orientarse**: las calles van norte-sur y este-oeste y muchas se llaman por su número
+      —*Shijō* es «cuarta avenida»—, y en cuanto se entiende, la ciudad deja de ser un laberinto.
 
-      Un primer paseo que cumple: el mercado de [**Nishiki**](https://www.google.com/maps/search/?api=1&query=Nishiki%20Market%20Kyoto),
-      cinco manzanas cubiertas de puestos donde se come andando, y de ahí al río **Kamo** al
-      atardecer, que es donde se sienta media ciudad a mirar el agua.
-
-      Dos paradas de Alba caen dentro de este paseo. [**Men-ya Inoichi**](#menya-inoichi), en
-      Shimogyo, es ramen de *dashi* de pescado con Bib Gourmand en nueve guías seguidas y cuesta
-      menos de diez euros; y [**amam dacotan**](#amam-dacotan-kyoto), junto a Karasuma-Oike, hornea
-      ciento veinte panes distintos y se entra sin cola a partir de las tres.
+      Un primer paseo que cumple: comer en Shimogyō, subir al mercado de Nishiki, cinco manzanas
+      cubiertas de puestos donde se come andando, y de ahí al río **Kamo**, que es donde se sienta
+      media ciudad a mirar el agua.
+    ver:
+      - ficha: kioto
+        nota: La retícula del 794 copiada de Chang'an, y por qué la ciudad se libró de la bomba.
+      - nombre: "Río Kamo, en Shijō"
+        maps: Shijo Ohashi Bridge Kyoto
+        nota: Las orillas donde se sienta la ciudad. Pontochō queda en la margen de enfrente.
+        lat: 35.0038208
+        lon: 135.7715003
+    comer:
+      - comida: menya-inoichi
+        nota: Ramen de *dashi* de pescado con Bib Gourmand nueve guías seguidas, por menos de diez euros.
+      - comida: nishiki
+        nota: El mercado de Kioto, de puesto en puesto. Mejor antes de que se llene a mediodía.
+      - comida: amam-dacotan-kyoto
+        nota: Ciento veinte panes junto a Karasuma-Oike. A partir de las tres se entra sin cola.
+      - comida: smart-coffee
+        nota: El *kissaten* de 1932 en Teramachi, a la salida de Nishiki.
   - block: Tarde
     time: "15:00–17:00"
     title: Una pagoda a diez minutos de la estación
     body: >-
-      Si queda luz, [**Tō-ji**](https://www.google.com/maps/search/?api=1&query=Toji%20Temple%20Kyoto).
-      Su pagoda de cinco pisos tiene **cincuenta y cinco metros y es la más alta de Japón**, se ve
-      desde el tren al entrar y está a un paseo de la estación. Es del año 796 —o sea, de la fundación
-      misma de la ciudad— y a última hora el recinto se queda casi vacío. Buena manera de que el
-      primer templo del tramo no sea uno con cola.
+      Si queda luz, Tō-ji. Se ve desde el tren al entrar, está a un paseo de la estación y a última
+      hora el recinto se queda casi vacío. Buena manera de que el primer templo del tramo no sea uno
+      con cola.
     window:
       label: Mirad las aperturas nocturnas
       body: >-
         A partir de mediados de noviembre los templos de Kioto montan el ***raitoappu***: abren de
-        noche e iluminan los jardines, y es una de las cosas que justifica venir en esta quincena y no
-        en otra. **Las fechas las publica cada templo por su cuenta y no coinciden**, así que se
-        miran hoy, con los tres días por delante, y se encaja una en el plan. El Kiyomizu-dera y el
-        Kōdai-ji son los dos más agradecidos.
+        noche e iluminan los jardines. Las fechas de 2026 ya se saben: las de Kōdai-ji y Shōren-in
+        caen dentro del [día 13](#dia-13-kioto-este), y la de Kiyomizu-dera empieza cuando ya os
+        habéis ido.
+    ver:
+      - nombre: Tō-ji
+        maps: Toji Temple Kyoto
+        nota: La pagoda de madera más alta de Japón, cincuenta y cinco metros, en un templo del año 796.
+        lat: 34.9806311
+        lon: 135.7477192
   - block: Noche
     time: "noche"
     title: La cocina de una capital sin mar
     body: >-
       Kioto está a una hora de la costa y su cocina se construyó tierra adentro: de ahí el
       ***kaiseki***, que nació aquí de la ceremonia del té, y el tofu, que por las aguas subterráneas
-      de la ciudad tiene fama de ser el mejor del país. El *yudōfu*, hervido en caldo de alga delante
-      de uno, es plato de invierno y de templo.
+      de la ciudad tiene fama de ser el mejor del país.
 
       Y la regla de oro para los tres días: **las casas buenas son tres o cuatro veces más baratas al
       mediodía**, así que la alta cocina se reserva para un almuerzo y no para una cena.
+    comer:
+      - comida: tai-sushi
+        nota: Barra de barrio al norte de Shijō, sin ceremonia y con cola. Se deja uno llevar.
+      - comida: kyoto-cinco-de-nakagyo
+        nota: Cinco direcciones de cena, solo como pista. Sin verificar horarios.
 alt:
   label: Si te desmarcas
   body: >-

@@ -11,6 +11,14 @@ dek: >-
   ningún visitante. Jueves, día laborable: la ciudad estará como debe estar.
 duerme:
   - super-hotel-premier-akihabara
+mapa:
+  slug: solo-4-kawagoe
+  paradas:
+    - { nombre: Estación de Kawagoe, hora: "09:10", lat: 35.9078861, lon: 139.4837081 }
+    - { nombre: Kita-in, hora: "09:30", zona: Kita-in, llegada: a-pie, lat: 35.9178236, lon: 139.4889051 }
+    - { nombre: "Ichiban-gai y Toki no Kane", hora: "11:30", zona: Ichiban-gai, llegada: a-pie, lat: 35.9234837, lon: 139.4833395 }
+    - { nombre: Kashiya Yokochō, zona: Ichiban-gai, llegada: a-pie, lat: 35.9250914, lon: 139.4808048 }
+    - { nombre: Hikawa Jinja, hora: "14:00", llegada: a-pie, lat: 35.9271396, lon: 139.4887762 }
 traslados:
   - desde: "Akihabara"
     hasta: "Ikebukuro"
@@ -29,63 +37,70 @@ blocks:
     time: "09:30–11:00"
     title: Kita-in, y las tres salas que sobrevivieron
     body: >-
-      Del castillo de Edo —la fortaleza más grande del mundo en su día, el centro del poder de los
-      Tokugawa durante dos siglos y medio— **no queda nada**: lo que no se llevaron los incendios lo
-      remató el terremoto de 1923, y encima de su solar está hoy el Palacio Imperial. Con una excepción,
-      y está aquí.
+      Del castillo de Edo, el centro del poder Tokugawa durante dos siglos y medio, **no queda nada**:
+      lo que no se llevaron los incendios lo remató el terremoto de 1923. Con una excepción, y está
+      aquí.
 
-      Cuando Kawagoe se quemó en **1638**, el tercer shōgun, **Tokugawa Iemitsu**, mandó desmontar varios
-      pabellones del **Momijiyama** del castillo de Edo, subirlos por el río y remontarlos en el
-      **Kita-in**. Siguen en pie. Se entra descalzo y se recorren: el **kyakuden**, donde está **la sala
-      en la que nació Iemitsu**, y el **shoin**, que era **el tocador de Kasuga no Tsubone**, su nodriza
-      —la mujer que gobernó el harén del shōgun y que es un personaje mayor de la historia japonesa—.
-
-      Dicho claro: **este es el único sitio del planeta donde se puede entrar en una habitación del
-      castillo de Edo**. Y aparte hay un jardín seco, y los **538 rakan** —quinientas y pico estatuillas
-      de discípulos de Buda, cada una con una cara distinta, ninguna repetida—.
+      Cuando Kawagoe se quemó en **1638**, **Tokugawa Iemitsu** mandó desmontar varios pabellones del
+      castillo, subirlos por el río y remontarlos en el **Kita-in**. Se entra descalzo: el **kyakuden**,
+      con **la sala en la que nació Iemitsu**, y el **shoin**, el tocador de su nodriza **Kasuga no
+      Tsubone**, la mujer que gobernó el harén del shōgun. Es **el único sitio del planeta donde se
+      entra en una habitación del castillo de Edo**.
     window:
       label: Por qué lo primero
       body: >-
-        Abre a las **8:50** y cierra a las **16:30**, y está a veinte minutos andando de la estación, en
+        Abre a las **8:50** y cierra a las **16:30**, a veinte minutos andando de la estación y en
         dirección contraria a la calle de los almacenes. Si lo dejas para después de comer acabas
-        corriendo, y esto es lo que has venido a ver. Entrada **¥400**.
+        corriendo. Entrada **¥400**.
+    ver:
+      - nombre: Kita-in
+        maps: Kitain Temple Kawagoe
+        nota: "Además de las salas, un jardín seco y los **538 rakan**, cada uno con una cara distinta."
+        lat: 35.9178236
+        lon: 139.4889051
   - block: Mediodía
     time: "11:30–14:00"
     title: La calle de los kurazukuri
     body: >-
       Ahora sí, la postal: **Ichiban-gai**, una calle entera de **kurazukuri**, las casas-almacén de los
-      comerciantes de Edo — muros de barro de treinta centímetros, tejas negras pesadas y grandes
-      portones de hierro. Se construían así **contra el fuego**, que era la plaga de las ciudades de
-      madera; Kawagoe conserva la hilera porque el gran incendio de 1893 se llevó lo demás y se
-      reconstruyó justo con esta técnica.
-
-      En mitad de la calle está la **Toki no Kane**, la torre del campanario: da la hora **cuatro veces
-      al día** —06:00, 12:00, 15:00 y 18:00—, así que si andas por aquí a mediodía la oyes. Y a un lado,
-      **Kashiya Yokochō**, el callejón de los dulces: dos docenas de tiendas de caramelo artesano y
-      galleta de boniato, que es el producto de Kawagoe.
+      comerciantes de Edo, con muros de barro de treinta centímetros, tejas negras y portones de
+      hierro. Se construían así **contra el fuego**: tras el incendio de 1893 se reconstruyó con esta
+      técnica. Después de comer, el taller de palillos, que abre a las 12:30.
     window:
       label: Ventana óptima
       body: >-
-        **Entre semana.** Kawagoe está a media hora de Ikebukuro y los fines de semana y festivos se
-        llena de tokiotas; un miércoles de noviembre la calle es fotografiable de verdad. Y para la
-        cámara: los muros negros piden **luz lateral**, así que la calle funciona mejor a media mañana o
-        a media tarde que al mediodía plano.
+        **Entre semana.** Los fines de semana y festivos Kawagoe se llena de tokiotas; un jueves de
+        noviembre la calle es fotografiable de verdad. Los muros negros piden **luz lateral**: mejor
+        media mañana o media tarde que el mediodía plano.
+    ver:
+      - nombre: Toki no Kane
+        maps: Toki no Kane Bell Tower Kawagoe
+        nota: El campanario da la hora cuatro veces al día. A las 12:00 lo oyes.
+        lat: 35.9234837
+        lon: 139.4833395
+      - nombre: Kashiya Yokochō
+        maps: Kashiya Yokocho Kawagoe
+        nota: El callejón de los dulces, con caramelo artesano y galleta de boniato, el producto local.
+        lat: 35.9250914
+        lon: 139.4808048
+      - reco: alba-wood-works-kawagoe
+        nota: "Tus propios palillos en media hora larga. **Martes a viernes, de 12:30 a 18:00.**"
   - block: Tarde
     time: "14:00–16:30"
     title: Hikawa, y los túneles de los deseos
     body: >-
-      A quince minutos al norte, el **Hikawa Jinja** es santuario de parejas desde hace mil quinientos
-      años, y lo lleva al extremo: un **túnel de dos mil emas** —las tablillas de madera de los deseos—
-      formando un pasillo, y en verano miles de móviles de cristal. Aunque no te vaya el asunto
-      romántico, es de los sitios más fotogénicos de Kantō.
-
-      Y si sobra tarde, la **Kurazukuri Shiryōkan** o el pequeño museo de la ciudad explican bien cómo se
-      levantaba un muro de esos. Vuelta a Ikebukuro y de ahí a Akihabara; el onsen sigue en su
-      sitio.
+      A quince minutos al norte, el **Hikawa Jinja**, santuario de parejas. Si sobra tarde, la
+      **Kurazukuri Shiryōkan** o el pequeño museo de la ciudad explican cómo se levantaba un muro de
+      esos. Vuelta a Ikebukuro y de ahí a Akihabara; el onsen sigue en su sitio.
     window:
       label: Si prefieres apurar la luz
       body: >-
-        La alternativa a Hikawa es quedarse en la calle vieja hasta el atardecer: los almacenes con el
-        sol bajo y las tiendas encendiendo los faroles es la mejor hora del día aquí. Kawagoe se vacía
-        pronto —los excursionistas cogen el tren de las cinco—, así que **la última hora la tienes casi
-        para ti**.
+        La alternativa a Hikawa es quedarse en la calle vieja hasta el atardecer, con los almacenes al
+        sol bajo y los faroles encendiéndose. Los excursionistas cogen el tren de las cinco, así que
+        **la última hora la tienes casi para ti**.
+    ver:
+      - nombre: Hikawa Jinja
+        maps: Kawagoe Hikawa Shrine
+        nota: Un túnel de dos mil *ema*, las tablillas de los deseos. De lo más fotogénico de Kantō.
+        lat: 35.9271396
+        lon: 139.4887762

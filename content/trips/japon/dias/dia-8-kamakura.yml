@@ -10,6 +10,17 @@ dek: >-
   Se hace de norte a sur, cuesta abajo, y se acaba en la playa.
 duerme:
   - candeo-roppongi
+mapa:
+  slug: dia-8-kamakura
+  paradas:
+    - { nombre: Kita-Kamakura, hora: "08:00", zona: Kita-Kamakura, lat: 35.3371844, lon: 139.5451566 }
+    - { nombre: Engaku-ji, zona: Kita-Kamakura, llegada: a-pie, lat: 35.3379364, lon: 139.5478197 }
+    - { nombre: Kenchō-ji, zona: Kita-Kamakura, llegada: a-pie, lat: 35.3324455, lon: 139.5575336 }
+    - { nombre: Tsurugaoka Hachimangū, hora: "11:00", zona: Centro, llegada: a-pie, lat: 35.3251836, lon: 139.5561787 }
+    - { nombre: Komachi-dōri, zona: Centro, llegada: a-pie, lat: 35.3207763, lon: 139.5519605 }
+    - { nombre: Daibutsu, hora: "13:30", zona: Hase, llegada: tren, lat: 35.3164986, lon: 139.5357293 }
+    - { nombre: Hasedera, zona: Hase, llegada: a-pie, lat: 35.3122687, lon: 139.5333092 }
+    - { nombre: Kamakura-kōkōmae, hora: "16:00", llegada: tren, lat: 35.3067209, lon: 139.5007098 }
 traslados:
   - desde: "Tokio"
     hasta: "Kamakura"
@@ -28,56 +39,91 @@ blocks:
     title: Kita-Kamakura y los templos zen
     body: >-
       Se baja en la estación **anterior** a Kamakura, Kita-Kamakura, y se hace el pueblo andando hacia
-      el sur. Nada más salir está [**Engaku-ji**](#kamakura-zen), fundado en 1282 para honrar a los muertos de las dos
-      invasiones mongolas —de los dos bandos, que es lo que lo hace zen— y quince minutos más allá
-      [**Kenchō-ji**](https://www.google.com/maps/search/?api=1&query=Kenchoji%20Temple%20Kamakura), el templo zen más antiguo del país y el número uno de los Cinco Grandes de
-      Kamakura. Ninguno de los dos es un monumento que se visita: son monasterios en activo, con
-      monjes barriendo, y se recorren en silencio.
+      el sur. Nada más salir está Engaku-ji y, quince minutos más allá, Kenchō-ji. Ninguno de los dos
+      es un monumento que se visita: son monasterios en activo, con monjes barriendo, y se recorren
+      en silencio.
     window:
       label: Ventana óptima
       body: >-
         Al revés que en Tokio, aquí no hay que madrugar por la luz sino **por el orden**: bajando
         desde Kita-Kamakura el día va cuesta abajo, se termina en la costa con el atardecer y no hay
         que volver sobre los pasos. Al revés es el mismo recorrido y una paliza.
+    ver:
+      - ficha: kamakura-zen
+        nota: Por qué Engaku-ji reza por los mongoles, y el ginkgo del asesino del Hachimangū.
+      - nombre: Engaku-ji
+        maps: Engakuji Temple Kamakura
+        nota: A la salida misma de la estación. La campana de 1301 y el té del Butsunichi-an.
+        lat: 35.3379364
+        lon: 139.5478197
+      - nombre: Kenchō-ji
+        maps: Kenchoji Temple Kamakura
+        nota: El monasterio zen más antiguo de Japón, de 1253, con los edificios en un solo eje.
+        lat: 35.3324455
+        lon: 139.5575336
+    comer:
+      - comida: hachi-no-ki
+        nota: La cocina del monasterio, junto a la puerta de Kenchō-ji. Hay soba suelta a precio normal.
   - block: Mediodía
     time: "11:00–13:30"
     title: Hachimangū y la calle de las croquetas
     body: >-
-      El camino desemboca en [**Tsurugaoka Hachimangū**](https://www.google.com/maps/search/?api=1&query=Tsurugaoka%20Hachimangu%20Kamakura), el santuario del clan Minamoto y el centro
-      político del Japón medieval: una avenida de acceso que va estrechando a propósito para engañar
-      al ojo y parecer más larga, y una escalinata con la historia de un asesinato en lo alto —aquí
-      mataron al tercer *shōgun* en 1219—. Bajando de vuelta, [**Komachi-dōri**](https://www.google.com/maps/search/?api=1&query=Komachi-dori%20Kamakura) es la calle de comer de
-      pie: croquetas, *senbei* a la brasa, helado de boniato morado. Es turística sin disimulo y está
+      El camino desemboca en Tsurugaoka Hachimangū, el santuario del clan Minamoto y el centro
+      político del Japón medieval. Bajando de vuelta, Komachi-dōri es la calle de comer de pie:
+      croquetas, *senbei* a la brasa, helado de boniato morado. Es turística sin disimulo y está
       muy bien.
+    ver:
+      - nombre: Tsurugaoka Hachimangū
+        maps: Tsurugaoka Hachimangu Kamakura
+        nota: La avenida que se estrecha para parecer más larga, y la escalinata donde mataron al tercer *shōgun*.
+        lat: 35.3251836
+        lon: 139.5561787
+      - reco: alba-palillos-grabados
+        nota: Palillos con el nombre grabado al momento, en la calle comercial.
+    comer:
+      - comida: komachi-dori
+        nota: De pie y subiendo. El *shirasu* de la bahía sobre arroz, que fuera de la costa no existe.
   - block: Tarde
     time: "13:30–16:00"
     title: El Gran Buda, y el templo con vistas
     body: >-
-      Lo que todo el mundo viene a ver: el [**Daibutsu de Kōtoku-in**](#daibutsu-kamakura), **once metros y medio** de bronce
-      fundido en 1252, sentado al aire libre. Y ahí está lo bueno: no fue concebido así. Tuvo
-      su nave de madera durante dos siglos y medio, hasta que un tsunami se la llevó en 1498 y
-      nadie la reconstruyó. Lleva más de quinientos años a la intemperie y por eso funciona — un Buda
-      bajo techo es una estatua; este es un paisaje. A diez minutos, [**Hasedera**](https://www.google.com/maps/search/?api=1&query=Hasedera%20Temple%20Kamakura), con su Kannon de once cabezas —la mayor talla de madera de Japón,
-      nueve metros cubiertos de pan de oro— y una terraza con toda la bahía de Sagami enfrente. Su
-      leyenda es buena: la imagen sería una de dos gemelas talladas del mismo alcanforero en el año
-      721; a una la dejaron en un templo cerca de Nara y la otra la echaron al mar para que
-      fuera donde tuviera que ir. Apareció en esta playa quince años después.
+      Lo que todo el mundo viene a ver: el Daibutsu de Kōtoku-in, **once metros y medio** de bronce
+      de 1252 sentados al aire libre desde que un tsunami se llevó su nave en 1498. A diez minutos,
+      Hasedera, con su Kannon de once cabezas —la mayor talla de madera de Japón, nueve metros
+      cubiertos de pan de oro— y una terraza con toda la bahía de Sagami enfrente. Según su leyenda,
+      la imagen es una de dos gemelas talladas en el año 721: a esta la echaron al mar y apareció en
+      esta playa quince años después.
     window:
       label: Ventana óptima
       body: >-
-        [Hasedera](https://www.google.com/maps/search/?api=1&query=Hasedera%20Temple%20Kamakura) **al final y no antes**: su mirador sobre la bahía es el sitio donde conviene estar
+        Hasedera **al final y no antes**: su mirador sobre la bahía es el sitio donde conviene estar
         cuando el sol empieza a bajar, y en noviembre eso pasa pronto. Y un apunte de temporada: el
-        [momiji](#momiji) de Kamakura, como el de Tokio, llega a finales de mes. En vuestras fechas los arces
-        están virando, no ardiendo.
+        [momiji](#momiji) de Kamakura, como el de Tokio, llega a finales de mes. En vuestras fechas los
+        arces están virando, no ardiendo.
+    ver:
+      - ficha: daibutsu-kamakura
+        nota: Hueco por dentro y con la cabeza grande a propósito. Se entra por unos pocos yenes.
+      - nombre: Hasedera
+        maps: Hasedera Temple Kamakura
+        nota: El Kannon de nueve metros y la terraza sobre la bahía, para cuando baja el sol.
+        lat: 35.3122687
+        lon: 139.5333092
   - block: Atardecer
     time: "16:00–17:30"
     title: El tranvía a la costa
     body: >-
-      Para cerrar, el **Enoden**: un tren de una sola vía y más de cien años que sale de Kamakura, se mete
-      entre las casas —tanto que se ven los tendederos— y de pronto sale al mar. Tres paradas después,
-      en [**Kamakura-kōkōmae**](https://www.google.com/maps/search/?api=1&query=Kamakurakokomae%20Station), hay un paso a nivel frente al Pacífico que cualquier japonés reconoce al
-      instante de los créditos de *Slam Dunk*. Se baja, se mira el mar con Enoshima al fondo, y se
-      vuelve a Tokio con la última luz.
+      Para cerrar, el **Enoden**: un tren de una sola vía y más de cien años que sale de Kamakura, se
+      mete entre las casas —tanto que se ven los tendederos— y de pronto sale al mar. Tres paradas
+      después, en Kamakura-kōkōmae, se baja, se mira el mar con Enoshima al fondo, y se vuelve a Tokio
+      con la última luz.
+    ver:
+      - nombre: Kamakura-kōkōmae
+        maps: Kamakurakokomae Station
+        nota: El paso a nivel frente al Pacífico de los créditos de *Slam Dunk*.
+        lat: 35.3067209
+        lon: 139.5007098
+      - reco: alba-enoshima
+        nota: "Tres paradas más de Enoden, si sobra luz. Ojo: las cuevas de Iwaya cierran hacia las 16:00."
 alt:
   label: Si te desmarcas
   body: >-

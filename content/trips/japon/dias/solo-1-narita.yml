@@ -11,6 +11,14 @@ dek: >-
   quedarse en Chiba dos horas y entrar en Tokio ya de noche, habiendo visto algo.
 duerme:
   - candeo-shimbashi
+mapa:
+  slug: solo-1-narita
+  paradas:
+    - { nombre: Keisei Narita, hora: "~11:45", lat: 35.7764750, lon: 140.3152569 }
+    - { nombre: "Omotesandō y Kawatoyo", hora: "~12:00", zona: Omotesandō, llegada: a-pie, lat: 35.7834275, lon: 140.3166959 }
+    - { nombre: "Shinshō-ji, el Daihondō", hora: "13:30", zona: Narita-san, llegada: a-pie, lat: 35.7860497, lon: 140.3182925 }
+    - { nombre: Parque de Narita-san, zona: Narita-san, llegada: a-pie, lat: 35.7865667, lon: 140.3207770 }
+    - { nombre: "Vuelta a la estación, a Shimbashi", hora: "16:45", llegada: a-pie, lat: 35.7764750, lon: 140.3152569 }
 traslados:
   - desde: "Narita T1"
     hasta: "Narita (ciudad)"
@@ -29,67 +37,78 @@ blocks:
     time: "10:20–11:30"
     title: Narita T1, y la primera decisión
     body: >-
-      El **LX 160** —con número de ANA, avión de SWISS— para en la **T1**, que es la de Star Alliance.
-      Entre desembarcar, inmigración y equipaje se van tranquilamente **una hora larga**. Dos cosas antes
-      de salir de la terminal: la **tarjeta IC** (Suica o Pasmo) y, si lo vas a usar, la **eSIM**
-      activada. Y deja la maleta en una consigna de la estación de Narita ciudad — vas a andar dos horas
-      y no apetece hacerlo arrastrando.
+      El **LX 160** —con número de ANA, avión de SWISS— para en la **T1**, la de Star Alliance. Entre
+      desembarcar, inmigración y equipaje se va **una hora larga**. Antes de salir de la terminal, la
+      **tarjeta IC** y, si la vas a usar, la **eSIM** activada. La maleta, a una consigna de la estación
+      de Narita ciudad: vas a andar dos horas.
     window:
       label: Por qué no ir directo a Tokio
       body: >-
-        Porque hoy no da para Tokio. Has dormido a trozos en trece horas de avión y el hotel no te va a
-        dar la habitación hasta las tres. Si te vas al centro, la tarde se convierte en arrastrar el
-        equipaje y luchar contra el sueño en una cafetería. Narita ciudad está a **diez minutos** en
-        dirección contraria, tiene el templo más importante del este de Japón y **no cierra**.
+        Porque hoy no da para Tokio. Has dormido a trozos en trece horas de avión y el hotel no te da
+        la habitación hasta las tres. Narita ciudad está a **diez minutos** en dirección contraria,
+        tiene el templo más importante del este de Japón y **no cierra**.
+    ver:
+      - reco: alba-welcome-suica
+        nota: "La tarjeta IC sin fianza: tú vuelas desde Narita, que no devuelve el depósito."
   - block: Mediodía
     time: "~12:00"
     title: La calle de las anguilas
     body: >-
-      De la estación al templo hay **unos diez minutos** por la **omotesandō**, la calle de peregrinación:
-      una cuesta de casas bajas de madera, tiendas de encurtidos y, sobre todo, **anguila**. Narita es
-      ciudad de **unagi** desde que los peregrinos que venían a pie al templo la comían del río Tone, y
-      todavía hoy verás a los cocineros abriendo las anguilas **en la calle, delante del local**, con un
-      punzón y un cuchillo. Es de las estampas más fotografiables de Kantō y no está montada para nadie:
-      lleva haciéndose así trescientos años.
+      De la estación al templo hay **unos diez minutos** por la **omotesandō**, la calle de
+      peregrinación: casas bajas de madera, tiendas de encurtidos y, sobre todo, **anguila**, que los
+      peregrinos comían del río Tone. Los cocineros la abren **en la calle, delante del local**, con
+      un punzón y un cuchillo, como hace trescientos años.
 
-      Comer aquí un **unadon** —anguila a la brasa con salsa dulce sobre arroz— es el primer plato del
-      viaje y uno bueno. La casa de referencia es **Kawatoyo**, en mitad de la cuesta; se hace cola, van
-      rápidas.
+      El primer plato del viaje es un **unadon**: anguila a la brasa con salsa dulce sobre arroz.
     window:
       label: Ventana óptima
       body: >-
-        Justo a la hora de comer, que es cuando los cocineros están abriendo anguila en la puerta. A media
-        tarde la calle sigue ahí pero el espectáculo se acaba, y muchos locales cierran a media tarde
-        porque viven del mediodía.
+        Justo a la hora de comer, que es cuando abren anguila en la puerta. A media tarde el espectáculo
+        se acaba, y muchos locales cierran porque viven del mediodía.
+    ver:
+      - nombre: Kawatoyo
+        maps: Kawatoyo Honten Narita
+        nota: La casa de referencia del *unadon*, en mitad de la cuesta. Se hace cola, pero va rápida.
+        lat: 35.7834275
+        lon: 140.3166959
   - block: Tarde
     time: "~13:30–16:30"
     title: Narita-san Shinshō-ji
     body: >-
-      El **Narita-san Shinshō-ji** es de **940** y uno de los grandes templos Shingon del país: no es un
-      sitio de paso hacia el aeropuerto, es un complejo enorme con **pagoda de tres pisos de 1712**, sala
-      principal, y un **parque de 165.000 m²** detrás que casi nadie cruza.
+      El templo es de **940** y uno de los grandes del budismo Shingon: pagoda de tres pisos de 1712,
+      sala principal y un parque detrás que casi nadie cruza.
 
-      Lo que hay que ver es el **goma**: el rito del fuego, varias veces al día, en el que los monjes
-      queman tablillas de madera con peticiones mientras tocan el taiko. Se entra sin pagar, se descalza
-      uno y se sienta. Dura media hora larga y es de lo más físico que tiene el budismo japonés —el calor,
-      el humo y el tambor—. Al terminar, la gente lleva sus bolsos y carteras al humo para que los pase.
+      Lo que hay que ver es el **goma**, el rito del fuego, varias veces al día: los monjes queman
+      tablillas con peticiones mientras suena el taiko. Se entra sin pagar, descalzo, y se sienta uno.
+      Dura media hora larga, con calor, humo y tambor; al terminar, la gente pasa bolsos y carteras
+      por el humo.
     window:
       label: Por qué hoy y no otro día
       body: >-
-        Porque es lunes y **un templo no cierra en lunes**, que es justo lo que se lleva por delante media
-        agenda japonesa. Y porque estás aquí una sola vez: cuando vuelvas al aeropuerto el día 14 será a
-        las nueve de la mañana con un vuelo a las 12:10, y no habrá tiempo de nada.
+        Porque es lunes y **un templo no cierra en lunes**. Y porque estás aquí una sola vez: cuando
+        vuelvas al aeropuerto el sábado 14 será a las nueve de la mañana con un vuelo a las 12:10.
+    ver:
+      - nombre: Narita-san Shinshō-ji
+        maps: Naritasan Shinshoji Temple
+        nota: Pagoda de tres pisos de 1712 y el rito del fuego, gratis, varias veces al día.
+        lat: 35.7860497
+        lon: 140.3182925
+      - nombre: Parque de Narita-san
+        maps: Naritasan Park
+        nota: Ciento sesenta y cinco mil metros cuadrados de estanques y bosque detrás del templo.
+        lat: 35.7865667
+        lon: 140.3207770
   - block: Noche
     time: "18:00 en adelante"
     title: Shimbashi, el Sky Spa y a dormir
     body: >-
-      Hasta **Shimbashi**, check-in en el [Candeo](#candeo-shimbashi) y —esto es lo importante hoy— **al Sky Spa de la última planta**. Después,
-      cena corta cerca del hotel y a la cama pronto: mañana es festivo y el plan empieza temprano.
+      Hasta **Shimbashi**, check-in en el [Candeo](#candeo-shimbashi) y —esto es lo importante hoy—
+      **al Sky Spa de la última planta**. Después, cena corta cerca del hotel y a la cama pronto:
+      mañana es festivo y el plan empieza temprano.
     dim: true
     window:
       label: El truco contra el jet lag
       body: >-
-        Ocho husos al este es la dirección mala, la que cuesta. Lo que mejor funciona es **no dormir de
-        día, cenar pronto, meterse en agua caliente y acostarse a la hora local**. El baño no es un
-        capricho: subir la temperatura corporal y dejarla caer después es de las pocas cosas que
-        adelantan el reloj de verdad.
+        Ocho husos al este es la dirección mala. Lo que mejor funciona es **no dormir de día, cenar
+        pronto, meterse en agua caliente y acostarse a la hora local**: subir la temperatura corporal y
+        dejarla caer después es de las pocas cosas que adelantan el reloj de verdad.

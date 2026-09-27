@@ -30,16 +30,24 @@ blocks:
     time: "10:00–15:00"
     title: Las últimas compras, y lo que falte
     body: >-
-      Es el día de rematar la lista: el ***depachika*** de [Ginza](#ginza) para la comida que se lleva
-      a casa —té, dulces, encurtidos envasados—, la papelería, y lo que se vio hace dos semanas y no
-      se compró. Aviso de aduana: la fruta fresca y las plantas no pasan, y algunos productos
-      cárnicos tampoco.
+      Es el día de rematar la lista: el ***depachika*** de Ginza para la comida que se lleva a casa
+      —té, dulces, encurtidos envasados—, la papelería, y lo que se vio hace dos semanas y no se
+      compró. Aviso de aduana: la fruta fresca y las plantas no pasan, y algunos productos cárnicos
+      tampoco.
 
-      Y si sobra tiempo, algo tranquilo y cerca: el jardín
-      [**Kyū Shiba Rikyū**](https://www.google.com/maps/search/?api=1&query=Kyu%20Shiba%20Rikyu%20Garden%20Tokyo),
-      pegado a Daimon, que es parada de la Toei Asakusa: **está en el camino a Haneda**. Es
-      pequeño, es del siglo XVII y se recorre en media hora con la maleta al lado — que es
-      exactamente lo que hoy se puede permitir.
+      Y si sobra tiempo, algo tranquilo y **en el camino a Haneda**: un jardín pegado a Daimon, parada
+      de la Toei Asakusa, que se recorre en media hora con la maleta al lado.
+    ver:
+      - ficha: ginza
+        nota: Los dos sótanos grandes, Mitsukoshi y Matsuya, están enfrente.
+      - nombre: Kyū Shiba Rikyū
+        maps: Kyu Shiba Rikyu Garden Tokyo
+        nota: Un jardín pequeño del siglo XVII junto a Daimon, en la línea del aeropuerto.
+        lat: 35.6549216
+        lon: 139.7586742
+    comer:
+      - comida: onigiri-konga-nihonbashi
+        nota: "*Onigiri* grandes para el avión, en el sótano del Takashimaya. Hoy es jueves: abre a las 11:00."
   - block: Tarde
     time: "15:00–18:00"
     title: Al aeropuerto
@@ -49,6 +57,10 @@ blocks:
       transbordo. No es la hora y media de Narita. Con salida a las
       21:00, dejar el centro a las 18:00 es cómodo y a las 18:30 es justo. Ver
       [los vuelos](#vuelos).
+    ver:
+      - nombre: Edo Kōji, Terminal 3
+        maps: Edo Koji Haneda Airport Terminal 3
+        nota: Una calle de Edo con puestos y farolillos en la cuarta planta, y la terraza de los aviones.
     window:
       label: Antes de pasar el control
       body: >-

@@ -11,6 +11,14 @@ dek: >-
   defender, sin contención y con una palabra propia para definirse. Comer de pie y mirar carteles.
 duerme:
   - androoms-kyoto-shichijo
+mapa:
+  slug: dia-14-osaka
+  paradas:
+    - { nombre: Castillo de Osaka, hora: "09:30", lat: 34.6874875, lon: 135.5258873 }
+    - { nombre: Kuromon, hora: "12:00", zona: Minami, llegada: metro, lat: 34.6653277, lon: 135.5069795 }
+    - { nombre: Tsūtenkaku, hora: "15:00", zona: Shinsekai, llegada: a-pie, lat: 34.6525393, lon: 135.5063098 }
+    - { nombre: "Ebisubashi y el Glico", hora: "18:00", zona: Minami, llegada: metro, lat: 34.6690672, lon: 135.5013046 }
+    - { nombre: Hōzenji Yokochō, zona: Minami, llegada: a-pie, lat: 34.6681845, lon: 135.5026705 }
 traslados:
   - desde: "Kioto"
     hasta: "Fushimi Inari"
@@ -34,77 +42,130 @@ blocks:
     time: "06:45–08:45"
     title: Los diez mil torii, antes de que llegue nadie
     body: >-
-      **[Fushimi Inari](#fushimi-inari) es el sitio más visitado de Kioto y el único que se puede
-      tener vacío**, porque no es un templo con horario: es una montaña con un santuario, **abierta
-      las veinticuatro horas y gratis**. A las siete de la mañana los túneles de torii están
-      literalmente para vosotros; a las once son una cola en fila india.
+      **Fushimi Inari es el sitio más visitado de Kioto y el único que se puede tener vacío**, porque
+      no es un templo con horario: es una montaña con un santuario, **abierta las veinticuatro horas
+      y gratis**. A las siete de la mañana los túneles de torii están literalmente para vosotros; a
+      las once son una cola en fila india.
 
-      Está a **cinco minutos de la estación de Kioto** por la línea JR Nara —bajando en *Inari*, que
-      deja en la puerta— y por eso encaja hoy y no otro día: es el único que sale hacia el sur.
-      Subid al menos hasta el mirador de Yotsutsuji, a media montaña y unos cuarenta minutos: es
-      donde se acaba el gentío incluso a mala hora y desde donde se ve Kioto entera.
+      Encaja hoy y no otro día porque es el único que sale hacia el sur. Subid al menos hasta el
+      mirador de Yotsutsuji, a media montaña y unos cuarenta minutos: es donde se acaba el gentío
+      incluso a mala hora y desde donde se ve Kioto entera.
     window:
       label: Hasta dónde subir, y por qué no hasta arriba
       body: >-
-        La cima está a dos horas y media ida y vuelta y **no tiene vistas**: el bosque se cierra. Lo
-        que hay arriba es el santuario interior y muchísimos torii pequeños, y es una caminata
-        bonita, pero hoy hay un día entero por delante. Yotsutsuji es el punto de rendimiento
-        decreciente — de ahí para arriba se repite el paisaje. Bajad por el ramal de la derecha,
-        que pasa por el estanque y por los santuarios pequeños donde la gente deja torii en
-        miniatura.
+        La cima está a dos horas y media ida y vuelta y **no tiene vistas**: el bosque se cierra.
+        Yotsutsuji es el punto de rendimiento decreciente, y de ahí para arriba se repite el paisaje.
+        Bajad por el ramal de la derecha, que pasa por el estanque y por los santuarios pequeños
+        donde la gente deja torii en miniatura.
+    ver:
+      - ficha: fushimi-inari
+        nota: Cada torii es una factura, con el donante y la fecha escritos por detrás. Se leen al bajar.
+      - reco: alba-torii-fushimi
+        nota: Un torii en miniatura con vuestro nombre, en una mesa de la bajada. Sin puesto fijo.
   - block: Mañana
     time: "09:30–12:00"
     title: El castillo, y lo que no es
     body: >-
       Se empieza por lo que más lejos queda. Y con una expectativa ajustada: **la torre del castillo
       es una reconstrucción de hormigón de 1931, con ascensor y museo dentro**. Lo que merece el
-      paseo es lo de fuera — el parque, el foso y las murallas de bloques de más de cien toneladas
-      que llegaron por mar desde otras provincias. Media hora larga y a otra cosa. El porqué, en
-      [la ficha de Osaka](#osaka).
+      paseo es lo de fuera: el parque, el foso y las murallas de bloques de más de cien toneladas.
+      Media hora larga y a otra cosa.
     window:
       label: Por qué a primera hora
       body: >-
         Porque es lo único de hoy con horario y con cola, y porque el resto del día no lo tiene: **la
         Osaka que importa es la de la tarde y la noche**, cuando se encienden los carteles. Hacer esto
-        al revés deja el castillo cerrado y [Dōtonbori](https://www.google.com/maps/search/?api=1&query=Dotonbori%20Osaka) a mediodía, que es cuando peor está.
+        al revés deja el castillo cerrado y Dōtonbori a mediodía, que es cuando peor está.
+    ver:
+      - ficha: osaka
+        nota: La despensa de Japón, el primer mercado de futuros del mundo y la palabra *kuidaore*.
+      - nombre: Castillo de Osaka
+        maps: Osaka Castle
+        nota: El de Hideyoshi lo arrasaron los Tokugawa en 1615. Se viene por las murallas.
+        lat: 34.6874875
+        lon: 135.5258873
+      - reco: alba-kioto-osaka-sin-shinkansen
+        nota: El tren normal basta para bajar. El turístico del vídeo no circula en jueves.
+    comer:
+      - comida: getto-osaka
+        nota: "*Dashimaki* con la yema líquida, a siete minutos del castillo. Abre a las 11:30."
+      - comida: tokito-karahori
+        nota: Bocadillo de wagyu en Karahori, de camino a Namba. Pocas unidades al día y solo efectivo.
+      - comida: ult-coffee
+        nota: El café mejor clasificado de Japón en la lista mundial de 2026.
   - block: Mediodía
     time: "12:00–15:00"
     title: Kuromon, y por qué esta ciudad come así
     body: >-
       El **mercado de Kuromon** es la despensa de Osaka: pescado, vieiras a la brasa, fruta cortada,
-      *takoyaki*. Se come de puesto en puesto y de pie, que es exactamente la forma local.
-
-      Se come de puesto en puesto y de pie, que es la forma local — y no es una costumbre suelta:
-      viene de que esta fue durante siglos **la despensa de Japón**, y eso está contado en su ficha.
+      *takoyaki*. Se come de puesto en puesto y de pie, que es exactamente la forma local, y alrededor
+      hay cuatro manzanas de clásicos de calle.
+    comer:
+      - comida: kuromon
+        nota: Seiscientos metros de puestos con plancha y brasa. Muchos cierran a las cinco.
+      - comida: chiyomatsu-osaka
+        nota: "*Katsudon* de cinco centímetros de un exluchador de sumo. Pedid el normal, no el especial."
+      - comida: osaka-clasicos-de-calle
+        nota: Los *butaman* del 551 Hōrai y la tarta de queso que tiembla, entre Kuromon y Namba.
+      - comida: wagyu-idaten-osaka
+        nota: Wagyu A5 en caja lacada, a un minuto de Namba. Solo a mediodía y sin reserva.
   - block: Tarde
     time: "15:00–17:30"
     title: Shinsekai y la torre
     body: >-
-      El barrio más raro de Osaka y el que menos ha cambiado — de dónde salió esa mezcla de neón,
-      fritanga y torre está en [la ficha de Osaka](#osaka). Aquí se viene a una cosa concreta: comer
-      ***[kushikatsu](#daruma-kushikatsu)*** de pie, bajo la [**Tsūtenkaku**](https://www.google.com/maps/search/?api=1&query=Tsutenkaku%20Osaka)
-      encendida. Y hay una sola norma, la más seria de la ciudad: no se moja dos veces. Hay
-      carteles, y no es broma.
+      El barrio más raro de Osaka y el que menos ha cambiado. Aquí se viene a una cosa concreta:
+      comer ***kushikatsu*** de pie, bajo la Tsūtenkaku encendida. Y hay una sola norma, la más seria
+      de la ciudad: no se moja dos veces. Hay carteles, y no es broma.
+    ver:
+      - nombre: Tsūtenkaku
+        maps: Tsutenkaku Osaka
+        nota: La torre de un barrio de 1912 que imitaba a París y a Coney Island a la vez.
+        lat: 34.6525393
+        lon: 135.5063098
+    comer:
+      - comida: daruma-kushikatsu
+        nota: La casa de 1929 que fijó la regla de la salsa. El repollo sirve de cuchara.
+      - comida: dekasan-osaka
+        nota: El *sando* de entraña, para comer andando camino de Shinsekai. Cierra a las 16:00.
   - block: Noche
     time: "18:00–22:00"
     title: Dōtonbori, con los carteles encendidos
     body: >-
       El canal con el frente de fachadas cubierto de neones y esculturas gigantes. Aquí solo hay que
-      hacer tres cosas: **fotografiarse imitando al [Glico Running Man](https://www.google.com/maps/search/?api=1&query=Glico%20Running%20Man%20Dotonbori)
-      desde el puente Ebisubashi**, que es tradición local y no trampa de turista; echarle agua al
-      Buda cubierto de musgo del callejón de [Hōzen-ji](https://www.google.com/maps/search/?api=1&query=Hozenji%20Yokocho%20Osaka),
-      que es el ritual del sitio; y cenar de pie.
+      hacer tres cosas: **fotografiarse imitando al Glico Running Man desde el puente Ebisubashi**,
+      que es tradición local y no trampa de turista; echarle agua al Buda cubierto de musgo del
+      callejón de Hōzen-ji, que es el ritual del sitio; y cenar de pie.
 
       De cenar: [takoyaki](#takoyaki) y [okonomiyaki](#okonomiyaki), que aquí se hace mezclándolo todo
-      antes de echarlo a la plancha. El resto lo cuenta [la ficha de Osaka](#osaka).
+      antes de echarlo a la plancha.
     window:
       label: Un aviso de los locales
       body: >-
-        Regla de oro del canal, y la explica [la ficha](#osaka): **el cartel de seis metros lo paga
-        alguien**. Traducción práctica para esta noche — girad a la primera bocacalle. En
-        [**Hōzenji Yokochō**](https://www.google.com/maps/search/?api=1&query=Hozenji%20Yokocho%20Osaka),
-        a dos minutos del Glico, se come mejor y por la mitad, en callejones de piedra sin un solo
-        cartel gigante.
+        Regla de oro del canal: **el cartel de seis metros lo paga alguien**. Traducción práctica para
+        esta noche: girad a la primera bocacalle. En Hōzenji Yokochō, a dos minutos del Glico, se come
+        mejor y por la mitad, en callejones de piedra sin un solo cartel gigante.
+    ver:
+      - nombre: Glico y el puente Ebisubashi
+        maps: Glico Running Man Dotonbori
+        nota: El atleta que corre desde 1935, ya en su sexta versión. La foto se hace imitándolo.
+        lat: 34.6690672
+        lon: 135.5013046
+      - nombre: Hōzenji Yokochō
+        maps: Hozenji Yokocho Osaka
+        nota: El callejón empedrado del Buda de musgo, al que se le echa agua.
+        lat: 34.6681845
+        lon: 135.5026705
+      - reco: alba-timos-dotonbori
+        nota: Los captadores de traje negro. Un restaurante bueno no sale a la calle a pescar clientes.
+    comer:
+      - comida: odoridako-dotonbori
+        nota: Takoyaki con un pulpito entero por bola, en el propio canal. Mejor con sal de roca.
+      - comida: mizuno
+        nota: Okonomiyaki con Bib Gourmand desde 1945, ligado con ñame. Hay cola y va rápida.
+      - comida: yp-ryu-osaka
+        nota: Yakiniku de wagyu en un sótano de Sōemonchō, a una calle del canal. De 17:00 a 23:00.
+      - comida: dearbros-osaka
+        nota: "*Omurice* en treinta versiones, abierto hasta medianoche todos los días."
 alt:
   label: Si te desmarcas
   body: >-

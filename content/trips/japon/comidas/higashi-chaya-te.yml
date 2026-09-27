@@ -1,4 +1,6 @@
 slug: higashi-chaya-te
+lat: 36.5725559
+lon: 136.6666756
 trip: japon
 part: japon
 city: Kanazawa
@@ -8,7 +10,7 @@ title: Las casas de té de Higashi Chaya
 navLabel: "Las casas de té de Higashi Chaya"
 tipo: salones de té en casas de geishas
 area: Higashi Chaya-gai · el barrio de madera al este del río
-cuando: "Día 10 · media tarde"
+cuando: "Día 7 · media tarde"
 precio: "¥1.000–2.000 (6–13 €)"
 reserva: "No en general"
 colas: "Poca cosa entre semana"

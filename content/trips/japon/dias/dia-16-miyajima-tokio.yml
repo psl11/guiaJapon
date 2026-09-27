@@ -10,6 +10,16 @@ dek: >-
 duerme:
   - apa-asakusa-kaminarimon
   - koko-ginza-1chome
+mapa:
+  slug: dia-16-miyajima-tokio
+  paradas:
+    - { nombre: "Salida · Miyajimaguchi", hora: "08:00", lat: 34.3123127, lon: 132.3029382 }
+    - { nombre: Muelle de Miyajima, zona: Miyajima, llegada: tren, lat: 34.3020947, lon: 132.3222470 }
+    - { nombre: Ō-torii, zona: Miyajima, llegada: a-pie, lat: 34.2972999, lon: 132.3181356 }
+    - { nombre: Itsukushima-jinja, hora: "08:30", zona: Miyajima, llegada: a-pie, lat: 34.2965274, lon: 132.3190065 }
+    - { nombre: Daishō-in, zona: Miyajima, llegada: a-pie, lat: 34.2917287, lon: 132.3185775 }
+    - { nombre: Momiji-dani, hora: "12:00", zona: Miyajima, llegada: a-pie, lat: 34.2938092, lon: 132.3250384 }
+    - { nombre: Ferry de vuelta, hora: "14:30", zona: Miyajima, llegada: a-pie, lat: 34.3020947, lon: 132.3222470 }
 traslados:
   - desde: "Hiroshima"
     hasta: "Miyajima"
@@ -28,59 +38,84 @@ blocks:
     time: "07:30–08:30"
     title: El tren y el ferry
     body: >-
-      Tren JR hasta Miyajimaguchi —veinticinco minutos— y **ferry, diez minutos**. Desde 2023 hay una
-      tasa de visitante de 100 yenes que se paga al embarcar. Ir pronto tiene premio doble: es
-      sábado y a media mañana el ferry va lleno.
+      Tren JR hasta Miyajimaguchi —veinticinco minutos— y **ferry, diez minutos**. La tasa de
+      visitante de 100 yenes se paga al embarcar. Ir pronto tiene premio doble: es sábado y a media
+      mañana el ferry va lleno.
     window:
       label: Mirad la tabla de mareas la noche antes
       body: >-
         **La isla es dos sitios distintos según la marea** y hoy solo hay una mañana. Con **marea
         alta**, el santuario y el torii flotan: es la postal. Con **marea baja**, la bahía se queda
-        seca y **se camina hasta el pie del torii**, se toca la madera y se ven las monedas encajadas
-        en las grietas. Las dos merecen; lo que no merece es enterarse allí. La tabla la publica el
-        propio santuario. Ver [Miyajima](#miyajima).
+        seca y **se camina hasta el pie del torii**. Las dos merecen; lo que no merece es enterarse
+        allí. La tabla la publica el propio santuario.
+    ver:
+      - ficha: miyajima
+        nota: Por qué el santuario está sobre el agua y cómo se sostiene el torii sin cimientos.
+      - nombre: Ō-torii
+        maps: Itsukushima Shrine Great Torii
+        nota: Dieciséis metros de alcanfor de 1875, apoyados en el fondo por su propio peso.
+        lat: 34.2972999
+        lon: 132.3181356
   - block: Mediodía
     time: "08:30–12:00"
     title: Itsukushima, y el porqué de todo
     body: >-
       Se recorre el santuario por las pasarelas —fijaos en que **las tablas están separadas a
       propósito**, para que la marea suba entre ellas— y se sale al escenario de danza. Media hora
-      larga. El porqué de que todo esto esté construido sobre el agua, en
-      [la ficha de Miyajima](#miyajima).
+      larga.
 
-      A cinco minutos, **Daishō-in**: el templo budista de la isla, en la ladera, con una escalera
-      cuyo pasamanos son cientos de ruedas de oración de metal que se van girando al subir —se
-      supone que girarlas todas equivale a leer los sutras enteros—. Casi nadie sube y es lo mejor de
+      A cinco minutos, **Daishō-in**, el templo budista de la ladera, con una escalera cuyo pasamanos
+      son cientos de ruedas de oración que se giran al subir. Casi nadie sube y es lo mejor de
       Miyajima después del torii.
+    ver:
+      - nombre: Itsukushima-jinja
+        maps: Itsukushima Shrine
+        nota: Lo amplió Taira no Kiyomori en 1168, sobre pilotes, para no pisar la isla-dios.
+        lat: 34.2965274
+        lon: 132.3190065
+      - nombre: Daishō-in
+        maps: Daisho-in Temple Miyajima
+        nota: Girar todas las ruedas de oración equivale, se supone, a leer los sutras enteros.
+        lat: 34.2917287
+        lon: 132.3185775
+      - reco: alba-sellos-y-goshuin
+        nota: Daishō-in tiene uno de los *goshuin* más trabajados del país. Cuaderno aparte del de estación.
   - block: Tarde
     time: "12:00–14:00"
     title: Arces, ostras y una tarta con forma de hoja
     body: >-
-      Antes de coger el ferry, tres cosas que se hacen en la misma calle:
+      Antes de coger el ferry, tres cosas en la misma calle: subir al valle de los arces, que a día
+      21 debería estar **en su punto**; comprar *momiji manjū* calientes; y comer **ostras a la brasa**
+      en un puesto, o ***anago-meshi*** sentado, que es el plato de la isla.
 
-      - Subir al [**Momiji-dani**](https://www.google.com/maps/search/?api=1&query=Momijidani%20Park%20Miyajima),
-        el valle de los arces, que a día 21 debería estar **en su punto**.
-      - Comprar ***momiji manjū*** calientes, recién salidos de las máquinas que se ven trabajar desde
-        la calle.
-      - Y comer **ostras a la brasa** en un puesto, o ***anago-meshi*** sentado, que es el plato de la
-        isla.
-
-      Los **ciervos** de aquí no se alimentan —está prohibido desde 2008— y por eso son bastante menos
-      agresivos que los de Nara. Aun así se comen los mapas.
+      Los **ciervos** no se alimentan —está prohibido desde 2008— y por eso son menos agresivos que
+      los de Nara. Aun así se comen los mapas.
+    ver:
+      - nombre: Momiji-dani
+        maps: Momijidani Park Miyajima
+        nota: El valle que da nombre al dulce, de los mejores arces del oeste en la segunda quincena.
+        lat: 34.2938092
+        lon: 132.3250384
+      - reco: alba-palillos-grabados
+        nota: En la calle comercial te los graban gratis en cinco minutos. La tienda no tiene nombre en el post.
+      - ficha: momiji
+        nota: Por qué el 21 de noviembre cae de lleno en el pico del oeste.
+    comer:
+      - comida: momiji-manju-miyajima
+        nota: Pedid el ***age-momiji***, frito y en un palo. No aguanta, así que se come subiendo.
   - block: Tarde
     time: "14:30–19:00"
     title: Cuatro horas al este
     body: >-
-      Ferry, tren a [Hiroshima](#hiroshima) y **Shinkansen a Tokio: unas cuatro horas**. Es el trayecto más largo
-      del viaje y también el más agradecido: se cruza medio país por la costa del mar interior,
-      [Osaka](#osaka), [Kioto](#kioto) y el Fuji por la derecha si el día está limpio. Es la ocasión de un *ekiben* de
-      Hiroshima —el de ostras es una institución— y de dormir.
+      Ferry, tren a Hiroshima y **Shinkansen a Tokio: unas cuatro horas**. Se cruza medio país por la
+      costa del mar interior, [Osaka](#osaka), [Kioto](#kioto) y el Fuji por la derecha si el día
+      está limpio. Es la ocasión de un *ekiben* de Hiroshima —el de ostras es una institución— y de
+      dormir.
     window:
       label: El asiento del Fuji
       body: >-
         Yendo hacia el este, **el Fuji queda a la derecha**, entre Shin-Fuji y Mishima, más o menos a
-        cuarenta minutos de Tokio. En noviembre el aire es el más limpio del año y se ve muchos días.
-        Asiento E en clase turista, y estar atento a la ventanilla en ese tramo.
+        cuarenta minutos de Tokio. En noviembre se ve muchos días. Asiento E en clase turista.
   - block: Noche
     time: "noche"
     title: Tokio otra vez, y otro barrio

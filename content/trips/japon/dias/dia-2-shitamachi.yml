@@ -10,97 +10,161 @@ dek: >-
   los oficios cuando abre la persiana, y una tarde en el Tokio que sobrevivió a las bombas.
 duerme:
   - resol-akihabara
+mapa:
+  slug: dia-2-shitamachi
+  paradas:
+    - { nombre: Hotel Resol, lat: 35.6967393, lon: 139.7739276 }
+    - { nombre: Kaminarimon, hora: "06:00", zona: Asakusa, llegada: metro, lat: 35.7111333, lon: 139.7963683 }
+    - { nombre: "Nakamise y Sensō-ji", zona: Asakusa, llegada: a-pie, lat: 35.7134032, lon: 139.7955265 }
+    - { nombre: Kappabashi, hora: "08:00–11:00", zona: Asakusa, llegada: a-pie, lat: 35.7142517, lon: 139.7888894 }
+    - { nombre: Museo Nacional, hora: "11:30", zona: Ueno, llegada: metro, lat: 35.7190448, lon: 139.7759676 }
+    - { nombre: Ameyoko, zona: Ueno, llegada: a-pie, lat: 35.7100241, lon: 139.7745414 }
+    - { nombre: Yanaka Ginza, hora: "15:00", zona: Yanaka, llegada: tren, lat: 35.7276689, lon: 139.7653174 }
+    - { nombre: "Vuelta al barrio, a cenar", hora: noche, llegada: tren, lat: 35.6967393, lon: 139.7739276 }
 blocks:
   - block: Amanecer
     time: "06:00"
     title: Sensō-ji antes de que exista nadie
     body: >-
       El templo más visitado de Japón recibe treinta millones de personas al año, y a las seis de la
-      mañana no hay ninguna: [**el recinto no cierra por la noche**](#sensoji). Se cruza la puerta
-      [**Kaminarimon**](https://www.google.com/maps/search/?api=1&query=Kaminarimon%20Asakusa%20Tokyo) bajo su farol gigante, se recorren los doscientos metros de la [**Nakamise**](https://www.google.com/maps/search/?api=1&query=Nakamise-dori%20Asakusa%20Tokyo) con
-      todas las persianas bajadas —tiendas de souvenirs convertidas en un callejón de chapa pintada—
-      y se llega al pie de la escalinata con la ciudad en silencio. **El salón principal abre a las
-      6:30** —de octubre a marzo; en verano, a las 6:00—, así que hay media hora de recinto para uno
-      solo antes de poder entrar. Es la misma foto que hacen todos, tomada en el único momento
-      en que se puede tomar.
+      mañana no hay ninguna: el recinto no cierra de noche. Se cruza el Kaminarimon bajo su farol
+      gigante, se recorre la Nakamise con las persianas bajadas y se llega a la escalinata con la
+      ciudad en silencio. **El salón principal abre a las 6:30** de octubre a marzo, así que hay media
+      hora de recinto para vosotros solos.
     window:
       label: Ventana óptima
       body: >-
-        Aquí es donde el desfase horario cambia de bando. Vuestro cuerpo cree que son las diez de la
-        noche del día anterior y os va a despertar a las cinco hagáis lo que hagáis; **el sol sale
-        sobre las 6:10** y a las nueve esto es una romería. Es literalmente la única mañana del viaje
-        en que madrugar no cuesta nada — la segunda ya cuesta, y la tercera duele.
+        Aquí el desfase horario cambia de bando. El cuerpo cree que son las diez de la noche y os va a
+        despertar a las cinco hagáis lo que hagáis; **el sol sale sobre las 6:10** y a las nueve esto
+        es una romería. Es la única mañana del viaje en que madrugar no cuesta nada.
+    ver:
+      - ficha: sensoji
+        nota: Por qué el templo es de 1945 y lo antiguo de verdad es el santuario de al lado.
+      - nombre: Asakusa-jinja
+        maps: Asakusa Shrine Tokyo
+        nota: El santuario de 1649, lo único original del recinto. A treinta metros a la derecha del salón.
+        lat: 35.7148087
+        lon: 139.7974977
+    comer:
+      - comida: onigiri-yadoroku
+        nota: Para el hambre rara de después del templo. Abre temprano y está a cinco minutos.
   - block: Mañana
     time: "08:00–11:00"
     title: Asakusa despierta y la calle de los cuchillos
     body: >-
-      Vuelta al mismo sitio dos horas después para verlo convertirse en otra cosa: las persianas de la
-      [Nakamise](https://www.google.com/maps/search/?api=1&query=Nakamise-dori%20Asakusa%20Tokyo) suben, aparecen los puestos de **ningyō-yaki** —los bizcochitos rellenos de judía dulce
-      que se hacen en molde a la vista— y el templo se llena de gente rezando de camino al trabajo. A
-      diez minutos andando está [**Kappabashi**](https://www.google.com/maps/search/?api=1&query=Kappabashi%20Kitchen%20Town%20Tokyo), la calle de los cuchillos y la
-      vajilla, con sus escaparates de comida de plástico. Hoy se cruza de paso y sin cartera: lo que
-      se compre aquí hay que cargarlo diecinueve días, y el [día 17](#dia-17-compras) vuelve a
-      propósito.
+      Vuelta a la Nakamise dos horas después, para verla convertida en otra cosa: suben las persianas,
+      salen los ***ningyō-yaki*** del molde y el templo se llena de gente rezando de camino al trabajo.
+      A diez minutos andando está Kappabashi, la calle de los cuchillos y la vajilla. Hoy se cruza sin
+      cartera: lo que se compre hay que cargarlo diecinueve días, y el [día 17](#dia-17-compras) vuelve
+      a propósito.
     window:
       label: Por qué las dos visitas
       body: >-
-        Parece redundante volver a Asakusa y no lo es: son **dos sitios distintos** con el mismo
-        nombre. A las seis es un templo; a las nueve es un mercado con un templo dentro. Ver los dos
-        seguidos, con dos horas de diferencia, enseña más de cómo funciona esta ciudad que cualquier
-        museo.
+        Son **dos sitios distintos** con el mismo nombre. A las seis es un templo; a las nueve es un
+        mercado con un templo dentro.
+    ver:
+      - nombre: Mirador del Centro Cultural
+        maps: Asakusa Culture Tourist Information Center
+        nota: "Edificio de Kengo Kuma con ascensor gratis a la octava planta: la Nakamise entera y el Skytree."
+        lat: 35.7106419
+        lon: 139.7965189
+      - nombre: Kappabashi
+        maps: Kappabashi Kitchen Town Tokyo
+        nota: Cuchillos, vajilla y comida de plástico en escaparate. Hoy solo mirar.
+        lat: 35.7142517
+        lon: 139.7888894
+      - reco: alba-zen-craft-asakusa
+        nota: Tallarse los palillos, en el camino entre el templo y Kappabashi.
+    comer:
+      - comida: nakamise
+        nota: El *ningyō-yaki* recién hecho. Los puestos abren hacia las 9:30.
+      - comida: asakusa-ruta-callejera
+        nota: Melonpan, anguila y croqueta en una sola manzana. Abren a las 10:00.
+      - comida: umezono
+        nota: El *anmitsu* de un salón de 1854, a un paso de la Nakamise.
   - block: Mediodía
     time: "11:30–15:00"
     title: Ueno, y el museo que explica el país
     body: >-
-      En metro hasta **Ueno**, donde está el parque grande de la ciudad y, dentro, el [**Museo Nacional
-      de Tokio**](#ueno): el más antiguo y el más completo de Japón, con la mejor colección de armaduras,
-      espadas, biombos y cerámica que se puede ver en ningún sitio. No hace falta hacerlo entero —dos
-      horas en el edificio principal, el Honkan, bastan y sobran—. A la salida, [**Ameyoko**](https://www.google.com/maps/search/?api=1&query=Ameyoko%20Market%20Ueno%20Tokyo): el
-      mercado callejero que nació de un mercado negro de posguerra bajo las vías del tren y que sigue
-      gritando los precios.
+      En metro hasta **Ueno**, el parque grande de la ciudad. Dentro está el Museo Nacional de Tokio,
+      el más antiguo y completo de Japón: armaduras, espadas, biombos y cerámica. Dos horas en el
+      edificio principal, el Honkan, bastan. A la salida, Ameyoko, el mercado que nació de un mercado
+      negro de posguerra bajo las vías del tren.
     window:
       label: Por qué hoy y no el lunes
       body: >-
-        Porque **el lunes cierra**, como casi todos los museos de Japón. De vuestros tres días de
-        Tokio, dos son fin de semana y uno es lunes; todo lo que tenga taquilla y horario tiene que
-        caer hoy o mañana. El lunes ya tiene su propio plan, hecho justamente de lo que no cierra.
+        Porque **el lunes cierra**, como casi todos los museos de Japón. Todo lo que tenga taquilla y
+        horario tiene que caer hoy o mañana.
+    ver:
+      - ficha: ueno
+        nota: Por qué el parque es un escudo contra los demonios, y qué hay en cada museo.
+      - nombre: Museo Nacional de Tokio
+        maps: Tokyo National Museum
+        nota: El Honkan, dos horas. Cierra los lunes.
+        lat: 35.7190448
+        lon: 139.7759676
+    comer:
+      - comida: asakusa-hirayama
+        nota: Si se come antes de salir de Asakusa. Soba *juwari* con Bib Gourmand, y hay que reservar.
   - block: Tarde
     time: "15:00–17:00"
     title: Yanaka, el barrio que no ardió
     body: >-
-      Tokio ha sido arrasado dos veces en un siglo —el terremoto de 1923 y los bombardeos de 1945— y
-      por eso es una ciudad casi sin casco antiguo. [**Yanaka es la excepción**](#yanaka): un barrio de casas
-      bajas, templos, gatos y un cementerio precioso que se libró de las dos. Se recorre sin plan por
-      la [**Yanaka Ginza**](https://www.google.com/maps/search/?api=1&query=Yanaka%20Ginza%20Tokyo), una calle comercial de escalones y croquetas, y es el mejor sitio de la
-      ciudad para entender qué se perdió en el resto.
+      Tokio se arrasó dos veces en un siglo —el terremoto de 1923 y las bombas de 1945— y por eso casi
+      no tiene casco antiguo. Yanaka se libró de las dos: casas bajas de madera, setenta templos, un
+      cementerio con cerezos y gatos. Se baja a la [**Yanaka Ginza**](https://www.google.com/maps/search/?api=1&query=Yanaka%20Ginza%20Tokyo)
+      por la «escalera del sol poniente», pero lo mejor está en las calles de al lado.
     window:
       label: Ventana óptima
       body: >-
-        **En noviembre el sol se pone a las 16:40.** Es lo primero que hay que interiorizar de este
-        viaje: la luz se va cuando en España aún sería media tarde. Yanaka a las cuatro, con el sol
-        bajo entre las casas bajas y las tiendas encendiéndose, es exactamente el momento — a las cinco
-        ya es de noche.
+        **En noviembre el sol se pone a las 16:40.** Yanaka a las cuatro, con el sol bajo entre las
+        casas y las tiendas encendiéndose, es el momento. A las cinco ya es de noche.
+    ver:
+      - ficha: yanaka
+        nota: Por qué hay setenta templos en un barrio, y quién está enterrado en el cementerio.
+      - nombre: Museo Asakura de Escultura
+        maps: Asakura Museum of Sculpture Tokyo
+        nota: Casa, estudio y patio de agua del escultor, descalzos. Cierra lunes y viernes; el sábado abre.
+        lat: 35.7268258
+        lon: 139.7685379
+      - nombre: Tennō-ji
+        maps: Tennoji Temple Yanaka Tokyo
+        nota: Un Buda de cobre de 1690 al aire libre, junto a la entrada del cementerio.
+        lat: 35.7267469
+        lon: 139.7712420
+      - nombre: Nezu-jinja
+        maps: Nezu Shrine Tokyo
+        nota: "Un túnel de torii rojos en miniatura: el Fushimi Inari de bolsillo, sin cola."
+        lat: 35.7199731
+        lon: 139.7606625
+    comer:
+      - comida: kayaba-coffee
+        nota: El *tamago sando* de un *kissaten* de 1938, en la esquina del cementerio.
   - block: Noche
     time: "noche"
     title: La primera cena de verdad
     body: >-
-      La ventaja de dormir donde dormís es que hoy no hay que volver a ninguna parte: el día entero
-      ha pasado en esta mitad de la ciudad. Dos opciones a un paso y ninguna necesita reserva: el
-      mercado de [**Ameyoko**](https://www.google.com/maps/search/?api=1&query=Ameyoko%20Market%20Ueno%20Tokyo) bajo las vías de Ueno, que a
-      última hora se convierte en una fila de barras al aire libre; o bajar dos paradas a casa y
-      cenar en los callejones de [**Kanda**](https://www.google.com/maps/search/?api=1&query=Kanda%20Station%20Tokyo), que es donde cena la
-      oficina de Tokio al salir del trabajo. Y a la cama pronto otra vez — mañana también amanece
-      temprano.
+      Hoy no hay que volver a ninguna parte: el día entero ha pasado en esta mitad de la ciudad. Tres
+      opciones a un paso del hotel, y a la cama pronto, que mañana también amanece temprano.
+    comer:
+      - comida: ameyoko
+        nota: Barras al aire libre bajo las vías desde las cinco. Se cena de pie y picando.
+      - comida: mimasuya
+        nota: La izakaya más antigua de Tokio, de 1905, una parada al sur. Mejor reservar.
+      - comida: tonkatsu-marugo
+        nota: Bib Gourmand a cuatro minutos del hotel. El sábado abre de 17:00 a 20:00, con cola antes.
 alt:
   label: Si te desmarcas
   body: >-
-    El Museo Nacional ya lo has hecho. Dos cambios con más recorrido:
+    El Museo Nacional ya lo has hecho. Tres cambios con más recorrido:
 
     - **El Museo Nacional de Ciencias**, al lado del Honkan. Tiene a **Hachikō disecado** y una sala
     de historia natural japonesa que no visita nadie.
+
     - **El [mercado de antigüedades de Ōedo](#alba-oedo-antique-market)**, en Yūrakuchō, si hoy no
     llueve. Solo abre dos días al mes y hoy es uno: doscientos cincuenta anticuarios al aire libre,
     de nueve a cuatro. Cuesta el Honkan entero y dos paradas de Yamanote.
+
     - **Cruzar el río a [Ryōgoku](#ryogoku)**, el barrio del sumo. El Museo Edo-Tokyo cuenta la ciudad
     de madera que se quemó —comprueba si ya reabrió de su reforma— y las *heya*, los establos de
     luchadores, entrenan a puerta entreabierta a primera hora.

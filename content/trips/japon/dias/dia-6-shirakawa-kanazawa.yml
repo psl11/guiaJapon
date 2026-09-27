@@ -10,6 +10,14 @@ dek: >-
   cosa completamente distinta.
 duerme:
   - forza-kanazawa
+mapa:
+  slug: dia-6-shirakawa-kanazawa
+  paradas:
+    - { nombre: Terminal de autobuses, hora: "09:30", zona: Ogimachi, lat: 36.2620171, lon: 136.9068702 }
+    - { nombre: Mirador de Shiroyama, zona: Ogimachi, llegada: a-pie, lat: 36.2629545, lon: 136.9079634 }
+    - { nombre: Casa Wada, zona: Ogimachi, llegada: a-pie, lat: 36.259924, lon: 136.9076278 }
+    - { nombre: "Myōzen-ji", zona: Ogimachi, llegada: a-pie, lat: 36.2559101, lon: 136.9065906 }
+    - { nombre: "Autobús a Kanazawa", hora: "13:30", zona: Ogimachi, llegada: a-pie, lat: 36.2620171, lon: 136.9068702 }
 traslados:
   - desde: "Takayama"
     hasta: "Shirakawa-gō"
@@ -32,7 +40,7 @@ blocks:
       Miyagawa, en la orilla del río, y el de Jinya-mae, frente a la antigua oficina de gobierno.
       Abren sobre las 6:00 o las 7:00 y recogen a mediodía. No son mercados para turistas: se venden
       encurtidos, verdura de montaña, manzanas de Hida, flores y *mitarashi dango* —bolitas de arroz
-      a la brasa con salsa de soja— que se comen andando. Ver [Takayama](#takayama).
+      a la brasa con salsa de soja— que se comen andando.
 
       Dan de sobra para dos horas antes del autobús, y el desayuno se hace ahí mismo.
     window:
@@ -43,14 +51,19 @@ blocks:
         la tarde Sanmachi es una fila india — que es exactamente lo que visteis ayer. El contraste
         entre las siete y las once de la mañana no lo tiene ningún otro sitio del viaje, y hoy lo
         cogéis por el lado bueno.
+    ver:
+      - nombre: Mercado de Jinya-mae
+        maps: Jinya-mae Morning Market Takayama
+        nota: El segundo mercado, en la explanada frente al Takayama Jinya de ayer.
+    comer:
+      - comida: miyagawa-asaichi
+        nota: El de la orilla del río, desde las siete. El *mitarashi dango* de aquí es salado, a la brasa.
   - block: Mañana
     time: "08:30–09:30"
     title: El autobús a Shirakawa-gō
     body: >-
-      Cincuenta minutos desde la estación de autobuses de [Takayama](#takayama), y **hay que reservarlo**: es una
-      línea con plazas limitadas que en temporada se llena. No lo cubre el JR Pass. El trayecto ya
-      merece la ventanilla — se cruza la divisoria por túneles y se sale al otro lado, al valle del
-      río Shō.
+      Cincuenta minutos desde la estación de autobuses, con la plaza reservada. El trayecto ya merece
+      la ventanilla: se cruza la divisoria por túneles y se sale al otro lado, al valle del río Shō.
     window:
       label: Mandad las maletas
       body: >-
@@ -58,16 +71,16 @@ blocks:
         esta mañana con los mercados abiertos. Las maletas grandes salen del hotel de Takayama hacia
         el de **Tokio** y llegan mañana, a la vez que vosotros. En Shirakawa-gō se anda por caminos de
         tierra y en Kanazawa se llega de noche: cargar con equipaje aquí no tiene ningún sentido.
+    ver:
+      - reco: alba-takayama-hokuriku-pass
+        nota: El pase regional que cubre estos autobuses, y por qué aun así no sale a cuenta.
   - block: Mediodía
     time: "09:30–13:30"
     title: Ogimachi, y por qué los tejados están así
     body: >-
       Cuatro horas dan para hacerlo bien. Se sube primero al **mirador de Shiroyama** —veinte minutos
       a pie o un microbús— para ver el valle entero con las granjas alineadas, y luego se baja a
-      andarlo. Las casas se llaman *gasshō-zukuri*, «como manos que rezan», y cada decisión
-      responde a la nieve: los tejados a 45-60 grados para que resbale, todas orientadas norte-sur
-      para que el viento las golpee de canto, y la estructura atada con cuerda de paja, sin un solo
-      clavo, porque un armazón atado cede y vuelve. Ver [Shirakawa-gō](#shirakawa-go).
+      andarlo: la casa Wada por dentro y el templo de Myōzen-ji, de camino hacia el puente.
     window:
       label: Lo que hay que entrar a ver
       body: >-
@@ -76,25 +89,51 @@ blocks:
         debajo del suelo se fabricaba salitre para pólvora con la tierra del hogar y los
         excrementos de los gusanos. El valle abastecía en secreto al dominio de Kaga — al que vais
         esta tarde.
+    ver:
+      - ficha: shirakawa-go
+        nota: Por qué los tejados van a 45 grados, sin un clavo, y cómo los rehace el pueblo entero.
+      - nombre: Mirador de Shiroyama
+        maps: Ogimachi Castle Site Observatory Shirakawa-go
+        nota: El valle entero con las granjas alineadas. Es *la* foto.
+        lat: 36.2629545
+        lon: 136.9079634
+      - nombre: Casa Wada
+        maps: Wada House Shirakawa-go
+        nota: La más grande del pueblo, hecha con el dinero del salitre. Se sube al desván.
+        lat: 36.259924
+        lon: 136.9076278
+      - nombre: "Myōzen-ji"
+        maps: Myozenji Temple Shirakawa-go
+        nota: Un templo con el campanario también techado de paja, caso raro.
+        lat: 36.2559101
+        lon: 136.9065906
   - block: Tarde
     time: "13:30–17:00"
     title: Bajar a Kanazawa
     body: >-
       Hora y cuarto de autobús hasta **Kanazawa**, y el cambio de mundo es brusco: de un valle de
       cien casas a una ciudad de medio millón, con mar al lado y marisco serio. Se llega con luz
-      justa. Si el hotel está cerca de la estación, merece la pena salir a ver el [**Tsuzumi-mon**](https://www.google.com/maps/search/?api=1&query=Tsuzumi-mon%20Gate%20Kanazawa%20Station), la
-      puerta de madera de trece metros con forma de tambor de teatro nō bajo la cúpula de cristal —
-      es de 2005 y sale en todas las listas de estaciones más bonitas del mundo. Ver
-      [Kanazawa](#kanazawa).
+      justa a la terminal de la estación, y antes de ir al hotel merece la pena salir por la puerta
+      de delante.
+    ver:
+      - nombre: Tsuzumi-mon
+        maps: Tsuzumi-mon Gate Kanazawa Station
+        nota: "La puerta de madera de 2005 bajo la cúpula de cristal: trece metros con forma de tambor de nō."
+        lat: 36.5777907
+        lon: 136.6491024
+      - ficha: kanazawa
+        nota: El dominio de Kaga, un millón de *koku* y ninguna guerra. Mañana se anda entera.
   - block: Noche
     time: "noche"
     title: Marisco del mar del Japón
     body: >-
       Kanazawa está en la otra costa y su cocina lo nota. La temporada del **cangrejo de las nieves**
       abre justo el 6 de noviembre, así que está en su primera semana buena; y hay gamba dulce,
-      vieira y *kaisendon*, cuencos de arroz cubiertos de sashimi. En el mercado de [**Ōmichō**](https://www.google.com/maps/search/?api=1&query=Omicho%20Market%20Kanazawa)
-      —doscientos ochenta años, doscientos puestos— se come de pie en los puestos del fondo y sale por
-      una fracción de lo que costaría en Tokio.
+      vieira y *kaisendon*, cuencos de arroz cubiertos de sashimi. En el mercado de Ōmichō se come
+      de pie en los puestos del fondo y sale por una fracción de lo que costaría en Tokio.
+    comer:
+      - comida: omicho
+        nota: Enfrente del hotel. Muchos mostradores cierran al acabarse el género, así que mejor pronto que tarde.
 alt:
   label: Si te desmarcas
   body: >-

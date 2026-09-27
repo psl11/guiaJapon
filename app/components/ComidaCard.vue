@@ -5,9 +5,13 @@
 // <MDC unwrap>, para que hidrate limpio (ver trampa 3.8 de CLAUDE.md).
 // Los cruces (`seenIn`) van como enlaces internos (los resuelve el plugin anchor-nav).
 import type { Comida } from '~~/shared/schemas'
+import { TRIP_INDEX } from '~/composables/useTripIndex'
 
 const props = defineProps<{ comida: Comida }>()
 
+// En qué días del plan sale este local (lo calcula el índice a partir de `comer` de los bloques).
+const idx = inject(TRIP_INDEX, null)
+const enDias = computed(() => idx?.comidaEnDias.value.get(props.comida.slug) ?? [])
 
 // Enlace de mapa auto-generado (búsqueda, no URL de sitio inventada): nombre + zona + ciudad.
 const mapsUrl = computed(() =>
@@ -94,6 +98,12 @@ const mapsUrl = computed(() =>
         target="_blank"
         rel="noopener noreferrer"
       >{{ comida.link.label }} →</a>
+      <a
+        v-for="l in enDias"
+        :key="l.ref"
+        class="chip"
+        :href="l.ref"
+      >En el plan: {{ l.label }}</a>
       <a
         v-for="l in comida.seenIn"
         :key="l.ref"

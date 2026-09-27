@@ -10,6 +10,15 @@ dek: >-
   termal del otro lado del túnel: cena de montaña, baño al aire libre y a dormir.
 duerme:
   - sanzoan-hirayu
+mapa:
+  slug: dia-4-kamikochi
+  paradas:
+    - { nombre: Terminal de autobuses, hora: "08:30", lat: 36.2461657, lon: 137.6352764 }
+    - { nombre: Kappabashi, llegada: a-pie, lat: 36.2488436, lon: 137.6378366 }
+    - { nombre: "Estanque Myōjin", zona: Río arriba, llegada: a-pie, lat: 36.2540049, lon: 137.6640105 }
+    - { nombre: Relieve de Weston, hora: "13:00", zona: Río abajo, llegada: a-pie, lat: 36.2470302, lon: 137.6266555 }
+    - { nombre: Estanque Tashiro, zona: Río abajo, llegada: a-pie, lat: 36.2357143, lon: 137.6245487 }
+    - { nombre: "Estanque Taishō", hora: "16:30", zona: Río abajo, llegada: a-pie, lat: 36.2287261, lon: 137.6186512 }
 traslados:
   - desde: "Matsumoto"
     hasta: "Kamikōchi"
@@ -32,34 +41,36 @@ blocks:
       lleva tres días despertándose antes de que suene el despertador. Dos tramos —el trenecito de la
       línea Kamikōchi hasta Shin-Shimashima y luego el autobús—, o el directo si cuadra el horario.
 
-      Y en algún punto del ascenso, en Nakanoyu, **se acaba el mundo motorizado**. Los vehículos
-      particulares [llevan prohibidos desde 1975](#kamikochi). Por eso este valle no se parece a
-      ningún otro sitio accesible de Japón: hay hoteles, restaurantes y gente, y aun así lo único que
-      se oye es el río.
+      En Nakanoyu **se acaba el mundo motorizado**: de ahí para arriba solo suben autobuses y taxis,
+      y dentro del valle lo único que se oye es el río.
     window:
       label: Las maletas ya van por delante
       body: >-
         **Esto se resuelve el día anterior, no hoy.** Las maletas grandes salieron por
         [takkyūbin](#takkyubin) desde el hotel de Tokio y esperan en el de Takayama, donde llegáis
         mañana; hoy y esta noche se va con mochila pequeña. Y para dormir en un ryokan no hace falta
-        más: **el yukata, las toallas y el jabón los pone la casa**. En un valle sin coches ni
-        ascensores, cargar con equipaje no es incómodo: es inviable.
+        más: **el yukata, las toallas y el jabón los pone la casa**.
+    ver:
+      - ficha: kamikochi
+        nota: Por qué el fondo es llano a 1.500 metros, el agua tan transparente y el valle cierra el 15.
   - block: Mañana
     time: "08:30–12:00"
     title: Kappabashi y el río Azusa
     body: >-
-      El centro del valle es un puente colgante de madera, el [**Kappabashi**](https://www.google.com/maps/search/?api=1&query=Kappa%20Bridge%20Kamikochi),
-      y la postal es la misma desde hace un siglo: el **río Azusa** corriendo transparente sobre grava
-      clara, y detrás la pared del Hotaka, con el Okuhotaka en 3.190 metros. El agua viene de deshielo
-      y baja a unos pocos grados; se ve el fondo entero. Desde aquí se camina en las dos direcciones
-      por sendas llanas, sin desnivel y sin técnica: es alta montaña sin ser montañismo.
-
-      Con el día entero por delante, la mañana es para ir **río arriba**, hasta el **estanque
-      Myōjin** y su santuario Hotaka-jinja Okumiya. Una hora de sendero llano, y una orilla que casi
-      nadie pisa porque queda al otro lado del puente: se paga una entrada pequeña y se está solo. Por
-      el camino está el relieve de **Walter Weston**, el misionero británico que a finales del XIX
-      convenció a los japoneses de que sus montañas podían subirse por gusto y no por peregrinación.
-      De él viene la palabra «Alpes japoneses».
+      De la terminal al Kappabashi, el puente colgante que es el centro del valle, y desde ahí las
+      sendas llanas salen en las dos direcciones. La mañana es para ir **río arriba**: una hora por
+      la orilla hasta el estanque Myōjin, que casi nadie pisa porque queda al otro lado del puente.
+    ver:
+      - nombre: Kappabashi
+        maps: Kappa Bridge Kamikochi
+        nota: "La postal de hace un siglo: el Azusa sobre grava clara y la pared del Hotaka, a 3.190 m."
+        lat: 36.2488436
+        lon: 137.6378366
+      - nombre: "Estanque Myōjin"
+        maps: Myojin Pond Kamikochi
+        nota: El santuario Hotaka-jinja Okumiya, del kami que da nombre al valle. Entrada pequeña, y se está solo.
+        lat: 36.2540049
+        lon: 137.6640105
   - block: Mediodía
     time: "12:00–13:00"
     title: Comer donde no hay nada
@@ -72,11 +83,8 @@ blocks:
     time: "13:00–16:30"
     title: Río abajo, hasta el estanque Taishō
     body: >-
-      El paseo esencial va **río abajo** hasta el estanque Taishō, una hora larga por la orilla. El
-      estanque no existía hace cien años: lo creó la erupción del monte Yake en 1915, que represó el
-      Azusa y ahogó un bosque entero — y por eso del agua siguen saliendo troncos muertos en pie,
-      pelados, con las cumbres reflejadas detrás. Es el paisaje más fotografiado del valle y con
-      razón.
+      De vuelta por el Kappabashi, el paseo esencial va **río abajo** hasta el estanque Taishō, una
+      hora larga por la orilla. Es el paisaje más fotografiado del valle, y con razón.
     window:
       label: Ventana óptima
       body: >-
@@ -88,18 +96,31 @@ blocks:
 
         Durmiendo en Hirayu podéis apurar hasta el último autobús, **el de las 17:30**, sin mirar el
         reloj a media tarde. Es la ventaja escondida de no seguir hasta Takayama esta noche.
+    ver:
+      - nombre: Relieve de Walter Weston
+        maps: Weston Relief Kamikochi
+        nota: El misionero inglés que subía estas montañas por gusto y les dio el nombre de «Alpes».
+        lat: 36.2470302
+        lon: 137.6266555
+      - nombre: Estanque Tashiro
+        maps: Tashiro Pond Kamikochi
+        nota: Pequeño, de hierba y agua quieta, a mitad de camino. El desvío está mal señalizado.
+        lat: 36.2357143
+        lon: 137.6245487
+      - nombre: "Estanque Taishō"
+        maps: Taisho Pond Kamikochi
+        nota: "Lo abrió el monte Yake en 1915 al represar el río: los troncos muertos siguen en pie en el agua."
+        lat: 36.2287261
+        lon: 137.6186512
   - block: Noche
     time: "17:00–19:00"
     title: Hirayu, y meterse en el agua
     body: >-
-      Veinticinco minutos de autobús por el túnel y se sale del parque en
-      [**Hirayu Onsen**](https://www.google.com/maps/search/?api=1&query=Hirayu%20Onsen%20Takayama),
-      el pueblo termal donde arranca la carretera del valle. Sus aguas llevan brotando desde el siglo
-      XVI y ahí se duerme: posadas de madera al pie del paso, cena a hora fija con cocina de la
-      región y baño comunal.
+      Veinticinco minutos de autobús por el túnel y se sale del parque en **Hirayu Onsen**, el
+      pueblo termal donde arranca la carretera del valle, con aguas que brotan desde el siglo XVI.
 
       Después de siete horas andando a mil quinientos metros y con la temperatura bajo cero fuera, un
-      *[rotenburo](#onsen)* al aire libre no es un extra del día: es el final que justifica el resto.
+      *rotenburo* al aire libre no es un extra del día: es el final que justifica el resto.
       Y a diferencia de un baño de paso, aquí se puede entrar antes de cenar, otra vez después y
       otra por la mañana.
     window:
@@ -112,6 +133,14 @@ blocks:
         Y aunque hoy ya no hay enlace que perder, mirad igual **la hora del último autobús desde
         Kamikōchi** —en temporada sale a las 17:30— al subir y no al bajar. En noviembre los
         horarios se aligeran y quedarse dentro del valle no es una opción: no hay dónde dormir.
+    ver:
+      - ficha: onsen
+        nota: El protocolo en orden, la diferencia entre onsen y *rotenburo*, y qué pasa con los tatuajes.
+      - nombre: Hirayu no Mori
+        maps: Hirayu no Mori Takayama
+        nota: La casa de baños madre del Sanzōan, al lado, con sus dieciséis pozas.
+        lat: 36.1891557
+        lon: 137.5513313
   - block: Noche
     time: "desde las 19:00"
     title: Cena de montaña, y silencio

@@ -10,6 +10,15 @@ dek: >-
   intactas, con la mejor historia fiscal de Japón detrás. Y por la noche, el sitio vacío.
 duerme:
   - gift-takayama
+mapa:
+  slug: dia-5-takayama
+  paradas:
+    - { nombre: Hotel Gift, hora: "10:00", lat: 36.1421193, lon: 137.2534572 }
+    - { nombre: Sanmachi, zona: Casco viejo, llegada: a-pie, lat: 36.14169, lon: 137.259514 }
+    - { nombre: Yatai Kaikan, hora: "14:00", zona: Casco viejo, llegada: a-pie, lat: 36.1484179, lon: 137.2600988 }
+    - { nombre: Takayama Jinya, zona: Casco viejo, llegada: a-pie, lat: 36.1396918, lon: 137.2576178 }
+    - { nombre: Shiroyama, zona: Higashiyama, llegada: a-pie, lat: 36.1373944, lon: 137.2642583 }
+    - { nombre: "Vuelta al hotel, a cenar", hora: noche, llegada: a-pie, lat: 36.1421193, lon: 137.2534572 }
 traslados:
   - desde: "Hirayu Onsen"
     hasta: "Takayama"
@@ -41,9 +50,8 @@ blocks:
     title: Sanmachi y las bolas de cedro
     body: >-
       Tres calles de casas de comerciantes intactas, con canales de agua a los lados: se andan en una
-      hora larga. El juego es **mirar hacia arriba**, porque sobre varias puertas cuelga una bola de
-      ramas de cedro y su color dice si la sake de esa casa ya está lista — el porqué, en
-      [la ficha de Takayama](#takayama).
+      hora larga. El juego es **mirar hacia arriba**, a las bolas de ramas de cedro que cuelgan sobre
+      las puertas.
 
       A esta hora ya han llegado los autobuses de día desde Nagoya y Kanazawa, así que Sanmachi va
       llena. **No es un problema, es un aplazamiento**: mañana al amanecer el pueblo vuelve a ser de
@@ -58,45 +66,62 @@ blocks:
         todas cobran unos ¥300 por una tanda de tres o cuatro vasitos, y algunas regalan el vaso
         de cerámica. Empezad por las secas y subid hacia las dulces, no al revés — y con tres
         casas hay de sobra: son seis en tres calles y el sake de Hida ronda los 16 grados.
+    ver:
+      - ficha: takayama
+        nota: Los carpinteros que pagaban el tributo, y qué dice el color de la bola de cedro.
+      - nombre: Sanmachi Suji
+        maps: Sanmachi Suji Takayama
+        nota: Tres calles de Edo sin bombardear. Distrito protegido, con seis destilerías que dejan catar.
+        lat: 36.14169
+        lon: 137.259514
   - block: Mediodía
     time: "12:00–14:00"
     title: Buey de Hida, en la calle
     body: >-
-      El **wagyū de esta prefectura** es de los mejores del país y aquí no hace falta un restaurante
-      caro para probarlo: en las calles del casco viejo lo venden a la brasa en brocheta, en
-      croqueta o dentro de un panecillo al vapor, por unos pocos euros. Se come de pie. Y para
-      acompañar, la sake de las destilerías de al lado, que sale del agua de deshielo de estas
-      montañas.
+      El **wagyū de esta prefectura** no pide restaurante caro: en las calles del casco viejo lo
+      venden a la brasa en brocheta, en croqueta o dentro de un panecillo al vapor, por unos pocos
+      euros. Se come de pie, con la sake de las destilerías de al lado.
+    comer:
+      - comida: hida-gyu
+        nota: La brocheta de los puestos de Sanmachi, o sentados, el *hōba-yaki* sobre hoja de magnolia.
   - block: Tarde
     time: "14:00–17:00"
     title: Las carrozas, y la ladera de los templos
     body: >-
-      Dos paradas y una caminata. El **Yatai Kaikan** guarda varias de las carrozas del festival, que
-      cae en abril y octubre y no vais a ver de otra manera: doce metros de laca y oro con
-      autómatas de cuerda del siglo XVIII que todavía funcionan.
-
-      Y a cinco minutos, el [**Takayama Jinya**](https://www.google.com/maps/search/?api=1&query=Takayama%20Jinya),
-      que es la visita que casi nadie hace y la que mejor se recuerda. **Entrad**: lo que hay dentro y
-      por qué este edificio no existe en ningún otro sitio de Japón está en
-      [la ficha de Takayama](#takayama).
-
-      Para cerrar la tarde, el **Higashiyama Walking Course**: hora y media señalizada por la ladera
-      este entre una docena de templos y las ruinas del castillo, prácticamente en solitario.
+      Dos paradas y una caminata: las carrozas del festival en el Yatai Kaikan, al norte del casco;
+      el Takayama Jinya, que es la visita que casi nadie hace y la que mejor se recuerda —**entrad**—,
+      y para cerrar la tarde el **Higashiyama Walking Course** por la ladera este, prácticamente en
+      solitario.
+    ver:
+      - nombre: Yatai Kaikan
+        maps: Takayama Matsuri Yatai Kaikan
+        nota: Carrozas de doce metros con autómatas de cuerda del XVIII. El festival es en abril y octubre.
+        lat: 36.1484179
+        lon: 137.2600988
+      - nombre: Takayama Jinya
+        maps: Takayama Jinya
+        nota: La única oficina de gobierno de Edo que queda en Japón, con su sala de interrogatorios.
+        lat: 36.1396918
+        lon: 137.2576178
+      - nombre: Shiroyama y el Higashiyama Walking Course
+        maps: Shiroyama Park Takayama
+        nota: Hora y media señalizada entre una docena de templos, hasta las ruinas del castillo.
+        lat: 36.1373944
+        lon: 137.2642583
   - block: Noche
     time: "noche"
     title: Cuando se van los autobuses
     body: >-
       A partir de las cinco de la tarde el pueblo se vacía de golpe y **es cuando mejor está**: las
       farolas encendidas sobre los canales, las casas cerradas y nadie por la calle. Es la razón de
-      dormir aquí en vez de pasar de largo. Cenad *[soba](#soba)* de trigo sarraceno de la zona — el
-      *hōba miso* probablemente ya cayó anoche en la posada.
-
-      La otra opción es una barra: [**Otafuku Sushi**](#otafuku-takayama), en la calle de tabernas a
-      cuatro minutos del hotel, abre **solo de noche y cierra los domingos** — hoy es martes. Que la
-      reserva la pida el recepcionista, porque allí no se da por hecho que se hable inglés.
+      dormir aquí en vez de pasar de largo. Cenad *[soba](#soba)* de trigo sarraceno de la zona, o
+      en una barra de sushi a cuatro minutos del hotel.
 
       Y poned el despertador: **mañana los mercados abren a las seis** y el autobús a
       [Shirakawa-gō](#shirakawa-go) sale a las ocho y media.
+    comer:
+      - comida: otafuku-takayama
+        nota: Barra de sushi y *kappō* en la calle de tabernas. Solo cenas desde las 17:30; el martes abre. Reserva el hotel.
 alt:
   label: Si te desmarcas
   body: >-

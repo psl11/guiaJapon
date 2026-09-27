@@ -226,6 +226,13 @@ semana. Unos cien sitios siguen sin coordenadas porque OSM no los tiene: van en 
 marca apagada. **El campo `cuando` de las comidas quedó redundante** —el chip «En el plan» sale
 solo— y es el que se desfasa cada vez que se renumera: al tocarlo, mejor quitarle el número de día.
 
+**4.10 · No se vuelve a ningún sitio** (decisión del grupo, sep 2026). La guía no planifica una
+segunda visita a nada: lo que guste se compra al pasar —y lo que pese viaja por *takkyūbin*—, y si
+alguien quiere volver, vuelve por su cuenta. **Las compras grandes y los regalos van al final**, en
+el día 17, y en un barrio que el viaje no pisa antes (Ikebukuro). Por eso Kappabashi es solo el día
+2, Harajuku solo el 9, Ginza solo el 20 y el 21 no vuelve a ningún *depachika*. Al añadir un sitio a
+un día, busca antes si ya está en otro: `grep -rn "<sitio>" content/trips/japon/dias/`.
+
 **4.7 · Antes rotular nada que rotular mal.** Dos fichas siguen sin foto (Ebisu, Masakado) porque no
 hay imagen libre verificable. Es la decisión correcta.
 

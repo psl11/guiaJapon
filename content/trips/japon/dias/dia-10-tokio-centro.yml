@@ -109,15 +109,9 @@ blocks:
       Street** de la estación, ocho casas de [ramen](#ramen) buenas, una de cada región, en el sitio
       con menos alma imaginable.
     window:
-      label: Lo que solo pasa en domingo
+      label: Lo que solo pasa en fin de semana
       body: >-
-        En la explanada del Tokyo International Forum se monta el **Ōedo Kottōichi**, el mayor
-        mercado de antigüedades al aire libre de Japón: un par de centenares de puestos de cerámica,
-        estampas, kimonos usados y cacharrería, a precios que no son de tienda. Se celebra **el
-        primer y el tercer domingo de mes**, y hoy es el tercero — pero confirmadlo en su calendario,
-        que se publica año a año y algún mes salta por obras en la plaza.
-
-        Y si está montada la terraza de la avenida **Nakadōri**, que en temporada peatonalizan los
+        Si está montada la terraza de la avenida **Nakadōri**, que en temporada peatonalizan los
         fines de semana y llenan de mesas entre los olmos, la comida se resuelve sola y al aire libre.
     ver:
       - nombre: Estación de Tokio

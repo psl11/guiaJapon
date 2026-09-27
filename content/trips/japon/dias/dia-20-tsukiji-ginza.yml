@@ -82,6 +82,11 @@ blocks:
         nota: El gran almacén más antiguo de Japón, que empezó vendiendo kimonos en 1673.
         lat: 35.6711936
         lon: 139.7659061
+      - nombre: Itōya
+        maps: Ginza Itoya
+        nota: Doce plantas dedicadas solo a papel, plumas y cuadernos.
+        lat: 35.6729570
+        lon: 139.7674251
     comer:
       - comida: tonkatsu-marushichi-ginza
         nota: El *katsudon* con el filete a la brasa. Sin reserva y última comanda a las 14:30.

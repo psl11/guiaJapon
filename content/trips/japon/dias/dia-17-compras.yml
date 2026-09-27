@@ -5,8 +5,8 @@ order: 17
 eyebrow: El plan · Día 17 · dom 22 nov
 title: El día de comprar, que en Tokio *es una disciplina*
 dek: >-
-  Un domingo entero sin agenda, con las maletas grandes de vuelta y quince días de lista mental
-  acumulada. En esta ciudad comprar no es un trámite: hay barrios enteros dedicados a una sola cosa.
+  Un domingo entero sin agenda, con las maletas grandes de vuelta y la lista de regalos por hacer.
+  Se compra en un solo barrio que el viaje todavía no ha pisado, y la tarde es para los jardines.
 duerme:
   - apa-asakusa-kaminarimon
   - koko-ginza-1chome
@@ -14,24 +14,19 @@ mapa:
   slug: dia-17-compras
   paradas:
     - { nombre: "Salida · hotel de Asakusa (o de Ginza)", lat: 35.7101168, lon: 139.7951861 }
-    - { nombre: Kappabashi, hora: "10:00", zona: Asakusa, llegada: a-pie, lat: 35.7142517, lon: 139.7888894 }
-    - { nombre: Jingū-bashi, hora: "13:00", zona: Harajuku, llegada: metro, lat: 35.6697179, lon: 139.7024123 }
-    - { nombre: Koishikawa Kōrakuen, hora: "15:00", llegada: metro, lat: 35.7053631, lon: 139.7491508 }
-    - { nombre: Rikugi-en, llegada: metro, lat: 35.7333998, lon: 139.7463046 }
+    - { nombre: Ikebukuro, hora: "10:00", zona: Ikebukuro, llegada: metro, lat: 35.7298364, lon: 139.7131259 }
+    - { nombre: Rikugi-en, hora: "15:00", llegada: tren, lat: 35.7333998, lon: 139.7463046 }
+    - { nombre: Koishikawa Kōrakuen, llegada: metro, lat: 35.7053631, lon: 139.7491508 }
 blocks:
   - block: Mañana
     time: "10:00–13:00"
-    title: Cada cosa tiene su barrio
+    title: Ikebukuro, todo en un barrio
     body: >-
-      La regla de Tokio es que **lo específico se compra en el sitio específico**, no en un centro
-      comercial. Según lo que se busque:
-
-      - **Cuchillos y cocina** → Kappabashi, que el [día 2](#dia-2-shitamachi) se cruzó de paso. Es la
-        mejor compra posible del viaje si alguien cocina.
-      - **Papelería y escritura** → el Itōya de Ginza.
-      - **Electrónica, manga y figuras** → [Akihabara](#akihabara).
-      - **Segunda mano de marca** → [**Shimokitazawa**](https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Tokyo) y [**Nakameguro**](https://www.google.com/maps/search/?api=1&query=Nakameguro%20Tokyo).
-      - **Té, dulces y comida buena** → el ***depachika*** de cualquier gran almacén, en [Ginza](#ginza).
+      Las compras grandes se hacen hoy y en un solo sitio: **Ikebukuro**, el único barrio grande de
+      Tokio por el que el viaje no ha pasado. Lo tiene todo sin cruzar la ciudad: dos grandes almacenes
+      con sus *depachika* a ambos lados de la estación, drugstores y tiendas de cien yenes alrededor, y
+      al este la zona de manga y anime. Lo que ya se compró por el camino, comprado está: hoy es para
+      los regalos y para lo que no se quiso cargar.
     window:
       label: El tax-free, que este año cambia
       body: >-
@@ -39,57 +34,51 @@ blocks:
         una misma tienda**. Japón tiene aprobado pasar en noviembre de 2026 del descuento en tienda
         al reembolso en el aeropuerto. Comprobadlo al llegar — está en [la ficha de dinero](#dinero).
     ver:
-      - nombre: Kappabashi
-        maps: Kappabashi Kitchen Town Tokyo
-        nota: Acero forjado, moldes, vajilla y comida de plástico. Hoy sí, con cartera.
-        lat: 35.7142517
-        lon: 139.7888894
-      - nombre: Itōya
-        maps: Ginza Itoya
-        nota: Doce plantas dedicadas solo a papel, plumas y cuadernos.
-        lat: 35.6729570
-        lon: 139.7674251
+      - ficha: ikebukuro
+        nota: Por qué el Tōbu está al oeste y el Seibu al este, y los jardines de la tarde.
+      - nombre: Tōbu Ikebukuro
+        maps: Tobu Department Store Ikebukuro
+        nota: Gran almacén al oeste de la estación. Su *depachika* es para té, dulces y encurtidos envasados.
+        lat: 35.7297846
+        lon: 139.7103398
+      - nombre: Seibu Ikebukuro
+        maps: Seibu Ikebukuro Main Store
+        nota: El otro gran almacén, al este, pegado a la estación.
+        lat: 35.7288741
+        lon: 139.7116292
       - reco: alba-drugstores
         nota: Los KitKat y dulces de regalo, a mitad de precio en una drugstore que en el konbini.
       - reco: alba-bolsa-3coins
         nota: Una bolsa grande y barata para lo que ya no cabe. Sin confirmar en catálogo.
-    comer:
-      - comida: cafe-de-lambre
-        nota: Si la mañana acaba en Ginza. Café de grano envejecido en un *kissaten* de 1948.
   - block: Mediodía
     time: "13:00–15:00"
-    title: Que sea domingo juega a favor
+    title: El Don Quijote, y lo que falte
     body: >-
-      Dos cosas pasan solo hoy. **Harajuku en domingo es el fenómeno**, no una calle comercial: en el
-      Jingū-bashi se concentran los disfraces, y junto a la entrada de Yoyogi-kōen bailan las bandas
-      de rockabilly con tupé que llevan cuarenta años en el mismo sitio.
-
-      Y **el lago del parque de Ueno y las calles de Ginza se peatonalizan** los domingos por la
-      tarde: la avenida principal, sin coches, con sillas en mitad de la calzada.
+      Después de comer, la otra mitad de la lista: el Don Quijote para lo absurdo y barato, y el lado
+      este si alguien busca manga o figuras. A las tres se cierra la compra; la tarde es de los
+      jardines.
     ver:
-      - ficha: harajuku
-        nota: Por qué el domingo, y lo que no sale en las listas a cien metros de Takeshita.
-      - nombre: Jingū-bashi
-        maps: Jingubashi Harajuku Tokyo
-        nota: El puente entre la estación y Meiji Jingū. Los disfraces se juntan aquí.
-        lat: 35.6697179
-        lon: 139.7024123
-      - reco: alba-donki-escondido
-        nota: A una parada, en Shibuya. La sede anexa del MEGA Don Quijote, sin la marea.
+      - nombre: Don Quijote Ikebukuro
+        maps: Don Quijote Ikebukuro
+        nota: Todo lo imposible de regalar en cuatro plantas, abierto hasta muy tarde.
+        lat: 35.7329942
+        lon: 139.7116581
+      - nombre: Sunshine City
+        maps: Sunshine City Ikebukuro
+        nota: El centro comercial grande del lado este, con la zona de manga y anime de camino.
+        lat: 35.7288478
+        lon: 139.7195458
     comer:
-      - comida: henrys-burger-harajuku
-        nota: Hamburguesa de wagyu entre Harajuku y Omotesandō. Abre todos los días, de once a ocho.
-      - comida: menchirashi-harajuku
-        nota: El udon carbonara de la Cat Street, por unos seis euros.
-      - comida: sushi-origami-yakatabune
-        nota: El capricho. Sushi en un barco de la bahía, comida solo domingos. Cambia el mediodía entero.
+      - comida: sen-ikebukuro
+        nota: "*Tsukemen* de caldo concentrado en una barra con jazz, en el barrio que es su cuna."
   - block: Tarde
     time: "15:00–18:00"
     title: El momiji, que ahora sí
     body: >-
       Y aquí está el regalo de haber vuelto. **El pico de la hoja roja en Tokio va del 20 de noviembre
       al 5 de diciembre**, así que estos días caen justo dentro. Los dos jardines de la lista nacional
-      están a media hora, y los dos hacen iluminación nocturna en temporada.
+      quedan de camino a casa: primero Rikugi-en, a tres paradas de Yamanote, y luego Koishikawa
+      Kōrakuen. Los dos hacen iluminación nocturna en temporada.
     ver:
       - ficha: momiji
         nota: El calendario de la hoja roja, y por qué la ciudad se guardó para el final.

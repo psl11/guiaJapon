@@ -35,5 +35,7 @@ link:
   url: https://www.google.com/maps/search/?api=1&query=momiji%20manju%20Miyajima
   label: Google Maps
 seenIn:
-  - ref: "#dia-16-miyajima-tokio"
-    label: Día 16 · Miyajima
+  - ref: '#miyajima'
+    label: "Miyajima"
+  - ref: '#momiji'
+    label: "La hoja roja"

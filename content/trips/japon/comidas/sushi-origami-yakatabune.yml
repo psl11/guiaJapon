@@ -32,6 +32,3 @@ body: >-
 link:
   url: https://tabelog.com/en/tokyo/A1314/A131403/13310052/
   label: Ver en Tabelog
-seenIn:
-  - ref: "#dia-17-compras"
-    label: Día 17 · domingo

@@ -54,9 +54,9 @@ blocks:
     body: >-
       Vuelta a la Nakamise dos horas después, para verla convertida en otra cosa: suben las persianas,
       salen los ***ningyō-yaki*** del molde y el templo se llena de gente rezando de camino al trabajo.
-      A diez minutos andando está Kappabashi, la calle de los cuchillos y la vajilla. Hoy se cruza sin
-      cartera: lo que se compre hay que cargarlo diecinueve días, y el [día 17](#dia-17-compras) vuelve
-      a propósito.
+      A diez minutos andando está Kappabashi, la calle de los cuchillos y la vajilla. No se vuelve
+      en el viaje: si algo gusta, se compra hoy, y lo que pese viaja por
+      [takkyūbin](#takkyubin) hasta el último hotel.
     window:
       label: Por qué las dos visitas
       body: >-
@@ -70,7 +70,7 @@ blocks:
         lon: 139.7965189
       - nombre: Kappabashi
         maps: Kappabashi Kitchen Town Tokyo
-        nota: Cuchillos, vajilla y comida de plástico en escaparate. Hoy solo mirar.
+        nota: Cuchillos, palillos, vajilla y comida de plástico. Lo que guste, se compra hoy.
         lat: 35.7142517
         lon: 139.7888894
       - reco: alba-zen-craft-asakusa

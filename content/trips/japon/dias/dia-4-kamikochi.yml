@@ -16,39 +16,57 @@ mapa:
     - { nombre: Terminal de autobuses, hora: "08:30", lat: 36.2461657, lon: 137.6352764 }
     - { nombre: Kappabashi, llegada: a-pie, lat: 36.2488436, lon: 137.6378366 }
     - { nombre: "Estanque Myōjin", zona: Río arriba, llegada: a-pie, lat: 36.2540049, lon: 137.6640105 }
-    - { nombre: Relieve de Weston, hora: "13:00", zona: Río abajo, llegada: a-pie, lat: 36.2470302, lon: 137.6266555 }
+    - { nombre: "Estanque Taishō", hora: "13:00", zona: Río abajo, llegada: bus, lat: 36.2287261, lon: 137.6186512 }
     - { nombre: Estanque Tashiro, zona: Río abajo, llegada: a-pie, lat: 36.2357143, lon: 137.6245487 }
-    - { nombre: "Estanque Taishō", hora: "16:30", zona: Río abajo, llegada: a-pie, lat: 36.2287261, lon: 137.6186512 }
+    - { nombre: Relieve de Weston, zona: Río abajo, llegada: a-pie, lat: 36.2470302, lon: 137.6266555 }
+    - { nombre: Terminal de autobuses, hora: "16:30", llegada: a-pie, lat: 36.2461657, lon: 137.6352764 }
 traslados:
   - desde: "Matsumoto"
     hasta: "Kamikōchi"
-    medio: "Tren Alpico + autobús Nōhi"
-    duracion: "2 h"
-    hora: "salir 06:30"
-    nota: "**Los directos se llenan** y se compran online. Con transbordo en Shin-Shimashima si no cuadra."
+    medio: "Tren de la línea Kamikōchi hasta Shin-Shimashima + autobús Alpico"
+    duracion: "1 h 45"
+    hora: "salir 06:15"
+    nota: "**El autobús va con reserva**, también el de transbordo. El tren, en efectivo en la máquina: ni IC ni JR Pass."
   - desde: "Kamikōchi"
     hasta: "Hirayu Onsen"
-    medio: "Autobús Nōhi"
+    medio: "Autobús Nōhi, línea Kamikōchi"
     duracion: "25 min"
-    hora: "el último, 17:30"
-    nota: "Se paga a bordo, sin reserva. Confirmad la hora del último en la terminal **al subir**, no al bajar."
+    hora: "salir 16:30"
+    nota: "**Sin reserva**: asientos libres, ¥1.500 en la taquilla de la terminal o a bordo. Sale cada media hora; el último, a las 17:30."
 blocks:
   - block: Amanecer
     time: "06:30–08:30"
     title: La subida, y por qué no hay coches
     body: >-
       Se sale de Matsumoto pronto, y hoy eso no cuesta nada: con el desfase horario a favor el cuerpo
-      lleva tres días despertándose antes de que suene el despertador. Dos tramos —el trenecito de la
-      línea Kamikōchi hasta Shin-Shimashima y luego el autobús—, o el directo si cuadra el horario.
+      lleva tres días despertándose antes de que suene el despertador. Las dos maneras de subir son
+      de Alpico, la compañía de transporte de la prefectura:
+
+      - **Tren y autobús, que es la que se usa.** El trenecito de la línea Kamikōchi sale del andén 7
+        de la estación de Matsumoto y en treinta minutos deja en Shin-Shimashima. Allí espera el
+        autobús de Alpico al valle, que tarda una hora más. Con el horario de 2025, el tren de las
+        06:31 enlaza con el autobús de las 07:10 y se está arriba a las 08:15. Los nueve minutos
+        bastan: la terminal de autobuses está pegada a la estación, y al salir por el torno ya
+        está delante. Tren y autobús son de la misma compañía y el horario está hecho para
+        enlazar, pero Alpico no garantiza que el autobús espere si el tren se retrasa. Si se
+        pierde, el billete se cambia a otro autobús por unos cien yenes, siempre que quede sitio.
+      - **El directo**, la *National Park Liner*, que sale de la terminal de autobuses de Matsumoto
+        y no de la estación. Solo hay dos al día, a las 05:30 y a las 10:15: uno sale de noche
+        cerrada y el otro deja arriba al mediodía, con el día ya medio perdido.
+
+      Desde 2025 **todos los asientos de estos autobuses se reservan**, y eso incluye el de
+      transbordo en Shin-Shimashima. La venta abre un mes antes y los horarios y el enlace a la
+      reserva están en la [web de Alpico](https://visit-nagano.alpico.co.jp/timetable/kamikochi-matsumoto).
+      El valle cierra el 15 de noviembre y estos horarios valen hasta ese día.
 
       En Nakanoyu **se acaba el mundo motorizado**: de ahí para arriba solo suben autobuses y taxis,
       y dentro del valle lo único que se oye es el río.
     window:
       label: Las maletas ya van por delante
       body: >-
-        **Esto se resuelve el día anterior, no hoy.** Las maletas grandes salieron por
-        [takkyūbin](#takkyubin) desde el hotel de Tokio y esperan en el de Takayama, donde llegáis
-        mañana; hoy y esta noche se va con mochila pequeña. Y para dormir en un ryokan no hace falta
+        **Esto se resuelve el día anterior, no hoy.** Las maletas grandes salieron ayer por
+        [takkyūbin](#takkyubin) desde Matsumoto y llegan mañana al hotel de Takayama, igual que
+        vosotros. Hoy y esta noche se va con mochila pequeña. Y para dormir en un ryokan no hace falta
         más: **el yukata, las toallas y el jabón los pone la casa**.
     ver:
       - ficha: kamikochi
@@ -81,37 +99,42 @@ blocks:
       es mejor plan que cualquier comedor.
   - block: Tarde
     time: "13:00–16:30"
-    title: Río abajo, hasta el estanque Taishō
+    title: Del estanque Taishō a la terminal, río arriba
     body: >-
-      De vuelta por el Kappabashi, el paseo esencial va **río abajo** hasta el estanque Taishō, una
-      hora larga por la orilla. Es el paisaje más fotografiado del valle, y con razón.
+      Después de comer se baja en autobús hasta el estanque Taishō: es el mismo de Nōhi que va a
+      Hirayu, que para allí a los diez minutos de salir de la terminal. Desde el estanque se vuelve
+      andando **río arriba**, una hora y media larga por la orilla, y es el paisaje más fotografiado
+      del valle, con razón.
+
+      El paseo se hace en este sentido por una razón práctica: termina en la terminal, que es de
+      donde sale el autobús de la noche. Por la tarde los autobuses de Hirayu pasan por el Taishō
+      ya cargados desde arriba y no siempre recogen, así que es mejor subirse donde empiezan.
     window:
       label: Ventana óptima
       body: >-
-        **Esta tarde es la mejor luz del día y no hay una segunda oportunidad**, así que no la
-        gastéis volviendo sobre lo andado. Hacia las tres y media el sol entra rasante por el hueco
-        del río y pone las cumbres en naranja; a las **cuatro y media es de noche** y la temperatura
-        se desploma en cuanto cae tras la pared. Guantes en la mochila: operar una cámara con los
-        dedos desnudos a esa hora dura poco.
+        Hacia las tres y media el sol entra rasante por el hueco del río y pone las cumbres en
+        naranja, y a esa hora estaréis llegando al Kappabashi, que es donde mejor se ve el Hotaka. A
+        las **cuatro y media es de noche** y la temperatura se desploma en cuanto el sol cae tras la
+        pared. Guantes en la mochila: operar una cámara con los dedos desnudos a esa hora dura poco.
 
-        Durmiendo en Hirayu podéis apurar hasta el último autobús, **el de las 17:30**, sin mirar el
-        reloj a media tarde. Es la ventaja escondida de no seguir hasta Takayama esta noche.
+        Se coge **el autobús de las 16:30**, y no el último. A las 17:30 es noche cerrada, se va
+        después de ocho horas andando y, como no hay reserva, si llega lleno no queda otro detrás.
     ver:
-      - nombre: Relieve de Walter Weston
-        maps: Weston Relief Kamikochi
-        nota: El misionero inglés que subía estas montañas por gusto y les dio el nombre de «Alpes».
-        lat: 36.2470302
-        lon: 137.6266555
-      - nombre: Estanque Tashiro
-        maps: Tashiro Pond Kamikochi
-        nota: Pequeño, de hierba y agua quieta, a mitad de camino. El desvío está mal señalizado.
-        lat: 36.2357143
-        lon: 137.6245487
       - nombre: "Estanque Taishō"
         maps: Taisho Pond Kamikochi
         nota: "Lo abrió el monte Yake en 1915 al represar el río: los troncos muertos siguen en pie en el agua."
         lat: 36.2287261
         lon: 137.6186512
+      - nombre: Estanque Tashiro
+        maps: Tashiro Pond Kamikochi
+        nota: Pequeño, de hierba y agua quieta, a mitad de camino. El desvío está mal señalizado.
+        lat: 36.2357143
+        lon: 137.6245487
+      - nombre: Relieve de Walter Weston
+        maps: Weston Relief Kamikochi
+        nota: El misionero inglés que subía estas montañas por gusto y les dio el nombre de «Alpes».
+        lat: 36.2470302
+        lon: 137.6266555
   - block: Noche
     time: "17:00–19:00"
     title: Hirayu, y meterse en el agua
@@ -123,6 +146,11 @@ blocks:
       *rotenburo* al aire libre no es un extra del día: es el final que justifica el resto.
       Y a diferencia de un baño de paso, aquí se puede entrar antes de cenar, otra vez después y
       otra por la mañana.
+
+      Las dieciséis pozas de [Hirayu no Mori](https://www.hirayunomori.co.jp/), la casa de baños de
+      al lado, están abiertas también a quien no duerme allí: ¥700, de 10:00 a 21:00, con la última
+      entrada a las 20:30. Según quien ha ido **admite tatuajes sin taparlos**, aunque su web no lo
+      dice. Al llegar por la tarde, pasad a preguntarlo en recepción.
     window:
       label: La cama está puesta, y el autobús no
       body: >-
@@ -130,15 +158,15 @@ blocks:
         habitaciones, agua termal dentro de cada una y las dieciséis pozas de la casa madre al lado.
         La cena se sirve en la habitación y a hora fija, así que la hora de llegada importa.
 
-        Y aunque hoy ya no hay enlace que perder, mirad igual **la hora del último autobús desde
-        Kamikōchi** —en temporada sale a las 17:30— al subir y no al bajar. En noviembre los
-        horarios se aligeran y quedarse dentro del valle no es una opción: no hay dónde dormir.
+        El autobús de las 16:30 deja en Hirayu antes de las cinco, con tiempo para un primer baño
+        antes de cenar. Si se escapa, sale otro cada media hora hasta las 17:30, pero no más tarde:
+        quedarse dentro del valle no es una opción, porque no hay dónde dormir.
     ver:
       - ficha: onsen
         nota: El protocolo en orden, la diferencia entre onsen y *rotenburo*, y qué pasa con los tatuajes.
       - nombre: Hirayu no Mori
         maps: Hirayu no Mori Takayama
-        nota: La casa de baños madre del Sanzōan, al lado, con sus dieciséis pozas.
+        nota: "La casa de baños madre del Sanzōan, con dieciséis pozas. Abierta a todos por ¥700 y, al parecer, admite tatuajes."
         lat: 36.1891557
         lon: 137.5513313
   - block: Noche

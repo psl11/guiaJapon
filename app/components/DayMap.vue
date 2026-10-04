@@ -19,7 +19,7 @@ const geo = computed(() => (dayMaps as Record<string, {
   w: number
   h: number
   paradas: XY[]
-  tramos: { modo: 'a-pie' | 'metro' | 'tren', path: XY[] }[]
+  tramos: { modo: 'a-pie' | 'metro' | 'tren' | 'bus', path: XY[] }[]
   zonas: { nombre: string, c: XY, r: number }[]
   extras?: { key: string, tipo: 'ver' | 'comer', nombre: string, letra: string, xy: XY }[]
 }>)[props.mapa.slug])
@@ -27,7 +27,7 @@ const extrasVer = computed(() => geo.value?.extras?.filter(e => e.tipo === 'ver'
 const extrasComer = computed(() => geo.value?.extras?.filter(e => e.tipo === 'comer') ?? [])
 
 const pts = (path: XY[]) => path.map(p => p.join(',')).join(' ')
-const MODO = { 'a-pie': 'a pie', 'metro': 'metro', 'tren': 'tren' } as const
+const MODO = { 'a-pie': 'a pie', 'metro': 'metro', 'tren': 'tren', 'bus': 'bus' } as const
 // La primera parada es el punto de salida (el hotel): va sin número, con una «S». Si el día acaba
 // donde empezó, la última también es la «S» y no se pinta encima de ella.
 const vuelveAlInicio = computed(() => {

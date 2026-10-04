@@ -199,7 +199,7 @@ export const DiaSchema = z.object({
       nombre: z.string(),
       hora: z.string().optional(), // '06:00' — la del bloque, orientativa
       zona: z.string().optional(), // 'Asakusa' — agrupa paradas en un círculo con nombre
-      llegada: z.enum(['a-pie', 'metro', 'tren']).optional(), // cómo se llega desde la anterior
+      llegada: z.enum(['a-pie', 'metro', 'tren', 'bus']).optional(), // cómo se llega desde la anterior
       lat: z.number(),
       lon: z.number(),
     })).min(2),

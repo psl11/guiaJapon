@@ -1,0 +1,34 @@
+slug: shinamen-hashigo-ginza
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 150
+title: Shinamen Hashigo
+navLabel: "Shinamen Hashigo"
+tipo: dandanmen, barra de veinticuatro asientos, desde 1964
+area: Ginza
+precio: "~¥1.000 (unos 6 €) el cuenco, con arroz gratis"
+reserva: "No se reserva. Solo efectivo"
+colas: "Rotan rápido: es todo barra"
+badge: "Casa de 1964"
+fuente: alba
+quePedir: "**Pāikō dandanmen**, el *dandanmen* con la chuleta de cerdo rebozada encima. Pedid el **arroz**, que va incluido, para el fondo del cuenco."
+lat: 35.6716221
+lon: 139.7614313
+body: >-
+  Abrió en 1964 y sigue haciendo lo mismo: *dandanmen*, el fideo picante de Sichuan pasado por
+  Tokio, con la sopa de sésamo y guindilla y el picante a elegir. El plato de la casa lleva una
+  chuleta de cerdo frita encima. Es una barra de veinticuatro asientos donde se come en un cuarto
+  de hora, y con el cuenco el arroz no se cobra.
+
+
+  Está aquí como **plan B de [Ginza Hachigō](#ginza-hachigo)**, a cinco minutos andando. Hachigō se
+  reserva y tiene seis asientos. Hashigo no se reserva, abre todos los días y entre semana sirve hasta las
+  cinco de la madrugada. Si no queda hueco en TableCheck, la comida del día 20 se resuelve aquí sin
+  cola. **Llevad efectivo**: no acepta tarjeta ni pago con el móvil.
+seenIn:
+  - ref: "#ginza-hachigo"
+    label: Ginza Hachigō, el plan A
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · Ginza

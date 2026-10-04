@@ -92,6 +92,8 @@ blocks:
         nota: El *katsudon* con el filete a la brasa. Sin reserva y última comanda a las 14:30.
       - comida: ginza-hachigo
         nota: Un solo ramen, setenta cuencos al día y seis asientos. Se reserva en TableCheck.
+      - comida: shinamen-hashigo-ginza
+        nota: El plan B si Hachigō está lleno. Dandanmen desde 1964, sin reserva y solo efectivo.
       - comida: ginza-sushi-banya-kai
         nota: "*Omakase* de veintidós pases por menos de sesenta euros. Turno de 12:00 a 14:30."
       - comida: maru-ginza

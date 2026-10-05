@@ -98,6 +98,8 @@ blocks:
         nota: "*Omakase* de veintidós pases por menos de sesenta euros. Turno de 12:00 a 14:30."
       - comida: maru-ginza
         nota: "*Kaiseki* joven con menú de mediodía de unos diez euros."
+      - comida: "ginza-haru-chan-ramen"
+        nota: "Ramen de sal con Bib Gourmand 2026, en 3-chōme. Sin reserva y abierto de corrido."
   - block: Tarde
     time: "14:00–16:30"
     title: Un jardín de agua salada, y el kilómetro cero

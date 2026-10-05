@@ -124,6 +124,9 @@ blocks:
         lon: 139.5007098
       - reco: alba-enoshima
         nota: "Tres paradas más de Enoden, si sobra luz. Ojo: las cuevas de Iwaya cierran hacia las 16:00."
+    comer:
+      - comida: "yaesu-unagi-hashimoto"
+        nota: "La cena de vuelta, si se coge la Yokosuka, que para en Tokio. Bib Gourmand 2026; cierra a las 20:00."
 alt:
   label: Si te desmarcas
   body: >-

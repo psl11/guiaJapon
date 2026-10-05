@@ -1,0 +1,30 @@
+slug: fuyacho-103
+trip: japon
+part: japon
+city: Kioto
+category: cena
+order: 158
+title: Fuyachō 103
+navLabel: "Fuyachō 103"
+tipo: oden de barra, de un cocinero que venía de lo italiano
+area: 225 Owari-chō, Nakagyō · esquina Fuyachō con Oshikōji, 5 min del Ayuntamiento
+precio: "Por debajo de ~¥5.000 por persona sin bebida (unos 30 €), que es el techo del Bib Gourmand"
+reserva: "Imprescindible — solo barra y sin horario fijo"
+colas: "No: sin reserva no se entra"
+badge: "Bib Gourmand · guía de Kioto y Osaka"
+quePedir: >-
+  Los clásicos —*daikon*, tofu frito, huevo— y una pieza rara para ver la mano del cocinero, como el
+  *caciocavallo* hecho en el caldo.
+body: >-
+  **Bib Gourmand en la guía de Kioto y Osaka**, detrás de una puerta discreta en un edificio de
+  oficinas y con el nombre sacado de su propio número de local. Por dentro es madera cálida y un techo
+  de casetones que recuerda a las divisiones de la olla de [oden](#oden).
+
+
+  El cocinero viene de la cocina italiana y se nota en la carta: junto al *daikon* de siempre hay
+  queso *caciocavallo* cocido en el caldo. Está a cinco minutos de Pontochō, así que es **la cena
+  sentada de la noche del día 12**. **No tiene horario regular** y solo hay barra: hay que reservar y
+  preguntar qué noches abre.
+seenIn:
+  - ref: "#kioto"
+    label: Kioto

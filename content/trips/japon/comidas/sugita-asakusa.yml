@@ -1,0 +1,30 @@
+slug: sugita-asakusa
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 153
+title: Tonkatsu Sugita
+navLabel: "Sugita"
+tipo: tonkatsu de barra, de los clásicos de Asakusa
+area: 3-8-3 Kotobuki, Taitō · 2 min de Kuramae (salida A5), una parada al sur de Asakusa
+precio: "~¥3.000 por persona (unos 18 €)"
+reserva: "No hace falta, pero hay cola en las horas buenas"
+colas: "Sí, sobre todo a mediodía"
+badge: "Bib Gourmand · de 2019 a 2026 seguidos"
+quePedir: >-
+  El ***rōsu katsu*** (lomo). Aquí se fríe a temperatura baja y el rebozado sale fino y claro, no
+  dorado oscuro.
+body: >-
+  **Bib Gourmand en todas las guías de Tokio desde 2019 hasta la de 2026.** Es la escuela vieja del
+  tonkatsu: una barra, el cocinero de frente, cerdo de marca y aceite a temperatura más baja de lo
+  normal, así que el rebozado queda pálido y la carne jugosa.
+
+
+  Encaja **la noche del día 19**, la de vuelta de Nikkō: el Spacia deja en Asakusa y Sugita está una
+  parada al sur por la Toei Asakusa, o a un cuarto de hora andando. **Cierra los jueves**, abre de
+  11:30 a 14:00 y de 17:00 a 20:30, y **la última comanda es a las 20:15** — si el último Spacia se
+  retrasa, no llega.
+seenIn:
+  - ref: "#tonkatsu"
+    label: El tonkatsu

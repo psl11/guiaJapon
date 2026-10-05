@@ -1,0 +1,30 @@
+slug: nakiryu
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 156
+title: Sōsaku Menkōbō Nakiryū
+navLabel: "Nakiryū 鳴龍"
+tipo: ramen y tantanmen, cola en la acera
+area: 2-34-4 Minami-Ōtsuka, Toshima · 6 min de Ōtsuka, una parada de Yamanote desde Ikebukuro
+precio: "¥900 el *tantanmen* en el último precio publicado; contad con ~¥1.000–1.500 (6–9 €)"
+reserva: "No"
+colas: "Sí, casi siempre"
+badge: "Bib Gourmand · fue estrella Michelin de 2017 a 2023"
+quePedir: >-
+  El ***tantanmen***: pasta de sésamo, miso de carne y aceite de guindilla, con un picante que no
+  tapa el caldo. Si no apetece picante, el *shōyu*, con caldo de pollo entero y ostra.
+body: >-
+  Fue el **segundo ramen de Japón con estrella Michelin**, en 2017, y la tuvo hasta que la guía de
+  2024 pasó los ramen con estrella de Tokio al Bib Gourmand. Así que sigue siendo exactamente lo mismo
+  —el matrimonio que lo abrió, el mismo cuenco— y ahora con la distinción que le corresponde a un
+  plato de menos de diez euros.
+
+
+  Cae en el **día 17**, el de Ikebukuro: Ōtsuka es la parada siguiente de la Yamanote. **Cierra los
+  martes**; el domingo abre de 11:30 a 15:00 y de 18:00 a 21:00, así que el corte de mediodía hay que
+  calcularlo con la cola, que suele ser de media hora larga.
+seenIn:
+  - ref: "#ramen"
+    label: El ramen

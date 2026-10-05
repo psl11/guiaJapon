@@ -1,0 +1,28 @@
+slug: gombei-gion
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 157
+title: Gombei
+navLabel: "Gombei 権兵衛"
+tipo: udon y soba de Kioto, barra de barrio
+area: 254 Gionmachi Kitagawa, Higashiyama · en pleno Gion, al norte de Shijō
+precio: "¥1.000–2.000 por persona (6–12 €), aproximado: Michelin lo pone en su tramo más barato"
+reserva: "No"
+colas: "A veces, cortas"
+badge: "Bib Gourmand · guía de Kioto y Osaka"
+quePedir: >-
+  El ***kitsune udon*** en cualquiera de sus dos versiones —con tofu frito cortado o con tofu
+  guisado en soja dulce—, que es la prueba de una casa de fideos de Kioto.
+body: >-
+  **Bib Gourmand en la guía de Kioto y Osaka**, en mitad de Gion, con clientela de actores de
+  kabuki y de geishas del barrio. Hace el fideo a la manera de Kioto: más blando que en Tokio, pensado
+  para empaparse del *dashi* en vez de resistirlo.
+
+
+  Encaja la **tarde del día 13**, la de Gion, o la cena antes del *raitoappu*: abre seguido de 11:30
+  a 20:00. **Cierra los jueves**, y el día 13 es miércoles.
+seenIn:
+  - ref: "#udon"
+    label: El udon

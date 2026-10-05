@@ -106,6 +106,9 @@ blocks:
       - nombre: Valle de Todoroki
         maps: Todoroki Valley Setagaya
         nota: El único barranco de Tokio, en Setagaya, al otro lado de la ciudad.
+      - nombre: "Ippodo Shin-Marunouchi"
+        maps: "Ippodo Tea Shin-Marunouchi Store Tokyo"
+        nota: "Matcha de Ippodo en el sótano del Shin-Marunouchi, enfrente del Intermediatheque. Hasta las 21:00."
     comer:
       - comida: sabouru
         nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."

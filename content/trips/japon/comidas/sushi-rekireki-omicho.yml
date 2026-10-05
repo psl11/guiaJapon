@@ -1,0 +1,32 @@
+slug: sushi-rekireki-omicho
+trip: japon
+part: japon
+city: Kanazawa
+category: cena
+order: 159
+title: Sushi Rekireki Ōmichō
+navLabel: "Rekireki 鮨 歴々"
+tipo: sushi edomae dentro del mercado, segunda casa de un estrella
+area: Dentro del mercado de Ōmichō · enfrente del hotel
+precio: "¥6.000–8.000 por persona, comida o cena (36–48 €)"
+reserva: "Recomendable para la cena"
+colas: "A mediodía, sí"
+badge: "Bib Gourmand · edición especial de Kanazawa 2016"
+quePedir: >-
+  El rollo de ***nodoguro***, la perca de garganta negra del mar del Japón, que es la estrella de la
+  casa y del pescado de Kanazawa.
+body: >-
+  **Bib Gourmand en la edición especial de Michelin para Toyama e Ishikawa de 2016**. Ojo con la
+  fecha: Kanazawa no tiene guía anual como Tokio o Kioto, y esto es lo último que se puede verificar,
+  así que vale como sello de procedencia y no como premio de este año. Es la segunda casa de **Sushi
+  Mitsukawa**, la casa con estrella del barrio de Higashiyama, y aquí se come lo mismo sin la ceremonia.
+
+
+  Lo distinto es el arroz: **arroz con vinagre rojo**, el de la escuela de Edo, raro en Kanazawa. Y
+  el pescado sale del mismo mercado. **Cierra lunes y martes**; abre de 11:30 a 14:00 y de 17:30 a
+  22:00, así que sirve para **la noche del día 6** (miércoles) y para el mediodía del 7.
+seenIn:
+  - ref: "#kanazawa"
+    label: Kanazawa
+  - ref: "#sushi"
+    label: El sushi

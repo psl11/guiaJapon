@@ -1,0 +1,29 @@
+slug: shokudo-wata
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 154
+title: Shokudō Wata
+navLabel: "Shokudō Wata"
+tipo: izakaya de barrio, cocina japonesa cuidada
+area: 1-19-11 Shinjuku · lado del Shinjuku-gyoen, a 10 min a pie de Shinjuku-sanchōme
+precio: "Por debajo de ~¥5.000 por persona sin bebida (unos 30 €), que es el techo del Bib Gourmand"
+reserva: "Recomendable — es pequeño"
+colas: "Sin reserva, se espera"
+badge: "Bib Gourmand · nuevo en la guía de Tokio 2026"
+quePedir: >-
+  Lo que haya en la pizarra del día, en platos pequeños para compartir. Es una *izakaya*: se pide por
+  rondas, no un menú.
+body: >-
+  **Una de las dieciséis casas nuevas de la guía de Tokio de 2026**, y la única de esa lista en
+  Shinjuku. El cocinero viene de la cocina japonesa formal y abrió esto como lo contrario: una
+  *izakaya* para entrar a diario, donde cada plato pequeño está hecho con el cuidado de un *kappō*.
+
+
+  Es la alternativa con mesa a los callejones del día 9: Omoide Yokochō y Golden Gai son para picar
+  de pie, y aquí se cena sentado a diez minutos andando. **Cierra los domingos**; el sábado abre de
+  17:30 a 22:00, y con cuatro personas conviene reservar.
+seenIn:
+  - ref: "#shinjuku"
+    label: Shinjuku

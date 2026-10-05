@@ -108,6 +108,9 @@ blocks:
       - nombre: Hoppy-dōri
         maps: Hoppy Street Asakusa Tokyo
         nota: Croquetas y bares al aire libre, a diez minutos de la estación de Asakusa.
+    comer:
+      - comida: "sugita-asakusa"
+        nota: "Tonkatsu con Bib Gourmand desde 2019, una parada al sur. Última comanda a las 20:15."
 alt:
   label: Si te desmarcas
   body: >-

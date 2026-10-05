@@ -125,6 +125,9 @@ blocks:
       razón: están en la **Toei Asakusa**, la línea que va directa a los dos madrugones de esta semana
       —Shinagawa para el Fuji, Asakusa para Nikkō— y después sigue hasta Haneda. Las maletas grandes
       deberían estar ya esperando en el hotel. Quedan **cinco días sin cambiar de cama**.
+    comer:
+      - comida: "ginza-haru-chan-ramen"
+        nota: "Si la cama es la de Ginza. Ramen de sal con Bib Gourmand 2026, abierto hasta las 21:00."
 alt:
   label: Si te desmarcas
   body: >-

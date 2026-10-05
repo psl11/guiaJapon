@@ -93,6 +93,8 @@ blocks:
     comer:
       - comida: omicho
         nota: "*Kaisendon* en las barras del fondo, y el cangrejo de las nieves recién abierta la veda."
+      - comida: "sushi-rekireki-omicho"
+        nota: "Si no se fue anoche: la barra de sushi del mercado, de 11:30 a 14:00. Pedid el rollo de *nodoguro*."
   - block: Tarde
     time: "14:00–17:00"
     title: Dos horas y media, y se acaba la montaña

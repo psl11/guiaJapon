@@ -79,6 +79,8 @@ blocks:
     comer:
       - comida: sen-ikebukuro
         nota: "*Tsukemen* de caldo concentrado en una barra con jazz, en el barrio que es su cuna."
+      - comida: "nakiryu"
+        nota: "El *tantanmen* que fue estrella Michelin, a una parada en Ōtsuka. El domingo, hasta las 15:00."
   - block: Tarde
     time: "15:00–18:00"
     title: El momiji, que ahora sí

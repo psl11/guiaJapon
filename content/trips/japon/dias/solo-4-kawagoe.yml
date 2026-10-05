@@ -104,3 +104,6 @@ blocks:
         nota: Un túnel de dos mil *ema*, las tablillas de los deseos. De lo más fotogénico de Kantō.
         lat: 35.9271396
         lon: 139.4887762
+    comer:
+      - comida: "nakiryu"
+        nota: "La cena de vuelta: Ōtsuka es una parada después de Ikebukuro. El *tantanmen* que fue estrella Michelin, desde las 18:00."

@@ -1,0 +1,32 @@
+slug: ginza-haru-chan-ramen
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 152
+title: Ginza Haru Chan Ramen
+navLabel: "Haru Chan Ramen"
+tipo: ramen de sal, barra pequeña
+area: 3-11-6 Ginza, Chūō · entre Higashi-Ginza y la Shōwa-dōri
+precio: "~¥1.000–1.500 el cuenco (6–9 €), aproximado: Michelin lo pone en su tramo más barato"
+reserva: "No se acepta"
+colas: "Sí, y van rápidas"
+badge: "Bib Gourmand · nuevo en la guía de Tokio 2026"
+fuente: pablo
+quePedir: >-
+  El ***shio*** (de sal), que es la casa entera: caldo claro de cerdo y sardina seca, fideo aplastado
+  a mano y lomo asado cocido en la propia sopa.
+body: >-
+  **Bib Gourmand desde la guía de Tokio de 2026.** Lo lleva un cocinero al que todo el mundo llama
+  Haru-chan, y su ramen es el contrario del *tonkotsu* espeso: un caldo transparente de cerdo y
+  sardina seca, con cebolleta, nori y unas flores de *fu* (gluten de trigo) flotando en la grasa.
+
+
+  Los fideos se aplastan para que queden gruesos y blandos, y el lomo se asa y luego se termina dentro
+  de la sopa, que es lo que lo deja tan tierno. **Abre todos los días de 11:00 a 21:00**, que es raro
+  en Ginza, y por eso sirve igual para el mediodía del día 20 que para una noche de llegada tarde.
+seenIn:
+  - ref: "#ramen"
+    label: El ramen
+  - ref: "#ginza"
+    label: Ginza

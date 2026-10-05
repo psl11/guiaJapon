@@ -111,6 +111,8 @@ blocks:
         nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."
       - comida: glitch-coffee
         nota: El café de tueste claro del barrio, entre las librerías.
+      - comida: "ginza-hachigo"
+        nota: "El ramen que fue estrella en 2023, a ~¥1.500. Turnos de 12:30 a 14:30 en TableCheck, o sin reserva de 11:00 a 12:30."
   - block: Noche
     time: "21:30"
     title: Llegan los otros tres

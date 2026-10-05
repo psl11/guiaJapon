@@ -125,6 +125,8 @@ blocks:
         nota: "El *kuzukiri* de una confitería de 1726, en Shijō: no se puede llevar."
       - comida: k36-rooftop
         nota: La azotea sobre los tejados de Higashiyama para el atardecer. Reservar con días.
+      - comida: "gombei-gion"
+        nota: "El *kitsune udon* de Gion con Bib Gourmand, de 11:30 a 20:00. Los jueves cierra; hoy no."
   - block: Noche
     time: "noche"
     title: El raitoappu

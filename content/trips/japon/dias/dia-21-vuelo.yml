@@ -45,6 +45,8 @@ blocks:
     comer:
       - comida: onigiri-konga-nihonbashi
         nota: "*Onigiri* grandes para el avión, en el Takashimaya de Nihonbashi, parada de la línea del aeropuerto. Hoy abre a las 11:00."
+      - comida: "yaesu-unagi-hashimoto"
+        nota: "La última comida de verdad: *unajū* con Bib Gourmand 2026, a un paseo de Nihonbashi. De 11:00 a 13:30."
   - block: Tarde
     time: "15:00–18:00"
     title: Al aeropuerto

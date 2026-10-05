@@ -1,0 +1,31 @@
+slug: tompachitei
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 155
+title: Tompachitei
+navLabel: "Tompachitei"
+tipo: tonkatsu de tercera generación, en un callejón de Ueno
+area: 4-3-4 Ueno, Taitō · entre Ameyoko y el parque
+precio: "¥2.000–3.000 por persona (12–18 €)"
+reserva: "No"
+colas: "Sí, desde antes de abrir"
+badge: "Bib Gourmand · nueve años seguidos"
+fuente: pablo
+quePedir: >-
+  El ***rōsu katsu*** grueso. Lo fríen despacio en manteca, a fuego suave, y sale con la corteza
+  dorada y el centro todavía rosado.
+body: >-
+  **Bib Gourmand nueve años seguidos**, en un callejón detrás de Ameyoko. Lo lleva la tercera
+  generación de la familia, que se crio en este mismo trozo de Ueno y aprendió el oficio también en
+  Europa. Cerdo nacional de un carnicero de confianza, manteca al cien por cien y fuego bajo.
+
+
+  Cae justo en el **mediodía del día 2**, que es el de Ueno: está a cinco minutos del parque y abre a
+  las 11:30. **Solo da comidas** (11:30–14:30) y **cierra los lunes**; los festivos abre.
+seenIn:
+  - ref: "#tonkatsu"
+    label: El tonkatsu
+  - ref: "#ueno"
+    label: Ueno

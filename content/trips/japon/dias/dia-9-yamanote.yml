@@ -224,6 +224,8 @@ blocks:
         nota: "La alternativa con mesa: *izakaya* de pescado con bonito quemado a la paja."
       - comida: ramen-nagi
         nota: Ramen de sardina seca dentro del propio Golden Gai, abierto las veinticuatro horas.
+      - comida: "shokudo-wata"
+        nota: "Izakaya sentados con Bib Gourmand 2026, a diez minutos. El sábado abre a las 17:30; reservad."
 alt:
   label: Si te desmarcas
   body: >-

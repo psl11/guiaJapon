@@ -112,6 +112,9 @@ blocks:
         nota: Arte asiático en un edificio de Kuma y, detrás, un jardín con estanque y casas de té.
         lat: 35.6622429
         lon: 139.7172555
+      - nombre: "Ippodo Aoyama"
+        maps: "Ippodo Tea Aoyama Store Tokyo"
+        nota: "El matcha, camino del Nezu: la tienda grande de Ippodo. Hasta las 18:00, y una lata por persona."
     comer:
       - comida: henrys-burger-harajuku
         nota: La comida que no has hecho. Wagyu A5 a la plancha, abre todos los días de once a ocho.

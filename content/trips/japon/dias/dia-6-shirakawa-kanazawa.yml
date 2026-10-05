@@ -134,6 +134,8 @@ blocks:
     comer:
       - comida: omicho
         nota: Enfrente del hotel. Muchos mostradores cierran al acabarse el género, así que mejor pronto que tarde.
+      - comida: "sushi-rekireki-omicho"
+        nota: "Sushi de mercado sentados, con arroz de vinagre rojo. Bib Gourmand de 2016. Abre el miércoles hasta las 22:00."
 alt:
   label: Si te desmarcas
   body: >-

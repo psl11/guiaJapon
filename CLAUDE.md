@@ -377,7 +377,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**109 locales** en 10 ciudades · 5 de salir · 9 recomendaciones prácticas · **18 recomendados del
+**118 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **18 recomendados del
 grupo** (§10) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **La capa gastronómica** se construyó con el mismo criterio que la de `guiaVietnam`: por ciudad y en
@@ -388,6 +388,12 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
   un puesto de ranking **si está verificado**. Cuando no hay premio, el badge describe el porqué
   («Casa de 1465», «Inside Kyoto») en vez de inventar un galardón. Un badge falso envenena las 61
   fichas restantes.
+- **Los Bib Gourmand llevan el año en el `badge`** (oct 2026). Tokio y Kioto-Osaka tienen guía
+  anual, así que ahí «Bib Gourmand» a secas o «nuevo en la guía de 2026» es un dato vivo. Kanazawa
+  e Hiroshima solo tuvieron **ediciones especiales** (2016 y 2013): Rekireki y Hassho lo dicen con
+  el año, para que nadie lo lea como premio de este año. Kamakura, Matsumoto, Takayama y Nikkō no
+  tienen guía, y por eso esos días no llevan ninguno. Al añadir otro, verifica que sigue en la
+  edición vigente: Michelin borra la página del restaurante cuando lo saca.
 - **En este viaje NO hay vegetarianos** y la guía no debe comportarse como si los hubiera. Se montó
   la capa entera —campo `veg` en las 86 fichas, una reco sobre el *dashi*, tres locales veganos y un
   bloque de «no aptos»— arrastrando el contexto de `guiaVietnam`, donde sí es central. Se retiró:
@@ -582,7 +588,11 @@ caption demasiado corto y 44 duplicados de algo ya escrito o sin nombre que busc
 **Cómo está montado, y por qué así:**
 
 - Un local de comer es una `comida` con **`fuente`** (`alba` | `pablo`) y **`fuenteUrl`** (el post de
-  origen). Pinta un chip en la tarjeta.
+  origen). Pinta un chip en la tarjeta. **Desde oct 2026 todas las comidas llevan `fuente`**: `alba`
+  las 49 de sus posts y `pablo` las demás, que las añadió **Pablo Sánchez** (no Pablo Velasco, que
+  hizo la capa de Alba). Es un solo valor, así que un local de Alba con Bib Gourmand —Inoichi,
+  Hachigō, Tsuta— se queda como `alba`: el chip dice quién lo trajo, no qué premio tiene. Una comida
+  nueva sin `fuente` no sale en ninguna de las dos listas de Recomendados.
 - Lo que no es un restaurante —un mercado con fecha fija, un taller de palillos, un aviso de estafa—
   va a la colección **`recomendados/`**, con `kind` (`ver` · `taller` · `truco`) y **`url`
   obligatorio**. No cabía en `recos`, cuyos `kind` describen la logística del viaje y no un hallazgo

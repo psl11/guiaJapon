@@ -106,6 +106,8 @@ blocks:
     comer:
       - comida: asakusa-hirayama
         nota: Si se come antes de salir de Asakusa. Soba *juwari* con Bib Gourmand, y hay que reservar.
+      - comida: "tompachitei"
+        nota: "Si se come ya en Ueno. Tonkatsu en manteca con Bib Gourmand, a cinco minutos del parque. Abre a las 11:30."
   - block: Tarde
     time: "15:00–17:00"
     title: Yanaka, el barrio que no ardió

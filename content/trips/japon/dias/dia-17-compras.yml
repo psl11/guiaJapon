@@ -68,6 +68,14 @@ blocks:
         nota: El centro comercial grande del lado este, con la zona de manga y anime de camino.
         lat: 35.7288478
         lon: 139.7195458
+      - nombre: Pokémon Center Mega Tokyo
+        maps: Pokemon Center Mega Tokyo
+        nota: El más grande de Japón, en la 2.ª planta de Sunshine City. En domingo se llena; si es prioridad, a las 10:00.
+        lat: 35.7288944
+        lon: 139.7191826
+      - nombre: Pikachu Sweets
+        maps: Pikachu Sweets by Pokemon Cafe Ikebukuro
+        nota: El mostrador del Pokémon Café dentro de la misma tienda. Bebidas y dulces sin reserva.
     comer:
       - comida: sen-ikebukuro
         nota: "*Tsukemen* de caldo concentrado en una barra con jazz, en el barrio que es su cuna."

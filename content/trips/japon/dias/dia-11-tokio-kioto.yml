@@ -66,6 +66,11 @@ blocks:
         nota: Las orillas donde se sienta la ciudad. Pontochō queda en la margen de enfrente.
         lat: 35.0038208
         lon: 135.7715003
+      - nombre: Pokémon Center Kyoto
+        maps: Pokemon Center Kyoto SUINA Muromachi
+        nota: En Shijō-Karasuma, de camino a Nishiki. Peluches con estampado de kimono que no se venden en otra tienda.
+        lat: 35.0033675
+        lon: 135.7583695
     comer:
       - comida: menya-inoichi
         nota: Ramen de *dashi* de pescado con Bib Gourmand nueve guías seguidas, por menos de diez euros.

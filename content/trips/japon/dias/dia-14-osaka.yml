@@ -155,6 +155,11 @@ blocks:
         nota: El callejón empedrado del Buda de musgo, al que se le echa agua.
         lat: 34.6681845
         lon: 135.5026705
+      - nombre: Pokémon Center Osaka DX
+        maps: Pokemon Center Osaka DX Daimaru Shinsaibashi
+        nota: El principal de Kansai, en la 9.ª planta del Daimaru, pared con pared con el Pokémon Café, que solo admite reserva.
+        lat: 34.6732574
+        lon: 135.5009565
       - reco: alba-timos-dotonbori
         nota: Los captadores de traje negro. Un restaurante bueno no sale a la calle a pescar clientes.
     comer:

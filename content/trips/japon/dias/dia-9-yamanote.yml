@@ -170,6 +170,11 @@ blocks:
         nota: La azotea abierta de Scramble Square. Franja de las 16:00, con reserva.
         lat: 35.6583792
         lon: 139.7022161
+      - nombre: Pokémon Center Shibuya
+        maps: Pokemon Center Shibuya Parco
+        nota: En la 6.ª planta del Parco, con un Mewtwo a tamaño real y Nintendo Tokyo en la misma planta.
+        lat: 35.6620111
+        lon: 139.6989821
       - reco: alba-donki-escondido
         nota: El Don Quijote grande tiene una sede anexa a un minuto, con los mismos precios.
       - nombre: Nonbei Yokochō

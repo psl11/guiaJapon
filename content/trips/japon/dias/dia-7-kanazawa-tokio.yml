@@ -103,12 +103,20 @@ blocks:
       cordillera que se ha estado mirando cuatro días: se sale del mar del Japón, se pasa por Nagano y
       se entra en la llanura del Kantō, que ya no se abandona hasta Kioto. **Asiento reservado**: el
       Kagayaki no lleva vagones libres — no es que se llenen, es que no existen.
+
+      Al bajar, antes de ir al hotel, **la compra del matcha**: es la única tarde con los cuatro
+      juntos y sin maletas, y la tienda de Ippodo está a dos minutos del andén. Qué comprar, en
+      [la tarjeta del matcha](#matcha).
     window:
       label: Las maletas, otra vez por delante
       body: >-
         **Esta mañana sale el segundo envío por [takkyūbin](#takkyubin)**, del hotel de Kanazawa al de
         Tokio. Y ojo en piloto automático: **el hotel de estas cuatro noches no es el de la llegada ni
         el del final**. Esta semana se duerme en Roppongi; mirad la reserva de ahora, no la vieja.
+    ver:
+      - nombre: "Ippodo Shin-Marunouchi"
+        maps: "Ippodo Tea Shin-Marunouchi Store Tokyo"
+        nota: "El matcha de los cuatro: sótano del Shin-Marunouchi, salida Marunouchi. Hasta las 21:00, una lata por persona."
   - block: Noche
     time: "noche"
     title: Volver a una ciudad que ya se conoce

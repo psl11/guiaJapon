@@ -588,7 +588,11 @@ caption demasiado corto y 44 duplicados de algo ya escrito o sin nombre que busc
 **Cómo está montado, y por qué así:**
 
 - Un local de comer es una `comida` con **`fuente`** (`alba` | `pablo`) y **`fuenteUrl`** (el post de
-  origen). Pinta un chip en la tarjeta.
+  origen). Pinta un chip en la tarjeta. **Desde oct 2026 todas las comidas llevan `fuente`**: `alba`
+  las 49 de sus posts y `pablo` las demás, que las añadió **Pablo Sánchez** (no Pablo Velasco, que
+  hizo la capa de Alba). Es un solo valor, así que un local de Alba con Bib Gourmand —Inoichi,
+  Hachigō, Tsuta— se queda como `alba`: el chip dice quién lo trajo, no qué premio tiene. Una comida
+  nueva sin `fuente` no sale en ninguna de las dos listas de Recomendados.
 - Lo que no es un restaurante —un mercado con fecha fija, un taller de palillos, un aviso de estafa—
   va a la colección **`recomendados/`**, con `kind` (`ver` · `taller` · `truco`) y **`url`
   obligatorio**. No cabía en `recos`, cuyos `kind` describen la logística del viaje y no un hallazgo

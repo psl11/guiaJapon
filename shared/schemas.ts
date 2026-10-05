@@ -267,10 +267,11 @@ export const ComidaSchema = z.object({
   badge: z.string().optional(), // sello: '★ Michelin' · 'Bib Gourmand' · "Asia's 50 Best" · 'Vietnam Coracle'…
   // QUIÉN LO RECOMIENDA (ago 2026). No confundir con `badge`, que es PROCEDENCIA VERIFICADA de un
   // sello de prestigio: esto es autoría de la recomendación, la persona del grupo que trajo el
-  // sitio. La mayoría de las 61 fichas no lo llevan —salen de guías y de fuentes publicadas— y se
-  // quedan sin chip; solo se marca lo que viene de alguien concreto, que es lo que permite luego
-  // decir en un día «y cerca tenéis estos de Alba». Enum y no texto libre: son dos personas y una
-  // errata escrita a mano se vería igual de bien y agruparía mal.
+  // sitio. Desde oct 2026 lo llevan TODAS: `alba` los 49 que salieron de sus posts y `pablo` todo
+  // lo demás, que lo añadió Pablo Sánchez (guías, Bib Gourmand, sus sesiones) — no Pablo Velasco.
+  // Es un solo valor: un local de Alba que además es Bib (Inoichi, Hachigō, Tsuta) se queda como
+  // `alba`, porque lo que separa el chip es quién lo trajo, no qué premio tiene. Enum y no texto
+  // libre: son dos personas y una errata escrita a mano se vería igual de bien y agruparía mal.
   fuente: z.enum(['alba', 'pablo']).optional(),
   // El post del que salió la recomendación. Va aparte de `link` —que es la reserva o la web del
   // local— porque son dos cosas distintas: uno lleva a reservar mesa, el otro a ver el vídeo que

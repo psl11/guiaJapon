@@ -1,0 +1,35 @@
+slug: pablo-mizutani-camera
+lat: 35.7100489
+lon: 139.7754606
+trip: japon
+order: 19
+fuente: pablo
+kind: ver
+title: Seiko de segunda mano en Mizutani Camera
+navLabel: "Mizutani Camera"
+tipo: tienda de relojes japoneses vintage
+city: Tokio
+area: Ueno 6-9-17, en Ameyoko, a un paso de la estación de Okachimachi
+cuando: "Día 2 · sábado 7 de noviembre, a la salida del museo · el sábado cierra a las 16:30"
+dia:
+  ref: "#dia-2-shitamachi"
+  label: "Día 2 · Ueno"
+aviso: "Cierra **lunes y jueves**, y el horario cambia a menudo: mirad su Instagram la víspera."
+url: https://www.instagram.com/reel/DeTzDevOixl/
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Mizutani%20Camera%20Ueno%20Tokyo
+  label: Google Maps
+body: >-
+  Pese al nombre, lo que se viene a buscar no son cámaras: es una de las tiendas de relojes
+  japoneses de segunda mano más queridas de Tokio, con **Seiko, Grand Seiko y Citizen** vintage y
+  *neo-vintage* a precios que todavía no son de coleccionista. El dueño conoce cada pieza y la
+  explica. Se ha hecho famosa en redes y a veces hay una pequeña cola en la puerta.
+
+
+  Tiene que ser el día 2, y no a la vuelta de los Alpes, por el calendario: **cierra los jueves**,
+  que es el día que se llega de Kanazawa, y el viernes se pasa entero en Kamakura. El sábado 14 ya
+  es la despedida. El día 2, en cambio, termina el museo de [Ueno](#ueno) y baja a Ameyoko, y la
+  tienda está en esa misma calle.
+seenIn:
+  - ref: "#dia-2-shitamachi"
+    label: Día 2 · Ueno

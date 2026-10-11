@@ -1,0 +1,36 @@
+slug: alba-brand-off-shibuya
+lat: 35.660072
+lon: 139.699432
+trip: japon
+order: 20
+fuente: alba
+kind: ver
+title: Bolsos de lujo de segunda mano en BRAND OFF Shibuya
+navLabel: "BRAND OFF Shibuya"
+tipo: tienda de bolsos y marcas de lujo de segunda mano
+city: Tokio
+area: Udagawachō 23-10, en la Center Gai, plantas 1 a 4 del edificio VIVEL
+cuando: "Día 9 · sábado 14 de noviembre, por la tarde · de 12:00 a 21:00, todos los días"
+dia:
+  ref: "#dia-9-yamanote"
+  label: "Día 9 · Shibuya"
+aviso: "Abrió en mayo de 2026. Lo de **más de dos mil bolsos y el tax free** lo dice el vídeo, no la casa: llevad el pasaporte por si acaso."
+url: https://www.instagram.com/reel/DeWf-TWR6rN/
+link:
+  url: https://www.google.com/maps/search/?api=1&query=BRAND%20OFF%20SHIBUYA%20Udagawacho%2023-10
+  label: Google Maps
+body: >-
+  Japón es buen sitio para comprar lujo usado por una razón de costumbre: las cosas se cuidan, y
+  muchos bolsos de segunda mano llegan con aspecto de recién estrenados. BRAND OFF es una cadena de
+  compraventa de marcas, y la tienda de Shibuya, abierta en mayo de 2026, es la grande: **cuatro
+  plantas** en la Center Gai, con modelos de hace décadas junto a los actuales. El consejo del vídeo
+  es el bueno: mirar y comparar antes de comprar, porque no todas las tiendas del ramo tratan igual
+  al cliente.
+
+
+  Cae en el día 9 porque es el único que pasa por Shibuya, y además por la tarde, cuando el grupo
+  ya es de tres. Abre hasta las nueve, así que cabe después de Shibuya Sky y antes de subir a
+  Shinjuku a cenar.
+seenIn:
+  - ref: "#dia-9-yamanote"
+    label: Día 9 · Shibuya

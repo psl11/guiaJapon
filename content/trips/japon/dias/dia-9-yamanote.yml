@@ -21,6 +21,7 @@ mapa:
     - { nombre: Cat Street, hora: "15:00", llegada: a-pie, lat: 35.6640432, lon: 139.7027577 }
     - { nombre: "Cruce y Hachikō", zona: Shibuya, llegada: a-pie, lat: 35.6590597, lon: 139.7006279 }
     - { nombre: Shibuya Sky, hora: "16:00", zona: Shibuya, llegada: a-pie, lat: 35.6583792, lon: 139.7022161 }
+    - { nombre: BRAND OFF, hora: "17:30", zona: Shibuya, llegada: a-pie, lat: 35.660072, lon: 139.699432 }
     - { nombre: Omoide Yokochō, hora: noche, zona: Shinjuku, llegada: tren, lat: 35.6928662, lon: 139.6995502 }
     - { nombre: Golden Gai, zona: Shinjuku, llegada: a-pie, lat: 35.6939905, lon: 139.7047001 }
 traslados:
@@ -137,14 +138,15 @@ blocks:
       - comida: yamacho-harajuku
         nota: Udon hirviendo en cazuela de barro, por mil yenes. Solo mediodía; el domingo cierra.
   - block: Tarde
-    time: "15:00–17:00"
+    time: "15:00–18:00"
     title: El cruce, y la ciudad desde arriba
     body: >-
       Se baja a Shibuya por **Cat Street**, un pasadizo peatonal y curvo que evita las avenidas: veinte
       minutos entre tiendas pequeñas, y sus curvas son las del río Shibuya, entubado justo debajo. Al
       final, el cruce donde tres mil personas atraviesan a la vez sin rozarse, y la estatua de Hachikō.
       Verlo desde la calle está bien; verlo desde arriba lo explica, y para eso está Shibuya Sky, con
-      la ciudad a 360 grados y —si el aire está limpio— el Fuji al oeste.
+      la ciudad a 360 grados y —si el aire está limpio— el Fuji al oeste. Al bajar, ya de noche, BRAND
+      OFF, la tienda de bolsos de segunda mano de la Center Gai, que abre hasta las nueve.
     window:
       label: Ventana óptima
       body: >-
@@ -177,6 +179,8 @@ blocks:
         lon: 139.6989821
       - reco: alba-donki-escondido
         nota: El Don Quijote grande tiene una sede anexa a un minuto, con los mismos precios.
+      - reco: alba-brand-off-shibuya
+        nota: Bolsos de lujo de segunda mano en la Center Gai. Abre hasta las 21:00, así que después de Shibuya Sky.
       - nombre: Nonbei Yokochō
         maps: Nonbei Yokocho Shibuya Tokyo
         nota: Barras minúsculas de posguerra junto a las vías, a cincuenta metros del cruce.

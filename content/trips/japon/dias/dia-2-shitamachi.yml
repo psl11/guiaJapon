@@ -19,6 +19,7 @@ mapa:
     - { nombre: Kappabashi, hora: "08:00–11:00", zona: Asakusa, llegada: a-pie, lat: 35.7142517, lon: 139.7888894 }
     - { nombre: Museo Nacional, hora: "11:30", zona: Ueno, llegada: metro, lat: 35.7190448, lon: 139.7759676 }
     - { nombre: Ameyoko, zona: Ueno, llegada: a-pie, lat: 35.7100241, lon: 139.7745414 }
+    - { nombre: Mizutani Camera, zona: Ueno, llegada: a-pie, lat: 35.7100489, lon: 139.7754606 }
     - { nombre: Yanaka Ginza, hora: "15:00", zona: Yanaka, llegada: tren, lat: 35.7276689, lon: 139.7653174 }
     - { nombre: "Vuelta al barrio, a cenar", hora: noche, llegada: tren, lat: 35.6967393, lon: 139.7739276 }
 blocks:
@@ -89,7 +90,8 @@ blocks:
       En metro hasta **Ueno**, el parque grande de la ciudad. Dentro está el Museo Nacional de Tokio,
       el más antiguo y completo de Japón: armaduras, espadas, biombos y cerámica. Dos horas en el
       edificio principal, el Honkan, bastan. A la salida, Ameyoko, el mercado que nació de un mercado
-      negro de posguerra bajo las vías del tren.
+      negro de posguerra bajo las vías del tren. En esa misma calle está Mizutani Camera, la tienda de
+      relojes: el sábado cierra a las 16:30, así que se entra antes de coger el tren a Yanaka.
     window:
       label: Por qué hoy y no el lunes
       body: >-

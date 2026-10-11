@@ -137,7 +137,8 @@ for (const f of readdirSync(DIAS).filter(f => f.endsWith('.yml'))) {
   const dist = (a, b) => Math.hypot((a.lat - b.lat) * M_LAT, (a.lon - b.lon) * mLon(a.lat))
   const todos = extrasDe(dia).filter(e => dia.mapa.paradas.some(p => dist(p, e) < 2500)), enParada = {}
   for (const e of todos) {
-    const i = dia.mapa.paradas.findIndex(p => cerca(p, e))
+    // La más cercana, no la primera: Mizutani está a 80 m de Ameyoko y es parada propia.
+    const i = dia.mapa.paradas.reduce((m, p, j) => cerca(p, e) && (m < 0 || dist(p, e) < dist(dia.mapa.paradas[m], e)) ? j : m, -1)
     if (i >= 0) enParada[e.key] = i === 0 ? 'S' : String(i)
   }
   mapas.push({ ...dia.mapa, extras: todos.filter(e => !(e.key in enParada)), enParada })

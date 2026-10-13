@@ -129,6 +129,12 @@ blocks:
         nota: El casco de barco de cristal de Viñoly, puesto del revés. Se entra libre.
         lat: 35.6767901
         lon: 139.7635414
+      - nombre: "Lápida de William Adams"
+        maps: "William Adams Residence Site Nihonbashi Muromachi"
+        nota: "Donde vivió el inglés del que sale el Blackthorne de *Shōgun*. Una piedra entre dos edificios, en la Anjin-dōri."
+      - nombre: "Monumento a Jan Joosten"
+        maps: "Jan Joosten Monument Yaesu Tokyo"
+        nota: "El holandés que dio nombre a Yaesu, compañero de barco de Adams, en la avenida Yaesu."
     comer:
       - comida: onigiri-konga-nihonbashi
         nota: Onigiri para llevar en el Takashimaya de Nihonbashi. En domingo, confirmad a qué hora abre.

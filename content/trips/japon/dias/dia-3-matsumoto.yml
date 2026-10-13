@@ -47,6 +47,10 @@ blocks:
         aeropuerto, vuestro gasto total en JR ronda los ¥21.000 — frente a los ¥50.000 que
         cuesta el JR Pass de 7 días, que además solo cubre siete de los veintiún días. No compréis el pase:
         billetes sueltos, y el metro de Tokio no es JR de todas formas.
+    ver:
+      - nombre: "Lago Suwa"
+        maps: "Lake Suwa Nagano"
+        nota: "Por la ventanilla izquierda: el lago que se suele dar como modelo del de Itomori, en *Your Name*."
   - block: Mediodía
     time: "12:30–15:00"
     title: Matsumoto-jō, uno de los doce que quedan

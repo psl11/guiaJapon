@@ -184,6 +184,9 @@ blocks:
       - nombre: Nonbei Yokochō
         maps: Nonbei Yokocho Shibuya Tokyo
         nota: Barras minúsculas de posguerra junto a las vías, a cincuenta metros del cruce.
+      - nombre: "Karaoke-kan de Udagawachō"
+        maps: "Karaoke Kan Shibuya Udagawacho"
+        nota: "El karaoke de *Lost in Translation*. Las salas 601 y 602 se pueden reservar."
     comer:
       - comida: edw-yellow-shibuya
         nota: El *omurice* que se abre en la mesa, en Udagawachō. Solo pago electrónico.
@@ -223,6 +226,12 @@ blocks:
         lon: 139.7047001
       - reco: alba-omoide-yokocho-turistada
         nota: La pega de Alba a Omoide Yokochō, y el aviso de los captadores en la calle.
+      - nombre: "Cabeza de Godzilla"
+        maps: "Godzilla Head Shinjuku Kabukicho"
+        nota: "Sobre el cine Tōhō de Kabukichō, de camino a Golden Gai. Su calle sale en *Tokyo Vice*."
+      - nombre: "Escalera del santuario Suga"
+        maps: "Suga Shrine Yotsuya Tokyo"
+        nota: "El final de *Your Name*, a tres paradas por la Marunouchi. Para antes de cenar."
     comer:
       - comida: yonpachi-shinjuku
         nota: "La alternativa con mesa: *izakaya* de pescado con bonito quemado a la paja."

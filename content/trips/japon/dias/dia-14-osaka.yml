@@ -86,6 +86,12 @@ blocks:
         lon: 135.5258873
       - reco: alba-kioto-osaka-sin-shinkansen
         nota: El tren normal basta para bajar. El turístico del vídeo no circula en jueves.
+      - nombre: "Catedral de Tamatsukuri"
+        maps: "Osaka Cathedral of St. Mary Tamatsukuri"
+        nota: "La estatua de Hosokawa Gracia, de la que sale la Mariko de *Shōgun*, donde estuvo su casa. A diez minutos de Morinomiya."
+      - nombre: "Tsuruhashi"
+        maps: "Tsuruhashi Korea Town Osaka"
+        nota: "El Ikaino de *Pachinko*, hoy barrio coreano, a dos paradas por la línea circular."
     comer:
       - comida: getto-osaka
         nota: "*Dashimaki* con la yema líquida, a siete minutos del castillo. Abre a las 11:30."

@@ -112,3 +112,7 @@ blocks:
         Ocho husos al este es la dirección mala. Lo que mejor funciona es **no dormir de día, cenar
         pronto, meterse en agua caliente y acostarse a la hora local**: subir la temperatura corporal y
         dejarla caer después es de las pocas cosas que adelantan el reloj de verdad.
+    ver:
+      - nombre: "Estación de Yotsugi"
+        maps: "Yotsugi Station Katsushika Tokyo"
+        nota: "El tren de Narita pasa por aquí: la estación de *Captain Tsubasa*, en el barrio donde se crio su autor."

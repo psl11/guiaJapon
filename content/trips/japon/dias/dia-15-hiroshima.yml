@@ -52,6 +52,9 @@ blocks:
         lon: 134.6940200
       - ficha: matsumoto-jo
         nota: Los dos supervivientes de verdad, para compararlos con el de hace dos semanas.
+      - nombre: "Estación de Fukuyama"
+        maps: "Fukuyama Station Hiroshima"
+        nota: "Casi todos los Shinkansen paran aquí: el andén donde se bajan Logan y Mariko en *Lobezno inmortal*."
   - block: Mediodía
     time: "11:00–13:00"
     title: La cúpula, y el eje

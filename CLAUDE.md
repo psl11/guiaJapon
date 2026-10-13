@@ -376,9 +376,19 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 
 ## 8. Estado y qué falta
 
-**Hecho:** 21 días · 41 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
+**Hecho:** 21 días · 42 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
 **118 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **18 recomendados del
 grupo** (§10) · 65 fotos · PWA sin garantía de offline (§3.9).
+
+**Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
+cine y libros: cada película, serie o anime que el grupo ha visto, con dónde se rodó, qué día se
+pasa por delante y qué hay de verdad detrás. Los sitios concretos van además como `ver` en su día
+(Yotsugi, Saigō, el lago Suwa, Suga, Godzilla, Adams, Sekigahara, Tamatsukuri, Fukuyama, Kasukabe,
+Wakō, Rajōmon, Hikawa de Azabu, la Character Street…). Tiene además dos secciones para lo que no
+estaba en la lista del grupo pero cae en la ruta —*Kill Bill*, *Black Rain*, *Shin Godzilla*,
+*Kimetsu no Yaiba*, *Sailor Moon*, *Jujutsu Kaisen*…—, ordenadas por día. Las que no pisan la ruta
+—*Ghost in the Shell*, *Origen*, *Evangelion* salvo su tienda— lo dicen. Se descartaron por no
+poder verificarlas el Osaka Continental de *John Wick 4* y la tienda de *One Piece* de Shibuya.
 
 **La capa gastronómica** se construyó con el mismo criterio que la de `guiaVietnam`: por ciudad y en
 siete categorías (`desayuno · cafe · comida · cena · street-food · postre · cocteleria`), y **cada

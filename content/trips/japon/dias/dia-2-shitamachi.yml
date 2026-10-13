@@ -107,6 +107,9 @@ blocks:
         lon: 139.7759676
       - reco: pablo-mizutani-camera
         nota: Seiko vintage en Ameyoko, de camino. Hoy cierra a las 16:30, así que antes de Yanaka.
+      - nombre: "Estatua de Saigō Takamori"
+        maps: "Saigo Takamori Statue Ueno Park"
+        nota: "El hombre del que sale el Katsumoto de *El último samurái*, con su perro, a la entrada sur del parque."
     comer:
       - comida: asakusa-hirayama
         nota: Si se come antes de salir de Asakusa. Soba *juwari* con Bib Gourmand, y hay que reservar.

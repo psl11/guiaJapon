@@ -46,6 +46,10 @@ blocks:
         **Ayer fue festivo**, así que los museos que cierran los lunes **han trasladado su cierre a
         hoy, martes**. A Nikkō le da igual —los santuarios no cierran—, pero es una razón más para que
         hoy toque esto y no museos en Tokio.
+    ver:
+      - nombre: "Kasukabe, desde el Spacia"
+        maps: "Kasukabe Station Saitama"
+        nota: "El tren para en la ciudad de *Shin-chan*, donde la familia Nohara está empadronada desde 2004."
   - block: Mediodía
     time: "09:30–13:00"
     title: Convertir a un hombre en dios

@@ -94,6 +94,9 @@ blocks:
         nota: En el antiguo consulado británico. Pequeño, y es la historia del puerto entera.
         lat: 35.4475178
         lon: 139.6438048
+      - nombre: "Mirador de Minato-no-Mieru-Oka"
+        maps: "Harbor View Park Yokohama"
+        nota: "El puerto de *La colina de las amapolas*, de Ghibli, desde el barrio de Yamate."
   - block: Media tarde
     time: "15:00–16:00"
     title: Chigusa, el primer jazz kissa de Japón

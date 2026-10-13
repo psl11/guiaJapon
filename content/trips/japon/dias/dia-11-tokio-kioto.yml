@@ -47,6 +47,10 @@ blocks:
     comer:
       - comida: kurasu-kyoto
         nota: El primer café al bajar del tren, a dos minutos de la estación y con la maleta al lado.
+    ver:
+      - nombre: "Sekigahara, por la ventanilla"
+        maps: "Sekigahara Battlefield"
+        nota: "Entre Gifu-Hashima y Maibara: el campo de la batalla de 1600 hacia la que va *Shōgun*."
   - block: Mediodía
     time: "12:00–15:00"
     title: Entender la retícula antes de andarla
@@ -100,6 +104,9 @@ blocks:
         nota: La pagoda de madera más alta de Japón, cincuenta y cinco metros, en un templo del año 796.
         lat: 34.9806311
         lon: 135.7477192
+      - nombre: "Sitio de la puerta Rajōmon"
+        maps: "Rajomon Gate Site Kyoto"
+        nota: "Un pilar de piedra donde estuvo la puerta de *Rashōmon*, a un cuarto de hora andando del Tō-ji."
   - block: Noche
     time: "noche"
     title: La cocina de una capital sin mar

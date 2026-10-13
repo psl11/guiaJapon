@@ -106,6 +106,9 @@ blocks:
       - nombre: Valle de Todoroki
         maps: Todoroki Valley Setagaya
         nota: El único barranco de Tokio, en Setagaya, al otro lado de la ciudad.
+      - nombre: "Puente Hijiribashi"
+        maps: "Hijiribashi Bridge Ochanomizu"
+        nota: "La primera escena de *Tokyo Vice*, sobre el río Kanda, a un paseo de Jinbōchō."
     comer:
       - comida: sabouru
         nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."

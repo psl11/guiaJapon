@@ -50,6 +50,9 @@ blocks:
         nota: Los KitKat y dulces de regalo, a mitad de precio en una drugstore que en el konbini.
       - reco: alba-bolsa-3coins
         nota: Una bolsa grande y barata para lo que ya no cabe. Sin confirmar en catálogo.
+      - nombre: "Evangelion Store Tokyo-01"
+        maps: "Evangelion Store Ikebukuro P'Parco"
+        nota: "La tienda oficial de *Evangelion*, en la segunda planta del P'Parco desde 2014. Confirmad que sigue abierta."
   - block: Mediodía
     time: "13:00–15:00"
     title: El Don Quijote, y lo que falte

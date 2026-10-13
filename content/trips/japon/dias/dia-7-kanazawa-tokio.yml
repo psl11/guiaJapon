@@ -117,6 +117,9 @@ blocks:
       - nombre: "Ippodo Shin-Marunouchi"
         maps: "Ippodo Tea Shin-Marunouchi Store Tokyo"
         nota: "El matcha de los cuatro: sótano del Shin-Marunouchi, salida Marunouchi. Hasta las 21:00, una lata por persona."
+      - nombre: "Tokyo Character Street"
+        maps: "Tokyo Character Street Tokyo Station"
+        nota: "Treinta tiendas de personajes en el sótano de la salida Yaesu: Ghibli, Pokémon y la Jump Shop de *One Piece*."
   - block: Noche
     time: "noche"
     title: Volver a una ciudad que ya se conoce

@@ -199,6 +199,9 @@ blocks:
         nota: Calle comercial de toda la vida, con confiterías viejas, a un paseo del hotel.
         lat: 35.6567021
         lon: 139.7361025
+      - nombre: "Santuario Hikawa de Azabu"
+        maps: "Azabu Hikawa Shrine Tokyo"
+        nota: "El santuario de Rei: Azabu-Jūban es el barrio de *Sailor Moon*."
     comer:
       - comida: azabu-kuroshari
         nota: Omakase de arroz teñido de negro con carbón, en Azabu-Jūban. Turnos de 18:00 y 20:00.

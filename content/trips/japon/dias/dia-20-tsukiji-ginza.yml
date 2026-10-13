@@ -87,6 +87,12 @@ blocks:
         nota: Doce plantas dedicadas solo a papel, plumas y cuadernos.
         lat: 35.6729570
         lon: 139.7674251
+      - nombre: "Reloj de Wakō"
+        maps: "Wako Clock Tower Ginza"
+        nota: "La torre del cruce de 4-chōme que Godzilla arranca en 1954, y que vuelve a caer en *Godzilla Minus One*."
+      - nombre: "Plaza de Godzilla de Hibiya"
+        maps: "Hibiya Godzilla Square"
+        nota: "La estatua de tres metros de *Shin Godzilla*, a diez minutos de Ginza."
     comer:
       - comida: tonkatsu-marushichi-ginza
         nota: El *katsudon* con el filete a la brasa. Sin reserva y última comanda a las 14:30.

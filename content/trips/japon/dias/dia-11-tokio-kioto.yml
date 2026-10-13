@@ -104,6 +104,9 @@ blocks:
         nota: La pagoda de madera más alta de Japón, cincuenta y cinco metros, en un templo del año 796.
         lat: 34.9806311
         lon: 135.7477192
+      - nombre: "Sitio de la puerta Rajōmon"
+        maps: "Rajomon Gate Site Kyoto"
+        nota: "Un pilar de piedra donde estuvo la puerta de *Rashōmon*, a un cuarto de hora andando del Tō-ji."
   - block: Noche
     time: "noche"
     title: La cocina de una capital sin mar

@@ -96,6 +96,12 @@ blocks:
         nota: El puente de dos arcos de todas las fotos, al final de los pinos de Kōkyo Gaien.
         lat: 35.6802215
         lon: 139.7535986
+      - nombre: "Sede del Yomiuri Shimbun"
+        maps: "Yomiuri Shimbun Building Otemachi"
+        nota: "El periódico de verdad detrás del de *Tokyo Vice*, a un paseo de la tumba de Masakado."
+      - nombre: "Jefatura de la Policía Metropolitana"
+        maps: "Tokyo Metropolitan Police Department Headquarters Sakuradamon"
+        nota: "Frente a la puerta Sakurada, al final de Kōkyo Gaien: la policía de *Tokyo Vice*."
   - block: Mediodía
     time: "12:30–15:00"
     title: Marunouchi, «dentro del círculo»

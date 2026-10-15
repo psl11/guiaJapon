@@ -10,7 +10,7 @@ title: Jazz Kissa Chigusa
 navLabel: "Chigusa (jazz kissa)"
 tipo: jazz kissa · el más antiguo de Japón, desde 1933
 area: Noge, Naka-ku · 3 min de la estación de Sakuragichō
-cuando: "En solitario · mié 4, después de Sankeien · CIERRA LOS JUEVES"
+cuando: "En solitario · mar 3, después de Sankeien · CIERRA LOS JUEVES"
 precio: "¥700–1.200 (5–8 €)"
 reserva: "No"
 colas: "Poca cosa · es pequeño, 20 y pico plazas"
@@ -37,7 +37,7 @@ body: >-
   Abre de **12:00 a 22:00 y cierra los jueves**, que es exactamente el motivo por el que Yokohama pasó
   al miércoles en este plan.
 seenIn:
-  - ref: '#solo-3-yokohama'
-    label: "Solo · mié 4 · Yokohama"
+  - ref: '#solo-2-yokohama'
+    label: "Solo · mar 3 · Yokohama"
   - ref: '#cafe-kissaten'
     label: "El café japonés"

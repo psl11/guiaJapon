@@ -10,7 +10,7 @@ title: Unagi Hashimoto
 navLabel: "Unagi Hashimoto"
 tipo: casa de anguila desde 1835 · sexta generación
 area: 2-5-7 Suidō, Bunkyō · 3 min de Edogawabashi
-cuando: "Tokio · cualquier comida; encaja bien el día 9 o el 17"
+cuando: "Tokio · cualquier comida; encaja bien el día 8 o el 17"
 precio: "¥4.000-8.000"
 reserva: "Recomendable"
 colas: "No, con reserva"
@@ -37,5 +37,5 @@ body: >-
   comer en Tokio, y no solo no había casa apuntada — **tampoco tiene ficha de plato**, al contrario que
   el [tempura](#tempura), el [tonkatsu](#tonkatsu) o el [yakitori](#yakitori).
 seenIn:
-  - ref: '#dia-9-yamanote'
-    label: "Día 9 · Yamanote"
+  - ref: '#dia-8-yamanote'
+    label: "Día 8 · Yamanote"

@@ -1,18 +1,17 @@
-slug: dia-9-yamanote
-navLabel: "Día 9 · Yamanote"
+slug: dia-8-yamanote
+navLabel: "Día 8 · Yamanote"
 trip: japon
-order: 9
-eyebrow: El plan · Día 9 · sáb 14 nov
-title: El adiós, y del bosque de *Meiji* al cruce de Shibuya
+order: 8
+eyebrow: El plan · Día 8 · vie 13 nov
+title: Del bosque de *Meiji* al cruce de Shibuya
 dek: >-
-  El día se parte en dos a primera hora: uno coge el Skyliner hacia Narita y los otros tres bajan al
-  santuario. Y luego, el contraste que define Tokio: un bosque de cien mil árboles plantados a mano
+  El último día entero de los cuatro, y el contraste que define Tokio: un bosque de cien mil árboles plantados a mano
   en el centro de la ciudad y, a quince minutos andando, el cruce peatonal más transitado del
   planeta.
 duerme:
   - candeo-roppongi
 mapa:
-  slug: dia-9-yamanote
+  slug: dia-8-yamanote
   paradas:
     - { nombre: Hotel Candeo, lat: 35.6620341, lon: 139.7326404 }
     - { nombre: Meiji Jingū, hora: "08:30", zona: Harajuku, llegada: tren, lat: 35.6748417, lon: 139.6996266 }
@@ -26,38 +25,12 @@ mapa:
     - { nombre: Golden Gai, zona: Shinjuku, llegada: a-pie, lat: 35.6939905, lon: 139.7047001 }
 traslados:
   - desde: "Roppongi"
-    hasta: "Narita T1"
-    medio: "Hibiya hasta Ueno · Keisei *Skyliner*"
-    duracion: "1 h"
-    hora: "salir del hotel 08:00"
-    nota: "**Solo el que vuela.** ¥2.580 el Skyliner. El mostrador cierra a las 11:10 y el vuelo sale a las 12:10."
-  - desde: "Roppongi"
     hasta: "Harajuku"
     medio: "Hibiya hasta Ebisu · JR Yamanote"
     duracion: "20 min"
     hora: "salir 08:15"
-    nota: "Los otros tres, hacia el oeste y por el otro extremo de la misma línea."
+    nota: "Para estar en el santuario cuando aún lo barren."
 blocks:
-  - block: Amanecer
-    time: "06:30–08:00"
-    title: Donde el grupo se parte
-    body: >-
-      La despedida es en un desayuno de hotel y en una boca de metro, que es infinitamente mejor que
-      una parada de autobús en la montaña. **El vuelo sale de Narita a las 12:10** y el mostrador
-      cierra una hora antes: saliendo del hotel sobre las ocho sobra tiempo. Ver [los vuelos](#vuelos).
-
-      Ocho días, dos ciudades, un valle sin coches y un pueblo de montaña. A los otros tres les
-      quedan doce días más, y hoy los empiezan a cuatro paradas de aquí. Queda pendiente lo que no
-      cupo — que en Japón es siempre casi todo, y por eso se vuelve una quinta vez.
-    window:
-      label: Cómo se va a Narita
-      body: >-
-        Gana el **Skyliner de Keisei**: la Hibiya lleva directa a Ueno sin transbordo y allí se sube al
-        tren que hace la terminal en **36 minutos**. Sale cada veinte o cuarenta minutos desde las seis,
-        así que basta con aparecer.
-
-        Y un aviso que no es obvio: **la fianza de la tarjeta IC no se devuelve en Narita**, solo en
-        Haneda. O se devuelve antes, o la tarjeta se guarda para la próxima vez — que dura diez años.
   - block: Mañana
     time: "08:30"
     title: Meiji Jingū al abrir
@@ -71,12 +44,14 @@ blocks:
       body: >-
         **El 15 de noviembre se celebra el *shichi-go-san***, el rito en que los niños de siete, cinco
         y tres años van al santuario vestidos de gala, y Meiji Jingū es *el* sitio donde se hace en
-        Tokio. Este año el 15 cae en domingo, así que **hoy, sábado 14, es la víspera y el santuario
-        estará en su fin de semana grande**: críos de tres años con kimono y cara de circunstancias, y
-        familias con fotógrafo contratado. Mañana se verá la versión de barrio.
+        Tokio. Las familias no esperan al día exacto: van durante todo noviembre, y hoy, viernes 13,
+        es el arranque del fin de semana grande. Habrá críos de tres años con kimono y cara de
+        circunstancias, y familias con fotógrafo contratado. El sábado los tres que siguen verán la
+        versión de Kamakura, y el domingo la de barrio.
 
-        En sábado hay además **bodas sintoístas**: con suerte, una novia de *shiromuku* blanco bajo un
-        parasol rojo cruzando el patio. Ninguna de las dos cosas se reserva: solo estar allí.
+        Con suerte, además, **una boda sintoísta**: una novia de *shiromuku* blanco bajo un parasol
+        rojo cruzando el patio. Son sobre todo de fin de semana, pero las hay entre semana. Nada de
+        esto se reserva: solo estar allí.
     ver:
       - ficha: meiji-jingu
         nota: El bosque diseñado a ciento cincuenta años vista para parecer primario.
@@ -88,7 +63,7 @@ blocks:
     title: Harajuku, Omotesandō y las dos aceras
     body: >-
       Se sale del bosque y a doscientos metros está Takeshita-dōri, la calle de la moda adolescente:
-      estrecha, gritona, imposible un sábado, y verla así es justamente el punto. El antídoto está a la
+      estrecha, gritona, imposible a cualquier hora, y verla así es justamente el punto. El antídoto está a la
       vuelta: Omotesandō, la avenida donde media docena de arquitectos con Pritzker se han construido
       una tienda, y que se recorre mirando fachadas, no escaparates. Doscientos metros separan la
       cultura pop más ruidosa del país de su arquitectura más seria.
@@ -97,10 +72,10 @@ blocks:
       de Kenzō Tange en su borde. Comer cae aquí: los cuatro de abajo los trajo Alba y están en el
       mismo kilómetro. La forma sensata de elegir es mirar las colas.
     window:
-      label: Por qué en fin de semana, y dónde mirar
+      label: Dónde mirar, y qué esperar en viernes
       body: >-
-        Porque Harajuku en fin de semana **es otra cosa**: es cuando la gente se viste para venir, y
-        se concentran en el Jingū-bashi. Cada estilo tiene nombre propio y se distingue a la vista; los
+        Harajuku en fin de semana **es otra cosa**: es cuando la gente se viste para venir, y se
+        concentran en el Jingū-bashi. Hoy es viernes, así que habrá bastante menos que en sábado. Cada estilo tiene nombre propio y se distingue a la vista; los
         cuatro que vais a ver están en la ficha.
 
         Una norma, no un dato: **se pide permiso antes de fotografiar**. Van vestidos para que se les
@@ -115,7 +90,7 @@ blocks:
         lon: 139.7024123
       - nombre: Takeshita-dōri
         maps: Takeshita Street Harajuku Tokyo
-        nota: Trescientos cincuenta metros de crepes, disfraces e *idol shops*. Un sábado, el fenómeno.
+        nota: Trescientos cincuenta metros de crepes, disfraces e *idol shops*.
         lat: 35.6711612
         lon: 139.7049553
       - nombre: Omotesandō
@@ -134,7 +109,7 @@ blocks:
       - comida: menchirashi-harajuku
         nota: El udon a la carbonara, a ciento cincuenta metros. Cola casi siempre.
       - comida: udonya-shimbori
-        nota: "Udon de Fukuoka y Sanuki. El sábado solo abre a mediodía, y **solo efectivo**."
+        nota: "Udon de Fukuoka y Sanuki. Abre a mediodía y por la noche, y **solo efectivo**."
       - comida: yamacho-harajuku
         nota: Udon hirviendo en cazuela de barro, por mil yenes. Solo mediodía; el domingo cierra.
   - block: Tarde
@@ -196,11 +171,13 @@ blocks:
         nota: Wagyu sin reserva y sin cola que cuadrar, con sede en Shibuya.
       - comida: tsuta-yoyogi-uehara
         nota: El primer ramen con estrella Michelin, a dos paradas por la Chiyoda. Reserva por internet.
+      - comida: meikyoku-kissa-lion
+        nota: "El café de música clásica de 1926 en Dōgenzaka. Las butacas miran a los altavoces y no se habla."
   - block: Noche
     time: "noche"
     title: Los callejones de Shinjuku
     body: >-
-      Cena a veinte minutos de casa, en dos callejones pegados y muy distintos: **Omoide Yokochō**,
+      La última noche de los cuatro. Cena a veinte minutos de casa, en dos callejones pegados y muy distintos: **Omoide Yokochō**,
       dos pasillos de barras de seis taburetes bajo faroles rojos donde se cena [yakitori](#yakitori)
       al humo, y el laberinto de Golden Gai, doscientos bares diminutos de dos plantas, cada uno con
       su tema.
@@ -210,7 +187,7 @@ blocks:
       estafa.
 
       Y **mirad el último tren antes de la tercera copa**: es la diferencia entre veinte minutos de
-      vuelta y un taxi de cuatro o cinco mil yenes.
+      vuelta y un taxi de cuatro o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
     ver:
       - ficha: shinjuku
         nota: De dónde salen estos callejones y por qué nadie los ha demolido.
@@ -238,7 +215,7 @@ blocks:
       - comida: ramen-nagi
         nota: Ramen de sardina seca dentro del propio Golden Gai, abierto las veinticuatro horas.
       - comida: "shokudo-wata"
-        nota: "Izakaya sentados con Bib Gourmand 2026, a diez minutos. El sábado abre a las 17:30; reservad."
+        nota: "Izakaya sentados con Bib Gourmand 2026, a diez minutos. Con cuatro, reservad."
 alt:
   label: Si te desmarcas
   body: >-

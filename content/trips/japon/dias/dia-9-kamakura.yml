@@ -1,41 +1,68 @@
-slug: dia-8-kamakura
-navLabel: "Día 8 · Kamakura"
+slug: dia-9-kamakura
+navLabel: "Día 9 · Kamakura"
 trip: japon
-order: 8
-eyebrow: El plan · Día 8 · vie 13 nov
-title: Kamakura, la capital *de los guerreros*
+order: 9
+eyebrow: El plan · Día 9 · sáb 14 nov
+title: El adiós, y Kamakura, la capital *de los guerreros*
 dek: >-
-  Una hora de tren y se cambia de país. Kamakura fue la capital de Japón durante siglo y medio, la de
+  El día se parte en dos a primera hora: uno coge el Skyliner hacia Narita y los otros tres el tren
+  hacia el mar. Una hora de tren y se cambia de país. Kamakura fue la capital de Japón durante siglo y medio, la de
   los samuráis y no la de los emperadores, y hoy es un pueblo de mar con templos zen entre montañas.
   Se hace de norte a sur, cuesta abajo, y se acaba en la playa.
 duerme:
   - candeo-roppongi
 mapa:
-  slug: dia-8-kamakura
+  slug: dia-9-kamakura
   paradas:
-    - { nombre: Kita-Kamakura, hora: "08:00", zona: Kita-Kamakura, lat: 35.3371844, lon: 139.5451566 }
+    - { nombre: Kita-Kamakura, hora: "09:15", zona: Kita-Kamakura, lat: 35.3371844, lon: 139.5451566 }
     - { nombre: Engaku-ji, zona: Kita-Kamakura, llegada: a-pie, lat: 35.3379364, lon: 139.5478197 }
     - { nombre: Kenchō-ji, zona: Kita-Kamakura, llegada: a-pie, lat: 35.3324455, lon: 139.5575336 }
-    - { nombre: Tsurugaoka Hachimangū, hora: "11:00", zona: Centro, llegada: a-pie, lat: 35.3251836, lon: 139.5561787 }
+    - { nombre: Tsurugaoka Hachimangū, hora: "12:00", zona: Centro, llegada: a-pie, lat: 35.3251836, lon: 139.5561787 }
     - { nombre: Komachi-dōri, zona: Centro, llegada: a-pie, lat: 35.3207763, lon: 139.5519605 }
-    - { nombre: Daibutsu, hora: "13:30", zona: Hase, llegada: tren, lat: 35.3164986, lon: 139.5357293 }
+    - { nombre: Daibutsu, hora: "14:15", zona: Hase, llegada: tren, lat: 35.3164986, lon: 139.5357293 }
     - { nombre: Hasedera, zona: Hase, llegada: a-pie, lat: 35.3122687, lon: 139.5333092 }
-    - { nombre: Kamakura-kōkōmae, hora: "16:00", llegada: tren, lat: 35.3067209, lon: 139.5007098 }
+    - { nombre: Kamakura-kōkōmae, hora: "16:15", llegada: tren, lat: 35.3067209, lon: 139.5007098 }
 traslados:
-  - desde: "Tokio"
-    hasta: "Kamakura"
-    medio: "JR Yokosuka o Shōnan-Shinjuku"
+  - desde: "Roppongi"
+    hasta: "Narita T1"
+    medio: "Hibiya hasta Ueno · Keisei *Skyliner*"
     duracion: "1 h"
-    hora: "salir 07:30"
-    nota: "**¥940 por trayecto.** Desde Roppongi, la Hibiya deja en Ebisu y allí el Shōnan-Shinjuku va directo a Kamakura."
+    hora: "salir del hotel 08:00"
+    nota: "**Solo el que vuela.** ¥2.580 el Skyliner. El mostrador cierra a las 11:10 y el vuelo sale a las 12:10."
+  - desde: "Roppongi"
+    hasta: "Kita-Kamakura"
+    medio: "Hibiya hasta Ebisu · JR Shōnan-Shinjuku"
+    duracion: "1 h"
+    hora: "salir 08:15"
+    nota: "**Los otros tres.** ¥940 por trayecto. Desde Roppongi, la Hibiya deja en Ebisu y allí el Shōnan-Shinjuku va directo a Kamakura."
   - desde: "Kamakura"
     hasta: "Tokio"
     medio: "JR, el mismo de la ida"
     duracion: "1 h"
     hora: "al caer la tarde"
 blocks:
+  - block: Amanecer
+    time: "06:30–08:00"
+    title: Donde el grupo se parte
+    body: >-
+      La despedida es en un desayuno de hotel y en una boca de metro, que es infinitamente mejor que
+      una parada de autobús en la montaña. **El vuelo sale de Narita a las 12:10** y el mostrador
+      cierra una hora antes: saliendo del hotel sobre las ocho sobra tiempo. Ver [los vuelos](#vuelos).
+
+      Ocho días, dos ciudades, un valle sin coches y un pueblo de montaña. A los otros tres les
+      quedan doce días más, y hoy los empiezan a una hora de tren, junto al mar. Queda pendiente lo que no
+      cupo — que en Japón es siempre casi todo, y por eso se vuelve una quinta vez.
+    window:
+      label: Cómo se va a Narita
+      body: >-
+        Gana el **Skyliner de Keisei**: la Hibiya lleva directa a Ueno sin transbordo y allí se sube al
+        tren que hace la terminal en **36 minutos**. Sale cada veinte o cuarenta minutos desde las seis,
+        así que basta con aparecer.
+
+        Y un aviso que no es obvio: **la fianza de la tarjeta IC no se devuelve en Narita**, solo en
+        Haneda. O se devuelve antes, o la tarjeta se guarda para la próxima vez — que dura diez años.
   - block: Mañana
-    time: "08:00–11:00"
+    time: "09:15–12:00"
     title: Kita-Kamakura y los templos zen
     body: >-
       Se baja en la estación **anterior** a Kamakura, Kita-Kamakura, y se hace el pueblo andando hacia
@@ -48,6 +75,9 @@ blocks:
         Al revés que en Tokio, aquí no hay que madrugar por la luz sino **por el orden**: bajando
         desde Kita-Kamakura el día va cuesta abajo, se termina en la costa con el atardecer y no hay
         que volver sobre los pasos. Al revés es el mismo recorrido y una paliza.
+
+        Es **sábado**, y Kamakura es la excursión de fin de semana de medio Tokio. Los templos zen de
+        la mañana aguantan bien; Komachi-dōri a mediodía y el Enoden al atardecer van llenos.
     ver:
       - ficha: kamakura-zen
         nota: Por qué Engaku-ji reza por los mongoles, y el ginkgo del asesino del Hachimangū.
@@ -61,15 +91,13 @@ blocks:
         nota: El monasterio zen más antiguo de Japón, de 1253, con los edificios en un solo eje.
         lat: 35.3324455
         lon: 139.5575336
-    comer:
-      - comida: hachi-no-ki
-        nota: La cocina del monasterio, junto a la puerta de Kenchō-ji. Hay soba suelta a precio normal.
   - block: Mediodía
-    time: "11:00–13:30"
+    time: "12:00–14:00"
     title: Hachimangū y la calle de las croquetas
     body: >-
       El camino desemboca en Tsurugaoka Hachimangū, el santuario del clan Minamoto y el centro
-      político del Japón medieval. Bajando de vuelta, Komachi-dōri es la calle de comer de pie:
+      político del Japón medieval. Mañana es el *shichi-go-san* y hoy es la víspera: habrá críos de
+      tres, cinco y siete años vestidos de gala subiendo la escalinata con sus padres. Bajando de vuelta, Komachi-dōri es la calle de comer de pie:
       croquetas, *senbei* a la brasa, helado de boniato morado. Es turística sin disimulo y está
       muy bien.
     ver:
@@ -83,8 +111,12 @@ blocks:
     comer:
       - comida: komachi-dori
         nota: De pie y subiendo. El *shirasu* de la bahía sobre arroz, que fuera de la costa no existe.
+      - comida: aratama-katsutei
+        nota: "Tonkatsu de cerdo de raza a un minuto de la estación. Abre sin cortes de 11:00 a 22:00."
+      - comida: sundowner-zushi
+        nota: "El bocadillo de tortilla de Zushi, a una parada de JR. Solo de 11:00 a 15:00; en sábado abre."
   - block: Tarde
-    time: "13:30–16:00"
+    time: "14:00–16:15"
     title: El Gran Buda, y el templo con vistas
     body: >-
       Lo que todo el mundo viene a ver: el Daibutsu de Kōtoku-in, **once metros y medio** de bronce
@@ -109,7 +141,7 @@ blocks:
         lat: 35.3122687
         lon: 139.5333092
   - block: Atardecer
-    time: "16:00–17:30"
+    time: "16:15–17:30"
     title: El tranvía a la costa
     body: >-
       Para cerrar, el **Enoden**: un tren de una sola vía y más de cien años que sale de Kamakura, se

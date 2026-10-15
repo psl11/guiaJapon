@@ -8,7 +8,7 @@ title: Menchirashi
 navLabel: "Menchirashi"
 tipo: udon de casa, con carbonara en la carta
 area: Jingūmae 6-13-7, en un callejón de la Cat Street
-cuando: "Tokio · día 9 · sábado, hasta las 21:30"
+cuando: "Tokio · día 8 · viernes, hasta las 21:30"
 precio: "¥950 el carbonara udon (unos 6 €)"
 reserva: "No"
 colas: "Permanentes. Cuarenta y cinco minutos en hora punta"
@@ -23,8 +23,8 @@ body: >-
 
 
   Está a ciento cincuenta metros de [Henry's Burger](#henrys-burger-harajuku), en un callejón que
-  sale de la Cat Street, o sea dentro del mismo tramo del día 9. Abre de 11:30 a 21:30 salvo los
-  martes, que cierra a las 16:30; el día 9 es sábado, así que da igual.
+  sale de la Cat Street, o sea dentro del mismo tramo del día 8. Abre de 11:30 a 21:30 salvo los
+  martes, que cierra a las 16:30; el día 8 es viernes, así que da igual.
 
 
   La cola es la pega y es constante, no de fin de semana: hay gente esperando prácticamente siempre.
@@ -37,5 +37,5 @@ link:
 seenIn:
   - ref: "#udon"
     label: El udon
-  - ref: "#dia-9-yamanote"
-    label: Día 9 · Harajuku
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · Harajuku

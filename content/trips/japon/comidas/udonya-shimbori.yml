@@ -8,7 +8,7 @@ title: Udonya Shimbori
 navLabel: "Udonya Shimbori"
 tipo: udon de mezcla de Fukuoka y Sanuki
 area: Sendagaya 5-23-9, primera planta del edificio Morufo
-cuando: "Tokio · día 9 · sábado, solo comida de 11:30 a 15:30"
+cuando: "Tokio · día 8 · viernes, comida y cena"
 precio: "Sin publicar; tramo de casa de udon"
 reserva: "No"
 colas: "Sí, incluso entre semana al mediodía"
@@ -22,9 +22,9 @@ body: >-
   textura y también la espera.
 
 
-  Está en Sendagaya, a un paso de [Harajuku](#harajuku), o sea dentro del radio del día 9. Y el
+  Está en Sendagaya, a un paso de [Harajuku](#harajuku), o sea dentro del radio del día 8. Y el
   horario recorta: de martes a viernes abre a mediodía y por la noche, **el sábado solo a mediodía,
-  de 11:30 a 15:30, y domingos y lunes cierra**. El día 9 es sábado, así que hay una única ventana.
+  de 11:30 a 15:30, y domingos y lunes cierra**. El día 8 es viernes, así que abre a mediodía y por la noche.
 
 
   **Solo efectivo.** Ni tarjeta ni móvil, que en un barrio como este descoloca a mucha gente.
@@ -32,5 +32,5 @@ link:
   url: https://www.google.com/maps/search/?api=1&query=Udon%20Shimbori%20Sendagaya%20Tokyo
   label: Google Maps
 seenIn:
-  - ref: "#dia-9-yamanote"
-    label: Día 9 · Harajuku
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · Harajuku

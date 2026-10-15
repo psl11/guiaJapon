@@ -25,5 +25,7 @@ body: >-
   la grasa. En la mesa suele haber un molinillo de sésamo: se muele, se echa la salsa encima y se
   mezcla. Ese pequeño ritual es parte del asunto.
 seenIn:
+  - ref: '#aratama-katsutei'
+    label: Aratama (Kamakura)
   - ref: '#tonki'
     label: Tonki (Meguro)

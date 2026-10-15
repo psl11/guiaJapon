@@ -10,17 +10,17 @@ navLabel: "Enoshima"
 tipo: la isla del final de la línea, con torre y cuevas
 city: Kamakura
 area: Tres paradas más allá de Kamakura-kōkōmae
-cuando: "Día 8 · el atardecer, que ya se pasa en esa línea"
+cuando: "Día 9 · el atardecer, que ya se pasa en esa línea"
 dia:
-  ref: "#dia-8-kamakura"
-  label: "Día 8 · Kamakura"
+  ref: "#dia-9-kamakura"
+  label: "Día 9 · Kamakura"
 aviso: "**Las cuevas de Iwaya cierran hacia las 16:00** en estas fechas, antes de que se ponga el sol. O se va pronto o se renuncia a ellas."
 url: https://www.instagram.com/reel/DaZiOOcGX-c/
 link:
   url: https://www.japan-guide.com/e/e3117.html
   label: Guía de la isla
 body: >-
-  El día 8 ya termina montado en el Enoden mirando el mar desde el paso a nivel de Kamakura-kōkōmae,
+  El día 9 ya termina montado en el Enoden mirando el mar desde el paso a nivel de Kamakura-kōkōmae,
   con **Enoshima al fondo**. Este post propone lo evidente: seguir tres paradas más y cruzar el
   puente a la isla.
 
@@ -38,5 +38,5 @@ body: >-
   entre Kamakura y la isla, quedan la playa de **Shichirigahama**, el santuario **Goryō** y la casa de
   té **Mushinan**, todos en paradas del mismo tren.
 seenIn:
-  - ref: "#dia-8-kamakura"
+  - ref: "#dia-9-kamakura"
     label: El día que lo absorbe

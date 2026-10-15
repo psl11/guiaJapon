@@ -10,7 +10,7 @@ title: Meikyoku Kissa Lion
 navLabel: "Kissa Lion (música)"
 tipo: meikyoku kissa · café de escucha, desde 1926
 area: Shibuya · Dōgenzaka, cuesta arriba desde el cruce
-cuando: "En solitario · mar 3, al bajar de Omotesandō"
+cuando: "Día 8 · Shibuya, para una hora de silencio"
 precio: "¥600–900 (4–6 €)"
 reserva: "No"
 colas: "A veces, y se espera en silencio"
@@ -37,8 +37,8 @@ body: >-
   probablemente el sitio más silencioso de Tokio y está a tres minutos del cruce de Shibuya, que es el
   más ruidoso.
 seenIn:
-  - ref: '#solo-2-yabusame'
-    label: "Solo · mar 3"
+  - ref: '#dia-8-yamanote'
+    label: "Día 8 · Shibuya"
   - ref: '#shibuya'
     label: "Shibuya"
   - ref: '#cafe-kissaten'

@@ -1,0 +1,40 @@
+slug: aratama-katsutei
+# No está en OSM. Posición del plano de su web oficial (esquina NO del cruce de Wakamiya-ōji con la
+# calle de la salida este), anclada al nodo de OSM de ese cruce, «鎌倉駅入口» (35.3188263, 139.5519286).
+lat: 35.31893
+lon: 139.55178
+trip: japon
+part: japon
+city: Kamakura
+category: comida
+order: 40
+title: Kamakura Katsutei Aratama
+navLabel: "Aratama"
+tipo: tonkatsu de cerdo de raza, en un almacén de teja
+area: Komachi 1-5-24 · a un minuto de la salida este de la estación de Kamakura
+cuando: "Día 9 · comida, entre el Hachimangū y el Enoden"
+precio: "~¥1.500 el menú de lomo, según un artículo de hace unos años"
+reserva: "No se reserva mesa"
+colas: "Probables en sábado"
+badge: "Cerdo de Nasu y Kurobuta de Kirishima"
+fuente: alba
+quePedir: "La ***rōsu katsu*** (lomo) en menú, con arroz, sopa de miso y col, que se repiten sin pagar."
+body: >-
+  Un [tonkatsu](#tonkatsu) de los buenos en el sitio donde más falta hace: a un minuto de la
+  estación, al pie de Komachi-dōri, justo donde se cruza el día entre el santuario y el tranvía.
+  Usa **cerdo de raza** —de Nasu Kōgen y Kurobuta de Kirishima, según la prensa local— y sirve en
+  un edificio de almacén tradicional, con tejado de teja y *noren* blanco en la puerta.
+
+
+  Lo que lo hace práctico es el horario: **abre de 11:00 a 22:00 sin cerrar a media tarde** y no
+  tiene día fijo de descanso. En un sábado de Kamakura, donde las cocinas pequeñas cierran a las
+  dos, es la comida que no falla. Es la casa madre de una pequeña cadena que tiene también locales en
+  Yokohama.
+link:
+  url: "https://aratama-katsutei-souhonten.com/"
+  label: Aratama
+seenIn:
+  - ref: '#dia-9-kamakura'
+    label: "Día 9 · al mediodía"
+  - ref: '#tonkatsu'
+    label: "Tonkatsu"

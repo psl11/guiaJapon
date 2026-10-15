@@ -22,7 +22,7 @@ body: >-
 
 
   Es **una cadena**, y por una vez eso juega a favor: hay sede en [Shibuya](#shibuya), en la torre de
-  Kabukichō —o sea al lado de la noche del día 9— y en Azabudai Hills, a un paso del hotel de
+  Kabukichō —o sea al lado de la noche del día 8— y en Azabudai Hills, a un paso del hotel de
   Roppongi. Abren de once de la mañana a diez o once de la noche todos los días.
 
 
@@ -34,5 +34,5 @@ link:
   url: https://tabelog.com/en/tokyo/A1303/A130301/13264382/
   label: Ver en Tabelog (Shibuya)
 seenIn:
-  - ref: "#dia-9-yamanote"
-    label: Día 9 · Shibuya
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · Shibuya

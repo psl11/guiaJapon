@@ -8,7 +8,7 @@ title: Yonpachi Gyojō Nishi-Shinjuku
 navLabel: "Yonpachi Gyojō"
 tipo: izakaya de pescado, con bonito a la paja
 area: Nishi-Shinjuku 1-2-5, cinco minutos de la salida oeste
-cuando: "Tokio · día 9 · la noche de Shinjuku"
+cuando: "Tokio · día 8 · la noche de Shinjuku"
 precio: "Sin publicar; tramo de izakaya de pescado"
 reserva: "Recomendable el fin de semana"
 badge: "Cadena con trato directo con las lonjas"
@@ -27,11 +27,11 @@ body: >-
   vista y nadie sale a la calle a pescar clientes, que es el filtro que importa en esta zona.
 
 
-  Encaja en la noche del día 9, que ya termina en [los callejones de Shinjuku](#shinjuku). Es la
+  Encaja en la noche del día 8, que ya termina en [los callejones de Shinjuku](#shinjuku). Es la
   alternativa con mesa a picar de barra en barra.
 link:
   url: https://tabelog.com/en/tokyo/A1304/A130401/13146549/
   label: Ver en Tabelog
 seenIn:
-  - ref: "#dia-9-yamanote"
-    label: Día 9 · la noche
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · la noche

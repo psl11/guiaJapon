@@ -8,7 +8,7 @@ title: SUNDOWNER Tokyo Omelet
 navLabel: "SUNDOWNER"
 tipo: bocadillo de tortilla de cinco huevos
 area: Zushi 6-5-1, segunda planta — dos minutos de Zushi-Hayama
-cuando: "No encaja: cierra los viernes, y el día de Kamakura es viernes"
+cuando: "Día 9 · comida en Kamakura, si se desvía una parada"
 precio: "Sin publicar"
 reserva: "Muy recomendable — se llena"
 colas: "Sí"
@@ -20,19 +20,16 @@ body: >-
   Una tortilla hecha con cinco huevos, cremosa por dentro, entre dos rebanadas de pan integral
   tostado con gouda y mayonesa de la casa. Está en Zushi, a dos minutos de la estación de
   Zushi-Hayama y a trece minutos en tren de [Kamakura](#kamakura-zen), o sea razonablemente cerca del
-  día 8.
+  día 9.
 
 
-  Y aquí se acaba: **cierra lunes y viernes, y el día de Kamakura es viernes 13 de noviembre**.
-  Tampoco vale colarlo otro día, porque solo abre de once a tres y ningún otro día del viaje pasa por
-  la península de Miura.
-
-
-  Lo dejo escrito con la fecha delante para que no haya que volver a mirarlo. Si alguna vez el
-  itinerario cambia y Kamakura cae en sábado o domingo, este sitio se vuelve viable.
+  Durante meses esta ficha explicaba por qué no se iba: **cierra lunes y viernes**, y Kamakura caía
+  en viernes. En octubre de 2026 Kamakura pasó al sábado 14 y el sitio se volvió viable. Solo abre de
+  once a tres, así que es una comida y no una cena, y obliga a salir de Kamakura y volver: una parada
+  de JR hasta Zushi y unos minutos andando.
 link:
   url: https://tabelog.com/en/kanagawa/A1406/A140602/14075026/
   label: Ver en Tabelog
 seenIn:
-  - ref: "#dia-8-kamakura"
-    label: Día 8 · Kamakura
+  - ref: "#dia-9-kamakura"
+    label: Día 9 · Kamakura

@@ -8,7 +8,7 @@ title: EDW Yellow Shibuya
 navLabel: "EDW Yellow"
 tipo: omurice de tortilla babé, en un sótano
 area: Udagawachō 26-5, sótano del edificio Ikushin
-cuando: "Tokio · día 9 · abre a las 11:00"
+cuando: "Tokio · día 8 · abre a las 11:00"
 precio: "~¥2.000 (unos 12 €)"
 reserva: "No"
 colas: "Una hora en punta. Se llega veinte minutos antes de abrir o se espera"
@@ -23,7 +23,7 @@ body: >-
 
 
   El problema es de horario, no de comida. **Abre a las once y la cola pasa de la hora en punta**, y
-  el día 9 tiene Harajuku de diez a una y Shibuya de tres a cinco: la hora buena para entrar aquí
+  el día 8 tiene Harajuku de diez a una y Shibuya de tres a cinco: la hora buena para entrar aquí
   cae justo en medio de la mañana de Harajuku. O se sacrifica esa mañana, o se acepta esperar. Con
   Henry's Burger y Menchirashi a diez minutos en la misma jornada, esta es la tercera opción, no la
   primera.
@@ -34,5 +34,5 @@ link:
   url: https://www.google.com/maps/search/?api=1&query=EDW%20yellow%20Shibuya%20Udagawacho%20Tokyo
   label: Google Maps
 seenIn:
-  - ref: "#dia-9-yamanote"
-    label: Día 9 · Shibuya
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · Shibuya

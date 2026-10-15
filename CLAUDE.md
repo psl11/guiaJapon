@@ -169,8 +169,8 @@ Las reglas que salen de ahí:
 o el día de la semana: «el viernes 13», «el 14 de noviembre». Mezclarlo produjo un error real —«el
 día 13» significaba el 13 de noviembre en cinco sitios, pero el día 13 del viaje es el 18.
 
-**4.3 · Voz en segunda del plural** («vais», «conviene que»), salvo en el día 8, donde el grupo se
-parte y el «tú» es deliberado.
+**4.3 · Voz en segunda del plural** («vais», «conviene que»), salvo en los días «solo» (2-6 nov),
+que son del cuarto viajero y van en «tú».
 
 **4.4 · Enlaces internos: uno por fichero y ancla**, en la primera mención que caiga en un `body`.
 Más que eso satura.
@@ -461,9 +461,14 @@ persona**, y a cambio:
 
 - La despedida ocurre en un hotel de Tokio, no en un cruce de carreteras de montaña.
 - **Los barrios grandes de Tokio se reparten mejor.** La Yamanote —Meiji Jingū, Harajuku, Shibuya—
-  cae el **sábado 14**, que es la víspera del *shichi-go-san*: el mejor fin de semana del año para
-  estar en Meiji Jingū, y salió por casualidad. Y Tsukiji, Ginza y el día de compras se van al
+  cae el **viernes 13**, el último día de los cuatro. Y Tsukiji, Ginza y el día de compras se van al
   final (22-25), al pico de la hoja roja.
+
+**Kamakura y la Yamanote se intercambiaron en oct 2026.** El cuarto viajero hace Kamakura en sus
+días solo (miércoles 4), así que el grupo lo pasó al sábado 14, el día de la despedida, y la
+Yamanote al viernes 13, con los cuatro. De paso, Yokohama pasó al martes 3 y el día del *yabusame*
+de Meiji Jingū se borró, para que el cuarto no repitiera Meiji Jingū ni Omotesandō. Kamakura en
+sábado tiene gente, pero abre SUNDOWNER (cierra los viernes) y es la víspera del *shichi-go-san*.
 
 **Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
 Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta

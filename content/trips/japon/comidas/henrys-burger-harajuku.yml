@@ -10,7 +10,7 @@ title: Henry's Burger Harajuku
 navLabel: "Henry's Burger"
 tipo: hamburguesa aplastada de wagyu A5
 area: Jingūmae 6-12-15, entre Harajuku y Omotesandō
-cuando: "Tokio · día 9, la comida de Harajuku"
+cuando: "Tokio · día 8, la comida de Harajuku"
 precio: "¥1.000-2.000 (6-12 €)"
 reserva: "No, salvo la STEAK SLAB"
 colas: "Sí. Cinco o diez taburetes fuera y una veintena de sitios arriba"
@@ -25,7 +25,7 @@ body: >-
   aguanta la grasa. Sale por entre mil y dos mil yenes, que para lo que hay dentro es poco.
 
 
-  Está en Jingūmae 6, a un paso de la [Cat Street](#harajuku), justo en el tramo que el día 9 recorre
+  Está en Jingūmae 6, a un paso de la [Cat Street](#harajuku), justo en el tramo que el día 8 recorre
   entre las once y la una. Abre de once a ocho todos los días, así que no hay que cuadrar nada:
   quedan cinco o diez taburetes en la calle y unos veinte asientos en la planta de arriba, y se entra
   sin reserva.
@@ -38,5 +38,5 @@ link:
   url: https://tabelog.com/en/tokyo/A1306/A130601/13297491/
   label: Ver en Tabelog
 seenIn:
-  - ref: "#dia-9-yamanote"
-    label: Día 9 · Harajuku
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · Harajuku

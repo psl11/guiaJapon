@@ -17,7 +17,7 @@ mapa:
     - { nombre: Men-ya Inoichi, hora: "12:00", zona: Centro, llegada: metro, lat: 35.0013284, lon: 135.7669452 }
     - { nombre: Nishiki, zona: Centro, llegada: a-pie, lat: 35.0050244, lon: 135.7655699 }
     - { nombre: "Río Kamo, en Shijō", zona: Centro, llegada: a-pie, lat: 35.0038208, lon: 135.7715003 }
-    - { nombre: Tō-ji, hora: "15:00", llegada: metro, lat: 34.9806311, lon: 135.7477192 }
+    - { nombre: Tō-ji, hora: "19:00", llegada: metro, lat: 34.9806311, lon: 135.7477192 }
     - { nombre: Hotel androoms, hora: noche, llegada: a-pie, lat: 34.9889855, lon: 135.7571848 }
 traslados:
   - desde: "Tokio"
@@ -52,7 +52,7 @@ blocks:
         maps: "Sekigahara Battlefield"
         nota: "Entre Gifu-Hashima y Maibara: el campo de la batalla de 1600 hacia la que va *Shōgun*."
   - block: Mediodía
-    time: "12:00–15:00"
+    time: "12:00–17:00"
     title: Entender la retícula antes de andarla
     body: >-
       No se empieza por lo grande. Con la tarde entera y las maletas en camino, lo que funciona es
@@ -84,20 +84,45 @@ blocks:
         nota: Ciento veinte panes junto a Karasuma-Oike. A partir de las tres se entra sin cola.
       - comida: smart-coffee
         nota: El *kissaten* de 1932 en Teramachi, a la salida de Nishiki.
-  - block: Tarde
-    time: "15:00–17:00"
-    title: Una pagoda a diez minutos de la estación
+  - block: Cena
+    time: "17:30"
+    title: La cocina de una capital sin mar
     body: >-
-      Si queda luz, Tō-ji. Se ve desde el tren al entrar, está a un paseo de la estación y a última
-      hora el recinto se queda casi vacío. Buena manera de que el primer templo del tramo no sea uno
-      con cola.
+      Kioto está a una hora de la costa y su cocina se construyó tierra adentro: de ahí el
+      ***kaiseki***, que nació aquí de la ceremonia del té, y el tofu, que por las aguas subterráneas
+      de la ciudad tiene fama de ser el mejor del país.
+
+      Y la regla de oro para los tres días: **las casas buenas son tres o cuatro veces más baratas al
+      mediodía**, así que la alta cocina se reserva para un almuerzo y no para una cena. Hoy se cena
+      pronto, que el templo de la noche abre a las 18:00.
+    comer:
+      - comida: tai-sushi
+        nota: Barra de barrio al norte de Shijō, sin ceremonia y con cola. Se deja uno llevar.
+      - comida: kyoto-cinco-de-nakagyo
+        nota: Cinco direcciones de cena, solo como pista. Sin verificar horarios.
+  - block: Noche
+    time: "19:00–21:00"
+    title: Una pagoda a quince minutos del hotel, *iluminada*
+    body: >-
+      El Tō-ji se ve desde el tren al entrar en Kioto, y se deja para la noche. En otoño abre de
+      noche con el ***raitoappu***: los arces del recinto iluminados y la pagoda de cinco pisos
+      reflejada en el estanque. De noche se entra además al Kondō y al Kōdō, la sala de las
+      veintiuna estatuas que forman un mandala en tres dimensiones. Este año se abre también la
+      parte de atrás del altar y se puede rodear entero.
+
+      - **Fechas:** del 31 de octubre al 13 de diciembre, todas las noches.
+      - **Horario:** de 18:00 a 21:30, con última entrada a las 21:00.
+      - **Precio:** ¥1.000, sin reserva. Es una entrada aparte de la de día.
+      - **Lo que no entra:** la pagoda por dentro, que solo abre de día. De noche se mira desde
+      fuera.
+
+      Está a quince minutos andando del hotel, así que se vuelve a pie.
     window:
-      label: Mirad las aperturas nocturnas
+      label: Las otras noches con luz
       body: >-
-        A partir de mediados de noviembre los templos de Kioto montan el ***raitoappu***: abren de
-        noche e iluminan los jardines. Las fechas de 2026 ya se saben: las de Kōdai-ji y Shōren-in
-        caen dentro del [día 13](#dia-13-kioto-este), y la de Kiyomizu-dera empieza cuando ya os
-        habéis ido.
+        Las fechas de 2026 ya se saben. El castillo de Nijō es mañana, en el
+        [día 12](#dia-12-kioto-oeste). Kōdai-ji y Shōren-in caen dentro del
+        [día 13](#dia-13-kioto-este). La de Kiyomizu-dera empieza cuando ya os habéis ido.
     ver:
       - nombre: Tō-ji
         maps: Toji Temple Kyoto
@@ -107,21 +132,6 @@ blocks:
       - nombre: "Sitio de la puerta Rajōmon"
         maps: "Rajomon Gate Site Kyoto"
         nota: "Un pilar de piedra donde estuvo la puerta de *Rashōmon*, a un cuarto de hora andando del Tō-ji."
-  - block: Noche
-    time: "noche"
-    title: La cocina de una capital sin mar
-    body: >-
-      Kioto está a una hora de la costa y su cocina se construyó tierra adentro: de ahí el
-      ***kaiseki***, que nació aquí de la ceremonia del té, y el tofu, que por las aguas subterráneas
-      de la ciudad tiene fama de ser el mejor del país.
-
-      Y la regla de oro para los tres días: **las casas buenas son tres o cuatro veces más baratas al
-      mediodía**, así que la alta cocina se reserva para un almuerzo y no para una cena.
-    comer:
-      - comida: tai-sushi
-        nota: Barra de barrio al norte de Shijō, sin ceremonia y con cola. Se deja uno llevar.
-      - comida: kyoto-cinco-de-nakagyo
-        nota: Cinco direcciones de cena, solo como pista. Sin verificar horarios.
 alt:
   label: Si te desmarcas
   body: >-

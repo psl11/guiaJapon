@@ -21,6 +21,7 @@ mapa:
     - { nombre: Kinkaku-ji, hora: "14:30", zona: Noroeste, llegada: tren, lat: 35.0395293, lon: 135.7295373 }
     - { nombre: Ryōan-ji, zona: Noroeste, llegada: a-pie, lat: 35.0334630, lon: 135.7180884 }
     - { nombre: Ninna-ji, zona: Noroeste, llegada: a-pie, lat: 35.0298117, lon: 135.7141499 }
+    - { nombre: Castillo de Nijō, hora: "18:00", llegada: tren, lat: 35.0140076, lon: 135.7485369 }
 blocks:
   - block: Amanecer
     time: "07:00–09:00"
@@ -122,12 +123,34 @@ blocks:
         nota: Del año 888, con palacio imperial y pagoda. El palacio se paga aparte y merece la pena.
         lat: 35.0298117
         lon: 135.7141499
+  - block: Atardecer
+    time: "18:00–19:30"
+    title: El castillo de los Tokugawa, *encendido*
+    body: >-
+      El castillo de Nijō queda de camino al centro, y en otoño abre de noche con **NAKED meets
+      二条城**: luz, sonido y aroma, con proyecciones sobre los edificios del recinto, entre arces
+      rojos y ginkgos amarillos. La edición de 2026 gira en torno a Tokugawa Masako, la hija del
+      segundo shōgun que entró en la corte imperial y llevó a palacio la moda del *kosode*. El
+      recorrido de noche no es el de día.
+
+      - **Fechas:** del 23 de octubre al 5 de diciembre, todas las noches.
+      - **Horario:** de 18:00 a 22:00, con última entrada a las 21:00.
+      - **Precio:** ¥2.000 de lunes a jueves, o **¥1.600 comprando antes del 22 de octubre**. Es
+      martes, así que os toca la tarifa barata. La entrada de día es otra y no sirve.
+      - **Cómo se llega desde el Ninna-ji:** un taxi entre cuatro, un cuarto de hora. O un cuarto de
+      hora andando hasta Hanazono, la JR Sagano hasta Nijō, a dos paradas, y diez minutos más a pie.
+    ver:
+      - nombre: Castillo de Nijō
+        maps: Nijo Castle Kyoto
+        nota: La residencia de los Tokugawa en Kioto, de 1603, con los suelos de ruiseñor.
+        lat: 35.0140076
+        lon: 135.7485369
   - block: Noche
     time: "noche"
     title: Pontochō
     body: >-
-      De vuelta al centro, **Pontochō** es un callejón de cuatrocientos metros paralelo al río Kamo,
-      ancho como un pasillo, con farolillos y restaurantes a los dos lados. Es turístico y sigue
+      Del castillo son tres paradas de la línea Tōzai hasta Sanjō Keihan. **Pontochō** es un
+      callejón de cuatrocientos metros paralelo al río Kamo, ancho como un pasillo, con farolillos y restaurantes a los dos lados. Es turístico y sigue
       siendo bonito. Y a dos calles está Nishiki de noche, con los puestos cerrados y las persianas
       pintadas.
     ver:

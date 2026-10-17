@@ -129,7 +129,7 @@ export const DiaSchema = z.object({
     dim: z.boolean().optional(), // bloque de descanso → nodo en oro, no en momiji
     // RUTA A PIE (sep 2026): un mapa horneado con el recorrido en puntitos y un enlace a Google Maps
     // para reproducirlo. Para los paseos cortos donde «ir a X» es ambiguo —Chūō-dōri mide kilómetros
-    // y Maps la resuelve en Ginza—. Las coordenadas tienen que salir de una fuente (el hotel, OSM):
+    // y Maps la resuelve en Ginza—. Las coordenadas tienen que salir de una fuente (dirección, ficha del local, OSM):
     // nunca inventadas (regla 4.5). La imagen y el trazado los genera scripts/build-routemap.mjs.
     ruta: z.object({
       slug: z.string(), // nombre de la imagen: public/img/rutas/<slug>.webp
@@ -192,7 +192,7 @@ export const DiaSchema = z.object({
   // (se calculan de sus paradas: nada de coordenadas a ojo) y cómo se llega a cada una: a pie en
   // puntitos por las calles reales, en metro o tren en línea discontinua. Es para RECORDAR el día
   // sin releerlo, no para navegar: para eso está el enlace de Maps de cada sitio en el cuerpo.
-  // Coordenadas siempre de fuente (el hotel, OSM). Lo genera scripts/build-routemap.mjs.
+  // Coordenadas siempre de fuente (dirección geocodificada, ficha del local, OSM). Lo genera scripts/build-routemap.mjs.
   mapa: z.object({
     slug: z.string(), // public/img/rutas/<slug>.webp
     paradas: z.array(z.object({
@@ -278,8 +278,9 @@ export const ComidaSchema = z.object({
   // convenció a alguien. La sección «Recomendados» lo usa para poder volver al original.
   fuenteUrl: z.string().optional(),
   quePedir: Md.optional(), // qué pedir
-  // Posición para el mapa del día. De fuente (OSM), nunca a ojo: si no se encuentra, se deja sin
-  // ellas y el local sale en la lista del día pero no en el mapa.
+  // Posición para el mapa del día. De fuente verificable —dirección geocodificada (GSI), el pin de
+  // Google Maps o Tabelog, OSM—, nunca a ojo: si ninguna lo da con certeza, se deja sin ellas y el
+  // local sale en la lista del día pero no en el mapa. Ver CLAUDE.md §4.9.
   lat: z.number().optional(),
   lon: z.number().optional(),
   body: Md, // por qué merece la pena (+ contexto/fuente)
@@ -399,7 +400,7 @@ export const HotelSchema = z.object({
     lat: z.number().optional(),
     lon: z.number().optional(),
   })).optional(),
-  // Coordenadas VERIFICADAS (Nominatim/Overpass, contrastadas contra la dirección postal) — de
+  // Coordenadas VERIFICADAS (GSI, Nominatim/Overpass o la ficha del local, contrastadas contra la dirección postal) — de
   // ellas sale el mapa real que hornea scripts/build-stopmap.mjs. La regla 4.5 sigue en pie: no se
   // inventan. Si un alojamiento no geocodifica con certeza, se deja sin lat/lon y no sale en el mapa.
   lat: z.number().optional(),

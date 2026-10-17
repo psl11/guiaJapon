@@ -205,16 +205,29 @@ eran secciones aparte que había que descubrir: de 115 locales solo 16 salían e
 los 48 de Alba. Ahora cada bloque del día lleva dos listas **por referencia**, no copiadas:
 
 - **`ver`** — una ficha (`ficha: slug`, sale con su foto), un recomendado (`reco: slug`) o un sitio
-  sin ficha (`nombre` + `maps`, la consulta de búsqueda, + `lat/lon` de OSM si se tiene).
+  sin ficha (`nombre` + `maps`, la consulta de búsqueda, + `lat/lon` de fuente si se tiene).
 - **`comer`** — slugs de `comidas/`. La tarjeta de Gastronomía gana sola el chip «En el plan: día N».
 
 Cada una con una `nota` de UNA línea (inlineMd, sin enlaces). **El cuerpo del bloque se queda en
 lo que se hace y en qué orden**: la historia está en la ficha, el porqué del local en su tarjeta.
 Si el cuerpo repite lo que ya dice una `nota`, sobra el cuerpo.
 
-Los locales y recomendados llevan `lat/lon` **de OpenStreetMap** (Nominatim, comprobando que la
-dirección devuelta es la del local: «梅園» a secas dio uno de Yushima, no el de Asakusa). Si no está
-en OSM, se queda sin coordenadas: sale en la lista, no en el mapa. El mapa del día (`mapa`) les
+Los locales y recomendados llevan `lat/lon` **de una fuente verificable, no solo de OpenStreetMap**
+(oct 2026: la regla decía «solo OSM» y dejaba sin mapa locales con dirección exacta). Valen, de
+más a menos fiable:
+
+- **La dirección postal geocodificada** — para Japón, el buscador oficial del GSI
+  (`https://msearch.gsi.go.jp/address-search/AddressSearch?q=<dirección>`), que resuelve al número
+  de parcela (番地). La dirección sale del propio post, de la web del local o de Tabelog.
+- **Las coordenadas que publica una ficha del local**: Google Maps (el pin del sitio, no la
+  búsqueda), Tabelog o los portales que tiran de él (SavorJapan, Gurunavi) en su página de mapa.
+- **OpenStreetMap** (Nominatim), comprobando que la dirección devuelta es la del local: «梅園» a
+  secas dio uno de Yushima, no el de Asakusa.
+
+Si dos fuentes independientes coinciden (Sugari: GSI y SavorJapan a un metro), es buena. **La
+ubicación etiquetada en Instagram no vale sola**: suele ser el barrio («Karasuma, Kyoto»), no el
+local. Lo único que sigue prohibido es poner el pin a ojo. Si ninguna fuente da el sitio con
+certeza, se queda sin coordenadas: sale en la lista, no en el mapa. El mapa del día (`mapa`) les
 pone letra (A, B…) y la lista del bloque muestra la misma; lo que coincide con una parada del
 recorrido lleva el número de la parada, y lo que cae a más de 2,5 km de cualquier parada (Himeji en
 el día de Hiroshima) sale en la lista sin letra, para no estirar el mapa a cientos de kilómetros.
@@ -222,8 +235,8 @@ Tras tocar `ver`, `comer` o coordenadas, corre `node scripts/build-routemap.mjs`
 
 Aplicado a los 26 días en sep 2026: 89 de los 115 locales y 39 de los 48 de Alba salen ya en algún
 día; los nueve de Alba que no, tienen su motivo escrito en su propia ficha o chocan con el día de la
-semana. Unos cien sitios siguen sin coordenadas porque OSM no los tiene: van en la lista con la
-marca apagada. **El campo `cuando` de las comidas quedó redundante** —el chip «En el plan» sale
+semana. Unos cien sitios se quedaron sin coordenadas porque se buscaron solo en OSM: van en la lista con
+la marca apagada y se pueden completar con las otras fuentes. **El campo `cuando` de las comidas quedó redundante** —el chip «En el plan» sale
 solo— y es el que se desfasa cada vez que se renumera: al tocarlo, mejor quitarle el número de día.
 
 **4.10 · No se vuelve a ningún sitio** (decisión del grupo, sep 2026). La guía no planifica una

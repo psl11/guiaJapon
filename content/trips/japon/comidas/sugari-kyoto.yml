@@ -1,0 +1,42 @@
+slug: sugari-kyoto
+lat: 35.004242
+lon: 135.757385
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 160
+title: Wajō Ryōmen Sugari
+navLabel: "Sugari"
+tipo: ramen y tsukemen de fideo casero, diez asientos en barra
+area: Kannondō-chō 471-1, Nakagyō — a tres minutos de la estación de Karasuma
+precio: "Sin publicar; tramo de ramen de barrio"
+reserva: "No — se pide en la máquina de tiques"
+colas: "A veces, pero avanza rápido"
+badge: "Barra de diez en una machiya"
+fuente: alba
+fuenteUrl: https://www.instagram.com/reel/Dej35SbsXby/
+quePedir: "El ***tsukemen*** con el fideo de **yuzu**, que es la opción que recomienda el vídeo."
+body: >-
+  Una puerta pequeña en una casa de madera de Nakagyō y, detrás, diez asientos en barra. La carta
+  cabe en una línea: ramen, *tsukemen* y curry. Se elige el plato, el tamaño y uno de los dos
+  fideos, todos hechos en casa, y se añade algún topping. El caldo es espeso, de los que se pegan
+  al fideo.
+
+
+  Está aquí como plan B de [Men-ya Inoichi](#menya-inoichi), y no como competencia. El día 11 se
+  come por esta zona camino de Nishiki, y los dos tienen cola los días malos. Se mira cuál tiene
+  hueco y se entra en ese. Además no se parecen: Inoichi es un *dashi* de pescado transparente y
+  Sugari va por el lado contrario.
+
+
+  Abre de 11:30 a 15:00 y por la noche desde las 18:00. Las fuentes no coinciden en el día de
+  cierre: unas dicen domingo y otras no dan ninguno. El día 11 es lunes, así que no afecta.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Wajo%20Ryomen%20Sugari%20Kyoto
+  label: Google Maps
+seenIn:
+  - ref: "#dia-11-tokio-kioto"
+    label: Día 11 · llegada a Kioto
+  - ref: "#ramen"
+    label: El ramen

@@ -207,6 +207,10 @@ los 48 de Alba. Ahora cada bloque del día lleva dos listas **por referencia**, 
 - **`ver`** — una ficha (`ficha: slug`, sale con su foto), un recomendado (`reco: slug`) o un sitio
   sin ficha (`nombre` + `maps`, la consulta de búsqueda, + `lat/lon` de fuente si se tiene).
 - **`comer`** — slugs de `comidas/`. La tarjeta de Gastronomía gana sola el chip «En el plan: día N».
+  **Uno por bloque lleva `elegido: true`** (oct 2026): es el único con letra en el mapa del día, y
+  el resto sale en la lista como «alternativa», por si el elegido falla. Con todos pintados, el
+  mapa de la Yamanote pasaba de treinta puntos. Cambiar de idea es mover esa línea a otro local y
+  rehornear el mapa; `schema.spec.ts` exige exactamente un elegido por bloque con `comer`.
 
 Cada una con una `nota` de UNA línea (inlineMd, sin enlaces). **El cuerpo del bloque se queda en
 lo que se hace y en qué orden**: la historia está en la ficha, el porqué del local en su tarjeta.
@@ -235,8 +239,9 @@ Tras tocar `ver`, `comer` o coordenadas, corre `node scripts/build-routemap.mjs`
 
 Aplicado a los 26 días en sep 2026: 89 de los 115 locales y 39 de los 48 de Alba salen ya en algún
 día; los nueve de Alba que no, tienen su motivo escrito en su propia ficha o chocan con el día de la
-semana. Unos cien sitios se quedaron sin coordenadas porque se buscaron solo en OSM: van en la lista con
-la marca apagada y se pueden completar con las otras fuentes. **El campo `cuando` de las comidas quedó redundante** —el chip «En el plan» sale
+semana. En oct 2026 se completaron con Google Maps y el GSI los 64 que faltaban entre elegidos, sitios
+sueltos y recomendados con lugar. Siguen sin pin, a propósito, los que no son un punto: «la soba
+de Shinshū», la carne de Hida, el *momiji manjū* de toda una calle o los trucos sin sitio. **El campo `cuando` de las comidas quedó redundante** —el chip «En el plan» sale
 solo— y es el que se desfasa cada vez que se renumera: al tocarlo, mejor quitarle el número de día.
 
 **4.10 · No se vuelve a ningún sitio** (decisión del grupo, sep 2026). La guía no planifica una

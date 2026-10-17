@@ -197,6 +197,19 @@ describe('contenido · qué ver y dónde comer (blocks[].ver / comer)', () => {
     }
     expect(rotos, `referencias rotas:\n  ${rotos.join('\n  ')}`).toEqual([])
   })
+
+  it('cada bloque con «comer» tiene exactamente un local elegido', () => {
+    // Solo el elegido lleva letra en el mapa del día: sin él, el bloque no pinta ningún local; con
+    // dos, vuelve el mapa ilegible que motivó la regla (CLAUDE.md §4.9).
+    const mal: string[] = []
+    for (const d of docs.filter(d => d.collection === 'dia')) {
+      for (const b of (parse(d.raw)?.blocks ?? []) as { block: string, comer?: { elegido?: boolean }[] }[]) {
+        const n = (b.comer ?? []).filter(c => c.elegido).length
+        if (b.comer?.length && n !== 1) mal.push(`${d.rel} · ${b.block}: ${n} elegidos`)
+      }
+    }
+    expect(mal, `bloques sin un elegido único:\n  ${mal.join('\n  ')}`).toEqual([])
+  })
 })
 
 describe('contenido · fotos (image)', () => {

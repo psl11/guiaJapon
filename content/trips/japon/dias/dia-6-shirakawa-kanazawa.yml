@@ -55,8 +55,11 @@ blocks:
       - nombre: Mercado de Jinya-mae
         maps: Jinya-mae Morning Market Takayama
         nota: El segundo mercado, en la explanada frente al Takayama Jinya de ayer.
+        lat: 36.1396447
+        lon: 137.2582195
     comer:
       - comida: miyagawa-asaichi
+        elegido: true
         nota: El de la orilla del río, desde las siete. El *mitarashi dango* de aquí es salado, a la brasa.
   - block: Mañana
     time: "08:30–09:30"
@@ -133,6 +136,7 @@ blocks:
       de pie en los puestos del fondo y sale por una fracción de lo que costaría en Tokio.
     comer:
       - comida: omicho
+        elegido: true
         nota: Enfrente del hotel. Muchos mostradores cierran al acabarse el género, así que mejor pronto que tarde.
       - comida: "sushi-rekireki-omicho"
         nota: "Sushi de mercado sentados, con arroz de vinagre rojo. Bib Gourmand de 2016. Abre el miércoles hasta las 22:00."

@@ -55,6 +55,8 @@ blocks:
       - nombre: "Estación de Fukuyama"
         maps: "Fukuyama Station Hiroshima"
         nota: "Casi todos los Shinkansen paran aquí: el andén donde se bajan Logan y Mariko en *Lobezno inmortal*."
+        lat: 34.4892001
+        lon: 133.3613787
   - block: Mediodía
     time: "11:00–13:00"
     title: La cúpula, y el eje
@@ -124,6 +126,7 @@ blocks:
       [el okonomiyaki](#okonomiyaki)— y, si hay, ostras: noviembre es el arranque de su temporada.
     comer:
       - comida: okonomimura
+        elegido: true
         nota: Veinticinco planchas en cuatro plantas. Sentaos donde haya clientela local.
       - comida: hassho
         nota: La alternativa si se quiere una sola casa y no la lotería del puesto. Pedidlo crujiente.

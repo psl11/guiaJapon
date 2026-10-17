@@ -116,3 +116,5 @@ blocks:
       - nombre: "Estación de Yotsugi"
         maps: "Yotsugi Station Katsushika Tokyo"
         nota: "El tren de Narita pasa por aquí: la estación de *Captain Tsubasa*, en el barrio donde se crio su autor."
+        lat: 35.7318394
+        lon: 139.8349402

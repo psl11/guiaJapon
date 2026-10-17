@@ -30,13 +30,15 @@ const verItems = computed(() => (props.ver ?? []).map((v) => {
     letra: props.letras[extraKey(v)] }
 }).filter(x => !!x))
 
+// Con un elegido en el bloque, el resto se marca como alternativa: siguen ahí por si el elegido falla.
+const hayElegido = computed(() => (props.comer ?? []).some(c => c.elegido))
 const comerItems = computed(() => (props.comer ?? []).map((c) => {
   const x = idx.comidas.value.get(c.comida)
   if (!x) return null
   const mapsUrl = maps([x.title, x.area, x.city].filter(Boolean).join(' '))
   // Si el enlace del local ya es su búsqueda de Maps, no se pinta dos veces.
   const link = x.link && !x.link.url.includes('google.com/maps') ? x.link : undefined
-  return { ...x, nota: c.nota, mapsUrl, link, letra: props.letras[`comida:${c.comida}`] }
+  return { ...x, nota: c.nota, mapsUrl, link, alt: hayElegido.value && !c.elegido, letra: props.letras[`comida:${c.comida}`] }
 }).filter(x => !!x))
 </script>
 
@@ -131,7 +133,10 @@ const comerItems = computed(() => (props.comer ?? []).map((c) => {
             <a
               class="pick-title"
               :href="'#' + c.slug"
-            >{{ c.title }}</a>
+            >{{ c.title }}<span
+              v-if="c.alt"
+              class="pick-kind"
+            > · alternativa</span></a>
             <span class="pick-sub">
               <span v-html="inlineMd(c.tipo)" /><template v-if="c.precio"> · <span v-html="inlineMd(c.precio)" /></template>
             </span>

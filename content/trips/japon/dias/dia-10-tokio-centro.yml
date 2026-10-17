@@ -99,9 +99,13 @@ blocks:
       - nombre: "Sede del Yomiuri Shimbun"
         maps: "Yomiuri Shimbun Building Otemachi"
         nota: "El periódico de verdad detrás del de *Tokyo Vice*, a un paseo de la tumba de Masakado."
+        lat: 35.6871605
+        lon: 139.7641658
       - nombre: "Jefatura de la Policía Metropolitana"
         maps: "Tokyo Metropolitan Police Department Headquarters Sakuradamon"
         nota: "Frente a la puerta Sakurada, al final de Kōkyo Gaien: la policía de *Tokyo Vice*."
+        lat: 35.6771484
+        lon: 139.7523024
   - block: Mediodía
     time: "12:30–15:00"
     title: Marunouchi, «dentro del círculo»
@@ -138,11 +142,16 @@ blocks:
       - nombre: "Lápida de William Adams"
         maps: "William Adams Residence Site Nihonbashi Muromachi"
         nota: "Donde vivió el inglés del que sale el Blackthorne de *Shōgun*. Una piedra entre dos edificios, en la Anjin-dōri."
+        lat: 35.6852915
+        lon: 139.7757308
       - nombre: "Monumento a Jan Joosten"
         maps: "Jan Joosten Monument Yaesu Tokyo"
         nota: "El holandés que dio nombre a Yaesu, compañero de barco de Adams, en la avenida Yaesu."
+        lat: 35.6793984
+        lon: 139.7714212
     comer:
       - comida: onigiri-konga-nihonbashi
+        elegido: true
         nota: Onigiri para llevar en el Takashimaya de Nihonbashi. En domingo, confirmad a qué hora abre.
   - block: Tarde
     time: "15:00–18:00"
@@ -182,6 +191,7 @@ blocks:
         lon: 139.7133962
     comer:
       - comida: shodai-ebisu
+        elegido: true
         nota: El curry udon con mousse de patata. Abre seguido hasta las 21:30; cola casi siempre.
       - comida: pizza-marumo-ebisu
         nota: Napolitana con bonito y kombu, a una manzana. Turno de cena desde las 17:00, con reserva.
@@ -208,8 +218,11 @@ blocks:
       - nombre: "Santuario Hikawa de Azabu"
         maps: "Azabu Hikawa Shrine Tokyo"
         nota: "El santuario de Rei: Azabu-Jūban es el barrio de *Sailor Moon*."
+        lat: 35.6528917
+        lon: 139.7310419
     comer:
       - comida: azabu-kuroshari
+        elegido: true
         nota: Omakase de arroz teñido de negro con carbón, en Azabu-Jūban. Turnos de 18:00 y 20:00.
       - comida: sushiya-ebisu-azabu
         nota: Seis barras de sushi del barrio, como pista sin comprobar. Siempre con reserva.

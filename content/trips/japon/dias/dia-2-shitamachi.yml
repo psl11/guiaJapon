@@ -48,6 +48,7 @@ blocks:
         lon: 139.7974977
     comer:
       - comida: onigiri-yadoroku
+        elegido: true
         nota: Para el hambre rara de después del templo. Abre temprano y está a cinco minutos.
   - block: Mañana
     time: "08:00–11:00"
@@ -78,6 +79,7 @@ blocks:
         nota: Tallarse los palillos, en el camino entre el templo y Kappabashi.
     comer:
       - comida: nakamise
+        elegido: true
         nota: El *ningyō-yaki* recién hecho. Los puestos abren hacia las 9:30.
       - comida: asakusa-ruta-callejera
         nota: Melonpan, anguila y croqueta en una sola manzana. Abren a las 10:00.
@@ -110,8 +112,11 @@ blocks:
       - nombre: "Estatua de Saigō Takamori"
         maps: "Saigo Takamori Statue Ueno Park"
         nota: "El hombre del que sale el Katsumoto de *El último samurái*, con su perro, a la entrada sur del parque."
+        lat: 35.7118642
+        lon: 139.7741678
     comer:
       - comida: asakusa-hirayama
+        elegido: true
         nota: Si se come antes de salir de Asakusa. Soba *juwari* con Bib Gourmand, y hay que reservar.
       - comida: "tompachitei"
         nota: "Si se come ya en Ueno. Tonkatsu en manteca con Bib Gourmand, a cinco minutos del parque. Abre a las 11:30."
@@ -148,6 +153,7 @@ blocks:
         lon: 139.7606625
     comer:
       - comida: kayaba-coffee
+        elegido: true
         nota: El *tamago sando* de un *kissaten* de 1938, en la esquina del cementerio.
   - block: Noche
     time: "noche"
@@ -157,6 +163,7 @@ blocks:
       opciones a un paso del hotel, y a la cama pronto, que mañana también amanece temprano.
     comer:
       - comida: ameyoko
+        elegido: true
         nota: Barras al aire libre bajo las vías desde las cinco. Se cena de pie y picando.
       - comida: mimasuya
         nota: La izakaya más antigua de Tokio, de 1905, una parada al sur. Mejor reservar.

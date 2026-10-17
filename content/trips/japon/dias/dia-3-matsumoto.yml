@@ -51,6 +51,8 @@ blocks:
       - nombre: "Lago Suwa"
         maps: "Lake Suwa Nagano"
         nota: "Por la ventanilla izquierda: el lago que se suele dar como modelo del de Itomori, en *Your Name*."
+        lat: 36.0492617
+        lon: 138.0853146
   - block: Mediodía
     time: "12:30–15:00"
     title: Matsumoto-jō, uno de los doce que quedan
@@ -108,6 +110,7 @@ blocks:
         hay varios a cinco minutos. Esta tarde, no mañana a las seis.
     comer:
       - comida: soba-matsumoto
+        elegido: true
         nota: Las casas de soba de Nakamachi, a un paso del ryokan. Las buenas cierran cuando se acaba la masa.
 alt:
   label: Si te desmarcas

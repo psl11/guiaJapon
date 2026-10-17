@@ -92,6 +92,7 @@ blocks:
         lon: 139.5689009
     comer:
       - comida: komachi-dori
+        elegido: true
         nota: La calle de comer de pie, entre el santuario y la estación. Entre semana se anda.
       - comida: aratama-katsutei
         nota: "Si prefieres sentarte: tonkatsu al pie de Komachi-dōri, abierto todo el día."

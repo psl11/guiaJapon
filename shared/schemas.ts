@@ -145,7 +145,8 @@ export const DiaSchema = z.object({
     //  · `ver` — una ficha (`ficha`), un recomendado (`reco`) o un sitio suelto sin ficha (`nombre`
     //    + `maps`, la consulta de búsqueda de Google Maps: regla 4.5). `nota` es UNA línea, con
     //    `inlineMd`: sin enlaces (trampa 3.2). Coordenadas solo para el sitio suelto, y de fuente.
-    //  · `comer` — slugs de `comidas/`, con una `nota` opcional de por qué en este bloque.
+    //  · `comer` — slugs de `comidas/`, con una `nota` opcional de por qué en este bloque y un
+    //    `elegido` en el local decidido.
     ver: z.array(z.object({
       ficha: z.string().optional(),
       reco: z.string().optional(),
@@ -158,6 +159,10 @@ export const DiaSchema = z.object({
     comer: z.array(z.object({
       comida: z.string(),
       nota: z.string().optional(),
+      // El local por el que se ha decidido el grupo en este bloque: el único que lleva letra en el
+      // mapa del día. El resto se queda en la lista como alternativa. Uno por bloque (lo vigila
+      // schema.spec.ts); cambiar de idea es mover esta línea a otro local y rehornear el mapa.
+      elegido: z.boolean().optional(),
     })).optional(),
   })),
   // ── TRASLADOS — el nodo de conexión (ago 2026) ─────────────────────────────

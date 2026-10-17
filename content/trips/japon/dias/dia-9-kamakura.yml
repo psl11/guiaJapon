@@ -110,6 +110,7 @@ blocks:
         nota: Palillos con el nombre grabado al momento, en la calle comercial.
     comer:
       - comida: komachi-dori
+        elegido: true
         nota: De pie y subiendo. El *shirasu* de la bahía sobre arroz, que fuera de la costa no existe.
       - comida: aratama-katsutei
         nota: "Tonkatsu de cerdo de raza a un minuto de la estación. Abre sin cortes de 11:00 a 22:00."
@@ -158,6 +159,7 @@ blocks:
         nota: "Tres paradas más de Enoden, si sobra luz. Ojo: las cuevas de Iwaya cierran hacia las 16:00."
     comer:
       - comida: "yaesu-unagi-hashimoto"
+        elegido: true
         nota: "La cena de vuelta, si se coge la Yokosuka, que para en Tokio. Bib Gourmand 2026; cierra a las 20:00."
 alt:
   label: Si te desmarcas

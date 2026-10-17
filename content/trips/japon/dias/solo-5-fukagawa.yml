@@ -63,6 +63,7 @@ blocks:
         lon: 139.7977865
     comer:
       - comida: koffee-mameya-kakeru
+        elegido: true
         nota: "El curso de café, con reserva por web: un grano, cuatro extracciones. A un paso del jardín."
       - comida: mikawa-zezankyo
         nota: "Tempura con estrella en Monzen-Nakachō, **nueve sitios** y reserva con semanas. El capricho del viaje en solitario."
@@ -106,11 +107,16 @@ blocks:
       - nombre: Valle de Todoroki
         maps: Todoroki Valley Setagaya
         nota: El único barranco de Tokio, en Setagaya, al otro lado de la ciudad.
+        lat: 35.6051987
+        lon: 139.6456467
       - nombre: "Puente Hijiribashi"
         maps: "Hijiribashi Bridge Ochanomizu"
         nota: "La primera escena de *Tokyo Vice*, sobre el río Kanda, a un paseo de Jinbōchō."
+        lat: 35.6997231
+        lon: 139.7655029
     comer:
       - comida: sabouru
+        elegido: true
         nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."
       - comida: glitch-coffee
         nota: El café de tueste claro del barrio, entre las librerías.

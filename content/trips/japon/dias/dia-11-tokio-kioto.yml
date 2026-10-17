@@ -46,11 +46,14 @@ blocks:
         semana, y entonces el hotel de vuelta a Tokio **no es este**.
     comer:
       - comida: kurasu-kyoto
+        elegido: true
         nota: El primer café al bajar del tren, a dos minutos de la estación y con la maleta al lado.
     ver:
       - nombre: "Sekigahara, por la ventanilla"
         maps: "Sekigahara Battlefield"
         nota: "Entre Gifu-Hashima y Maibara: el campo de la batalla de 1600 hacia la que va *Shōgun*."
+        lat: 35.3704513
+        lon: 136.4616148
   - block: Mediodía
     time: "12:00–17:00"
     title: Entender la retícula antes de andarla
@@ -77,6 +80,7 @@ blocks:
         lon: 135.7583695
     comer:
       - comida: menya-inoichi
+        elegido: true
         nota: Ramen de *dashi* de pescado con Bib Gourmand nueve guías seguidas, por menos de diez euros.
       - comida: sugari-kyoto
         nota: El plan B si Inoichi tiene cola. *Tsukemen* de caldo espeso cerca de Karasuma, y se entra donde haya hueco.
@@ -99,6 +103,7 @@ blocks:
       pronto, que el templo de la noche abre a las 18:00.
     comer:
       - comida: tai-sushi
+        elegido: true
         nota: Barra de barrio al norte de Shijō, sin ceremonia y con cola. Se deja uno llevar.
       - comida: kyoto-cinco-de-nakagyo
         nota: Cinco direcciones de cena, solo como pista. Sin verificar horarios.
@@ -134,6 +139,8 @@ blocks:
       - nombre: "Sitio de la puerta Rajōmon"
         maps: "Rajomon Gate Site Kyoto"
         nota: "Un pilar de piedra donde estuvo la puerta de *Rashōmon*, a un cuarto de hora andando del Tō-ji."
+        lat: 34.9793228
+        lon: 135.7426316
 alt:
   label: Si te desmarcas
   body: >-

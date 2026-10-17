@@ -106,4 +106,5 @@ blocks:
         lon: 139.4887762
     comer:
       - comida: "nakiryu"
+        elegido: true
         nota: "La cena de vuelta: Ōtsuka es una parada después de Ikebukuro. El *tantanmen* que fue estrella Michelin, desde las 18:00."

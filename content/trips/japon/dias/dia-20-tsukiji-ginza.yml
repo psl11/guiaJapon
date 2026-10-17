@@ -54,6 +54,7 @@ blocks:
         lon: 139.7721277
     comer:
       - comida: unitora
+        elegido: true
         nota: El cuenco de erizo de varias procedencias, en veinte minutos. Abre con el mercado.
       - comida: shutoku-ganso
         nota: "Barra *edomae* con el pescado de esa madrugada. Abre a las 11:00: hay que estirar."
@@ -90,11 +91,16 @@ blocks:
       - nombre: "Reloj de Wakō"
         maps: "Wako Clock Tower Ginza"
         nota: "La torre del cruce de 4-chōme que Godzilla arranca en 1954, y que vuelve a caer en *Godzilla Minus One*."
+        lat: 35.6715697
+        lon: 139.7650504
       - nombre: "Plaza de Godzilla de Hibiya"
         maps: "Hibiya Godzilla Square"
         nota: "La estatua de tres metros de *Shin Godzilla*, a diez minutos de Ginza."
+        lat: 35.6736606
+        lon: 139.7603621
     comer:
       - comida: tonkatsu-marushichi-ginza
+        elegido: true
         nota: El *katsudon* con el filete a la brasa. Sin reserva y última comanda a las 14:30.
       - comida: ginza-hachigo
         nota: Un solo ramen, setenta cuencos al día y seis asientos. Se reserva en TableCheck.
@@ -140,6 +146,8 @@ blocks:
       - nombre: Avenida de ginkgos de Gaien
         maps: Meiji Jingu Gaien Ginkgo Avenue Tokyo
         nota: Ciento cuarenta y seis árboles en trescientos metros, en su punto hacia el 25.
+        lat: 35.6727172
+        lon: 139.7205745
   - block: Noche
     time: "noche"
     title: Luz artificial
@@ -156,6 +164,7 @@ blocks:
         lon: 139.7434178
     comer:
       - comida: shogun-burger
+        elegido: true
         nota: Tiene sede en Azabudai Hills, el mismo complejo de teamLab. Abre hasta las diez.
       - comida: ore-no-dashi
         nota: "*Oden* por piezas y de pie en Ginza 7-chōme, a precio de barra."

@@ -63,12 +63,18 @@ blocks:
       - nombre: Pagoda Chūreitō
         maps: Chureito Pagoda Fujiyoshida
         nota: "Es de **1963** y es un monumento a los caídos, no un templo antiguo: alguien eligió muy bien el sitio."
+        lat: 35.5012626
+        lon: 138.8013852
       - nombre: Lago Kawaguchi
         maps: Lake Kawaguchi Fujikawaguchiko
         nota: El reflejo del Fuji solo sale sin viento, y eso pasa sobre todo a primera hora.
+        lat: 35.5170946
+        lon: 138.7517787
       - nombre: Iyashi no Sato
         maps: Saiko Iyashi no Sato Nenba
         nota: Aldea de casas de paja reconstruida como museo tras el desprendimiento de 1966.
+        lat: 35.5050023
+        lon: 138.6614772
   - block: Mediodía
     time: "13:00–14:30"
     title: Comer en el pueblo
@@ -91,15 +97,23 @@ blocks:
       - nombre: Cueva de hielo de Narusawa
         maps: Narusawa Ice Cave
         nota: Un tubo de lava cerca de cero grados todo el año, que sirvió de nevera natural.
+        lat: 35.4749276
+        lon: 138.6669694
       - nombre: Cueva de viento de Fugaku
         maps: Fugaku Wind Cave
         nota: Otro tubo de la misma colada, donde se guardaban semillas y huevos de gusano de seda.
+        lat: 35.4776963
+        lon: 138.6578277
       - nombre: Aokigahara
         maps: Aokigahara Forest
         nota: "Bosque sobre roca: las raíces no pueden hundirse y crecen a lo ancho. Se recorre por pasarela."
+        lat: 35.4752183
+        lon: 138.6405014
       - nombre: Cataratas Shiraito
         maps: Shiraito Falls Fujinomiya
         nota: Ciento cincuenta metros de ancho de agua que sale de la pared de roca, no de un río.
+        lat: 35.3128675
+        lon: 138.587441
   - block: Noche
     time: "18:30–20:30"
     title: La vuelta

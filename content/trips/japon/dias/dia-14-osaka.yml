@@ -89,11 +89,16 @@ blocks:
       - nombre: "Catedral de Tamatsukuri"
         maps: "Osaka Cathedral of St. Mary Tamatsukuri"
         nota: "La estatua de Hosokawa Gracia, de la que sale la Mariko de *Shōgun*, donde estuvo su casa. A diez minutos de Morinomiya."
+        lat: 34.678595
+        lon: 135.5269686
       - nombre: "Tsuruhashi"
         maps: "Tsuruhashi Korea Town Osaka"
         nota: "El Ikaino de *Pachinko*, hoy barrio coreano, a dos paradas por la línea circular."
+        lat: 34.6652458
+        lon: 135.530318
     comer:
       - comida: getto-osaka
+        elegido: true
         nota: "*Dashimaki* con la yema líquida, a siete minutos del castillo. Abre a las 11:30."
       - comida: tokito-karahori
         nota: Bocadillo de wagyu en Karahori, de camino a Namba. Pocas unidades al día y solo efectivo.
@@ -108,6 +113,7 @@ blocks:
       hay cuatro manzanas de clásicos de calle.
     comer:
       - comida: kuromon
+        elegido: true
         nota: Seiscientos metros de puestos con plancha y brasa. Muchos cierran a las cinco.
       - comida: chiyomatsu-osaka
         nota: "*Katsudon* de cinco centímetros de un exluchador de sumo. Pedid el normal, no el especial."
@@ -130,6 +136,7 @@ blocks:
         lon: 135.5063098
     comer:
       - comida: daruma-kushikatsu
+        elegido: true
         nota: La casa de 1929 que fijó la regla de la salsa. El repollo sirve de cuchara.
       - comida: dekasan-osaka
         nota: El *sando* de entraña, para comer andando camino de Shinsekai. Cierra a las 16:00.
@@ -170,6 +177,7 @@ blocks:
         nota: Los captadores de traje negro. Un restaurante bueno no sale a la calle a pescar clientes.
     comer:
       - comida: odoridako-dotonbori
+        elegido: true
         nota: Takoyaki con un pulpito entero por bola, en el propio canal. Mejor con sal de roca.
       - comida: mizuno
         nota: Okonomiyaki con Bib Gourmand desde 1945, ligado con ñame. Hay cola y va rápida.

@@ -112,12 +112,16 @@ function extrasDe(dia) {
       const src = v.reco ? recos.get(v.reco) : v
       if (v.ficha || src?.lat == null) continue
       const key = v.reco ? `reco:${v.reco}` : `ver:${v.nombre}`
-      out.set(key, { key, tipo: 'ver', nombre: src.title ?? v.nombre, lat: src.lat, lon: src.lon })
+      out.set(key, { key, tipo: 'ver', nombre: src.title ?? v.nombre, lat: src.lat, lon: src.lon, pin: true })
     }
+    // De comer, solo el elegido del bloque lleva letra: con todas las alternativas el mapa de un día
+    // de Tokio pasaba de treinta puntos. Las demás aún toman el número si coinciden con una parada.
     for (const c of b.comer ?? []) {
       const src = comidas.get(c.comida)
       if (src?.lat == null) continue
-      out.set(`comida:${c.comida}`, { key: `comida:${c.comida}`, tipo: 'comer', nombre: src.title, lat: src.lat, lon: src.lon })
+      const key = `comida:${c.comida}`
+      if (out.get(key)?.pin) continue
+      out.set(key, { key, tipo: 'comer', nombre: src.title, lat: src.lat, lon: src.lon, pin: !!c.elegido })
     }
   }
   return [...out.values()]
@@ -141,7 +145,7 @@ for (const f of readdirSync(DIAS).filter(f => f.endsWith('.yml'))) {
     const i = dia.mapa.paradas.reduce((m, p, j) => cerca(p, e) && (m < 0 || dist(p, e) < dist(dia.mapa.paradas[m], e)) ? j : m, -1)
     if (i >= 0) enParada[e.key] = i === 0 ? 'S' : String(i)
   }
-  mapas.push({ ...dia.mapa, extras: todos.filter(e => !(e.key in enParada)), enParada })
+  mapas.push({ ...dia.mapa, extras: todos.filter(e => e.pin && !(e.key in enParada)), enParada })
 }
 if (!existsSync(IMG_DIR)) mkdirSync(IMG_DIR, { recursive: true })
 

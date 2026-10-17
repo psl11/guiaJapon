@@ -70,6 +70,7 @@ blocks:
         lon: 135.7792488
     comer:
       - comida: arabica-higashiyama
+        elegido: true
         nota: El café con la pagoda en el ventanal. Hay cola siempre y avanza en diez minutos.
   - block: Mediodía
     time: "11:30–14:00"
@@ -91,6 +92,7 @@ blocks:
         lon: 135.7835389
     comer:
       - comida: ramen-nishiki-kyoto
+        elegido: true
         nota: Ramen de caldo de besugo. Entrando a las doce en punto, sin cola.
   - block: Tarde
     time: "14:00–17:00"
@@ -122,6 +124,7 @@ blocks:
         lon: 135.7745018
     comer:
       - comida: kagizen-yoshifusa
+        elegido: true
         nota: "El *kuzukiri* de una confitería de 1726, en Shijō: no se puede llevar."
       - comida: k36-rooftop
         nota: La azotea sobre los tejados de Higashiyama para el atardecer. Reservar con días.
@@ -153,6 +156,7 @@ blocks:
         lon: 135.7833999
     comer:
       - comida: nandaimon-nishiki
+        elegido: true
         nota: Wagyu a la plancha junto a Nishiki, sin cortar el servicio. Última comanda a las 20:00.
       - comida: maruman-kyoto
         nota: Barra de sushi de un matrimonio en Shijō, abierta hasta la una. Avisar antes.

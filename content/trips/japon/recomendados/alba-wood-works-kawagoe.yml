@@ -1,4 +1,6 @@
 slug: alba-wood-works-kawagoe
+lat: 35.923126
+lon: 139.483566
 trip: japon
 order: 3
 fuente: alba
@@ -7,7 +9,7 @@ title: Hacerse los palillos a mano en Kawagoe
 navLabel: "Palillos de Kawagoe"
 tipo: taller de treinta o cuarenta minutos
 city: Kawagoe
-area: Saiwaichō 1-4-3, Kawagoe (Saitama)
+area: Saiwaichō 14-3, Kawagoe (Saitama)
 cuando: "Jueves 5 de noviembre · abre a las 12:30"
 dia:
   ref: "#solo-4-kawagoe"

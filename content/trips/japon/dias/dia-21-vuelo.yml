@@ -44,6 +44,7 @@ blocks:
         lon: 139.7586742
     comer:
       - comida: onigiri-konga-nihonbashi
+        elegido: true
         nota: "*Onigiri* grandes para el avión, en el Takashimaya de Nihonbashi, parada de la línea del aeropuerto. Hoy abre a las 11:00."
       - comida: "yaesu-unagi-hashimoto"
         nota: "La última comida de verdad: *unajū* con Bib Gourmand 2026, a un paseo de Nihonbashi. De 11:00 a 13:30."
@@ -60,6 +61,8 @@ blocks:
       - nombre: Edo Kōji, Terminal 3
         maps: Edo Koji Haneda Airport Terminal 3
         nota: Una calle de Edo con puestos y farolillos en la cuarta planta, y la terraza de los aviones.
+        lat: 35.5452071
+        lon: 139.7692639
     window:
       label: Antes de pasar el control
       body: >-

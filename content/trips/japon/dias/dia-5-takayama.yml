@@ -83,6 +83,7 @@ blocks:
       euros. Se come de pie, con la sake de las destilerías de al lado.
     comer:
       - comida: hida-gyu
+        elegido: true
         nota: La brocheta de los puestos de Sanmachi, o sentados, el *hōba-yaki* sobre hoja de magnolia.
   - block: Tarde
     time: "14:00–17:00"
@@ -121,6 +122,7 @@ blocks:
       [Shirakawa-gō](#shirakawa-go) sale a las ocho y media.
     comer:
       - comida: otafuku-takayama
+        elegido: true
         nota: Barra de sushi y *kappō* en la calle de tabernas. Solo cenas desde las 17:30; el martes abre. Reserva el hotel.
 alt:
   label: Si te desmarcas

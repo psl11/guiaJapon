@@ -76,6 +76,7 @@ blocks:
         lon: 136.6582097
     comer:
       - comida: higashi-chaya-te
+        elegido: true
         nota: Matcha y *wagashi* dentro de una antigua casa de geishas, al acabar el barrio.
   - block: Mediodía
     time: "12:00–14:00"
@@ -92,6 +93,7 @@ blocks:
         lon: 136.6491024
     comer:
       - comida: omicho
+        elegido: true
         nota: "*Kaisendon* en las barras del fondo, y el cangrejo de las nieves recién abierta la veda."
       - comida: "sushi-rekireki-omicho"
         nota: "Si no se fue anoche: la barra de sushi del mercado, de 11:30 a 14:00. Pedid el rollo de *nodoguro*."
@@ -117,9 +119,13 @@ blocks:
       - nombre: "Ippodo Shin-Marunouchi"
         maps: "Ippodo Tea Shin-Marunouchi Store Tokyo"
         nota: "El matcha de los cuatro: sótano del Shin-Marunouchi, salida Marunouchi. Hasta las 21:00, una lata por persona."
+        lat: 35.6826912
+        lon: 139.763924
       - nombre: "Tokyo Character Street"
         maps: "Tokyo Character Street Tokyo Station"
         nota: "Treinta tiendas de personajes en el sótano de la salida Yaesu: Ghibli, Pokémon y la Jump Shop de *One Piece*."
+        lat: 35.6820335
+        lon: 139.7686549
   - block: Noche
     time: "noche"
     title: Volver a una ciudad que ya se conoce
@@ -140,6 +146,7 @@ blocks:
         lon: 139.7235945
     comer:
       - comida: shogun-burger
+        elegido: true
         nota: Wagyu sin reserva en la sede de Azabudai Hills, a un paso del hotel.
       - comida: toufuya-ukai
         nota: Si el viaje va a tener una cena cara, esta, al pie de la Torre de Tokio. Con reserva.

@@ -50,6 +50,8 @@ blocks:
       - nombre: "Kasukabe, desde el Spacia"
         maps: "Kasukabe Station Saitama"
         nota: "El tren para en la ciudad de *Shin-chan*, donde la familia Nohara está empadronada desde 2004."
+        lat: 35.9798696
+        lon: 139.7523384
   - block: Mediodía
     time: "09:30–13:00"
     title: Convertir a un hombre en dios
@@ -97,9 +99,13 @@ blocks:
       - nombre: Irohazaka
         maps: Irohazaka Winding Road Nikko
         nota: Cuarenta y ocho curvas de horquilla, una por sílaba del viejo silabario.
+        lat: 36.7464645
+        lon: 139.5140414
       - nombre: Cascada de Kegon
         maps: Kegon Falls Nikko
         nota: Noventa y siete metros de caída junto al lago Chūzenji, con ascensor hasta el pie.
+        lat: 36.738056
+        lon: 139.5025
       - ficha: momiji
         nota: Por qué el color baja por la ladera, y por qué Nikkō no se adelantó al día 9.
   - block: Noche
@@ -112,8 +118,11 @@ blocks:
       - nombre: Hoppy-dōri
         maps: Hoppy Street Asakusa Tokyo
         nota: Croquetas y bares al aire libre, a diez minutos de la estación de Asakusa.
+        lat: 35.7139938
+        lon: 139.7941552
     comer:
       - comida: "sugita-asakusa"
+        elegido: true
         nota: "Tonkatsu con Bib Gourmand desde 2019, una parada al sur. Última comanda a las 20:15."
 alt:
   label: Si te desmarcas

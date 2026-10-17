@@ -58,6 +58,8 @@ blocks:
       - nombre: Meiji Jingū Gyoen
         maps: Meiji Jingu Gyoen Tokyo
         nota: El jardín de pago dentro del recinto. En noviembre no va casi nadie.
+        lat: 35.6739613
+        lon: 139.7004851
   - block: Mañana
     time: "10:00–13:00"
     title: Harajuku, Omotesandō y las dos aceras
@@ -105,6 +107,7 @@ blocks:
         lon: 139.6997785
     comer:
       - comida: henrys-burger-harajuku
+        elegido: true
         nota: Wagyu A5 aplastado a la plancha, sin reserva. Abre todos los días de once a ocho.
       - comida: menchirashi-harajuku
         nota: El udon a la carbonara, a ciento cincuenta metros. Cola casi siempre.
@@ -159,11 +162,16 @@ blocks:
       - nombre: Nonbei Yokochō
         maps: Nonbei Yokocho Shibuya Tokyo
         nota: Barras minúsculas de posguerra junto a las vías, a cincuenta metros del cruce.
+        lat: 35.6599499
+        lon: 139.701533
       - nombre: "Karaoke-kan de Udagawachō"
         maps: "Karaoke Kan Shibuya Udagawacho"
         nota: "El karaoke de *Lost in Translation*. Las salas 601 y 602 se pueden reservar."
+        lat: 35.6608934
+        lon: 139.6981704
     comer:
       - comida: edw-yellow-shibuya
+        elegido: true
         nota: El *omurice* que se abre en la mesa, en Udagawachō. Solo pago electrónico.
       - comida: chatei-hatou
         nota: Café de manga de franela a dos calles del cruce, donde el ruido baja de golpe.
@@ -206,13 +214,18 @@ blocks:
       - nombre: "Cabeza de Godzilla"
         maps: "Godzilla Head Shinjuku Kabukicho"
         nota: "Sobre el cine Tōhō de Kabukichō, de camino a Golden Gai. Su calle sale en *Tokyo Vice*."
+        lat: 35.6950521
+        lon: 139.7019117
       - nombre: "Escalera del santuario Suga"
         maps: "Suga Shrine Yotsuya Tokyo"
         nota: "El final de *Your Name*, a tres paradas por la Marunouchi. Para antes de cenar."
+        lat: 35.6852851
+        lon: 139.7224783
     comer:
       - comida: yonpachi-shinjuku
         nota: "La alternativa con mesa: *izakaya* de pescado con bonito quemado a la paja."
       - comida: ramen-nagi
+        elegido: true
         nota: Ramen de sardina seca dentro del propio Golden Gai, abierto las veinticuatro horas.
       - comida: "shokudo-wata"
         nota: "Izakaya sentados con Bib Gourmand 2026, a diez minutos. Con cuatro, reservad."

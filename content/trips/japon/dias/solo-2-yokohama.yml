@@ -100,6 +100,8 @@ blocks:
       - nombre: "Mirador de Minato-no-Mieru-Oka"
         maps: "Harbor View Park Yokohama"
         nota: "El puerto de *La colina de las amapolas*, de Ghibli, desde el barrio de Yamate."
+        lat: 35.4405924
+        lon: 139.654746
   - block: Media tarde
     time: "15:00–16:00"
     title: Chigusa, el primer jazz kissa de Japón
@@ -114,6 +116,7 @@ blocks:
         [Kawagoe](#solo-4-kawagoe), que no cierra ningún día, salen las dos cosas.
     comer:
       - comida: chigusa
+        elegido: true
         nota: Café solo, de cara a los altavoces. Si pides disco, antes de que empiece la cara.
   - block: Atardecer
     time: "16:00–18:00"

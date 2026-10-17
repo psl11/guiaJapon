@@ -85,6 +85,7 @@ blocks:
         nota: Mil doscientos discípulos del Buda tallados por aficionados en los ochenta. Cierra los miércoles.
     comer:
       - comida: shigetsu
+        elegido: true
         nota: "*Shōjin ryōri* dentro del Tenryū-ji, mirando al jardín. Solo a mediodía."
   - block: Mediodía
     time: "12:00–14:30"
@@ -95,6 +96,7 @@ blocks:
       hacerlo comiendo, o coger un taxi entre cuatro, que sale a cuenta.
     comer:
       - comida: itsukichaya-arashiyama
+        elegido: true
         nota: "*Obanzai* en la isla del río, frente al Togetsukyō. Solo con reserva por internet y en efectivo."
       - comida: odai-sushi-kyoto
         nota: "*Omakase* sin cartel ni carta en una casa de Saga. Siete asientos, solo efectivo."
@@ -161,6 +163,7 @@ blocks:
         lon: 135.7712126
     comer:
       - comida: gansan-pontocho
+        elegido: true
         nota: Yakiniku de ternera de Matsusaka con reservados al río. Solo cena, y hay que reservar.
       - comida: bees-knees
         nota: La coctelería de Kioto en Asia's 50 Best, detrás de una puerta sin rótulo.

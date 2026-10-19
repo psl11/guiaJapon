@@ -6,10 +6,10 @@ order: 103
 eyebrow: En solitario · mié 4 nov
 title: Una casa de 1919, un ramen de seis asientos y la estación *encendida*
 dek: >-
-  Hoy comes con tu familia en Ginza, y el día se arma alrededor de esa mesa. Por la mañana, el rincón
-  de Daikanyama al que ellos vuelven cada otoño; por la tarde, el museo que te recomiendan, a quince
-  minutos andando del restaurante, y la azotea desde la que se ve la estación de Tokio al anochecer.
-  Todo en la misma línea de metro. Antes de nada, la mudanza.
+  Hoy el día es con tu familia, y se arma alrededor de una mesa en Ginza a la una, que es la hora a
+  la que pueden. Por la mañana, Daikanyama y la casa Asakura; por la tarde, el museo que te
+  recomiendan, a quince minutos andando del restaurante, y la azotea desde la que se ve la estación
+  de Tokio al anochecer. Todo en la misma línea de metro. Antes de nada, la mudanza.
 duerme:
   - super-hotel-premier-akihabara
 traslados:
@@ -29,7 +29,7 @@ traslados:
     hasta: "Ginza"
     medio: "Metro Hibiya, directo"
     duracion: "~20 min"
-    hora: "salir 12:00"
+    hora: "salir 12:30"
   - desde: "Tokio"
     hasta: "Akihabara"
     medio: "JR Yamanote o Keihin-Tōhoku"
@@ -37,7 +37,7 @@ traslados:
     hora: "por la noche"
 blocks:
   - block: Mañana
-    time: "10:00–12:00"
+    time: "10:00–12:30"
     title: La casa Asakura, y Daikanyama alrededor
     body: >-
       Se empieza por la **antigua casa Asakura**, a la hora en que abre. La levantó en 1919 Asakura
@@ -67,10 +67,10 @@ blocks:
         maps: Daikanyama T-Site
         nota: La librería de Tsutaya, en tres pabellones unidos por un pasillo de revistas.
   - block: Mediodía
-    time: "12:30–14:30"
+    time: "13:00–15:00"
     title: Comer en Ginza, con la familia
     body: >-
-      La Hibiya vuelve directa a Ginza en veinte minutos. Lo que tu familia quiere intentar es
+      La Hibiya vuelve directa a Ginza en veinte minutos, para estar a la una. Lo que tu familia quiere intentar es
       **Hachigō**: un solo plato, seis asientos y setenta cuencos al día. Si no hay sitio, ellos tienen
       su plan B, un tempura rápido que conocen, y a cinco minutos queda también el de la guía, Shinamen
       Hashigo.
@@ -83,7 +83,7 @@ blocks:
         Hachigō reserva solo por TableCheck, con ¥500 de gestión por persona, y **abre cada sábado a
         las 9:00 de Japón los turnos de martes a domingo de la semana siguiente**. Para el miércoles 4,
         eso es el **sábado 31 de octubre a la 1:00** hora peninsular. Con seis taburetes en barra, un
-        grupo solo se sienta junto si coge varios sitios del mismo turno. Cierra los lunes.
+        grupo solo se sienta junto si coge varios sitios del mismo turno: el de las 13:00. Cierra los lunes.
     ver:
       - ficha: ginza
         nota: Por qué el barrio se llama como una casa de la moneda.

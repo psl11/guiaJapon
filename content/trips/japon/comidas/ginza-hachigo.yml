@@ -32,10 +32,12 @@ body: >-
   Desde finales de 2023 **se reserva por internet** en TableCheck, con quinientos yenes de gestión por
   persona. Eso ha eliminado la cola, que era el motivo por el que casi nadie entraba.
 link:
-  url: https://www.tablecheck.com/en/shops/ginza-hachigo/reserve
+  url: https://www.tablecheck.com/en/shops/ginza-hachigou/reserve
   label: Reservar
 seenIn:
   - ref: "#ramen"
     label: El ramen
   - ref: "#dia-20-tsukiji-ginza"
     label: Día 20 · Ginza
+  - ref: "#solo-3-ginza"
+    label: Solo · mié 4 · Ginza

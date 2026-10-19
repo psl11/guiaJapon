@@ -14,8 +14,8 @@ body: >-
   La segunda mitad de los días en solitario cambia de barrio a propósito: **acerca al grupo**. El
   hotel del día 6 está en Akihabara, así que estas dos noches se duermen ya en el mismo distrito y el
   relevo del viernes deja de ser un traslado. La mudanza se hace el miércoles a primera hora, antes
-  de [Yokohama](#solo-3-yokohama): la maleta se queda en recepción y el Keihin-Tōhoku sale de
-  Akihabara directo hacia Negishi.
+  de [Daikanyama y Ginza](#solo-3-ginza): la maleta se queda en recepción y la línea Hibiya, que
+  para en Akihabara, lleva directo a los dos sitios.
 
 
   Y mantiene lo que importa: **agua termal natural**, la llamada ***Oku-Yugawara no Yu*** —traída de
@@ -41,8 +41,8 @@ link:
   url: "https://www.google.com/maps/search/?api=1&query=Super+Hotel+Premier+Akihabara+Kanda+Sudacho"
   label: Ver en el mapa
 seenIn:
-  - ref: '#solo-3-yokohama'
-    label: Solo · mié 4 · Yokohama
+  - ref: '#solo-3-ginza'
+    label: Solo · mié 4 · Ginza
   - ref: '#solo-4-kawagoe'
     label: Solo · jue 5 · Kawagoe
   - ref: '#solo-5-fukagawa'

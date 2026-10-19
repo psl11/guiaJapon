@@ -491,11 +491,18 @@ viernes) y es la víspera del *shichi-go-san*.
 **Y el Kamakura del cuarto es otro, y va el martes 3** (oct 2026). Lo hace con su familia de Tokio
 el Día de la Cultura, festivo, y por la ruta que ellos proponen: los tres templos del este
 (Sugimoto-dera, Hōkoku-ji, Jōmyō-ji), el Buda y la puesta de sol en Shichirigahama. No repite el
-recorrido del grupo, y por eso el día 9 no remite a él. Yokohama pasó al **miércoles 4** (Chigusa solo cierra los jueves),
-y la mudanza al Super Hotel se hace esa mañana antes de salir. **El día
-`solo-2-kamakura` no tiene `mapa`**: no había red hacia OSM al escribirlo y Sugimoto-dera,
-Jōmyō-ji y Shichirigahama están sin coordenadas. Cuando se puedan sacar, añádelos con su `mapa` y
-corre `node scripts/build-routemap.mjs`.
+recorrido del grupo, y por eso el día 9 no remite a él.
+
+**Yokohama se cayó del plan del cuarto** (oct 2026). El miércoles 4 come con la misma familia en
+Ginza, y el día (`solo-3-ginza`) se armó con sus recomendaciones: la antigua casa Asakura en
+Daikanyama, Hachigō y el Intermediatheque con la azotea de KITTE, todo sobre la línea Hibiya. Se
+descartaron también Nikkō y el Fuji, porque ya ha ido varias veces. El criterio para sus días
+solos es que **es su quinta visita**: nada de lo obvio y poca naturaleza, que ya tiene la de los
+Alpes con el grupo. De Yokohama solo queda Chigusa como plan de noche opcional, y la renuncia está
+contada en el `alt` del día. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
+`mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
+Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
+`mapa` y corre `node scripts/build-routemap.mjs`.
 
 **Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
 Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta

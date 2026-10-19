@@ -88,13 +88,7 @@ blocks:
       La tarde es puro comodín, y el mejor uso está a un paseo de Akihabara: **Jinbōchō**, el barrio de
       las librerías de viejo, con [su ficha](#jimbocho) y su hilera de kissaten.
 
-      Si prefieres otra cosa, la que recomienda la familia de Tokio: el **Intermediatheque**, en el
-      edificio KITTE, frente a la estación de Tokio. Es gratis y, en sus palabras, «no hay ni un
-      turista». Los viernes cierra a las 20:00, así que se puede apurar la luz y subir después a la
-      azotea del mismo edificio, el **KITTE Garden**, a ver de noche la estación de ladrillo iluminada
-      y las vías entrando por debajo. Queda tiempo para estar en el hotel cuando lleguen los otros tres.
-
-      Y si te apetece más aire libre, el **valle de Todoroki**, al otro lado de la ciudad.
+      Si te apetece más aire libre, el **valle de Todoroki**, al otro lado de la ciudad.
     window:
       label: O nada de esto
       body: >-
@@ -107,11 +101,6 @@ blocks:
         nota: Ciento treinta librerías de viejo. Casi todo cierra los domingos; hoy es viernes.
         lat: 35.6953570
         lon: 139.7597837
-      - ficha: marunouchi
-        nota: "El Intermediatheque: la colección decimonónica de la Universidad de Tokio, gratis, sobre la estación."
-      - nombre: KITTE Garden
-        maps: KITTE Garden Marunouchi
-        nota: "La azotea de la sexta planta de KITTE, gratis: la estación de Tokio iluminada a tus pies."
       - nombre: Valle de Todoroki
         maps: Todoroki Valley Setagaya
         nota: El único barranco de Tokio, en Setagaya, al otro lado de la ciudad.
@@ -128,8 +117,6 @@ blocks:
         nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."
       - comida: glitch-coffee
         nota: El café de tueste claro del barrio, entre las librerías.
-      - comida: "ginza-hachigo"
-        nota: "El ramen que fue estrella en 2023, a ~¥1.500. Turnos de 12:30 a 14:30 en TableCheck, o sin reserva de 11:00 a 12:30."
   - block: Noche
     time: "21:30"
     title: Llegan los otros tres

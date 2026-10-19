@@ -21,8 +21,9 @@ body: >-
   **La logística sale mejor de lo esperado para estas dos noches.** Desde Narita hay **un solo tren**:
   el **Keisei Access Express** enlaza con la línea Asakusa y llega **directo a Shimbashi** en unos 70
   minutos por ~¥1.400 — más barato que el Skyliner y sin arrastrar la maleta por ningún transbordo. Y
-  para el día de [Yokohama](#solo-2-yokohama), Shimbashi es la mejor base de Tokio: **Tōkaidō directo,
-  veinticinco minutos**, bastante mejor que desde el norte de la ciudad.
+  para el día de [Kamakura](#solo-2-kamakura), Shimbashi es la mejor base de Tokio: **línea Yokosuka
+  directa, unos cincuenta y cinco minutos**, sin transbordo y bastante mejor que desde el norte de la
+  ciudad.
 estaciones:
   - nombre: Shimbashi
     lineas: JR Yamanote · Keihin-Tōhoku · Tōkaidō · Yokosuka · Ginza · Toei Asakusa · Yurikamome
@@ -33,5 +34,5 @@ link:
 seenIn:
   - ref: '#solo-1-narita'
     label: Solo · lun 2 · llegada
-  - ref: '#solo-2-yokohama'
-    label: Solo · mar 3 · Yokohama
+  - ref: '#solo-2-kamakura'
+    label: Solo · mar 3 · Kamakura

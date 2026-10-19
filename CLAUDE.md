@@ -483,10 +483,19 @@ persona**, y a cambio:
   final (22-25), al pico de la hoja roja.
 
 **Kamakura y la Yamanote se intercambiaron en oct 2026.** El cuarto viajero hace Kamakura en sus
-días solo (miércoles 4), así que el grupo lo pasó al sábado 14, el día de la despedida, y la
-Yamanote al viernes 13, con los cuatro. De paso, Yokohama pasó al martes 3 y el día del *yabusame*
-de Meiji Jingū se borró, para que el cuarto no repitiera Meiji Jingū ni Omotesandō. Kamakura en
-sábado tiene gente, pero abre SUNDOWNER (cierra los viernes) y es la víspera del *shichi-go-san*.
+días solo, así que el grupo lo pasó al sábado 14, el día de la despedida, y la Yamanote al viernes
+13, con los cuatro. El día del *yabusame* de Meiji Jingū se borró, para que el cuarto no repitiera
+Meiji Jingū ni Omotesandō. Kamakura en sábado tiene gente, pero abre SUNDOWNER (cierra los
+viernes) y es la víspera del *shichi-go-san*.
+
+**Y el Kamakura del cuarto es otro, y va el martes 3** (oct 2026). Lo hace con su familia de Tokio
+el Día de la Cultura, festivo, y por la ruta que ellos proponen: los tres templos del este
+(Sugimoto-dera, Hōkoku-ji, Jōmyō-ji), el Buda y la puesta de sol en Shichirigahama. No repite el
+recorrido del grupo, y por eso el día 9 no remite a él. Yokohama pasó al **miércoles 4** (Chigusa solo cierra los jueves),
+y la mudanza al Super Hotel se hace esa mañana antes de salir. **El día
+`solo-2-kamakura` no tiene `mapa`**: no había red hacia OSM al escribirlo y Sugimoto-dera,
+Jōmyō-ji y Shichirigahama están sin coordenadas. Cuando se puedan sacar, añádelos con su `mapa` y
+corre `node scripts/build-routemap.mjs`.
 
 **Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
 Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta

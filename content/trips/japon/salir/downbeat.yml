@@ -7,7 +7,7 @@ title: Downbeat
 navLabel: "Downbeat"
 tipo: jazz kissa de 1956 · sótano de Noge
 area: Noge, Naka-ku · a un paseo de Kannai
-cuando: "Solo · martes 3, para cerrar el día de Yokohama"
+cuando: "Solo · miércoles 4, para cerrar el día de Yokohama"
 precio: "Consumición desde ~¥700"
 reserva: "No"
 body: >-
@@ -31,5 +31,5 @@ link:
 seenIn:
   - ref: '#chigusa'
     label: "Chigusa, el de 1933"
-  - ref: '#solo-2-yokohama'
-    label: "Solo · martes 3"
+  - ref: '#solo-3-yokohama'
+    label: "Solo · miércoles 4"

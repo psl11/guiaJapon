@@ -1,18 +1,18 @@
-slug: solo-2-yokohama
-navLabel: "Solo · mar 3 · Yokohama"
+slug: solo-3-yokohama
+navLabel: "Solo · mié 4 · Yokohama"
 trip: japon
 tramo: solo
-order: 102
-eyebrow: En solitario · mar 3 nov · festivo
+order: 103
+eyebrow: En solitario · mié 4 nov
 title: Kioto en Yokohama, y el puerto *por donde entró todo*
 dek: >-
   Yokohama tiene fama de centro comercial junto al mar, y esa parte se puede saltar entera. Lo que
   hay que hacer aquí son dos cosas: un jardín donde un magnate de la seda coleccionó edificios
   históricos de medio Japón, y el muelle por el que el país dejó de estar cerrado.
 duerme:
-  - candeo-shimbashi
+  - super-hotel-premier-akihabara
 mapa:
-  slug: solo-2-yokohama
+  slug: solo-3-yokohama
   paradas:
     - { nombre: Estación de Negishi, lat: 35.4156485, lon: 139.6350416 }
     - { nombre: Sankeien, hora: "09:00", llegada: tren, lat: 35.4171400, lon: 139.6593804 }
@@ -23,10 +23,16 @@ mapa:
     - { nombre: Ōsanbashi, hora: "16:00", llegada: a-pie, lat: 35.4499770, lon: 139.6461070 }
 traslados:
   - desde: "Shimbashi"
+    hasta: "Akihabara"
+    medio: "JR Yamanote"
+    duracion: "~10 min"
+    hora: "salir 07:30"
+    nota: "**Primero, la mudanza.** Se deja el Candeo y la maleta se queda en la recepción del Super Hotel, que no da la habitación hasta las 15:00."
+  - desde: "Akihabara"
     hasta: "Negishi"
     medio: "JR Keihin-Tōhoku, directo"
-    duracion: "~45 min"
-    hora: "salir 08:30"
+    duracion: "~50 min"
+    hora: "salir 08:00"
     nota: "Desde Negishi, autobús (~10 min) hasta Honmoku Sannotani."
   - desde: "Sankeien"
     hasta: "Motomachi-Chūkagai"
@@ -48,12 +54,9 @@ blocks:
     window:
       label: Aviso honesto sobre las hojas
       body: >-
-        El kōyō de Sankeien **pica de mediados de noviembre a mediados de diciembre**: el 3 llegas **dos
+        El kōyō de Sankeien **pica de mediados de noviembre a mediados de diciembre**: el 4 llegas **dos
         semanas pronto**, con verde y algún arce adelantado. Lo que hace el jardín son los edificios.
         Abre a las **09:00** y la mejor luz es esa primera hora, con niebla sobre el estanque.
-
-        Hoy es **festivo**, el Día de la Cultura: el jardín a primera hora aguanta, pero Chūkagai a
-        mediodía irá lleno de familias.
     ver:
       - nombre: Sankeien
         maps: Sankeien Garden Yokohama
@@ -129,8 +132,8 @@ blocks:
       label: Ventana óptima
       body: >-
         **La media hora anterior y la posterior a la puesta de sol**, hacia las 16:40: la madera con el
-        sol bajo y luego el azul con la ciudad encendida. Después, vuelta a **Shimbashi** (~30 min) y
-        segunda noche en el [Candeo](#candeo-shimbashi).
+        sol bajo y luego el azul con la ciudad encendida. Después, vuelta a **Akihabara** (~45 min) y
+        primera noche en el [Super Hotel Premier](#super-hotel-premier-akihabara) y su onsen.
     ver:
       - nombre: Terminal de Ōsanbashi
         maps: Osanbashi Yokohama International Passenger Terminal

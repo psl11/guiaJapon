@@ -113,7 +113,7 @@ blocks:
       - comida: "ginza-haru-chan-ramen"
         nota: "Ramen de sal con Bib Gourmand 2026, en 3-chōme. Sin reserva y abierto de corrido."
   - block: Tarde
-    time: "14:00–16:30"
+    time: "14:00–17:15"
     title: Un jardín de agua salada, y el kilómetro cero
     body: >-
       Diez minutos andando desde Ginza hacia el mar está Hama-rikyū, el antiguo coto de caza de los
@@ -124,6 +124,9 @@ blocks:
       De vuelta hacia el norte, quince minutos, se cierra el paseo en Nihonbashi, el puente del que se
       medían las distancias del [Tōkaidō](#kioto) que bajasteis en tren, y que hoy vive humillado bajo
       una autopista de hormigón levantada para los Juegos del 64.
+
+      Para ir a teamLab se vuelve a Ginza, porque la Hibiya va directa a Kamiyachō. A las cinco abre
+      allí una ventanilla de *katsu sando*: un sándwich a medias entre tres, y al metro.
     window:
       label: Por fin, el momiji de la ciudad
       body: >-
@@ -148,6 +151,10 @@ blocks:
         nota: Ciento cuarenta y seis árboles en trescientos metros, en su punto hacia el 25.
         lat: 35.6727172
         lon: 139.7205745
+    comer:
+      - comida: ginza-sand
+        elegido: true
+        nota: "*Katsu sando* para llevar, sin sillas. Abre a las 17:00 entre semana: no antes."
   - block: Noche
     time: "noche"
     title: Luz artificial

@@ -1,0 +1,36 @@
+slug: ginza-sand
+lat: 35.669773
+lon: 139.762115
+trip: japon
+part: japon
+city: Tokio
+category: street-food
+order: 161
+title: Ginza Sand
+navLabel: "Ginza Sand"
+tipo: katsu sando para llevar, sin una sola silla
+area: Ginza 7-6-4, a cinco minutos del metro de Ginza
+cuando: "Entre semana abre a las 17:00; los sábados, a mediodía"
+precio: "¥1.100-1.300 el sándwich"
+reserva: "No hace falta: se pide en la ventanilla"
+colas: "Se hace al momento: cuenta un cuarto de hora de espera"
+badge: "Tabelog 3,53"
+fuente: alba
+quePedir: "Uno de **cerdo con sal** (*shio katsu*) y uno de **tortilla rebozada** (*tamago katsu*), y a medias entre tres."
+body: >-
+  Una ventanilla de *katsu sando* —filete rebozado entre dos rebanadas de pan de molde sin corteza—
+  en una bocacalle de Ginza 7-chōme. No tiene ni una silla: se pide, se espera mientras fríen y se
+  lleva en su caja. La carta es corta y gira en torno al rebozado: cerdo con sal o con salsa, carne
+  picada, anguila, tortilla y una croqueta de maíz.
+
+
+  El horario es de bar, no de cafetería. **Entre semana no abre hasta las cinco de la tarde** y
+  sigue de madrugada; los sábados abre a mediodía y cierra los domingos y festivos. El día 20, que
+  es miércoles, cae justo al volver de Nihonbashi y antes de bajar al metro de Ginza camino de
+  teamLab. No es una comida: es un sándwich a medias para seguir andando.
+link:
+  url: https://tabelog.com/en/tokyo/A1301/A130101/13231045/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · la tarde

@@ -7,7 +7,7 @@ title: Milk Hall
 navLabel: "Milk Hall"
 tipo: jazz kissa · cafetería-anticuario
 area: 2-3-8 Komachi · en los callejones al oeste de Komachi-dōri, Kamakura
-cuando: "Media tarde del día 9, al bajar de los templos"
+cuando: "Media tarde del día 9, al bajar de los templos · y el martes 3, para el que va antes"
 precio: "Café ~¥700 · algo de comer, ~¥1.500"
 reserva: "No"
 body: >-
@@ -27,3 +27,5 @@ link:
 seenIn:
   - ref: '#dia-9-kamakura'
     label: "Día 9 · al bajar"
+  - ref: '#solo-2-kamakura'
+    label: "Solo · mar 3 · después de comer"

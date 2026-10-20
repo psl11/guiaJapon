@@ -59,6 +59,13 @@ blocks:
       A diez minutos andando está Kappabashi, la calle de los cuchillos y la vajilla. No se vuelve
       en el viaje: si algo gusta, se compra hoy, y lo que pese viaja por
       [takkyūbin](#takkyubin) hasta el último hotel.
+
+      Y hoy, sábado 7, es el **primer día del gallo** del año. Un cuarto de hora al norte de
+      Kappabashi, el santuario Ōtori celebra su *tori no ichi*, el mercado de los ***kumade***: rastrillos
+      de bambú cargados de amuletos que los comerciantes compran para «rastrillar» la suerte del año
+      siguiente. Cuando se cierra una venta, el puesto entero da palmas a coro. Dura las veinticuatro
+      horas, así que a media mañana ya está en marcha. Se recorre la calle de puestos y se vuelve, sin
+      hacer la cola para rezar, que hoy es larga.
     window:
       label: Por qué las dos visitas
       body: >-
@@ -77,6 +84,12 @@ blocks:
         lon: 139.7888894
       - reco: alba-zen-craft-asakusa
         nota: Tallarse los palillos, en el camino entre el templo y Kappabashi.
+      - nombre: Sumida Riverwalk
+        maps: Sumida River Walk Asakusa
+        nota: "La pasarela sobre el río junto al puente del tren, la de *Rental Family*. A cinco minutos del templo."
+      - nombre: "Tori no ichi del santuario Ōtori"
+        maps: "Otori Shrine Asakusa Tori no Ichi"
+        nota: "Solo hoy y el 19: el mercado de los rastrillos de la suerte, abierto las 24 horas."
     comer:
       - comida: nakamise
         elegido: true

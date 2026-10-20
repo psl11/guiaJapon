@@ -7,13 +7,12 @@ title: Downbeat
 navLabel: "Downbeat"
 tipo: jazz kissa de 1956 · sótano de Noge
 area: Noge, Naka-ku · a un paseo de Kannai
-cuando: "Solo · martes 3, para cerrar el día de Yokohama"
+cuando: "Solo · miércoles 4, si la noche acaba en Noge"
 precio: "Consumición desde ~¥700"
 reserva: "No"
 body: >-
-  **La otra mitad del día de Yokohama, y la que cae de noche.** Por la tarde estáis en
-  [**Chigusa**](#chigusa), el jazz kissa **de 1933**; esto abrió en **1956** y es de los más antiguos
-  que siguen funcionando. Los dos a diez minutos andando.
+  **La pareja de [Chigusa](#chigusa)**, el jazz kissa **de 1933**: esto abrió en **1956** y es de
+  los más antiguos que siguen funcionando. Los dos están a diez minutos andando, en Noge.
 
   Y juntos cuentan la historia entera, porque **Yokohama es donde entró el jazz en Japón**. Chigusa lo
   hizo antes de la guerra, con discos importados que costaban un sueldo. Downbeat nació después, en el
@@ -31,5 +30,5 @@ link:
 seenIn:
   - ref: '#chigusa'
     label: "Chigusa, el de 1933"
-  - ref: '#solo-2-yokohama'
-    label: "Solo · martes 3"
+  - ref: '#solo-3-ginza'
+    label: "Solo · miércoles 4"

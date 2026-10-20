@@ -21,12 +21,24 @@ mapa:
     - { nombre: "Cambio de hotel, al Resol", hora: "12:30", llegada: metro, lat: 35.6967393, lon: 139.7739276 }
     - { nombre: "Jinbōchō y Sabouru", hora: tarde, zona: Jinbōchō, llegada: a-pie, lat: 35.6955733, lon: 139.7586758 }
 traslados:
+  - desde: "Iwamotochō"
+    hasta: "Morishita"
+    medio: "Toei Shinjuku, directo"
+    duracion: "~10 min"
+    hora: "salir 08:30"
+    nota: "Antes, el *check-out*: la maleta se queda en la recepción del Super Hotel hasta mediodía. De Morishita al jardín, una parada de Ōedo o quince minutos andando."
   - desde: "Kanda-Sudachō"
     hasta: "Akihabara (hotel del grupo)"
     medio: "A pie"
     duracion: "~10 min"
     hora: "a mediodía, con la maleta"
     nota: "El relevo más fácil del viaje: se deja el Super Hotel Premier y se entra en el hotel del grupo **andando**, sin coger nada."
+  - desde: "Akihabara"
+    hasta: "Haneda T3"
+    medio: "JR Yamanote + monorraíl"
+    duracion: "~35 min"
+    hora: "salir 19:00"
+    nota: "Transbordo en Hamamatsuchō. El vuelo aterriza a las 19:50 y salen de aduanas hacia las 20:45: sobra margen."
 blocks:
   - block: Mañana
     time: "09:00–12:00"
@@ -39,8 +51,8 @@ blocks:
     window:
       label: Por qué hoy
       body: >-
-        Porque es lo contrario de todo lo que viene después: veinte días de once mudanzas, trenes con
-        hora y un grupo que coordinar, frente a un barrio de canales donde no hay nada que coger. Y
+        Porque es lo contrario de todo lo que viene después: una semana de cambiar de cama casi cada
+        noche, trenes con hora y un grupo que coordinar, frente a un barrio de canales donde no hay nada que coger. Y
         porque **cierra el hilo literario** que la guía lleva abierto desde
         [los libros](#japon-cine-libros): mañana empieza el viaje que Bashō haría al revés.
     ver:
@@ -64,7 +76,7 @@ blocks:
     comer:
       - comida: koffee-mameya-kakeru
         elegido: true
-        nota: "El curso de café, con reserva por web: un grano, cuatro extracciones. A un paso del jardín."
+        nota: "El curso de café, con reserva por web: un grano, cuatro extracciones. Abre a las 11:00: coge el primer turno, y a las 12:30 al hotel."
       - comida: mikawa-zezankyo
         nota: "Tempura con estrella en Monzen-Nakachō, **nueve sitios** y reserva con semanas. El capricho del viaje en solitario."
   - block: Mediodía
@@ -88,12 +100,11 @@ blocks:
       La tarde es puro comodín, y el mejor uso está a un paseo de Akihabara: **Jinbōchō**, el barrio de
       las librerías de viejo, con [su ficha](#jimbocho) y su hilera de kissaten.
 
-      Si prefieres otra cosa, dos que tampoco hará el grupo: el **Intermediatheque** de Marunouchi, o el
-      **valle de Todoroki**.
+      Si te apetece más aire libre, el **valle de Todoroki**, al otro lado de la ciudad.
     window:
       label: O nada de esto
       body: >-
-        Hoy también es legítimo no hacer nada. Llevas cuatro días andando y mañana empiezan veintiuno más
+        Hoy también es legítimo no hacer nada. Llevas cuatro días andando y mañana empiezan ocho más,
         con tres personas que acaban de bajarse de un vuelo de veinte horas. **Guardar fuerzas es una
         opción con argumento.**
     ver:
@@ -102,8 +113,6 @@ blocks:
         nota: Ciento treinta librerías de viejo. Casi todo cierra los domingos; hoy es viernes.
         lat: 35.6953570
         lon: 139.7597837
-      - ficha: marunouchi
-        nota: "El Intermediatheque: la colección decimonónica de la Universidad de Tokio, gratis, sobre la estación."
       - nombre: Valle de Todoroki
         maps: Todoroki Valley Setagaya
         nota: El único barranco de Tokio, en Setagaya, al otro lado de la ciudad.
@@ -120,17 +129,26 @@ blocks:
         nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."
       - comida: glitch-coffee
         nota: El café de tueste claro del barrio, entre las librerías.
-      - comida: "ginza-hachigo"
-        nota: "El ramen que fue estrella en 2023, a ~¥1.500. Turnos de 12:30 a 14:30 en TableCheck, o sin reserva de 11:00 a 12:30."
   - block: Noche
-    time: "21:30"
-    title: Llegan los otros tres
+    time: "19:00–21:30"
+    title: A Haneda, a por los otros tres
     body: >-
-      El **CA 421** aterriza en **Haneda a las 19:50** y, con el traslado, están en la habitación sobre
-      las **21:30**, molidos, con ocho husos encima y sin cenar. A partir de aquí manda
-      [el Día 1](#dia-1-vuelo) y esta sección se acaba.
+      El **CA 421** aterriza en **Haneda a las 19:50**, y vas a buscarlos. Llegadas internacionales,
+      en la Terminal 3: entre inmigración y maletas, saldrán hacia las nueve menos cuarto, molidos,
+      con ocho husos encima y sin cenar. Si llegas con tiempo, en la cuarta planta de la misma terminal
+      hay una réplica de una calle de Edo y una terraza desde la que se ven despegar los aviones.
+
+      Llévate la segunda copia del Zelda, que es el primer regalo del viaje. La vuelta la llevas tú,
+      que ya te sabes el camino: monorraíl hasta Hamamatsuchō y la Yamanote
+      hacia el norte, y en el hotel sobre las 21:30. A partir de aquí manda [el Día 1](#dia-1-vuelo)
+      y esta sección se acaba.
 
       Lo mejor que puedes hacer por ellos es tener localizado **dónde se cena tarde y cerca**, porque a
       esa hora decidir es lo último que apetece. Y contarles lo justo: mañana el viaje empieza de cero
       para los cuatro.
-    dim: true
+    window:
+      label: Antes de salir del hotel
+      body: >-
+        **Mira el vuelo en la web de Haneda o en la de Air China**: si viene con retraso, sales más
+        tarde. Y lleva la tarjeta IC cargada para enseñarles a pasar el torno, que es lo primero que
+        van a hacer en Japón.

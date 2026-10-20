@@ -1,0 +1,186 @@
+slug: solo-3-ginza
+navLabel: "Solo · mié 4 · Ginza"
+trip: japon
+tramo: solo
+order: 103
+eyebrow: En solitario · mié 4 nov
+title: Una casa de 1919, un ramen de seis asientos y la estación *encendida*
+dek: >-
+  Hoy el día es con tu familia, y se arma alrededor de una mesa en Ginza a la una, que es la hora a
+  la que pueden. Por la mañana, Daikanyama y la casa Asakura; por la tarde, el museo que te
+  recomiendan, a quince minutos andando del restaurante, y la azotea desde la que se ve la estación
+  de Tokio al anochecer. Todo en la misma línea de metro. Antes de nada, la mudanza.
+duerme:
+  - super-hotel-premier-akihabara
+traslados:
+  - desde: "Shimbashi"
+    hasta: "Akihabara"
+    medio: "JR Yamanote"
+    duracion: "~10 min"
+    hora: "salir 08:30"
+    nota: "**Primero, la mudanza.** Se deja el Candeo y la maleta se queda en la recepción del Super Hotel, que no da la habitación hasta las 15:00."
+  - desde: "Akihabara"
+    hasta: "Naka-Meguro"
+    medio: "Metro Hibiya, directo"
+    duracion: "~35 min"
+    hora: "salir 09:15"
+    nota: "Desde Naka-Meguro, diez minutos cuesta arriba hasta Daikanyama, o una parada de Tōkyū Tōyoko."
+  - desde: "Naka-Meguro"
+    hasta: "Ginza"
+    medio: "Metro Hibiya, directo"
+    duracion: "~20 min"
+    hora: "salir 12:30"
+  - desde: "Tokio"
+    hasta: "Akihabara"
+    medio: "JR Yamanote o Keihin-Tōhoku"
+    duracion: "~5 min"
+    hora: "por la noche"
+blocks:
+  - block: Mañana
+    time: "10:00–12:30"
+    title: La casa Asakura, y Daikanyama alrededor
+    body: >-
+      Se empieza por la **antigua casa Asakura**, a la hora en que abre. La levantó en 1919 Asakura
+      Torajirō, que presidió la asamblea de Tokio, y es Bien Cultural Importante: una casa de madera de
+      la era Taishō, con sus salas de tatami abiertas sobre un jardín en pendiente que baja hacia el
+      río Meguro. Es pequeña y se ve en tres cuartos de hora. Tu familia va cada otoño; los arces de
+      Tokio no enrojecen del todo hasta finales de mes, así que el 4 los pillarás empezando.
+
+      Al salir, Daikanyama es justo lo que te han dicho: calles cortas, tiendas pequeñas y casi nada
+      de cadena. Enfrente de la casa está **Hillside Terrace**, el conjunto que Fumihiko Maki fue
+      construyendo a lo largo de veinte años, y a cinco minutos la librería de Tsutaya. Las tiendas
+      abren hacia las 11:00, así que el orden sale solo.
+    window:
+      label: Horarios
+      body: >-
+        **La casa Asakura abre de 10:00 a 16:30 de noviembre a febrero** (última entrada media hora
+        antes), cierra los lunes y la entrada es simbólica, unos ¥100. Está a cinco minutos de la
+        estación de Daikanyama.
+    ver:
+      - nombre: Antigua casa Asakura
+        maps: Former Asakura Residence Daikanyama
+        nota: Casa de 1919 con jardín en ladera. Bien Cultural Importante, y casi siempre vacía.
+      - nombre: Hillside Terrace
+        maps: Hillside Terrace Daikanyama
+        nota: Tiendas, galerías y cafés en edificios bajos de Fumihiko Maki, frente a la casa.
+      - nombre: Daikanyama T-Site
+        maps: Daikanyama T-Site
+        nota: La librería de Tsutaya, en tres pabellones unidos por un pasillo de revistas.
+  - block: Mediodía
+    time: "13:00–14:30"
+    title: Comer en Ginza, con la familia
+    body: >-
+      La Hibiya vuelve directa a Ginza en veinte minutos, para estar a la una. Lo que tu familia quiere intentar es
+      **Hachigō**: un solo plato, seis asientos y setenta cuencos al día. Si no hay sitio, ellos tienen
+      su plan B, un tempura rápido que conocen, y a cinco minutos queda también el de la guía, Shinamen
+      Hashigo.
+
+      Después, Ginza a vuestro paso: el barrio lo conocen ellos. Lo que no vas a ver es la avenida
+      cortada al tráfico, que solo se peatonaliza los fines de semana y festivos.
+    window:
+      label: La reserva se abre el sábado 31, a la 1:00 de la mañana en España
+      body: >-
+        Hachigō reserva solo por TableCheck, con ¥500 de gestión por persona, y **abre cada sábado a
+        las 9:00 de Japón los turnos de martes a domingo de la semana siguiente**. Para el miércoles 4,
+        eso es el **sábado 31 de octubre a la 1:00** hora peninsular. Con seis taburetes en barra, un
+        grupo solo se sienta junto si coge varios sitios del mismo turno: el de las 13:00. Cierra los lunes.
+    ver:
+      - ficha: ginza
+        nota: Por qué el barrio se llama como una casa de la moneda.
+    comer:
+      - comida: ginza-hachigo
+        elegido: true
+        nota: El *chūka soba* de Matsumura, que tuvo estrella en 2023. Con reserva del sábado anterior.
+      - comida: shinamen-hashigo-ginza
+        nota: "Si Hachigō no sale: *dandanmen* desde 1964, sin reserva y solo efectivo."
+  - block: Media tarde
+    time: "14:30–15:15"
+    title: El encargo de tu padre
+    body: >-
+      Antes de dejar Ginza, la misión: el **Seiko Presage HCC005J**, el de esfera de esmalte blanco
+      que homenajea al Laurel de 1913, el primer reloj de pulsera japonés. La tienda es **Seiko Dream
+      Square**, en el 4-chōme, a un paso de la torre del reloj de Wakō: es la casa de la propia marca,
+      con varias plantas ordenadas por colecciones, Presage incluida, y vende los modelos que Seiko reserva a
+      sus tiendas «Global Brand Core Shop», que es el caso de este. Las tiendas de Grand Seiko de
+      Ginza no sirven: son otra marca de la casa.
+    window:
+      label: Cómo comprarlo sin sorpresas
+      body: >-
+        - **No lo tiene cualquiera.** Salió el 5 de septiembre de 2026 y solo lo venden las «Core
+        Shop». Escribe antes a Seiko Dream Square con el modelo y pide que te lo guarden: en japonés,
+        「HCC005Jの取り置きをお願いできますか」. Abre de 11:00 a 19:00.
+
+        - **Si no lo tienen**, el plan B es The Clock House, una cadena de relojerías con la misma
+        certificación y varias tiendas en Tokio, que lo vende también por internet. Pregunta en cuál
+        hay stock antes de cruzar la ciudad.
+
+        - **Precio: ¥179.300 con impuestos.** Lleva el pasaporte.
+
+        - **El tax-free cambia el 1 de noviembre.** Desde ese día se paga el precio entero en la
+        tienda y el 10 % se devuelve al salir del país, cuando la aduana ve el reloj. O sea: el sábado
+        14, en Narita, en el equipaje de mano y con el tique. Puede haber comisión por el reembolso.
+
+        - **Y al llegar a Barcelona, se declara.** Pasa de los 430 euros que se pueden traer sin
+        pagar en avión, así que toca el IVA del 21 % más un arancel pequeño. Aun así sale por debajo
+        de los 1.430 euros a los que se vende en Europa.
+    ver:
+      - nombre: Seiko Dream Square
+        maps: Seiko Dream Square Ginza 4-4-10
+        nota: "Ginza 4-4-10. La tienda de la propia marca, con los modelos de «Core Shop»."
+      - nombre: The Clock House
+        maps: The Clock House Tokyo Seiko
+        nota: El plan B, con certificación «Core Shop» y tiendas en Tokio. Llama antes.
+  - block: Tarde
+    time: "15:15–17:30"
+    title: El museo que no sale en ninguna lista, y la azotea
+    body: >-
+      De Ginza a Marunouchi son quince minutos andando, hasta el edificio KITTE, la antigua central de
+      Correos frente a la estación. En sus plantas segunda y tercera está el **Intermediatheque**, la
+      recomendación de tu familia: las colecciones de la Universidad de Tokio en vitrinas de madera
+      antiguas. Esqueletos, minerales, maquetas, animales disecados. Es gratis y, en sus palabras, «no
+      hay ni un turista».
+
+      Al cerrar, se sube a la sexta planta del mismo edificio, al **KITTE Garden**. El sol se pone hacia
+      las 16:40 y, en cuanto oscurece, el edificio de ladrillo de la estación se enciende ahí debajo,
+      con los trenes entrando y saliendo alrededor.
+    window:
+      label: Horarios
+      body: >-
+        **El Intermediatheque abre de 11:00 a 18:00** (viernes y sábados hasta las 20:00) y cierra los
+        lunes. **La azotea es gratis**, pero se cierra con mal tiempo: si llueve, la estación se ve
+        igual de bien desde la ventana de la planta.
+    ver:
+      - ficha: marunouchi
+        nota: La antigua oficina de Correos, el Intermediatheque y lo demás alrededor de la estación.
+      - nombre: Intermediatheque
+        maps: Intermediatheque Tokyo
+        nota: Las colecciones de la Universidad de Tokio, gratis, en las plantas 2 y 3 de KITTE.
+        lat: 35.6800322
+        lon: 139.7645340
+      - nombre: KITTE Garden
+        maps: KITTE Garden Marunouchi
+        nota: La azotea de la sexta planta, con la estación de Tokio iluminada a tus pies.
+  - block: Noche
+    time: "noche"
+    title: El onsen, o jazz en Noge
+    body: >-
+      Lo sensato es volver a Akihabara, que está a cinco minutos, y estrenar el onsen del
+      [Super Hotel Premier](#super-hotel-premier-akihabara), que esta noche ya es tu cama. De paso,
+      en Yodobashi Akiba, junto a la estación, pide que te aparten las dos copias del Zelda que sale mañana.
+
+      Si te queda cuerda, lo que salvaría de Yokohama está de noche y en una sola línea: el
+      Keihin-Tōhoku va de Tokio a Sakuragichō en unos cuarenta minutos y vuelve directo hasta
+      Akihabara. A tres minutos de esa estación, en el barrio de Noge, están **Chigusa**, el primer
+      jazz kissa del país, abierto hasta las 22:00, y [Downbeat](#downbeat), el de 1956.
+    comer:
+      - comida: chigusa
+        elegido: true
+        nota: "Café solo, de cara a los altavoces. Abierto hasta las 22:00; solo cierra los jueves."
+alt:
+  label: Lo que se ha caído, y por qué
+  body: >-
+    Este día era **Yokohama**: el jardín Sankeien por la mañana, el barrio alto de los extranjeros y la
+    terminal de Ōsanbashi al atardecer. Se cayó por la fecha y por la comida. Los arces de Sankeien
+    tienen su mejor momento de mediados de noviembre a mediados de diciembre, así que el 4 eran verdes,
+    y una mañana en Ginza no deja sitio para ir y volver con calma. Del día entero solo queda el jazz,
+    arriba, para quien tenga ganas.

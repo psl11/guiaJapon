@@ -25,7 +25,7 @@ traslados:
     medio: "JR Yamanote"
     duracion: "~20 min"
     hora: "salir 08:05"
-    nota: "Contad los 7-8 min a pie desde Kanda-Sudachō hasta la estación."
+    nota: "Cuenta los 7-8 min a pie desde Kanda-Sudachō hasta la estación."
   - desde: "Ikebukuro"
     hasta: "Kawagoe"
     medio: "Tōbu Tōjō, *kyūkō* (exprés)"
@@ -52,6 +52,9 @@ blocks:
         Abre a las **8:50** y cierra a las **16:30**, a veinte minutos andando de la estación y en
         dirección contraria a la calle de los almacenes. Si lo dejas para después de comer acabas
         corriendo. Entrada **¥400**.
+
+        Y hoy el patio está ocupado: **del 1 al 23 de noviembre el Kita-in acoge el festival de
+        crisantemos de Kawagoe**, de 9:00 a 16:00, con las flores en sus estructuras de bambú.
     ver:
       - nombre: Kita-in
         maps: Kitain Temple Kawagoe
@@ -104,7 +107,57 @@ blocks:
         nota: Un túnel de dos mil *ema*, las tablillas de los deseos. De lo más fotogénico de Kantō.
         lat: 35.9271396
         lon: 139.4887762
+  - block: Vuelta
+    time: "17:00–19:00"
+    title: Dos Zeldas el día que salen, y el ramen de Ōtsuka
+    body: >-
+      Hoy, jueves 5, sale en Japón el ***Zelda: Ocarina of Time*** nuevo, y hacen falta dos copias: una
+      para cada Pablo. La tienda es **Yodobashi Akiba**, junto a la estación de Akihabara y abierta hasta las 22:00:
+      si anoche pediste que te las apartaran, se recogen al volver. Su regalo, mientras dure, es un
+      llavero de Navi.
+
+      Si no las apartaste, no esperes a Akihabara: la vuelta de Kawagoe pasa por Ikebukuro, y a la
+      salida este está la tienda central de **Bic Camera**, que da un póster. La segunda copia se
+      entrega el viernes por la noche en Haneda. Y antes de volver, una parada de Yamanote hasta
+      Ōtsuka para cenar.
+    window:
+      label: Antes de comprar, tres cosas
+      body: >-
+        - **Es solo de Switch 2.** No arranca en una Switch normal: comprobad qué consola lleváis.
+
+        - **La caja japonesa no es metálica, y no hay edición especial.** No hay *steelbook* en
+        Japón, y la portada de lámina con relieve de la primera tirada se reparte en Europa y Estados
+        Unidos, no aquí. Lo que tiene de propio la copia japonesa es la carátula con el título en
+        japonés y el regalo de cada tienda, que es un detalle: llavero, póster, posavasos. Si lo que
+        se quiere es la caja de lámina, se compra en España.
+
+        - **Precio: ¥8.980 la copia.** El cartucho no tiene región y, según las tiendas que lo venden fuera, trae subtítulos en español. El
+        *tax-free* no compensa: son unos ¥800 de devolución por copia, con trámite en la aduana de
+        salida.
+    ver:
+      - nombre: Yodobashi Akiba
+        maps: Yodobashi Akiba
+        nota: "Junto a la estación de Akihabara, hasta las 22:00. Regala un llavero de Navi mientras dure."
+      - nombre: Bic Camera Ikebukuro
+        maps: Bic Camera Ikebukuro Honten
+        nota: "El plan B, de camino: la tienda central, a la salida este. Regala un póster A3."
     comer:
       - comida: "nakiryu"
         elegido: true
         nota: "La cena de vuelta: Ōtsuka es una parada después de Ikebukuro. El *tantanmen* que fue estrella Michelin, desde las 18:00."
+  - block: Noche
+    time: "20:00"
+    title: Jazz en directo, en un sótano de Shinjuku
+    body: >-
+      Si después del ramen de Ōtsuka te queda cuerda, Shinjuku está a un cuarto de hora por la misma
+      Yamanote. En Shinjuku-sanchōme, en un sótano desde 1965, está el [Pit Inn](#shinjuku-pit-inn),
+      el club donde empezó buena parte del jazz japonés. El pase de noche empieza hacia las 20:00, se
+      paga en la puerta y se escucha en silencio. Para volver, el metro Shinjuku de Toei va directo
+      hasta Iwamotochō, a tres minutos del hotel.
+    dim: true
+    window:
+      label: Antes de ir
+      body: >-
+        **Mira la programación de noviembre en su web**: cambia cada mes y hay noches mejores que
+        otras. Sin cabeza de cartel no hace falta reservar, y el de noche sale por unos ¥3.000-4.000
+        con una consumición.

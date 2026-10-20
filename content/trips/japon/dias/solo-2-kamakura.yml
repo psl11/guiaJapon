@@ -1,0 +1,140 @@
+slug: solo-2-kamakura
+navLabel: "Solo · mar 3 · Kamakura"
+trip: japon
+tramo: solo
+order: 102
+eyebrow: En solitario · mar 3 nov · festivo
+title: Kamakura *con la familia*, por el lado que no va el grupo
+dek: >-
+  Hoy no vas solo: es el Día de la Cultura, festivo nacional, y la familia que vive en Tokio te
+  lleva a su Kamakura. Empieza por el este, por tres templos de colina que el grupo no pisará el
+  sábado 14 en el [día 9](#dia-9-kamakura), y acaba en el mar. Los otros tres harán el recorrido
+  clásico de norte a sur; tú haces el de quien vive aquí.
+duerme:
+  - candeo-shimbashi
+traslados:
+  - desde: "Shimbashi"
+    hasta: "Kamakura"
+    medio: "JR Yokosuka, directo"
+    duracion: "~55 min"
+    hora: "salir 07:50"
+    nota: "Para estar a las 09:00 en la estación de Kamakura. Menos de ¥1.000 con la IC."
+  - desde: "Kamakura"
+    hasta: "Sugimoto-dera"
+    medio: "Autobús desde la parada 5"
+    duracion: "~10 min"
+    hora: "salir 09:00"
+    nota: "Cualquiera de los que van hacia Hachimangū y Jōmyōji. Bájate en **Sugimoto Kannon**, ~¥200."
+  - desde: "Shichirigahama"
+    hasta: "Shimbashi"
+    medio: "Enoden hasta Kamakura · JR Yokosuka"
+    duracion: "~1 h 15"
+    hora: "después de la puesta de sol"
+blocks:
+  - block: Mañana
+    time: "09:00–12:00"
+    title: Tres templos de colina, uno detrás de otro
+    body: >-
+      El autobús sale de la estación hacia el este, y a partir de Sugimoto-dera todo se hace andando,
+      cuesta abajo y en este orden:
+
+      - **Sugimoto-dera**, el templo más antiguo de Kamakura (734). Se sube por una escalera de piedra
+      tan cubierta de musgo que está cerrada al paso: se rodea por la de al lado.
+
+      - **Hōkoku-ji**, a diez minutos: el bosque de bambú detrás del templo y el matcha sentado
+      mirándolo.
+
+      - **Jōmyō-ji**, a cinco más: uno de los cinco grandes monasterios zen de Kamakura, con una casa
+      de té sobre un jardín seco.
+
+      Es festivo y Hōkoku-ji es el que más se llena; por eso va en medio de la mañana y no después de
+      comer, que es cuando llegan los autobuses de Tokio.
+    window:
+      label: Horarios y precios
+      body: >-
+        **Sugimoto-dera**, de 8:00 a 16:30, ¥200. **Hōkoku-ji**, de 9:00 a 16:00, unos ¥400 la
+        entrada y ¥600 más el matcha, que deja de servirse a las 15:30. **Jōmyō-ji**: la casa de té
+        Kisen-an, de 10:00 a 16:30, matcha con dulce de ¥660 a ¥1.100. Detrás del templo está el café
+        Ishigama Garden Terrace, que **cierra los lunes, y según alguna fuente también los martes**:
+        hoy es martes y festivo, así que mira antes de contar con él.
+    ver:
+      - ficha: kamakura-zen
+        nota: Qué era un *gozan* y por qué Kamakura tenía cinco. Para leerla en el tren.
+      - nombre: Sugimoto-dera
+        maps: Sugimotodera Temple Kamakura
+        nota: Fundado en 734, antes de que Kamakura fuera nada. La escalera de musgo, sin pisar.
+      - nombre: Hōkoku-ji
+        maps: Hokokuji Kamakura
+        nota: Unas dos mil cañas de bambú y una casa de té dentro del bosque.
+        lat: 35.3195248
+        lon: 139.5689009
+      - nombre: Jōmyō-ji
+        maps: Jomyoji Temple Kamakura
+        nota: El quinto de los cinco *gozan*. Kisen-an, la casa de té, mira a un jardín de arena.
+  - block: Mediodía
+    time: "12:00–14:00"
+    title: Bajar al centro y comer
+    body: >-
+      Autobús de vuelta desde la parada de Jōmyōji, y el Tsurugaoka Hachimangū de paso hacia la
+      estación. Se come en Komachi-dōri o alrededor, y hoy con paciencia: en festivo, la calle va a
+      tope a mediodía.
+
+      El café, en el [Milk Hall](#milk-hall): un *jazz kissa* que es también tienda de antigüedades,
+      en los callejones de detrás de la calle. Se pasa de la marea de gente al vinilo en veinte
+      metros.
+    ver:
+      - nombre: Tsurugaoka Hachimangū
+        maps: Tsurugaoka Hachimangu Kamakura
+        nota: El santuario de los Minamoto, al final de la avenida que baja al mar.
+        lat: 35.3251836
+        lon: 139.5561787
+    comer:
+      - comida: komachi-dori
+        elegido: true
+        nota: La calle de comer de pie, entre el santuario y la estación.
+      - comida: aratama-katsutei
+        nota: "Si preferís sentaros: tonkatsu al pie de Komachi-dōri, abierto todo el día."
+  - block: Tarde
+    time: "14:00–16:00"
+    title: El Buda con la luz de la tarde
+    body: >-
+      Enoden desde la estación de Kamakura hasta Hase, tres paradas, y diez minutos andando hasta el
+      Kōtoku-in. Con los templos de la mañana hechos, el Buda es la parada que menos tiempo pide:
+      media hora, o algo más si se entra dentro.
+    window:
+      label: Ventana óptima
+      body: >-
+        De octubre a marzo abre de 8:00 a 17:00, ¥300, y **por dentro se entra hasta las 16:30**, por
+        unos yenes más. No lo dejéis para el final: el atardecer es en otro sitio.
+    ver:
+      - ficha: daibutsu-kamakura
+        nota: Once metros y medio de bronce al aire libre desde que un tsunami se llevó su templo.
+  - block: Atardecer
+    time: "16:00–17:00"
+    title: Shichirigahama, y el Fuji detrás de Enoshima
+    body: >-
+      Otra vez el Enoden, unas cuantas paradas más hacia el oeste, hasta **Shichirigahama**: una
+      playa larga de arena oscura frente a la bahía de Sagami. El sol se pone hacia las 16:40 detrás
+      de Enoshima y, si el día está limpio, **el Fuji sale recortado a su derecha**. De noviembre a
+      febrero es cuando más se ve.
+
+      La estación siguiente es Kamakura-kōkōmae, el paso a nivel de *Slam Dunk*: si sobra luz, son
+      diez minutos por la orilla. Después, vuelta a Shimbashi y la segunda noche en el
+      [Candeo](#candeo-shimbashi), con su baño en la azotea.
+    ver:
+      - nombre: Shichirigahama
+        maps: Shichirigahama Beach Kamakura
+        nota: La playa de la puesta de sol, con Enoshima y el Fuji enfrente si hay suerte.
+      - nombre: Kamakura-kōkōmae
+        maps: Kamakurakokomae Station
+        nota: El paso a nivel de *Slam Dunk*, una estación más allá.
+        lat: 35.3067209
+        lon: 139.5007098
+alt:
+  label: Lo que hace el grupo y tú no
+  body: >-
+    Los dos grandes monasterios de Kita-Kamakura, **Engaku-ji y Kenchō-ji**, se quedan para los otros
+    tres. Si os sobra la tarde y preferís uno de ellos al mar, Kenchō-ji está a veinte minutos andando
+    del Hachimangū. Sus tesoros se airean al público una vez al año, en torno al Día de la Cultura:
+    en 2026, según las webs de turismo de Kamakura, **del 31 de octubre al 2 de noviembre**, así que
+    llegas un día tarde, salvo que los templos confirmen otras fechas.

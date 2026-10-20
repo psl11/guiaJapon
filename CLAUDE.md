@@ -402,7 +402,7 @@ grupo** (§10) · 65 fotos · PWA sin garantía de offline (§3.9).
 cine y libros: cada película, serie o anime que el grupo ha visto, con dónde se rodó, qué día se
 pasa por delante y qué hay de verdad detrás. Los sitios concretos van además como `ver` en su día
 (Yotsugi, Saigō, el lago Suwa, Suga, Godzilla, Adams, Sekigahara, Tamatsukuri, Fukuyama, Kasukabe,
-Wakō, Rajōmon, Hikawa de Azabu, la Character Street…). Tiene además dos secciones para lo que no
+Wakō, Rajōmon, Hikawa de Azabu, la Character Street, el Sumida Riverwalk de *Rental Family*…). Tiene además dos secciones para lo que no
 estaba en la lista del grupo pero cae en la ruta —*Kill Bill*, *Black Rain*, *Shin Godzilla*,
 *Kimetsu no Yaiba*, *Sailor Moon*, *Jujutsu Kaisen*…—, ordenadas por día. Las que no pisan la ruta
 —*Ghost in the Shell*, *Origen*, *Evangelion* salvo su tienda— lo dicen. Se descartaron por no
@@ -483,10 +483,32 @@ persona**, y a cambio:
   final (22-25), al pico de la hoja roja.
 
 **Kamakura y la Yamanote se intercambiaron en oct 2026.** El cuarto viajero hace Kamakura en sus
-días solo (miércoles 4), así que el grupo lo pasó al sábado 14, el día de la despedida, y la
-Yamanote al viernes 13, con los cuatro. De paso, Yokohama pasó al martes 3 y el día del *yabusame*
-de Meiji Jingū se borró, para que el cuarto no repitiera Meiji Jingū ni Omotesandō. Kamakura en
-sábado tiene gente, pero abre SUNDOWNER (cierra los viernes) y es la víspera del *shichi-go-san*.
+días solo, así que el grupo lo pasó al sábado 14, el día de la despedida, y la Yamanote al viernes
+13, con los cuatro. El día del *yabusame* de Meiji Jingū se borró, para que el cuarto no repitiera
+Meiji Jingū ni Omotesandō. Kamakura en sábado tiene gente, pero abre SUNDOWNER (cierra los
+viernes) y es la víspera del *shichi-go-san*.
+
+**Y el Kamakura del cuarto es otro, y va el martes 3** (oct 2026). Lo hace con su familia de Tokio
+el Día de la Cultura, festivo, y por la ruta que ellos proponen: los tres templos del este
+(Sugimoto-dera, Hōkoku-ji, Jōmyō-ji), el Buda y la puesta de sol en Shichirigahama. No repite el
+recorrido del grupo, y por eso el día 9 no remite a él.
+
+**Yokohama se cayó del plan del cuarto** (oct 2026). El miércoles 4 come con la misma familia en
+Ginza, y el día (`solo-3-ginza`) se armó con sus recomendaciones: la antigua casa Asakura en
+Daikanyama, Hachigō y el Intermediatheque con la azotea de KITTE, todo sobre la línea Hibiya. Se
+descartaron también Nikkō y el Fuji, porque ya ha ido varias veces. El criterio para sus días
+solos es que **es su quinta visita**: nada de lo obvio y poca naturaleza, que ya tiene la de los
+Alpes con el grupo. De Yokohama solo queda Chigusa como plan de noche opcional, y la renuncia está
+contada en el `alt` del día. El viernes 6 **va a Haneda a recoger a los otros tres** (el día 1 lo
+dice), y el miércoles lleva **un encargo de su padre**: el Seiko Presage HCC005J, en Seiko Dream Square (Ginza 4-chōme, la tienda de la marca; es modelo de «Core Shop» y las boutiques de Grand Seiko no lo tienen), con el
+aviso del *tax-free* nuevo (desde el 1 de noviembre de 2026 se paga entero y el 10 % se devuelve en
+la aduana de salida). El jueves 5 sale el *Zelda: Ocarina of Time* de Switch 2 y el cuarto compra
+dos copias a la vuelta de Kawagoe (apartadas el miércoles en Yodobashi Akiba; plan B, Bic Camera Ikebukuro). En Japón no hay edición especial: los regalos de tienda son detalles; la caja japonesa
+**no es metálica** —ni *steelbook* ni la portada de lámina, que es de la primera tirada de Europa y
+EE. UU.—, y está dicho. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
+`mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
+Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
+`mapa` y corre `node scripts/build-routemap.mjs`.
 
 **Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
 Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta

@@ -21,6 +21,12 @@ mapa:
     - { nombre: "Cambio de hotel, al Resol", hora: "12:30", llegada: metro, lat: 35.6967393, lon: 139.7739276 }
     - { nombre: "Jinbōchō y Sabouru", hora: tarde, zona: Jinbōchō, llegada: a-pie, lat: 35.6955733, lon: 139.7586758 }
 traslados:
+  - desde: "Iwamotochō"
+    hasta: "Morishita"
+    medio: "Toei Shinjuku, directo"
+    duracion: "~10 min"
+    hora: "salir 08:30"
+    nota: "Antes, el *check-out*: la maleta se queda en la recepción del Super Hotel hasta mediodía. De Morishita al jardín, una parada de Ōedo o quince minutos andando."
   - desde: "Kanda-Sudachō"
     hasta: "Akihabara (hotel del grupo)"
     medio: "A pie"
@@ -39,8 +45,8 @@ blocks:
     window:
       label: Por qué hoy
       body: >-
-        Porque es lo contrario de todo lo que viene después: veinte días de once mudanzas, trenes con
-        hora y un grupo que coordinar, frente a un barrio de canales donde no hay nada que coger. Y
+        Porque es lo contrario de todo lo que viene después: una semana de cambiar de cama casi cada
+        noche, trenes con hora y un grupo que coordinar, frente a un barrio de canales donde no hay nada que coger. Y
         porque **cierra el hilo literario** que la guía lleva abierto desde
         [los libros](#japon-cine-libros): mañana empieza el viaje que Bashō haría al revés.
     ver:
@@ -64,7 +70,7 @@ blocks:
     comer:
       - comida: koffee-mameya-kakeru
         elegido: true
-        nota: "El curso de café, con reserva por web: un grano, cuatro extracciones. A un paso del jardín."
+        nota: "El curso de café, con reserva por web: un grano, cuatro extracciones. Abre a las 11:00: coge el primer turno, y a las 12:30 al hotel."
       - comida: mikawa-zezankyo
         nota: "Tempura con estrella en Monzen-Nakachō, **nueve sitios** y reserva con semanas. El capricho del viaje en solitario."
   - block: Mediodía
@@ -92,7 +98,7 @@ blocks:
     window:
       label: O nada de esto
       body: >-
-        Hoy también es legítimo no hacer nada. Llevas cuatro días andando y mañana empiezan veintiuno más
+        Hoy también es legítimo no hacer nada. Llevas cuatro días andando y mañana empiezan ocho más,
         con tres personas que acaban de bajarse de un vuelo de veinte horas. **Guardar fuerzas es una
         opción con argumento.**
     ver:

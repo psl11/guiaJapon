@@ -503,7 +503,7 @@ contada en el `alt` del día. El viernes 6 **va a Haneda a recoger a los otros t
 dice), y el miércoles lleva **un encargo de su padre**: el Seiko Presage HCC005J, en Seiko Dream Square (Ginza 4-chōme, la tienda de la marca; es modelo de «Core Shop» y las boutiques de Grand Seiko no lo tienen), con el
 aviso del *tax-free* nuevo (desde el 1 de noviembre de 2026 se paga entero y el 10 % se devuelve en
 la aduana de salida). El jueves 5 sale el *Zelda: Ocarina of Time* de Switch 2 y el cuarto compra
-dos copias a la vuelta de Kawagoe (Bic Camera Ikebukuro, plan B Yodobashi Akiba); la caja japonesa
+dos copias a la vuelta de Kawagoe (apartadas el miércoles en Yodobashi Akiba; plan B, Bic Camera Ikebukuro). En Japón no hay edición especial: los regalos de tienda son detalles; la caja japonesa
 **no es metálica** —ni *steelbook* ni la portada de lámina, que es de la primera tirada de Europa y
 EE. UU.—, y está dicho. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,

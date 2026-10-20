@@ -107,6 +107,37 @@ blocks:
         nota: Un túnel de dos mil *ema*, las tablillas de los deseos. De lo más fotogénico de Kantō.
         lat: 35.9271396
         lon: 139.4887762
+  - block: Vuelta
+    time: "17:00–19:00"
+    title: Dos Zeldas el día que salen, y el ramen de Ōtsuka
+    body: >-
+      Hoy, jueves 5, sale en Japón el ***Zelda: Ocarina of Time*** nuevo, y hacen falta dos copias: una
+      para cada Pablo. La vuelta de Kawagoe pasa por Ikebukuro, y a la salida de la estación está la
+      tienda central de **Bic Camera**, con planta de videojuegos. Se compran las dos y la segunda se
+      entrega el viernes por la noche en Haneda. Después, una parada de Yamanote hasta Ōtsuka para
+      cenar.
+
+      Si en Ikebukuro se han agotado, **Yodobashi Akiba**, al lado del hotel, abre hasta las 22:00.
+    window:
+      label: Antes de comprar, tres cosas
+      body: >-
+        - **Es solo de Switch 2.** No arranca en una Switch normal: comprobad qué consola lleváis.
+
+        - **La caja japonesa no es metálica.** No hay *steelbook* en Japón, y la portada de lámina
+        con relieve de la primera tirada se reparte en Europa y Estados Unidos, no aquí. La versión
+        japonesa trae la carátula normal y, mientras duren, los regalos de cada tienda. Si lo que se
+        quiere es esa caja, se compra en España.
+
+        - **Precio: ¥8.980 la copia.** El cartucho no tiene región y, según las tiendas que lo venden fuera, trae subtítulos en español. El
+        *tax-free* no compensa: son unos ¥800 de devolución por copia, con trámite en la aduana de
+        salida.
+    ver:
+      - nombre: Bic Camera Ikebukuro
+        maps: Bic Camera Ikebukuro Honten
+        nota: La tienda central de la cadena, a la salida este de la estación. Videojuegos en su planta.
+      - nombre: Yodobashi Akiba
+        maps: Yodobashi Akiba
+        nota: "El plan B, al lado del hotel: un edificio entero de electrónica, abierto hasta las 22:00."
     comer:
       - comida: "nakiryu"
         elegido: true

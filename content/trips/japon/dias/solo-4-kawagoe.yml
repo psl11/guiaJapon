@@ -111,3 +111,19 @@ blocks:
       - comida: "nakiryu"
         elegido: true
         nota: "La cena de vuelta: Ōtsuka es una parada después de Ikebukuro. El *tantanmen* que fue estrella Michelin, desde las 18:00."
+  - block: Noche
+    time: "20:00"
+    title: Jazz en directo, en un sótano de Shinjuku
+    body: >-
+      Si después del ramen de Ōtsuka te queda cuerda, Shinjuku está a un cuarto de hora por la misma
+      Yamanote. En Shinjuku-sanchōme, en un sótano desde 1965, está el [Pit Inn](#shinjuku-pit-inn),
+      el club donde empezó buena parte del jazz japonés. El pase de noche empieza hacia las 20:00, se
+      paga en la puerta y se escucha en silencio. Para volver, el metro Shinjuku de Toei va directo
+      hasta Iwamotochō, a tres minutos del hotel.
+    dim: true
+    window:
+      label: Antes de ir
+      body: >-
+        **Mira la programación de noviembre en su web**: cambia cada mes y hay noches mejores que
+        otras. Sin cabeza de cartel no hace falta reservar, y el de noche sale por unos ¥3.000-4.000
+        con una consumición.

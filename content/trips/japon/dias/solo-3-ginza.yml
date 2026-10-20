@@ -67,7 +67,7 @@ blocks:
         maps: Daikanyama T-Site
         nota: La librería de Tsutaya, en tres pabellones unidos por un pasillo de revistas.
   - block: Mediodía
-    time: "13:00–15:00"
+    time: "13:00–14:30"
     title: Comer en Ginza, con la familia
     body: >-
       La Hibiya vuelve directa a Ginza en veinte minutos, para estar a la una. Lo que tu familia quiere intentar es
@@ -93,8 +93,41 @@ blocks:
         nota: El *chūka soba* de Matsumura, que tuvo estrella en 2023. Con reserva del sábado anterior.
       - comida: shinamen-hashigo-ginza
         nota: "Si Hachigō no sale: *dandanmen* desde 1964, sin reserva y solo efectivo."
+  - block: Media tarde
+    time: "14:30–15:15"
+    title: El encargo de tu padre
+    body: >-
+      Antes de dejar Ginza, la misión: el **Seiko Presage HCC005J**, el de esfera de esmalte blanco
+      que homenajea al Laurel de 1913, el primer reloj de pulsera japonés. Ginza es el sitio, porque
+      Seiko nació aquí: la torre del reloj del cruce de 4-chōme es el edificio Wakō, hoy **Seiko House
+      Ginza**, y a un paso está **Seiko Dream Square**, su tienda escaparate.
+    window:
+      label: Cómo comprarlo sin sorpresas
+      body: >-
+        - **No lo tiene cualquiera.** Salió el 5 de septiembre de 2026 y Seiko lo reserva a sus
+        tiendas «Global Brand Core Shop». Escribe antes a la tienda con el modelo y pide que te lo
+        guarden: en japonés, 「HCC005Jの取り置きをお願いできますか」.
+
+        - **Precio: ¥179.300 con impuestos.** Lleva el pasaporte.
+
+        - **El tax-free cambia el 1 de noviembre.** Desde ese día se paga el precio entero en la
+        tienda y el 10 % se devuelve al salir del país, cuando la aduana ve el reloj. O sea: el sábado
+        14, en Narita, en el equipaje de mano y con el tique. Puede haber comisión por el reembolso.
+
+        - **Y al llegar a Barcelona, se declara.** Pasa de los 430 euros que se pueden traer sin
+        pagar en avión, así que toca el IVA del 21 % más un arancel pequeño. Aun así sale por debajo
+        de los 1.430 euros a los que se vende en Europa.
+    ver:
+      - nombre: Seiko House Ginza
+        maps: Seiko House Ginza Wako
+        nota: El edificio Wakō, con la torre del reloj del cruce de 4-chōme. Seiko desde 1932.
+        lat: 35.6715697
+        lon: 139.7650504
+      - nombre: Seiko Dream Square
+        maps: Seiko Dream Square Ginza
+        nota: La tienda escaparate de la marca, en el mismo 4-chōme.
   - block: Tarde
-    time: "15:00–17:30"
+    time: "15:15–17:30"
     title: El museo que no sale en ninguna lista, y la azotea
     body: >-
       De Ginza a Marunouchi son quince minutos andando, hasta el edificio KITTE, la antigua central de

@@ -402,7 +402,7 @@ grupo** (§10) · 65 fotos · PWA sin garantía de offline (§3.9).
 cine y libros: cada película, serie o anime que el grupo ha visto, con dónde se rodó, qué día se
 pasa por delante y qué hay de verdad detrás. Los sitios concretos van además como `ver` en su día
 (Yotsugi, Saigō, el lago Suwa, Suga, Godzilla, Adams, Sekigahara, Tamatsukuri, Fukuyama, Kasukabe,
-Wakō, Rajōmon, Hikawa de Azabu, la Character Street…). Tiene además dos secciones para lo que no
+Wakō, Rajōmon, Hikawa de Azabu, la Character Street, el Sumida Riverwalk de *Rental Family*…). Tiene además dos secciones para lo que no
 estaba en la lista del grupo pero cae en la ruta —*Kill Bill*, *Black Rain*, *Shin Godzilla*,
 *Kimetsu no Yaiba*, *Sailor Moon*, *Jujutsu Kaisen*…—, ordenadas por día. Las que no pisan la ruta
 —*Ghost in the Shell*, *Origen*, *Evangelion* salvo su tienda— lo dicen. Se descartaron por no

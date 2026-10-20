@@ -84,6 +84,9 @@ blocks:
         lon: 139.7888894
       - reco: alba-zen-craft-asakusa
         nota: Tallarse los palillos, en el camino entre el templo y Kappabashi.
+      - nombre: Sumida Riverwalk
+        maps: Sumida River Walk Asakusa
+        nota: "La pasarela sobre el río junto al puente del tren, la de *Rental Family*. A cinco minutos del templo."
       - nombre: "Tori no ichi del santuario Ōtori"
         maps: "Otori Shrine Asakusa Tori no Ichi"
         nota: "Solo hoy y el 19: el mercado de los rastrillos de la suerte, abierto las 24 horas."

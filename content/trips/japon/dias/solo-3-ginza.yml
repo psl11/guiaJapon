@@ -98,15 +98,21 @@ blocks:
     title: El encargo de tu padre
     body: >-
       Antes de dejar Ginza, la misión: el **Seiko Presage HCC005J**, el de esfera de esmalte blanco
-      que homenajea al Laurel de 1913, el primer reloj de pulsera japonés. Ginza es el sitio, porque
-      Seiko nació aquí: la torre del reloj del cruce de 4-chōme es el edificio Wakō, hoy **Seiko House
-      Ginza**, y a un paso está **Seiko Dream Square**, su tienda escaparate.
+      que homenajea al Laurel de 1913, el primer reloj de pulsera japonés. La tienda es **Seiko Dream
+      Square**, en el 4-chōme, a un paso de la torre del reloj de Wakō: es la casa de la propia marca,
+      con varias plantas ordenadas por colecciones, Presage incluida, y vende los modelos que Seiko reserva a
+      sus tiendas «Global Brand Core Shop», que es el caso de este. Las tiendas de Grand Seiko de
+      Ginza no sirven: son otra marca de la casa.
     window:
       label: Cómo comprarlo sin sorpresas
       body: >-
-        - **No lo tiene cualquiera.** Salió el 5 de septiembre de 2026 y Seiko lo reserva a sus
-        tiendas «Global Brand Core Shop». Escribe antes a la tienda con el modelo y pide que te lo
-        guarden: en japonés, 「HCC005Jの取り置きをお願いできますか」.
+        - **No lo tiene cualquiera.** Salió el 5 de septiembre de 2026 y solo lo venden las «Core
+        Shop». Escribe antes a Seiko Dream Square con el modelo y pide que te lo guarden: en japonés,
+        「HCC005Jの取り置きをお願いできますか」. Abre de 11:00 a 19:00.
+
+        - **Si no lo tienen**, el plan B es The Clock House, una cadena de relojerías con la misma
+        certificación y varias tiendas en Tokio, que lo vende también por internet. Pregunta en cuál
+        hay stock antes de cruzar la ciudad.
 
         - **Precio: ¥179.300 con impuestos.** Lleva el pasaporte.
 
@@ -118,14 +124,12 @@ blocks:
         pagar en avión, así que toca el IVA del 21 % más un arancel pequeño. Aun así sale por debajo
         de los 1.430 euros a los que se vende en Europa.
     ver:
-      - nombre: Seiko House Ginza
-        maps: Seiko House Ginza Wako
-        nota: El edificio Wakō, con la torre del reloj del cruce de 4-chōme. Seiko desde 1932.
-        lat: 35.6715697
-        lon: 139.7650504
       - nombre: Seiko Dream Square
-        maps: Seiko Dream Square Ginza
-        nota: La tienda escaparate de la marca, en el mismo 4-chōme.
+        maps: Seiko Dream Square Ginza 4-4-10
+        nota: "Ginza 4-4-10. La tienda de la propia marca, con los modelos de «Core Shop»."
+      - nombre: The Clock House
+        maps: The Clock House Tokyo Seiko
+        nota: El plan B, con certificación «Core Shop» y tiendas en Tokio. Llama antes.
   - block: Tarde
     time: "15:15–17:30"
     title: El museo que no sale en ninguna lista, y la azotea

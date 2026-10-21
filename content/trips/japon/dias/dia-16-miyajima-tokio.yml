@@ -109,14 +109,16 @@ blocks:
     title: Cuatro horas al este
     body: >-
       Ferry, tren a Hiroshima y **Shinkansen a Tokio: unas cuatro horas**. Se cruza medio país por la
-      costa del mar interior, [Osaka](#osaka), [Kioto](#kioto) y el Fuji por la derecha si el día
+      costa del mar interior, [Osaka](#osaka), [Kioto](#kioto) y el Fuji por la izquierda si el día
       está limpio. Es la ocasión de un *ekiben* de Hiroshima —el de ostras es una institución— y de
       dormir.
     window:
       label: El asiento del Fuji
       body: >-
-        Yendo hacia el este, **el Fuji queda a la derecha**, entre Shin-Fuji y Mishima, más o menos a
-        cuarenta minutos de Tokio. En noviembre se ve muchos días. Asiento E en clase turista.
+        Yendo hacia el este, **el Fuji queda a la izquierda**, entre Shin-Fuji y Mishima, más o menos a
+        cuarenta minutos de Tokio. En noviembre se ve muchos días. Es otra vez el **asiento E** de
+        clase turista, como a la ida: las letras van fijas al vagón y el tren no da la vuelta, así que
+        la E cae del lado de la montaña en los dos sentidos.
   - block: Noche
     time: "noche"
     title: Tokio otra vez, y otro barrio

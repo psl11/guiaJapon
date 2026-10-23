@@ -153,6 +153,11 @@ blocks:
         nota: El kilómetro cero del país, bajo una autopista. El siglo XX japonés en una imagen.
         lat: 35.6840677
         lon: 139.7745029
+      - nombre: Tienda Pokémon de Tokyo Midtown Yaesu
+        maps: Tokyo Midtown Yaesu
+        nota: "Opcional: hasta el 29 hay legendarios a tamaño real gratis por Nihonbashi, y tienda exclusiva en la 5.ª planta. Solo tarjeta."
+        lat: 35.679695
+        lon: 139.769165
       - nombre: Avenida de ginkgos de Gaien
         maps: Meiji Jingu Gaien Ginkgo Avenue Tokyo
         nota: Ciento cuarenta y seis árboles en trescientos metros, en su punto hacia el 25.
@@ -176,6 +181,9 @@ blocks:
         nota: "Sale en *Rental Family*. Entrada con días de antelación, con fecha y hora. Cierra el 1.er y 3.er martes: hoy no estorba."
         lat: 35.6620024
         lon: 139.7434178
+      - nombre: Gādo-shita de Yūrakuchō
+        maps: Yurakucho Gado-shita izakaya Tokyo
+        nota: "Opcional, a la vuelta: *izakaya* bajo las vías del tren, llenos de oficinistas. La Hibiya para al lado, en Hibiya."
     comer:
       - comida: shogun-burger
         elegido: true

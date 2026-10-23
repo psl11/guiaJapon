@@ -132,6 +132,9 @@ blocks:
         nota: La alternativa si se quiere una sola casa y no la lotería del puesto. Pedidlo crujiente.
       - comida: step1-hiroshima
         nota: Para seguir después. Abre de 20:00 a 5:00 todos los días, en Nagarekawa.
+    ver:
+      - reco: "pablo-dreamination-hiroshima"
+        nota: "Las luces del bulevar de la Paz empiezan este año el 4 de diciembre: os las perdéis por dos semanas."
 alt:
   label: Si te desmarcas
   body: >-

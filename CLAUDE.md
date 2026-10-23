@@ -515,7 +515,10 @@ Naka-Meguro y el de dentro de Shinjuku Gyoen. La ficha del momiji avisa de que l
 previsión de 2026 viene tardía (arce de Kioto hacia el 11 de diciembre). Y cuatro fichas de **la noche de Shinjuku son de Pablo Sánchez** y lo dicen: Omoide Yokochō,
 Kabukichō, la torre de Kabukichō (2023) y Golden Gai, entre Shinjuku y Ebisu-Meguro en el índice.
 Para eso `FichaSchema` ganó `fuente` (opcional, `alba` | `pablo`), que pinta en la cabecera el
-mismo chip «Recomienda…» que las comidas. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
+mismo chip «Recomienda…» que las comidas. Las luces de Navidad que Pablo recordaba van como
+recomendados suyos: las de **Roppongi Hills** (5 nov – 25 dic de 2026) en la primera noche de
+Roppongi, día 7, y la **Dreamination de Hiroshima**, que este año empieza el 4 de diciembre según su
+web oficial (en 2025 fue el 17 de noviembre), con el aviso de que el grupo no la verá. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
 Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
 `mapa` y corre `node scripts/build-routemap.mjs`.

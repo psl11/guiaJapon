@@ -1,0 +1,28 @@
+slug: pablo-dreamination-hiroshima
+trip: japon
+order: 22
+fuente: pablo
+kind: ver
+title: Las luces de Hiroshima, que este año llegan tarde
+navLabel: "Dreamination de Hiroshima"
+tipo: iluminación de invierno, gratis
+city: Hiroshima
+area: El bulevar de la Paz y las calles comerciales de Hondōri y Namiki-dōri
+cuando: "Del 4 de diciembre de 2026 al 24 de enero de 2027 · de 17:30 a 22:30"
+dia:
+  ref: "#dia-15-hiroshima"
+  label: "Día 15 · Hiroshima"
+aviso: "**Este año no os coincide**: empieza el 4 de diciembre, y el grupo duerme en Hiroshima el viernes 20 de noviembre."
+url: https://www.dreamination.com/summary/
+body: >-
+  La *Dreamination* enciende cada invierno el centro de Hiroshima: los jardines que corren por el
+  medio del bulevar de la Paz y las calles comerciales peatonales de alrededor, con figuras de luz
+  que este año siguen el tema del «país de los cuentos». Es gratis y se pasea de noche.
+
+
+  Pablo la recuerda de otro noviembre, y con razón: en 2025 se encendió el 17 de noviembre. **En
+  2026 la web oficial la retrasa al 4 de diciembre**, así que esta vez se pierde por dos semanas. Va
+  aquí para que nadie la busque esa noche.
+seenIn:
+  - ref: "#dia-15-hiroshima"
+    label: La noche de Hiroshima

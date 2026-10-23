@@ -136,9 +136,14 @@ blocks:
 
       Y una cuenta que conviene hacer esta noche: **le quedan a uno de vosotros dos días**. Ver
       [los vuelos](#vuelos).
+
+      Si queda cuerpo, el paseo de vuelta al hotel ya tiene luces de Navidad: la avenida de
+      Keyakizaka, al pie de Roppongi Hills, está encendida desde el 5 de noviembre.
     ver:
       - ficha: roppongi
         nota: Los tres museos del barrio y lo que Akasaka guarda detrás de sus muros.
+      - reco: pablo-luces-roppongi
+        nota: Cuatrocientos metros de árboles en blanco y azul, de 17:00 a 22:00. Gratis.
       - nombre: Gonpachi
         maps: Gonpachi Nishiazabu Tokyo
         nota: "El *izakaya* que copió *Kill Bill*: turístico y caro, pero vale una copa."

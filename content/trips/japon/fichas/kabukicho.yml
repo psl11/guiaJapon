@@ -1,0 +1,56 @@
+slug: kabukicho
+navLabel: "Kabukichō"
+trip: japon
+part: japon
+order: 24
+zone: "Tokio"
+emblem: copa
+fuente: pablo
+kicker: Tokio · Shinjuku, salida este
+title: Kabukichō, el barrio que se reconstruye sobre sus propios teatros
+epithet: >-
+  El mayor barrio de ocio nocturno de Japón: neón, cines, clubes de anfitriones y una cabeza de
+  Godzilla asomada a un hotel. Se pasea mejor de lo que suena, siempre que se sepa a qué decir que
+  no.
+sections:
+  - heading: Un plan de posguerra que salió de otra manera
+    body: |
+      Después de los bombardeos de 1945, los comerciantes de la zona y el urbanista del
+      Ayuntamiento, Ishikawa Hideaki, quisieron reconstruirla como un barrio de espectáculos con
+      un gran teatro de kabuki en el centro. En 1948 le pusieron el nombre de Kabukichō, el teatro
+      no llegó nunca y el barrio se llenó de lo que sí llegó: cines, salas de baile y bares.
+
+      Desde entonces se ha reinventado tres veces encima de sus propios escenarios:
+
+      - El **teatro Koma** (1956-2008), el de las revistas musicales y los cantantes de *enka*, es
+        hoy el edificio de los cines Tōhō, con la cabeza de Godzilla en la terraza del hotel.
+      - El complejo de cines **Milano** (1956-2014) es hoy la
+        [torre de Kabukichō](#kabukicho-tower), que abrió en 2023 y recupera el nombre en su teatro.
+      - Y el callejón que se salvó de todo, al otro lado de la avenida, es
+        [Golden Gai](#golden-gai).
+  - heading: Cómo moverse por él
+    body: |
+      - **La entrada es la puerta roja de Kabukichō Ichiban-gai**, desde la avenida Yasukuni.
+        Siguiéndola recto se llega a la plaza de los cines, a la torre y a Godzilla.
+      - **Los captadores.** En la calle os abordarán para llevaros a un bar o un club. Captar
+        clientes en la calle está prohibido, y los locales que lo hacen son los de las cuentas
+        sorpresa. Se dice que no y se sigue andando.
+      - **Los carteles con caras gigantes** son de los *host clubs*, bares donde el cliente paga por
+        la compañía de un anfitrión. No son para turistas, y a nadie se le exige entrar.
+      - **Es un barrio seguro para pasear**, con mucha gente y la policía a la vista. Los problemas
+        vienen de entrar donde os han llevado desde la calle.
+      - Es además el barrio de la serie [Tokyo Vice](#peliculas-del-grupo), que se rodó en estas
+        mismas calles.
+curiosidades:
+  - >-
+    **Godzilla vive donde estaba el teatro Koma**, que durante medio siglo fue el escenario de la
+    música popular japonesa. La cabeza, a escala del monstruo, asoma desde 2015 en la terraza de la
+    octava planta.
+  - >-
+    El barrio lleva desde **1948** con el nombre de un teatro de kabuki que nunca se construyó. Los
+    que sí se construyeron fueron derribándose para dejar sitio al siguiente.
+seenIn:
+  - ref: '#dia-8-yamanote'
+    label: "Día 8 · la última noche de los cuatro"
+  - ref: '#shinjuku'
+    label: "Shinjuku"

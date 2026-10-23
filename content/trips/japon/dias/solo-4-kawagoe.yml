@@ -88,6 +88,9 @@ blocks:
         lon: 139.4808048
       - reco: alba-wood-works-kawagoe
         nota: "Tus propios palillos en media hora larga. **Martes a viernes, de 12:30 a 18:00.**"
+      - nombre: "Starbucks de Kanetsuki-dōri"
+        maps: "Starbucks Coffee Kawagoe Kanetsuki Dori"
+        nota: "En un edificio de estilo tradicional, en la misma calle del campanario."
   - block: Tarde
     time: "14:00–16:30"
     title: Hikawa, y los túneles de los deseos
@@ -152,7 +155,9 @@ blocks:
       Si después del ramen de Ōtsuka te queda cuerda, Shinjuku está a un cuarto de hora por la misma
       Yamanote. En Shinjuku-sanchōme, en un sótano desde 1965, está el [Pit Inn](#shinjuku-pit-inn),
       el club donde empezó buena parte del jazz japonés. El pase de noche empieza hacia las 20:00, se
-      paga en la puerta y se escucha en silencio. Para volver, el metro Shinjuku de Toei va directo
+      paga en la puerta y se escucha en silencio. La otra opción es el jazz de *Lost in Translation*, en
+      el New York Bar, que la guía te pone el viernes a la hora barata: si lo prefieres con música,
+      cámbialo por esta noche. Para volver, el metro Shinjuku de Toei va directo
       hasta Iwamotochō, a tres minutos del hotel.
     dim: true
     window:

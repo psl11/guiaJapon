@@ -1,0 +1,52 @@
+slug: golden-gai
+navLabel: "Golden Gai"
+trip: japon
+part: japon
+order: 26
+zone: "Tokio"
+emblem: copa
+fuente: pablo
+kicker: Tokio · Shinjuku, Kabukichō
+title: Golden Gai, casi trescientos bares en menos de una hectárea
+epithet: >-
+  Seis callejones de casas de dos plantas donde cada bar es el salón de su dueño. Es el sitio de
+  Tokio con más personalidad por metro cuadrado, y se rige por reglas propias.
+sections:
+  - heading: De mercado negro a bar de escritores
+    body: |
+      En 1949 las fuerzas de ocupación mandaron desmantelar los mercados negros de la estación, y
+      los puestos se mudaron a un descampado al este, en el antiguo barrio de Sankō-chō. Muchos de
+      aquellos «bares» eran en realidad burdeles sin licencia en el piso de arriba, lo que en la
+      época se llamaba *aosen*, «línea azul».
+
+      Cuando la ley contra la prostitución entró en vigor en 1958, se quedaron solo con la barra de
+      abajo. En los sesenta, ya con el nombre de Golden Gai, los llenaron escritores, cineastas,
+      editores y estudiantes, el mismo mundo que hizo de [Shinjuku](#shinjuku) el barrio cultural de
+      la posguerra. Sus dueños resistieron después a los especuladores de la burbuja, y en abril de
+      2016 un incendio quemó cuatro edificios. El censo del distrito de ese año contaba 283 locales
+      en 0,8 hectáreas.
+  - heading: Las reglas de la casa
+    body: |
+      - **Muchos cobran cubierto**, de 500 a 1.000 yenes por persona, a veces con algo de picar.
+        Está en la puerta, y es legítimo.
+      - **Algunos son solo para habituales.** Suele indicarlo un cartel; si el dueño hace un gesto
+        amable con la mano, es eso, y no hay que insistir.
+      - **Cada bar tiene su tema**: cine, punk, metal, literatura, un cantante concreto. Elegir por
+        la puerta es parte del juego.
+      - **Caben de seis a diez personas**, y un grupo de cuatro necesita uno grande, como
+        Albatross G, el que propone el día. Si no, de dos en dos.
+      - **Efectivo**, y se abre tarde: hacia las ocho la mayoría está ya encendida, y siguen hasta
+        la madrugada.
+      - **Pedid permiso antes de fotografiar** dentro de un bar o a la gente de la barra.
+curiosidades:
+  - >-
+    **283 locales en 0,8 hectáreas**, según el censo del distrito de Shinjuku de 2016: menos que un
+    campo de fútbol.
+  - >-
+    El nombre de **Golden Gai** no es de los cuarenta: lo empezó a usar la gente hacia mediados de
+    los sesenta, cuando ya eran solo bares.
+seenIn:
+  - ref: '#dia-8-yamanote'
+    label: "Día 8 · la última noche de los cuatro"
+  - ref: '#kabukicho'
+    label: "Kabukichō"

@@ -46,19 +46,19 @@ sections:
       extremos y cuesta la mitad.
   - heading: Los callejones, y por qué siguen ahí
     body: |
-      Al este de la estación sobreviven dos supervivencias de la posguerra que valen el viaje:
+      A los dos lados de la estación sobreviven dos restos de la posguerra que valen el viaje:
 
-      - [**Omoide Yokochō**](https://www.google.com/maps/search/?api=1&query=Omoide%20Yokocho%20Shinjuku%20Tokyo), «el callejón de los recuerdos»: dos pasillos de barras de seis taburetes
+      - [**Omoide Yokochō**](#omoide-yokocho), al oeste, «el callejón de los recuerdos»: dos pasillos de barras de seis taburetes
         bajo cientos de faroles rojos, donde se cena *[yakitori](#yakitori)* al humo. Su otro nombre, el que usa
         la gente, es **Shomben Yokochō** — «el callejón de las meadas», por lo que era antes de que
         hubiera baños.
-      - [**Golden Gai**](https://www.google.com/maps/search/?api=1&query=Golden%20Gai%20Shinjuku%20Tokyo): seis callejones con **unos doscientos bares diminutos** de dos plantas, cada
+      - [**Golden Gai**](#golden-gai), al este: seis callejones con **casi trescientos bares diminutos** de dos plantas, cada
         uno con su tema y muchos con sitio para seis personas. Existe porque era mercado negro en los
         cuarenta y porque sus dueños se organizaron para que no lo demolieran en la burbuja. Aviso
         para cuatro: **no cabéis juntos en casi ninguno**, y varios cobran cubierto — está anunciado
         en la puerta y no es una estafa.
 
-      Al lado, [**Kabukichō**](https://www.google.com/maps/search/?api=1&query=Kabukicho%20Shinjuku%20Tokyo), el barrio rojo. Su nombre es una de las mejores bromas involuntarias de
+      Al lado, [**Kabukichō**](#kabukicho), el barrio rojo, con [su torre de 2023](#kabukicho-tower). Su nombre es una de las mejores bromas involuntarias de
       la ciudad: viene de **un teatro de kabuki que se planeó tras la guerra y nunca se construyó**.
       El barrio lleva ochenta años llamándose como un edificio que no existe.
   - heading: Lo que sí hay que hacer estando aquí
@@ -100,6 +100,8 @@ curiosidades:
 seenIn:
   - ref: '#barrios-de-tokio'
     label: "El mapa de los barrios"
+  - ref: '#kabukicho'
+    label: "Kabukichō"
   - ref: '#new-york-bar'
     label: "El New York Bar"
   - ref: '#momiji'

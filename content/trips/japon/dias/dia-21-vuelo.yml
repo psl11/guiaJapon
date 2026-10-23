@@ -36,12 +36,24 @@ blocks:
 
       Y si sobra tiempo, algo tranquilo y **en el camino a Haneda**: un jardín pegado a Daimon, parada
       de la Toei Asakusa, que se recorre en media hora con la maleta al lado.
+
+      O la despedida grande: **Shinjuku Gyoen** con el momiji en su punto, que en este jardín llega
+      la última semana de noviembre. El Momijiyama, la colina de los arces, está junto al jardín
+      japonés, y en el estanque hay un Starbucks para sentarse a mirarlo. Desde Ginza, la Marunouchi va
+      directa a Shinjuku-gyoemmae en un cuarto de hora; desde Asakusa es media hora larga. Abre a las
+      9:00 y hay que volver a por la maleta antes de las 15:00.
     ver:
       - nombre: Kyū Shiba Rikyū
         maps: Kyu Shiba Rikyu Garden Tokyo
         nota: Un jardín pequeño del siglo XVII junto a Daimon, en la línea del aeropuerto.
         lat: 35.6549216
         lon: 139.7586742
+      - nombre: "Shinjuku Gyoen"
+        maps: "Shinjuku Gyoen National Garden"
+        nota: "El Momijiyama, la colina de los arces, en su mejor semana. ¥500; cierra los lunes, hoy no."
+      - nombre: "Starbucks de Shinjuku Gyoen"
+        maps: "Starbucks Coffee Shinjuku Gyoen"
+        nota: "Dentro del jardín, mirando al estanque. Se entra con la entrada del jardín."
     comer:
       - comida: onigiri-konga-nihonbashi
         elegido: true

@@ -25,12 +25,12 @@ traslados:
     medio: "JR línea Nara"
     duracion: "5 min"
     hora: "salir 06:45"
-  - desde: "Fushimi Inari"
-    hasta: "Osaka"
-    medio: "Keihan o JR"
-    duracion: "50 min"
-    hora: "salir 09:30"
-    nota: "Sin volver a Kioto: la línea sigue hacia el sur."
+  - desde: "Tōfukuji"
+    hasta: "Kyōbashi (Osaka)"
+    medio: "Keihan, hacia el sur"
+    duracion: "~50 min"
+    hora: "salir 09:45"
+    nota: "Sin volver a Kioto: la Keihan baja hasta Kyōbashi, a un paseo del castillo."
   - desde: "Osaka"
     hasta: "Kioto"
     medio: "JR Special Rapid"
@@ -63,7 +63,27 @@ blocks:
       - reco: alba-torii-fushimi
         nota: Un torii en miniatura con vuestro nombre, en una mesa de la bajada. Sin puesto fijo.
   - block: Mañana
-    time: "09:30–12:00"
+    time: "08:45–09:45"
+    title: Tōfuku-ji, el puente sobre los arces
+    body: >-
+      Al bajar de la montaña, quince minutos andando hacia el norte, o una parada de tren, está el
+      **Tōfuku-ji**, uno de los cinco grandes monasterios zen de Kioto. Se viene por una sola cosa: el
+      **Tsūten-kyō**, un puente de madera cubierto tendido sobre una vaguada llena de arces, desde el
+      que las copas se ven por encima. Media hora basta. De la estación de Tōfukuji sale la Keihan que
+      baja a Osaka.
+    window:
+      label: El color, este año
+      body: >-
+        El Tōfuku-ji suele estar en su punto a mediados de noviembre, pero la primera previsión de 2026
+        retrasa los arces de Kioto hasta principios de diciembre: puede que el 19 lo pilléis empezando.
+        En temporada el templo cambia el horario y el precio del puente, así que miradlo la víspera en
+        su web. Y es de los más llenos de Kioto en otoño: a esta hora, todavía no.
+    ver:
+      - nombre: Tōfuku-ji
+        maps: Tofukuji Temple Kyoto
+        nota: El puente Tsūten-kyō sobre la vaguada de arces, a un paseo de Fushimi Inari.
+  - block: Mañana
+    time: "10:30–12:00"
     title: El castillo, y lo que no es
     body: >-
       Se empieza por lo que más lejos queda. Y con una expectativa ajustada: **la torre del castillo
@@ -71,7 +91,7 @@ blocks:
       paseo es lo de fuera: el parque, el foso y las murallas de bloques de más de cien toneladas.
       Media hora larga y a otra cosa.
     window:
-      label: Por qué a primera hora
+      label: Por qué por la mañana
       body: >-
         Porque es lo único de hoy con horario y con cola, y porque el resto del día no lo tiene: **la
         Osaka que importa es la de la tarde y la noche**, cuando se encienden los carteles. Hacer esto

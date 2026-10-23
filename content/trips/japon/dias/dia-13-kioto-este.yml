@@ -68,6 +68,9 @@ blocks:
         nota: La postal de la ladera, al fondo de la cuesta.
         lat: 34.9985564
         lon: 135.7792488
+      - nombre: "Starbucks de Ninenzaka"
+        maps: "Starbucks Coffee Kyoto Ninenzaka Yasaka Chaya"
+        nota: "En una casa de madera centenaria de la cuesta, con salas de tatami arriba y sin cartel luminoso."
     comer:
       - comida: arabica-higashiyama
         elegido: true

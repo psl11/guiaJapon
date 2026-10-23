@@ -169,6 +169,9 @@ blocks:
         nota: "El karaoke de *Lost in Translation*. Las salas 601 y 602 se pueden reservar."
         lat: 35.6608934
         lon: 139.6981704
+      - nombre: "Starbucks del Tsutaya"
+        maps: "Starbucks Coffee Shibuya Tsutaya"
+        nota: "La vista clásica del cruce desde arriba. El edificio reabrió renovado en abril de 2024."
     comer:
       - comida: edw-yellow-shibuya
         elegido: true
@@ -185,14 +188,25 @@ blocks:
     time: "noche"
     title: Los callejones de Shinjuku
     body: >-
-      La última noche de los cuatro. Cena a veinte minutos de casa, en dos callejones pegados y muy distintos: **Omoide Yokochō**,
-      dos pasillos de barras de seis taburetes bajo faroles rojos donde se cena [yakitori](#yakitori)
-      al humo, y el laberinto de Golden Gai, doscientos bares diminutos de dos plantas, cada uno con
-      su tema.
+      La última noche de los cuatro. Cena a veinte minutos de casa, en dos callejones muy distintos a
+      los dos lados de la estación: [Omoide Yokochō](#omoide-yokocho), dos pasillos de barras de seis
+      taburetes bajo faroles rojos donde se pica [yakitori](#yakitori) al humo, y el laberinto de
+      [Golden Gai](#golden-gai), casi trescientos bares diminutos de dos plantas, cada uno con su
+      tema.
+
+      Entre uno y otro se cruza [Kabukichō](#kabukicho), y en su centro está la
+      [torre de Kabukichō](#kabukicho-tower), de 2023. Su segunda planta es un patio de comidas con
+      neón y mesas compartidas: el único sitio de la noche donde os sentáis los cuatro sin buscar
+      hueco, y el mejor para cenar algo de verdad antes de las copas.
 
       Aviso para un grupo de cuatro: **no cabéis juntos en casi ningún sitio**, así que la noche va
       por turnos o de pie. Varios bares cobran cubierto, está anunciado en la puerta y no es una
       estafa.
+
+      Si hay que elegir uno donde quepáis los cuatro y que tenga personalidad, que sea **Albatross
+      G**: tres plantas estrechas, lámparas de araña y cuadros hasta el techo. Cobra ¥500 de cubierto
+      con algo de picar, tiene carta en inglés y está acostumbrado a que entre gente de fuera. Id
+      pronto, antes de las nueve, y pedid sitio arriba para cuatro.
 
       Y **mirad el último tren antes de la tercera copa**: es la diferencia entre veinte minutos de
       vuelta y un taxi de cuatro o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
@@ -206,9 +220,14 @@ blocks:
         lon: 139.6995502
       - nombre: Golden Gai
         maps: Golden Gai Shinjuku Tokyo
-        nota: Doscientos bares de seis plazas. Cubierto anunciado en la puerta, y es legítimo.
+        nota: Casi trescientos bares de seis plazas. Cubierto anunciado en la puerta, y es legítimo.
         lat: 35.6939905
         lon: 139.7047001
+      - ficha: kabukicho-tower
+        nota: El patio de comidas de la segunda planta, con neón y sitio para los cuatro.
+      - nombre: Albatross G
+        maps: Albatross G Golden Gai Shinjuku
+        nota: "Tres plantas mínimas con lámparas de araña. ¥500 de cubierto con algo de picar."
       - reco: alba-omoide-yokocho-turistada
         nota: La pega de Alba a Omoide Yokochō, y el aviso de los captadores en la calle.
       - nombre: "Cabeza de Godzilla"

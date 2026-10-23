@@ -394,7 +394,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 
 ## 8. Estado y qué falta
 
-**Hecho:** 21 días · 42 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
+**Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
 **118 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **18 recomendados del
 grupo** (§10) · 65 fotos · PWA sin garantía de offline (§3.9).
 
@@ -505,7 +505,17 @@ aviso del *tax-free* nuevo (desde el 1 de noviembre de 2026 se paga entero y el 
 la aduana de salida). El jueves 5 sale el *Zelda: Ocarina of Time* de Switch 2 y el cuarto compra
 dos copias a la vuelta de Kawagoe (apartadas el miércoles en Yodobashi Akiba; plan B, Bic Camera Ikebukuro). En Japón no hay edición especial: los regalos de tienda son detalles; la caja japonesa
 **no es metálica** —ni *steelbook* ni la portada de lámina, que es de la primera tirada de Europa y
-EE. UU.—, y está dicho. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
+EE. UU.—, y está dicho. El viernes 6, antes de Haneda, un cóctel en el **New York Bar** a las 17:00, la hora en que no
+se cobra la entrada (¥3.300 desde las 18:30; reabrió en dic 2025, no se reserva, +15 % de
+servicio); el jueves queda como la alternativa con jazz. En oct 2026 entraron también los sitios de momiji y los Starbucks que recomienda **Japonismo**, solo
+donde caen de paso: Tōfuku-ji tras Fushimi Inari (día 14), Kyū-Furukawa junto al Rikugi-en (día
+17), Shinjuku Gyoen dos veces —crisantemos para el cuarto el viernes 6, el Momijiyama para los tres
+el día 21— y los Starbucks de Kawagoe, Ninenzaka, el Tsutaya de Shibuya, la Roastery de
+Naka-Meguro y el de dentro de Shinjuku Gyoen. La ficha del momiji avisa de que la primera
+previsión de 2026 viene tardía (arce de Kioto hacia el 11 de diciembre). Y cuatro fichas de **la noche de Shinjuku son de Pablo Sánchez** y lo dicen: Omoide Yokochō,
+Kabukichō, la torre de Kabukichō (2023) y Golden Gai, entre Shinjuku y Ebisu-Meguro en el índice.
+Para eso `FichaSchema` ganó `fuente` (opcional, `alba` | `pablo`), que pinta en la cabecera el
+mismo chip «Recomienda…» que las comidas. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
 Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
 `mapa` y corre `node scripts/build-routemap.mjs`.

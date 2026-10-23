@@ -33,12 +33,24 @@ traslados:
     duracion: "~10 min"
     hora: "a mediodía, con la maleta"
     nota: "El relevo más fácil del viaje: se deja el Super Hotel Premier y se entra en el hotel del grupo **andando**, sin coger nada."
-  - desde: "Akihabara"
+  - desde: "Jinbōchō"
+    hasta: "Shinjuku-sanchōme"
+    medio: "Toei Shinjuku, directo"
+    duracion: "~10 min"
+    hora: "salir 14:45"
+    nota: "A cinco minutos de la puerta Shinjuku del jardín."
+  - desde: "Shinjuku Gyoen"
+    hasta: "Park Hyatt"
+    medio: "A pie, o un taxi corto"
+    duracion: "~25 min"
+    hora: "salir 16:30"
+    nota: "Hacia el oeste, por el sur de la estación, hasta la más alta de las tres torres de Shinjuku Park Tower."
+  - desde: "Shinjuku"
     hasta: "Haneda T3"
-    medio: "JR Yamanote + monorraíl"
-    duracion: "~35 min"
-    hora: "salir 19:00"
-    nota: "Transbordo en Hamamatsuchō. El vuelo aterriza a las 19:50 y salen de aduanas hacia las 20:45: sobra margen."
+    medio: "JR Yamanote + Keikyū"
+    duracion: "~50 min"
+    hora: "salir 18:15"
+    nota: "Transbordo en Shinagawa. El vuelo aterriza a las 19:50 y salen de aduanas hacia las 20:45: sobra margen."
 blocks:
   - block: Mañana
     time: "09:00–12:00"
@@ -94,13 +106,17 @@ blocks:
         Cuatro noches en dos hoteles distintos son **dos reservas**, y las dos salen de tu bolsillo, no
         del bote común. Tenlo separado desde el principio para que las cuentas del grupo no se enreden.
   - block: Tarde
-    time: "libre"
-    title: Lo que te quedara pendiente
+    time: "13:00–16:30"
+    title: Libros viejos, y el jardín de los crisantemos
     body: >-
-      La tarde es puro comodín, y el mejor uso está a un paseo de Akihabara: **Jinbōchō**, el barrio de
-      las librerías de viejo, con [su ficha](#jimbocho) y su hilera de kissaten.
+      Primero, a un paseo de Akihabara, **Jinbōchō**, el barrio de las librerías de viejo, con
+      [su ficha](#jimbocho) y su hilera de kissaten.
 
-      Si te apetece más aire libre, el **valle de Todoroki**, al otro lado de la ciudad.
+      Después, la Toei Shinjuku te deja a cinco minutos de **Shinjuku Gyoen**, el jardín de *El jardín
+      de las palabras* de Shinkai. Hasta el 15 de noviembre monta su **exposición imperial de
+      crisantemos** bajo pabellones de madera, y dentro, mirando al estanque, hay un Starbucks donde
+      sentarse con lo que hayas comprado. Los arces del Momijiyama aún estarán verdes: su semana es la
+      última del mes. A las cuatro y media, andando hacia el oeste, al Park Hyatt.
     window:
       label: O nada de esto
       body: >-
@@ -113,11 +129,12 @@ blocks:
         nota: Ciento treinta librerías de viejo. Casi todo cierra los domingos; hoy es viernes.
         lat: 35.6953570
         lon: 139.7597837
-      - nombre: Valle de Todoroki
-        maps: Todoroki Valley Setagaya
-        nota: El único barranco de Tokio, en Setagaya, al otro lado de la ciudad.
-        lat: 35.6051987
-        lon: 139.6456467
+      - nombre: Shinjuku Gyoen
+        maps: Shinjuku Gyoen National Garden
+        nota: "Crisantemos imperiales del 1 al 15 de noviembre. ¥500; hasta las 16:30, última entrada a las 16:00."
+      - nombre: Starbucks de Shinjuku Gyoen
+        maps: Starbucks Coffee Shinjuku Gyoen
+        nota: Dentro del jardín, mirando al estanque. Se entra con la entrada del jardín.
       - nombre: "Puente Hijiribashi"
         maps: "Hijiribashi Bridge Ochanomizu"
         nota: "La primera escena de *Tokyo Vice*, sobre el río Kanda, a un paseo de Jinbōchō."
@@ -129,6 +146,44 @@ blocks:
         nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."
       - comida: glitch-coffee
         nota: El café de tueste claro del barrio, entre las librerías.
+  - block: Atardecer
+    time: "17:00–18:15"
+    title: Un cóctel en la planta 52, a la hora en que no se paga entrada
+    body: >-
+      Antes de ir a por ellos, la escena de *Lost in Translation*: el [New York Bar](#new-york-bar),
+      en lo alto del Park Hyatt, que reabrió en diciembre de 2025 y dejó el bar como estaba. Abre a
+      las 17:00, cuando el ventanal todavía tiene la última luz y Shinjuku se va encendiendo debajo; si
+      el día está limpio, el Fuji sale recortado al oeste. Un cóctel en la barra, o una hamburguesa
+      con una cerveza si quieres cenar aquí, y a las seis y cuarto, al tren: Haneda queda a cincuenta
+      minutos.
+
+      Lo que no tendrás es el jazz: la música en directo empieza a las 18:30, a la vez que la entrada,
+      y el grupo con cantante sale a las 19:15. Si lo quieres entero, cámbialo por el
+      [Pit Inn](#shinjuku-pit-inn) del jueves por la noche y ven aquí a esa hora.
+    window:
+      label: Lo que cuesta
+      body: >-
+        Los precios llevan el impuesto y a la cuenta se le suma un **15 % de servicio**. Desde las
+        18:30 se cobra además una **entrada de ¥3.300 por persona**. No se reserva y hay que tener 20
+        años.
+
+        - **Un cóctel antes de las 18:30**: de ¥2.640 en adelante en la carta, unos **¥3.000-4.000
+        con el servicio** (18-24 €).
+
+        - **Un cóctel con el jazz**, a partir de las 18:30: unos **¥6.300** (38 €). Dos, unos ¥9.400.
+
+        - **Una hamburguesa y una cerveza**, la cena ligera con el ventanal: la de wagyu con queso
+        del bar rondaba los ¥5.000 antes de la reforma y la Asahi de botella cuesta ¥1.300. Con el
+        servicio, unos **¥7.500-8.500** (45-50 €), sin entrada si pides antes de las 18:30.
+
+        - **El New York Grill**, al lado, no vende la hamburguesa suelta: a mediodía es el segundo de
+        un menú con entrantes y postres de bufé, de unos ¥10.000-11.400, con ¥1.100 de suplemento. De
+        noche, el menú de la casa, de cuatro o cinco platos, ronda los **¥26.000-30.000** por persona; con tres copas de vino, ¥30.360 con todo incluido (unos
+        180 €). Se reserva en TableCheck, y hoy no cabe: sería el jueves, en lugar del ramen de Ōtsuka.
+    ver:
+      - nombre: New York Bar
+        maps: New York Bar Park Hyatt Tokyo
+        nota: "Planta 52 del Park Hyatt. Abre a las 17:00; desde las 18:30, ¥3.300 de entrada."
   - block: Noche
     time: "19:00–21:30"
     title: A Haneda, a por los otros tres
@@ -138,7 +193,8 @@ blocks:
       con ocho husos encima y sin cenar. Si llegas con tiempo, en la cuarta planta de la misma terminal
       hay una réplica de una calle de Edo y una terraza desde la que se ven despegar los aviones.
 
-      Llévate la segunda copia del Zelda, que es el primer regalo del viaje. La vuelta la llevas tú,
+      Lleva encima desde mediodía la segunda copia del Zelda, que es el primer regalo del viaje: hoy
+      no vuelves al hotel antes de Haneda. La vuelta la llevas tú,
       que ya te sabes el camino: monorraíl hasta Hamamatsuchō y la Yamanote
       hacia el norte, y en el hotel sobre las 21:30. A partir de aquí manda [el Día 1](#dia-1-vuelo)
       y esta sección se acaba.

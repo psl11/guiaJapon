@@ -99,7 +99,7 @@ const comerItems = computed(() => (props.comer ?? []).map((c) => {
                 :href="v.post"
                 target="_blank"
                 rel="noopener"
-              >Ver el post ↗</a>
+              >{{ esPost(v.post) ? 'Ver el post' : 'La fuente' }} ↗</a>
               <a
                 v-if="v.link"
                 :href="v.link.url"

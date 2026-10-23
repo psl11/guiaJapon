@@ -31,6 +31,7 @@ blocks:
       pincho, ostras abiertas al momento, atún a la brasa: se desayuna de pie y a base de picar. Y no
       se compra nada en el primer puesto: se da una vuelta entera y luego se decide.
 
+
       **Si en algún momento del viaje toca sentarse a una barra de sushi de mercado, es aquí.** Abajo
       van las tres casas, de menos a más ceremonia.
     window:
@@ -40,6 +41,7 @@ blocks:
         miércoles, así que comprobad el calendario del mercado. Antes de las 9:00 la prioridad es de
         los compradores profesionales; a partir de las 13:00 empieza a cerrar. Entre las nueve y las
         once y media está todo abierto y aún se puede andar.
+
 
         **Las barras no abren a la vez.** Unitora abre con el mercado; Shutoku no levanta la persiana
         hasta las **11:00** y Sushi Sei va por ahí. Un desayuno de erizo entra sin tocar nada; **una
@@ -106,6 +108,8 @@ blocks:
         nota: Un solo ramen, setenta cuencos al día y seis asientos. Se reserva en TableCheck.
       - comida: shinamen-hashigo-ginza
         nota: El plan B si Hachigō está lleno. Dandanmen desde 1964, sin reserva y solo efectivo.
+      - comida: ippudo-ginza
+        nota: El de Pablo en Ginza. Ramen de Hakata sin reserva, a dos manzanas del Kabuki-za.
       - comida: ginza-sushi-banya-kai
         nota: "*Omakase* de veintidós pases por menos de sesenta euros. Turno de 12:00 a 14:30."
       - comida: maru-ginza
@@ -121,9 +125,11 @@ blocks:
       donde sirven *matcha* batido y un dulce mirando el agua. Es el último sitio tranquilo del viaje
       y está en su mejor semana del año.
 
+
       De vuelta hacia el norte, quince minutos, se cierra el paseo en Nihonbashi, el puente del que se
       medían las distancias del [Tōkaidō](#kioto) que bajasteis en tren, y que hoy vive humillado bajo
       una autopista de hormigón levantada para los Juegos del 64.
+
 
       Para ir a teamLab se vuelve a Ginza, porque la Hibiya va directa a Kamiyachō. A las cinco abre
       allí una ventanilla de *katsu sando*: un sándwich a medias entre tres, y al metro.
@@ -132,6 +138,7 @@ blocks:
       body: >-
         **El pico de la hoja roja en Tokio va del 20 de noviembre al 5 de diciembre**, así que hoy
         estáis dentro: por esto se guardó la ciudad para el final. Ver [el momiji](#momiji).
+
 
         Y hoy justamente amarillea la avenida de ginkgos de Meiji Jingū Gaien, que cae hacia el 25.
         Está a media hora: si alguien quiere cambiar Nihonbashi por eso, hoy es el día exacto.
@@ -184,6 +191,7 @@ alt:
     El [**Museo Nezu**](https://www.google.com/maps/search/?api=1&query=Nezu%20Museum%20Tokyo) es la
     mejor opción y hoy sí abre —cierra los lunes—: un edificio de Kengo Kuma con un jardín en cuesta
     que no parece Tokio, y que en la última semana de noviembre tiene sus propios arces.
+
 
     Y sin moverse del mediodía, el **Kabuki-za de Ginza** vende *hitomakumi*, entradas de un solo acto, en taquilla y para
     el mismo día, por unos pocos euros. Entras, ves cuarenta minutos de kabuki desde el cuarto piso y

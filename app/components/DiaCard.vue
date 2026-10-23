@@ -134,9 +134,10 @@ const letras = computed<Record<string, string>>(() => {
           >{{ b.time }}</span>
         </header>
         <div class="dia-bbody">
-          <h3 class="dia-bact">
-            {{ b.title }}
-          </h3>
+          <h3
+            class="dia-bact"
+            v-html="inlineMd(b.title)"
+          />
           <div class="dia-btext">
             <MDC :value="b.body" />
           </div>

@@ -72,7 +72,7 @@ const mapsUrl = computed(() =>
         :href="reco.url"
         target="_blank"
         rel="noopener noreferrer"
-      >▶ El post de {{ reco.fuente === 'alba' ? 'Alba' : 'Pablo' }} ↗</a>
+      >{{ esPost(reco.url) ? `▶ El post de ${reco.fuente === 'alba' ? 'Alba' : 'Pablo'}` : 'La fuente' }} ↗</a>
       <a
         v-if="reco.link"
         class="comida-link"

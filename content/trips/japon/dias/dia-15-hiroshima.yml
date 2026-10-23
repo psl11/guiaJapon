@@ -35,6 +35,7 @@ blocks:
       Hora y cuarenta desde Kioto por el Sanyō Shinkansen, el tramo bueno para leerse la ficha de
       Hiroshima: el parque se anda mucho mejor sabiendo lo que se mira.
 
+
       **Y cabe una parada por el camino.** El Shinkansen para en Himeji, a una hora de Kioto, y el
       castillo está a quince minutos andando en línea recta desde la estación. Saliendo a las 07:30
       se está en él a las 09:00, se ve en dos horas largas y se llega a Hiroshima hacia la una, con la
@@ -103,7 +104,7 @@ blocks:
   - block: Atardecer
     time: "16:00–18:00"
     title: La ciudad que está viva
-    body: >-
+    body: |-
       **Hiroshima es una ciudad de un millón doscientos mil habitantes**, no un cementerio. Dos
       maneras de comprobarlo antes de cenar, y las dos cuestan cero:
 

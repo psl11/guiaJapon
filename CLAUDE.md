@@ -394,7 +394,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 
 ## 8. Estado y qué falta
 
-**Hecho:** 21 días · 42 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
+**Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
 **118 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **18 recomendados del
 grupo** (§10) · 65 fotos · PWA sin garantía de offline (§3.9).
 
@@ -512,7 +512,10 @@ donde caen de paso: Tōfuku-ji tras Fushimi Inari (día 14), Kyū-Furukawa junto
 17), Shinjuku Gyoen dos veces —crisantemos para el cuarto el viernes 6, el Momijiyama para los tres
 el día 21— y los Starbucks de Kawagoe, Ninenzaka, el Tsutaya de Shibuya, la Roastery de
 Naka-Meguro y el de dentro de Shinjuku Gyoen. La ficha del momiji avisa de que la primera
-previsión de 2026 viene tardía (arce de Kioto hacia el 11 de diciembre). **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
+previsión de 2026 viene tardía (arce de Kioto hacia el 11 de diciembre). Y cuatro fichas de **la noche de Shinjuku son de Pablo Sánchez** y lo dicen: Omoide Yokochō,
+Kabukichō, la torre de Kabukichō (2023) y Golden Gai, entre Shinjuku y Ebisu-Meguro en el índice.
+Para eso `FichaSchema` ganó `fuente` (opcional, `alba` | `pablo`), que pinta en la cabecera el
+mismo chip «Recomienda…» que las comidas. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
 Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
 `mapa` y corre `node scripts/build-routemap.mjs`.

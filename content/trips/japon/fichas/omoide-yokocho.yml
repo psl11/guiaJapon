@@ -1,0 +1,61 @@
+slug: omoide-yokocho
+navLabel: "Omoide Yokochō"
+trip: japon
+part: japon
+order: 23
+zone: "Tokio"
+emblem: farol
+fuente: pablo
+kicker: Tokio · Shinjuku, salida oeste
+title: Omoide Yokochō, el callejón de los recuerdos
+epithet: >-
+  Dos pasillos de humo y faroles rojos pegados a las vías de la estación más transitada del mundo.
+  Es lo que queda del mercado negro que se montó aquí en 1946, y la cena más corta y más apretada de
+  Tokio.
+sections:
+  - heading: Del mercado negro a la barra de seis taburetes
+    body: |
+      Nació hacia 1946, en los meses del hambre, como un mercado negro junto a la salida oeste de
+      Shinjuku. En su mejor momento tuvo unos trescientos puestos y llegaba hasta donde luego se
+      levantaron los grandes almacenes Odakyū. Lo que sobrevive es un trozo: unos ochenta locales en
+      dos pasillos paralelos a las vías, la mayoría de *motsuyaki*, vísceras a la brasa, y de
+      [yakitori](#yakitori).
+
+      Su nombre oficial es el de una asociación de comerciantes, *Shinjuku Nishiguchi Shōtengai*.
+      El de Omoide, «recuerdos», se lo pusieron después; el apodo popular y menos fino lo cuenta la
+      ficha de [Shinjuku](#shinjuku).
+
+      El 24 de noviembre de 1999 un incendio quemó veintiocho de los setenta locales que había. Se
+      reconstruyeron tal cual, con la misma madera oscura y los mismos faroles, y los comerciantes
+      convirtieron la fecha en «el día de Omoide Yokochō».
+  - heading: Cómo se come aquí
+    body: |
+      - **Barras de seis a diez taburetes**, con el cocinero a un palmo y la carta en la pared. Cada
+        vez más tienen carta en inglés.
+      - **Se viene a picar, no a cenar**: dos o tres pinchos y una cerveza por barra, y a la
+        siguiente. Para cenar fuerte hay sitios mejores en el barrio, que es justo la pega que le
+        pone [un cocinero que trajo Alba](#alba-omoide-yokocho-turistada).
+      - **Cuatro juntos cuesta.** Lo normal es partirse de dos en dos o buscar una de las barras de
+        las esquinas, que son algo más grandes.
+      - **Algunos cobran *otōshi***, un aperitivo que llega sin pedirlo y va en la cuenta. Es
+        costumbre, no un engaño.
+      - **Las fotos, desde el pasillo.** Dentro de una barra de seis, la gente está cenando: se pide
+        permiso.
+  - heading: Lo que viene
+    body: |
+      Los grandes almacenes Odakyū de al lado cerraron en 2022 y se derribaron para levantar una
+      torre de más de doscientos cincuenta metros, y el oeste de la estación entero está en obras
+      para los próximos años. El callejón, de momento, sigue donde estaba. Precisamente por eso
+      merece verse ahora.
+curiosidades:
+  - >-
+    En su mejor momento, el mercado del que sale tenía **unos trescientos puestos**. Hoy quedan
+    unos ochenta locales.
+  - >-
+    **El 24 de noviembre es su día**: la fecha del incendio de 1999, que los propios comerciantes
+    eligieron para recordarlo.
+seenIn:
+  - ref: '#dia-8-yamanote'
+    label: "Día 8 · la última noche de los cuatro"
+  - ref: '#shinjuku'
+    label: "Shinjuku"

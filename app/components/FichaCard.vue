@@ -41,6 +41,10 @@ const EMBLEMS: Record<string, string> = {
   castillo: '<svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="5" x2="22" y2="8"/><path d="M9 15 Q13 15 14 13 Q22 8 30 13 Q31 15 35 15"/><path d="M6 25 Q11 25 12 23 Q22 16 32 23 Q33 25 38 25"/><line x1="16" y1="15" x2="16" y2="23"/><line x1="28" y1="15" x2="28" y2="23"/><path d="M8 39 L13 27 h18 l5 12 Z"/><line x1="4" y1="39" x2="40" y2="39"/></svg>',
   // Gasshō-zukuri: el tejado de paja a 60 grados
   gassho: '<svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 5 L37 38 H7 Z"/><line x1="12" y1="27" x2="32" y2="27"/><path d="M18 15 h8 v6 h-8 Z"/><line x1="4" y1="40" x2="40" y2="40"/></svg>',
+  // Rascacielos (las torres de Tokio)
+  torre: '<svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="3" x2="22" y2="8"/><path d="M16 40 V12 L22 8 L28 12 V40"/><line x1="16" y1="18" x2="28" y2="18"/><line x1="16" y1="25" x2="28" y2="25"/><line x1="16" y1="32" x2="28" y2="32"/><path d="M8 40 V26 h8 M36 40 V30 h-8"/><line x1="4" y1="40" x2="40" y2="40"/></svg>',
+  // Farol de papel (chōchin: callejones, izakaya)
+  farol: '<svg viewBox="0 0 40 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="20" y1="3" x2="20" y2="7"/><rect x="14" y="7" width="12" height="3" rx="1"/><path d="M14 10 C6 14 6 30 14 34 h12 C34 30 34 14 26 10 Z"/><path d="M9 17 h22 M8 22 h24 M9 27 h22"/><rect x="14" y="34" width="12" height="3" rx="1"/><line x1="20" y1="37" x2="20" y2="41"/></svg>',
   // Copa (sake, coctelería, hoteles con historia)
   copa: '<svg viewBox="0 0 44 44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M11 11 h22 a11 10 0 0 1 -11 10 a11 10 0 0 1 -11 -10 Z"/><line x1="22" y1="21" x2="22" y2="35"/><line x1="15" y1="35" x2="29" y2="35"/><line x1="27" y1="7" x2="31" y2="11"/></svg>',
 }
@@ -71,6 +75,11 @@ const EMBLEMS: Record<string, string> = {
             {{ ficha.kicker }}
           </div>
           <h2>{{ ficha.title }}</h2>
+          <span
+            v-if="ficha.fuente"
+            class="cchip ficha-fuente"
+            :class="`fuente--${ficha.fuente}`"
+          >Recomienda {{ ficha.fuente === 'alba' ? 'Alba' : 'Pablo' }}</span>
         </div>
       </div>
       <!-- eslint-disable-next-line vue/no-v-html -->

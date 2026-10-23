@@ -82,6 +82,9 @@ export const FichaSchema = z.object({
   curiosidades: z.array(Md).optional(), // "Curiosidades": los detalles memorables (anécdotas, cifras
   // deliciosas, el dato que se queda grabado). Cada uno un markdown, con el gancho en **negrita**.
   seenIn: z.array(Link).optional(), // "dónde lo veréis" → chips
+  // Quién la propuso, cuando la ficha es un hallazgo personal y no parte del itinerario base
+  // (oct 2026: las de la noche de Shinjuku son de Pablo Sánchez). Pinta el mismo chip que las comidas.
+  fuente: z.enum(['alba', 'pablo']).optional(),
 })
 
 // ── INVERSIÓN — la ficha de decisión de dinero (Parte I) ─────────────────────

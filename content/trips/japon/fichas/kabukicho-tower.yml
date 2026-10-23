@@ -1,0 +1,48 @@
+slug: kabukicho-tower
+navLabel: "Torre de Kabukichō"
+trip: japon
+part: japon
+order: 25
+zone: "Tokio"
+emblem: torre
+fuente: pablo
+kicker: Tokio · Shinjuku, abierta en 2023
+title: La torre de Kabukichō, el barrio puesto en vertical
+epithet: >-
+  Doscientos veinticinco metros de ocio apilado, levantados donde estaba el viejo cine Milano: un
+  patio de comidas con aire de verbena, cines, teatro, una sala de conciertos y dos hoteles. Es
+  Kabukichō entero metido en un rascacielos.
+sections:
+  - heading: Qué hay, planta por planta
+    body: |
+      Abrió el 14 de abril de 2023, con 48 plantas sobre el suelo y cinco bajo él. La levantó Tōkyū
+      sobre el solar de su complejo de cines Milano, cerrado en 2014. De abajo arriba:
+
+      - **Sótanos**: Zepp Shinjuku, una sala de conciertos, y ZEROTOKYO, un club.
+      - **Segunda planta**: el **Shinjuku Kabuki hall**, un patio de comidas con neón, mesas
+        compartidas y puestos de cocina de distintas regiones. Es la foto de la ficha de
+        [Shinjuku](#shinjuku), y el único sitio de la zona donde un grupo de cuatro se sienta junto
+        sin pelearse por un taburete.
+      - **Plantas intermedias**: el teatro THEATER MILANO-Za, que rescata el nombre del cine viejo,
+        y los cines 109 Cinemas Premium.
+      - **Planta 17**: JAM17, restaurante y bar de hotel.
+      - **De la 18 a la 47**: dos hoteles, el Hotel Groove Shinjuku y, arriba del todo, el
+        Bellustar Tokyo.
+  - heading: Por qué subir, aunque sea un rato
+    body: |
+      Porque es la mejor manera de entender cómo funciona [Kabukichō](#kabukicho): el barrio lleva
+      ochenta años derribando sus teatros para levantar el siguiente, y esta es la versión de ahora.
+      La planta de comidas, además, es una forma barata y sin reserva de cenar en el centro del
+      barrio. Y la fachada, que se ve desde la plaza de los cines, imita una fuente de agua
+      cayendo: es de la arquitecta Yuko Nagayama, y de noche se enciende.
+curiosidades:
+  - >-
+    **Está donde estaba el cine Milano**, abierto en 1956. El teatro de la torre lleva su nombre,
+    y el barrio, que ha derribado casi todos sus escenarios, conserva así al menos uno.
+  - >-
+    **Abrió en dos tiempos**: el ocio el 14 de abril de 2023 y los hoteles un mes después.
+seenIn:
+  - ref: '#dia-8-yamanote'
+    label: "Día 8 · la última noche de los cuatro"
+  - ref: '#kabukicho'
+    label: "Kabukichō"

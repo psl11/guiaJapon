@@ -88,6 +88,9 @@ blocks:
         lon: 139.4808048
       - reco: alba-wood-works-kawagoe
         nota: "Tus propios palillos en media hora larga. **Martes a viernes, de 12:30 a 18:00.**"
+      - nombre: "Starbucks de Kanetsuki-dōri"
+        maps: "Starbucks Coffee Kawagoe Kanetsuki Dori"
+        nota: "En un edificio de estilo tradicional, en la misma calle del campanario."
   - block: Tarde
     time: "14:00–16:30"
     title: Hikawa, y los túneles de los deseos

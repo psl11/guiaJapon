@@ -507,7 +507,12 @@ dos copias a la vuelta de Kawagoe (apartadas el miércoles en Yodobashi Akiba; p
 **no es metálica** —ni *steelbook* ni la portada de lámina, que es de la primera tirada de Europa y
 EE. UU.—, y está dicho. El viernes 6, antes de Haneda, un cóctel en el **New York Bar** a las 17:00, la hora en que no
 se cobra la entrada (¥3.300 desde las 18:30; reabrió en dic 2025, no se reserva, +15 % de
-servicio); el jueves queda como la alternativa con jazz. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
+servicio); el jueves queda como la alternativa con jazz. En oct 2026 entraron también los sitios de momiji y los Starbucks que recomienda **Japonismo**, solo
+donde caen de paso: Tōfuku-ji tras Fushimi Inari (día 14), Kyū-Furukawa junto al Rikugi-en (día
+17), Shinjuku Gyoen dos veces —crisantemos para el cuarto el viernes 6, el Momijiyama para los tres
+el día 21— y los Starbucks de Kawagoe, Ninenzaka, el Tsutaya de Shibuya, la Roastery de
+Naka-Meguro y el de dentro de Shinjuku Gyoen. La ficha del momiji avisa de que la primera
+previsión de 2026 viene tardía (arce de Kioto hacia el 11 de diciembre). **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
 Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
 `mapa` y corre `node scripts/build-routemap.mjs`.

@@ -409,8 +409,8 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**125 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **26 recomendados del
-grupo** (§10: 19 de Alba y 7 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
+**125 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **27 recomendados del
+grupo** (§10: 19 de Alba y 8 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
 cine y libros: cada película, serie o anime que el grupo ha visto, con dónde se rodó, qué día se
@@ -545,7 +545,11 @@ En Tsukiji, los dos sitios en que comió, en el mismo edificio (4-13-5): la barr
 Aozora Sandaime Bettei, que quizá cierre los miércoles, justo el día 20, y Yakiuo Ishikawa debajo.
 Y **la cena del día 8 es en Shin-Ōkubo**, su cuenta pendiente de cuatro viajes: barbacoa coreana
 para cuatro (Yopu, con Tonchan de plan B), y de ahí andando por Kabukichō a Golden Gai, con Omoide
-de camino al tren. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
+de camino al tren. El jueves 12 (día 7), después de cenar, **Muscle Girls** en Ikebukuro: el bar
+de culturistas que dan bofetadas, en el turno de las 20:00 (¥6.000, ochenta minutos con barra
+libre). Va ahí porque es la única noche de los cuatro con hueco: la del viernes ya lleva Shin-Ōkubo
+y Golden Gai. El «bar Pokémon» de Ikebukuro que pidió es el mostrador de Pikachu Sweets, que ya
+estaba en el día 17. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
 coordenadas. Cuando haya red hacia OSM, añade la parada y corre el script.
 **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,

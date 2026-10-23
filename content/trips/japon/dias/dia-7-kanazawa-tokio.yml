@@ -27,6 +27,17 @@ traslados:
     duracion: "2 h 30"
     hora: "salir 14:00"
     nota: "**¥14.380, y no lleva vagones libres**: el asiento reservado no es opcional, es la única forma de subir."
+  - desde: "Kamiyachō"
+    hasta: "Ikebukuro"
+    medio: "Metro Hibiya y Marunouchi, transbordo en Kasumigaseki"
+    duracion: "~30 min"
+    hora: "salir 19:25"
+    nota: "Al turno de las 20:00 de Muscle Girls, a dos minutos de la salida oeste."
+  - desde: "Ikebukuro"
+    hasta: "Roppongi"
+    medio: "Metro Marunouchi y Hibiya, transbordo en Kasumigaseki"
+    duracion: "~35 min"
+    hora: "hacia las 21:30"
 blocks:
   - block: Amanecer
     time: "07:00–09:00"
@@ -140,13 +151,18 @@ blocks:
       [los vuelos](#vuelos).
 
 
-      Si queda cuerpo, el paseo de vuelta al hotel ya tiene luces de Navidad: la avenida de
-      Keyakizaka, al pie de Roppongi Hills, está encendida desde el 5 de noviembre.
+      Y la penúltima noche de los cuatro tiene un plan que propone Pablo:
+      [Muscle Girls](#pablo-muscle-girls), en Ikebukuro, el bar de culturistas que, si se paga aparte,
+      os dan una bofetada. Se cena primero cerca del hotel, se pasa por la avenida de Keyakizaka, al
+      pie de Roppongi Hills, que ya tiene las luces de Navidad encendidas, y a las 19:25 se coge el
+      metro para el turno de las 20:00. Hay que reservarlo.
     ver:
       - ficha: roppongi
         nota: Los tres museos del barrio y lo que Akasaka guarda detrás de sus muros.
       - reco: pablo-luces-roppongi
         nota: Cuatrocientos metros de árboles en blanco y azul, de 17:00 a 22:00. Gratis.
+      - reco: pablo-muscle-girls
+        nota: Turno de las 20:00, ochenta minutos con barra libre por ¥6.000. La bofetada va aparte.
       - nombre: Gonpachi
         maps: Gonpachi Nishiazabu Tokyo
         nota: "El *izakaya* que copió *Kill Bill*: turístico y caro, pero vale una copa."
@@ -155,7 +171,7 @@ blocks:
     comer:
       - comida: shogun-burger
         elegido: true
-        nota: Pablo ha ido muchas veces. Wagyu sin reserva, en la sede de Azabudai Hills, a un paso del hotel.
+        nota: Pablo ha ido muchas veces. Wagyu sin reserva en Azabudai Hills, al lado del metro de Kamiyachō.
       - comida: toufuya-ukai
         nota: Si el viaje va a tener una cena cara, esta, al pie de la Torre de Tokio. Con reserva.
 alt:

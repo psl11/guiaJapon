@@ -1,0 +1,33 @@
+slug: pablo-muscle-girls
+trip: japon
+order: 27
+fuente: pablo
+kind: ver
+title: Muscle Girls, el bar de las culturistas
+navLabel: "Muscle Girls"
+tipo: bar de espectáculo, con barra libre
+city: Tokio
+area: Ikebukuro 2-41-2, sótano del edificio Hayama, a dos minutos de la salida oeste
+cuando: "Día 7 · jueves 12, turno de las 20:00 · abre de 17:00 a 23:00 y cierra los martes"
+dia:
+  ref: "#dia-7-kanazawa-tokio"
+  label: "Día 7 · la primera noche en Roppongi"
+aviso: "Se entra por turnos con reserva (17:00, 18:30, 20:00 y 21:30); sin ella, si está lleno, no se pasa. En el sexto piso del mismo edificio hay otro bar de músculos que no es este."
+url: https://musclegirls.jimdofree.com/
+link:
+  url: https://e.japanticket.com/shops/muscle_girls
+  label: Reservar
+body: |
+  Las camareras son culturistas y el espectáculo es su fuerza. Sirven los batidos de proteínas con
+  jeringuilla y, si se paga aparte, dan una bofetada o una patada en el trasero que manda al cliente
+  volando, con aplausos de la sala. Se ha hecho famoso sobre todo entre los turistas extranjeros.
+
+  - **¥6.000 por persona** por ochenta minutos con barra libre, con impuestos y servicio.
+  - **Lo demás se paga en «dólares musculares»**, diez por ¥1.000. Con ellos va la bofetada; lo
+    que cuesta cada número no está publicado.
+  - **Solo para mayores de 18 años.**
+
+  Lo propone Pablo para la penúltima noche de los cuatro.
+seenIn:
+  - ref: "#dia-7-kanazawa-tokio"
+    label: Día 7 · la primera noche en Roppongi

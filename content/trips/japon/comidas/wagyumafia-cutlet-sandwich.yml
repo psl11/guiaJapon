@@ -1,0 +1,31 @@
+slug: wagyumafia-cutlet-sandwich
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 164
+title: WAGYUMAFIA The Cutlet Sandwich
+navLabel: "Wagyumafia"
+tipo: sándwich de *katsu* de wagyu, casi para llevar
+area: Naka-Meguro, en los bajos de la torre Atlas, a dos minutos de la estación
+cuando: "Naka-Meguro · de 11:00 a 21:00 · cierra los miércoles"
+precio: "Desde unos ¥5.000; el de Kobe pasa de los ¥20.000"
+reserva: "No"
+badge: "El sándwich de 125 euros de Pablo"
+fuente: pablo
+quePedir: "**Mirad el precio antes de señalar en la carta.** El de *chateaubriand* de Kobe es el de las fotos, y el que pasa de los veinte mil yenes."
+body: >-
+  Un mostrador pequeño, casi para llevar, que hace una sola cosa:
+  sándwiches de *katsu* de wagyu, la carne rebozada en panko y frita, entre dos rebanadas de pan de
+  molde. La carta va por cortes y sube deprisa. El de arriba, el de *chateaubriand* de Kobe, está
+  entre los sándwiches más caros del mundo.
+
+
+  **Pablo compró uno por error**, de 125 euros, para disgusto de su novia. Y aun así lo recomienda,
+  sabiendo lo que se pide.
+link:
+  url: https://tabelog.com/en/tokyo/A1317/A131701/13209035/
+  label: Ver en Tabelog
+seenIn:
+  - ref: "#solo-3-ginza"
+    label: "Solo · mié 4 · Naka-Meguro"

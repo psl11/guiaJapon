@@ -1,0 +1,31 @@
+slug: pablo-starbucks-ninenzaka
+trip: japon
+order: 23
+fuente: pablo
+kind: ver
+title: El Starbucks de Ninenzaka, arriba y descalzos
+navLabel: "Starbucks de Ninenzaka"
+tipo: café en una casa de madera de hace un siglo
+city: Kioto
+area: Ninenzaka, en la cuesta que sube a Kiyomizu-dera
+cuando: "Día 13 · miércoles 18, por la mañana · de 8:00 a 20:00"
+dia:
+  ref: "#dia-13-kioto-este"
+  label: "Día 13 · Higashiyama"
+url: https://www.walkerplus.com/article/125452/
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Starbucks%20Coffee%20Kyoto%20Ninenzaka%20Yasaka%20Chaya
+  label: Google Maps
+body: >-
+  Abrió en 2017 en una casa de madera de dos plantas de hace más de cien años, en plena cuesta de
+  Ninenzaka. Por fuera no hay letrero luminoso: el logo va en una cortina *noren*, como en cualquier
+  tienda vieja de la calle.
+
+
+  Lo que lo hace distinto está **en la planta de arriba**. Hay tres salas de tatami con cojines en
+  el suelo y un pergamino en cada una, y en ellas el café se toma sentado y descalzo, como en
+  cualquier casa japonesa. Pablo subió en noviembre de 2023 y es lo que recomienda: pedir abajo y
+  subir. Si las rodillas protestan, en la misma planta hay algún sofá.
+seenIn:
+  - ref: "#dia-13-kioto-este"
+    label: Día 13 · Higashiyama

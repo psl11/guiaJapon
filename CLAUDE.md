@@ -50,7 +50,7 @@ noche del día 16 y los textos que hoy dicen «Asakusa o Ginza» (`grep -rn "Asa
 
 ---
 
-## 3. Las diez trampas que ya nos han costado tiempo
+## 3. Las once trampas que ya nos han costado tiempo
 
 **3.1 · Content v3 NO valida `type:'data'` contra zod en el build.** Es un fallo conocido
 (nuxt/content#3351). Un YAML mal formado pasa el build y revienta en runtime. **La puerta real es
@@ -129,6 +129,20 @@ global de `overflow-wrap: break-word` en `p, li, td…`.
 calcula layout, así que no puede medir el desbordamiento). **La medición de verdad es en el
 navegador a 320 y 375 px**, contando elementos cuyo `scrollWidth > clientWidth` o cuyo borde derecho
 pasa del viewport. Hazlo siempre que toques una tarjeta.
+
+**3.11 · YAML plegado y Markdown no cuentan igual los saltos de línea.** Los cuerpos se escriben
+en plegado (`body: >-`) y se pintan con `<MDC>`. En plegado, **una** línea en blanco da un solo
+`\n`, que para Markdown es un salto suave: los dos párrafos salían fundidos en uno. Y dos viñetas
+en líneas seguidas se pliegan en una sola línea: la lista del castillo de Nijō salía como un único
+elemento con «- **Horario:**» en mitad del texto. Estuvo así publicado en 39 ficheros hasta oct
+2026, con todos los tests en verde. La regla:
+
+- **Entre párrafos, dos líneas en blanco.** Entre viñetas, una.
+- **Si el texto lleva sangrías** (listas con continuación sangrada, numeradas largas), que vaya en
+  literal, `|-`, donde cada salto queda como está escrito.
+
+Lo vigila `tests/data/folded-scalars.spec.ts`, que lee el YAML crudo, porque el valor ya parseado
+no distingue un párrafo fundido de uno bueno.
 
 ---
 
@@ -259,7 +273,7 @@ hay imagen libre verificable. Es la decisión correcta.
 ## 5. Herramientas del repo
 
 ```bash
-npx vitest run tests        # LA puerta. 23 tests: esquemas, anclas, orders, subset inline
+npx vitest run tests        # LA puerta. 31 tests: esquemas, anclas, orders, subset inline, YAML plegado
 npx nuxi generate           # build estático a .output/public
 node scripts/build-routemap.mjs # hornea los mapas de `ruta` (bloque) y `mapa` (día)
 ```
@@ -395,8 +409,8 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**118 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **18 recomendados del
-grupo** (§10) · 65 fotos · PWA sin garantía de offline (§3.9).
+**125 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **27 recomendados del
+grupo** (§10: 19 de Alba y 8 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
 cine y libros: cada película, serie o anime que el grupo ha visto, con dónde se rodó, qué día se
@@ -515,7 +529,29 @@ Naka-Meguro y el de dentro de Shinjuku Gyoen. La ficha del momiji avisa de que l
 previsión de 2026 viene tardía (arce de Kioto hacia el 11 de diciembre). Y cuatro fichas de **la noche de Shinjuku son de Pablo Sánchez** y lo dicen: Omoide Yokochō,
 Kabukichō, la torre de Kabukichō (2023) y Golden Gai, entre Shinjuku y Ebisu-Meguro en el índice.
 Para eso `FichaSchema` ganó `fuente` (opcional, `alba` | `pablo`), que pinta en la cabecera el
-mismo chip «Recomienda…» que las comidas. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
+mismo chip «Recomienda…» que las comidas. Las luces de Navidad que Pablo recordaba van como
+recomendados suyos: las de **Roppongi Hills** (5 nov – 25 dic de 2026) en la primera noche de
+Roppongi, día 7, y la **Dreamination de Hiroshima**, que este año empieza el 4 de diciembre según su
+web oficial (en 2025 fue el 17 de noviembre), con el aviso de que el grupo no la verá. Y más
+recomendados suyos de otros viajes: **los sofás de THE ROOF** en la azotea de Shibuya Sky (día 8,
+¥7.000 con dos copas; las entradas salen a las 0:00 de Japón, dos semanas antes según la web y
+cuatro según algunas guías), **el Tokyo City View** para buscar el Fuji (con los cuatro no cabe
+con luz; va el domingo 15 como cambio por el mirador de Ebisu si el día sale limpio, y por eso el
+mapa del día 10 sigue diciendo Ebisu), **Arashiyama al atardecer** con el bosque de los kimonos
+(una alternativa al día 12, no el plan: el día sigue empezando en el bambú a las siete) y **el
+Starbucks de Ninenzaka** con el café en tatami arriba. Entre las comidas, Ippudo de Kioto y de Ginza
+y Wagyumafia, la del sándwich de 125 euros, que cierra justo el miércoles en que pasa por delante.
+En Tsukiji, los dos sitios en que comió, en el mismo edificio (4-13-5): la barra de sushi de
+Aozora Sandaime Bettei, que quizá cierre los miércoles, justo el día 20, y Yakiuo Ishikawa debajo.
+Y **la cena del día 8 es en Shin-Ōkubo**, su cuenta pendiente de cuatro viajes: barbacoa coreana
+para cuatro (Yopu, con Tonchan de plan B), y de ahí andando por Kabukichō a Golden Gai, con Omoide
+de camino al tren. El jueves 12 (día 7), después de cenar, **Muscle Girls** en Ikebukuro: el bar
+de culturistas que dan bofetadas, en el turno de las 20:00 (¥6.000, ochenta minutos con barra
+libre). Va ahí porque es la única noche de los cuatro con hueco: la del viernes ya lleva Shin-Ōkubo
+y Golden Gai. El «bar Pokémon» de Ikebukuro que pidió es el mostrador de Pikachu Sweets, que ya
+estaba en el día 17. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
+coordenadas. Cuando haya red hacia OSM, añade la parada y corre el script.
+**Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
 Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
 `mapa` y corre `node scripts/build-routemap.mjs`.

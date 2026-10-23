@@ -54,6 +54,7 @@ blocks:
       Yasaka** asomando al fondo, que es el plano que todo el mundo tiene en la cabeza. Se anda
       despacio y se mira hacia dentro de las tiendas, que son de cerámica y de té y no de imanes.
 
+
       Y **pisad con cuidado**: la superstición local dice que tropezar en ellas trae tres o dos años
       de mala suerte, según la cuesta. Venden amuletos para arreglarlo en la propia calle, que es un
       modelo de negocio redondo.
@@ -68,9 +69,8 @@ blocks:
         nota: La postal de la ladera, al fondo de la cuesta.
         lat: 34.9985564
         lon: 135.7792488
-      - nombre: "Starbucks de Ninenzaka"
-        maps: "Starbucks Coffee Kyoto Ninenzaka Yasaka Chaya"
-        nota: "En una casa de madera centenaria de la cuesta, con salas de tatami arriba y sin cartel luminoso."
+      - reco: pablo-starbucks-ninenzaka
+        nota: "En una casa de madera centenaria de la cuesta. Subid: arriba el café se toma en tatami."
     comer:
       - comida: arabica-higashiyama
         elegido: true
@@ -104,6 +104,7 @@ blocks:
       Al norte queda **Gion**, y basta con dos calles: Hanamikōji, la de las casas de té con celosía,
       y el canal de Shirakawa, que es la más bonita y la que menos gente hace. El momento es al
       encender los faroles, no antes.
+
 
       Un aviso para no hacer el ridículo: **casi ninguna de las «geishas» que se ven de día por aquí
       lo es.** Quién es quién y cómo se distingue está en la ficha de Higashiyama: leedlo antes de
@@ -145,8 +146,10 @@ blocks:
       - **Shōren-in — del 7 de noviembre al 7 de diciembre**, de 17:30 a 21:30 con última entrada a
       las 21:00, entre ¥800 y ¥1.000. Hoy entra de sobra, y **vuelve a abrir de noche después de
       cinco años cerrado por obras**.
+
       - **Kōdai-ji** — de finales de octubre a principios de diciembre, desde las 17:00, ¥600. Las
       fechas exactas las publica el templo y conviene confirmarlas, pero la ventana cubre estos días.
+
 
       **El que no vais a ver es el de Kiyomizu-dera**: en 2026 va del 21 al 30 de noviembre y salís de
       Kioto el viernes 20. Por un día. Esas fechas las dan las guías de viaje; a mediados de
@@ -170,6 +173,7 @@ alt:
     hecho al revés que todo el mundo: de norte a sur y a última hora, cuando la marea va en la
     otra dirección y no queda casi nadie. Son dos kilómetros junto a un canal, con un templo en cada
     extremo — cuáles y por qué, en [Higashiyama](#higashiyama).
+
 
     O [**Kurama y Kibune**](https://www.google.com/maps/search/?api=1&query=Kurama%20Kibune%20Kyoto), al
     norte en tren, dos pueblos de montaña unidos por un sendero de una hora con un onsen al final.

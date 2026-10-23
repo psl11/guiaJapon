@@ -30,6 +30,7 @@ blocks:
       Quince minutos de tren desde la estación de Kioto hasta Saga-Arashiyama, y hay que estar aquí
       **con la primera luz**. Cuatrocientos metros de camino entre cañas de veinte metros.
 
+
       El consejo es raro y es el bueno: **parad y callaos un minuto**. Lo que está protegido aquí
       oficialmente no es la vista, es el sonido, y a las diez de la mañana no se oye nada porque hay
       mil personas hablando.
@@ -38,6 +39,12 @@ blocks:
       body: >-
         **A las siete se camina solo; a las diez es una estación de metro en hora punta.** No hay
         término medio, y por eso este día empieza antes que ningún otro de Kioto.
+
+
+        **El otro extremo es el final del día, y es el que recomienda Pablo**: el bambusal a la
+        puesta de sol, cuando ya se han ido los grupos, y al salir, el bosque de los kimonos encendido
+        en la estación. Obliga a darle la vuelta al día entero, empezando por el pabellón dorado, y
+        cómo queda está en [su tarjeta](#pablo-arashiyama-atardecer).
     ver:
       - ficha: arashiyama
         nota: El bosque protegido por su sonido, el jardín de Musō Sōseki y el pueblo de detrás.
@@ -46,6 +53,8 @@ blocks:
         nota: Abierto siempre y gratis. A las siete, para vosotros.
         lat: 35.0167419
         lon: 135.6711482
+      - reco: pablo-arashiyama-atardecer
+        nota: La alternativa de Pablo, al revés que el plan, con el bambú a la puesta de sol.
   - block: Mañana
     time: "09:00–12:00"
     title: Tenryū-ji, la villa vacía y el río
@@ -54,10 +63,12 @@ blocks:
       que devuelve al camino del bambusal justo donde acaba: ahí está Ōkōchi Sansō, para sentarse. Después,
       el puente Togetsukyō.
 
+
       **Y aquí hay una decisión que tomar, y es la razón por la que este día es martes y no
       miércoles.** Donde termina la villa arranca **Saga-Toriimoto**, una calle conservada que sube
       hacia el monte Atago y que en veinticinco minutos andando lleva a los dos Nenbutsu-ji. De paso
       quedan el Giō-ji y el Jōjakkō-ji.
+
 
       Cuesta unas dos horas con la subida, y en noviembre **el sol se pone a las 16:40**. Quien suba
       llega al noroeste con tiempo para el pabellón dorado y el Ryōan-ji, pero no para los tres:
@@ -136,9 +147,12 @@ blocks:
       recorrido de noche no es el de día.
 
       - **Fechas:** del 23 de octubre al 5 de diciembre, todas las noches.
+
       - **Horario:** de 18:00 a 22:00, con última entrada a las 21:00.
+
       - **Precio:** ¥2.000 de lunes a jueves, o **¥1.600 comprando antes del 22 de octubre**. Es
       martes, así que os toca la tarifa barata. La entrada de día es otra y no sirve.
+
       - **Cómo se llega desde el Ninna-ji:** un taxi entre cuatro, un cuarto de hora. O un cuarto de
       hora andando hasta Hanazono, la JR Sagano hasta Nijō, a dos paradas, y diez minutos más a pie.
     ver:
@@ -177,6 +191,7 @@ alt:
     - [**Iwatayama**](https://www.google.com/maps/search/?api=1&query=Iwatayama%20Monkey%20Park%20Kyoto),
     el parque de macacos de lo alto de la colina. **Las jaulas son para las personas.** Y desde
     arriba se ve Kioto entero.
+
     - El [**Kimono Forest**](https://www.google.com/maps/search/?api=1&query=Kimono%20Forest%20Arashiyama)
     de la estación del tranvía Randen: seiscientos cilindros con estampados de kimono, iluminados
     por dentro al anochecer.

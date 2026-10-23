@@ -1,0 +1,31 @@
+slug: ippudo-kyoto-porta
+trip: japon
+part: japon
+city: Kioto
+category: comida
+order: 162
+title: Ippudo, en la estación de Kioto
+navLabel: "Ippudo · estación de Kioto"
+tipo: ramen de Hakata, de cadena
+area: Porta, el centro comercial bajo la plaza de la estación, junto a la salida Karasuma
+cuando: "Kioto · nada más bajar del tren, o antes de cogerlo"
+reserva: "No"
+badge: "La cadena de Fukuoka, desde 1985"
+fuente: pablo
+quePedir: "El **Shiromaru**, el caldo blanco de siempre, o el **Akamaru**, con su bola de miso especiado y aceite de ajo. Y los fideos duros, *katamen*."
+body: >-
+  Ippudo abrió en 1985 en Fukuoka, la ciudad del *tonkotsu*, el caldo de hueso de cerdo hervido
+  hasta quedar blanco y espeso, y hoy tiene locales por todo Japón y medio mundo. Es el ramen de
+  cadena que no falla: el mismo cuenco en todas partes, fideos finos al punto que se pida y
+  *kaedama*, una segunda ración de fideos para el caldo que sobra, a la manera de Hakata.
+
+
+  Es **el de siempre de Pablo**, que no pasa por la estación de Kioto sin parar aquí. Está en Porta,
+  bajo la plaza de la estación, nada más salir por el lado de Karasuma, así que sirve para comer al
+  bajar del Shinkansen sin buscar nada. En Tokio, el suyo es [el de Ginza](#ippudo-ginza).
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Ippudo%20Kyoto%20Porta
+  label: Google Maps
+seenIn:
+  - ref: "#dia-11-tokio-kioto"
+    label: Día 11 · llegada a Kioto

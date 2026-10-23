@@ -1,0 +1,35 @@
+slug: pablo-luces-roppongi
+trip: japon
+order: 21
+fuente: pablo
+kind: ver
+title: Las luces de Navidad de Roppongi Hills
+navLabel: "Luces de Roppongi"
+tipo: iluminación navideña, gratis
+city: Tokio
+area: Keyakizaka-dōri, al pie de Roppongi Hills, a unos minutos del hotel
+cuando: "Del 5 de noviembre al 25 de diciembre de 2026 · de 17:00 a 22:00"
+dia:
+  ref: "#dia-7-kanazawa-tokio"
+  label: "Día 7 · la primera noche en Roppongi"
+aviso: "El primer día se enciende más tarde por la inauguración. El resto, desde las 17:00."
+url: https://www.fashion-press.net/news/151512
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Keyakizaka%20Roppongi%20Hills
+  label: Google Maps
+body: >-
+  La avenida de Keyakizaka baja desde Roppongi Hills con cuatrocientos metros de olmos japoneses
+  cubiertos de luces blancas y azules, cerca de un millón de LED, con la Torre de Tokio asomando al
+  fondo. Este año se encienden el 5 de noviembre, así que las cuatro noches del grupo en Roppongi,
+  del 12 al 15, caen enteras dentro.
+
+
+  Desde el 13 de noviembre se suman las luces del jardín Mōri y de la plaza 66, dentro de Roppongi
+  Hills. Tokyo Midtown, a diez minutos andando, monta las suyas; en 2025 las encendió el 14 de
+  noviembre, y las fechas de 2026 aún no están publicadas.
+
+
+  Lo recomienda Pablo, que las vio en otro noviembre: se pasean al volver al hotel, sin más plan.
+seenIn:
+  - ref: "#dia-7-kanazawa-tokio"
+    label: La primera noche en Roppongi

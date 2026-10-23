@@ -1,0 +1,28 @@
+slug: ippudo-ginza
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 163
+title: Ippudo Ginza
+navLabel: "Ippudo Ginza"
+tipo: ramen de Hakata, de cadena
+area: Ginza 4-10-3, a dos minutos de Higashi-Ginza y del Kabuki-za
+cuando: "Ginza · sin reserva"
+reserva: "No"
+badge: "La cadena de Fukuoka, desde 1985"
+fuente: pablo
+quePedir: "El **Akamaru**, y un *kaedama* para acabar el caldo."
+body: >-
+  El mismo cuenco que el de [la estación de Kioto](#ippudo-kyoto-porta), en el barrio más caro de
+  Tokio: caldo de cerdo de Hakata, fideos finos y una segunda ración para el caldo que sobra.
+
+
+  **Pablo va siempre a los de Ginza**, y este es el de 4-chōme, a dos manzanas del Kabuki-za. Es la
+  forma rápida de comer bien entre dos tiendas, sin reserva ni carta que descifrar.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Ippudo%20Ginza%204-10-3
+  label: Google Maps
+seenIn:
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · Ginza

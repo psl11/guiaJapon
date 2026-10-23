@@ -1,0 +1,39 @@
+slug: pablo-the-roof-shibuya-sky
+trip: japon
+order: 24
+fuente: pablo
+kind: ver
+title: Los sofás de la azotea de Shibuya Sky
+navLabel: "THE ROOF de Shibuya Sky"
+tipo: zona de sofás con bebida, en la azotea del mirador
+city: Tokio
+area: Shibuya Scramble Square, en la azotea, a unos 230 metros
+cuando: "Día 8 · viernes 13 · sofá de 16:00 a 16:50, con la puesta de sol dentro"
+dia:
+  ref: "#dia-8-yamanote"
+  label: "Día 8 · Shibuya"
+aviso: "Las entradas salen a la venta a las 0:00 de Japón. La web oficial dice que dos semanas antes, pero hay guías que dicen cuatro, así que hay que mirarlo ya. Con mal tiempo, la zona de sofás cierra."
+url: https://www.shibuya-scramble-square.com/sky/the-roof/
+link:
+  url: https://www.shibuya-scramble-square.com/sky/ticket/
+  label: Entradas
+body: |
+  Es la zona reservada de la azotea: una fila de sofás al borde de la terraza, con la ciudad entera
+  delante y sin cristal. Se compra como una entrada más del mirador, para una franja de cincuenta
+  minutos que empieza a la hora en punto. Pablo la hizo en noviembre de 2023 y la recomienda sin
+  reservas.
+
+  - **¥7.000 por persona** con la entrada al mirador, el cubierto, dos bebidas y algo de picar.
+    Con una benjamina de champán, ¥8.000.
+  - **Solo para dos o más, y para mayores de veinte años.** Los cuatro, sin problema.
+  - **En noviembre abre de 15:00 a 21:00.** La franja buena es la de las 16:00: el sol se pone hacia
+    las 16:35 y la ciudad se enciende antes de que acabe.
+
+  La entrada normal a partir de las 15:00 cuesta ¥3.400, así que el sofá sale por ¥3.600 más: dos
+  copas, algo de comer y un sitio para sentarse a ver la puesta de sol, que en la azotea normal se
+  ve de pie y entre codos.
+seenIn:
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · Shibuya
+  - ref: "#shibuya-sky"
+    label: Subir a Shibuya Sky

@@ -1,0 +1,30 @@
+slug: yakiuo-ishikawa
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 168
+title: Tsukiji Yakiuo Ishikawa
+navLabel: "Yakiuo Ishikawa"
+tipo: pescado a la brasa en la mesa
+area: Tsukiji 4-13-5, planta baja, en el mercado exterior
+cuando: "Tsukiji · de 11:00 a 15:00 y de 17:30 a 22:00 · cierra los lunes"
+reserva: "Por internet, en Ikyu"
+badge: "Probado por Pablo"
+fuente: pablo
+quePedir: "El menú de mediodía de *yakiuo*, con atún y pescado del día para asar en la mesa."
+body: >-
+  La idea del *yakiniku* aplicada al pescado: los cortes llegan crudos y se asan en la mesa. En la
+  temporada pasada, el menú de mediodía llevaba dos piezas de *chūtoro*, dos de carrillera de atún y
+  dos a elección de la casa.
+
+
+  **Pablo comió aquí y le encantó.** Está en la planta baja del mismo edificio que la barra de sushi
+  de [Aozora Sandaime](#aozora-sandaime-bettei), y solo cierra los lunes: el miércoles 25, a
+  diferencia de su vecina, no hay duda.
+link:
+  url: https://restaurant.ikyu.com/113079
+  label: Reservar en Ikyu
+seenIn:
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · Tsukiji

@@ -1,0 +1,42 @@
+slug: pablo-arashiyama-atardecer
+trip: japon
+order: 26
+fuente: pablo
+kind: ver
+title: Arashiyama al atardecer, y el bosque de los kimonos encendido
+navLabel: "Arashiyama al atardecer"
+tipo: la otra manera de hacer el día del oeste
+city: Kioto
+area: Bambusal de Arashiyama y estación de Arashiyama del Randen
+cuando: "Día 12 · martes 17 · el sol se pone hacia las 16:45 · el bosque de los kimonos se enciende al anochecer, hasta hacia las 21:00"
+dia:
+  ref: "#dia-12-kioto-oeste"
+  label: "Día 12 · Kioto oeste"
+aviso: "Es una alternativa al plan del día, no un añadido: el bambú se ve al amanecer o al atardecer, y en esta versión no cabe la subida a Saga-Toriimoto."
+url: https://www.gltjp.com/ja/directory/item/11963/
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Kimono%20Forest%20Arashiyama%20Station
+  label: Google Maps
+body: |
+  El día del oeste empieza en el bambusal a las siete porque es cuando se camina solo. Pablo
+  recomienda lo contrario: llegar cuando el sol se está poniendo, que es cuando se han ido los grupos
+  y queda poca gente, y salir ya de noche por la estación.
+
+  El cambio es darle la vuelta al día entero:
+
+  - **Por la mañana, el noroeste:** el pabellón dorado a las nueve, con la luz de la mañana, que es la
+    buena; luego el Ryōan-ji y el Ninna-ji.
+  - **A mediodía, el Randen** desde Omuro-Ninnaji hasta Arashiyama, con transbordo en
+    Katabiranotsuji: un tranvía pequeño y unos veinticinco minutos.
+  - **Por la tarde**, Tenryū-ji y Ōkōchi Sansō, que cierran a las cinco, y el bambusal a la puesta
+    de sol.
+  - **Al anochecer, el bosque de los kimonos**: unos seiscientos postes de acrílico con tela de
+    *kyō-yūzen* dentro, en el andén y los caminos de la estación del Randen. Los diseñó Yasumichi
+    Morita en 2013, se iluminan al caer el sol y no se pagan.
+
+  El castillo de Nijō sigue cabiendo: la JR Sagano lo deja a diez minutos desde Saga-Arashiyama.
+seenIn:
+  - ref: "#dia-12-kioto-oeste"
+    label: Día 12 · Kioto oeste
+  - ref: "#arashiyama"
+    label: Arashiyama

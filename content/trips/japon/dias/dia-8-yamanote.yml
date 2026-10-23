@@ -30,6 +30,18 @@ traslados:
     duracion: "20 min"
     hora: "salir 08:15"
     nota: "Para estar en el santuario cuando aún lo barren."
+  - desde: "Shibuya"
+    hasta: "Shin-Ōkubo"
+    medio: "JR Yamanote, directo"
+    duracion: "~10 min"
+    hora: "salir 18:15"
+    nota: "Cuatro paradas hacia el norte, la siguiente después de Shinjuku."
+  - desde: "Shinjuku"
+    hasta: "Roppongi"
+    medio: "Metro Ōedo, directo"
+    duracion: "~10 min"
+    hora: "antes del último tren"
+    nota: "Uno de los cuatro sale mañana a las ocho hacia Narita."
 blocks:
   - block: Mañana
     time: "08:30"
@@ -48,6 +60,7 @@ blocks:
         es el arranque del fin de semana grande. Habrá críos de tres años con kimono y cara de
         circunstancias, y familias con fotógrafo contratado. El sábado los tres que siguen verán la
         versión de Kamakura, y el domingo la de barrio.
+
 
         Con suerte, además, **una boda sintoísta**: una novia de *shiromuku* blanco bajo un parasol
         rojo cruzando el patio. Son sobre todo de fin de semana, pero las hay entre semana. Nada de
@@ -70,6 +83,7 @@ blocks:
       una tienda, y que se recorre mirando fachadas, no escaparates. Doscientos metros separan la
       cultura pop más ruidosa del país de su arquitectura más seria.
 
+
       Entre el bosque y el gentío queda el **parque Yoyogi**, villa olímpica de 1964, con el gimnasio
       de Kenzō Tange en su borde. Comer cae aquí: los cuatro de abajo los trajo Alba y están en el
       mismo kilómetro. La forma sensata de elegir es mirar las colas.
@@ -79,6 +93,7 @@ blocks:
         Harajuku en fin de semana **es otra cosa**: es cuando la gente se viste para venir, y se
         concentran en el Jingū-bashi. Hoy es viernes, así que habrá bastante menos que en sábado. Cada estilo tiene nombre propio y se distingue a la vista; los
         cuatro que vais a ver están en la ficha.
+
 
         Una norma, no un dato: **se pide permiso antes de fotografiar**. Van vestidos para que se les
         vea, no para que se les persiga.
@@ -132,6 +147,16 @@ blocks:
         16:40, así que se entra sobre las 16:00 para coger la última luz sobre el Fuji, el crepúsculo y
         el encendido de la ciudad en una sola visita. El aire de noviembre es el más transparente del
         año.
+
+
+        **Y para verlo sentados, los sofás de la azotea**: la franja de las 16:00 de THE ROOF son
+        cincuenta minutos con la puesta de sol dentro, dos copas y algo de picar, por ¥7.000 por
+        persona con la entrada incluida. Los recomienda Pablo, que los probó en noviembre de 2023.
+
+
+        **Las entradas salen a las 0:00 de Japón.** La web oficial dice que dos semanas antes, o sea
+        el viernes 30 de octubre, que en España es el jueves 29 a las 16:00. Algunas guías dicen que
+        cuatro semanas, y entonces ya estarían a la venta: miradlo ya.
     ver:
       - ficha: shibuya
         nota: Hachikō, el río tapado bajo Cat Street y las cuatro ventanas al cruce.
@@ -150,6 +175,8 @@ blocks:
         nota: La azotea abierta de Scramble Square. Franja de las 16:00, con reserva.
         lat: 35.6583792
         lon: 139.7022161
+      - reco: pablo-the-roof-shibuya-sky
+        nota: "THE ROOF: sofá de 16:00 a 16:50, dos copas y la entrada, ¥7.000 por cabeza."
       - nombre: Pokémon Center Shibuya
         maps: Pokemon Center Shibuya Parco
         nota: En la 6.ª planta del Parco, con un Mewtwo a tamaño real y Nintendo Tokyo en la misma planta.
@@ -185,32 +212,43 @@ blocks:
       - comida: meikyoku-kissa-lion
         nota: "El café de música clásica de 1926 en Dōgenzaka. Las butacas miran a los altavoces y no se habla."
   - block: Noche
-    time: "noche"
-    title: Los callejones de Shinjuku
+    time: "desde las 18:30"
+    title: La pequeña Seúl, y los callejones de Shinjuku
     body: >-
-      La última noche de los cuatro. Cena a veinte minutos de casa, en dos callejones muy distintos a
-      los dos lados de la estación: [Omoide Yokochō](#omoide-yokocho), dos pasillos de barras de seis
-      taburetes bajo faroles rojos donde se pica [yakitori](#yakitori) al humo, y el laberinto de
+      La última noche de los cuatro, y se hace andando de norte a sur. Empieza una parada más allá de
+      Shinjuku, en **Shin-Ōkubo**, el barrio coreano de Tokio y la cuenta pendiente de Pablo desde
+      hace cuatro viajes. La Yamanote llega directa desde Shibuya en diez minutos. Allí se cena
+      barbacoa coreana, que resuelve el problema de esta noche: es de los pocos sitios donde los
+      cuatro os sentáis a la misma mesa. Reservad, que en viernes se llena.
+
+
+      Después, diez minutos a pie hacia el sur, y se entra en [Kabukichō](#kabukicho) por arriba: la
+      [torre de Kabukichō](#kabukicho-tower), de 2023, con su patio de comidas de neón en la segunda
+      planta, la cabeza de Godzilla asomada al cine y, al otro lado de la avenida, el laberinto de
       [Golden Gai](#golden-gai), casi trescientos bares diminutos de dos plantas, cada uno con su
       tema.
 
-      Entre uno y otro se cruza [Kabukichō](#kabukicho), y en su centro está la
-      [torre de Kabukichō](#kabukicho-tower), de 2023. Su segunda planta es un patio de comidas con
-      neón y mesas compartidas: el único sitio de la noche donde os sentáis los cuatro sin buscar
-      hueco, y el mejor para cenar algo de verdad antes de las copas.
 
-      Aviso para un grupo de cuatro: **no cabéis juntos en casi ningún sitio**, así que la noche va
-      por turnos o de pie. Varios bares cobran cubierto, está anunciado en la puerta y no es una
-      estafa.
+      Aviso para un grupo de cuatro: **en Golden Gai no cabéis juntos en casi ningún sitio**, así que
+      la noche va por turnos o de pie. Varios bares cobran cubierto, está anunciado en la puerta y no
+      es una estafa.
+
 
       Si hay que elegir uno donde quepáis los cuatro y que tenga personalidad, que sea **Albatross
       G**: tres plantas estrechas, lámparas de araña y cuadros hasta el techo. Cobra ¥500 de cubierto
       con algo de picar, tiene carta en inglés y está acostumbrado a que entre gente de fuera. Id
       pronto, antes de las nueve, y pedid sitio arriba para cuatro.
 
-      Y **mirad el último tren antes de la tercera copa**: es la diferencia entre veinte minutos de
-      vuelta y un taxi de cuatro o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
+
+      Para volver se cruza al otro lado de la estación, y por el camino queda
+      [Omoide Yokochō](#omoide-yokocho): dos pasillos de barras de seis taburetes bajo faroles rojos,
+      para un último pincho de [yakitori](#yakitori) al humo antes del tren. Y **mirad el último tren
+      antes de la tercera copa**: es la diferencia entre veinte minutos de vuelta y un taxi de cuatro
+      o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
     ver:
+      - nombre: Shin-Ōkubo
+        maps: Shin-Okubo Koreatown Tokyo
+        nota: Barbacoa, cosmética y K-pop, una parada al norte de Shinjuku por la Yamanote.
       - ficha: shinjuku
         nota: De dónde salen estos callejones y por qué nadie los ha demolido.
       - nombre: Omoide Yokochō
@@ -241,11 +279,15 @@ blocks:
         lat: 35.6852851
         lon: 139.7224783
     comer:
-      - comida: yonpachi-shinjuku
-        nota: "La alternativa con mesa: *izakaya* de pescado con bonito quemado a la paja."
-      - comida: ramen-nagi
+      - comida: yopu-shin-okubo
         elegido: true
-        nota: Ramen de sardina seca dentro del propio Golden Gai, abierto las veinticuatro horas.
+        nota: "*Samgyeopsal* de cerdo madurado, con mesa para cuatro en tres plantas. Reserva por internet."
+      - comida: tonchan-shin-okubo
+        nota: El clásico de la calle, si Yopu está lleno. También reserva por internet.
+      - comida: yonpachi-shinjuku
+        nota: "La alternativa con mesa sin salir de Shinjuku: *izakaya* de pescado con bonito quemado a la paja."
+      - comida: ramen-nagi
+        nota: Para el final, ramen de sardina seca dentro de Golden Gai, abierto las veinticuatro horas.
       - comida: "shokudo-wata"
         nota: "Izakaya sentados con Bib Gourmand 2026, a diez minutos. Con cuatro, reservad."
 alt:
@@ -256,9 +298,11 @@ alt:
     - El [**Museo Nezu**](https://www.google.com/maps/search/?api=1&query=Nezu%20Museum%20Tokyo), un
     edificio de Kengo Kuma con un jardín que no parece Tokio. A diez minutos de Omotesandō, y cierra
     los lunes, no hoy.
+
     - [**Shimokitazawa**](https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Tokyo), dos
     paradas al oeste: segunda mano, discos y teatro pequeño. Es donde va la gente de esta ciudad
     cuando no quiere turistas.
+
     - [**Daikanyama**](https://www.google.com/maps/search/?api=1&query=Daikanyama%20Tokyo) y su
     [librería Tsutaya](#daikanyama-tsutaya), probablemente el mejor sitio del mundo para pasar dos
     horas sin hacer nada.

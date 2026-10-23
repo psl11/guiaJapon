@@ -1,0 +1,40 @@
+slug: pablo-tokyo-city-view
+trip: japon
+order: 25
+fuente: pablo
+kind: ver
+title: El Fuji desde Roppongi Hills
+navLabel: "Tokyo City View"
+tipo: mirador acristalado, planta 52
+city: Tokio
+area: Torre Mori, Roppongi Hills, a cinco minutos andando del hotel
+cuando: "Día 10 · domingo 15, al atardecer, si el día sale limpio · de 10:00 a 22:00"
+dia:
+  ref: "#dia-10-tokio-centro"
+  label: "Día 10 · la tarde"
+aviso: "El Fuji solo sale con el aire limpio. Si el domingo amanece con bruma, este cambio no compensa."
+url: https://art-view.roppongihills.com/en/info/
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Tokyo%20City%20View%20Roppongi%20Hills
+  label: Google Maps
+body: |
+  El mirador de la torre Mori, en la planta 52, es un anillo de cristal a unos 250 metros sobre el
+  mar. Mira a toda la ciudad y tiene a la Torre de Tokio de frente, cosa que no puede ofrecer la
+  propia torre. Hacia el oeste, a unos cien kilómetros, queda el Fuji. Pablo ha subido en varios
+  viajes a intentar verlo y lo recomienda.
+
+  - **Cuándo:** con los cuatro no hay hueco con luz de día. El jueves 12 llegáis de noche, el
+    viernes salís a las ocho y cuarto y el mirador abre a las diez, y el sábado os separáis. Queda el domingo
+    15 para los tres: al atardecer, en lugar del mirador de Ebisu, si el cielo está limpio. A esa hora el
+    Fuji, si sale, sale recortado en negro contra el cielo naranja.
+  - **Cuánto:** ¥2.600 el domingo, que cuenta como fin de semana. Entre semana son ¥2.400.
+  - **La azotea:** el Sky Deck, la terraza abierta de arriba, se pagaba aparte, y las fuentes no
+    coinciden en si sigue abriendo. Preguntad en taquilla.
+
+  Al bajar, la avenida de Keyakizaka ya está encendida, y la cena de Azabu-Jūban queda a un paseo cuesta
+  abajo.
+seenIn:
+  - ref: "#dia-10-tokio-centro"
+    label: Día 10 · la tarde
+  - ref: "#roppongi"
+    label: Roppongi

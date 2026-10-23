@@ -27,6 +27,17 @@ traslados:
     duracion: "2 h 30"
     hora: "salir 14:00"
     nota: "**¥14.380, y no lleva vagones libres**: el asiento reservado no es opcional, es la única forma de subir."
+  - desde: "Kamiyachō"
+    hasta: "Ikebukuro"
+    medio: "Metro Hibiya y Marunouchi, transbordo en Kasumigaseki"
+    duracion: "~30 min"
+    hora: "salir 19:25"
+    nota: "Al turno de las 20:00 de Muscle Girls, a dos minutos de la salida oeste."
+  - desde: "Ikebukuro"
+    hasta: "Roppongi"
+    medio: "Metro Marunouchi y Hibiya, transbordo en Kasumigaseki"
+    duracion: "~35 min"
+    hora: "hacia las 21:30"
 blocks:
   - block: Amanecer
     time: "07:00–09:00"
@@ -106,6 +117,7 @@ blocks:
       se entra en la llanura del Kantō, que ya no se abandona hasta Kioto. **Asiento reservado**: el
       Kagayaki no lleva vagones libres — no es que se llenen, es que no existen.
 
+
       Al bajar, antes de ir al hotel, **la compra del matcha**: es la única tarde con los cuatro
       juntos y sin maletas, y la tienda de Ippodo está a dos minutos del andén. Qué comprar, en
       [la tarjeta del matcha](#matcha).
@@ -134,11 +146,23 @@ blocks:
       tarjeta cargada. Lo nuevo es el barrio —**estas cuatro noches, Roppongi**, a veinte minutos de
       la estación de Tokio por Marunouchi y Hibiya— y que mañana no hay que madrugar para coger nada.
 
+
       Y una cuenta que conviene hacer esta noche: **le quedan a uno de vosotros dos días**. Ver
       [los vuelos](#vuelos).
+
+
+      Y la penúltima noche de los cuatro tiene un plan que propone Pablo:
+      [Muscle Girls](#pablo-muscle-girls), en Ikebukuro, el bar de culturistas que, si se paga aparte,
+      os dan una bofetada. Se cena primero cerca del hotel, se pasa por la avenida de Keyakizaka, al
+      pie de Roppongi Hills, que ya tiene las luces de Navidad encendidas, y a las 19:25 se coge el
+      metro para el turno de las 20:00. Hay que reservarlo.
     ver:
       - ficha: roppongi
         nota: Los tres museos del barrio y lo que Akasaka guarda detrás de sus muros.
+      - reco: pablo-luces-roppongi
+        nota: Cuatrocientos metros de árboles en blanco y azul, de 17:00 a 22:00. Gratis.
+      - reco: pablo-muscle-girls
+        nota: Turno de las 20:00, ochenta minutos con barra libre por ¥6.000. La bofetada va aparte.
       - nombre: Gonpachi
         maps: Gonpachi Nishiazabu Tokyo
         nota: "El *izakaya* que copió *Kill Bill*: turístico y caro, pero vale una copa."
@@ -147,7 +171,7 @@ blocks:
     comer:
       - comida: shogun-burger
         elegido: true
-        nota: Wagyu sin reserva en la sede de Azabudai Hills, a un paso del hotel.
+        nota: Pablo ha ido muchas veces. Wagyu sin reserva en Azabudai Hills, al lado del metro de Kamiyachō.
       - comida: toufuya-ukai
         nota: Si el viaje va a tener una cena cara, esta, al pie de la Torre de Tokio. Con reserva.
 alt:
@@ -156,6 +180,7 @@ alt:
     En Kanazawa, el **Museo D. T. Suzuki**: un pabellón mínimo de hormigón y agua dedicado al
     filósofo que explicó el zen a Occidente, con una sala vacía para sentarse frente a un estanque.
     Se ve en cuarenta minutos y no hay nadie.
+
 
     Y si preferís cortar la mañana y salir antes, el Shinkansen de Kanazawa para en **Nagano** por el
     camino: el **Zenkō-ji** está a diez minutos de la estación, es uno de los templos más importantes

@@ -1,0 +1,25 @@
+slug: tonchan-shin-okubo
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 166
+title: Tonchan
+navLabel: "Tonchan · Shin-Ōkubo"
+tipo: barbacoa coreana, *samgyeopsal*
+area: Shin-Ōkubo, Ōkubo 2-32-3
+cuando: "Shin-Ōkubo · de 11:00 a 23:00, todos los días"
+reserva: "Por internet, en Hot Pepper, hasta las 21:00 del mismo día"
+badge: "Se anuncia como la primera samgyeopsal de Japón"
+fuente: pablo
+quePedir: "La *samgyeopsal*, que se pide de dos raciones en dos raciones."
+body: >-
+  El clásico del barrio: se presenta como el primer restaurante de Japón dedicado solo a la
+  *samgyeopsal*, y es de los más concurridos de Shin-Ōkubo. Es el plan B si [Yopu](#yopu-shin-okubo)
+  no tiene sitio.
+link:
+  url: https://www.hotpepper.jp/strJ000249142/
+  label: Reservar en Hot Pepper
+seenIn:
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · la última noche de los cuatro

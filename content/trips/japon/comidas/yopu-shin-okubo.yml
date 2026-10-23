@@ -1,0 +1,30 @@
+slug: yopu-shin-okubo
+trip: japon
+part: japon
+city: Tokio
+category: cena
+order: 165
+title: Yopu, el rey del cerdo a la sal
+navLabel: "Yopu · Shin-Ōkubo"
+tipo: barbacoa coreana, *samgyeopsal*
+area: Shin-Ōkubo, Ōkubo 1-16-21, a cinco minutos de la estación
+cuando: "Shin-Ōkubo · de 11:00 a 23:30, todos los días"
+precio: "Unos ¥3.500 por cabeza de media"
+reserva: "Por internet, en Hot Pepper. En viernes, conviene"
+badge: "Cerdo de Iwate madurado catorce días"
+fuente: pablo
+quePedir: "La *samgyeopsal*: panceta en lonchas gruesas que se asa en la mesa, se corta con tijera y se come envuelta en lechuga con ajo, *kimchi* y pasta de soja."
+body: >-
+  Su nombre entero es Yopu no Ō Butashioyaki, «el rey del cerdo a la sal de Yopu», y hace una sola
+  cosa: panceta a la plancha, a la coreana. La carne es Iwachū, un cerdo de marca de Iwate, madurada
+  catorce días y cortada gruesa.
+
+
+  Está en la guía por la mesa. Tiene tres plantas y reserva por internet, y en una noche en la que los
+  cuatro no cabéis juntos en ninguna barra de Shinjuku, es lo que permite cenar sentados.
+link:
+  url: https://www.hotpepper.jp/strJ001134982/
+  label: Reservar en Hot Pepper
+seenIn:
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · la última noche de los cuatro

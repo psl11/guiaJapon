@@ -33,7 +33,8 @@ blocks:
 
 
       **Si en algún momento del viaje toca sentarse a una barra de sushi de mercado, es aquí.** Abajo
-      van las tres casas, de menos a más ceremonia.
+      van las tres casas, de menos a más ceremonia, y dos más que recomienda Pablo, en el mismo
+      edificio: sushi en el primer piso y pescado a la brasa en la planta baja.
     window:
       label: Ventana óptima
       body: >-
@@ -62,6 +63,10 @@ blocks:
         nota: "Barra *edomae* con el pescado de esa madrugada. Abre a las 11:00: hay que estirar."
       - comida: tsukiji-sushi-sei
         nota: La casa madre de 1889, ya comida formal. Pedid el *honten* al reservar.
+      - comida: aozora-sandaime-bettei
+        nota: La barra de sushi de Pablo, ocho asientos. Abre a las 11:00, y quizá cierre los miércoles.
+      - comida: yakiuo-ishikawa
+        nota: Atún y pescado del mercado asados en la mesa, en la planta de abajo. Abre a las 11:00.
   - block: Mediodía
     time: "11:30–14:00"
     title: Ginza, y el Japón que se mira a sí mismo

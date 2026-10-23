@@ -1,0 +1,32 @@
+slug: aozora-sandaime-bettei
+trip: japon
+part: japon
+city: Tokio
+category: comida
+order: 167
+title: Tsukiji Aozora Sandaime Bettei
+navLabel: "Aozora Sandaime Bettei"
+tipo: barra de sushi de ocho asientos
+area: Tsukiji 4-13-5, primera planta, en el mercado exterior
+cuando: "Tsukiji · comidas de 11:00 a 15:00 · cierra los lunes, y quizá los miércoles"
+precio: "A mediodía, unos ¥3.500; por la noche, *omakase* desde ¥8.800, más ¥800 de cubierto"
+reserva: "Por internet, en Tabelog"
+badge: "Probado por Pablo"
+fuente: pablo
+quePedir: "La *omakase*: el cocinero elige y sirve pieza a pieza."
+body: >-
+  Ocho asientos de barra en el primer piso de un edificio del mercado exterior, con el cocinero
+  delante y el pescado de esa mañana. Es el anexo, el *bettei*, de Aozora Sandaime, otra casa de
+  sushi de Tsukiji, y a mediodía tiene un menú corto que permite sentarse a una barra de verdad sin
+  pagar lo de la noche.
+
+
+  **Pablo comió aquí y le encantó.** El problema es el día. Tsukiji toca el miércoles 25, y Yahoo!
+  Travel e Hitosara dan el miércoles como cierre semanal, mientras que Hot Pepper y Retty solo dicen
+  lunes. Antes de contar con él, mirad la reserva en Tabelog para ese día: si deja reservar, abre.
+link:
+  url: https://selection.tabelog.com/tokyo/A1313/A131301/13219831/
+  label: Reservar en Tabelog
+seenIn:
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · Tsukiji

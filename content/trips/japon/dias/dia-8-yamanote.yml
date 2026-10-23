@@ -30,6 +30,18 @@ traslados:
     duracion: "20 min"
     hora: "salir 08:15"
     nota: "Para estar en el santuario cuando aún lo barren."
+  - desde: "Shibuya"
+    hasta: "Shin-Ōkubo"
+    medio: "JR Yamanote, directo"
+    duracion: "~10 min"
+    hora: "salir 18:15"
+    nota: "Cuatro paradas hacia el norte, la siguiente después de Shinjuku."
+  - desde: "Shinjuku"
+    hasta: "Roppongi"
+    medio: "Metro Ōedo, directo"
+    duracion: "~10 min"
+    hora: "antes del último tren"
+    nota: "Uno de los cuatro sale mañana a las ocho hacia Narita."
 blocks:
   - block: Mañana
     time: "08:30"
@@ -200,25 +212,26 @@ blocks:
       - comida: meikyoku-kissa-lion
         nota: "El café de música clásica de 1926 en Dōgenzaka. Las butacas miran a los altavoces y no se habla."
   - block: Noche
-    time: "noche"
-    title: Los callejones de Shinjuku
+    time: "desde las 18:30"
+    title: La pequeña Seúl, y los callejones de Shinjuku
     body: >-
-      La última noche de los cuatro. Cena a veinte minutos de casa, en dos callejones muy distintos a
-      los dos lados de la estación: [Omoide Yokochō](#omoide-yokocho), dos pasillos de barras de seis
-      taburetes bajo faroles rojos donde se pica [yakitori](#yakitori) al humo, y el laberinto de
+      La última noche de los cuatro, y se hace andando de norte a sur. Empieza una parada más allá de
+      Shinjuku, en **Shin-Ōkubo**, el barrio coreano de Tokio y la cuenta pendiente de Pablo desde
+      hace cuatro viajes. La Yamanote llega directa desde Shibuya en diez minutos. Allí se cena
+      barbacoa coreana, que resuelve el problema de esta noche: es de los pocos sitios donde los
+      cuatro os sentáis a la misma mesa. Reservad, que en viernes se llena.
+
+
+      Después, diez minutos a pie hacia el sur, y se entra en [Kabukichō](#kabukicho) por arriba: la
+      [torre de Kabukichō](#kabukicho-tower), de 2023, con su patio de comidas de neón en la segunda
+      planta, la cabeza de Godzilla asomada al cine y, al otro lado de la avenida, el laberinto de
       [Golden Gai](#golden-gai), casi trescientos bares diminutos de dos plantas, cada uno con su
       tema.
 
 
-      Entre uno y otro se cruza [Kabukichō](#kabukicho), y en su centro está la
-      [torre de Kabukichō](#kabukicho-tower), de 2023. Su segunda planta es un patio de comidas con
-      neón y mesas compartidas: el único sitio de la noche donde os sentáis los cuatro sin buscar
-      hueco, y el mejor para cenar algo de verdad antes de las copas.
-
-
-      Aviso para un grupo de cuatro: **no cabéis juntos en casi ningún sitio**, así que la noche va
-      por turnos o de pie. Varios bares cobran cubierto, está anunciado en la puerta y no es una
-      estafa.
+      Aviso para un grupo de cuatro: **en Golden Gai no cabéis juntos en casi ningún sitio**, así que
+      la noche va por turnos o de pie. Varios bares cobran cubierto, está anunciado en la puerta y no
+      es una estafa.
 
 
       Si hay que elegir uno donde quepáis los cuatro y que tenga personalidad, que sea **Albatross
@@ -227,9 +240,15 @@ blocks:
       pronto, antes de las nueve, y pedid sitio arriba para cuatro.
 
 
-      Y **mirad el último tren antes de la tercera copa**: es la diferencia entre veinte minutos de
-      vuelta y un taxi de cuatro o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
+      Para volver se cruza al otro lado de la estación, y por el camino queda
+      [Omoide Yokochō](#omoide-yokocho): dos pasillos de barras de seis taburetes bajo faroles rojos,
+      para un último pincho de [yakitori](#yakitori) al humo antes del tren. Y **mirad el último tren
+      antes de la tercera copa**: es la diferencia entre veinte minutos de vuelta y un taxi de cuatro
+      o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
     ver:
+      - nombre: Shin-Ōkubo
+        maps: Shin-Okubo Koreatown Tokyo
+        nota: Barbacoa, cosmética y K-pop, una parada al norte de Shinjuku por la Yamanote.
       - ficha: shinjuku
         nota: De dónde salen estos callejones y por qué nadie los ha demolido.
       - nombre: Omoide Yokochō
@@ -260,11 +279,15 @@ blocks:
         lat: 35.6852851
         lon: 139.7224783
     comer:
-      - comida: yonpachi-shinjuku
-        nota: "La alternativa con mesa: *izakaya* de pescado con bonito quemado a la paja."
-      - comida: ramen-nagi
+      - comida: yopu-shin-okubo
         elegido: true
-        nota: Ramen de sardina seca dentro del propio Golden Gai, abierto las veinticuatro horas.
+        nota: "*Samgyeopsal* de cerdo madurado, con mesa para cuatro en tres plantas. Reserva por internet."
+      - comida: tonchan-shin-okubo
+        nota: El clásico de la calle, si Yopu está lleno. También reserva por internet.
+      - comida: yonpachi-shinjuku
+        nota: "La alternativa con mesa sin salir de Shinjuku: *izakaya* de pescado con bonito quemado a la paja."
+      - comida: ramen-nagi
+        nota: Para el final, ramen de sardina seca dentro de Golden Gai, abierto las veinticuatro horas.
       - comida: "shokudo-wata"
         nota: "Izakaya sentados con Bib Gourmand 2026, a diez minutos. Con cuatro, reservad."
 alt:

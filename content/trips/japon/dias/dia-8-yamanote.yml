@@ -197,6 +197,11 @@ blocks:
       por turnos o de pie. Varios bares cobran cubierto, está anunciado en la puerta y no es una
       estafa.
 
+      Si hay que elegir uno donde quepáis los cuatro y que tenga personalidad, que sea **Albatross
+      G**: tres plantas estrechas, lámparas de araña y cuadros hasta el techo. Cobra ¥500 de cubierto
+      con algo de picar, tiene carta en inglés y está acostumbrado a que entre gente de fuera. Id
+      pronto, antes de las nueve, y pedid sitio arriba para cuatro.
+
       Y **mirad el último tren antes de la tercera copa**: es la diferencia entre veinte minutos de
       vuelta y un taxi de cuatro o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
     ver:
@@ -212,6 +217,9 @@ blocks:
         nota: Doscientos bares de seis plazas. Cubierto anunciado en la puerta, y es legítimo.
         lat: 35.6939905
         lon: 139.7047001
+      - nombre: Albatross G
+        maps: Albatross G Golden Gai Shinjuku
+        nota: "Tres plantas mínimas con lámparas de araña. ¥500 de cubierto con algo de picar."
       - reco: alba-omoide-yokocho-turistada
         nota: La pega de Alba a Omoide Yokochō, y el aviso de los captadores en la calle.
       - nombre: "Cabeza de Godzilla"

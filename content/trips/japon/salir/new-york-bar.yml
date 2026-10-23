@@ -7,9 +7,9 @@ title: New York Bar
 navLabel: "New York Bar"
 tipo: bar de hotel con jazz en directo · planta 52
 area: Park Hyatt Tokyo · Nishi-Shinjuku
-cuando: "Cualquier noche · el directo empieza sobre las 20:00"
-precio: "Cóctel ~¥2.000-2.500 · cover ~¥2.500, que se perdona si cenas allí"
-reserva: "Recomendable, sobre todo para mesa junto al ventanal"
+cuando: "De 17:00 a medianoche · música en directo desde las 18:30"
+precio: "Cóctel desde ¥2.640 + 15 % de servicio · desde las 18:30, ¥3.300 de entrada por persona"
+reserva: "No se reserva: por orden de llegada, y hay que tener 20 años"
 body: >-
   Es **el bar de *Lost in Translation***. La barra donde Bill Murray mira el vacío, el ventanal con
   [Shinjuku](#shinjuku) desplegado cincuenta y dos plantas más abajo, el jazz en directo al fondo: está todo tal
@@ -18,10 +18,10 @@ body: >-
   mundo.
 
 
-  Dos avisos que ahorran disgustos. **Hay cargo de entrada por la música**, y **se perdona si cenas
-  allí**: si el grupo tiene una noche de gastar, esta es. Y hay código de vestimenta —nada de
-  chanclas ni pantalón corto—, que en un viaje de mochila conviene tener presente antes de salir del
-  hotel.
+  Dos avisos que ahorran disgustos. **Desde las 18:30 se paga entrada por la música**, ¥3.300 por
+  persona, y a todo se le suma un 15 % de servicio; antes de esa hora solo se paga la copa. Y hay
+  código de vestimenta —nada de chanclas ni pantalón corto—, que en un viaje de mochila conviene
+  tener presente antes de salir del hotel.
 
 
   El truco de fotógrafo: la mesa buena es la de la esquina noreste, con la torre del Gobierno
@@ -31,7 +31,9 @@ link:
   url: "https://www.hyatt.com/park-hyatt/tyoph-park-hyatt-tokyo"
   label: Park Hyatt Tokyo
 seenIn:
-  - ref: '#dia-8-yamanote'
-    label: "Día 8 · por la noche"
+  - ref: '#solo-5-fukagawa'
+    label: "Solo · vie 6 · al atardecer"
+  - ref: '#dia-17-compras'
+    label: "Día 17 · por la noche"
   - ref: '#barrios-de-tokio'
     label: "Shinjuku"

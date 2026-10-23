@@ -505,7 +505,9 @@ aviso del *tax-free* nuevo (desde el 1 de noviembre de 2026 se paga entero y el 
 la aduana de salida). El jueves 5 sale el *Zelda: Ocarina of Time* de Switch 2 y el cuarto compra
 dos copias a la vuelta de Kawagoe (apartadas el miércoles en Yodobashi Akiba; plan B, Bic Camera Ikebukuro). En Japón no hay edición especial: los regalos de tienda son detalles; la caja japonesa
 **no es metálica** —ni *steelbook* ni la portada de lámina, que es de la primera tirada de Europa y
-EE. UU.—, y está dicho. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
+EE. UU.—, y está dicho. El viernes 6, antes de Haneda, un cóctel en el **New York Bar** a las 17:00, la hora en que no
+se cobra la entrada (¥3.300 desde las 18:30; reabrió en dic 2025, no se reserva, +15 % de
+servicio); el jueves queda como la alternativa con jazz. **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
 Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
 `mapa` y corre `node scripts/build-routemap.mjs`.

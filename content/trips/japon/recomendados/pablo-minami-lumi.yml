@@ -1,0 +1,32 @@
+slug: pablo-minami-lumi
+trip: japon
+order: 29
+fuente: pablo
+kind: ver
+title: Las luces de la salida sur de Shinjuku
+navLabel: "Shinjuku Minami Lumi"
+tipo: iluminación navideña, gratis
+city: Tokio
+area: Salida sur de la estación de Shinjuku, de la plaza del pingüino de Suica a Southern Terrace
+cuando: "Del 11 de noviembre de 2026 al 14 de febrero de 2027 · en noviembre, de 17:00 a 24:00"
+dia:
+  ref: "#dia-8-yamanote"
+  label: "Día 8 · la última noche de los cuatro"
+url: https://www.fashion-press.net/news/152138
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Shinjuku%20Southern%20Terrace
+  label: Google Maps
+body: |
+  La Shinjuku Minami Lumi enciende unas 275.000 luces en seis edificios alrededor de la salida sur
+  de la estación: la plaza del pingüino de Suica, junto a las barreras Shin-Minami de JR, la torre
+  JR Shinjuku Miraina, los grandes almacenes Takashimaya Times Square y el paseo de Southern Terrace,
+  entre otros. Suena la misma música en todos.
+
+  Este año tiene un motivo propio: el pingüino de la tarjeta Suica se retira en marzo de 2027, y
+  le han puesto un pasillo de flores con una puerta para hacerse la foto despidiéndolo.
+
+  La recomienda Pablo como último paseo de la noche del viernes 13. Está encendida hasta
+  medianoche y queda de camino a la línea Ōedo, que es la que lleva de vuelta a Roppongi.
+seenIn:
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · la última noche de los cuatro

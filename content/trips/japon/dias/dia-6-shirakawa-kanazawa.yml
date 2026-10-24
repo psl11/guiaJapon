@@ -93,6 +93,11 @@ blocks:
         debajo del suelo se fabricaba salitre para pólvora con la tierra del hogar y los
         excrementos de los gusanos. El valle abastecía en secreto al dominio de Kaga — al que vais
         esta tarde.
+
+
+        Si sobra tiempo, otras dos se visitan por dentro: la **Kanda**, una rama de los Wada, cuyo
+        desván del cuarto piso hace de mirador, y la **Nagase**, de 1890 y cinco plantas contando el
+        entresuelo, con instrumental médico de la época Edo en la de abajo.
     ver:
       - ficha: shirakawa-go
         nota: Por qué los tejados van a 45 grados, sin un clavo, y cómo los rehace el pueblo entero.
@@ -104,6 +109,12 @@ blocks:
       - nombre: Casa Wada
         maps: Wada House Shirakawa-go
         nota: La más grande del pueblo, hecha con el dinero del salitre. Se sube al desván.
+      - nombre: Casa Kanda
+        maps: Kanda House Shirakawa-go
+        nota: La rama de los Wada. El desván del cuarto piso es un mirador sobre los tejados.
+      - nombre: Casa Nagase
+        maps: Nagase House Shirakawa-go
+        nota: De 1890, cinco plantas con el entresuelo, y el instrumental de un médico de Edo.
         lat: 36.259924
         lon: 136.9076278
       - nombre: "Myōzen-ji"
@@ -145,6 +156,9 @@ alt:
   label: Si te desmarcas
   body: >-
     En Shirakawa-gō, **cruzar el puente colgante y quedarse en la orilla de enfrente**: casi todo el
-    mundo se queda en la calle principal y a doscientos metros ya no hay nadie. Y si el grupo va con
+    mundo se queda en la calle principal y a doscientos metros ya no hay nadie. Al otro lado está
+    el [Gasshō-zukuri Minka-en](https://www.google.com/maps/search/?api=1&query=Gassho-zukuri%20Minkaen%20Shirakawa-go),
+    el museo al aire libre que cita Japonismo: veinticinco construcciones traídas de pueblos del
+    valle que se quedaron vacíos, nueve de ellas protegidas por la prefectura. Unos ¥600. Y si el grupo va con
     prisa, Suganuma, un segundo pueblo *gasshō* diez kilómetros al norte con nueve casas y ningún
     autobús turístico, es lo que Shirakawa-gō era hace treinta años.

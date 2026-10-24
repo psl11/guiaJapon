@@ -409,8 +409,8 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**125 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **28 recomendados del
-grupo** (§10: 19 de Alba y 9 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
+**126 locales** en 10 ciudades · 5 de salir · 11 recomendaciones prácticas · **30 recomendados del
+grupo** (§10: 19 de Alba y 11 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
 cine y libros: cada película, serie o anime que el grupo ha visto, con dónde se rodó, qué día se
@@ -551,7 +551,17 @@ libre). Va ahí porque es la única noche de los cuatro con hueco: la del vierne
 y Golden Gai. El «bar Pokémon» que pidió era el Pokémon Center Mega Tokyo con su café, que ya estaba en el
 día 17 y pasó a ser tarjeta suya (fue con Ade en noviembre de 2023). Para no perder su letra en el
 mapa sin rehornear, la clave de `routeMapsGeo.js` se cambió a mano a `reco:…`, que es la que
-calcula el script. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
+calcula el script. Dos más suyos: la **Minami Lumi**, las luces de la salida sur de Shinjuku
+(11 nov – 14 feb), como último paseo del día 8 de camino a la Ōedo, y **Maidreamin**, el *maid café*
+de Akihabara, después de cenar el día 2. Y de **Japonismo** sobre los Alpes, solo lo que la guía no
+tenía: el Museo del Reloj y la granja de wasabi de Daiō (la de *Sueños* de Kurosawa) en Matsumoto,
+el Sakurayama Hachimangū y Maruaki en Takayama, y las casas Kanda y Nagase y el Minka-en en
+Shirakawa-gō. Lo demás que propone (mercados, Sanmachi, Hida no Sato, Shiroyama, Shinhotaka) ya
+estaba. Las **rutas a pie por nivel** viven en la reco `senderismo-alpes` (práctica, no ficha, para
+no renumerar el bloque de los Alpes): del Taishō–Kappabashi y el salto de Hirayu a Tokusawa,
+Matsukura, Dakesawa y el refugio Nishiho, con lo que se descarta en noviembre (Yari, Hotaka,
+Dokuhyō, Yakedake) y el aviso de osos. Ojo: un `ver` con `reco:` apunta a `recomendados/`, no a
+`recos/`; a una reco se enlaza desde el `body` con su ancla. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
 coordenadas. Cuando haya red hacia OSM, añade la parada y corre el script.
 **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,

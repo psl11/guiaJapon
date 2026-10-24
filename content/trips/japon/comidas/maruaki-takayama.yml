@@ -1,0 +1,24 @@
+slug: maruaki-takayama
+trip: japon
+part: japon
+city: Takayama
+category: cena
+order: 169
+title: Maruaki
+navLabel: "Maruaki · Takayama"
+tipo: buey de Hida a la parrilla, en casa de carnicero
+area: Tenmanmachi, a cinco minutos andando de la estación
+cuando: "Takayama · todos los días, a mediodía y por la noche"
+badge: "Lo recomienda Japonismo"
+fuente: pablo
+quePedir: "El buey de Hida para asar en la mesa, que es lo que vende la carnicería de la casa."
+body: >-
+  Lo lleva una carnicería de buey de Hida, y por eso la carne sale a buen precio para lo que es:
+  se asa en la mesa, como en un *yakiniku*. Es donde Japonismo manda a comerla sentados, frente a
+  las brochetas de pie de Sanmachi, y abre todos los días salvo el 1 de enero.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Maruaki%20Takayama%20Hida%20beef
+  label: Google Maps
+seenIn:
+  - ref: "#dia-5-takayama"
+    label: Día 5 · Takayama

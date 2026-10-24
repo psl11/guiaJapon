@@ -1,0 +1,33 @@
+slug: pablo-maidreamin
+trip: japon
+order: 30
+fuente: pablo
+kind: ver
+title: Maidreamin, el café de las criadas de Akihabara
+navLabel: "Maidreamin"
+tipo: café de criadas, el *maid café* de Akihabara
+city: Tokio
+area: Akihabara, la sede principal, a unos minutos del hotel
+cuando: "Día 2 · sábado 7, después de cenar · los sábados, de 10:30 a 23:00"
+dia:
+  ref: "#dia-2-shitamachi"
+  label: "Día 2 · la primera noche"
+aviso: "Los días de evento cambian los precios. Y después de las 22:00 la entrada pasa a ser una tarifa fija de ¥2.200 con una bebida."
+url: https://maidreamin.com/shop/detail.html?id=1
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Maidreamin%20Akihabara%20Honten
+  label: Google Maps
+body: |
+  El *maid café* nació en Akihabara a principios de los dos mil: camareras vestidas de criada que
+  reciben al cliente como a su amo al volver a casa, cantan, hacen juegos y le echan a la comida un
+  conjuro, *moe moe kyun*, para que sepa mejor. Maidreamin es una cadena con una veintena de
+  locales, varios en este barrio, y su sede principal abre todos los días.
+
+  - **¥880 por persona y hora**, más una consumición obligada por cabeza.
+  - **La foto con las camareras se paga aparte.** Con el móvil, a ellas no se les hace.
+
+  Pablo fue y se lo pasó en grande. Es para ir sabiendo a lo que se va, entrar en el juego y
+  reírse, y una hora basta.
+seenIn:
+  - ref: "#dia-2-shitamachi"
+    label: Día 2 · la primera noche

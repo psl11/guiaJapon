@@ -580,11 +580,13 @@ discos en Shibuya: Tower Vinyl y HMV record shop, con cena en Shogun Burger y vu
 Akiba antes de las 22:00 por los Zelda. El viernes 6 caen de paso Disk Union JazzTOKYO, en
 Ochanomizu, y la tienda de anime de Disk Union en Shinjuku-sanchōme, que es el plan B de *Cowboy
 Bebop*. Para las tiendas, `SalirSchema` ganó el `kind` **`discos`** (grupo «Tiendas de discos»,
-icono 💿). Los diez discos están en la reco `vinilos`: *Tank! Gold* de *Cowboy Bebop* en la edición
-japonesa de 2023, cuatro de jazz (*Miles in Tokyo*, *Cool Struttin'*, *Midnight Sugar*, *Scenery*),
-tres de rock con ángulo japonés (los Beatles de Odeon, *Made in Japan*, *At Budokan*), *For You* y
-*Merry Christmas Mr. Lawrence*. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de
-Laced Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
+icono 💿). La reco `vinilos` tuvo diez discos y Pablo la dejó en **tres**, los imprescindibles para
+un fan del anime y del jazz y sin tiradas limitadas ni precios de subasta: *Cowboy Bebop* (la
+banda sonora de 1998; la japonesa de 2023 fue de primera tirada limitada, así que la normal es la
+de Milan), el *Lupin III* de 1978 de Yuji Ohno, que murió en mayo de 2026 y Nippon Columbia
+reeditó en vinilo el 21 de octubre, y *Cool Struttin'* en edición japonesa. El suplente es
+*Scenery* de Ryo Fukui. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de Laced
+Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
 las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
 
 **Las compras del cuarto** viven en la reco `compras`, que remite a las que ya tenían sitio (el
@@ -628,15 +630,16 @@ en noviembre los establos se mudan a Fukuoka para el torneo de Kyūshū. Los `ve
 tanda van sin coordenadas, porque no había red hacia el GSI ni hacia OSM: salen en la lista, sin
 letra en el mapa.
 
-**Hida-Furukawa, de mención a decisión** (oct 2026, lo trajo Pablo de un pódcast y lo respalda un
-artículo de Japonismo). Va en una ventana de la tarde del día 5, «La otra tarde», escrita como
-decisión y no como plan, igual que Saga-Toriimoto en el día 12. Lo que se gana: el canal Seto con
-sus carpas, que siguen en el agua hasta finales de noviembre (en 2024 las mudaron el día 30), la
-Matsuri Kaikan y los sitios de *Your Name*, que está en la lista del grupo. Lo que cuesta: la
-caminata de Higashiyama y el Yatai Kaikan. **No se metió en el plan porque el mapa del día 5 es una
-imagen horneada de Takayama** con sus paradas por índice: cambiar la tarde lo habría dejado
-mintiendo, y Furukawa queda a 13 km, fuera del encuadre. Si el grupo lo elige, hay que reescribir
-la tarde y rehornear el mapa con red hacia OSM.
+**Hida-Furukawa es la tarde del día 5** (oct 2026; lo trajo Pablo de un pódcast y lo respalda un
+artículo de Japonismo). Primero fue una ventana de decisión y, con el visto bueno de Pablo, pasó al
+plan: tren de 14:00 a 17:00, la Matsuri Kaikan, el canal Seto con sus carpas (siguen en el agua
+hasta finales de noviembre; en 2024 las mudaron el día 30), las velas Mishima y los sitios de *Your
+Name*, que está en la lista del grupo. El Takayama Jinya pasó a la mañana, y el Yatai Kaikan y la
+caminata de Higashiyama quedaron en el `alt`, como renuncia contada. **El día 5 se quedó sin
+`mapa`**: el horneado era de la tarde vieja, con las paradas por índice, y no se podía rehornear sin
+red hacia OSM. Furukawa queda además a 13 km, fuera de aquel encuadre. Cuando haya red, se vuelve a
+poner con dos zonas (el casco de Takayama por la mañana y Furukawa por la tarde) y se corre el
+script. La entrada vieja de `routeMapsGeo.js` sigue ahí sin usar y se irá en el próximo horneado.
 
 **Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
 Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta

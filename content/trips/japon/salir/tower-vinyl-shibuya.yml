@@ -17,9 +17,9 @@ body: >-
   miércoles.
 
 
-  Aquí es donde buscar lo de *Cowboy Bebop*: las ediciones de 2023 son tirada limitada y, si
-  quedan, están aquí. Si no, la tienda de anime de [Disk Union](#disk-union-anison-shinjuku) en
-  Shinjuku las tiene de segunda mano. Qué buscar, y por qué traerlo de Japón, está en
+  Aquí es donde buscar primero el *Cowboy Bebop* y el *Lupin III* recién reeditado. Las ediciones
+  japonesas de *Cowboy Bebop* de 2023 fueron tirada limitada: si no quedan, la tienda de anime de
+  [Disk Union](#disk-union-anison-shinjuku) en Shinjuku las tiene de segunda mano. Qué buscar, y por qué traerlo de Japón, está en
   [la tarjeta de los vinilos](#vinilos).
 link:
   url: "https://tower.jp/"
@@ -28,4 +28,4 @@ seenIn:
   - ref: '#solo-3-ginza'
     label: "Solo · mié 4 · de noche"
   - ref: '#vinilos'
-    label: "Los diez vinilos"
+    label: "Los tres vinilos"

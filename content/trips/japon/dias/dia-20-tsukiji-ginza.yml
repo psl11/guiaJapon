@@ -34,8 +34,8 @@ blocks:
 
       **Si en algún momento del viaje toca sentarse a una barra de sushi de mercado, es aquí.** Abajo
       van las tres casas, de menos a más ceremonia, y la última, el Shinkan de Sushi Sei, es donde
-      Pablo comió en 2017. Detrás, otras dos que también recomienda, en un mismo edificio: sushi en el
-      primer piso y pescado a la brasa en la planta baja.
+      Pablo comió con Sergio en 2017. Pared con pared está la otra que recomienda, de pescado a la
+      brasa en la mesa.
     window:
       label: Ventana óptima
       body: >-
@@ -64,10 +64,8 @@ blocks:
         nota: "Barra *edomae* con el pescado de esa madrugada. Abre a las 11:00: hay que estirar."
       - comida: tsukiji-sushi-sei
         nota: "El Shinkan, donde Pablo comió con Sergio en 2017 y fue épico. Abre a las 11:00, también hoy."
-      - comida: aozora-sandaime-bettei
-        nota: La barra de sushi de Pablo, ocho asientos. Abre a las 11:00, y quizá cierre los miércoles.
       - comida: yakiuo-ishikawa
-        nota: Atún y pescado del mercado asados en la mesa, en la planta de abajo. Abre a las 11:00.
+        nota: Atún y pescado del mercado asados en la mesa, al lado del Shinkan de Sushi Sei. Abre a las 11:00.
   - block: Mediodía
     time: "11:30–14:00"
     title: Ginza, y el Japón que se mira a sí mismo

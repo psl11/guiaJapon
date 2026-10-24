@@ -1,0 +1,30 @@
+slug: disk-union-jazztokyo
+trip: japon
+kind: discos
+city: Tokio
+order: 9
+title: Disk Union JazzTOKYO
+navLabel: "Disk Union JazzTOKYO"
+tipo: tienda de jazz · discos nuevos y usados, CD y libros
+area: Ochanomizu · junto a la estación, a un paseo de Jinbōchō
+cuando: "El viernes 6, entre las librerías de Jinbōchō y el tren a Shinjuku"
+precio: "Gratis mirar"
+reserva: "No"
+body: >-
+  **Disk Union** es la cadena de segunda mano de Tokio, y tiene una costumbre que conviene saber
+  antes de entrar: no hace tiendas grandes, sino una por género, repartidas por Shinjuku,
+  Ochanomizu y Shibuya. Esta es la de jazz de Ochanomizu, en un primer piso con la entrada a pie de
+  calle: vinilo nuevo y usado, CD, libros y revistas, y solo jazz.
+
+
+  Cae a diez minutos de [Jinbōchō](#jimbocho), cerca de la estación de Ochanomizu, y es el sitio
+  donde buscar las ediciones japonesas de los clásicos y el jazz japonés de los setenta. El horario
+  cambia según la tienda: míralo en su web antes de ir.
+link:
+  url: "https://diskunion.net/"
+  label: Tiendas de Disk Union
+seenIn:
+  - ref: '#solo-5-fukagawa'
+    label: "Solo · vie 6 · por la tarde"
+  - ref: '#vinilos'
+    label: "Los tres vinilos"

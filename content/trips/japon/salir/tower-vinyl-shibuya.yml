@@ -1,0 +1,31 @@
+slug: tower-vinyl-shibuya
+trip: japon
+kind: discos
+city: Tokio
+order: 7
+title: Tower Vinyl Shibuya
+navLabel: "Tower Vinyl"
+tipo: tienda de vinilo · nuevo y de segunda mano, todo menos clásica
+area: Sexta planta de Tower Records Shibuya · Jinnan 1-22-14
+cuando: "Todos los días, de 11:00 a 22:00 · el miércoles 4, la primera parada"
+precio: "Gratis mirar"
+reserva: "No"
+body: >-
+  La planta de vinilo de Tower Records se mudó de Shinjuku a Shibuya en 2021, y en 2024 dobló su
+  superficie: pasa de **cien mil discos**, nuevos y usados juntos, de todos los géneros menos
+  clásica. Es la tienda donde mirar primero lo nuevo, y la que cierra más tarde de las dos del
+  miércoles.
+
+
+  Aquí es donde buscar primero el *Cowboy Bebop* y el *Lupin III* recién reeditado. Las ediciones
+  japonesas de *Cowboy Bebop* de 2023 fueron tirada limitada: si no quedan, la tienda de anime de
+  [Disk Union](#disk-union-anison-shinjuku) en Shinjuku las tiene de segunda mano. Qué buscar, y por qué traerlo de Japón, está en
+  [la tarjeta de los vinilos](#vinilos).
+link:
+  url: "https://tower.jp/"
+  label: Tower Records Japón
+seenIn:
+  - ref: '#solo-3-ginza'
+    label: "Solo · mié 4 · de noche"
+  - ref: '#vinilos'
+    label: "Los tres vinilos"

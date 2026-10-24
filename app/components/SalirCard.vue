@@ -1,12 +1,13 @@
 <script setup lang="ts">
-// SalirCard — una entrada de «Salir · música y librerías» (un club de jazz o una librería). No es
+// SalirCard — una entrada de «Salir · música y librerías» (un club de jazz, una tienda de discos o
+// una librería). No es
 // gastronomía: no lleva chip veg. Icono por `kind`, tipo · zona · encaje logístico, el porqué en
 // <MDC>, y enlaces a Google Maps (auto) + web. Los cruces (`seenIn`) son enlaces internos.
 import type { Salir } from '~~/shared/schemas'
 
 const props = defineProps<{ salir: Salir }>()
 
-const ICON: Record<string, string> = { jazz: '🎷', libreria: '📚' }
+const ICON: Record<string, string> = { jazz: '🎷', discos: '💿', libreria: '📚' }
 const mapsUrl = computed(() =>
   'https://www.google.com/maps/search/?api=1&query='
   + encodeURIComponent([props.salir.title, props.salir.area, props.salir.city].filter(Boolean).join(' ')))

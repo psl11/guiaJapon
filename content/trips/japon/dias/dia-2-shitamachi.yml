@@ -67,6 +67,14 @@ blocks:
       siguiente. Cuando se cierra una venta, el puesto entero da palmas a coro. Dura las veinticuatro
       horas, así que a media mañana ya está en marcha. Se recorre la calle de puestos y se vuelve, sin
       hacer la cola para rezar, que hoy es larga.
+
+
+      A diez minutos andando empieza lo que fue **Yoshiwara**, el barrio de placer de Edo durante
+      casi tres siglos, cerrado en 1958 con la ley contra la prostitución. Quedan el santuario de
+      Yoshiwara y, en la antigua entrada, el Mikaeri-yanagi, «el sauce de mirar atrás», donde los
+      clientes se volvían a mirar al salir. Hiroshige juntó los dos sitios en una de sus *Cien vistas
+      de Edo*: un gato en la ventana de una cortesana mirando pasar a la gente que vuelve del mercado
+      del gallo. Las calles de alrededor siguen siendo barrio rojo, hoy de *soaplands*.
     window:
       label: Por qué las dos visitas
       body: >-
@@ -83,6 +91,9 @@ blocks:
         nota: Cuchillos, palillos, vajilla y comida de plástico. Lo que guste, se compra hoy.
         lat: 35.7142517
         lon: 139.7888894
+      - nombre: Kama-asa
+        maps: Kama-asa Shoten Kappabashi
+        nota: "Cuchillos desde 1908: graban el nombre en la hoja gratis. De 10:00 a 17:30. Luego, a la maleta facturada."
       - reco: alba-zen-craft-asakusa
         nota: Tallarse los palillos, en el camino entre el templo y Kappabashi.
       - nombre: Sumida Riverwalk
@@ -91,6 +102,9 @@ blocks:
       - nombre: "Tori no ichi del santuario Ōtori"
         maps: "Otori Shrine Asakusa Tori no Ichi"
         nota: "Solo hoy y el 19: el mercado de los rastrillos de la suerte, abierto las 24 horas."
+      - nombre: "Yoshiwara y el Mikaeri-yanagi"
+        maps: "Mikaeri Yanagi Senzoku Taito Tokyo"
+        nota: "El sauce de la entrada del antiguo barrio de placer, a diez minutos del santuario Ōtori."
     comer:
       - comida: nakamise
         elegido: true
@@ -204,5 +218,12 @@ alt:
     de nueve a cuatro. Cuesta el Honkan entero y dos paradas de Yamanote.
 
     - **Cruzar el río a [Ryōgoku](#ryogoku)**, el barrio del sumo. El Museo Edo-Tokyo cuenta la ciudad
-    de madera que se quemó —comprueba si ya reabrió de su reforma— y las *heya*, los establos de
-    luchadores, entrenan a puerta entreabierta a primera hora.
+    de madera que se quemó —comprueba si ya reabrió de su reforma—. Los establos de luchadores, en
+    cambio, estarán vacíos: en noviembre se mudan a Fukuoka para el torneo de Kyūshū, que empieza
+    mañana.
+
+    - **Dos paradas más allá por la Sōbu, Kameido**, otra propuesta de
+    [Japonismo](https://japonismo.com/blog/tokio-diferente) para un Tokio menos obvio. El santuario
+    Kameido Tenjin, con sus puentes de tambor y la Skytree detrás, monta su exposición de
+    crisantemos del 25 de octubre al 23 de noviembre, y a la salida de la estación está Kameido
+    Gyoza, que en la carta solo tiene eso.

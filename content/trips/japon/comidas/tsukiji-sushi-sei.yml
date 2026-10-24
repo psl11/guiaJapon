@@ -6,11 +6,11 @@ category: comida
 order: 144
 title: Tsukiji Sushi Sei
 navLabel: "Sushi Sei"
-tipo: barra edomae de 1889 · la casa madre
-area: 4-13-5 Tsukiji, Chūō · mercado exterior
-cuando: "Día 20 · la mañana de Tsukiji, si se estira hasta las 11:30"
+tipo: barra edomae de la casa de 1889 · el Shinkan
+area: Shinkan, Tsukiji 4-13-5 · mercado exterior
+cuando: "Tsukiji · todos los días · entre semana, de 11:00 a 15:00 y de 17:00 a 21:30"
 precio: "~¥3.000-6.000 a mediodía; el omakase, bastante más"
-reserva: "Conviene para el honten; en la sucursal, cola"
+reserva: "Conviene a mediodía"
 colas: "Sí, y a mediodía largas"
 badge: "Abierta desde 1889"
 fuente: pablo
@@ -18,10 +18,10 @@ quePedir: >-
   El **omakase corto de mediodía**, que es donde está la relación calidad-precio. Y si es a la carta,
   dejar que el itamae mande el orden.
 body: >-
-  **La casa a la que ya fuiste en 2017**, y la que mejor explica qué es el sushi *edomae*: **abrió en
-  Tsukiji en 1889** y sigue siendo la matriz del grupo Sushi Sei, con más de ciento treinta años
-  haciendo lo mismo. No es un sitio de mercado con taburetes — es una barra formal, con mostrador de
-  madera y silencio.
+  **Pablo fue con Sergio en 2017 y fue épico.** Fueron al **Shinkan**, el edificio nuevo, no a la
+  casa madre: Sushi Sei **abrió en Tsukiji en 1889** y es la matriz de un grupo que tiene varias
+  barras a un par de calles. No es un sitio de mercado con taburetes — es una barra formal, con
+  mostrador de madera y silencio.
 
 
   *Edomae* significa literalmente **«delante de Edo»**, la bahía de Tokio: el sushi nació aquí como
@@ -30,10 +30,12 @@ body: >-
   *nikiri*, el arroz a temperatura de cuerpo— cuando ya no hacen falta.
 
 
-  **Un detalle al reservar:** hay **honten** (la casa madre) y varias sucursales alrededor, la *new
-  branch* entre ellas. Están a un par de calles y no son lo mismo de precio ni de ambiente. Si lo que
-  buscáis es la de 1889, **especificad *honten***.
+  **Un detalle al reservar:** el **honten** (la casa madre) y el **Shinkan** están a un par de calles
+  y no son lo mismo de precio ni de ambiente. El de Pablo es el Shinkan, en el número 4-13-5, que
+  abre todos los días, también el miércoles de Tsukiji.
 seenIn:
+  - ref: "#dia-20-tsukiji-ginza"
+    label: Día 20 · Tsukiji
   - ref: '#sushi'
     label: El sushi
   - ref: '#tsukiji'

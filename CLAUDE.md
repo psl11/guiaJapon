@@ -560,7 +560,10 @@ Shirakawa-gō. Lo demás que propone (mercados, Sanmachi, Hida no Sato, Shiroyam
 estaba. Las **rutas a pie por nivel** viven en la reco `senderismo-alpes` (práctica, no ficha, para
 no renumerar el bloque de los Alpes): del Taishō–Kappabashi y el salto de Hirayu a Tokusawa,
 Matsukura, Dakesawa y el refugio Nishiho, con lo que se descarta en noviembre (Yari, Hotaka,
-Dokuhyō, Yakedake) y el aviso de osos. Ojo: un `ver` con `reco:` apunta a `recomendados/`, no a
+Dokuhyō, Yakedake) y el aviso de osos. Cada ruta lleva el enlace a un track de Wikiloc o AllTrails
+(sacado de búsqueda, nunca construido a mano) y la tarjeta explica cómo seguirlo en el Apple Watch
+con Wikiloc Premium y sus 14 días de prueba. Y Sushi Sei es ya el **Shinkan** (4-13-5), donde
+Pablo comió con Sergio en 2017: la ficha decía «pedid el *honten*» y era al revés. Ojo: un `ver` con `reco:` apunta a `recomendados/`, no a
 `recos/`; a una reco se enlaza desde el `body` con su ancla. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
 coordenadas. Cuando haya red hacia OSM, añade la parada y corre el script.
 **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen

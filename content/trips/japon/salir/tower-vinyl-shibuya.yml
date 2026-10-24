@@ -17,7 +17,7 @@ body: >-
   miércoles.
 
 
-  Aquí es donde buscar primero el *Cowboy Bebop* y el *Lupin III* recién reeditado. Las ediciones
+  Aquí es donde buscar primero el *Cowboy Bebop* y lo nuevo de la lista. Las ediciones
   japonesas de *Cowboy Bebop* de 2023 fueron tirada limitada: si no quedan, la tienda de anime de
   [Disk Union](#disk-union-anison-shinjuku) en Shinjuku las tiene de segunda mano. Qué buscar, y por qué traerlo de Japón, está en
   [la tarjeta de los vinilos](#vinilos).
@@ -28,4 +28,4 @@ seenIn:
   - ref: '#solo-3-ginza'
     label: "Solo · mié 4 · de noche"
   - ref: '#vinilos'
-    label: "Los tres vinilos"
+    label: "Los vinilos"

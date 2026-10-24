@@ -119,7 +119,9 @@ blocks:
       Hoy, jueves 5, sale en Japón el ***Zelda: Ocarina of Time*** nuevo, y hacen falta dos copias: una
       para cada Pablo. La tienda es **Yodobashi Akiba**, junto a la estación de Akihabara y abierta hasta las 22:00:
       si anoche pediste que te las apartaran, se recogen al volver. Su regalo, mientras dure, es un
-      llavero de Navi.
+      llavero de Navi. Y al otro lado de la estación, en el 1-11-2 de Sotokanda, Super Potato vende
+      el Zelda de antes: tres plantas de juegos retro en su caja japonesa, hasta las 20:00. Si aparece
+      el *Ocarina* de Nintendo 64, es el compañero del nuevo; está en [las compras](#compras).
 
 
       Si no las apartaste, no esperes a Akihabara: la vuelta de Kawagoe pasa por Ikebukuro, y a la
@@ -147,6 +149,9 @@ blocks:
       - nombre: Bic Camera Ikebukuro
         maps: Bic Camera Ikebukuro Honten
         nota: "El plan B, de camino: la tienda central, a la salida este. Regala un póster A3."
+      - nombre: Super Potato
+        maps: Super Potato Akihabara
+        nota: "Juegos y consolas retro en caja japonesa, tres plantas. Todos los días, de 11:00 a 20:00."
     comer:
       - comida: "nakiryu"
         elegido: true

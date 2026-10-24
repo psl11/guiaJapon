@@ -110,7 +110,7 @@ blocks:
       - comida: shinamen-hashigo-ginza
         nota: "Si Hachigō no sale: *dandanmen* desde 1964, sin reserva y solo efectivo."
   - block: Media tarde
-    time: "14:30–15:15"
+    time: "14:30–15:45"
     title: El encargo de tu padre
     body: >-
       Antes de dejar Ginza, la misión: el **Seiko Presage HCC005J**, el de esfera de esmalte blanco
@@ -119,6 +119,11 @@ blocks:
       con varias plantas ordenadas por colecciones, Presage incluida, y vende los modelos que Seiko reserva a
       sus tiendas «Global Brand Core Shop», que es el caso de este. Las tiendas de Grand Seiko de
       Ginza no sirven: son otra marca de la casa.
+
+
+      Con el reloj en la bolsa, a diez minutos por la Chūō-dōri hacia el 7-chōme, está el edificio de
+      Onitsuka Tiger dedicado a la línea Nippon Made, la hecha a mano en Japón, junto a la tienda
+      grande de la marca. Por qué esa y qué más compensa traerse está en [las compras](#compras).
     window:
       label: Cómo comprarlo sin sorpresas
       body: >-
@@ -146,8 +151,11 @@ blocks:
       - nombre: The Clock House
         maps: The Clock House Tokyo Seiko
         nota: El plan B, con certificación «Core Shop» y tiendas en Tokio. Llama antes.
+      - nombre: "Onitsuka Tiger Ginza, Nippon Made"
+        maps: "Onitsuka Tiger Ginza NIPPON MADE"
+        nota: "Ginza 7-chōme, junto a la tienda grande. La línea hecha a mano en Japón, desde las 11:00."
   - block: Tarde
-    time: "15:15–17:30"
+    time: "15:45–17:30"
     title: El museo que no sale en ninguna lista, y la azotea
     body: >-
       De Ginza a Marunouchi son quince minutos andando, hasta el edificio KITTE, la antigua central de
@@ -189,7 +197,8 @@ blocks:
       Records, con lo nuevo y lo usado juntos y abierta hasta las diez. Lo de *Cowboy Bebop*, si
       queda, está aquí. Después, a cinco minutos por Udagawachō,
       [HMV record shop](#hmv-record-shop-shibuya), que es la parada de la segunda mano japonesa y
-      cierra a las nueve. Se cena entre una y otra.
+      cierra a las nueve. Se cena entre una y otra. Y si queda un rato antes de las nueve, en la sexta
+      planta del Parco, a cinco minutos, está Nintendo TOKYO, la tienda de la propia marca.
 
 
       A las nueve y cuarto, Yamanote a Akihabara: en **Yodobashi Akiba**, junto a la estación y
@@ -209,6 +218,9 @@ blocks:
       - nombre: HMV record shop Shibuya
         maps: HMV record shop Shibuya Udagawacho
         nota: "Udagawachō 36-2. La segunda mano japonesa, con su *obi*. De 11:00 a 21:00."
+      - nombre: Nintendo TOKYO
+        maps: Nintendo TOKYO Shibuya Parco
+        nota: "Sexta planta del Parco, de 10:00 a 21:00. Lo que Nintendo solo vende en sus tiendas."
       - nombre: Yodobashi Akiba
         maps: Yodobashi Akiba
         nota: "Hasta las 22:00: los dos Zelda de mañana, apartados."

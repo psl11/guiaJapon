@@ -409,7 +409,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**125 locales** en 10 ciudades · 10 de salir (jazz, discos y librerías) · 12 recomendaciones prácticas · **30 recomendados del
+**125 locales** en 10 ciudades · 10 de salir (jazz, discos y librerías) · 13 recomendaciones prácticas · **30 recomendados del
 grupo** (§10: 19 de Alba y 11 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
@@ -586,6 +586,19 @@ tres de rock con ángulo japonés (los Beatles de Odeon, *Made in Japan*, *At Bu
 *Merry Christmas Mr. Lawrence*. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de
 Laced Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
 las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
+
+**Las compras del cuarto** viven en la reco `compras`, que remite a las que ya tenían sitio (el
+Seiko, los Zelda, el matcha, los vinilos). Añade lo que encaja con lo que ya se ha traído otras
+veces, cada cosa en un día por el que ya pasa:
+
+- Onitsuka Tiger Nippon Made, en Ginza 7-chōme, al salir del Seiko el miércoles 4.
+- Un cuchillo de Kama-asa, que graba el nombre gratis, en Kappabashi el día 2.
+- Super Potato, la tienda de juegos retro de Akihabara, el jueves 5.
+- Nintendo TOKYO, en el Parco, la noche de los vinilos.
+
+Y dice lo que **no** hay que comprar allí: la Switch 2 de las tiendas japonesas, que solo está en
+japonés y solo admite cuentas japonesas. También echa las cuentas: el *tax-free* nuevo, la
+franquicia de 430 € a la vuelta (el Seiko no se puede partir y paga entero) y el litro de licor.
 
 **Japonismo: «Tokio diferente» y noviembre** (oct 2026). De su lista de barrios para quien ya ha
 visto Tokio entraron Ningyōchō (viernes 6, de Fukagawa al hotel), Yoshiwara (día 2, junto al *tori

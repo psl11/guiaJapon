@@ -33,8 +33,9 @@ blocks:
 
 
       **Si en algún momento del viaje toca sentarse a una barra de sushi de mercado, es aquí.** Abajo
-      van las tres casas, de menos a más ceremonia, y dos más que recomienda Pablo, en el mismo
-      edificio: sushi en el primer piso y pescado a la brasa en la planta baja.
+      van las tres casas, de menos a más ceremonia, y la última, el Shinkan de Sushi Sei, es donde
+      Pablo comió en 2017. Detrás, otras dos que también recomienda, en un mismo edificio: sushi en el
+      primer piso y pescado a la brasa en la planta baja.
     window:
       label: Ventana óptima
       body: >-
@@ -62,7 +63,7 @@ blocks:
       - comida: shutoku-ganso
         nota: "Barra *edomae* con el pescado de esa madrugada. Abre a las 11:00: hay que estirar."
       - comida: tsukiji-sushi-sei
-        nota: La casa madre de 1889, ya comida formal. Pedid el *honten* al reservar.
+        nota: "El Shinkan, donde Pablo comió con Sergio en 2017 y fue épico. Abre a las 11:00, también hoy."
       - comida: aozora-sandaime-bettei
         nota: La barra de sushi de Pablo, ocho asientos. Abre a las 11:00, y quizá cierre los miércoles.
       - comida: yakiuo-ishikawa

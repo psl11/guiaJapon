@@ -580,12 +580,12 @@ discos en Shibuya: Tower Vinyl y HMV record shop, con cena en Shogun Burger y vu
 Akiba antes de las 22:00 por los Zelda. El viernes 6 caen de paso Disk Union JazzTOKYO, en
 Ochanomizu, y la tienda de anime de Disk Union en Shinjuku-sanchōme, que es el plan B de *Cowboy
 Bebop*. Para las tiendas, `SalirSchema` ganó el `kind` **`discos`** (grupo «Tiendas de discos»,
-icono 💿). La reco `vinilos` tuvo diez discos y Pablo la dejó en **tres**, los imprescindibles para
-un fan del anime y del jazz y sin tiradas limitadas ni precios de subasta: *Cowboy Bebop* (la
-banda sonora de 1998; la japonesa de 2023 fue de primera tirada limitada, así que la normal es la
-de Milan), el *Lupin III* de 1978 de Yuji Ohno, que murió en mayo de 2026 y Nippon Columbia
-reeditó en vinilo el 21 de octubre, y *Cool Struttin'* en edición japonesa. El suplente es
-*Scenery* de Ryo Fukui. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de Laced
+icono 💿). La reco `vinilos` tuvo diez discos, luego tres y quedó en **Bebop y tres que suenan a Japón**,
+sin tiradas limitadas ni precios de subasta: *Cowboy Bebop* (la japonesa de 2023 fue de primera
+tirada limitada, así que la normal es la de Milan), *Scenery* de Ryo Fukui, *For You* de Tatsuro
+Yamashita (el original de 1982, porque la reedición de 2023 fue limitada) y *Music for Nine Post
+Cards* de Hiroshi Yoshimura. El suplente es el *Lupin III* de 1978 de Yuji Ohno, reeditado el 21 de
+octubre de 2026 tras su muerte en mayo. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de Laced
 Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
 las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
 

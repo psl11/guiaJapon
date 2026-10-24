@@ -409,7 +409,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**126 locales** en 10 ciudades · 5 de salir · 10 recomendaciones prácticas · **30 recomendados del
+**126 locales** en 10 ciudades · 5 de salir · 11 recomendaciones prácticas · **30 recomendados del
 grupo** (§10: 19 de Alba y 11 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
@@ -557,7 +557,11 @@ de Akihabara, después de cenar el día 2. Y de **Japonismo** sobre los Alpes, s
 tenía: el Museo del Reloj y la granja de wasabi de Daiō (la de *Sueños* de Kurosawa) en Matsumoto,
 el Sakurayama Hachimangū y Maruaki en Takayama, y las casas Kanda y Nagase y el Minka-en en
 Shirakawa-gō. Lo demás que propone (mercados, Sanmachi, Hida no Sato, Shiroyama, Shinhotaka) ya
-estaba. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
+estaba. Las **rutas a pie por nivel** viven en la reco `senderismo-alpes` (práctica, no ficha, para
+no renumerar el bloque de los Alpes): del Taishō–Kappabashi y el salto de Hirayu a Tokusawa,
+Matsukura, Dakesawa y el refugio Nishiho, con lo que se descarta en noviembre (Yari, Hotaka,
+Dokuhyō, Yakedake) y el aviso de osos. Ojo: un `ver` con `reco:` apunta a `recomendados/`, no a
+`recos/`; a una reco se enlaza desde el `body` con su ancla. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
 coordenadas. Cuando haya red hacia OSM, añade la parada y corre el script.
 **Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,

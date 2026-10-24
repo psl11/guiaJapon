@@ -46,6 +46,10 @@ blocks:
         hace por esto: **el baño de la noche, el de después de cenar y el del amanecer son tres, y de
         paso solo cabe uno**. Lo que aquí se compra no es el sitio, es el número de veces que se
         entra al agua.
+    ver:
+      - nombre: Salto de Hirayu
+        maps: Hirayu Otaki Falls
+        nota: "Sesenta y cuatro metros de caída, a veinte o treinta minutos andando de la terminal. Antes del desayuno, si se madruga."
   - block: Mañana
     time: "10:00–12:00"
     title: Sanmachi y las bolas de cedro
@@ -139,7 +143,8 @@ alt:
     [**Hida no Sato**](https://www.google.com/maps/search/?api=1&query=Hida%20no%20Sato%20Takayama), el pueblo-museo al aire libre a las afueras: treinta granjas de tejado de paja
     traídas de toda la región y remontadas, incluidas varias *gasshō-zukuri* como las de
     [Shirakawa-gō](#shirakawa-go). Si el tiempo estropea el plan de mañana, esto lo salva. Y para andar de verdad, el
-    **sendero del castillo de Matsukura** sube al mirador desde el que se ve el valle entero.
+    **sendero del castillo de Matsukura** sube en media hora desde Hida no Sato hasta las ruinas,
+    a 857 metros, desde las que se ve el valle entero.
 
 
     Y a quince minutos en tren por la línea Takayama,

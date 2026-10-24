@@ -78,6 +78,11 @@ blocks:
       De la terminal al Kappabashi, el puente colgante que es el centro del valle, y desde ahí las
       sendas llanas salen en las dos direcciones. La mañana es para ir **río arriba**: una hora por
       la orilla hasta el estanque Myōjin, que casi nadie pisa porque queda al otro lado del puente.
+
+
+      Si las piernas piden más, hay dos versiones de esta mañana: seguir llano hasta Tokusawa, o subir
+      de verdad a Dakesawa. Están, con lo que no conviene hacer en noviembre, en
+      [las rutas por nivel](#senderismo-alpes).
     ver:
       - nombre: Kappabashi
         maps: Kappa Bridge Kamikochi
@@ -89,6 +94,12 @@ blocks:
         nota: El santuario Hotaka-jinja Okumiya, del kami que da nombre al valle. Entrada pequeña, y se está solo.
         lat: 36.2540049
         lon: 137.6640105
+      - nombre: Tokusawa
+        maps: Tokusawa Kamikochi
+        nota: "Nivel medio: una hora más allá de Myōjin, por bosque llano. Se vuelve al puente hacia las 12:30."
+      - nombre: Dakesawa
+        maps: Dakesawa Hut Kamikochi
+        nota: "Algo técnico: 2 h 30 de subida hasta 2.170 m. Solo con la senda seca; el refugio ya está cerrado."
   - block: Mediodía
     time: "12:00–13:00"
     title: Comer donde no hay nada
@@ -195,7 +206,8 @@ alt:
     concentración de aguas termales al pie del paso, y subir el **teleférico de Shinhotaka**. Es el
     único de Japón con cabina de dos pisos, sube a 2.156 metros en dos tramos y deja en un mirador
     sobre los Alpes del Norte. Con nubes bajas se sale por encima de ellas, que es justo lo que no
-    puede hacerse desde el fondo del valle.
+    puede hacerse desde el fondo del valle. Desde la estación de arriba, una hora larga de senda por
+    el bosque lleva al refugio Nishiho, que abre todo el año; con nieve, solo con cadenas en las botas.
 
 
     Y a mitad de camino del estanque Taishō, apartado del sendero principal, está el estanque

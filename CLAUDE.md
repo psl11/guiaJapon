@@ -628,6 +628,16 @@ en noviembre los establos se mudan a Fukuoka para el torneo de Kyūshū. Los `ve
 tanda van sin coordenadas, porque no había red hacia el GSI ni hacia OSM: salen en la lista, sin
 letra en el mapa.
 
+**Hida-Furukawa, de mención a decisión** (oct 2026, lo trajo Pablo de un pódcast y lo respalda un
+artículo de Japonismo). Va en una ventana de la tarde del día 5, «La otra tarde», escrita como
+decisión y no como plan, igual que Saga-Toriimoto en el día 12. Lo que se gana: el canal Seto con
+sus carpas, que siguen en el agua hasta finales de noviembre (en 2024 las mudaron el día 30), la
+Matsuri Kaikan y los sitios de *Your Name*, que está en la lista del grupo. Lo que cuesta: la
+caminata de Higashiyama y el Yatai Kaikan. **No se metió en el plan porque el mapa del día 5 es una
+imagen horneada de Takayama** con sus paradas por índice: cambiar la tarde lo habría dejado
+mintiendo, y Furukawa queda a 13 km, fuera del encuadre. Si el grupo lo elige, hay que reescribir
+la tarde y rehornear el mapa con red hacia OSM.
+
 **Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
 Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta
 —Chūzenji, Irohazaka— tiene el color en **octubre**, así que adelantarlo del 24 al 14 no la salva:

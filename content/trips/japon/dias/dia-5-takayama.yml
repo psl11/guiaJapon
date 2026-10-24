@@ -100,6 +100,23 @@ blocks:
       el Takayama Jinya, que es la visita que casi nadie hace y la que mejor se recuerda —**entrad**—,
       y para cerrar la tarde el **Higashiyama Walking Course** por la ladera este, prácticamente en
       solitario.
+    window:
+      label: "La otra tarde, la que más compensa: Hida-Furukawa"
+      body: >-
+        A quince minutos en tren por la línea Takayama está **Hida-Furukawa**, el pueblo que
+        [Japonismo](https://japonismo.com/blog/excursion-bici-hida-furukawa-takayama) recomienda como el
+        Takayama sin autobuses. Tiene el canal Seto, con un millar de carpas delante de almacenes de
+        paredes blancas, que siguen en el agua hasta finales de noviembre: luego las mudan a un
+        estanque, porque en invierno el canal sirve para echar la nieve. Tiene también casas de sake,
+        una tienda de velas hechas a mano desde hace más de 240 años y la Matsuri Kaikan, con las
+        carrozas de su festival y sus autómatas (¥700, hasta las 17:00). Y es el pueblo de *Your Name*:
+        la estación donde se baja Taki, el santuario Keta Wakamiya y la biblioteca.
+
+
+        **Lo que cuesta** es la caminata de Higashiyama y el Yatai Kaikan, que en Furukawa tiene su
+        equivalente. El Jinya cabe por la mañana, a cinco minutos de Sanmachi. Tren de ida hacia las
+        14:00 y de vuelta hacia las 17:00, a tiempo para la noche del pueblo. Los locales pasan cada
+        una o dos horas (¥240; el exprés Hida, ¥570 sin reserva), así que mirad el horario la víspera.
     ver:
       - nombre: Yatai Kaikan
         maps: Takayama Matsuri Yatai Kaikan
@@ -119,6 +136,15 @@ blocks:
         nota: Hora y media señalizada entre una docena de templos, hasta las ruinas del castillo.
         lat: 36.1373944
         lon: 137.2642583
+      - nombre: "Hida-Furukawa, el canal Seto"
+        maps: "Seto River Hida Furukawa"
+        nota: "La otra tarde: un millar de carpas entre almacenes blancos, a quince minutos en tren."
+      - nombre: "Santuario Keta Wakamiya"
+        maps: "Keta Wakamiya Shrine Hida Furukawa"
+        nota: "El santuario de *Your Name*, y el del festival de Furukawa."
+      - nombre: "Hida Furukawa Matsuri Kaikan"
+        maps: "Hida Furukawa Matsuri Kaikan"
+        nota: "Las carrozas del festival y sus autómatas. ¥700; en noviembre, de 9:00 a 17:00."
   - block: Noche
     time: "noche"
     title: Cuando se van los autobuses
@@ -147,8 +173,5 @@ alt:
     a 857 metros, desde las que se ve el valle entero.
 
 
-    Y a quince minutos en tren por la línea Takayama,
-    [**Hida-Furukawa**](https://www.google.com/maps/search/?api=1&query=Hida-Furukawa%20Station): el
-    pueblo de *Your Name*. Su estación es donde se baja Taki buscando a Mitsuha, y el casco, de
-    canales con carpas y almacenes blancos, es un Takayama sin autobuses. Está todo en
-    [vuestras películas](#peliculas-del-grupo).
+    Hida-Furukawa, que antes estaba aquí, ha pasado a la tarde, como alternativa a las carrozas y a
+    la caminata. Lo de *Your Name* está en [vuestras películas](#peliculas-del-grupo).

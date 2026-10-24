@@ -409,7 +409,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**126 locales** en 10 ciudades · 5 de salir · 11 recomendaciones prácticas · **30 recomendados del
+**125 locales** en 10 ciudades · 5 de salir · 11 recomendaciones prácticas · **30 recomendados del
 grupo** (§10: 19 de Alba y 11 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
@@ -541,8 +541,9 @@ mapa del día 10 sigue diciendo Ebisu), **Arashiyama al atardecer** con el bosqu
 (una alternativa al día 12, no el plan: el día sigue empezando en el bambú a las siete) y **el
 Starbucks de Ninenzaka** con el café en tatami arriba. Entre las comidas, Ippudo de Kioto y de Ginza
 y Wagyumafia, la del sándwich de 125 euros, que cierra justo el miércoles en que pasa por delante.
-En Tsukiji, los dos sitios en que comió, en el mismo edificio (4-13-5): la barra de sushi de
-Aozora Sandaime Bettei, que quizá cierre los miércoles, justo el día 20, y Yakiuo Ishikawa debajo.
+En Tsukiji, los dos sitios en que comió, pared con pared en la planta baja del 4-13-5: el Shinkan
+de Sushi Sei y Yakiuo Ishikawa. (Durante un día la guía tuvo Aozora Sandaime Bettei, el sushi del
+primer piso del mismo número, por un enlace de Maps mal identificado: no fue nunca, y se quitó.)
 Y **la cena del día 8 es en Shin-Ōkubo**, su cuenta pendiente de cuatro viajes: barbacoa coreana
 para cuatro (Yopu, con Tonchan de plan B), y de ahí andando por Kabukichō a Golden Gai, con Omoide
 de camino al tren. El jueves 12 (día 7), después de cenar, **Muscle Girls** en Ikebukuro: el bar
@@ -562,7 +563,10 @@ no renumerar el bloque de los Alpes): del Taishō–Kappabashi y el salto de Hir
 Matsukura, Dakesawa y el refugio Nishiho, con lo que se descarta en noviembre (Yari, Hotaka,
 Dokuhyō, Yakedake) y el aviso de osos. Cada ruta lleva el enlace a un track de Wikiloc o AllTrails
 (sacado de búsqueda, nunca construido a mano) y la tarjeta explica cómo seguirlo en el Apple Watch
-con Wikiloc Premium y sus 14 días de prueba. Y Sushi Sei es ya el **Shinkan** (4-13-5), donde
+con Wikiloc Premium y sus 14 días de prueba. Se prefiere el track más reseñado (en AllTrails, el
+Kamikochi Walking Tour y el Myojin Ike Pond Loop) y, cuando la hay, la ficha oficial: la guía de
+sendas del centro de visitantes de Kamikōchi, el mapa de Higashiyama de la JNTO y el del castillo de
+Matsukura del Ayuntamiento de Takayama. Japonismo no tiene rutas propias para estas fechas. Y Sushi Sei es ya el **Shinkan** (4-13-5), donde
 Pablo comió con Sergio en 2017: la ficha decía «pedid el *honten*» y era al revés. Ojo: un `ver` con `reco:` apunta a `recomendados/`, no a
 `recos/`; a una reco se enlaza desde el `body` con su ancla. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
 coordenadas. Cuando haya red hacia OSM, añade la parada y corre el script.

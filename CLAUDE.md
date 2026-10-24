@@ -409,7 +409,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**125 locales** en 10 ciudades · 5 de salir · 11 recomendaciones prácticas · **30 recomendados del
+**125 locales** en 10 ciudades · 10 de salir (jazz, discos y librerías) · 12 recomendaciones prácticas · **30 recomendados del
 grupo** (§10: 19 de Alba y 11 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
@@ -512,8 +512,8 @@ Ginza, y el día (`solo-3-ginza`) se armó con sus recomendaciones: la antigua c
 Daikanyama, Hachigō y el Intermediatheque con la azotea de KITTE, todo sobre la línea Hibiya. Se
 descartaron también Nikkō y el Fuji, porque ya ha ido varias veces. El criterio para sus días
 solos es que **es su quinta visita**: nada de lo obvio y poca naturaleza, que ya tiene la de los
-Alpes con el grupo. De Yokohama solo queda Chigusa como plan de noche opcional, y la renuncia está
-contada en el `alt` del día. El viernes 6 **va a Haneda a recoger a los otros tres** (el día 1 lo
+Alpes con el grupo. De Yokohama quedó el jazz de Noge (Chigusa, Downbeat) como noche opcional, y
+desde oct 2026 esa noche es de vinilos en Shibuya: Noge pasó al `alt` del día, junto a la renuncia. El viernes 6 **va a Haneda a recoger a los otros tres** (el día 1 lo
 dice), y el miércoles lleva **un encargo de su padre**: el Seiko Presage HCC005J, en Seiko Dream Square (Ginza 4-chōme, la tienda de la marca; es modelo de «Core Shop» y las boutiques de Grand Seiko no lo tienen), con el
 aviso del *tax-free* nuevo (desde el 1 de noviembre de 2026 se paga entero y el 10 % se devuelve en
 la aduana de salida). El jueves 5 sale el *Zelda: Ocarina of Time* de Switch 2 y el cuarto compra
@@ -574,6 +574,46 @@ coordenadas. Cuando haya red hacia OSM, añade la parada y corre el script.
 `mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
 Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
 `mapa` y corre `node scripts/build-routemap.mjs`.
+
+**Los vinilos del cuarto** (oct 2026). La noche del miércoles 4 (`solo-3-ginza`) es para comprar
+discos en Shibuya: Tower Vinyl y HMV record shop, con cena en Shogun Burger y vuelta a Yodobashi
+Akiba antes de las 22:00 por los Zelda. El viernes 6 caen de paso Disk Union JazzTOKYO, en
+Ochanomizu, y la tienda de anime de Disk Union en Shinjuku-sanchōme, que es el plan B de *Cowboy
+Bebop*. Para las tiendas, `SalirSchema` ganó el `kind` **`discos`** (grupo «Tiendas de discos»,
+icono 💿). Los diez discos están en la reco `vinilos`: *Tank! Gold* de *Cowboy Bebop* en la edición
+japonesa de 2023, cuatro de jazz (*Miles in Tokyo*, *Cool Struttin'*, *Midnight Sugar*, *Scenery*),
+tres de rock con ángulo japonés (los Beatles de Odeon, *Made in Japan*, *At Budokan*), *For You* y
+*Merry Christmas Mr. Lawrence*. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de
+Laced Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
+las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
+
+**Japonismo: «Tokio diferente» y noviembre** (oct 2026). De su lista de barrios para quien ya ha
+visto Tokio entraron Ningyōchō (viernes 6, de Fukagawa al hotel), Yoshiwara (día 2, junto al *tori
+no ichi*), Kagurazaka (día 17, al anochecer entre los dos jardines), Kōenji (`alt` del día 17),
+Shibamata (`alt` del lunes 2) y Kameido (`alt` del día 2). Jiyūgaoka y Tennōzu no caben. La ficha
+`barrios-de-tokio` tiene una sección, «El Tokio diferente de Japonismo», que hace de índice de todo
+esto. De paso se corrigieron dos frases viejas de esa ficha: decía que Shinjuku era «vuestra base»
+y que la *yamanote* era el día 3. De noviembre entraron la avenida de ginkgos de Jingū Gaien (día
+21), el festival del momiji de Kawaguchiko con su Momiji Kairō (día 18), los crisantemos de Meiji
+Jingū (día 8), la comida de otoño en `comer-en-la-calle` y tres apuntes en `equipaje`.
+
+**Las dos iluminaciones de jardín no coinciden en 2026**: el Koishikawa Kōrakuen abre de noche del
+13 al 24 de noviembre, que coge el domingo 22, y el Rikugi-en del 25 al 6 de diciembre, que va en el
+`alt` del día 20. El día 17 decía que «los dos hacen iluminación nocturna» y el grupo habría ido al
+Rikugi-en tres días antes de que empezara.
+
+**Japonismo tiene datos viejos**, y no hay que copiarlos sin mirar:
+
+- Su calendario pone el *tori no ichi* de 2026 el 11 y el 23 de noviembre. Son las fechas de 2023;
+  este año es el 7 y el 19, como dice la guía.
+- Da el festival de Kawaguchiko del 1 al 23. En 2026 va del 7 al 29.
+- Cita el Museo Hara de Shinagawa, que cerró en enero de 2021.
+- Sitúa el *onsen* Myōjin no Yu en Shibamata, y está en Ōyata (Adachi).
+
+Y salió un error propio: el `alt` del día 2 mandaba a ver entrenar a los luchadores de Ryōgoku, y
+en noviembre los establos se mudan a Fukuoka para el torneo de Kyūshū. Los `ver` nuevos de esta
+tanda van sin coordenadas, porque no había red hacia el GSI ni hacia OSM: salen en la lista, sin
+letra en el mapa.
 
 **Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
 Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta

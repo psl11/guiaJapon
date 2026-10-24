@@ -1,0 +1,23 @@
+slug: hmv-record-shop-shibuya
+trip: japon
+kind: discos
+city: Tokio
+order: 8
+title: HMV record shop Shibuya
+navLabel: "HMV record shop"
+tipo: tienda de vinilo · nuevo y de segunda mano
+area: Udagawachō 36-2, Noah Shibuya, plantas 1 y 2 · a cinco minutos de Tower
+cuando: "Todos los días, de 11:00 a 21:00 · la segunda parada del miércoles 4"
+precio: "Gratis mirar"
+reserva: "No"
+body: >-
+  Dos plantas de vinilo en Udagawachō, el barrio de las tiendas de discos de Shibuya. Es la parada
+  para la segunda mano, y lo que de verdad compensa buscar aquí son las ediciones japonesas con su
+  *obi*, que en casa no se encuentran. Cierra una hora antes que
+  [Tower Vinyl](#tower-vinyl-shibuya), así que conviene no dejarla para el final.
+link:
+  url: "https://www.hmv.co.jp/"
+  label: HMV Japón
+seenIn:
+  - ref: '#solo-3-ginza'
+    label: "Solo · mié 4 · de noche"

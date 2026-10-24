@@ -46,6 +46,13 @@ blocks:
       japonés, y en el estanque hay un Starbucks para sentarse a mirarlo. Desde Ginza, la Marunouchi va
       directa a Shinjuku-gyoemmae en un cuarto de hora; desde Asakusa es media hora larga. Abre a las
       9:00 y hay que volver a por la maleta antes de las 15:00.
+
+
+      Y desde la puerta de Sendagaya del jardín, un cuarto de hora andando lleva a la **avenida de
+      ginkgos de Jingū Gaien**: ciento cuarenta y seis árboles en trescientos metros, que amarillean
+      justo esta semana y que Japonismo aconseja ver entre semana, como hoy. Se recorre hacia el sur y
+      al final, en la avenida Aoyama, está el metro de Gaienmae: la línea Ginza lleva sin transbordo a
+      Ginza y a Asakusa, así que sirve para cualquiera de los dos hoteles.
     ver:
       - nombre: Kyū Shiba Rikyū
         maps: Kyu Shiba Rikyu Garden Tokyo
@@ -58,6 +65,9 @@ blocks:
       - nombre: "Starbucks de Shinjuku Gyoen"
         maps: "Starbucks Coffee Shinjuku Gyoen"
         nota: "Dentro del jardín, mirando al estanque. Se entra con la entrada del jardín."
+      - nombre: "Avenida de ginkgos de Jingū Gaien"
+        maps: "Meiji Jingu Gaien Ginkgo Avenue"
+        nota: "Ciento cuarenta y seis ginkgos en su semana amarilla, a quince minutos del jardín. Gratis."
     comer:
       - comida: onigiri-konga-nihonbashi
         elegido: true

@@ -1,0 +1,28 @@
+slug: disk-union-anison-shinjuku
+trip: japon
+kind: discos
+city: Tokio
+order: 10
+title: Disk Union, la tienda de anime y videojuegos
+navLabel: "Disk Union anime"
+tipo: bandas sonoras de anime y videojuegos · nuevo y de segunda mano
+area: Shinjuku 3-31-4, edificio Yamada, planta baja · Shinjuku-sanchōme
+cuando: "El viernes 6, al salir del metro, de camino a Shinjuku Gyoen"
+precio: "Gratis mirar"
+reserva: "No"
+body: >-
+  Abrió en julio de 2023 y es la tienda de Disk Union dedicada solo a las canciones de anime y a la
+  música de videojuegos, en CD y en vinilo, nuevo y usado: más de diez mil títulos solo de
+  videojuegos. Es el **plan B de *Cowboy Bebop***: si en [Tower Vinyl](#tower-vinyl-shibuya) ya no
+  quedan las ediciones de 2023, aquí es donde aparecen de segunda mano.
+
+
+  Está a tres minutos de la estación de Shinjuku-sanchōme y a cinco de la puerta Shinjuku del
+  jardín, así que se mira al bajar del metro. El horario no está confirmado: la tienda hermana del
+  mismo edificio abre a las 12:00 entre semana.
+link:
+  url: "https://diskunion.net/"
+  label: Tiendas de Disk Union
+seenIn:
+  - ref: '#solo-5-fukagawa'
+    label: "Solo · vie 6 · por la tarde"

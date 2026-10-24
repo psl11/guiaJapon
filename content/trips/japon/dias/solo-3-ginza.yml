@@ -9,7 +9,7 @@ dek: >-
   Hoy el día es con tu familia, y se arma alrededor de una mesa en Ginza a la una, que es la hora a
   la que pueden. Por la mañana, Daikanyama y la casa Asakura; por la tarde, el museo que te
   recomiendan, a quince minutos andando del restaurante, y la azotea desde la que se ve la estación
-  de Tokio al anochecer. Todo en la misma línea de metro. Antes de nada, la mudanza.
+  de Tokio al anochecer. De noche, vinilos en Shibuya. Antes de nada, la mudanza.
 duerme:
   - super-hotel-premier-akihabara
 traslados:
@@ -31,10 +31,17 @@ traslados:
     duracion: "~20 min"
     hora: "salir 12:30"
   - desde: "Tokio"
+    hasta: "Shibuya"
+    medio: "JR Yamanote"
+    duracion: "~25 min"
+    hora: "salir 17:30"
+    nota: "Desde KITTE, la estación está enfrente."
+  - desde: "Shibuya"
     hasta: "Akihabara"
-    medio: "JR Yamanote o Keihin-Tōhoku"
-    duracion: "~5 min"
-    hora: "por la noche"
+    medio: "JR Yamanote"
+    duracion: "~30 min"
+    hora: "salir 21:15"
+    nota: "**Yodobashi Akiba cierra a las 22:00**, y hoy hay que pasar por allí."
 blocks:
   - block: Mañana
     time: "10:00–12:30"
@@ -171,27 +178,57 @@ blocks:
         maps: KITTE Garden Marunouchi
         nota: La azotea de la sexta planta, con la estación de Tokio iluminada a tus pies.
   - block: Noche
-    time: "noche"
-    title: El onsen, o jazz en Noge
+    time: "18:00–21:30"
+    title: Vinilos en Shibuya
     body: >-
-      Lo sensato es volver a Akihabara, que está a cinco minutos, y estrenar el onsen del
-      [Super Hotel Premier](#super-hotel-premier-akihabara), que esta noche ya es tu cama. De paso,
-      en Yodobashi Akiba, junto a la estación, pide que te aparten las dos copias del Zelda que sale mañana.
+      Shibuya tiene la mayor concentración de tiendas de discos de la ciudad, y esta noche es para
+      ellas. Qué buscar y por qué traerlo de aquí está en [los diez vinilos](#vinilos).
 
 
-      Si te queda cuerda, lo que salvaría de Yokohama está de noche y en una sola línea: el
-      Keihin-Tōhoku va de Tokio a Sakuragichō en unos cuarenta minutos y vuelve directo hasta
-      Akihabara. A tres minutos de esa estación, en el barrio de Noge, están **Chigusa**, el primer
-      jazz kissa del país, abierto hasta las 22:00, y [Downbeat](#downbeat), el de 1956.
+      Se empieza por lo grande: [Tower Vinyl](#tower-vinyl-shibuya), la sexta planta de Tower
+      Records, con lo nuevo y lo usado juntos y abierta hasta las diez. Lo de *Cowboy Bebop*, si
+      queda, está aquí. Después, a cinco minutos por Udagawachō,
+      [HMV record shop](#hmv-record-shop-shibuya), que es la parada de la segunda mano japonesa y
+      cierra a las nueve. Se cena entre una y otra.
+
+
+      A las nueve y cuarto, Yamanote a Akihabara: en **Yodobashi Akiba**, junto a la estación y
+      abierta hasta las 22:00, pide que te aparten las dos copias del Zelda que sale mañana. Y
+      después, el onsen del [Super Hotel Premier](#super-hotel-premier-akihabara), que esta noche ya
+      es tu cama.
+    window:
+      label: Ayer fue el día del disco
+      body: >-
+        El martes 3 es la ***Record no Hi***, el día del disco japonés: a medianoche salen a la venta
+        las ediciones limitadas en vinilo de ese día, más de cien entre el 3 de noviembre y el 5 de
+        diciembre. Hoy todavía queda algo en las estanterías; pregunta por ellas como レコードの日.
+    ver:
+      - nombre: Tower Vinyl Shibuya
+        maps: Tower Records Shibuya
+        nota: "Sexta planta. Más de cien mil discos, nuevos y usados, de 11:00 a 22:00."
+      - nombre: HMV record shop Shibuya
+        maps: HMV record shop Shibuya Udagawacho
+        nota: "Udagawachō 36-2. La segunda mano japonesa, con su *obi*. De 11:00 a 21:00."
+      - nombre: Yodobashi Akiba
+        maps: Yodobashi Akiba
+        nota: "Hasta las 22:00: los dos Zelda de mañana, apartados."
     comer:
-      - comida: chigusa
+      - comida: shogun-burger
         elegido: true
-        nota: "Café solo, de cara a los altavoces. Abierto hasta las 22:00; solo cierra los jueves."
+        nota: "La cena, en la sede de Shibuya: tu hamburguesa de siempre, abierta hasta las diez como mínimo."
+      - comida: meikyoku-kissa-lion
+        nota: "Un café entre tienda y tienda, en el salón de 1926 donde se escucha clásica y no se habla."
 alt:
   label: Lo que se ha caído, y por qué
   body: >-
     Este día era **Yokohama**: el jardín Sankeien por la mañana, el barrio alto de los extranjeros y la
     terminal de Ōsanbashi al atardecer. Se cayó por la fecha y por la comida. Los arces de Sankeien
     tienen su mejor momento de mediados de noviembre a mediados de diciembre, así que el 4 eran verdes,
-    y una mañana en Ginza no deja sitio para ir y volver con calma. Del día entero solo queda el jazz,
-    arriba, para quien tenga ganas.
+    y una mañana en Ginza no deja sitio para ir y volver con calma.
+
+
+    De Yokohama quedó un tiempo el jazz de noche, y lo han desplazado los vinilos. Sigue ahí si
+    prefieres escuchar discos a comprarlos: el Keihin-Tōhoku va de Tokio a Sakuragichō en unos
+    cuarenta minutos y vuelve directo hasta Akihabara, y a tres minutos de esa estación, en el
+    barrio de Noge, están [Chigusa](#chigusa), el primer *jazz kissa* del país, abierto hasta las
+    22:00, y [Downbeat](#downbeat), el de 1956.

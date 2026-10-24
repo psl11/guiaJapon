@@ -355,12 +355,13 @@ export const PlatoSchema = z.object({
   seenIn: z.array(Link).optional(), // dónde probarlo → enlaces a locales (comida)
 })
 
-// ── SALIR — música en vivo (jazz) y librerías (sección «Salir · música y librerías») ──────────
-// No es gastronomía: sitios para la tarde-noche (un club de jazz, una librería). Se agrupa por `kind`.
+// ── SALIR — música en vivo (jazz), discos y librerías (sección «Salir · música y librerías») ───
+// No es gastronomía: sitios para la tarde-noche (un club de jazz, una tienda de discos, una
+// librería). Se agrupa por `kind`. `discos` entró en oct 2026 con la noche de vinilos del día solo.
 export const SalirSchema = z.object({
   slug: z.string(),
   trip: z.string(),
-  kind: z.enum(['jazz', 'libreria']),
+  kind: z.enum(['jazz', 'discos', 'libreria']),
   city: z.string(),
   order: z.number(),
   title: z.string(),

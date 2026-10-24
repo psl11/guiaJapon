@@ -87,16 +87,27 @@ blocks:
       - comida: "nakiryu"
         nota: "El *tantanmen* que fue estrella Michelin, a una parada en Ōtsuka. El domingo, hasta las 15:00."
   - block: Tarde
-    time: "15:00–18:00"
+    time: "15:00–19:00"
     title: El momiji, que ahora sí
     body: >-
       Y aquí está el regalo de haber vuelto. **El pico de la hoja roja en Tokio va del 20 de noviembre
       al 5 de diciembre**, así que estos días caen justo dentro. Los dos jardines de la lista nacional
-      quedan de camino a casa: primero Rikugi-en, a tres paradas de Yamanote, y luego Koishikawa
-      Kōrakuen. Los dos hacen iluminación nocturna en temporada.
+      quedan de camino a casa, y este año se ven con dos luces distintas. Primero el Rikugi-en, a tres
+      paradas de Yamanote, con la última luz del día: su iluminación no empieza hasta el miércoles 25.
+      Luego, el Koishikawa Kōrakuen, que abre de noche del 13 al 24 de noviembre, de 18:00 a 21:00,
+      con proyecciones en el muro y en el puente de luna llena.
 
 
-      Si solo cabe uno de los dos, la tercera carta está a doce minutos al norte de Komagome:
+      Entre uno y otro queda la hora del anochecer, y es para **Kagurazaka**, que empieza a cinco
+      minutos del Kōrakuen, al otro lado de Iidabashi; del Rikugi-en se llega en diez minutos de la
+      línea Namboku. Es la cuesta del antiguo barrio de geishas, y otra de las propuestas de
+      [Japonismo](https://japonismo.com/blog/templo-zenkokuji-kagurazaka) para un Tokio menos obvio. A
+      media subida está el templo de Bishamonten, guardado por tigres de piedra en lugar de perros.
+      Enfrente se abre el callejón empedrado de Hyōgo Yokochō, entre las tapias negras de los
+      *ryōtei*. Y arriba, el santuario Akagi, que Kengo Kuma rehízo en cristal y madera en 2010.
+
+
+      Si solo cabe uno de los dos jardines, la tercera carta está a doce minutos al norte de Komagome:
       **Kyū-Furukawa**, un jardín japonés de arces a los pies de una mansión de piedra con rosaleda,
       que en noviembre todavía tiene rosas. Cierra a las 17:00 y cuesta ¥150.
     ver:
@@ -104,12 +115,15 @@ blocks:
         nota: El calendario de la hoja roja, y por qué la ciudad se guardó para el final.
       - nombre: Rikugi-en
         maps: Rikugien Garden Tokyo
-        nota: Diseñado en 1702 para reproducir ochenta y ocho escenas de poemas clásicos.
+        nota: Diseñado en 1702 para reproducir ochenta y ocho escenas de poemas clásicos. Hoy, de día.
         lat: 35.7333998
         lon: 139.7463046
+      - nombre: Kagurazaka
+        maps: Kagurazaka Hyogo Yokocho Tokyo
+        nota: "Entre los dos jardines, al anochecer: Bishamonten, Hyōgo Yokochō y el Akagi de Kengo Kuma."
       - nombre: Koishikawa Kōrakuen
         maps: Koishikawa Korakuen Garden Tokyo
-        nota: El otro jardín de la lista nacional del momiji, también con iluminación nocturna.
+        nota: "De noche: abre de 18:00 a 21:00 del 13 al 24 de noviembre, última entrada a las 20:00."
         lat: 35.7053631
         lon: 139.7491508
       - nombre: "Kyū-Furukawa"
@@ -141,3 +155,9 @@ alt:
     librerías de viejo cierran precisamente en domingo. Comprobadlo. La alternativa segura es
     Nakano Broadway, cuatro plantas de manga, figuras y relojes de segunda mano al oeste de
     [Shinjuku](#shinjuku), que es lo que era Akihabara antes de volverse turístico.
+
+
+    Y una parada más allá por la Chūō, **Kōenji**, el barrio que Japonismo llama el más creativo y
+    provocador de Tokio: ropa *vintage* y de segunda mano, tiendas de vinilos, salas de conciertos
+    pequeñas y murales en la avenida Kōnan. En domingo abre todo, y de noche se llenan las *izakaya*
+    del norte de la estación.

@@ -76,9 +76,10 @@ const hotelesDe = (d: { duerme?: string[] }) => (d.duerme ?? [])
   .map(s => hoteles.value.find(h => h.slug === s))
   .filter((h): h is NonNullable<typeof h> => !!h)
 
-// Salir · música y librerías (jazz + librerías) — sección propia, agrupada por kind.
+// Salir · música y librerías (jazz + discos + librerías) — sección propia, agrupada por kind.
 const SALIR_KINDS = [
   { key: 'jazz', label: 'Música en vivo · jazz' },
+  { key: 'discos', label: 'Tiendas de discos' },
   { key: 'libreria', label: 'Librerías' },
 ] as const
 const salirGroups = computed(() => SALIR_KINDS

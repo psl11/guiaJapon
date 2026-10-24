@@ -51,6 +51,12 @@ blocks:
       Se empieza por la pagoda Chūreitō sobre Fujiyoshida, casi cuatrocientos escalones hasta la
       imagen del país. Después, los lagos de la falda norte y la aldea de Iyashi no Sato, junto al
       lago Saiko.
+
+
+      Y hoy el lago Kawaguchi está de fiesta: su **festival del momiji** va este año del 7 al 29 de
+      noviembre, y es de lo que recomienda Japonismo para estas fechas. El centro es el Momiji Kairō,
+      un pasillo de arces en la orilla norte que queda de camino a Saiko. Si no está en la ruta de la
+      furgoneta, pedidle al guía la parada. Siendo festivo, habrá gente.
     window:
       label: Lo que la furgoneta resuelve
       body: >-
@@ -70,6 +76,9 @@ blocks:
         nota: El reflejo del Fuji solo sale sin viento, y eso pasa sobre todo a primera hora.
         lat: 35.5170946
         lon: 138.7517787
+      - nombre: Momiji Kairō
+        maps: Momiji Kairo Kawaguchiko
+        nota: "El pasillo de arces de la orilla norte, centro del festival del momiji (7-29 de noviembre)."
       - nombre: Iyashi no Sato
         maps: Saiko Iyashi no Sato Nenba
         nota: Aldea de casas de paja reconstruida como museo tras el desprendimiento de 1966.

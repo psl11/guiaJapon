@@ -27,11 +27,17 @@ traslados:
     duracion: "~10 min"
     hora: "salir 08:30"
     nota: "Antes, el *check-out*: la maleta se queda en la recepción del Super Hotel hasta mediodía. De Morishita al jardín, una parada de Ōedo o quince minutos andando."
+  - desde: "Kiyosumi-Shirakawa"
+    hasta: "Hamachō, por Ningyōchō"
+    medio: "A pie, por el puente Kiyosu"
+    duracion: "~40 min, mirando"
+    hora: "salir 12:00"
+    nota: "De Hamachō, dos paradas de Toei Shinjuku hasta Iwamotochō, a por la maleta."
   - desde: "Kanda-Sudachō"
     hasta: "Akihabara (hotel del grupo)"
     medio: "A pie"
     duracion: "~10 min"
-    hora: "a mediodía, con la maleta"
+    hora: "hacia las 13:00, con la maleta"
     nota: "El relevo más fácil del viaje: se deja el Super Hotel Premier y se entra en el hotel del grupo **andando**, sin coger nada."
   - desde: "Jinbōchō"
     hasta: "Shinjuku-sanchōme"
@@ -88,32 +94,57 @@ blocks:
     comer:
       - comida: koffee-mameya-kakeru
         elegido: true
-        nota: "El curso de café, con reserva por web: un grano, cuatro extracciones. Abre a las 11:00: coge el primer turno, y a las 12:30 al hotel."
+        nota: "El curso de café, con reserva por web: un grano, cuatro extracciones. Abre a las 11:00: coge el primer turno, y a las 12:00, andando hacia Ningyōchō."
       - comida: mikawa-zezankyo
         nota: "Tempura con estrella en Monzen-Nakachō, **nueve sitios** y reserva con semanas. El capricho del viaje en solitario."
   - block: Mediodía
-    time: "~12:30"
-    title: El cambio de hotel
+    time: "12:00–13:15"
+    title: Ningyōchō, y el cambio de hotel
     body: >-
-      Diez minutos andando desde Kanda-Sudachō y ya estás en el hotel del grupo, **sin coger un solo
-      tren**. Deja la maleta aunque no haya habitación —siempre la guardan— y resuelve lo práctico antes
-      de que lleguen: comprar lo que falte, el **takkyūbin** si vas a mandar equipaje a los Alpes, y
-      **recargar la tarjeta IC**.
-    dim: true
+      Del café al hotel no hace falta coger el metro en Kiyosumi. Se cruza el Sumida por el puente
+      Kiyosu y al otro lado empieza **Ningyōchō**, «la calle de las muñecas», que debe el nombre a
+      los teatros de marionetas y de kabuki que tuvo en Edo. Es una de las propuestas de
+      [Japonismo](https://japonismo.com/blog/paseo-ningyocho-tokio) para un Tokio menos obvio. Se baja
+      por la Amazake Yokochō, cuatrocientos metros de tiendas viejas hasta la estación de Hamachō, con
+      el santuario Suitengū a un lado. Y en el 1-7 de Ningyōchō nació en 1886 Tanizaki, el de *El
+      elogio de la sombra*: es el mismo hilo literario de la mañana, al otro lado del río.
+
+
+      De Hamachō, dos paradas hasta Iwamotochō, la maleta del Super Hotel y diez minutos andando
+      desde Kanda-Sudachō hasta el hotel del grupo. Deja la maleta aunque no haya habitación —siempre
+      la guardan— y resuelve lo práctico antes de que lleguen: comprar lo que falte, el
+      **takkyūbin** si vas a mandar equipaje a los Alpes, y **recargar la tarjeta IC**.
     window:
       label: Un apunte de dinero
       body: >-
         Cuatro noches en dos hoteles distintos son **dos reservas**, y las dos salen de tu bolsillo, no
         del bote común. Tenlo separado desde el principio para que las cuentas del grupo no se enreden.
+    ver:
+      - nombre: Amazake Yokochō
+        maps: Amazake Yokocho Ningyocho
+        nota: "Cuatrocientos metros entre las estaciones de Ningyōchō y Hamachō. El nombre es de una tienda de *amazake* de la era Meiji."
+      - nombre: Suitengū
+        maps: Suitengu Shrine Nihonbashi
+        nota: "El santuario al que van a rezar las embarazadas de Tokio, a un lado de la calle."
+      - nombre: "Donde nació Tanizaki"
+        maps: "谷崎潤一郎生誕の地 人形町"
+        nota: "Ningyōchō 1-7-10, junto a la estación: una placa, y el autor de *El elogio de la sombra*."
   - block: Tarde
-    time: "13:00–16:30"
+    time: "13:15–16:30"
     title: Libros viejos, y el jardín de los crisantemos
     body: >-
       Primero, a un paseo de Akihabara, **Jinbōchō**, el barrio de las librerías de viejo, con
-      [su ficha](#jimbocho) y su hilera de kissaten.
+      [su ficha](#jimbocho) y su hilera de kissaten. Si los vinilos del miércoles te supieron a poco,
+      a diez minutos, junto a la estación de Ochanomizu, está
+      [la tienda de jazz de Disk Union](#disk-union-jazztokyo).
 
 
-      Después, la Toei Shinjuku te deja a cinco minutos de **Shinjuku Gyoen**, el jardín de *El jardín
+      Luego, la Toei Shinjuku hasta Shinjuku-sanchōme. Al bajar, antes del jardín, está
+      [la de anime de la misma cadena](#disk-union-anison-shinjuku), que es el plan B de *Cowboy
+      Bebop* si en Tower ya no quedaba.
+
+
+      Después, a cinco minutos, **Shinjuku Gyoen**, el jardín de *El jardín
       de las palabras* de Shinkai. Hasta el 15 de noviembre monta su **exposición imperial de
       crisantemos** bajo pabellones de madera, y dentro, mirando al estanque, hay un Starbucks donde
       sentarse con lo que hayas comprado. Los arces del Momijiyama aún estarán verdes: su semana es la
@@ -141,6 +172,12 @@ blocks:
         nota: "La primera escena de *Tokyo Vice*, sobre el río Kanda, a un paseo de Jinbōchō."
         lat: 35.6997231
         lon: 139.7655029
+      - nombre: Disk Union JazzTOKYO
+        maps: diskunion JazzTOKYO Ochanomizu
+        nota: "Solo jazz, nuevo y usado, junto a la estación de Ochanomizu. Si el miércoles supo a poco."
+      - nombre: "Disk Union, anime y videojuegos"
+        maps: "diskunion アニソン・ゲームミュージックストア 新宿"
+        nota: "Shinjuku 3-31-4, a la salida del metro: el plan B de *Cowboy Bebop*, de segunda mano."
     comer:
       - comida: sabouru
         elegido: true

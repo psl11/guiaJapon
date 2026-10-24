@@ -86,6 +86,9 @@ blocks:
       - nombre: Nakamachi
         maps: Nakamachi Street Matsumoto
         nota: Almacenes ***kura*** de muro blanco y rombos negros, antiguos depósitos de sake hoy talleres y cafés.
+      - nombre: Museo del Reloj de Matsumoto
+        maps: Matsumoto Timepiece Museum
+        nota: "Setecientos relojes antiguos, japoneses y occidentales, ciento diez en marcha. Junto al río, ¥310; hoy, domingo, abre."
         lat: 36.2335932
         lon: 137.9713243
   - block: Noche
@@ -123,3 +126,10 @@ alt:
     contraria: [**Asama Onsen**](https://www.google.com/maps/search/?api=1&query=Asama%20Onsen%20Matsumoto), en las afueras, es un balneario de mil trescientos años con baños
     públicos donde no hay un solo extranjero — y llegar a Kamikōchi mañana con las piernas ya
     descansadas no es mala idea.
+
+
+    Y la excursión que propone Japonismo: la **granja de wasabi de Daiō**, en Azumino, a media hora
+    en tren por la línea Ōito hasta Hotaka y otra media andando desde la estación. Son campos de
+    wasabi cultivado en agua corriente bajo toldos negros, y al lado siguen los tres molinos de agua
+    que Kurosawa levantó en 1990 para el último episodio de *Sueños*. Abre todos los días; en
+    noviembre, hasta las 16:30 o las 17:00 según la fuente, así que hay que salir pronto.

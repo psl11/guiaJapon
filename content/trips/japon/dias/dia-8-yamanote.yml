@@ -242,9 +242,13 @@ blocks:
 
       Para volver se cruza al otro lado de la estación, y por el camino queda
       [Omoide Yokochō](#omoide-yokocho): dos pasillos de barras de seis taburetes bajo faroles rojos,
-      para un último pincho de [yakitori](#yakitori) al humo antes del tren. Y **mirad el último tren
-      antes de la tercera copa**: es la diferencia entre veinte minutos de vuelta y un taxi de cuatro
-      o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
+      para un último pincho de [yakitori](#yakitori) al humo antes del tren. Y el último paseo lo
+      propone Pablo: bajar hasta la salida sur, donde está encendida hasta medianoche la
+      [Minami Lumi](#pablo-minami-lumi), las luces de Navidad de la estación, de camino a la Ōedo.
+
+
+      **Mirad el último tren antes de la tercera copa**: es la diferencia entre veinte minutos de
+      vuelta y un taxi de cuatro o cinco mil yenes. Mañana uno sale a las ocho hacia Narita.
     ver:
       - nombre: Shin-Ōkubo
         maps: Shin-Okubo Koreatown Tokyo
@@ -266,6 +270,8 @@ blocks:
       - nombre: Albatross G
         maps: Albatross G Golden Gai Shinjuku
         nota: "Tres plantas mínimas con lámparas de araña. ¥500 de cubierto con algo de picar."
+      - reco: pablo-minami-lumi
+        nota: Las luces de Navidad de la salida sur, hasta medianoche y de camino a la Ōedo.
       - reco: alba-omoide-yokocho-turistada
         nota: La pega de Alba a Omoide Yokochō, y el aviso de los captadores en la calle.
       - nombre: "Cabeza de Godzilla"

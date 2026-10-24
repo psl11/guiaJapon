@@ -175,6 +175,14 @@ blocks:
     body: >-
       Hoy no hay que volver a ninguna parte: el día entero ha pasado en esta mitad de la ciudad. Tres
       opciones a un paso del hotel, y a la cama pronto, que mañana también amanece temprano.
+
+
+      Y entre la cena y la cama, si queda cuerda, una hora en un *maid café*, que es Akihabara en estado puro. Lo propone
+      Pablo, que fue a [Maidreamin](#pablo-maidreamin) y se lo pasó en grande: el sábado abre hasta las
+      once.
+    ver:
+      - reco: pablo-maidreamin
+        nota: Una hora de canciones y conjuros sobre la comida, por ¥880 y una consumición por cabeza.
     comer:
       - comida: ameyoko
         elegido: true

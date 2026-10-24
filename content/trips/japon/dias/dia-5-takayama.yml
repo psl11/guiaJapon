@@ -100,6 +100,9 @@ blocks:
       - nombre: Yatai Kaikan
         maps: Takayama Matsuri Yatai Kaikan
         nota: Carrozas de doce metros con autómatas de cuerda del XVIII. El festival es en abril y octubre.
+      - nombre: Sakurayama Hachimangū
+        maps: Sakurayama Hachimangu Shrine Takayama
+        nota: El santuario del festival de octubre. El Yatai Kaikan está dentro de su recinto.
         lat: 36.1484179
         lon: 137.2600988
       - nombre: Takayama Jinya
@@ -128,6 +131,8 @@ blocks:
       - comida: otafuku-takayama
         elegido: true
         nota: Barra de sushi y *kappō* en la calle de tabernas. Solo cenas desde las 17:30; el martes abre. Reserva el hotel.
+      - comida: maruaki-takayama
+        nota: El buey de Hida sentados y a la parrilla, en casa de una carnicería. La recomienda Japonismo.
 alt:
   label: Si te desmarcas
   body: >-

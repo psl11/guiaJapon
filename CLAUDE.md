@@ -583,9 +583,10 @@ Bebop*. Para las tiendas, `SalirSchema` ganó el `kind` **`discos`** (grupo «Ti
 icono 💿). La reco `vinilos` tuvo diez discos, luego tres y quedó en **Bebop y tres que suenan a Japón**,
 sin tiradas limitadas ni precios de subasta: *Cowboy Bebop* (la japonesa de 2023 fue de primera
 tirada limitada, así que la normal es la de Milan), *Scenery* de Ryo Fukui, *For You* de Tatsuro
-Yamashita (el original de 1982, porque la reedición de 2023 fue limitada) y *Music for Nine Post
-Cards* de Hiroshi Yoshimura. El suplente es el *Lupin III* de 1978 de Yuji Ohno, reeditado el 21 de
-octubre de 2026 tras su muerte en mayo. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de Laced
+Yamashita (el original de 1982, porque la reedición de 2023 fue limitada) y *Solid State Survivor*
+de YMO, que entró por Yoshimura al comparar con otra lista que trajo Pablo. Suplentes: Yoshimura
+(*Green* o *Nine Post Cards*) y el *Lupin III* de 1978 de Yuji Ohno, reeditado el 21 de octubre de
+2026 tras su muerte en mayo. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de Laced
 Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
 las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
 

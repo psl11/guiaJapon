@@ -13,7 +13,7 @@ duerme:
 mapa:
   slug: dia-4-kamikochi
   paradas:
-    - { nombre: Terminal de autobuses, hora: "08:30", lat: 36.2461657, lon: 137.6352764 }
+    - { nombre: Terminal de autobuses, hora: "09:45", lat: 36.2461657, lon: 137.6352764 }
     - { nombre: Kappabashi, llegada: a-pie, lat: 36.2488436, lon: 137.6378366 }
     - { nombre: "Estanque Myōjin", zona: Río arriba, llegada: a-pie, lat: 36.2540049, lon: 137.6640105 }
     - { nombre: "Estanque Taishō", hora: "13:00", zona: Río abajo, llegada: bus, lat: 36.2287261, lon: 137.6186512 }
@@ -24,9 +24,9 @@ traslados:
   - desde: "Matsumoto"
     hasta: "Kamikōchi"
     medio: "Tren de la línea Kamikōchi hasta Shin-Shimashima + autobús Alpico"
-    duracion: "1 h 45"
-    hora: "salir 06:15"
-    nota: "**El autobús va con reserva**, también el de transbordo. El tren, en efectivo en la máquina: ni IC ni JR Pass."
+    duracion: "~2 h"
+    hora: "salir hacia las 07:30"
+    nota: "**Autobús comprado**: el de las 08:40 desde Shin-Shimashima, con el email de Alba en el móvil. El tren, en efectivo en la máquina: ni IC ni JR Pass."
   - desde: "Kamikōchi"
     hasta: "Hirayu Onsen"
     medio: "Autobús Nōhi, línea Kamikōchi"
@@ -35,19 +35,20 @@ traslados:
     nota: "**Sin reserva**: asientos libres, ¥1.500 en la taquilla de la terminal o a bordo. Sale cada media hora; el último, a las 17:30."
 blocks:
   - block: Amanecer
-    time: "06:30–08:30"
+    time: "07:30–09:45"
     title: La subida, y por qué no hay coches
     body: |-
-      Se sale de Matsumoto pronto, y hoy eso no cuesta nada: con el desfase horario a favor el cuerpo
-      lleva tres días despertándose antes de que suene el despertador. Las dos maneras de subir son
-      de Alpico, la compañía de transporte de la prefectura:
+      Hoy no se madruga tanto. **El autobús está comprado**: el de las **08:40** desde
+      Shin-Shimashima, que llega a Kamikōchi a las 09:45. Lo reservó Alba para los cuatro, y para
+      subir basta con enseñar al conductor el email de confirmación en el móvil. Las dos maneras de
+      subir son de Alpico, la compañía de transporte de la prefectura:
 
       - **Tren y autobús, que es la que se usa.** El trenecito de la línea Kamikōchi sale del andén 7
         de la estación de Matsumoto y en treinta minutos deja en Shin-Shimashima. Allí espera el
-        autobús de Alpico al valle, que tarda una hora más. Con el horario de 2025, el tren de las
-        06:31 enlaza con el autobús de las 07:10 y se está arriba a las 08:15. Los nueve minutos
-        bastan: la terminal de autobuses está pegada a la estación, y al salir por el torno ya
-        está delante. Tren y autobús son de la misma compañía y el horario está hecho para
+        autobús de Alpico al valle, que tarda una hora más. Hay que coger el tren que llegue a
+        Shin-Shimashima con margen antes de las 08:40: miradlo la víspera en el horario de Alpico.
+        La terminal de autobuses está pegada a la estación, y al salir por el torno ya está
+        delante. Tren y autobús son de la misma compañía y el horario está hecho para
         enlazar, pero Alpico no garantiza que el autobús espere si el tren se retrasa. Si se
         pierde, el billete se cambia a otro autobús por unos cien yenes, siempre que quede sitio.
       - **El directo**, la *National Park Liner*, que sale de la terminal de autobuses de Matsumoto
@@ -55,7 +56,7 @@ blocks:
         cerrada y el otro deja arriba al mediodía, con el día ya medio perdido.
 
       Desde 2025 **todos los asientos de estos autobuses se reservan**, y eso incluye el de
-      transbordo en Shin-Shimashima. La venta abre un mes antes y los horarios y el enlace a la
+      transbordo en Shin-Shimashima: el vuestro ya lo está. La venta abre un mes antes y los horarios y el enlace a la
       reserva están en la [web de Alpico](https://visit-nagano.alpico.co.jp/timetable/kamikochi-matsumoto).
       El valle cierra el 15 de noviembre y estos horarios valen hasta ese día.
 
@@ -72,16 +73,17 @@ blocks:
       - ficha: kamikochi
         nota: Por qué el fondo es llano a 1.500 metros, el agua tan transparente y el valle cierra el 15.
   - block: Mañana
-    time: "08:30–12:00"
+    time: "09:45–12:15"
     title: Kappabashi y el río Azusa
     body: >-
       De la terminal al Kappabashi, el puente colgante que es el centro del valle, y desde ahí las
       sendas llanas salen en las dos direcciones. La mañana es para ir **río arriba**: una hora por
-      la orilla hasta el estanque Myōjin, que casi nadie pisa porque queda al otro lado del puente.
+      la orilla hasta el estanque Myōjin, que casi nadie pisa porque queda al otro lado del puente,
+      y otra de vuelta al puente.
 
 
-      Si las piernas piden más, hay dos versiones de esta mañana: seguir llano hasta Tokusawa, o subir
-      de verdad a Dakesawa. Están, con lo que no conviene hacer en noviembre, en
+      Llegando a las 09:45, la mañana da para Myōjin y poco más: Tokusawa y Dakesawa ya no caben si
+      se quiere coger el autobús de las 16:30. Están, con lo que no conviene hacer en noviembre, en
       [las rutas por nivel](#senderismo-alpes).
     ver:
       - nombre: Kappabashi
@@ -96,12 +98,12 @@ blocks:
         lon: 137.6640105
       - nombre: Tokusawa
         maps: Tokusawa Kamikochi
-        nota: "Nivel medio: una hora más allá de Myōjin, por bosque llano. Se vuelve al puente hacia las 12:30."
+        nota: "Nivel medio: una hora más allá de Myōjin, por bosque llano. Llegando a las 09:45 se come la tarde del Taishō."
       - nombre: Dakesawa
         maps: Dakesawa Hut Kamikochi
         nota: "Algo técnico: 2 h 30 de subida hasta 2.170 m. Solo con la senda seca; el refugio ya está cerrado."
   - block: Mediodía
-    time: "12:00–13:00"
+    time: "12:15–13:00"
     title: Comer donde no hay nada
     body: >-
       Dentro del valle solo se come en los hoteles y en el par de cafeterías de la terminal, y a la
@@ -131,7 +133,7 @@ blocks:
 
 
         Se coge **el autobús de las 16:30**, y no el último. A las 17:30 es noche cerrada, se va
-        después de ocho horas andando y, como no hay reserva, si llega lleno no queda otro detrás.
+        después de casi siete horas en el valle y, como no hay reserva, si llega lleno no queda otro detrás.
     ver:
       - nombre: "Estanque Taishō"
         maps: Taisho Pond Kamikochi
@@ -156,7 +158,7 @@ blocks:
       pueblo termal donde arranca la carretera del valle, con aguas que brotan desde el siglo XVI.
 
 
-      Después de siete horas andando a mil quinientos metros y con la temperatura bajo cero fuera, un
+      Después de casi siete horas andando a mil quinientos metros y con la temperatura bajo cero fuera, un
       *rotenburo* al aire libre no es un extra del día: es el final que justifica el resto.
       Y a diferencia de un baño de paso, aquí se puede entrar antes de cenar, otra vez después y
       otra por la mañana.
@@ -196,7 +198,7 @@ blocks:
       comarca.
 
 
-      Después no hay nada que hacer, y ese es el plan. Trece horas de puerta a puerta, un baño más
+      Después no hay nada que hacer, y ese es el plan. Once horas de puerta a puerta, un baño más
       antes de dormir y mañana sin prisa.
 alt:
   label: Si te desmarcas

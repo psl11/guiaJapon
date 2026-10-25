@@ -75,6 +75,11 @@ blocks:
         lon: 139.7195458
       - reco: pablo-pokemon-center-mega-tokyo
         nota: El más grande de Japón, con su café. Desde que reabrió en agosto se entra por turnos.
+      - nombre: Gashapon Department Store
+        maps: "Gashapon Department Store Ikebukuro Sunshine City"
+        nota: "La tienda de cápsulas de Bandai, más de tres mil máquinas, en la 3.ª planta del World Import Mart. De 10:00 a 21:00."
+        lat: 35.727844
+        lon: 139.719986
       - nombre: Pikachu Sweets
         maps: Pikachu Sweets by Pokemon Cafe Ikebukuro
         nota: El mostrador del Pokémon Café dentro de la misma tienda. Bebidas y dulces sin reserva.

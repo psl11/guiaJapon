@@ -197,6 +197,11 @@ blocks:
     ver:
       - reco: pablo-maidreamin
         nota: Una hora de canciones y conjuros sobre la comida, por ¥880 y una consumición por cabeza.
+      - nombre: Akihabara Gachapon Kaikan
+        maps: "秋葉原ガチャポン会館 外神田3-15-5"
+        nota: "Unas quinientas máquinas de cápsulas en un bajo, para entrar a mirar. Cierra a las 20:00: antes de cenar."
+        lat: 35.701893
+        lon: 139.771317
     comer:
       - comida: ameyoko
         elegido: true

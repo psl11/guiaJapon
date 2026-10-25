@@ -409,7 +409,7 @@ otro repo**. Este fork existió porque nadie lo hizo a tiempo.
 ## 8. Estado y qué falta
 
 **Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**125 locales** en 10 ciudades · 10 de salir (jazz, discos y librerías) · 13 recomendaciones prácticas · **30 recomendados del
+**125 locales** en 10 ciudades · 10 de salir (jazz, discos y librerías) · 14 recomendaciones prácticas · **30 recomendados del
 grupo** (§10: 19 de Alba y 11 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
 
 **Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
@@ -588,6 +588,13 @@ Cards* de Hiroshi Yoshimura. El suplente es el *Lupin III* de 1978 de Yuji Ohno,
 octubre de 2026 tras su muerte en mayo. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de Laced
 Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
 las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
+
+**Los jazz kissa** (oct 2026) tienen su reco, `jazz-kissa`, a partir de un reportaje de *National
+Geographic* que Pablo pasó en capturas: la historia (el Blackbird de 1929, *Moanin'* y la gira de
+Blakey de 1961, unos 400 locales hoy), cómo se entra y los que caen en el viaje. El Masako de
+Shimokitazawa es la opción de escucha del miércoles 4 y el Eagle de Yotsuya la alternativa al Pit
+Inn del jueves 5. Dos correcciones que salieron de ahí: Chigusa no es el primer *kissa*, sino el más
+antiguo que sigue abierto; y el Dug de Shinjuku, que el reportaje cita, cerró el 27 de junio de 2026.
 
 **Las compras del cuarto** viven en la reco `compras`, que remite a las que ya tenían sitio (el
 Seiko, los Zelda, el matcha, los vinilos). Añade lo que encaja con lo que ya se ha traído otras

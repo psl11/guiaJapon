@@ -68,8 +68,9 @@ blocks:
       los suyos y esa es la hora que se ha reservado para los mercados.
 
 
-      Hay **seis destilerías en tres calles** y casi todas dejan catar. Id de menos a más, que son
-      pequeñas y se acumula.
+      Hay **seis destilerías en tres calles** y casi todas dejan catar, pero con dos basta y un vasito
+      en cada una: Kawashiri, la más tradicional, y Funasaka, la grande. No hace falta reservar ni
+      tour: se entra, se cata y se compra si gusta.
 
 
       Antes de comer, a cinco minutos, el **Takayama Jinya**: la visita que casi nadie hace y la que
@@ -79,8 +80,8 @@ blocks:
       body: >-
         Las destilerías abren de **10:00 a 16:00** y muchas cierran el catado a media tarde. Casi
         todas cobran unos ¥300 por una tanda de tres o cuatro vasitos, y algunas regalan el vaso
-        de cerámica. Empezad por las secas y subid hacia las dulces, no al revés — y con tres
-        casas hay de sobra: son seis en tres calles y el sake de Hida ronda los 16 grados.
+        de cerámica. Empezad por las secas y subid hacia las dulces, no al revés — y con dos
+        casas hay de sobra: el sake de Hida ronda los 16 grados y queda el resto del día.
     ver:
       - ficha: takayama
         nota: Los carpinteros que pagaban el tributo, y qué dice el color de la bola de cedro.
@@ -89,11 +90,25 @@ blocks:
         nota: Tres calles de Edo sin bombardear. Distrito protegido, con seis destilerías que dejan catar.
         lat: 36.14169
         lon: 137.259514
+      - nombre: Bodega Kawashiri
+        maps: "川尻酒造場 高山市上二之町68"
+        nota: "Casa de 1839, cata de pie en vasitos finos (~¥500 tres sakes). Su especialidad, el sake envejecido."
+        lat: 36.142124
+        lon: 137.260422
+      - nombre: Bodega Funasaka
+        maps: "舩坂酒造店 高山市上三之町105"
+        nota: "La grande de Sanmachi. Cata con fichas: vaso ¥100, y tres fichas por ¥300."
+        lat: 36.140747
+        lon: 137.259735
       - nombre: Takayama Jinya
         maps: Takayama Jinya
         nota: La única oficina de gobierno de Edo que queda en Japón, con su sala de interrogatorios.
         lat: 36.1396918
         lon: 137.2576178
+    comer:
+      - comida: hida-kotte-ushi
+        elegido: true
+        nota: Para picar de paso, el buey en *nigiri* sobre galleta de arroz. Solo efectivo.
   - block: Mediodía
     time: "12:30–13:45"
     title: Buey de Hida, en la calle

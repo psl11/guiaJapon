@@ -1,0 +1,34 @@
+slug: hida-kotte-ushi
+trip: japon
+part: japon
+city: Takayama
+lat: 36.141804
+lon: 137.259247
+category: street-food
+order: 170
+title: Hida Kotte Ushi
+navLabel: "Hida Kotte Ushi"
+tipo: sushi de buey de Hida, de pie y sobre galleta de arroz
+area: Kami-Sannomachi 34, en Sanmachi
+cuando: "Takayama · día 5 por la mañana · de 10:00 a 17:00, todos los días"
+precio: "~¥700–1.200 la tanda (4–8 €)"
+reserva: "No"
+colas: "Sí, a media mañana"
+badge: "Nigiri de buey en Sanmachi"
+fuente: pablo
+quePedir: "Una tanda de dos o tres *nigiri* para compartir: así cabe el mediodía de brasas."
+body: >-
+  Un mostrador en mitad de Sanmachi que sirve el buey de Hida como *nigiri*, apenas soasado y
+  sobre una galleta de arroz (*senbei*) que hace de plato y se come con lo demás. Es la otra manera
+  de probar la carne, cruda casi del todo, y por eso tiene sentido antes de las brochetas de la
+  comida, que van a la brasa.
+
+
+  Se pide en el mostrador y se come de pie en la calle. Las tandas más completas se acaban pronto.
+  No aceptan tarjeta: llevad efectivo.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=Hida%20Kotte%20Ushi%20Takayama
+  label: Google Maps
+seenIn:
+  - ref: "#dia-5-takayama"
+    label: Día 5 · Takayama

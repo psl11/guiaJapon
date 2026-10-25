@@ -202,6 +202,11 @@ blocks:
         nota: "Unas quinientas máquinas de cápsulas en un bajo, para entrar a mirar. Cierra a las 20:00: antes de cenar."
         lat: 35.701893
         lon: 139.771317
+      - nombre: "Yodobashi Akiba, Plakoro"
+        maps: "Yodobashi Akiba"
+        nota: "El juego de dados Pokémon de Bandai: seis cajas de inicio a ¥990, en stock a 25 de octubre. Mirad el 店舗在庫 de Akiba la víspera."
+        lat: 35.698639
+        lon: 139.774612
     comer:
       - comida: ameyoko
         elegido: true

@@ -46,6 +46,11 @@ blocks:
         nota: El otro gran almacén, al este, pegado a la estación.
         lat: 35.7288741
         lon: 139.7116292
+      - nombre: "Yodobashi Ikebukuro, Plakoro"
+        maps: "Yodobashi Multimedia Ikebukuro"
+        nota: "Plan B de Plakoro si en Akiba no había: en el edificio del Seibu, de 9:30 a 22:00. Mirad antes su 店舗在庫."
+        lat: 35.727081
+        lon: 139.710495
       - reco: alba-drugstores
         nota: Los KitKat y dulces de regalo, a mitad de precio en una drugstore que en el konbini.
       - reco: alba-bolsa-3coins

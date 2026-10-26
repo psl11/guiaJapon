@@ -594,7 +594,13 @@ las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
 Geographic* que Pablo pasó en capturas: la historia (el Blackbird de 1929, *Moanin'* y la gira de
 Blakey de 1961, unos 400 locales hoy), cómo se entra y los que caen en el viaje. El Masako de
 Shimokitazawa es la opción de escucha del miércoles 4 y el Eagle de Yotsuya la alternativa al Pit
-Inn del jueves 5. Dos correcciones que salieron de ahí: Chigusa no es el primer *kissa*, sino el más
+Inn del jueves 5. El reportaje es el de **marzo de 2026** (fotos de Tim Davis) y la tarjeta lo dice. En la
+segunda pasada entró todo lo demás: el Dig de Nakadaira y la policía con luxómetros, el Dug y los
+estudiantes contra Vietnam, el método de cuatro discos de Goto, el Eigakan, el Silencio, el
+Tónlist, el Genius (su dueño murió poco después de la visita: hay que mirar si sigue), el Callas
+Tokyo, el Basie con «Swifty» Sugawara, Kusunose y su libro, y *A Century in Sound* de Nick Dwyer.
+**Slow Hand**, el bar que solo pincha Clapton de 1968 a 1972, sale solo del reportaje: no se pudo
+confirmar dirección ni horario, y la tarjeta lo avisa. Dos correcciones que salieron de ahí: Chigusa no es el primer *kissa*, sino el más
 antiguo que sigue abierto; y el Dug de Shinjuku, que el reportaje cita, cerró el 27 de junio de 2026.
 
 **Los Alpes en otoño de *National Geographic*** (oct 2026), otro reportaje que Pablo pasó en
@@ -609,7 +615,9 @@ su ficha y con una línea en su día:
 - **Takayama:** el festival de otoño, que es siempre el 9 y el 10 de octubre.
 
 Lo que no cabe (el valle de Kiso y la Nakasendō; Aizu, Yamadera, Ginzan y Dewa Sanzan) va a las
-renuncias de `el-mapa-del-viaje`. Dos errores del reportaje que están corregidos en la guía: pone
+renuncias de `el-mapa-del-viaje`. **Cada sitio que lo usa dice que viene del reportaje que trajo Pablo**, que lo pidió
+expresamente: «el reportaje de *National Geographic* sobre el otoño en el interior de Honshū que
+trajo Pablo». Por las fechas que da (el festival de Takayama «en 2021»), es de 2021. Dos errores del reportaje que están corregidos en la guía: pone
 Kamikōchi «a casi 2.000 m» (está a unos 1.500) y dice que Iemitsu levantó el Taiyūin (lo terminó
 su hijo Ietsuna en 1653).
 

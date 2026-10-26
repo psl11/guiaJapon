@@ -84,9 +84,12 @@ blocks:
         lon: 139.5991100
       - nombre: Rinnō-ji
         maps: Rinnoji Temple Nikko
-        nota: El templo del conjunto, más antiguo y mucho más tranquilo. Queda de paso.
+        nota: "El templo del conjunto, con los tres budas dorados y, enfrente, el jardín Shōyōen. Queda de paso."
         lat: 36.7547249
         lon: 139.6007590
+      - nombre: Taiyūin
+        maps: Taiyuinbyo Nikko
+        nota: "El mausoleo del nieto, a cinco minutos del Tōshōgū y con la mitad de gente. Cierra a las 16:00."
   - block: Tarde
     time: "13:00–16:00"
     title: El bosque, y una decisión honesta

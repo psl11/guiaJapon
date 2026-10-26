@@ -594,8 +594,32 @@ las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
 Geographic* que Pablo pasó en capturas: la historia (el Blackbird de 1929, *Moanin'* y la gira de
 Blakey de 1961, unos 400 locales hoy), cómo se entra y los que caen en el viaje. El Masako de
 Shimokitazawa es la opción de escucha del miércoles 4 y el Eagle de Yotsuya la alternativa al Pit
-Inn del jueves 5. Dos correcciones que salieron de ahí: Chigusa no es el primer *kissa*, sino el más
+Inn del jueves 5. El reportaje es el de **marzo de 2026** (fotos de Tim Davis) y la tarjeta lo dice. En la
+segunda pasada entró todo lo demás: el Dig de Nakadaira y la policía con luxómetros, el Dug y los
+estudiantes contra Vietnam, el método de cuatro discos de Goto, el Eigakan, el Silencio, el
+Tónlist, el Genius (su dueño murió poco después de la visita: hay que mirar si sigue), el Callas
+Tokyo, el Basie con «Swifty» Sugawara, Kusunose y su libro, y *A Century in Sound* de Nick Dwyer.
+**Slow Hand**, el bar que solo pincha Clapton de 1968 a 1972, sale solo del reportaje: no se pudo
+confirmar dirección ni horario, y la tarjeta lo avisa. Dos correcciones que salieron de ahí: Chigusa no es el primer *kissa*, sino el más
 antiguo que sigue abierto; y el Dug de Shinjuku, que el reportaje cita, cerró el 27 de junio de 2026.
+
+**Los Alpes en otoño de *National Geographic*** (oct 2026), otro reportaje que Pablo pasó en
+capturas: un recorrido de otoño del Fuji a Dewa Sanzan. Entró lo que cae en la ruta, cada cosa en
+su ficha y con una línea en su día:
+
+- **Fuji:** el Kitaguchi Hongū Fuji Sengen, la quinta estación de la Subaru Line con el Ochūdō
+  (cierra con el hielo: 22 nov en 2023, 1 dic en 2025) y el lago Motosu del billete de mil yenes.
+  Van como «pedidle la parada al guía», porque el día 18 es una excursión contratada.
+- **Nikkō:** el Taiyūin y el Rinnō-ji con el Shōyōen, y la separación Meiji de 1868.
+- **Kamikōchi:** las tres cordilleras de Weston y la fauna, con el oso.
+- **Takayama:** el festival de otoño, que es siempre el 9 y el 10 de octubre.
+
+Lo que no cabe (el valle de Kiso y la Nakasendō; Aizu, Yamadera, Ginzan y Dewa Sanzan) va a las
+renuncias de `el-mapa-del-viaje`. **Cada sitio que lo usa dice que viene del reportaje que trajo Pablo**, que lo pidió
+expresamente: «el reportaje de *National Geographic* sobre el otoño en el interior de Honshū que
+trajo Pablo». Por las fechas que da (el festival de Takayama «en 2021»), es de 2021. Dos errores del reportaje que están corregidos en la guía: pone
+Kamikōchi «a casi 2.000 m» (está a unos 1.500) y dice que Iemitsu levantó el Taiyūin (lo terminó
+su hijo Ietsuna en 1653).
 
 **Las compras del cuarto** viven en la reco `compras`, que remite a las que ya tenían sitio (el
 Seiko, los Zelda, el matcha, los vinilos). Añade lo que encaja con lo que ya se ha traído otras
@@ -609,6 +633,18 @@ veces, cada cosa en un día por el que ya pasa:
 Y dice lo que **no** hay que comprar allí: la Switch 2 de las tiendas japonesas, que solo está en
 japonés y solo admite cuentas japonesas. También echa las cuentas: el *tax-free* nuevo, la
 franquicia de 430 € a la vuelta (el Seiko no se puede partir y paga entero) y el litro de licor.
+
+**El reloj vintage del cuarto** (oct 2026): un **King Seiko 45KS** o un **Grand Seiko 61GS**, en
+acero y por debajo de unos ¥230.000 (descartó el oro: el 45GS de oro macizo ronda ¥485.000, y lo
+que hay de oro por debajo de su tope son Seiko de vestir pequeños). Qué es cada uno va en
+`compras`; cómo comprarlo —referencias que tienen que cuadrar, esfera original, caja sin pulir,
+revisión, garantía y las preguntas en japonés— en la tarjeta de `pablo-mizutani-camera`, que es
+donde se busca (día 2), con Nakano Broadway para comparar el jueves 5. **Fotos pendientes:**
+`commons.wikimedia.org` está bloqueado por la red del entorno, y en Commons no se encontró ninguna
+foto libre de esos dos modelos concretos; la mejor opción son fotos de Pablo. Las recos no pintan
+imagen todavía: habría que dar a `RecoSchema` un `image` opcional y usar `CardPhoto` en `RecoCard`.
+**Las portadas de los vinilos no se suben**: tienen derechos y la regla §6 es solo CC o dominio
+público, así que cada disco lleva un «Ver la portada» que abre la búsqueda en Discogs.
 
 **Japonismo: «Tokio diferente» y noviembre** (oct 2026). De su lista de barrios para quien ya ha
 visto Tokio entraron Ningyōchō (viernes 6, de Fukagawa al hotel), Yoshiwara (día 2, junto al *tori

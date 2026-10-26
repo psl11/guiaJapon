@@ -626,6 +626,18 @@ Y dice lo que **no** hay que comprar allí: la Switch 2 de las tiendas japonesas
 japonés y solo admite cuentas japonesas. También echa las cuentas: el *tax-free* nuevo, la
 franquicia de 430 € a la vuelta (el Seiko no se puede partir y paga entero) y el litro de licor.
 
+**El reloj vintage del cuarto** (oct 2026): un **King Seiko 45KS** o un **Grand Seiko 61GS**, en
+acero y por debajo de unos ¥230.000 (descartó el oro: el 45GS de oro macizo ronda ¥485.000, y lo
+que hay de oro por debajo de su tope son Seiko de vestir pequeños). Qué es cada uno va en
+`compras`; cómo comprarlo —referencias que tienen que cuadrar, esfera original, caja sin pulir,
+revisión, garantía y las preguntas en japonés— en la tarjeta de `pablo-mizutani-camera`, que es
+donde se busca (día 2), con Nakano Broadway para comparar el jueves 5. **Fotos pendientes:**
+`commons.wikimedia.org` está bloqueado por la red del entorno, y en Commons no se encontró ninguna
+foto libre de esos dos modelos concretos; la mejor opción son fotos de Pablo. Las recos no pintan
+imagen todavía: habría que dar a `RecoSchema` un `image` opcional y usar `CardPhoto` en `RecoCard`.
+**Las portadas de los vinilos no se suben**: tienen derechos y la regla §6 es solo CC o dominio
+público, así que cada disco lleva un «Ver la portada» que abre la búsqueda en Discogs.
+
 **Japonismo: «Tokio diferente» y noviembre** (oct 2026). De su lista de barrios para quien ya ha
 visto Tokio entraron Ningyōchō (viernes 6, de Fukagawa al hotel), Yoshiwara (día 2, junto al *tori
 no ichi*), Kagurazaka (día 17, al anochecer entre los dos jardines), Kōenji (`alt` del día 17),

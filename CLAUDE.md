@@ -597,6 +597,22 @@ Shimokitazawa es la opción de escucha del miércoles 4 y el Eagle de Yotsuya la
 Inn del jueves 5. Dos correcciones que salieron de ahí: Chigusa no es el primer *kissa*, sino el más
 antiguo que sigue abierto; y el Dug de Shinjuku, que el reportaje cita, cerró el 27 de junio de 2026.
 
+**Los Alpes en otoño de *National Geographic*** (oct 2026), otro reportaje que Pablo pasó en
+capturas: un recorrido de otoño del Fuji a Dewa Sanzan. Entró lo que cae en la ruta, cada cosa en
+su ficha y con una línea en su día:
+
+- **Fuji:** el Kitaguchi Hongū Fuji Sengen, la quinta estación de la Subaru Line con el Ochūdō
+  (cierra con el hielo: 22 nov en 2023, 1 dic en 2025) y el lago Motosu del billete de mil yenes.
+  Van como «pedidle la parada al guía», porque el día 18 es una excursión contratada.
+- **Nikkō:** el Taiyūin y el Rinnō-ji con el Shōyōen, y la separación Meiji de 1868.
+- **Kamikōchi:** las tres cordilleras de Weston y la fauna, con el oso.
+- **Takayama:** el festival de otoño, que es siempre el 9 y el 10 de octubre.
+
+Lo que no cabe (el valle de Kiso y la Nakasendō; Aizu, Yamadera, Ginzan y Dewa Sanzan) va a las
+renuncias de `el-mapa-del-viaje`. Dos errores del reportaje que están corregidos en la guía: pone
+Kamikōchi «a casi 2.000 m» (está a unos 1.500) y dice que Iemitsu levantó el Taiyūin (lo terminó
+su hijo Ietsuna en 1653).
+
 **Las compras del cuarto** viven en la reco `compras`, que remite a las que ya tenían sitio (el
 Seiko, los Zelda, el matcha, los vinilos). Añade lo que encaja con lo que ya se ha traído otras
 veces, cada cosa en un día por el que ya pasa:

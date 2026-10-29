@@ -17,9 +17,9 @@ mapa:
     - { nombre: Meiji Jingū, hora: "08:30", zona: Harajuku, llegada: tren, lat: 35.6748417, lon: 139.6996266 }
     - { nombre: Takeshita-dōri, hora: "10:00", zona: Harajuku, llegada: a-pie, lat: 35.6711612, lon: 139.7049553 }
     - { nombre: Omotesandō, zona: Harajuku, llegada: a-pie, lat: 35.6672683, lon: 139.7079259 }
-    - { nombre: Cat Street, hora: "15:00", llegada: a-pie, lat: 35.6640432, lon: 139.7027577 }
+    - { nombre: Cat Street, hora: "14:00", llegada: a-pie, lat: 35.6640432, lon: 139.7027577 }
     - { nombre: "Cruce y Hachikō", zona: Shibuya, llegada: a-pie, lat: 35.6590597, lon: 139.7006279 }
-    - { nombre: Shibuya Sky, hora: "16:00", zona: Shibuya, llegada: a-pie, lat: 35.6583792, lon: 139.7022161 }
+    - { nombre: Shibuya Sky, hora: "14:35", zona: Shibuya, llegada: a-pie, lat: 35.6583792, lon: 139.7022161 }
     - { nombre: BRAND OFF, hora: "17:30", zona: Shibuya, llegada: a-pie, lat: 35.660072, lon: 139.699432 }
     - { nombre: Omoide Yokochō, hora: noche, zona: Shinjuku, llegada: tren, lat: 35.6928662, lon: 139.6995502 }
     - { nombre: Golden Gai, zona: Shinjuku, llegada: a-pie, lat: 35.6939905, lon: 139.7047001 }
@@ -136,32 +136,33 @@ blocks:
       - comida: yamacho-harajuku
         nota: Udon hirviendo en cazuela de barro, por mil yenes. Solo mediodía; el domingo cierra.
   - block: Tarde
-    time: "15:00–18:00"
-    title: El cruce, y la ciudad desde arriba
+    time: "14:00–18:00"
+    title: La ciudad desde arriba, y el cruce
     body: >-
       Se baja a Shibuya por **Cat Street**, un pasadizo peatonal y curvo que evita las avenidas: veinte
-      minutos entre tiendas pequeñas, y sus curvas son las del río Shibuya, entubado justo debajo. Al
-      final, el cruce donde tres mil personas atraviesan a la vez sin rozarse, y la estatua de Hachikō.
-      Verlo desde la calle está bien; verlo desde arriba lo explica, y para eso está Shibuya Sky, con
-      la ciudad a 360 grados y —si el aire está limpio— el Fuji al oeste. Al bajar, ya de noche, BRAND
-      OFF, la tienda de bolsos de segunda mano de la Center Gai, que abre hasta las nueve.
+      minutos entre tiendas pequeñas, y sus curvas son las del río Shibuya, entubado justo debajo. A
+      las 14:35 se sube a Shibuya Sky, con la ciudad a 360 grados y, si el aire está limpio, el Fuji
+      al oeste. Se baja ya de noche al cruce donde tres mil personas atraviesan a la vez sin rozarse,
+      con las pantallas encendidas, y a la estatua de Hachikō. Verlo desde arriba antes lo explica.
+      Luego, BRAND OFF, la tienda de bolsos de segunda mano de la Center Gai, que abre hasta las nueve.
     window:
-      label: Ventana óptima
+      label: Comprado
       body: >-
-        Hay que **reservar con antelación y elegir la franja del atardecer**: el sol se pone hacia las
-        16:40, así que se entra sobre las 16:00 para coger la última luz sobre el Fuji, el crepúsculo y
-        el encendido de la ciudad en una sola visita. El aire de noviembre es el más transparente del
-        año.
+        **Entrada a Shibuya Sky de 14:35 a 14:50 y sofá de THE ROOF de 15:00 a 15:50**, los cuatro,
+        con el *Standard Set*: dos copas y algo de picar por cabeza, ¥28.000 en total. Se compró el 29
+        de octubre a las 16:00 de España, en cuanto abrió la venta, y aun así el turno de las 16:00 se
+        agotó en pocos minutos. Los recomienda Pablo, que los probó en noviembre de 2023.
 
 
-        **Y para verlo sentados, los sofás de la azotea**: la franja de las 16:00 de THE ROOF son
-        cincuenta minutos con la puesta de sol dentro, dos copas y algo de picar, por ¥7.000 por
-        persona con la entrada incluida. Los recomienda Pablo, que los probó en noviembre de 2023.
+        **La entrada vale para toda la tarde**: al acabar el sofá no os echan. Quedaos arriba de pie
+        para la puesta de sol, hacia las 16:35, y el encendido de la ciudad. El aire de noviembre es
+        el más transparente del año.
 
 
-        **Las entradas salen a las 0:00 de Japón, catorce días antes**: las del viernes 13, el
-        jueves 29 de octubre a las 16:00 de España. Se compran en Webket, la web de Shibuya Sky:
-        turno ② (entrada de 15:35 a 15:50, sofá de 16:00 a 16:50), *Standard Set*, cuatro.
+        Se entra en la planta 14 con el QR de cada uno, que lleva su nombre y puede pedirse el
+        pasaporte. A las 15:00, a la barra de la azotea con el correo de la reserva. Se cancela desde
+        «Mi página» de Webket hasta el jueves 12, y si cierran la azotea por mal tiempo, también ese
+        día.
     ver:
       - ficha: shibuya
         nota: Hachikō, el río tapado bajo Cat Street y las cuatro ventanas al cruce.
@@ -177,11 +178,11 @@ blocks:
         lon: 139.7006279
       - nombre: Shibuya Sky
         maps: Shibuya Sky Tokyo
-        nota: La azotea abierta de Scramble Square. Franja de las 16:00, con reserva.
+        nota: La azotea abierta de Scramble Square. Entrada de 14:35 a 14:50, comprada.
         lat: 35.6583792
         lon: 139.7022161
       - reco: pablo-the-roof-shibuya-sky
-        nota: "THE ROOF: sofá de 16:00 a 16:50, dos copas y la entrada, ¥7.000 por cabeza."
+        nota: "THE ROOF: sofá de 15:00 a 15:50, dos copas y la entrada, ¥7.000 por cabeza."
       - nombre: Pokémon Center Shibuya
         maps: Pokemon Center Shibuya Parco
         nota: En la 6.ª planta del Parco, con un Mewtwo a tamaño real y Nintendo Tokyo en la misma planta.

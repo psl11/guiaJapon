@@ -13,27 +13,33 @@ duerme:
 mapa:
   slug: dia-6-shirakawa-kanazawa
   paradas:
-    - { nombre: Terminal de autobuses, hora: "09:30", zona: Ogimachi, lat: 36.2620171, lon: 136.9068702 }
-    - { nombre: Mirador de Shiroyama, zona: Ogimachi, llegada: a-pie, lat: 36.2629545, lon: 136.9079634 }
+    - { nombre: Terminal de autobuses, hora: "14:10", zona: Ogimachi, lat: 36.2620171, lon: 136.9068702 }
     - { nombre: Casa Wada, zona: Ogimachi, llegada: a-pie, lat: 36.259924, lon: 136.9076278 }
     - { nombre: "Myōzen-ji", zona: Ogimachi, llegada: a-pie, lat: 36.2559101, lon: 136.9065906 }
-    - { nombre: "Autobús a Kanazawa", hora: "13:30", zona: Ogimachi, llegada: a-pie, lat: 36.2620171, lon: 136.9068702 }
+    - { nombre: Mirador de Shiroyama, hora: "16:30", zona: Ogimachi, llegada: a-pie, lat: 36.2629545, lon: 136.9079634 }
+    - { nombre: "Autobús a Shin-Takaoka", hora: "17:20", zona: Ogimachi, llegada: a-pie, lat: 36.2620171, lon: 136.9068702 }
 traslados:
   - desde: "Takayama"
     hasta: "Shirakawa-gō"
-    medio: "Autobús Nōhi"
+    medio: "Autobús de la línea Takayama–Takaoka (Kaetsunō)"
     duracion: "50 min"
-    hora: "salir 08:30"
-    nota: "**Hay que reservarlo**: plazas limitadas y en temporada se llena. No lo cubre el JR Pass."
+    hora: "13:20"
+    nota: "**Comprado** a nombre de Pablo Sánchez: reserva 10302048561, asientos 5A, 5B, 6A y 6B. Se enseña el e-ticket al conductor, mejor impreso. Los autobuses de la mañana estaban agotados."
   - desde: "Shirakawa-gō"
+    hasta: "Shin-Takaoka"
+    medio: "Autobús de la línea Takayama–Takaoka (Dolphin Traffic)"
+    duracion: "1 h 25"
+    hora: "17:20"
+    nota: "**Comprado** a nombre de Pablo Sánchez Lozano: reserva 10302048881, asientos 2C, 2D, 3C y 3D. Es el de las 16:20 de Takayama; se baja en la salida sur. El directo a Kanazawa de las 17:30 estaba lleno: si se liberan cuatro plazas, cambiadlo (cancelar cuesta ¥100)."
+  - desde: "Shin-Takaoka"
     hasta: "Kanazawa"
-    medio: "Autobús Nōhi / Hokutetsu"
-    duracion: "1 h 15"
-    hora: "salir 13:30"
-    nota: "También con reserva. Se llega de noche, así que las maletas van por delante."
+    medio: "Hokuriku Shinkansen, un Tsurugi o un Hakutaka"
+    duracion: "15 min"
+    hora: "hacia las 19:00"
+    nota: "Sin reserva: vagón de asiento libre (*jiyūseki*), billete en la máquina de la estación. Los Kagayaki no paran en Shin-Takaoka. Se llega de noche, así que las maletas van por delante."
 blocks:
   - block: Amanecer
-    time: "06:15–08:15"
+    time: "07:00–09:00"
     title: Los mercados, antes de que llegue nadie
     body: >-
       Takayama tiene **dos mercados matinales** y llevan celebrándose desde el periodo Edo: el de
@@ -43,7 +49,8 @@ blocks:
       a la brasa con salsa de soja— que se comen andando.
 
 
-      Dan de sobra para dos horas antes del autobús, y el desayuno se hace ahí mismo.
+      El autobús no sale hasta la una y veinte, así que hoy no hay prisa: el desayuno se hace ahí
+      mismo.
     window:
       label: Ventana óptima
       body: >-
@@ -63,11 +70,18 @@ blocks:
         elegido: true
         nota: El de la orilla del río, desde las siete. El *mitarashi dango* de aquí es salado, a la brasa.
   - block: Mañana
-    time: "08:30–09:30"
-    title: El autobús a Shirakawa-gō
+    time: "09:30–13:20"
+    title: La ladera de los templos, y el autobús de mediodía
     body: >-
-      Cincuenta minutos desde la estación de autobuses, con la plaza reservada. El trayecto ya merece
-      la ventanilla: se cruza la divisoria por túneles y se sale al otro lado, al valle del río Shō.
+      Los autobuses de la mañana a Shirakawa-gō se agotaron, y eso devuelve a Takayama lo que ayer se
+      cambió por Furukawa: el **Higashiyama Walking Course**, por la ladera este. Es hora y media
+      entre una docena de templos hasta las ruinas del castillo, y a esta hora se anda casi en
+      solitario.
+
+
+      Después, *check-out*, algo de comer cerca de la estación y el autobús de las 13:20, que sale
+      del Nohi Bus Center, pegado a ella. Son cincuenta minutos, y el trayecto merece la ventanilla:
+      se cruza la divisoria por túneles y se sale al otro lado, al valle del río Shō.
     window:
       label: Mandad las maletas
       body: >-
@@ -76,15 +90,22 @@ blocks:
         el de **Tokio** y llegan mañana, a la vez que vosotros. En Shirakawa-gō se anda por caminos de
         tierra y en Kanazawa se llega de noche: cargar con equipaje aquí no tiene ningún sentido.
     ver:
+      - nombre: Higashiyama Walking Course
+        maps: Higashiyama Walking Course Takayama
+        nota: Una docena de templos por la ladera este, hasta las ruinas del castillo. Hora y media.
       - reco: alba-takayama-hokuriku-pass
         nota: El pase regional que cubre estos autobuses, y por qué aun así no sale a cuenta.
-  - block: Mediodía
-    time: "09:30–13:30"
+  - block: Tarde
+    time: "14:10–17:20"
     title: Ogimachi, y por qué los tejados están así
     body: >-
-      Cuatro horas dan para hacerlo bien. Se sube primero al **mirador de Shiroyama** —veinte minutos
-      a pie o un microbús— para ver el valle entero con las granjas alineadas, y luego se baja a
-      andarlo: la casa Wada por dentro y el templo de Myōzen-ji, de camino hacia el puente.
+      Tres horas dan para hacerlo en orden, empezando por lo que cierra: la casa Wada por dentro y el
+      templo de Myōzen-ji, de camino hacia el puente. Las casas cierran sobre las cinco.
+
+
+      Luego se sube al **mirador de Shiroyama**, a veinte minutos a pie, para ver el valle entero con
+      las granjas alineadas. El sol se pone hacia las 16:40, y se baja a la terminal con las ventanas
+      ya encendidas y los autobuses de excursión idos.
     window:
       label: Lo que hay que entrar a ver
       body: >-
@@ -122,14 +143,14 @@ blocks:
         nota: Un templo con el campanario también techado de paja, caso raro.
         lat: 36.2559101
         lon: 136.9065906
-  - block: Tarde
-    time: "13:30–17:00"
-    title: Bajar a Kanazawa
+  - block: Atardecer
+    time: "17:20–19:45"
+    title: Bajar a Kanazawa, por Shin-Takaoka
     body: >-
-      Hora y cuarto de autobús hasta **Kanazawa**, y el cambio de mundo es brusco: de un valle de
-      cien casas a una ciudad de medio millón, con mar al lado y marisco serio. Se llega con luz
-      justa a la terminal de la estación, y antes de ir al hotel merece la pena salir por la puerta
-      de delante.
+      Hora y media de autobús hasta Shin-Takaoka y un cuarto de hora de Shinkansen hasta
+      **Kanazawa**. El cambio de mundo es brusco: de un valle de cien casas a una ciudad de medio
+      millón, con mar al lado y marisco serio. Se llega de noche, y antes de ir al hotel merece la
+      pena salir por la puerta de delante, que iluminada luce más que de día.
     ver:
       - nombre: Tsuzumi-mon
         maps: Tsuzumi-mon Gate Kanazawa Station
@@ -139,19 +160,20 @@ blocks:
       - ficha: kanazawa
         nota: El dominio de Kaga, un millón de *koku* y ninguna guerra. Mañana se anda entera.
   - block: Noche
-    time: "noche"
+    time: "20:00"
     title: Marisco del mar del Japón
     body: >-
       Kanazawa está en la otra costa y su cocina lo nota. La temporada del **cangrejo de las nieves**
       abre justo el 6 de noviembre, así que está en su primera semana buena; y hay gamba dulce,
-      vieira y *kaisendon*, cuencos de arroz cubiertos de sashimi. En el mercado de Ōmichō se come
-      de pie en los puestos del fondo y sale por una fracción de lo que costaría en Tokio.
+      vieira y *nodoguro*, la perca de garganta negra.
+
+
+      A esta hora los puestos de Ōmichō ya han cerrado, y se ven mañana por la mañana. Dentro del
+      mismo edificio, enfrente del hotel, la barra de sushi de Rekireki abre hasta las diez.
     comer:
-      - comida: omicho
-        elegido: true
-        nota: Enfrente del hotel. Muchos mostradores cierran al acabarse el género, así que mejor pronto que tarde.
       - comida: "sushi-rekireki-omicho"
-        nota: "Sushi de mercado sentados, con arroz de vinagre rojo. Bib Gourmand de 2016. Abre el miércoles hasta las 22:00."
+        elegido: true
+        nota: "Reservada a las 20:00 para cuatro, solo mesa: el menú se elige allí. Pedid el rollo de *nodoguro*."
 alt:
   label: Si te desmarcas
   body: >-

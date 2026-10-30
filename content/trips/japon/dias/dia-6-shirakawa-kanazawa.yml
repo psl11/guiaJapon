@@ -170,6 +170,16 @@ blocks:
 
       A esta hora los puestos de Ōmichō ya han cerrado, y se ven mañana por la mañana. Dentro del
       mismo edificio, enfrente del hotel, la barra de sushi de Rekireki abre hasta las diez.
+
+
+      Si al salir apetece andar, el **santuario Oyama** está a diez minutos: su puerta de 1875 lleva
+      arriba vidrieras de colores y se ilumina al anochecer. Las luces se apagan hacia las nueve o las
+      diez, así que conviene ir directos desde la cena. Ida y vuelta es media hora, y si no, al hotel,
+      que está enfrente.
+    ver:
+      - nombre: Santuario Oyama
+        maps: Oyama Shrine Kanazawa
+        nota: La puerta de 1875, mitad japonesa y mitad holandesa, con las vidrieras iluminadas de noche.
     comer:
       - comida: "sushi-rekireki-omicho"
         elegido: true

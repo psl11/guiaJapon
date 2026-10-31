@@ -117,14 +117,16 @@ blocks:
 
 
       Al bajar, antes de ir al hotel, **la compra del matcha**: es la única tarde con los cuatro
-      juntos y sin maletas, y la tienda de Ippodo está a dos minutos del andén. Qué comprar, en
+      juntos, y la tienda de Ippodo está a dos minutos del andén, así que se entra con las maletas. Qué comprar, en
       [la tarjeta del matcha](#matcha).
     window:
-      label: Las maletas, otra vez por delante
+      label: Las maletas, con vosotros
       body: >-
-        **Esta mañana sale el segundo envío por [takkyūbin](#takkyubin)**, del hotel de Kanazawa al de
-        Tokio. Y ojo en piloto automático: **el hotel de estas cuatro noches no es el de la llegada ni
-        el del final**. Esta semana se duerme en Roppongi; mirad la reserva de ahora, no la vieja.
+        **Hoy no hay envío: las maletas van en el Kagayaki.** Se dejan en la recepción del Forza al
+        hacer el *check-out*, se recogen antes del tren y a la estación en taxi, que son once minutos
+        andando con ellas. En el tren caben arriba o detrás de la última fila del coche. Y ojo en
+        piloto automático: **el hotel de estas cuatro noches no es el de la llegada ni el del final**.
+        Esta semana se duerme en Roppongi.
     ver:
       - nombre: "Ippodo Shin-Marunouchi"
         maps: "Ippodo Tea Shin-Marunouchi Store Tokyo"

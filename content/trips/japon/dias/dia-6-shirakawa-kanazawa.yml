@@ -36,7 +36,7 @@ traslados:
     medio: "Hokuriku Shinkansen, un Tsurugi o un Hakutaka"
     duracion: "15 min"
     hora: "hacia las 19:00"
-    nota: "Sin reserva: vagón de asiento libre (*jiyūseki*), billete en la máquina de la estación. Los Kagayaki no paran en Shin-Takaoka. Se llega de noche, así que las maletas van por delante."
+    nota: "Sin reserva: vagón de asiento libre (*jiyūseki*), billete en la máquina de la estación. Los Kagayaki no paran en Shin-Takaoka. Se llega de noche, y las maletas esperan en el hotel."
 blocks:
   - block: Amanecer
     time: "07:00–09:00"
@@ -83,12 +83,11 @@ blocks:
       del Nohi Bus Center, pegado a ella. Son cincuenta minutos, y el trayecto merece la ventanilla:
       se cruza la divisoria por túneles y se sale al otro lado, al valle del río Shō.
     window:
-      label: Mandad las maletas
+      label: Hoy no hay maletas
       body: >-
-        **Hoy es el segundo envío por [takkyūbin](#takkyubin)**, y se pide en recepción anoche, no
-        esta mañana con los mercados abiertos. Las maletas grandes salen del hotel de Takayama hacia
-        el de **Tokio** y llegan mañana, a la vez que vosotros. En Shirakawa-gō se anda por caminos de
-        tierra y en Kanazawa se llega de noche: cargar con equipaje aquí no tiene ningún sentido.
+        **Las maletas grandes ya esperan en el Hotel Forza de Kanazawa**: salieron de Matsumoto por
+        [takkyūbin](#takkyubin) el domingo. Hoy se viaja con la mochila de las dos últimas noches, que
+        en Shirakawa-gō, por caminos de tierra y con dos autobuses, es justo lo que hace falta.
     ver:
       - nombre: Higashiyama Walking Course
         maps: Higashiyama Walking Course Takayama

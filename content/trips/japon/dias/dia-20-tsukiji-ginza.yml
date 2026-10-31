@@ -19,7 +19,7 @@ mapa:
     - { nombre: Depachika del Mitsukoshi, hora: "11:30", zona: Ginza, llegada: a-pie, lat: 35.6711936, lon: 139.7659061 }
     - { nombre: Hama-rikyū, hora: "14:00", llegada: a-pie, lat: 35.6601760, lon: 139.7638239 }
     - { nombre: Nihonbashi, llegada: metro, lat: 35.6840677, lon: 139.7745029 }
-    - { nombre: teamLab Borderless, hora: noche, zona: Azabudai, llegada: metro, lat: 35.6620024, lon: 139.7434178 }
+    - { nombre: teamLab Planets, hora: noche, zona: Toyosu, llegada: metro, lat: 35.648884, lon: 139.790024 }
 blocks:
   - block: Mañana
     time: "09:00–11:30"
@@ -134,8 +134,9 @@ blocks:
       una autopista de hormigón levantada para los Juegos del 64.
 
 
-      Para ir a teamLab se vuelve a Ginza, porque la Hibiya va directa a Kamiyachō. A las cinco abre
-      allí una ventanilla de *katsu sando*: un sándwich a medias entre tres, y al metro.
+      Para ir a teamLab se vuelve a Ginza: la Yūrakuchō sale de Ginza-itchōme, a un minuto del hotel,
+      y deja en Toyosu en cinco minutos. A las cinco abre allí una ventanilla de *katsu sando*: un
+      sándwich a medias entre tres, y al metro.
     window:
       label: Por fin, el momiji de la ciudad
       body: >-
@@ -174,25 +175,24 @@ blocks:
     time: "noche"
     title: Luz artificial
     body: >-
-      Para cerrar la última noche entera, algo que solo funciona de noche: salas sin mapa donde las
-      obras se salen de una habitación y entran en la siguiente, y donde uno acaba descalzo en un
-      estanque de luz. Es espectáculo digital y no arte antiguo, y a tres primerizos les va a parecer
+      Para cerrar la última noche entera, algo que solo funciona de noche: **teamLab Planets**, en
+      Toyosu, donde se anda descalzo por salas a oscuras con el agua por las rodillas y la luz
+      proyectada encima. Conviene ir con pantalón que se pueda remangar hasta el muslo; hay taquillas
+      para los zapatos y las bolsas. Es espectáculo digital y no arte antiguo, y a tres primerizos les va a parecer
       lo más japonés del viaje aunque no lo sea en absoluto.
     ver:
-      - nombre: teamLab Borderless
-        maps: teamLab Borderless Azabudai Hills Tokyo
-        nota: "Sale en *Rental Family*. Entrada con días de antelación, con fecha y hora. Cierra el 1.er y 3.er martes: hoy no estorba."
-        lat: 35.6620024
-        lon: 139.7434178
+      - nombre: teamLab Planets
+        maps: teamLab Planets TOKYO Toyosu
+        nota: "**Entradas compradas** para el miércoles 25. A diez minutos andando de Toyosu (Yūrakuchō) y a uno de Shin-Toyosu (Yurikamome)."
+        lat: 35.648884
+        lon: 139.790024
       - nombre: Gādo-shita de Yūrakuchō
         maps: Yurakucho Gado-shita izakaya Tokyo
-        nota: "Opcional, a la vuelta: *izakaya* bajo las vías del tren, llenos de oficinistas. La Hibiya para al lado, en Hibiya."
+        nota: "Opcional, a la vuelta: *izakaya* bajo las vías del tren, llenos de oficinistas. La Yūrakuchō para al lado."
     comer:
-      - comida: shogun-burger
-        elegido: true
-        nota: Tiene sede en Azabudai Hills, el mismo complejo de teamLab. Abre hasta las diez.
       - comida: ore-no-dashi
-        nota: "*Oden* por piezas y de pie en Ginza 7-chōme, a precio de barra."
+        elegido: true
+        nota: "*Oden* por piezas y de pie en Ginza 7-chōme, a precio de barra, al volver de Toyosu."
       - comida: bar-high-five
         nota: La última copa, en la escuela de coctelería de Ginza. Sin carta, y conviene reservar.
 alt:

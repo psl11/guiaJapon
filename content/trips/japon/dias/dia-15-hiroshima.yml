@@ -41,16 +41,18 @@ blocks:
       El Shinkansen al oeste para en **Himeji**, a cincuenta minutos de Kioto, y el castillo está a
       quince o veinte minutos andando en línea recta desde la salida norte. Se llega antes de que
       abra, a las nueve; la entrada se compra en la taquilla, y en dos horas largas se sube a la torre
-      por las escaleras de madera. Las mochilas se quedan en las taquillas de la estación.
+      por las escaleras de madera. Las maletas se quedan en las taquillas grandes de la estación,
+      junto a la salida norte; si no quedan libres, en la consigna de la estación.
 
 
       El segundo tren sale a las 12:19 y es la hora buena para leerse la ficha de Hiroshima: el
       parque se anda mucho mejor sabiendo lo que se mira.
     window:
-      label: El tercer envío de maletas
+      label: Las maletas, con vosotros
       body: >-
-        **Hoy salen las maletas grandes hacia Tokio.** Quedan dos noches fuera, y cargar con ellas
-        hasta Miyajima y luego cuatro horas de tren no tiene sentido. Ver [takkyūbin](#takkyubin).
+        **Hoy se viaja con ellas**, sin envío: a Himeji, a la taquilla, y otra vez al tren. Por eso
+        los asientos del Nozomi de las 12:19 son los de la primera fila, junto al hueco para equipaje.
+        Mañana se quedan en la recepción del hotel de Hiroshima mientras se va a Miyajima.
     ver:
       - nombre: Castillo de Himeji
         maps: Himeji Castle

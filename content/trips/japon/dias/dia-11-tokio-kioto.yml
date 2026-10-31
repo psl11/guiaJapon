@@ -41,11 +41,12 @@ blocks:
       Mishima y Shin-Fuji, unos cuarenta minutos después de salir. Los asientos comprados son del
       lado A, así que toca levantarse y verlo desde la ventanilla de la puerta, al final del vagón.
     window:
-      label: El segundo envío de maletas
+      label: Las maletas, en el Nozomi
       body: >-
-        **Sale esta mañana desde el hotel de Tokio al de Kioto**, por [takkyūbin](#takkyubin), y
-        llega mañana. Se viaja con lo de una noche. El movimiento se repite al revés dentro de una
-        semana, y entonces el hotel de vuelta a Tokio **no es este**.
+        **Esta vez no hay envío: las maletas van con vosotros.** Hasta 160 cm sumando largo, ancho y
+        fondo caben en el portaequipajes de arriba, y no hay que hacer nada. Por encima de esa medida,
+        el Tōkaidō Shinkansen exige asiento con espacio para equipaje grande, reservado aparte; las
+        maletas que se facturan en Air China llegan a 158 cm, así que en principio no os afecta.
     comer:
       - comida: kurasu-kyoto
         elegido: true

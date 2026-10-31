@@ -8,7 +8,6 @@ dek: >-
   Una mañana en una isla donde el santuario está construido sobre el agua porque pisar tierra era
   profanarla, y por la tarde el tren largo de vuelta a Tokio. Hoy la marea manda más que el reloj.
 duerme:
-  - apa-asakusa-kaminarimon
   - koko-ginza-1chome
 mapa:
   slug: dia-16-miyajima-tokio
@@ -126,9 +125,9 @@ blocks:
     title: Tokio otra vez, y otro barrio
     body: >-
       Se vuelve a Tokio por tercera vez, y a un tercer barrio: ni [Akihabara](#akihabara) ni
-      Roppongi. Hay dos reservas compitiendo, una en Asakusa y otra en Ginza, y las dos por la misma
-      razón: están en la **Toei Asakusa**, la línea que va directa a los dos madrugones de esta semana
-      —Shinagawa para el Fuji, Asakusa para Nikkō— y después sigue hasta Haneda. Las maletas grandes
+      Roppongi, sino el extremo norte de **Ginza**, a un cuarto de hora a pie de Tokio Estación. Se
+      eligió por la Toei Asakusa, que pasa a cuatro minutos y va directa a Shinagawa para el Fuji y
+      a Haneda para el vuelo, y porque Tsukiji y Ginza se hacen andando desde la puerta. Las maletas grandes
       deberían estar ya esperando en el hotel. Quedan **cinco días sin cambiar de cama**.
     comer:
       - comida: "ginza-haru-chan-ramen"

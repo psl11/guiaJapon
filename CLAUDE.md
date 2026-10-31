@@ -26,14 +26,13 @@ Narita**, solo en Haneda.
 
 **Y un dato que toca muchos ficheros: en Tokio se duerme en tres barrios y en tres tandas.**
 **Akihabara** las dos noches de la ida (6-7), **Roppongi** las cuatro de la escala (12-15) y las
-cinco últimas (21-25) **entre Asakusa y Ginza, todavía sin decidir** (sep 2026): hay dos reservas
-con cancelación gratuita compitiendo, el APA Asakusa Kaminarimon y el KOKO Ginza 1-chome. Las dos
-están en la **Toei Asakusa**, que va directa a los dos madrugones de esa semana —Shinagawa para el
-Fuji, Asakusa para Nikkō— y a Haneda. Durante meses la guía dijo **Shinjuku**; se descartó porque no
-llega bien a ninguno de los dos trenes (y el directo JR-Tōbu a Nikkō solo sale temprano en fin de
-semana). Así que **«donde dormís» no es un sitio fijo**: antes de escribir esa expresión, mira de
-qué bloque hablas. **Cuando se decida, hay que reescribir** los traslados de los días 18 y 21, la
-noche del día 16 y los textos que hoy dicen «Asakusa o Ginza» (`grep -rn "Asakusa o\|Asakusa y Ginza"`).
+cinco últimas (21-25) en **Ginza**, en el KOKO Ginza 1-chome (decidido en oct 2026). Compitió
+hasta el final con el APA Asakusa Kaminarimon, que se canceló: los dos están en la **Toei Asakusa**,
+que va directa a Shinagawa para el Fuji y a Haneda, y el KOKO ganó porque deja Tsukiji, Ginza y la
+estación de Tokio a pie; lo que cuesta es el madrugón de Nikkō, quince minutos de línea Ginza hasta
+Asakusa. Durante meses la guía dijo **Shinjuku**; se descartó porque no llega bien a ninguno de los
+dos madrugones. Así que **«donde dormís» no es un sitio fijo**: antes de escribir esa expresión,
+mira de qué bloque hablas.
 
 ---
 
@@ -452,9 +451,8 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
 - Sin foto verificable: Ebisu-Meguro y Masakado.
 - Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
   hay forma de verificar que una imagen de Commons sea ese local.
-- **Falta decidir la última tanda de Tokio (días 16-20, cinco noches).** Hay dos candidatos
-  reservados con cancelación —APA Asakusa Kaminarimon y KOKO Ginza 1-chome—, ver §1.
-  Confirmadas ya: Akihabara, Matsumoto, Hirayu, Takayama, **Kanazawa** (Hotel Forza, ago 2026),
+- **Todos los hoteles están confirmados** (oct 2026; el último, el KOKO Ginza 1-chome para los días
+  16-20, ver §1). Akihabara, Matsumoto, Hirayu, Takayama, **Kanazawa** (Hotel Forza, ago 2026),
   Roppongi, **Kioto** (hotel androoms Kyoto Shichijō, sep 2026; la ficha lleva el número de reserva
   en `nota`) e **Hiroshima** (Via Inn Prime Shinkansen-guchi, sep 2026). Lo de abajo se escribió
   cuando no había ninguna y se conserva porque la regla sigue en pie.
@@ -465,11 +463,9 @@ ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
   que servía mejor al viernes. **Lo único que puede tumbar ese argumento es la consigna**: se sale a
   las 07:15 y no se vuelve hasta las 14:45, o sea siete horas y media guardadas después del
   *check-out*. Está escrito en la ficha para que se pregunte al hacer la entrada.
-- **Los hoteles están sin rehacer, y es deliberado.** El itinerario cambió de forma entera (ver
-  abajo) y las camas de Takayama, Kanazawa, Kioto, Hiroshima y las tres tandas de Tokio hubo que
-  volver a buscarlas; a septiembre de 2026 solo queda por reservar la última tanda de Tokio. En
-  `hoteles/` solo se han ajustado los campos `noches` para que no mientan; **no se ha inventado
-  ningún establecimiento**, que es la regla 4.7. Es la siguiente tarea grande.
+- **Los hoteles se rehicieron enteros tras la reforma** (ver abajo): Takayama, Kanazawa, Kioto,
+  Hiroshima y las tres tandas de Tokio se buscaron de nuevo, y en oct 2026 quedaron todos
+  confirmados. **No se ha inventado ningún establecimiento**, que es la regla 4.7.
 - **Los horarios de autobús de noviembre en Kamikōchi, sin confirmar.** Todo el día 4 cuelga de dos
   autobuses y los horarios usados son los de temporada general.
 

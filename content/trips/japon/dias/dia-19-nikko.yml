@@ -9,7 +9,6 @@ dek: >-
   pintar, aquí hay laca, oro y quinientas tallas policromadas. No es mal gusto — es una operación
   política que sigue funcionando cuatrocientos años después.
 duerme:
-  - apa-asakusa-kaminarimon
   - koko-ginza-1chome
 mapa:
   slug: dia-19-nikko
@@ -21,6 +20,12 @@ mapa:
     - { nombre: Futarasan-jinja, zona: Nikkō, llegada: a-pie, lat: 36.7584003, lon: 139.5966644 }
     - { nombre: "Vuelta a la estación, al Spacia", hora: atardecer, llegada: tren, lat: 36.7474687, lon: 139.6198394 }
 traslados:
+  - desde: "El hotel"
+    hasta: "Asakusa"
+    medio: "Metro Ginza desde Kyōbashi, directo"
+    duracion: "~15 min"
+    hora: "salir 06:30"
+    nota: "Hasta el final de la línea. La estación de Tōbu está pegada, en el edificio EKIMISE."
   - desde: "Asakusa"
     hasta: "Nikkō"
     medio: "Tōbu Limited Express *Spacia*"
@@ -120,7 +125,7 @@ blocks:
     title: Vuelta con el último Spacia
     body: >-
       Se vuelve a Asakusa, el barrio de la primera mañana del viaje, y cerrar aquí diecinueve días
-      después tiene su cosa. Se cena por el barrio.
+      después tiene su cosa. Se cena por el barrio, y la línea Ginza devuelve al hotel sin transbordo.
     ver:
       - nombre: Hoppy-dōri
         maps: Hoppy Street Asakusa Tokyo

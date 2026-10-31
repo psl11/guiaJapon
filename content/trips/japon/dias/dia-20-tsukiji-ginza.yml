@@ -9,12 +9,11 @@ dek: >-
   quincena buena del [momiji](#momiji) de Tokio, que es la razón aritmética de haber guardado la
   ciudad para el final. Un mercado, un sótano de grandes almacenes y un jardín de agua salada.
 duerme:
-  - apa-asakusa-kaminarimon
   - koko-ginza-1chome
 mapa:
   slug: dia-20-tsukiji-ginza
   paradas:
-    - { nombre: "Salida · hotel de Asakusa (o de Ginza)", lat: 35.7101168, lon: 139.7951861 }
+    - { nombre: "Salida · KOKO Ginza", lat: 35.6741741, lon: 139.7690900 }
     - { nombre: Mercado exterior de Tsukiji, hora: "09:00", zona: Tsukiji, llegada: metro, lat: 35.6653884, lon: 139.7704732 }
     - { nombre: Tsukiji Hongan-ji, zona: Tsukiji, llegada: a-pie, lat: 35.6665999, lon: 139.7721277 }
     - { nombre: Depachika del Mitsukoshi, hora: "11:30", zona: Ginza, llegada: a-pie, lat: 35.6711936, lon: 139.7659061 }

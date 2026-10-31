@@ -13,11 +13,13 @@ duerme:
 mapa:
   slug: dia-3-matsumoto
   paradas:
-    - { nombre: Estación de Matsumoto, lat: 36.2307332, lon: 137.9644409 }
-    - { nombre: Matsumoto-jō, hora: "12:30", llegada: a-pie, lat: 36.2386353, lon: 137.9688709 }
+    - { nombre: Estación de Matsumoto, hora: "11:40", lat: 36.2307332, lon: 137.9644409 }
+    - { nombre: "Nunoya Ryokan · maletas", hora: "11:55", zona: Río Metoba, llegada: a-pie, lat: 36.2338076, lon: 137.9727871 }
+    - { nombre: Matsumoto-jō, hora: "13:00", llegada: a-pie, lat: 36.2386353, lon: 137.9688709 }
     - { nombre: Nawate-dōri, hora: "15:00", zona: Río Metoba, llegada: a-pie, lat: 36.2346128, lon: 137.9719918 }
     - { nombre: Nakamachi, zona: Río Metoba, llegada: a-pie, lat: 36.2335932, lon: 137.9713243 }
-    - { nombre: Nunoya Ryokan, hora: noche, zona: Río Metoba, llegada: a-pie, lat: 36.2338076, lon: 137.9727871 }
+    - { nombre: Shinmiyoshi, hora: "19:30", llegada: a-pie, lat: 36.231274, lon: 137.968552 }
+    - { nombre: Vuelta al ryokan, llegada: a-pie, lat: 36.2338076, lon: 137.9727871 }
 traslados:
   - desde: "Akihabara"
     hasta: "Shinjuku"
@@ -38,8 +40,8 @@ blocks:
       Desde [Shinjuku](#shinjuku), dos horas y media largas en el **Azusa**, subiendo por la cuenca
       de Kōfu y el lago Suwa entre montañas que se van poniendo serias. El tren lleva el nombre del
       río que veréis mañana en [Kamikōchi](#kamikochi): sube a buscar su nacimiento. Es el primer
-      tren de verdad del viaje y conviene hacerlo bien: asiento en el lado izquierdo y un *ekiben*
-      comprado en la estación y comido a bordo, que es una institución nacional y no una merienda.
+      tren de verdad del viaje y conviene hacerlo bien: asiento en el lado izquierdo y, como mucho, un
+      tentempié, que la comida es soba al llegar.
     window:
       label: La cuenta del JR Pass, aquí
       body: >-
@@ -54,10 +56,15 @@ blocks:
         lat: 36.0492617
         lon: 138.0853146
   - block: Mediodía
-    time: "12:30–15:00"
-    title: Matsumoto-jō, uno de los doce que quedan
+    time: "11:40–15:00"
+    title: Soba, y Matsumoto-jō, uno de los doce que quedan
     body: >-
-      Del tren al castillo se va andando. Primero por fuera, desde el foso, donde se refleja entero
+      Primero el ryokan, doce minutos andando desde la estación: la habitación no está hasta la tarde,
+      pero las maletas se quedan en recepción. Y a dos pasos, en Nakamachi, la comida es *[**soba**](#soba)*, en
+      la casa que se vea con la masa a la vista; Nomugi y Kobayashi quedan abajo como referencia.
+
+
+      Al castillo se va andando, en un cuarto de hora. Primero por fuera, desde el foso, donde se refleja entero
       con los Alpes detrás; luego por dentro, en calcetines, por escaleras de madera casi verticales
       y con las troneras para arcabuces a la altura de la cara.
     window:
@@ -70,6 +77,14 @@ blocks:
     ver:
       - ficha: matsumoto-jo
         nota: Por qué solo quedan doce torres originales, y la terraza para ver la luna que se le añadió en paz.
+    comer:
+      - comida: soba-matsumoto
+        elegido: true
+        nota: La que se vea al pasar por Nakamachi, mejor si muele a la vista. Sin reserva.
+      - comida: nomugi-matsumoto
+        nota: Doce asientos y cola el domingo; cierra cuando se acaba la masa.
+      - comida: kobayashi-soba-matsumoto
+        nota: El plan B, de corrido hasta las ocho y solo en efectivo.
   - block: Tarde
     time: "15:00–17:00"
     title: Nakamachi, Nawate y las ranas
@@ -93,13 +108,12 @@ blocks:
         lon: 137.97084
   - block: Noche
     time: "noche"
-    title: Soba, caballo y sake de montaña
+    title: Caballo y sake de montaña
     body: >-
-      Nagano es tierra de *[**soba**](#soba)*: aquí el trigo sarraceno crece donde el arroz no, y el fideo se
-      come frío con salsa aparte incluso en noviembre. La otra especialidad local es más difícil de
-      vender y conviene decirla sin rodeos: el ***basashi***, sashimi de carne de caballo, que en
-      Matsumoto es tan normal como el jamón en Teruel. Nadie está obligado. Y para acompañar, sake de
-      la prefectura, que es de los mejores del país por el agua de deshielo.
+      La especialidad local es difícil de vender y conviene decirla sin rodeos: el ***basashi***,
+      sashimi de carne de caballo. La cena es en **Shinmiyoshi**, reservada a las 19:30, a cinco
+      minutos de la estación y a diez andando del ryokan. Nadie está obligado: hay cazuela y parrilla.
+      Y para acompañar, sake de la prefectura, que es de los mejores del país por el agua de deshielo.
     window:
       label: Antes de dormir
       body: >-
@@ -114,9 +128,9 @@ blocks:
         admite cualquier *konbini* con el cartel de Yamato —7-Eleven y FamilyMart—, y en Nakamachi
         hay varios a cinco minutos. Esta tarde, no mañana a las seis.
     comer:
-      - comida: soba-matsumoto
+      - comida: shinmiyoshi-matsumoto
         elegido: true
-        nota: Las casas de soba de Nakamachi, a un paso del ryokan. Las buenas cierran cuando se acaba la masa.
+        nota: "**Reservada** a las 19:30 para cuatro. Pedid el *basashi* variado."
 alt:
   label: Si te desmarcas
   body: >-

@@ -551,7 +551,7 @@ mapa sin rehornear, la clave de `routeMapsGeo.js` se cambió a mano a `reco:…`
 calcula el script. Dos más suyos: la **Minami Lumi**, las luces de la salida sur de Shinjuku
 (11 nov – 14 feb), como último paseo del día 8 de camino a la Ōedo, y **Maidreamin**, el *maid café*
 de Akihabara, después de cenar el día 2. Y de **Japonismo** sobre los Alpes, solo lo que la guía no
-tenía: el Museo del Reloj y la granja de wasabi de Daiō (la de *Sueños* de Kurosawa) en Matsumoto,
+tenía: el Museo del Reloj (quitado en oct 2026: el grupo no quería ir) y la granja de wasabi de Daiō (la de *Sueños* de Kurosawa) en Matsumoto,
 el Sakurayama Hachimangū y Maruaki en Takayama, y las casas Kanda y Nagase y el Minka-en en
 Shirakawa-gō. Lo demás que propone (mercados, Sanmachi, Hida no Sato, Shiroyama, Shinhotaka) ya
 estaba. Las **rutas a pie por nivel** viven en la reco `senderismo-alpes` (práctica, no ficha, para

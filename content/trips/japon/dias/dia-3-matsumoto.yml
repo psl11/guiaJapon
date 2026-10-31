@@ -75,8 +75,8 @@ blocks:
     title: Nakamachi, Nawate y las ranas
     body: >-
       Bajando del castillo, dos calles enfrentadas a la orilla del río Metoba: primero Nawate-dōri,
-      el pasaje de las ranas, y al otro lado del puente Nakamachi, la de los almacenes, que es
-      también la calle del ryokan.
+      el pasaje de las ranas, que termina en la puerta del santuario Yohashira, y al otro lado del
+      puente Nakamachi, la de los almacenes, que es también la calle del ryokan.
     ver:
       - nombre: Nawate-dōri
         maps: Nawate Street Matsumoto
@@ -86,11 +86,11 @@ blocks:
       - nombre: Nakamachi
         maps: Nakamachi Street Matsumoto
         nota: Almacenes ***kura*** de muro blanco y rombos negros, antiguos depósitos de sake hoy talleres y cafés.
-      - nombre: Museo del Reloj de Matsumoto
-        maps: Matsumoto Timepiece Museum
-        nota: "Setecientos relojes antiguos, japoneses y occidentales, ciento diez en marcha. Junto al río, ¥310; hoy, domingo, abre."
-        lat: 36.2335932
-        lon: 137.9713243
+      - nombre: Santuario Yohashira
+        maps: Yohashira Shrine Matsumoto
+        nota: "De 1879, con cuatro dioses a la vez: el de los deseos, al final de Nawate. Gratis y abierto siempre."
+        lat: 36.235062
+        lon: 137.97084
   - block: Noche
     time: "noche"
     title: Soba, caballo y sake de montaña

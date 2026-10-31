@@ -14,32 +14,38 @@ mapa:
   slug: dia-15-hiroshima
   paradas:
     - { nombre: Via Inn Prime, lat: 34.3997391, lon: 132.4748632 }
-    - { nombre: Cúpula de la Bomba Atómica, hora: "11:00", zona: Parque de la Paz, llegada: tren, lat: 34.3954661, lon: 132.4535245 }
+    - { nombre: Cúpula de la Bomba Atómica, hora: "13:30", zona: Parque de la Paz, llegada: tren, lat: 34.3954661, lon: 132.4535245 }
     - { nombre: Monumento a los Niños, zona: Parque de la Paz, llegada: a-pie, lat: 34.3941363, lon: 132.4527566 }
     - { nombre: Cenotafio, zona: Parque de la Paz, llegada: a-pie, lat: 34.3929718, lon: 132.4525711 }
-    - { nombre: Museo Memorial de la Paz, hora: "13:00", zona: Parque de la Paz, llegada: a-pie, lat: 34.3918121, lon: 132.4521048 }
+    - { nombre: Museo Memorial de la Paz, hora: "14:30", zona: Parque de la Paz, llegada: a-pie, lat: 34.3918121, lon: 132.4521048 }
     - { nombre: Okonomimura, hora: noche, zona: Shintenchi, llegada: a-pie, lat: 34.3912894, lon: 132.4618940 }
     - { nombre: Vuelta al hotel, llegada: tren, lat: 34.3997391, lon: 132.4748632 }
 traslados:
   - desde: "Kioto"
+    hasta: "Himeji"
+    medio: "Sanyō Shinkansen *Hikari* 733"
+    duracion: "50 min"
+    hora: "08:01"
+    nota: "**Comprado** en SmartEX: reserva 2003, coche 13, asientos 16A, 16B y 16C. Llega a las 08:49. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
+  - desde: "Himeji"
     hasta: "Hiroshima"
-    medio: "Sanyō Shinkansen *Nozomi*"
-    duracion: "1 h 40"
-    hora: "salir 07:30"
-    nota: "**¥11.600.** Saliendo a esa hora cabe parar en **Himeji** y seguir: el castillo se ve desde el andén."
+    medio: "Sanyō Shinkansen *Nozomi* 137"
+    duracion: "1 h"
+    hora: "12:19"
+    nota: "**Comprado** en SmartEX: reserva 2004, coche 14, asientos 1A, 1B y 1C, junto al hueco de equipaje. Llega a las 13:15."
 blocks:
   - block: Mañana
-    time: "08:00–10:30"
-    title: El Shinkansen al oeste
+    time: "08:00–12:20"
+    title: Himeji, de camino
     body: >-
-      Hora y cuarenta desde Kioto por el Sanyō Shinkansen, el tramo bueno para leerse la ficha de
-      Hiroshima: el parque se anda mucho mejor sabiendo lo que se mira.
+      El Shinkansen al oeste para en **Himeji**, a cincuenta minutos de Kioto, y el castillo está a
+      quince o veinte minutos andando en línea recta desde la salida norte. Se llega antes de que
+      abra, a las nueve; la entrada se compra en la taquilla, y en dos horas largas se sube a la torre
+      por las escaleras de madera. Las mochilas se quedan en las taquillas de la estación.
 
 
-      **Y cabe una parada por el camino.** El Shinkansen para en Himeji, a una hora de Kioto, y el
-      castillo está a quince minutos andando en línea recta desde la estación. Saliendo a las 07:30
-      se está en él a las 09:00, se ve en dos horas largas y se llega a Hiroshima hacia la una, con la
-      tarde entera para el parque. Cuesta madrugar una hora y una consigna.
+      El segundo tren sale a las 12:19 y es la hora buena para leerse la ficha de Hiroshima: el
+      parque se anda mucho mejor sabiendo lo que se mira.
     window:
       label: El tercer envío de maletas
       body: >-
@@ -59,7 +65,7 @@ blocks:
         lat: 34.4892001
         lon: 133.3613787
   - block: Mediodía
-    time: "11:00–13:00"
+    time: "13:30–14:30"
     title: La cúpula, y el eje
     body: >-
       Se entra por la cúpula y se baja hacia el sur, que es como está pensado el recorrido. Aquí hay
@@ -84,12 +90,13 @@ blocks:
         lat: 34.3929718
         lon: 132.4525711
   - block: Tarde
-    time: "13:00–16:00"
+    time: "14:30–17:30"
     title: El museo
     body: >-
       El Museo Memorial de la Paz son objetos y testimonios en primera persona, casi sin texto. Es
       duro, está hecho sin sensacionalismo y se sale en silencio. Dos avisos: **hora y media larga
-      como mínimo**, y no encadenarlo con nada; por eso el bloque siguiente es un paseo.
+      como mínimo**, y no encadenarlo con nada; por eso el bloque siguiente es un paseo. En
+      noviembre cierra a las seis.
     ver:
       - nombre: Museo Memorial de la Paz
         maps: Hiroshima Peace Memorial Museum
@@ -102,7 +109,7 @@ blocks:
         lat: 34.3941363
         lon: 132.4527566
   - block: Atardecer
-    time: "16:00–18:00"
+    time: "17:30–19:00"
     title: La ciudad que está viva
     body: |-
       **Hiroshima es una ciudad de un millón doscientos mil habitantes**, no un cementerio. Dos

@@ -28,10 +28,10 @@ traslados:
     nota: "**¥620 por trayecto** entre el tren y el ferry, ¥1.240 la ida y vuelta. El ferry entra por delante del torii solo en algunas salidas."
   - desde: "Hiroshima"
     hasta: "Tokio"
-    medio: "Sanyō y Tōkaidō Shinkansen *Nozomi*"
-    duracion: "4 h"
-    hora: "salir 15:00"
-    nota: "**¥19.000.** Es el tramo largo del viaje: comprad el *ekiben* en Hiroshima."
+    medio: "Sanyō y Tōkaidō Shinkansen *Nozomi* 38"
+    duracion: "3 h 50"
+    hora: "15:43"
+    nota: "**Comprado** en SmartEX: reserva 2001, coche 15, asientos 16A, 16B y 16C. Llega a Tokio a las 19:33. Ese sábado los Nozomi van sin vagones libres. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
 blocks:
   - block: Mañana
     time: "07:30–08:30"
@@ -106,20 +106,18 @@ blocks:
         elegido: true
         nota: Pedid el ***age-momiji***, frito y en un palo. No aguanta, así que se come subiendo.
   - block: Tarde
-    time: "14:30–19:00"
+    time: "14:30–19:33"
     title: Cuatro horas al este
     body: >-
       Ferry, tren a Hiroshima y **Shinkansen a Tokio: unas cuatro horas**. Se cruza medio país por la
-      costa del mar interior, [Osaka](#osaka), [Kioto](#kioto) y el Fuji por la izquierda si el día
-      está limpio. Es la ocasión de un *ekiben* de Hiroshima —el de ostras es una institución— y de
+      costa del mar interior, [Osaka](#osaka) y [Kioto](#kioto), aunque el último tramo ya va de noche. Es la ocasión de un *ekiben* de Hiroshima —el de ostras es una institución— y de
       dormir.
     window:
-      label: El asiento del Fuji
+      label: Una hora de margen para las maletas
       body: >-
-        Yendo hacia el este, **el Fuji queda a la izquierda**, entre Shin-Fuji y Mishima, más o menos a
-        cuarenta minutos de Tokio. En noviembre se ve muchos días. Es otra vez el **asiento E** de
-        clase turista, como a la ida: las letras van fijas al vagón y el tren no da la vuelta, así que
-        la E cae del lado de la montaña en los dos sentidos.
+        El tren es el de las **15:43**, no el de las tres: se eligió para tener una hora entera entre
+        recoger las maletas en el hotel y subir al andén, por si el ferry o la consigna se retrasan.
+        El Fuji, en cambio, no se ve: se pasa por delante hacia las siete, ya de noche.
   - block: Noche
     time: "noche"
     title: Tokio otra vez, y otro barrio

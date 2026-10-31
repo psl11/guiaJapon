@@ -22,10 +22,10 @@ mapa:
 traslados:
   - desde: "Tokio"
     hasta: "Kioto"
-    medio: "Tōkaidō Shinkansen *Nozomi*"
+    medio: "Tōkaidō Shinkansen *Nozomi* 135"
     duracion: "2 h 15"
-    hora: "salir 09:00"
-    nota: "**¥13.850.** Pedid **ventanilla E**: es el lado del Fuji, que aparece a los cuarenta minutos."
+    hora: "09:00"
+    nota: "**Comprado** en SmartEX: reserva 2002, coche 5, asientos 16A, 16B y 16C. Llega a Kioto a las 11:15. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
 blocks:
   - block: Mañana
     time: "09:00–11:30"
@@ -37,8 +37,9 @@ blocks:
 
 
       Se baja en **lunes**, que es media ventaja: el Nozomi de media mañana va bastante más vacío que
-      el del domingo, aunque conviene reservar igual. El [Fuji](#fuji) asoma por la ventanilla E
-      entre Shin-Fuji y Mishima.
+      el del domingo, aunque conviene reservar igual. El [Fuji](#fuji) asoma por el lado E entre
+      Mishima y Shin-Fuji, unos cuarenta minutos después de salir. Los asientos comprados son del
+      lado A, así que toca levantarse y verlo desde la ventanilla de la puerta, al final del vagón.
     window:
       label: El tercer envío de maletas
       body: >-

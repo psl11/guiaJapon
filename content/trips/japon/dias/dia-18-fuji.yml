@@ -19,10 +19,10 @@ traslados:
     hora: "salir 06:30"
   - desde: "Shinagawa"
     hasta: "Shin-Fuji"
-    medio: "Tōkaidō Shinkansen *Kodama*"
+    medio: "Tōkaidō Shinkansen *Kodama* 803"
     duracion: "1 h"
-    hora: "el de las 07:04"
-    nota: "**En Shin-Fuji solo para el Kodama** — ni Nozomi ni Hikari. Llega a las 08:03 y la recogida es a las 08:30."
+    hora: "07:04"
+    nota: "**Comprado** en SmartEX: reserva 2000, coche 13, asientos 14A, 14B y 14C. Llega a las 08:03 y la recogida es a las 08:30. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
   - desde: "Shin-Fuji"
     hasta: "Tokio"
     medio: "Tōkaidō Shinkansen *Kodama*"
@@ -42,7 +42,8 @@ blocks:
       body: >-
         **En Shin-Fuji solo para el Kodama**: el buscador de billetes hay que forzarlo o se acaba
         comprando un Nozomi que pasa de largo. Hoy es **festivo con puente**, así que asiento
-        reservado, y ya puestos **el asiento E**, que es el del lado del Fuji en los dos sentidos.
+        reservado: ya está comprado, en el lado A-B-C para ir los tres juntos. El Fuji sale por el
+        lado E en los dos sentidos, y para eso está la ventanilla de la puerta.
   - block: Mañana
     time: "08:30–13:00"
     title: La cara norte, que es la de la postal

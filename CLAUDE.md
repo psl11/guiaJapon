@@ -683,7 +683,14 @@ caminata de Higashiyama quedaron en el `alt`, como renuncia contada. **El día 5
 `mapa`**: el horneado era de la tarde vieja, con las paradas por índice, y no se podía rehornear sin
 red hacia OSM. Furukawa queda además a 13 km, fuera de aquel encuadre. Cuando haya red, se vuelve a
 poner con dos zonas (el casco de Takayama por la mañana y Furukawa por la tarde) y se corre el
-script. La entrada vieja de `routeMapsGeo.js` sigue ahí sin usar y se irá en el próximo horneado.
+script.
+
+**El día 6 cambió de horario por los autobuses** (oct 2026). Los de la mañana de Takayama a
+Shirakawa-gō y los directos de la tarde a Kanazawa estaban agotados en Japan Bus Online, así que
+se compró el de las 13:20 a Shirakawa-gō y el de las 17:20 a Shin-Takaoka, con Shinkansen hasta
+Kanazawa. La mañana libre en Takayama la ocupa la caminata de Higashiyama, que era renuncia del
+día 5, y la cena pasó de Ōmichō, que a las ocho está cerrado, a Rekireki, reservado a las 20:00.
+Si se liberan plazas en el directo de las 17:30, el cambio cuesta ¥100 por persona.
 
 **Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
 Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta

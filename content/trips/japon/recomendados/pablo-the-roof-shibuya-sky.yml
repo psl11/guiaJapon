@@ -8,11 +8,11 @@ navLabel: "THE ROOF de Shibuya Sky"
 tipo: zona de sofás con bebida, en la azotea del mirador
 city: Tokio
 area: Shibuya Scramble Square, en la azotea, a unos 230 metros
-cuando: "Día 8 · viernes 13 · sofá de 16:00 a 16:50, con la puesta de sol dentro"
+cuando: "Día 8 · viernes 13 · entrada 14:35, sofá de 15:00 a 15:50 · comprado"
 dia:
   ref: "#dia-8-yamanote"
   label: "Día 8 · Shibuya"
-aviso: "Las entradas salen a la venta a las 0:00 de Japón. Salen catorce días antes: las del viernes 13, el jueves 29 de octubre a las 16:00 de España. Con mal tiempo, la zona de sofás cierra."
+aviso: "Comprado para los cuatro: entrada de 14:35 a 14:50, sofá de 15:00 a 15:50, ¥28.000. Las entradas salen a las 0:00 de Japón catorce días antes, y el turno de las 16:00 se agotó en pocos minutos. Con mal tiempo, la zona de sofás cierra."
 url: https://www.shibuya-scramble-square.com/sky/the-roof/
 link:
   url: https://www.shibuya-scramble-square.com/sky/ticket/
@@ -26,8 +26,9 @@ body: |
   - **¥7.000 por persona** con la entrada al mirador, el cubierto, dos bebidas y algo de picar.
     Con una benjamina de champán, ¥8.000.
   - **Solo para dos o más, y para mayores de veinte años.** Los cuatro, sin problema.
-  - **En noviembre abre de 15:00 a 21:00.** La franja buena es la de las 16:00: el sol se pone hacia
-    las 16:35 y la ciudad se enciende antes de que acabe.
+  - **En noviembre abre de 15:00 a 21:00.** La franja de las 16:00, con la puesta de sol dentro, se
+    agota en cuanto sale. La de las 15:00 da la luz dorada sentados, y la entrada permite quedarse
+    arriba de pie para el atardecer, hacia las 16:35.
 
   La entrada normal a partir de las 15:00 cuesta ¥3.400, así que el sofá sale por ¥3.600 más: dos
   copas, algo de comer y un sitio para sentarse a ver la puesta de sol, que en la azotea normal se

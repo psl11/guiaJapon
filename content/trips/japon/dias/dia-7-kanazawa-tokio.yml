@@ -19,14 +19,14 @@ mapa:
     - { nombre: "Nagamachi · casa Nomura", llegada: a-pie, lat: 36.5640834, lon: 136.6499971 }
     - { nombre: Museo del Siglo XXI, llegada: a-pie, lat: 36.5608382, lon: 136.6582097 }
     - { nombre: Ōmichō, hora: "12:00", llegada: a-pie, lat: 36.5717309, lon: 136.6559877 }
-    - { nombre: "Estación · Tsuzumi-mon", hora: "14:00", llegada: a-pie, lat: 36.5777907, lon: 136.6491024 }
+    - { nombre: "Estación · Tsuzumi-mon", hora: "13:50", llegada: a-pie, lat: 36.5777907, lon: 136.6491024 }
 traslados:
   - desde: "Kanazawa"
     hasta: "Tokio"
-    medio: "Hokuriku Shinkansen *Kagayaki*"
+    medio: "Hokuriku Shinkansen *Kagayaki* 534"
     duracion: "2 h 30"
-    hora: "salir 14:00"
-    nota: "**¥14.380, y no lleva vagones libres**: el asiento reservado no es opcional, es la única forma de subir."
+    hora: "13:50"
+    nota: "**Comprado** a nombre de Pablo Velasco en JR West: reserva 43320, coche 8, asientos 7D, 7E, 8D y 8E (lado de la cordillera). Llega a Tokio a las 16:20. Antes de subir hay que sacar los billetes en una máquina JR de la estación, con la tarjeta física con que se pagó y el PIN de cuatro cifras: mejor la noche del 11, al llegar."
   - desde: "Kamiyachō"
     hasta: "Ikebukuro"
     medio: "Metro Hibiya y Marunouchi, transbordo en Kasumigaseki"
@@ -90,7 +90,7 @@ blocks:
         elegido: true
         nota: Matcha y *wagashi* dentro de una antigua casa de geishas, al acabar el barrio.
   - block: Mediodía
-    time: "12:00–14:00"
+    time: "12:00–13:50"
     title: El ekiben del mar del Japón
     body: >-
       Kanazawa vive de una de las mejores lonjas del país y sus ***ekiben*** son de marisco, no de
@@ -106,10 +106,8 @@ blocks:
       - comida: omicho
         elegido: true
         nota: "*Kaisendon* en las barras del fondo, y el cangrejo de las nieves recién abierta la veda."
-      - comida: "sushi-rekireki-omicho"
-        nota: "Si no se fue anoche: la barra de sushi del mercado, de 11:30 a 14:00. Pedid el rollo de *nodoguro*."
   - block: Tarde
-    time: "14:00–17:00"
+    time: "13:50–17:00"
     title: Dos horas y media, y se acaba la montaña
     body: >-
       El **Hokuriku Shinkansen** deja en Tokio en dos horas y media largas, cruzando por debajo de la

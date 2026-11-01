@@ -25,7 +25,7 @@ traslados:
     medio: "Tōkaidō Shinkansen *Nozomi* 135"
     duracion: "2 h 15"
     hora: "09:00"
-    nota: "**Comprado** en SmartEX: reserva 2002, coche 5, asientos 16A, 16B y 16C. Llega a Kioto a las 11:15. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
+    nota: "**Comprado** en SmartEX: reserva 2002, coche 16, asientos 1A, 1B y 1C, con el espacio para maletas grandes detrás. Llega a Kioto a las 11:15. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
 blocks:
   - block: Mañana
     time: "09:00–11:30"

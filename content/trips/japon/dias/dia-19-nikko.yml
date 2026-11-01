@@ -18,7 +18,7 @@ mapa:
     - { nombre: Rinnō-ji, zona: Nikkō, llegada: a-pie, lat: 36.7547249, lon: 139.6007590 }
     - { nombre: "Tōshōgū y el Yōmeimon", zona: Nikkō, llegada: a-pie, lat: 36.7576378, lon: 139.5991100 }
     - { nombre: Futarasan-jinja, zona: Nikkō, llegada: a-pie, lat: 36.7584003, lon: 139.5966644 }
-    - { nombre: "Vuelta a la estación, al Spacia", hora: atardecer, llegada: tren, lat: 36.7474687, lon: 139.6198394 }
+    - { nombre: "Vuelta a la estación", hora: "17:22", llegada: tren, lat: 36.7474687, lon: 139.6198394 }
 traslados:
   - desde: "El hotel"
     hasta: "Asakusa"
@@ -34,9 +34,10 @@ traslados:
     nota: "**Comprado** en la web de Tōbu (cuenta de Pablo Velasco): pedido Ex20261101S7AUSA, coche 3, asientos 4B, 5C y 9C. Llega a las 10:50. El billete va en el móvil; el trayecto, ¥1.400, se paga aparte con la Suica en el torno. El de las 7:50 estaba lleno."
   - desde: "Nikkō"
     hasta: "Asakusa"
-    medio: "Tōbu *Spacia*, el último"
-    duracion: "2 h"
-    hora: "al atardecer"
+    medio: "Tōbu *Revaty Kegon* 046, directo"
+    duracion: "1 h 53"
+    hora: "17:22"
+    nota: "**Comprado** en la web de Tōbu: pedido Ex20261101O11WOS, coche 2, asientos 2B, 2C y 2D. Llega a Asakusa a las 19:15. Billete en el móvil y trayecto con la Suica, como a la ida."
 blocks:
   - block: Mañana
     time: "09:00–11:00"
@@ -96,18 +97,27 @@ blocks:
         maps: Taiyuinbyo Nikko
         nota: "El mausoleo del nieto, a cinco minutos del Tōshōgū y con la mitad de gente. Cierra a las 16:00."
   - block: Tarde
-    time: "14:30–16:00"
-    title: El bosque, y una decisión honesta
+    time: "14:30–17:22"
+    title: El río de los Jizō, y una decisión honesta
     body: >-
-      Detrás del santuario, la carretera de Irohazaka trepa en zigzag hasta el lago Chūzenji y la
-      cascada de Kegon: cincuenta minutos de autobús desde la estación.
+      Del Shinkyō, veinte minutos río arriba, está la garganta de **Kanmangafuchi**: un sendero junto
+      al agua con setenta estatuas de Jizō con gorro rojo en fila, de las que se dice que nunca sale
+      la misma cuenta dos veces. Hay que ir con luz, porque a las 16:30 ya es de noche.
 
 
-      Y aquí hay que ser honesto: **la parte alta de Nikkō tiene su momiji a finales de octubre**, así
-      que a estas alturas de noviembre el color de arriba ya ha pasado. Abajo, en la zona del
-      santuario, queda algo. Si el día va justo, el santuario vale por sí solo y la montaña puede
-      dejarse. Llegando a las once, lo normal es dejarla.
+      Después se baja andando hacia la estación por la calle principal, con tiempo para picar *yuba*,
+      la piel de la leche de soja que es la especialidad de Nikkō. El tren de vuelta sale a las 17:22.
+
+
+      Lo que no cabe es la parte alta: la carretera de Irohazaka hasta el lago Chūzenji y la cascada
+      de Kegon son cincuenta minutos de autobús por trayecto, y **su momiji es de finales de
+      octubre**, así que a estas alturas de noviembre el color de arriba ya ha pasado.
     ver:
+      - nombre: Kanmangafuchi
+        maps: "憾満ヶ淵 日光"
+        nota: "Setenta Jizō de gorro rojo junto al río, a veinte minutos del Shinkyō. Antes de que anochezca."
+        lat: 36.7490293
+        lon: 139.5883465
       - nombre: Irohazaka
         maps: Irohazaka Winding Road Nikko
         nota: Cuarenta y ocho curvas de horquilla, una por sílaba del viejo silabario.
@@ -122,7 +132,7 @@ blocks:
         nota: Por qué el color baja por la ladera, y por qué Nikkō no se adelantó al día 9.
   - block: Noche
     time: "noche"
-    title: Vuelta con el último Spacia
+    title: Vuelta a Asakusa
     body: >-
       Se vuelve a Asakusa, el barrio de la primera mañana del viaje, y cerrar aquí diecinueve días
       después tiene su cosa. Se cena por el barrio, y la línea Ginza devuelve al hotel sin transbordo.
@@ -140,9 +150,7 @@ alt:
   label: Si te desmarcas
   body: >-
     En Nikkō, saltarse el [Tōshōgū](https://www.google.com/maps/search/?api=1&query=Nikko%20Toshogu%20Shrine) —herejía— y hacer el [**Rinnō-ji**](https://www.google.com/maps/search/?api=1&query=Rinnoji%20Temple%20Nikko) y el **Futarasan**, más antiguos,
-    mucho más sobrios y sin nadie; o el paseo por la garganta de Kanmangafuchi, donde hay
-    setenta estatuas de Jizō alineadas junto al río de las que se dice que nunca sale la misma
-    cuenta dos veces.
+    mucho más sobrios y sin nadie.
 
 
     Y si a estas alturas del viaje el cuerpo no pide dos horas de tren, este es buen día para

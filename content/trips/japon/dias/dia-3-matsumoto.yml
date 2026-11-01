@@ -31,7 +31,7 @@ traslados:
     medio: "Limited express *Azusa* 9"
     duracion: "2 h 40"
     hora: "salir 09:00"
-    nota: "**Comprado** en eki-net (JR East), a nombre de Pablo Velasco: coche 10, asientos 13A, 13B, 14A y 14B, ¥6.730 por persona. Llega a las 11:39. El billete se saca antes en una máquina verde de asientos reservados de JR East con el QR de la reserva: mejor el sábado 7 en Akihabara. En las de JR Central de Tokio y Shinagawa no sale. El lago Suwa cae al otro lado, el de C y D."
+    nota: "**Comprado** en eki-net (JR East), a nombre de Pablo Velasco: reserva E41458, coche 10, asientos 13A, 13B, 14A y 14B, ¥6.730 por persona. Llega a las 11:39. El billete se saca antes en una máquina verde de asientos reservados de JR East con el QR de la reserva: mejor el sábado 7 en Akihabara. En las de JR Central de Tokio y Shinagawa no sale. El lago Suwa cae al otro lado, el de C y D."
 blocks:
   - block: Mañana
     time: "09:00–12:00"

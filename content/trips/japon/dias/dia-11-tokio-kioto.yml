@@ -22,13 +22,13 @@ mapa:
 traslados:
   - desde: "Tokio"
     hasta: "Kioto"
-    medio: "Tōkaidō Shinkansen *Nozomi* 135"
-    duracion: "2 h 15"
-    hora: "09:00"
-    nota: "**Comprado** en SmartEX: reserva 2002, coche 16, asientos 1A, 1B y 1C, con el espacio para maletas grandes detrás. Llega a Kioto a las 11:15. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
+    medio: "Tōkaidō Shinkansen *Nozomi* 245"
+    duracion: "2 h 12"
+    hora: "09:09"
+    nota: "**Comprado** en SmartEX: reserva 2002, coche 3, asientos 17A, 17B y 17C, reservados como «Seat with Oversized Baggage Area»: las maletas van en el hueco de detrás. Llega a Kioto a las 11:21. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
 blocks:
   - block: Mañana
-    time: "09:00–11:30"
+    time: "09:09–11:30"
     title: El Nozomi por el Tōkaidō
     body: >-
       Dos horas y cuarto de Tokio a Kioto por la **línea de alta velocidad más transitada del
@@ -44,9 +44,10 @@ blocks:
       label: Las maletas, en el Nozomi
       body: >-
         **Esta vez no hay envío: las maletas van con vosotros.** Hasta 160 cm sumando largo, ancho y
-        fondo caben en el portaequipajes de arriba, y no hay que hacer nada. Por encima de esa medida,
-        el Tōkaidō Shinkansen exige asiento con espacio para equipaje grande, reservado aparte; las
-        maletas que se facturan en Air China llegan a 158 cm, así que en principio no os afecta.
+        fondo caben en el portaequipajes de arriba. Por encima, el Tōkaidō Shinkansen exige asiento
+        con espacio para equipaje grande, y las vuestras rondan los 172 cm: por eso este tren y los
+        tres de la vuelta van reservados con ese tipo de asiento, la última fila del coche según la
+        marcha. Sin él, ¥1.000 por maleta.
     comer:
       - comida: kurasu-kyoto
         elegido: true

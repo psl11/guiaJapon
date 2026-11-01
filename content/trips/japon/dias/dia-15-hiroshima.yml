@@ -23,24 +23,24 @@ mapa:
 traslados:
   - desde: "Kioto"
     hasta: "Himeji"
-    medio: "Sanyō Shinkansen *Hikari* 733"
-    duracion: "50 min"
-    hora: "08:01"
-    nota: "**Comprado** en SmartEX: reserva 2003, coche 16, asientos 1A, 1B y 1C, con el espacio para maletas grandes detrás. Llega a las 08:49. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
+    medio: "Sanyō Shinkansen *Nozomi* 111"
+    duracion: "43 min"
+    hora: "08:17"
+    nota: "**Comprado** en SmartEX: reserva 2003, coche 4, asientos 20A, 20B y 20C, reservados con espacio para maletas grandes. Llega a las 09:00. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
   - desde: "Himeji"
     hasta: "Hiroshima"
     medio: "Sanyō Shinkansen *Nozomi* 137"
     duracion: "1 h"
     hora: "12:19"
-    nota: "**Comprado** en SmartEX: reserva 2004, coche 4, asientos 1A, 1B y 1C, con el espacio para maletas grandes detrás. Llega a las 13:15."
+    nota: "**Comprado** en SmartEX: reserva 2004, coche 4, asientos 20A, 20B y 20C, reservados con espacio para maletas grandes. Llega a las 13:15."
 blocks:
   - block: Mañana
     time: "08:00–12:20"
     title: Himeji, de camino
     body: >-
-      El Shinkansen al oeste para en **Himeji**, a cincuenta minutos de Kioto, y el castillo está a
-      quince o veinte minutos andando en línea recta desde la salida norte. Se llega antes de que
-      abra, a las nueve; la entrada se compra en la taquilla, y en dos horas largas se sube a la torre
+      El Shinkansen al oeste para en **Himeji**, a tres cuartos de hora de Kioto, y el castillo está a
+      quince o veinte minutos andando en línea recta desde la salida norte. Se llega a las nueve, a
+      la hora en que abre; la entrada se compra en la taquilla, y en dos horas largas se sube a la torre
       por las escaleras de madera. Las maletas se quedan en las taquillas grandes de la estación,
       junto a la salida norte; si no quedan libres, en la consigna de la estación.
 
@@ -51,7 +51,7 @@ blocks:
       label: Las maletas, con vosotros
       body: >-
         **Hoy se viaja con ellas**, sin envío: a Himeji, a la taquilla, y otra vez al tren. Por eso
-        los asientos del Nozomi de las 12:19 son los de la primera fila, junto al hueco para equipaje.
+        los dos trenes van reservados como asiento con espacio para equipaje grande, la última fila del coche 4.
         Mañana se quedan en la recepción del hotel de Hiroshima mientras se va a Miyajima.
     ver:
       - nombre: Castillo de Himeji

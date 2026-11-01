@@ -28,10 +28,10 @@ traslados:
     hora: "salir 08:15"
   - desde: "Shinjuku"
     hasta: "Matsumoto"
-    medio: "Limited express *Azusa*"
+    medio: "Limited express *Azusa* 9"
     duracion: "2 h 40"
     hora: "salir 09:00"
-    nota: "**¥6.620.** Reservad asiento en el lado izquierdo, que es el de las vistas del lago Suwa."
+    nota: "**Comprado** en eki-net (JR East), a nombre de Pablo Velasco: coche 10, asientos 13A, 13B, 14A y 14B, ¥6.730 por persona. Llega a las 11:39. El billete se saca antes en una máquina verde de asientos reservados de JR East con el QR de la reserva: mejor el sábado 7 en Akihabara. En las de JR Central de Tokio y Shinagawa no sale. El lago Suwa cae al otro lado, el de C y D."
 blocks:
   - block: Mañana
     time: "09:00–12:00"
@@ -40,12 +40,12 @@ blocks:
       Desde [Shinjuku](#shinjuku), dos horas y media largas en el **Azusa**, subiendo por la cuenca
       de Kōfu y el lago Suwa entre montañas que se van poniendo serias. El tren lleva el nombre del
       río que veréis mañana en [Kamikōchi](#kamikochi): sube a buscar su nacimiento. Es el primer
-      tren de verdad del viaje y conviene hacerlo bien: asiento en el lado izquierdo y, como mucho, un
+      tren de verdad del viaje y conviene hacerlo bien: las maletas detrás de la última fila del coche y, como mucho, un
       tentempié, que la comida es soba al llegar.
     window:
       label: La cuenta del JR Pass, aquí
       body: >-
-        Este billete cuesta unos **¥6.620** en asiento libre. Sumado a Kamakura y a los traslados del
+        Este billete cuesta **¥6.730** con asiento reservado. Sumado a Kamakura y a los traslados del
         aeropuerto, vuestro gasto total en JR ronda los ¥21.000 — frente a los ¥50.000 que
         cuesta el JR Pass de 7 días, que además solo cubre siete de los veintiún días. No compréis el pase:
         billetes sueltos, y el metro de Tokio no es JR de todas formas.

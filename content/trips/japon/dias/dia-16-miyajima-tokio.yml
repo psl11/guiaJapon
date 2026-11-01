@@ -31,7 +31,7 @@ traslados:
     medio: "Sanyō y Tōkaidō Shinkansen *Nozomi* 38"
     duracion: "3 h 50"
     hora: "15:43"
-    nota: "**Comprado** en SmartEX: reserva 2001, coche 15, asientos 16A, 16B y 16C. Llega a Tokio a las 19:33. Ese sábado los Nozomi van sin vagones libres. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
+    nota: "**Comprado** en SmartEX: reserva 2001, coche 3, asientos 17A, 17B y 17C, con el espacio para maletas grandes detrás. Llega a Tokio a las 19:33. Ese sábado los Nozomi van sin vagones libres. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
 blocks:
   - block: Mañana
     time: "07:30–08:30"

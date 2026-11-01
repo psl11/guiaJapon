@@ -13,7 +13,7 @@ duerme:
 mapa:
   slug: dia-19-nikko
   paradas:
-    - { nombre: Estación Tōbu-Nikkō, hora: "09:30", lat: 36.7474687, lon: 139.6198394 }
+    - { nombre: Estación Tōbu-Nikkō, hora: "10:50", lat: 36.7474687, lon: 139.6198394 }
     - { nombre: Shinkyō, zona: Nikkō, llegada: a-pie, lat: 36.7533178, lon: 139.6040375 }
     - { nombre: Rinnō-ji, zona: Nikkō, llegada: a-pie, lat: 36.7547249, lon: 139.6007590 }
     - { nombre: "Tōshōgū y el Yōmeimon", zona: Nikkō, llegada: a-pie, lat: 36.7576378, lon: 139.5991100 }
@@ -24,14 +24,14 @@ traslados:
     hasta: "Asakusa"
     medio: "Metro Ginza desde Kyōbashi, directo"
     duracion: "~15 min"
-    hora: "salir 06:30"
+    hora: "salir 08:30"
     nota: "Hasta el final de la línea. La estación de Tōbu está pegada, en el edificio EKIMISE."
   - desde: "Asakusa"
     hasta: "Nikkō"
-    medio: "Tōbu Limited Express *Spacia*"
-    duracion: "2 h"
-    hora: "salir 07:00"
-    nota: "**¥4.100 ida y vuelta.** Más cómodo y más barato que la vía JR, que obliga a cambiar en Utsunomiya. Sacadlo la víspera."
+    medio: "Tōbu *Spacia X* 003"
+    duracion: "1 h 50"
+    hora: "09:00"
+    nota: "**Comprado** en la web de Tōbu (cuenta de Pablo Velasco): pedido Ex20261101S7AUSA, coche 3, asientos 4B, 5C y 9C. Llega a las 10:50. El billete va en el móvil; el trayecto, ¥1.400, se paga aparte con la Suica en el torno. El de las 7:50 estaba lleno."
   - desde: "Nikkō"
     hasta: "Asakusa"
     medio: "Tōbu *Spacia*, el último"
@@ -39,7 +39,7 @@ traslados:
     hora: "al atardecer"
 blocks:
   - block: Mañana
-    time: "07:00–09:30"
+    time: "09:00–11:00"
     title: El Spacia desde Asakusa
     body: >-
       El Tōbu Limited Express sale de Asakusa y llega a Nikkō en unas dos horas con asiento reservado.
@@ -58,7 +58,7 @@ blocks:
         lat: 35.9798696
         lon: 139.7523384
   - block: Mediodía
-    time: "09:30–13:00"
+    time: "11:00–14:30"
     title: Convertir a un hombre en dios
     body: >-
       Cuatro cosas, y cada una tiene truco:
@@ -96,7 +96,7 @@ blocks:
         maps: Taiyuinbyo Nikko
         nota: "El mausoleo del nieto, a cinco minutos del Tōshōgū y con la mitad de gente. Cierra a las 16:00."
   - block: Tarde
-    time: "13:00–16:00"
+    time: "14:30–16:00"
     title: El bosque, y una decisión honesta
     body: >-
       Detrás del santuario, la carretera de Irohazaka trepa en zigzag hasta el lago Chūzenji y la
@@ -106,7 +106,7 @@ blocks:
       Y aquí hay que ser honesto: **la parte alta de Nikkō tiene su momiji a finales de octubre**, así
       que a estas alturas de noviembre el color de arriba ya ha pasado. Abajo, en la zona del
       santuario, queda algo. Si el día va justo, el santuario vale por sí solo y la montaña puede
-      dejarse.
+      dejarse. Llegando a las once, lo normal es dejarla.
     ver:
       - nombre: Irohazaka
         maps: Irohazaka Winding Road Nikko

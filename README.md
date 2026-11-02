@@ -1,7 +1,7 @@
 # Japón · guía de viaje
 
 Guía de viaje a Japón para un grupo de cuatro, **del 6 al 26 de noviembre de 2026**. Sitio estático,
-sin backend, que **funciona sin conexión**.
+sin backend.
 
 **→ https://psl11.github.io/guiaJapon/**
 
@@ -11,34 +11,33 @@ La historia del país va al final, en seis actos que se leen del tirón.
 
 ## El viaje
 
-Un bucle de tres semanas: **Tokio → Kamakura → los Alpes → Hida → Kanazawa → Kioto → Osaka →
-Hiroshima → vuelta a Tokio**. Tres de los cuatro hacen los 21 días; el cuarto vuelve el 13 de
-noviembre, y la guía lo cuenta entero igualmente.
+Dos bucles en tres semanas. El primero: **Tokio → los Alpes (Matsumoto, Kamikōchi) → Hida
+(Takayama, Shirakawa-gō) → Kanazawa → vuelta a Tokio** (Yamanote y Kamakura). El segundo: **Kioto →
+Osaka → Hiroshima y Miyajima → Tokio**, con el Fuji, Nikkō y las compras al final.
+
+Tres de los cuatro hacen los 21 días; el cuarto vuela de vuelta desde Narita el sábado 14 de
+noviembre, y por eso la ruta sube primero a la montaña y vuelve a Tokio antes de la despedida. La
+guía cuenta el viaje entero igualmente, y también los días que el cuarto pasa solo en Tokio antes de
+que lleguen los demás.
 
 El giro que lo hace distinto está en el medio: **Kamikōchi**, un valle sin coches que **cierra el 15
-de noviembre**. Se duerme allí el 12, tres días antes de que corten la carretera.
+de noviembre**. Se recorre el lunes 9 y se duerme en Hirayu Onsen, a la salida del valle.
 
 ## Cómo se usa en el viaje
 
-Es una **PWA**: se abre una vez con wifi y guarda todo —textos, fotos y fuentes, unos 13 MB— para
-funcionar sin datos.
+Se abre en el navegador del móvil. En iPhone conviene **añadirla a la pantalla de inicio**
+(«Compartir → Añadir a pantalla de inicio»), que la abre como una app.
 
-En iPhone o iPad, **añádela a la pantalla de inicio** («Compartir → Añadir a pantalla de inicio»). No
-es un capricho: Safari borra la caché de un sitio web normal tras siete días sin usarlo, pero **no la
-de una app añadida a la pantalla de inicio**.
-
-**Y hay que comprobarlo antes de volar, no en el avión.** Abre la guía con wifi, déjala un minuto
-—son unos 16 MB y se descargan una sola vez—, luego **pon el móvil en modo avión y recárgala**. Si
-carga entera, está lista. Si sale una pantalla de error, no lo está: repite con wifi y dale más
-tiempo. Es la única comprobación que vale, porque **una guía sin offline se ve exactamente igual que
-una con offline mientras haya cobertura**.
+Es una PWA y guarda en caché lo que ya se ha visto, pero **el funcionamiento sin conexión no está
+garantizado**: contad con tener datos. Si tras un cambio no aparece lo nuevo, cerrad y volved a abrir
+la app.
 
 ## Desarrollo
 
 ```bash
 npm install
 npm run dev          # → http://localhost:3000/guiaJapon/  (ojo al subpath)
-npx vitest run tests # 23 tests · la puerta real de validación del contenido
+npx vitest run tests # la puerta real de validación del contenido
 npx nuxi generate    # build estático en .output/public
 ```
 

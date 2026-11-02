@@ -1,8 +1,29 @@
 # Cómo trabajar en esta guía
 
 Manual de operaciones para quien continúe este repo —persona o agente—. No repite lo que se ve
-leyendo el código: recoge **las decisiones, las convenciones y las trampas** que costaron tiempo
-descubrir.
+leyendo el código ni lo que ya cuenta la guía: recoge **las decisiones, las convenciones y las
+trampas** que costaron tiempo descubrir.
+
+---
+
+## 0. Reglas de trabajo con Pablo
+
+Las ha pedido él expresamente y no se deducen del código.
+
+- **Commit y push directos a `main`**, sin ramas ni PR (`git push origin main`). La regla de «rama
+  primero» es de los proyectos de Xceed, no de esta guía. En una sesión en la nube (Claude Code
+  web o móvil), si el entorno no deja empujar a `main`, empuja a la rama de la sesión y dile que
+  la mergee desde GitHub.
+- **No hagas `curl` ni WebFetch contra tiendas y taquillas japonesas** (Webket/Shibuya Sky,
+  Yodobashi, Bic Camera…). En oct 2026 una o dos peticiones bastaron para que bloquearan la IP de su
+  casa. Para stock, horarios o entradas, usa WebSearch o pídele una captura.
+- **No propongas que el hotel reserve un restaurante**, ni en la guía ni en las respuestas. El Gift
+  Takayama dijo que no lo hace (nov 2026). Las alternativas son el teléfono (avisando si solo
+  hablan japonés), una plataforma (TableCheck, Hot Pepper, byFood…) o llegar a la hora de apertura.
+- **No se vuelve a ningún sitio**: ver §4.10.
+- **Durante el viaje (6–26 nov) escribe desde el móvil.** Respuestas cortas y al grano. Lo que se
+  empuja a `main` lo publica el CI en unos minutos; si no se ve, es la caché del service worker
+  (trampa 3.5).
 
 ---
 
@@ -11,836 +32,365 @@ descubrir.
 Guía de viaje a Japón (**6–26 de noviembre de 2026**, 21 días, cuatro viajeros) publicada como sitio
 estático en https://psl11.github.io/guiaJapon/. Bifurcada de `guiaVietnam`, que comparte plataforma.
 
-**El dato que ordena todo el contenido:** el grupo son cuatro, **tres hacen los 21 días** y **uno
-vuela de vuelta el sábado 14 de noviembre** (la jornada 9). Para tres es su primer viaje a Japón;
-para el cuarto, el quinto. La guía cuenta el viaje entero y sirve a los dos lectores a la vez.
+**El dato que ordena todo el contenido:** **tres hacen los 21 días** y **uno vuela de vuelta el
+sábado 14 de noviembre** (la jornada 9). Para tres es su primer viaje a Japón; para el cuarto, el
+quinto. La guía cuenta el viaje entero y sirve a los dos lectores a la vez.
 
-**Y ese vuelo es lo que da forma a todo el itinerario, así que conviene entenderlo antes de tocar
-nada.** Sale de **Narita a las 12:10**, no de Haneda como los otros tres. Un vuelo de mediodía no se
-coge desde los Alpes esa mañana —se comprobó: desde Takayama, el primer tren del día llega a Narita
-después de que cierre el mostrador—, así que **la ruta sube a la montaña primero y vuelve a Tokio
-antes de la despedida**. De ahí la forma en dos bucles, y de ahí que el grupo se separe en un hotel
-de la capital y no en una parada de autobús de montaña. Arrastra además dos detalles por el
-contenido: su maleta no viaja con las otras tres, y **la fianza de la tarjeta IC no se devuelve en
-Narita**, solo en Haneda.
+**Ese vuelo da forma al itinerario.** Sale de **Narita a las 12:10**, no de Haneda como los otros
+tres, y no se coge desde los Alpes esa mañana: desde Takayama, el primer tren llega a Narita después
+de que cierre el mostrador. Así que **la ruta sube a la montaña primero y vuelve a Tokio antes de la
+despedida** (dos bucles; ver §8). Arrastra dos detalles: su maleta no viaja con las otras tres, y
+**la fianza de la tarjeta IC no se devuelve en Narita**, solo en Haneda.
 
-**Y un dato que toca muchos ficheros: en Tokio se duerme en tres barrios y en tres tandas.**
-**Akihabara** las dos noches de la ida (6-7), **Roppongi** las cuatro de la escala (12-15) y las
-cinco últimas (21-25) en **Ginza**, en el KOKO Ginza 1-chome (decidido en oct 2026). Compitió
-hasta el final con el APA Asakusa Kaminarimon, que se canceló: los dos están en la **Toei Asakusa**,
-que va directa a Shinagawa para el Fuji y a Haneda, y el KOKO ganó porque deja Tsukiji, Ginza y la
-estación de Tokio a pie; lo que cuesta es el madrugón de Nikkō, quince minutos de línea Ginza hasta
-Asakusa. Durante meses la guía dijo **Shinjuku**; se descartó porque no llega bien a ninguno de los
-dos madrugones. Así que **«donde dormís» no es un sitio fijo**: antes de escribir esa expresión,
-mira de qué bloque hablas.
+**En Tokio se duerme en tres barrios y en tres tandas**: **Akihabara** las dos noches de la ida
+(6-7), **Roppongi** las cuatro de la escala (12-15) y **Ginza** las cinco últimas (21-25), en el
+KOKO Ginza 1-chome. Ganó al APA Asakusa Kaminarimon porque deja Tsukiji, Ginza y la estación de
+Tokio a pie; lo que cuesta es el madrugón de Nikkō. Durante meses la guía dijo **Shinjuku**, y se
+descartó. **«Donde dormís» no es un sitio fijo**: antes de escribirlo, mira de qué bloque hablas.
 
 ---
 
-## 2. Arquitectura, en cuatro líneas
+## 2. Arquitectura
 
 - **Nuxt 4** con `nuxi generate` → GitHub Pages (`nitro.preset: 'github_pages'`, `app.baseURL`).
-- **@nuxt/content v3**, colecciones `type: 'data'` sobre ficheros YAML en `content/trips/japon/`.
-  Once colecciones; la más nueva es **`recomendados/`** (ago 2026) — ver §10.
-- **Los esquemas viven en `shared/schemas.ts`** y los consumen dos sitios: `content.config.ts` (tipos
-  y columnas SQL) y los tests. Una sola fuente de verdad.
-- **PWA con precaché total** (`@vite-pwa/nuxt`): app shell, contenido y las 56 fotos, ~13 MB.
+- **@nuxt/content v3**, colecciones `type: 'data'` sobre YAML en `content/trips/japon/`.
+- **Los esquemas viven en `shared/schemas.ts`**. Los consumen `content.config.ts` (tipos y columnas
+  SQL) y los tests: una sola fuente de verdad.
+- **PWA con precaché total** (`@vite-pwa/nuxt`), sin garantía de offline (trampa 3.9).
 
 «Añadir un viaje = añadir ficheros»: los globs son `trips/*/…`, así que un viaje nuevo no toca código.
 
 ---
 
-## 3. Las once trampas que ya nos han costado tiempo
+## 3. Trampas que ya han costado tiempo
 
-**3.1 · Content v3 NO valida `type:'data'` contra zod en el build.** Es un fallo conocido
-(nuxt/content#3351). Un YAML mal formado pasa el build y revienta en runtime. **La puerta real es
-`tests/data/schema.spec.ts`**, que hace `safeParse` fichero a fichero. Ejecuta siempre
-`npx vitest run tests` antes de dar nada por bueno.
+**3.1 · Content v3 NO valida `type:'data'` contra zod en el build** (nuxt/content#3351). Un YAML mal
+formado pasa el build y revienta en runtime. **La puerta real es `tests/data/schema.spec.ts`.**
+Ejecuta siempre `npx vitest run tests` antes de dar nada por bueno.
 
-**3.2 · Hay campos que NO renderizan Markdown.** `epithet`, `lead`, `lede`, todos los `title` y los
-`sections[].heading` se sirven con `inlineMd`, que solo entiende `**fuerte**`, `*cursiva*` y
-`` `código` ``. **Un enlace ahí sale como texto crudo.** Los enlaces solo van en los `body`. Lo
-vigila `tests/data/inline-md-subset.spec.ts`.
+**3.2 · Hay campos que NO renderizan Markdown.** `epithet`, `lead`, `lede`, todos los `title`, los
+`sections[].heading` y `traslados[].medio`/`nota` van por `inlineMd`, que solo entiende `**fuerte**`,
+`*cursiva*` y `` `código` ``. **Un enlace ahí sale como texto crudo**: los enlaces van en los `body`.
+Lo vigila `tests/data/inline-md-subset.spec.ts`.
 
-**3.3 · `id` y `meta` son nombres reservados de Content v3.** Los sobrescribe. Por eso el ancla es
-`slug`, el hero usa `heroMeta` y las recomendaciones usan `note`.
+**3.3 · `id` y `meta` son nombres reservados de Content v3.** Por eso el ancla es `slug`, el hero
+usa `heroMeta` y las recomendaciones usan `note`.
 
-**3.4 · Los tests validan datos, no vista.** Es la lección más cara del repo: al bifurcar de
-guiaVietnam, `TripView.vue` seguía filtrando por `part === 'vietnam'`, así que **los seis actos y las
-29 fichas no se renderizaban en la web publicada** — y los 13 tests pasaban. Se descubrió abriendo la
-página. **Después de cualquier cambio estructural, abre el sitio y cuenta lo que sale.**
+**3.4 · Los tests validan datos, no vista.** Al bifurcar de guiaVietnam, `TripView.vue` seguía
+filtrando por `part === 'vietnam'` y **no se renderizaba nada en la web publicada**, con todos los
+tests en verde. **Después de cualquier cambio estructural, abre el sitio y cuenta lo que sale.**
 
-**3.5 · El service worker sirve caché vieja.** Al verificar en producción parece que el despliegue no
-ha entrado. Antes de diagnosticar nada, desregistra el SW y borra cachés:
-`navigator.serviceWorker.getRegistrations()` → `unregister()`, `caches.keys()` → `delete()`.
+**3.5 · El service worker sirve caché vieja.** Si parece que el despliegue no ha entrado, antes de
+diagnosticar nada: `navigator.serviceWorker.getRegistrations()` → `unregister()`, `caches.keys()` →
+`delete()`.
 
 **3.6 · YAML: un valor con dos puntos necesita comillas.** `title: Lo primero: soltar el equipaje`
-rompe el parser. Los tests lo cazan, pero el error que dan (`Nested mappings…`) no señala la causa.
+rompe el parser, y el error (`Nested mappings…`) no señala la causa.
 
 **3.7 · `zone` debe ser contigua y `order` único** por (colección · part). Si insertas una ficha en
-medio, **renumera todo el bloque**, no solo el vecino.
+medio, **renumera todo el bloque**.
 
-**3.8 · `<MDC>` emite bloque; en contexto inline rompe la hidratación.** Un `<MDC unwrap="p">`
-dentro de un `<h2>` o un `<p>` mete un `<div>` donde no cabe: HTML inválido, el navegador lo
-reparienta y el árbol del cliente deja de coincidir con el del servidor. Se manifestó en guiaVietnam
-como **pull-quotes que perdían su clase CSS al hidratar** — no como un error, que es lo que lo hace
-difícil de cazar. La regla: **`<MDC>` solo dentro de su propio `<div>`; todo lo inline por
-`inlineMd()`** (`app/utils/inline-md.ts`, auto-importado), que da el mismo HTML en los dos lados.
-Al añadir un componente de tarjeta nuevo, esto es lo primero que hay que mirar.
+**3.8 · `<MDC>` emite bloque; en contexto inline rompe la hidratación.** Dentro de un `<h2>` o un
+`<p>` mete un `<div>` donde no cabe, y el cliente deja de coincidir con el servidor (en guiaVietnam:
+pull-quotes que perdían su clase al hidratar, sin error visible). **`<MDC>` solo dentro de su propio
+`<div>`; todo lo inline por `inlineMd()`** (`app/utils/inline-md.ts`). Es lo primero que hay que
+mirar en un componente de tarjeta nuevo.
 
-**3.9 · El offline se rompió tres veces seguidas, y en silencio.** Es la peor de todas porque
-**el sitio online funciona perfectamente**: nada avisa. Se descubrió porque las dos guías dieron un
-500 de Nuxt en un avión. Las tres causas, en orden de gravedad:
+**3.9 · El offline ya no es requisito (sep 2026)** y nada lo vigila: puede romperse en silencio, y
+está aceptado. Se retiraron las puertas `check-offline` y `check-weight`. Los tres fixes siguen en
+`nuxt.config.ts` y no hay que quitarlos:
 
-1. **Nuxt genera `200.html` y `404.html`** (el *fallback* de GitHub Pages) y workbox los mete en el
-   manifiesto **sin extensión** — `/guiaJapon/200`, `/guiaJapon/404`—, URL que no existen en el
-   servidor. Como `precacheAndRoute` usa `addAll()`, **una sola petición fallida aborta la
-   instalación entera**: el service worker no se activa nunca y no se cachea nada. Se veían 8 de 162
-   entradas. Fix: `globIgnores: ['**/200.html', '**/404.html']`.
-2. **Nuxt pide el payload con query de build** (`_payload.json?<uuid>`) y workbox lo tiene guardado
-   sin query, así que el *lookup* falla, cae a la red y offline devuelve
-   «Cannot read properties of undefined» → **página 500**. Fix:
-   `ignoreURLParametersMatching: [/.*/]`.
-3. **`@nuxt/content` v3 lee el contenido con SQLite compilado a WASM** (dos ficheros de 836 KB) y
-   `wasm` no estaba en `globPatterns`. Los `sql_dump.txt` sí se cacheaban; el motor que los lee, no.
+1. `globIgnores: ['**/200.html', '**/404.html']`. Workbox los metía sin extensión, una petición
+   fallaba y `addAll()` abortaba la instalación entera del SW.
+2. `ignoreURLParametersMatching: [/.*/]`. Nuxt pide `_payload.json?<uuid>` y offline daba un 500.
+3. `wasm` en `globPatterns`, porque Content v3 lee el contenido con SQLite en WASM.
 
-**El offline ya no es requisito (sep 2026).** Se retiraron la puerta `check-offline` y el
-presupuesto `check-weight`, y ya no corren en CI. La PWA sigue montada y los tres fixes siguen en
-`nuxt.config.ts`, pero nada vigila que el offline funcione: puede romperse en silencio, y está
-aceptado. Solo afecta a este repo; guiaVietnam conserva sus puertas.
-
-**La comprobación manual, si alguna vez vuelve a importar:** `npx nuxi generate`, servir
-`.output/public` bajo el subpath correcto, cargar, esperar a que el SW esté `active`, **matar el
-servidor** y recargar. Si sale el 500, no hay offline. Es la única prueba que vale, porque
-**con cobertura un sitio sin offline se ve exactamente igual que uno con offline**.
+La única prueba que vale, si vuelve a importar: `npx nuxi generate`, servir `.output/public` bajo el
+subpath, esperar al SW `active`, **matar el servidor** y recargar.
 
 **3.10 · `white-space: nowrap` + `flex-shrink: 0` en un chip con texto libre saca scroll
-horizontal en móvil.** La pareja le dice al elemento que **no puede partir línea NI encoger**, así
-que un valor largo —«Uno de los tres grandes mercados matinales de Japón» en un `badge`— estira su
-fila flex por encima del ancho de la pantalla. En la gastronomía sacaba **37 px de scroll** a 375 px
-y no lo veía nadie porque **en escritorio no pasa**. Solo es seguro si además trunca
-(`text-overflow: ellipsis`), que es lo que hace `.gi-label`.
+horizontal en móvil** (37 px a 375 px en la gastronomía, invisible en escritorio). Solo es seguro si
+además trunca (`text-overflow: ellipsis`, como `.gi-label`). La otra mitad es la prosa con tokens
+indivisibles (URLs largas): por eso hay `overflow-wrap: break-word` global en `p, li, td…`. Lo vigila
+`tests/unit/cssOverflow.spec.ts` de forma estática; **la medición de verdad es en el navegador a 320
+y 375 px**, contando elementos con `scrollWidth > clientWidth`. Hazlo siempre que toques una tarjeta.
 
-La otra mitad del mismo problema es la prosa: un token indivisible más ancho que su columna
-—`ticket.angkorenterprise.gov.kh`, 236 px en una de 209— rompe la caja igual. Por eso hay una regla
-global de `overflow-wrap: break-word` en `p, li, td…`.
-
-**Lo vigila `tests/unit/cssOverflow.spec.ts`**, que comprueba la causa de forma estática (jsdom no
-calcula layout, así que no puede medir el desbordamiento). **La medición de verdad es en el
-navegador a 320 y 375 px**, contando elementos cuyo `scrollWidth > clientWidth` o cuyo borde derecho
-pasa del viewport. Hazlo siempre que toques una tarjeta.
-
-**3.11 · YAML plegado y Markdown no cuentan igual los saltos de línea.** Los cuerpos se escriben
-en plegado (`body: >-`) y se pintan con `<MDC>`. En plegado, **una** línea en blanco da un solo
-`\n`, que para Markdown es un salto suave: los dos párrafos salían fundidos en uno. Y dos viñetas
-en líneas seguidas se pliegan en una sola línea: la lista del castillo de Nijō salía como un único
-elemento con «- **Horario:**» en mitad del texto. Estuvo así publicado en 39 ficheros hasta oct
-2026, con todos los tests en verde. La regla:
+**3.11 · YAML plegado y Markdown no cuentan igual los saltos de línea.** En `body: >-`, una línea
+en blanco da un solo `\n` (párrafos fundidos) y dos viñetas seguidas se pliegan en una. Estuvo
+publicado así en 39 ficheros.
 
 - **Entre párrafos, dos líneas en blanco.** Entre viñetas, una.
-- **Si el texto lleva sangrías** (listas con continuación sangrada, numeradas largas), que vaya en
-  literal, `|-`, donde cada salto queda como está escrito.
+- **Si el texto lleva sangrías** (listas con continuación, numeradas largas), en literal `|-`.
 
-Lo vigila `tests/data/folded-scalars.spec.ts`, que lee el YAML crudo, porque el valor ya parseado
-no distingue un párrafo fundido de uno bueno.
+Lo vigila `tests/data/folded-scalars.spec.ts`, que lee el YAML crudo.
+
+**3.12 · Al renumerar días, la prosa no se renumera sola.** El `eyebrow` dice la fecha, pero el
+cuerpo dice «el lunes», «mañana es domingo»… y los tests no lo cazan: son datos válidos que dicen
+mentiras. Ya pasó tres veces (un día 20 entero colgado de los cierres de los lunes cuando era
+miércoles). Tras renumerar: `grep -n "lunes\|martes\|domingo\|víspera\|mañana es"` sobre `dias/` y
+mirarlo uno a uno. **Cómo se renumera:** cargar todos los ficheros en memoria, aplicar el mapa,
+borrar el directorio y reescribir, sustituyendo en la misma pasada las anclas `#dia-…` en todo
+`content/`. Remapea «día N» en la prosa **antes** de reescribir nada a mano, no después.
 
 ---
 
 ## 4. Convenciones editoriales
 
-Estas no son gusto: son las reglas que mantienen la guía coherente y sin repeticiones.
+**4.1 · El día dice QUÉ SE HACE; la ficha dice QUÉ ES.** Es la regla que más trabajo ha dado: hubo
+141 fragmentos idénticos entre el día 15 y la ficha de Hiroshima. Si te descubres explicando historia
+dentro de un día, **enlaza a la ficha y borra**.
 
-**4.1 · El día dice QUÉ SE HACE; la ficha dice QUÉ ES.** Es la regla que más trabajo ha dado. Al
-escribir los días 9-21 desde el mismo material que las fichas se duplicaron párrafos enteros —141
-fragmentos idénticos entre el día 15 y la ficha de Hiroshima— y hubo que reescribir diecisiete
-bloques. Si te descubres explicando historia dentro de un día, **enlaza a la ficha y borra**.
+**4.2 · El tono: que el dato lleve el peso, no la tipografía.** Registro de reportaje —*National
+Geographic*, no folleto—. Medido sobre la prosa parseada (no sobre el texto plano, que concatena
+viñetas): 20,7 palabras por frase de media, p90 de 37, 28,4 negritas por mil.
 
-**4.1 bis · El tono: que el dato lleve el peso, no la tipografía.** La guía busca registro de
-reportaje —*National Geographic*, no folleto—. Medido sobre las 59.000 palabras de prosa, con el
-analizador que parsea el YAML de verdad (ojo: contar sobre el texto plano miente, porque concatena
-las viñetas y da frases fantasma de 120 palabras):
+- **Una negrita por párrafo en la narración** (actos, fichas, cuerpo de los días). Un dato bueno no
+  la necesita.
+- **En las tarjetas prácticas sí es funcional** (recos, `quePedir`, ventanas): se leen en diagonal.
+- **Una lista es una lista**, no una enumeración con punto y coma dentro de un párrafo.
+- **El guion largo no sustituye al punto.** Si un inciso puede ser una frase, mejor frase.
 
-| | guía | referencia |
-|---|---|---|
-| palabras por frase, media | **20,7** | 15–20 |
-| p90 | **37** | ~30 |
-| negritas por 1.000 palabras | **28,4** | cuantas menos, mejor |
+**4.3 · «El día N» es siempre la jornada del viaje.** Las fechas del calendario llevan el mes o el
+día de la semana: «el viernes 13», «el 14 de noviembre». Mezclarlo ya produjo errores reales.
 
-Las reglas que salen de ahí:
+**4.4 · Voz en segunda del plural** («vais», «conviene que»), salvo en los días `solo-*` (2-6
+nov), que son del cuarto viajero y van en «tú».
 
-- **Una negrita por párrafo en la narración** (actos, fichas, cuerpo de los días). Si todo está en
-  negrita, nada lo está: se pasó de 38,2 a 28,4 por mil retirando 578. **Un dato bueno no necesita
-  negrita** — «un tsunami se la llevó en 1498» se sostiene solo.
-- **En las tarjetas prácticas sí es funcional** (recos, `quePedir`, ventanas): ahí se lee en
-  diagonal buscando la acción, y la negrita es la que la señala. Por eso `recos` va a 46 por mil
-  a propósito.
-- **Una lista es una lista.** Varias de las frases más largas eran enumeraciones metidas en prosa
-  con punto y coma. En viñetas se leen; en un párrafo de 100 palabras, no.
-- **El guion largo no sustituye al punto.** Van 14,4 por mil, que es uno cada setenta palabras.
-  Cuando un inciso pueda ser una frase aparte, mejor frase aparte.
+**4.5 · Enlaces internos: uno por fichero y ancla**, en la primera mención que caiga en un `body`.
 
-**4.2 · «El día N» es siempre la jornada del viaje.** Las fechas del calendario llevan siempre el mes
-o el día de la semana: «el viernes 13», «el 14 de noviembre». Mezclarlo produjo un error real —«el
-día 13» significaba el 13 de noviembre en cinco sitios, pero el día 13 del viaje es el 18.
-
-**4.3 · Voz en segunda del plural** («vais», «conviene que»), salvo en los días «solo» (2-6 nov),
-que son del cuarto viajero y van en «tú».
-
-**4.4 · Enlaces internos: uno por fichero y ancla**, en la primera mención que caiga en un `body`.
-Más que eso satura.
-
-**4.5 · Lo que no tiene ficha lleva enlace a Google Maps**, con **URL de búsqueda**
+**4.6 · Lo que no tiene ficha lleva enlace a Google Maps** con URL de búsqueda
 (`https://www.google.com/maps/search/?api=1&query=…`). **Nunca inventes coordenadas ni place IDs.**
 
-**4.6 · Cada ficha de barrio de Tokio termina con «Lo que no sale en las listas»** — los *author
-picks* y las rarezas de ese barrio. Antes vivían en una ficha «gemas» aparte y estorbaban.
+**4.7 · Antes no rotular que rotular mal.** Dos fichas siguen sin foto (Ebisu, Masakado) porque no
+hay imagen libre verificable. No se inventa ningún establecimiento, premio ni dato.
 
-**4.8 · El día dice qué se hace; el nodo de traslados dice cómo se llega.** Es la regla 4.1 aplicada
-al transporte, y es nueva (ago 2026). El campo `traslados` de cada día pinta una tarjeta en índigo en
-la CABECERA —desde/hasta, medio, duración, hora recomendada, nota— que se consulta la víspera de un
-vistazo. Tres cosas que hay que respetar al escribirlo:
+**4.8 · El día dice qué se hace; `traslados` dice cómo se llega.** Pinta una tarjeta índigo en la
+cabecera (desde/hasta, medio, duración, hora, nota).
 
-- **`hora` es recomendación, no horario.** Los horarios de 2026 no están publicados y los autobuses
-  de montaña cambian en noviembre. Se escribe «salir 09:00», nunca «09:04».
-- **`medio` y `nota` van por `inlineMd`: no admiten enlaces** (trampa 3.2). El porqué del trayecto,
-  con sus enlaces, sigue yendo en el `body` del bloque que lo cuenta. Lo vigila
-  `tests/data/inline-md-subset.spec.ts`, que ya los tiene declarados.
-- **Debajo va «Hoy se duerme en»**, que sale del campo `duerme` del día: una lista de slugs de
-  `hoteles/` (dos si el tramo tiene candidatos compitiendo). Enlaza a la tarjeta del hotel y no
-  repite sus datos. Al añadir o renombrar un hotel, actualiza los `duerme`; si un slug no existe,
-  lo caza `schema.spec.ts`.
-- **La fila de metadatos es un flex con tres celdas de texto libre**, o sea exactamente la forma que
-  sacó 37 px de scroll en la gastronomía (trampa 3.10). Está a salvo por `flex-wrap: wrap` en la fila
-  y `min-width: 0; overflow-wrap: break-word` en las celdas, y **hay un test que lo sostiene** en
-  `cssOverflow.spec.ts`. Si tocas ese CSS, no le quites ninguna de las dos.
+- **`hora` es recomendación, no horario**: «salir 09:00», nunca «09:04».
+- **`medio` y `nota` no admiten enlaces** (3.2). El porqué del trayecto va en el `body`.
+- **«Hoy se duerme en»** sale del campo `duerme`, una lista de slugs de `hoteles/`. Al renombrar un
+  hotel, actualiza los `duerme` (los caza `schema.spec.ts`).
+- La fila de metadatos se salva del scroll (3.10) por `flex-wrap: wrap` en la fila y `min-width: 0;
+  overflow-wrap: break-word` en las celdas. No les quites ninguna de las dos.
 
-**4.9 · El día es el hilo que lo conecta todo** (sep 2026). Fichas, gastronomía y recomendados
-eran secciones aparte que había que descubrir: de 115 locales solo 16 salían en algún día, y 7 de
-los 48 de Alba. Ahora cada bloque del día lleva dos listas **por referencia**, no copiadas:
+**4.9 · El día es el hilo que lo conecta todo.** Cada bloque lleva dos listas **por referencia**:
 
-- **`ver`** — una ficha (`ficha: slug`, sale con su foto), un recomendado (`reco: slug`) o un sitio
-  sin ficha (`nombre` + `maps`, la consulta de búsqueda, + `lat/lon` de fuente si se tiene).
-- **`comer`** — slugs de `comidas/`. La tarjeta de Gastronomía gana sola el chip «En el plan: día N».
-  **Uno por bloque lleva `elegido: true`** (oct 2026): es el único con letra en el mapa del día, y
-  el resto sale en la lista como «alternativa», por si el elegido falla. Con todos pintados, el
-  mapa de la Yamanote pasaba de treinta puntos. Cambiar de idea es mover esa línea a otro local y
-  rehornear el mapa; `schema.spec.ts` exige exactamente un elegido por bloque con `comer`.
+- **`ver`**: una ficha (`ficha: slug`), un recomendado (`reco: slug`, que apunta a
+  `recomendados/`, **no** a `recos/`) o un sitio sin ficha (`nombre` + `maps` + `lat/lon` si hay
+  fuente).
+- **`comer`**: slugs de `comidas/`. La tarjeta gana sola el chip «En el plan: día N». **Uno por
+  bloque lleva `elegido: true`** (lo exige `schema.spec.ts`), el único con letra en el mapa; el resto
+  sale como alternativa.
 
-Cada una con una `nota` de UNA línea (inlineMd, sin enlaces). **El cuerpo del bloque se queda en
-lo que se hace y en qué orden**: la historia está en la ficha, el porqué del local en su tarjeta.
-Si el cuerpo repite lo que ya dice una `nota`, sobra el cuerpo.
+Cada uno con una `nota` de una línea (inlineMd). El cuerpo del bloque se queda en lo que se hace y en
+qué orden: si repite una `nota`, sobra el cuerpo. El campo `cuando` de las comidas es redundante y se
+desfasa al renumerar: al tocarlo, quítale el número de día.
 
-Los locales y recomendados llevan `lat/lon` **de una fuente verificable, no solo de OpenStreetMap**
-(oct 2026: la regla decía «solo OSM» y dejaba sin mapa locales con dirección exacta). Valen, de
-más a menos fiable:
+**Coordenadas, de una fuente verificable**, de más a menos fiable:
 
-- **La dirección postal geocodificada** — para Japón, el buscador oficial del GSI
-  (`https://msearch.gsi.go.jp/address-search/AddressSearch?q=<dirección>`), que resuelve al número
-  de parcela (番地). La dirección sale del propio post, de la web del local o de Tabelog.
-- **Las coordenadas que publica una ficha del local**: Google Maps (el pin del sitio, no la
-  búsqueda), Tabelog o los portales que tiran de él (SavorJapan, Gurunavi) en su página de mapa.
-- **OpenStreetMap** (Nominatim), comprobando que la dirección devuelta es la del local: «梅園» a
-  secas dio uno de Yushima, no el de Asakusa.
+- La dirección postal geocodificada en el GSI
+  (`https://msearch.gsi.go.jp/address-search/AddressSearch?q=<dirección>`).
+- Las coordenadas de la ficha del local en Google Maps (el pin, no la búsqueda), Tabelog,
+  SavorJapan o Gurunavi.
+- OpenStreetMap, comprobando que la dirección devuelta es la del local.
 
-Si dos fuentes independientes coinciden (Sugari: GSI y SavorJapan a un metro), es buena. **La
-ubicación etiquetada en Instagram no vale sola**: suele ser el barrio («Karasuma, Kyoto»), no el
-local. Lo único que sigue prohibido es poner el pin a ojo. Si ninguna fuente da el sitio con
-certeza, se queda sin coordenadas: sale en la lista, no en el mapa. El mapa del día (`mapa`) les
-pone letra (A, B…) y la lista del bloque muestra la misma; lo que coincide con una parada del
-recorrido lleva el número de la parada, y lo que cae a más de 2,5 km de cualquier parada (Himeji en
-el día de Hiroshima) sale en la lista sin letra, para no estirar el mapa a cientos de kilómetros.
-Tras tocar `ver`, `comer` o coordenadas, corre `node scripts/build-routemap.mjs`.
+La ubicación etiquetada en Instagram no vale sola. **Nunca a ojo**: sin fuente cierta, sin
+coordenadas (sale en la lista, no en el mapa). Lo que cae a más de 2,5 km de cualquier parada sale
+sin letra. Tras tocar `ver`, `comer` o coordenadas, corre `node scripts/build-routemap.mjs`.
 
-Aplicado a los 26 días en sep 2026: 89 de los 115 locales y 39 de los 48 de Alba salen ya en algún
-día; los nueve de Alba que no, tienen su motivo escrito en su propia ficha o chocan con el día de la
-semana. En oct 2026 se completaron con Google Maps y el GSI los 64 que faltaban entre elegidos, sitios
-sueltos y recomendados con lugar. Siguen sin pin, a propósito, los que no son un punto: «la soba
-de Shinshū», la carne de Hida, el *momiji manjū* de toda una calle o los trucos sin sitio. **El campo `cuando` de las comidas quedó redundante** —el chip «En el plan» sale
-solo— y es el que se desfasa cada vez que se renumera: al tocarlo, mejor quitarle el número de día.
+**4.10 · No se vuelve a ningún sitio** (decisión del grupo, sep 2026: «hay mucho que ver y gestionar
+para repetir lugares»). Lo que guste se compra al pasar (lo que pese, por *takkyūbin*). **Las compras
+grandes y los regalos van al final**, el día 17, en un barrio que el viaje no pisa antes
+(Ikebukuro). Nada de «hoy se cruza X y el día N se vuelve». Antes de añadir un sitio a un día:
+`grep -rn "<sitio>" content/trips/japon/dias/`.
 
-**4.10 · No se vuelve a ningún sitio** (decisión del grupo, sep 2026). La guía no planifica una
-segunda visita a nada: lo que guste se compra al pasar —y lo que pese viaja por *takkyūbin*—, y si
-alguien quiere volver, vuelve por su cuenta. **Las compras grandes y los regalos van al final**, en
-el día 17, y en un barrio que el viaje no pisa antes (Ikebukuro). Por eso Kappabashi es solo el día
-2, Harajuku solo el 9, Ginza solo el 20 y el 21 no vuelve a ningún *depachika*. Al añadir un sitio a
-un día, busca antes si ya está en otro: `grep -rn "<sitio>" content/trips/japon/dias/`.
+**4.11 · Cada ficha de barrio de Tokio termina con «Lo que no sale en las listas»**: los *author
+picks* y las rarezas de ese barrio.
 
-**4.7 · Antes rotular nada que rotular mal.** Dos fichas siguen sin foto (Ebisu, Masakado) porque no
-hay imagen libre verificable. Es la decisión correcta.
+**4.12 · Las renuncias no se borran.** Lo que se descartó se cuenta en `el-mapa-del-viaje` o en su
+`inversion`, aunque la decisión ya no exista (p. ej. `dormir-en-kamikochi`), porque explica el porqué
+a quien lea la guía.
+
+**4.13 · Atribución.** Lo que viene de alguien lo dice:
+
+- Las comidas llevan `fuente` (`alba` | `pablo`) y `fuenteUrl`. **`pablo` es Pablo Sánchez**, no
+  Pablo Velasco, que hizo la capa de Alba. Una comida sin `fuente` no sale en Recomendados. El chip
+  dice quién la trajo, no qué premio tiene.
+- `FichaSchema` también tiene `fuente` (las cuatro fichas de la noche de Shinjuku son de Pablo).
+- Lo que sale de los reportajes de *National Geographic* que pasó Pablo (los Alpes en otoño, de
+  2021; los jazz kissa, de marzo de 2026) **dice de dónde viene**. Lo pidió expresamente.
 
 ---
 
-## 5. Herramientas del repo
+## 5. Herramientas
 
 ```bash
-npx vitest run tests        # LA puerta. 31 tests: esquemas, anclas, orders, subset inline, YAML plegado
-npx nuxi generate           # build estático a .output/public
-node scripts/build-routemap.mjs # hornea los mapas de `ruta` (bloque) y `mapa` (día)
+npx vitest run tests             # LA puerta: esquemas, anclas, orders, subset inline, YAML plegado, CSS
+npx nuxi generate                # build estático a .output/public
+node scripts/build-routemap.mjs  # hornea los mapas de `ruta` (bloque) y `mapa` (día)
 ```
 
-**Rutas a pie en un bloque del día** (sep 2026): el campo `ruta` (`slug`, `desde`, `hasta` con
-lat/lon de fuente, nunca inventadas) pinta un mapa de OSM con el recorrido peatonal real en
-puntitos y un enlace a Google Maps con indicaciones. El enlace usa coordenadas, no nombres: con el
-nombre, Maps resolvía «Chuo-dori» en Ginza, a 3 km. Tras añadir o cambiar una `ruta`, corre el
-script: sin él el bloque sale sin mapa.
+- **`ruta`** en un bloque (`slug`, `desde`, `hasta` con lat/lon de fuente) pinta el recorrido a pie
+  y un enlace a Maps **por coordenadas** (por nombre, Maps resolvía «Chuo-dori» a 3 km).
+- **`mapa`** en un día pinta las paradas numeradas (la primera, el hotel, con «S»), las zonas y
+  cómo se llega a cada parada (`llegada`: `a-pie`, `metro`, `tren`).
+- Sin correr el script tras tocarlos, el bloque o el día sale sin mapa.
+  Las claves de `routeMapsGeo.js` son las que calcula el script (`reco:…`, etc.).
+- **Servidor de desarrollo:** `.claude/launch.json` (`japon-dev`, puerto 3001). Navega a
+  `http://localhost:3001/guiaJapon/`, no a la raíz.
+- **CI:** `.github/workflows/deploy.yml` corre `test:unit && test:data` **antes** de `generate`. Si
+  tocas el workflow, no quites esa puerta.
 
-**El día de un vistazo** (sep 2026): el campo `mapa` del día pinta al final un mapa con las paradas
-numeradas, las zonas en círculos y cómo se llega a cada parada (`llegada`: `a-pie` en puntitos por
-calles reales, `metro`/`tren` en recta discontinua), y una leyenda con la hora. Es para recordar el
-día sin releerlo. Las zonas no llevan coordenadas: se calculan de sus paradas. La primera parada es
-la salida (el hotel) y va con una «S». Primer caso: el día 2.
+**Herramientas fuera del repo** (`tools/` está en el `.gitignore`): el escáner editorial y el
+extractor de Instagram.
 
-No hay presupuesto de peso ni puerta del offline: se retiraron en sep 2026 (ver trampa 3.9).
-
-En `.claude/launch.json` está el servidor de desarrollo (`japon-dev`, puerto 3001). El sitio vive
-bajo `/guiaJapon/`, así que hay que navegar a `http://localhost:3001/guiaJapon/`, no a la raíz.
-
-**Los tests corren también en CI**: `.github/workflows/deploy.yml` ejecuta
-`test:unit && test:data` **antes** de `generate`. Un YAML inválido
-no llega a producción en silencio. No es adorno: en guiaVietnam el despliegue corría solo el
-`generate` y hubo que añadir la puerta a posteriori. Si tocas el workflow, no la quites.
-
-### El extractor de Instagram — **no está en el repo**
-
-Igual que el escáner de abajo, vive fuera (`tools/` está en el `.gitignore`). Se escribió para un
-volcado concreto —los 422 posts que Alba compartió por mensaje privado, ver §10— y se sacó del repo
-por ser de un solo uso; su `data/` guardaba además la cookie `sessionid`, que es una credencial.
-
-**Lo que se conserva aquí es lo caro: el conocimiento.** Si hay que volver a hacerlo, esto ahorra la
-tarde entera. Era un Chromium con perfil persistente (login a mano, cero credenciales en código) que
-paginaba el hilo y volcaba a JSON; el resto era normalizar e identificar por cascada de señales
-—ubicación etiquetada, comillas `「」`, línea de chincheta `📍`, cuenta mencionada—.
-
-**Las cuatro trampas que costaron la tarde:**
-
-1. **El mensajero nuevo de Instagram NO usa el esquema clásico.** Todo el mundo documenta
-   `item_id` / `item_type` / `timestamp` (µs). El hilo de 2026 llega por
-   `get_slide_thread_nullable → as_ig_direct_thread → slide_messages.edges[].node`, con
-   **`message_id` / `content_type` / `timestamp_ms`**. Buscar por la forma vieja daba **cero
-   mensajes con el hilo abierto delante**, que es el fallo más desconcertante posible.
-2. **Habla por `/api/graphql`**, no por `/api/v1/…` ni por `/graphql`. Un filtro de URL que pida
-   esos dos se come todo el tráfico del chat sin dar ni un error.
-3. **El número de `/direct/t/<n>` NO es el `thread_fbid`**: en un chat de dos es el **fbid del
-   otro**. Y la bandeja precarga peticiones de OTROS hilos, así que si se coge «la primera
-   plantilla que pase» se pagina la conversación equivocada — pasó, y se volcaron 682 mensajes de
-   otra persona antes de notarlo. Por eso el hilo se pasa explícito y se sobrescribe en las
-   variables.
-4. **El `xma` trae el caption vacío** en la mayoría de reels compartidos: solo el nombre de la
-   cuenta y el enlace. Se rehidrata con `/api/v1/media/<pk>/info/`, sacando el `pk` del parámetro
-   `id` del `target_url`. Salieron 262 de 263.
-
-La paginación no usa cursor: hay que **reemitir la propia petición de la página** subiendo el tamaño
-de página, porque el `doc_id` cambia cada semana y no se puede construir a mano.
-
-Y una lección de proceso, no de código: **con un humano delante, que conduzca él**. La rueda del
-ratón simulada depende de acertar con un contenedor virtualizado que Instagram cambia cada dos por
-tres; un dedo en el trackpad no falla nunca. Al final ni hizo falta — la API resolvió el hilo entero
-en cinco peticiones.
-
-### El escáner editorial
-
-Vive fuera del repo (se regenera fácil): detecta variantes de un mismo topónimo, tipografía, tics
-retóricos, **frases casi idénticas entre ficheros** y curiosidades que repiten su propio cuerpo.
-
-**Aviso importante:** debe **descontar las URL antes de analizar**. Los topónimos van en ASCII dentro
-de las consultas de Maps y sin ese filtro el escáner reporta once inconsistencias inexistentes
-(«Engakuji» vs «Engaku-ji»…). Perdí un rato persiguiendo fantasmas.
+- **El escáner editorial** detecta variantes de topónimos, tics y frases casi idénticas entre
+  ficheros. **Debe descontar las URL**: los topónimos van en ASCII dentro de las consultas de Maps y
+  dan falsas inconsistencias.
+- **El extractor de Instagram** (un solo uso; guardaba una cookie de sesión). Si hay que repetirlo:
+  1. El mensajero de 2026 llega por `/api/graphql`, con `slide_messages.edges[].node` y
+     `message_id` / `content_type` / `timestamp_ms`. El esquema clásico (`item_id`…) da cero
+     mensajes.
+  2. El número de `/direct/t/<n>` no es el `thread_fbid`, y la bandeja precarga otros hilos: pasa el
+     hilo explícito.
+  3. El `xma` trae el caption vacío. Se rehidrata con `/api/v1/media/<pk>/info/`.
+  4. Para paginar se reemite la propia petición subiendo el tamaño de página, porque el `doc_id`
+     cambia cada semana.
 
 ---
 
 ## 6. Fotos
 
 Pipeline: **API de Commons** (`User-Agent` obligatorio; usa `thumburl`, **nunca construyas URLs de
-Wikimedia a mano** — son un MD5 y dan 404) → **hoja de contactos con `sharp`** para verlas todas de
-un vistazo → descartar → **WebP 1200×800, calidad 70-72** en `public/img/{fichas,platos}/`.
+Wikimedia a mano**) → hoja de contactos con `sharp` → descartar → **WebP 1200×800, calidad 70-72** en
+`public/img/{fichas,platos}/`. Toda imagen lleva `credit` («Autor · Licencia») y `creditUrl`. Solo CC
+o dominio público.
 
-Toda imagen lleva `credit` («Autor · Licencia») y `creditUrl` a la página de Commons. Solo licencias
-CC o dominio público.
-
-**Verifica siempre visualmente.** Las búsquedas devuelven cosas absurdas con nombres plausibles: para
-«Ginza» salió un Mister Donut, para «Ueno» un grabado del siglo XIX y para «Ebisu» un grupo de idols.
-
-Las fotos propias de Pablo van a `fotos-originales/` (gitignored) y su README lleva la lista viva de
-lo que falta. **Una foto suya sustituye siempre a una de Commons.**
+- **Verifica siempre visualmente**: para «Ginza» salió un Mister Donut y para «Ebisu» un grupo de
+  idols.
+- Las fotos propias de Pablo van a `fotos-originales/` (gitignored, con README de lo que falta).
+  **Una foto suya sustituye siempre a una de Commons.**
+- Las comidas y los locales de «salir» van sin foto a propósito, porque no se puede verificar que la
+  imagen sea ese local.
+- Las portadas de discos tampoco van, porque tienen derechos: llevan un «Ver la portada» a Discogs.
 
 ---
 
 ## 7. Fuentes
 
-- **`The Rough Guide to Tokyo`** (EPUB propio). Extraer **el libro entero** con `zipfile` de Python,
-  no capítulo a capítulo: la primera vez me quedé corto y me perdí los «author picks», los «Best of»
-  por barrio y los recuadros temáticos, que es donde está lo bueno.
-- **Export de Notion del viaje de 2024**: tablero de planificación con recortes de Japonismo y
-  **capturas de páginas de Lonely Planet que hay que leer como imagen**. De ahí salen los
-  restaurantes y la lista nacional del momiji.
-- **Web del itinerario del grupo**: https://japanblastoisechan.vercel.app — es la fuente del plan
-  día a día y de los hoteles.
+- **`The Rough Guide to Tokyo`** (EPUB). Extrae **el libro entero** con `zipfile`: lo bueno está en
+  los «author picks», los «Best of» y los recuadros.
+- **Export de Notion del viaje de 2024**, con capturas de Lonely Planet que hay que leer como imagen.
+- **Web del itinerario del grupo**: https://japanblastoisechan.vercel.app.
+- **Japonismo**: útil, pero con datos viejos. Ya ha dado fechas de 2023 como si fueran de 2026 (el
+  *tori no ichi* es el 7 y el 19), un festival de Kawaguchiko con días equivocados (2026: del 7 al
+  29), un museo cerrado en 2021 (Hara) y un *onsen* en el barrio equivocado. Contrasta siempre.
 
-Regla con las fuentes: **usar los datos, nunca copiar la prosa**. Y contrastar: el Rough dice que
-Ieyasu construyó el castillo de Edo en 1497; lo empezó Ōta Dōkan en 1457.
+**Usa los datos, nunca copies la prosa, y contrasta.** El Rough dice que Ieyasu construyó el castillo
+de Edo en 1497; lo empezó Ōta Dōkan en 1457.
 
-**Aviso para quien llegue nuevo: ninguna de las dos primeras está en el repo**, y no puede estarlo
-—el EPUB tiene derechos y el export de Notion son ficheros personales—. Es la diferencia grande con
-el repo hermano `guiaVietnam`, que sí guarda su documento de referencia dentro
-(`referencia-vietnam-camboya.md`, 185 KB) y con él se puede trabajar sin pedir nada a nadie. **Aquí
-no.** Si vas a escribir contenido nuevo y no solo a corregir, **pídele a Pablo el EPUB y el export**;
-sin ellos solo puedes trabajar sobre lo que ya está escrito, y el riesgo de inventar un dato que
-suena bien es alto.
+**El EPUB y el export no están en el repo** (derechos y ficheros personales). Para escribir
+contenido nuevo, y no solo corregir, **pídeselos a Pablo**: sin ellos el riesgo de inventar un dato
+que suena bien es alto.
 
----
-
-## 7 bis. Los repos hermanos
-
-La plataforma es la misma en tres sitios y **las lecciones viajan entre ellos**:
-
-- **`guiaVietnam`** — de donde salió este fork. Ahí está `NOTAS-MERGE-ROMA.md`, que acumula lo
-  aprendido desplegando de verdad: que `better-sqlite3` necesita build nativo en CI
-  (`onlyBuiltDependencies`), que GitHub Pages hay que pasarlo de `build_type: legacy` a `workflow`,
-  que el CDN tarda un minuto largo en propagar y los *query params* no bustean su caché. Antes de
-  pelearte con el despliegue, léelo.
-- **`guiaRoma`** — su migración a Nuxt es el **PR #8, sin mergear**; el Roma vivo sigue siendo un
-  `index.html` a pelo. Nada de aquí le afecta hoy.
-
-Si arreglas aquí algo que sea de plataforma y no de contenido, **anótalo donde corresponda en el
-otro repo**. Este fork existió porque nadie lo hizo a tiempo.
+**Repos hermanos.** `guiaVietnam` (de donde sale el fork) tiene `NOTAS-MERGE-ROMA.md` con lo
+aprendido desplegando: `better-sqlite3` necesita build nativo en CI, GitHub Pages en `workflow` y no
+en `legacy`, y el CDN tarda en propagar. Si arreglas aquí algo de **plataforma**, anótalo también
+allí.
 
 ---
 
-## 8. Estado y qué falta
+## 8. Por qué el itinerario tiene esta forma (no «arreglar» sin leer)
 
-**Hecho:** 21 días · 46 fichas en 9 zonas · 6 actos (al final del índice) · 24 platos y bebidas ·
-**125 locales** en 10 ciudades · 10 de salir (jazz, discos y librerías) · 14 recomendaciones prácticas · **30 recomendados del
-grupo** (§10: 19 de Alba y 11 de Pablo) · 65 fotos · PWA sin garantía de offline (§3.9).
+**La reforma de agosto de 2026.** El vuelo del cuarto (sábado 14, 12:10, Narita) hacía imposible
+estar en los Alpes ese fin de semana. Se descartó ir y volver a Matsumoto, que eran siete horas más.
+Se adoptó **volver a Tokio desde Kanazawa** (Hokuriku Shinkansen) en vez de bajar a Kioto: cuesta
++2 h 40 y ~¥21.000 por persona, y a cambio la despedida es en un hotel de Tokio. Las decisiones que
+cuelgan de ahí:
 
-**Las películas del grupo** (oct 2026) viven en la ficha `peliculas-del-grupo`, detrás de la de
-cine y libros: cada película, serie o anime que el grupo ha visto, con dónde se rodó, qué día se
-pasa por delante y qué hay de verdad detrás. Los sitios concretos van además como `ver` en su día
-(Yotsugi, Saigō, el lago Suwa, Suga, Godzilla, Adams, Sekigahara, Tamatsukuri, Fukuyama, Kasukabe,
-Wakō, Rajōmon, Hikawa de Azabu, la Character Street, el Sumida Riverwalk de *Rental Family*…). Tiene además dos secciones para lo que no
-estaba en la lista del grupo pero cae en la ruta —*Kill Bill*, *Black Rain*, *Shin Godzilla*,
-*Kimetsu no Yaiba*, *Sailor Moon*, *Jujutsu Kaisen*…—, ordenadas por día. Las que no pisan la ruta
-—*Ghost in the Shell*, *Origen*, *Evangelion* salvo su tienda— lo dicen. Se descartaron por no
-poder verificarlas el Osaka Continental de *John Wick 4* y la tienda de *One Piece* de Shibuya.
+- **Kamikōchi es un día de ida y vuelta** desde Matsumoto, y **se duerme en Hirayu Onsen**, no en
+  Takayama: caben tres baños en vez de uno. El día que se ahorró se fue a Nara, que luego se quitó.
+- **La trampa de los autobuses:** el último Kamikōchi→Hirayu sale a las **17:30**, y el último
+  Hirayu→Takayama, también a las 17:30. Quien quiera llegar a Takayama esa noche tiene que salir del
+  valle hacia las 16:00.
+- **Nikkō se queda en el día 19.** Se movió al 9 por el momiji y fue un error: su parte alta tiene
+  el color en octubre, y el día 9 es sábado. La ficha del momiji explica el descarte.
+- **El Fuji del 23 está contratado** con Turismo Victoria: recogida en **Shin-Fuji a las 8:30**,
+  donde solo para el **Kodama**. Es una excursión guiada, así que las paradas se le piden al guía.
 
-**La capa gastronómica** se construyó con el mismo criterio que la de `guiaVietnam`: por ciudad y en
-siete categorías (`desayuno · cafe · comida · cena · street-food · postre · cocteleria`), y **cada
-ficha declara su fuente en `badge`**. Dos reglas que no hay que romper:
+**Nara fuera, domingo en Tokio dentro** (ago 2026, decisión del grupo). Quitar un día en Kansai y
+meter uno en Tokio no movió nada del 20 de noviembre en adelante. Kioto tiene cuatro noches de verdad
+y el Shinkansen de bajada va en lunes. La ficha de Nara se borró y sus enlaces pasaron a texto plano.
+**Ya no queda día comodín: meter algo obliga a quitar algo.**
 
-- **El `badge` es procedencia, no adorno.** Solo se escribe «Bib Gourmand», «Asia's 50 Best Bars» o
-  un puesto de ranking **si está verificado**. Cuando no hay premio, el badge describe el porqué
-  («Casa de 1465», «Inside Kyoto») en vez de inventar un galardón. Un badge falso envenena las 61
-  fichas restantes.
-- **Los Bib Gourmand llevan el año en el `badge`** (oct 2026). Tokio y Kioto-Osaka tienen guía
-  anual, así que ahí «Bib Gourmand» a secas o «nuevo en la guía de 2026» es un dato vivo. Kanazawa
-  e Hiroshima solo tuvieron **ediciones especiales** (2016 y 2013): Rekireki y Hassho lo dicen con
-  el año, para que nadie lo lea como premio de este año. Kamakura, Matsumoto, Takayama y Nikkō no
-  tienen guía, y por eso esos días no llevan ninguno. Al añadir otro, verifica que sigue en la
-  edición vigente: Michelin borra la página del restaurante cuando lo saca.
-- **En este viaje NO hay vegetarianos** y la guía no debe comportarse como si los hubiera. Se montó
-  la capa entera —campo `veg` en las 86 fichas, una reco sobre el *dashi*, tres locales veganos y un
-  bloque de «no aptos»— arrastrando el contexto de `guiaVietnam`, donde sí es central. Se retiró:
-  `veg` quedó **opcional en el esquema y sin pintar** en las tarjetas. Si alguna vez viaja alguien
-  vegetariano, el campo sigue existiendo y basta con volver a renderizarlo.
+**Kamakura y la Yamanote se intercambiaron** (oct 2026). La Yamanote es el viernes 13, con los cuatro
+(día 8), y Kamakura el sábado 14 (día 9), porque el cuarto ya hace su propio Kamakura el martes 3
+(`solo-2-kamakura`, con otra ruta). El día del *yabusame* se borró para que no repitiera Meiji Jingū.
 
-  Lo que **sí se queda**, porque es cultura y no advertencia: la [shōjin ryōri](#) como cocina de
-  monasterio —con Shigetsu dentro del Tenryū-ji, Ajiro con estrella e Izusen en Daitoku-ji—, el
-  *dashi* como ingrediente y el *wagashi* explicado por sus tres ingredientes. La regla al escribir:
-  **describir de qué está hecho un plato es interesante; advertir a alguien que no viene, no.**
+**Kioto: el oeste el 12 y el este el 13** (ago 2026). Los dos Nenbutsu-ji de Saga-Toriimoto cierran
+los miércoles, y el día de Arashiyama era miércoles. Todo lo demás de Kioto abre a diario. Subir a
+Saga-Toriimoto va escrito como decisión, no como plan: cuesta el Ninna-ji.
 
-**Falta:**
-- Fotos propias de Shibuya, Ueno, Tsukiji e Hiroshima (Pablo las tiene sin subir).
-- Sin foto verificable: Ebisu-Meguro y Masakado.
-- Sin foto por decisión: las 13 comidas y 4 locales de «salir» — son establecimientos concretos y no
-  hay forma de verificar que una imagen de Commons sea ese local.
-- **Todos los hoteles están confirmados** (oct 2026; el último, el KOKO Ginza 1-chome para los días
-  16-20, ver §1). Akihabara, Matsumoto, Hirayu, Takayama, **Kanazawa** (Hotel Forza, ago 2026),
-  Roppongi, **Kioto** (hotel androoms Kyoto Shichijō, sep 2026; la ficha lleva el número de reserva
-  en `nota`) e **Hiroshima** (Via Inn Prime Shinkansen-guchi, sep 2026). Lo de abajo se escribió
-  cuando no había ninguna y se conserva porque la regla sigue en pie.
-- **Hiroshima, por qué esa y no otra** (Via Inn Prime Shinkansen-guchi, sep 2026). La eligió el
-  sábado, no el viernes: las tres citas del día 16 —tren a Miyajima, vuelta a por las maletas y
-  Shinkansen a Tokio— salen todas del **paso libre norte-sur** de la estación, un corredor techado
-  y sin torno, y el hotel está a 350 m por el lado del Shinkansen. Por eso se descartó el centro,
-  que servía mejor al viernes. **Lo único que puede tumbar ese argumento es la consigna**: se sale a
-  las 07:15 y no se vuelve hasta las 14:45, o sea siete horas y media guardadas después del
-  *check-out*. Está escrito en la ficha para que se pregunte al hacer la entrada.
-- **Los hoteles se rehicieron enteros tras la reforma** (ver abajo): Takayama, Kanazawa, Kioto,
-  Hiroshima y las tres tandas de Tokio se buscaron de nuevo, y en oct 2026 quedaron todos
-  confirmados. **No se ha inventado ningún establecimiento**, que es la regla 4.7.
-- **Los horarios de autobús de noviembre en Kamikōchi, sin confirmar.** Todo el día 4 cuelga de dos
-  autobuses y los horarios usados son los de temporada general.
+**Hiroshima, el Via Inn Prime Shinkansen-guchi** (sep 2026): las tres citas del día 16 salen del paso
+libre de la estación. Lo único que tumba el argumento es la consigna de siete horas y media tras el
+*check-out*, y la ficha dice que hay que preguntarla.
+
+**El día 6 se rehízo por los autobuses** (oct 2026): los de la mañana y los directos de la tarde
+estaban agotados. Están comprados el de las 13:20 a Shirakawa-gō y el de las 17:20 a Shin-Takaoka.
+
+**Los días del cuarto** (`solo-*`, 2-6 nov). **Es su quinta visita**: nada de lo obvio, poca
+naturaleza (ya tiene los Alpes con el grupo), y Nikkō, el Fuji y Yokohama están descartados. El
+viernes 6 recoge a los otros tres en Haneda.
+
+**Lo que ya está comprado** (trenes, autobuses, reservas) lleva su número en el día o en la ficha
+del hotel. No lo cambies sin que Pablo lo diga.
 
 ---
 
-## 9. La reforma de agosto de 2026: por qué el itinerario tiene esta forma
+## 9. Las capas de contenido y sus reglas
 
-Si llegas nuevo y el plan te parece raro —¿por qué la montaña casi de entrada, si el jet lag se paga
-mejor en una ciudad?— la respuesta está aquí, y conviene leerla antes de «arreglar» nada.
+**Gastronomía**: por ciudad y en siete categorías (`desayuno · cafe · comida · cena · street-food ·
+postre · cocteleria`). **El `badge` es procedencia, no adorno.**
 
-**El desencadenante fue el cuarto vuelo.** Se compró para el **sábado 14 a las 12:10 desde Narita**,
-y eso rompió el itinerario anterior, que tenía al grupo en los Alpes ese fin de semana. Se comprobó
-con horarios reales: desde Takayama, el primer Hida sale a las 06:45 y se llega a Narita hacia las
-12:00 — una hora después de que cierre el mostrador. **No era apretado, era imposible.**
+- «Bib Gourmand», «Asia's 50 Best Bars» o un puesto de ranking, solo si está verificado. Si no hay
+  premio, el badge dice el porqué («Casa de 1465»).
+- **Los Bib Gourmand llevan el año.** Tokio y Kioto-Osaka tienen guía anual. Kanazawa (2016) e
+  Hiroshima (2013) solo tuvieron ediciones especiales. Kamakura, Matsumoto, Takayama y Nikkō no
+  tienen guía. Antes de añadir uno, verifica que sigue en la edición vigente.
+- **No hay vegetarianos en el viaje.** El campo `veg` sigue en el esquema, opcional y sin pintar.
+  Describir de qué está hecho un plato es interesante; advertir a alguien que no viene, no.
 
-Se evaluaron dos formas antes de elegir. La primera —ida y vuelta a Matsumoto dejando Hida y
-Kanazawa para después— añadía **siete horas** de transporte y se descartó. La que se adoptó mantiene
-los Alpes y el Hida enteros y en orden, y solo cambia la puerta de salida: **se vuelve a Tokio desde
-Kanazawa** (Hokuriku Shinkansen, 2 h 30) en vez de bajar a Kioto. Cuesta **+2 h 40 y ~¥21.000 por
-persona**, y a cambio:
+**Recomendados por el grupo** (`recomendados/`, ago 2026), a partir de 422 posts que Alba compartió
+por Instagram.
 
-- La despedida ocurre en un hotel de Tokio, no en un cruce de carreteras de montaña.
-- **Los barrios grandes de Tokio se reparten mejor.** La Yamanote —Meiji Jingū, Harajuku, Shibuya—
-  cae el **viernes 13**, el último día de los cuatro. Y Tsukiji, Ginza y el día de compras se van al
-  final (22-25), al pico de la hoja roja.
+- Un local de comer es una `comida` con `fuente`. Lo que no es restaurante (un mercado, un taller,
+  un aviso de estafa) va a `recomendados/` con `kind` (`ver` · `taller` · `truco`) y `url`
+  obligatorio. `recos/` es otra cosa: la logística del viaje.
+- **La sección no duplica nada**: lista los locales en una línea que salta a su ficha.
+- **Verificar antes de escribir, y escribir la corrección.** Más de quince contradecían su propio
+  vídeo (aforos, estrellas perdidas, cajeros…).
+- **Cuando algo no encaja, se dice.** Hay fichas que existen para explicar por qué NO se va
+  (Onigiri Bongo, Okudosan…), y lo no confirmado va escrito como tal.
 
-**Kamakura y la Yamanote se intercambiaron en oct 2026.** El cuarto viajero hace Kamakura en sus
-días solo, así que el grupo lo pasó al sábado 14, el día de la despedida, y la Yamanote al viernes
-13, con los cuatro. El día del *yabusame* de Meiji Jingū se borró, para que el cuarto no repitiera
-Meiji Jingū ni Omotesandō. Kamakura en sábado tiene gente, pero abre SUNDOWNER (cierra los
-viernes) y es la víspera del *shichi-go-san*.
-
-**Y el Kamakura del cuarto es otro, y va el martes 3** (oct 2026). Lo hace con su familia de Tokio
-el Día de la Cultura, festivo, y por la ruta que ellos proponen: los tres templos del este
-(Sugimoto-dera, Hōkoku-ji, Jōmyō-ji), el Buda y la puesta de sol en Shichirigahama. No repite el
-recorrido del grupo, y por eso el día 9 no remite a él.
-
-**Yokohama se cayó del plan del cuarto** (oct 2026). El miércoles 4 come con la misma familia en
-Ginza, y el día (`solo-3-ginza`) se armó con sus recomendaciones: la antigua casa Asakura en
-Daikanyama, Hachigō y el Intermediatheque con la azotea de KITTE, todo sobre la línea Hibiya. Se
-descartaron también Nikkō y el Fuji, porque ya ha ido varias veces. El criterio para sus días
-solos es que **es su quinta visita**: nada de lo obvio y poca naturaleza, que ya tiene la de los
-Alpes con el grupo. De Yokohama quedó el jazz de Noge (Chigusa, Downbeat) como noche opcional, y
-desde oct 2026 esa noche es de vinilos en Shibuya: Noge pasó al `alt` del día, junto a la renuncia. El viernes 6 **va a Haneda a recoger a los otros tres** (el día 1 lo
-dice), y el miércoles lleva **un encargo de su padre**: el Seiko Presage HCC005J, en Seiko Dream Square (Ginza 4-chōme, la tienda de la marca; es modelo de «Core Shop» y las boutiques de Grand Seiko no lo tienen), con el
-aviso del *tax-free* nuevo (desde el 1 de noviembre de 2026 se paga entero y el 10 % se devuelve en
-la aduana de salida). El jueves 5 sale el *Zelda: Ocarina of Time* de Switch 2 y el cuarto compra
-dos copias a la vuelta de Kawagoe (apartadas el miércoles en Yodobashi Akiba; plan B, Bic Camera Ikebukuro). En Japón no hay edición especial: los regalos de tienda son detalles; la caja japonesa
-**no es metálica** —ni *steelbook* ni la portada de lámina, que es de la primera tirada de Europa y
-EE. UU.—, y está dicho. El viernes 6, antes de Haneda, un cóctel en el **New York Bar** a las 17:00, la hora en que no
-se cobra la entrada (¥3.300 desde las 18:30; reabrió en dic 2025, no se reserva, +15 % de
-servicio); el jueves queda como la alternativa con jazz. En oct 2026 entraron también los sitios de momiji y los Starbucks que recomienda **Japonismo**, solo
-donde caen de paso: Tōfuku-ji tras Fushimi Inari (día 14), Kyū-Furukawa junto al Rikugi-en (día
-17), Shinjuku Gyoen dos veces —crisantemos para el cuarto el viernes 6, el Momijiyama para los tres
-el día 21— y los Starbucks de Kawagoe, Ninenzaka, el Tsutaya de Shibuya, la Roastery de
-Naka-Meguro y el de dentro de Shinjuku Gyoen. La ficha del momiji avisa de que la primera
-previsión de 2026 viene tardía (arce de Kioto hacia el 11 de diciembre). Y cuatro fichas de **la noche de Shinjuku son de Pablo Sánchez** y lo dicen: Omoide Yokochō,
-Kabukichō, la torre de Kabukichō (2023) y Golden Gai, entre Shinjuku y Ebisu-Meguro en el índice.
-Para eso `FichaSchema` ganó `fuente` (opcional, `alba` | `pablo`), que pinta en la cabecera el
-mismo chip «Recomienda…» que las comidas. Las luces de Navidad que Pablo recordaba van como
-recomendados suyos: las de **Roppongi Hills** (5 nov – 25 dic de 2026) en la primera noche de
-Roppongi, día 7, y la **Dreamination de Hiroshima**, que este año empieza el 4 de diciembre según su
-web oficial (en 2025 fue el 17 de noviembre), con el aviso de que el grupo no la verá. Y más
-recomendados suyos de otros viajes: **los sofás de THE ROOF** en la azotea de Shibuya Sky (día 8,
-¥7.000 con dos copas; las entradas salen a las 0:00 de Japón, dos semanas antes según la web y
-cuatro según algunas guías), **el Tokyo City View** para buscar el Fuji (con los cuatro no cabe
-con luz; va el domingo 15 como cambio por el mirador de Ebisu si el día sale limpio, y por eso el
-mapa del día 10 sigue diciendo Ebisu), **Arashiyama al atardecer** con el bosque de los kimonos
-(una alternativa al día 12, no el plan: el día sigue empezando en el bambú a las siete) y **el
-Starbucks de Ninenzaka** con el café en tatami arriba. Entre las comidas, Ippudo de Kioto y de Ginza
-y Wagyumafia, la del sándwich de 125 euros, que cierra justo el miércoles en que pasa por delante.
-En Tsukiji, los dos sitios en que comió, pared con pared en la planta baja del 4-13-5: el Shinkan
-de Sushi Sei y Yakiuo Ishikawa. (Durante un día la guía tuvo Aozora Sandaime Bettei, el sushi del
-primer piso del mismo número, por un enlace de Maps mal identificado: no fue nunca, y se quitó.)
-Y **la cena del día 8 es en Shin-Ōkubo**, su cuenta pendiente de cuatro viajes: barbacoa coreana
-para cuatro (Yopu, con Tonchan de plan B), y de ahí andando por Kabukichō a Golden Gai, con Omoide
-de camino al tren. El jueves 12 (día 7), después de cenar, **Muscle Girls** en Ikebukuro: el bar
-de culturistas que dan bofetadas, en el turno de las 20:00 (¥6.000, ochenta minutos con barra
-libre). Va ahí porque es la única noche de los cuatro con hueco: la del viernes ya lleva Shin-Ōkubo
-y Golden Gai. El «bar Pokémon» que pidió era el Pokémon Center Mega Tokyo con su café, que ya estaba en el
-día 17 y pasó a ser tarjeta suya (fue con Ade en noviembre de 2023). Para no perder su letra en el
-mapa sin rehornear, la clave de `routeMapsGeo.js` se cambió a mano a `reco:…`, que es la que
-calcula el script. Dos más suyos: la **Minami Lumi**, las luces de la salida sur de Shinjuku
-(11 nov – 14 feb), como último paseo del día 8 de camino a la Ōedo, y **Maidreamin**, el *maid café*
-de Akihabara, después de cenar el día 2. Y de **Japonismo** sobre los Alpes, solo lo que la guía no
-tenía: el Museo del Reloj (quitado en oct 2026: el grupo no quería ir) y la granja de wasabi de Daiō (la de *Sueños* de Kurosawa) en Matsumoto,
-el Sakurayama Hachimangū y Maruaki en Takayama, y las casas Kanda y Nagase y el Minka-en en
-Shirakawa-gō. Lo demás que propone (mercados, Sanmachi, Hida no Sato, Shiroyama, Shinhotaka) ya
-estaba. Las **rutas a pie por nivel** viven en la reco `senderismo-alpes` (práctica, no ficha, para
-no renumerar el bloque de los Alpes): del Taishō–Kappabashi y el salto de Hirayu a Tokusawa,
-Matsukura, Dakesawa y el refugio Nishiho, con lo que se descarta en noviembre (Yari, Hotaka,
-Dokuhyō, Yakedake) y el aviso de osos. Cada ruta lleva el enlace a un track de Wikiloc o AllTrails
-(sacado de búsqueda, nunca construido a mano) y la tarjeta explica cómo seguirlo en el Apple Watch
-con Wikiloc Premium y sus 14 días de prueba. Se prefiere el track más reseñado (en AllTrails, el
-Kamikochi Walking Tour y el Myojin Ike Pond Loop) y, cuando la hay, la ficha oficial: la guía de
-sendas del centro de visitantes de Kamikōchi, el mapa de Higashiyama de la JNTO y el del castillo de
-Matsukura del Ayuntamiento de Takayama. Japonismo no tiene rutas propias para estas fechas. Y Sushi Sei es ya el **Shinkan** (4-13-5), donde
-Pablo comió con Sergio en 2017: la ficha decía «pedid el *honten*» y era al revés. Ojo: un `ver` con `reco:` apunta a `recomendados/`, no a
-`recos/`; a una reco se enlaza desde el `body` con su ancla. **El mapa del día 8 está sin rehornear**: no lleva Shin-Ōkubo y Yopu no tiene
-coordenadas. Cuando haya red hacia OSM, añade la parada y corre el script.
-**Los dos días nuevos (`solo-2-kamakura`, `solo-3-ginza`) no tienen
-`mapa`**: no había red hacia OSM al escribirlos, y la casa Asakura, Sugimoto-dera, Jōmyō-ji,
-Shichirigahama y el KITTE Garden están sin coordenadas. Cuando se puedan sacar, añádelos con su
-`mapa` y corre `node scripts/build-routemap.mjs`.
-
-**Los vinilos del cuarto** (oct 2026). La noche del miércoles 4 (`solo-3-ginza`) es para comprar
-discos en Shibuya: Tower Vinyl y HMV record shop, con cena en Shogun Burger y vuelta a Yodobashi
-Akiba antes de las 22:00 por los Zelda. El viernes 6 caen de paso Disk Union JazzTOKYO, en
-Ochanomizu, y la tienda de anime de Disk Union en Shinjuku-sanchōme, que es el plan B de *Cowboy
-Bebop*. Para las tiendas, `SalirSchema` ganó el `kind` **`discos`** (grupo «Tiendas de discos»,
-icono 💿). La reco `vinilos` tuvo diez discos, luego tres y quedó en **Bebop y tres que suenan a Japón**,
-sin tiradas limitadas ni precios de subasta: *Cowboy Bebop* (la japonesa de 2023 fue de primera
-tirada limitada, así que la normal es la de Milan), *Scenery* de Ryo Fukui, *For You* de Tatsuro
-Yamashita (el original de 1982, porque la reedición de 2023 fue limitada) y *Solid State Survivor*
-de YMO, que entró por Yoshimura al comparar con otra lista que trajo Pablo. Suplentes: Yoshimura
-(*Green* o *Nine Post Cards*) y el *Lupin III* de 1978 de Yuji Ohno, reeditado el 21 de octubre de
-2026 tras su muerte en mayo. La banda sonora de *Expedition 33* se quedó fuera a propósito: es de Laced
-Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
-las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
-
-**Los jazz kissa** (oct 2026) tienen su reco, `jazz-kissa`, a partir de un reportaje de *National
-Geographic* que Pablo pasó en capturas: la historia (el Blackbird de 1929, *Moanin'* y la gira de
-Blakey de 1961, unos 400 locales hoy), cómo se entra y los que caen en el viaje. El Masako de
-Shimokitazawa es la opción de escucha del miércoles 4 y el Eagle de Yotsuya la alternativa al Pit
-Inn del jueves 5. El reportaje es el de **marzo de 2026** (fotos de Tim Davis) y la tarjeta lo dice. En la
-segunda pasada entró todo lo demás: el Dig de Nakadaira y la policía con luxómetros, el Dug y los
-estudiantes contra Vietnam, el método de cuatro discos de Goto, el Eigakan, el Silencio, el
-Tónlist, el Genius (su dueño murió poco después de la visita: hay que mirar si sigue), el Callas
-Tokyo, el Basie con «Swifty» Sugawara, Kusunose y su libro, y *A Century in Sound* de Nick Dwyer.
-**Slow Hand**, el bar que solo pincha Clapton de 1968 a 1972, sale solo del reportaje: no se pudo
-confirmar dirección ni horario, y la tarjeta lo avisa. Dos correcciones que salieron de ahí: Chigusa no es el primer *kissa*, sino el más
-antiguo que sigue abierto; y el Dug de Shinjuku, que el reportaje cita, cerró el 27 de junio de 2026.
-
-**Los Alpes en otoño de *National Geographic*** (oct 2026), otro reportaje que Pablo pasó en
-capturas: un recorrido de otoño del Fuji a Dewa Sanzan. Entró lo que cae en la ruta, cada cosa en
-su ficha y con una línea en su día:
-
-- **Fuji:** el Kitaguchi Hongū Fuji Sengen, la quinta estación de la Subaru Line con el Ochūdō
-  (cierra con el hielo: 22 nov en 2023, 1 dic en 2025) y el lago Motosu del billete de mil yenes.
-  Van como «pedidle la parada al guía», porque el día 18 es una excursión contratada.
-- **Nikkō:** el Taiyūin y el Rinnō-ji con el Shōyōen, y la separación Meiji de 1868.
-- **Kamikōchi:** las tres cordilleras de Weston y la fauna, con el oso.
-- **Takayama:** el festival de otoño, que es siempre el 9 y el 10 de octubre.
-
-Lo que no cabe (el valle de Kiso y la Nakasendō; Aizu, Yamadera, Ginzan y Dewa Sanzan) va a las
-renuncias de `el-mapa-del-viaje`. **Cada sitio que lo usa dice que viene del reportaje que trajo Pablo**, que lo pidió
-expresamente: «el reportaje de *National Geographic* sobre el otoño en el interior de Honshū que
-trajo Pablo». Por las fechas que da (el festival de Takayama «en 2021»), es de 2021. Dos errores del reportaje que están corregidos en la guía: pone
-Kamikōchi «a casi 2.000 m» (está a unos 1.500) y dice que Iemitsu levantó el Taiyūin (lo terminó
-su hijo Ietsuna en 1653).
-
-**Las compras del cuarto** viven en la reco `compras`, que remite a las que ya tenían sitio (el
-Seiko, los Zelda, el matcha, los vinilos). Añade lo que encaja con lo que ya se ha traído otras
-veces, cada cosa en un día por el que ya pasa:
-
-- Onitsuka Tiger Nippon Made, en Ginza 7-chōme, al salir del Seiko el miércoles 4.
-- Un cuchillo de Kama-asa, que graba el nombre gratis, en Kappabashi el día 2.
-- Super Potato, la tienda de juegos retro de Akihabara, el jueves 5.
-- Nintendo TOKYO, en el Parco, la noche de los vinilos.
-
-Y dice lo que **no** hay que comprar allí: la Switch 2 de las tiendas japonesas, que solo está en
-japonés y solo admite cuentas japonesas. También echa las cuentas: el *tax-free* nuevo, la
-franquicia de 430 € a la vuelta (el Seiko no se puede partir y paga entero) y el litro de licor.
-
-**El reloj vintage del cuarto** (oct 2026): un **King Seiko 45KS** o un **Grand Seiko 61GS**, en
-acero y por debajo de unos ¥230.000 (descartó el oro: el 45GS de oro macizo ronda ¥485.000, y lo
-que hay de oro por debajo de su tope son Seiko de vestir pequeños). Qué es cada uno va en
-`compras`; cómo comprarlo —referencias que tienen que cuadrar, esfera original, caja sin pulir,
-revisión, garantía y las preguntas en japonés— en la tarjeta de `pablo-mizutani-camera`, que es
-donde se busca (día 2), con Nakano Broadway para comparar el jueves 5. **Fotos pendientes:**
-`commons.wikimedia.org` está bloqueado por la red del entorno, y en Commons no se encontró ninguna
-foto libre de esos dos modelos concretos; la mejor opción son fotos de Pablo. Las recos no pintan
-imagen todavía: habría que dar a `RecoSchema` un `image` opcional y usar `CardPhoto` en `RecoCard`.
-**Las portadas de los vinilos no se suben**: tienen derechos y la regla §6 es solo CC o dominio
-público, así que cada disco lleva un «Ver la portada» que abre la búsqueda en Discogs.
-
-**Japonismo: «Tokio diferente» y noviembre** (oct 2026). De su lista de barrios para quien ya ha
-visto Tokio entraron Ningyōchō (viernes 6, de Fukagawa al hotel), Yoshiwara (día 2, junto al *tori
-no ichi*), Kagurazaka (día 17, al anochecer entre los dos jardines), Kōenji (`alt` del día 17),
-Shibamata (`alt` del lunes 2) y Kameido (`alt` del día 2). Jiyūgaoka y Tennōzu no caben. La ficha
-`barrios-de-tokio` tiene una sección, «El Tokio diferente de Japonismo», que hace de índice de todo
-esto. De paso se corrigieron dos frases viejas de esa ficha: decía que Shinjuku era «vuestra base»
-y que la *yamanote* era el día 3. De noviembre entraron la avenida de ginkgos de Jingū Gaien (día
-21), el festival del momiji de Kawaguchiko con su Momiji Kairō (día 18), los crisantemos de Meiji
-Jingū (día 8), la comida de otoño en `comer-en-la-calle` y tres apuntes en `equipaje`.
-
-**Las dos iluminaciones de jardín no coinciden en 2026**: el Koishikawa Kōrakuen abre de noche del
-13 al 24 de noviembre, que coge el domingo 22, y el Rikugi-en del 25 al 6 de diciembre, que va en el
-`alt` del día 20. El día 17 decía que «los dos hacen iluminación nocturna» y el grupo habría ido al
-Rikugi-en tres días antes de que empezara.
-
-**Japonismo tiene datos viejos**, y no hay que copiarlos sin mirar:
-
-- Su calendario pone el *tori no ichi* de 2026 el 11 y el 23 de noviembre. Son las fechas de 2023;
-  este año es el 7 y el 19, como dice la guía.
-- Da el festival de Kawaguchiko del 1 al 23. En 2026 va del 7 al 29.
-- Cita el Museo Hara de Shinagawa, que cerró en enero de 2021.
-- Sitúa el *onsen* Myōjin no Yu en Shibamata, y está en Ōyata (Adachi).
-
-Y salió un error propio: el `alt` del día 2 mandaba a ver entrenar a los luchadores de Ryōgoku, y
-en noviembre los establos se mudan a Fukuoka para el torneo de Kyūshū. Los `ver` nuevos de esta
-tanda van sin coordenadas, porque no había red hacia el GSI ni hacia OSM: salen en la lista, sin
-letra en el mapa.
-
-**Hida-Furukawa es la tarde del día 5** (oct 2026; lo trajo Pablo de un pódcast y lo respalda un
-artículo de Japonismo). Primero fue una ventana de decisión y, con el visto bueno de Pablo, pasó al
-plan: tren de 14:00 a 17:00, la Matsuri Kaikan, el canal Seto con sus carpas (siguen en el agua
-hasta finales de noviembre; en 2024 las mudaron el día 30), las velas Mishima y los sitios de *Your
-Name*, que está en la lista del grupo. El Takayama Jinya pasó a la mañana, y el Yatai Kaikan y la
-caminata de Higashiyama quedaron en el `alt`, como renuncia contada. **El día 5 se quedó sin
-`mapa`**: el horneado era de la tarde vieja, con las paradas por índice, y no se podía rehornear sin
-red hacia OSM. Furukawa queda además a 13 km, fuera de aquel encuadre. Cuando haya red, se vuelve a
-poner con dos zonas (el casco de Takayama por la mañana y Furukawa por la tarde) y se corre el
-script.
-
-**El día 6 cambió de horario por los autobuses** (oct 2026). Los de la mañana de Takayama a
-Shirakawa-gō y los directos de la tarde a Kanazawa estaban agotados en Japan Bus Online, así que
-se compró el de las 13:20 a Shirakawa-gō y el de las 17:20 a Shin-Takaoka, con Shinkansen hasta
-Kanazawa. La mañana libre en Takayama la ocupa la caminata de Higashiyama, que era renuncia del
-día 5, y la cena pasó de Ōmichō, que a las ocho está cerrado, a Rekireki, reservado a las 20:00.
-Si se liberan plazas en el directo de las 17:30, el cambio cuesta ¥100 por persona.
-
-**Y una cosa que se movió y se devolvió, para que no la vuelva a mover nadie:** durante la reforma
-Nikkō se pasó al día 9 argumentando su momiji. **Fue un error y está deshecho.** Su parte alta
-—Chūzenji, Irohazaka— tiene el color en **octubre**, así que adelantarlo del 24 al 14 no la salva:
-solo gana unos días en la zona baja del Tōshōgū, y a cambio lo pone en **sábado**, que en uno de los
-santuarios más visitados del país es un mal cambio. Nikkō se queda en el **día 19**, donde estaba, y
-la ficha del momiji explica el descarte en vez de callarlo.
-
-**El segundo cambio fue Kamikōchi, y salió de un problema.** Las camas del valle estaban vendidas
-—sus reservas abren en enero—, así que el plan original de **entrar dos veces al valle con una noche
-en medio dejó de tener sentido**: la segunda entrada solo existía para amortizar la noche de dentro.
-Sin ella es un día de ida y vuelta y punto. Se comprimió a una jornada larga —Matsumoto → valle
-entero de punta a punta— y eso ahorró un día del itinerario, que se fue a Nara.
-
-**Y se duerme en Hirayu Onsen**, no en Takayama. Esto se probó de las dos maneras y la diferencia
-importa: bajando de paso cabe **un** baño con el reloj puesto; durmiendo allí caben **tres** —antes
-de cenar, después y al amanecer—, que es lo que se estaba comprando. Los mercados matinales de
-Takayama se mudaron entonces al **día 6**, antes del autobús a Shirakawa-gō, donde siguen teniendo
-su franja de amanecer.
-
-**La trampa que costó encontrarla**, y la razón de más para dormir en Hirayu: el último autobús de
-Kamikōchi a Hirayu sale a las **17:30** y llega a las 17:55; el último de Hirayu a Takayama sale
-**también a las 17:30**. Quien intente encadenarlos se queda tirado abajo. Durmiendo en Hirayu el
-problema no existe — pero si alguien vuelve a plantear seguir hasta Takayama esa noche, que sepa que
-hay que salir del valle sobre las **16:00**.
-
-**Lo que se perdió y no se disimula:** el amanecer en el estanque Taishō. La inversión
-`dormir-en-kamikochi` se conserva **aunque la decisión ya no exista**, porque explica el porqué a
-quien lea la guía a tiempo — esa es la regla, no borrar las renuncias.
-
-**El Fuji del 23 no se movió.** Está contratado con [Turismo Victoria](https://turismovictoria.com):
-diez horas guiadas en español, recogida en **Shin-Fuji a las 8:30**, y el cuarto viajero ya no está.
-La trampa al comprar el tren: **en Shin-Fuji solo para el Kodama**, ni Nozomi ni Hikari.
-
-**Cómo se hizo el renumerado, por si hay que repetirlo.** Los 21 días cambiaron de orden y de slug a
-la vez, con colisiones entre nombres (`dia-5-kamakura` → `dia-8-kamakura` mientras existía
-`dia-8-bajada`). La forma que funcionó: cargar **todos** los ficheros en memoria, aplicar el mapa,
-borrar el directorio y reescribir — y en la misma pasada sustituir las anclas `#dia-…` en todo
-`content/`. Cuidado con el paso siguiente: remapear «día N» en la prosa **pisa los ficheros que ya
-hayas reescrito a mano** con los números nuevos. Hazlo antes de escribir a mano, no después.
+**Las películas del grupo** viven en la ficha `peliculas-del-grupo`, con los sitios como `ver` en su
+día. Las que no pisan la ruta lo dicen, y lo que no se pudo verificar se descartó.
 
 ---
 
-## 9 bis. Nara fuera, un domingo de Tokio dentro (ago 2026, después de la reforma)
+## 10. Pendiente
 
-El día de **Nara se ha eliminado** y el día que liberaba se ha gastado en **un domingo entero en el
-centro de Tokio** (día 10, 15 de noviembre). Fue decisión del grupo, sin matices: no querían ir.
-
-El cambio salió redondo por una razón aritmética que conviene entender antes de volver a tocarlo:
-**quitar un día en Kansai y meter uno en Tokio deja intactas todas las fechas del 20 de noviembre en
-adelante**. Hiroshima sigue clavada al viernes 20 y Miyajima al sábado 21, con sus mismos números de
-día. Solo se movieron los días 10 a 14, y los días 15 a 21 no se tocaron. Si alguna vez hay que
-deshacerlo, se deshace igual de barato.
-
-Tres cosas que decidió esta reforma y que no hay que revertir por descuido:
-
-- **El Shinkansen de bajada va ahora en lunes**, no en domingo. Era una fricción que el propio mapa
-  del viaje listaba como aviso, y ha desaparecido.
-- **Kioto pasa a cuatro noches de verdad** (16-19). El mapa ya decía «cuatro noches» y eran cinco:
-  ahora la frase es cierta.
-- **La ficha de Nara y el bar de Nara se borraron**, y todos los `[Nara](#nara)` del resto de la guía
-  se convirtieron en texto plano. Nara se sigue mencionando mucho —es historia del país, no una
-  parada— pero ya no enlaza a ninguna parte. La renuncia queda contada en el mapa del viaje, que es
-  donde van las renuncias.
-
-**Ya no queda día comodín.** El de Kansai se ha gastado. De aquí en adelante, meter algo en el
-itinerario obliga a quitar algo.
-
-**Y de paso salieron tres errores de día de la semana que venían de la reforma de agosto** y que no
-tenían nada que ver con Nara. Los tres están arreglados, pero valen como aviso de lo que hay que
-mirar cuando se renumeran días: **el `eyebrow` dice la fecha, pero la prosa dice el día de la semana,
-y la prosa no se renumera sola.**
-
-- El día 6 (mié 11 nov) tenía una ventana titulada «Una carta de hoy, que es domingo 15» con el
-  *shichi-go-san* dentro. Se ha borrado: el *shichi-go-san* vive ahora en el día 10, que sí es el 15.
-- El día 20 (mié 25 nov) se llamaba «El lunes que cierra todo» y **todo el día colgaba de los cierres
-  de los lunes** — los jardines del Palacio, el Museo Nezu, teamLab. En miércoles no cierra nada, así
-  que el día se ha rearmado sobre otra premisa: es el último completo y cae dentro del pico del
-  momiji.
-- Ese mismo día 20 avisaba de que «llegáis dos semanas antes del momiji de Tokio» cuando el 25 de
-  noviembre está **dentro** del pico (20 nov – 5 dic) que la propia ficha del momiji declara. Era una
-  contradicción directa con el `rationale` de `trip.yml`.
-
-**Si vuelves a renumerar días, la comprobación barata** es cruzar cada `eyebrow` con lo que dice el
-cuerpo: `grep -n "lunes\|martes\|domingo\|víspera\|mañana es"` sobre `dias/` y mirarlo uno a uno.
-Los tests no cazan nada de esto, porque son datos válidos que dicen mentiras.
-
-
----
-
-## 9 ter. Kioto: por qué el 12 es el oeste y el 13 el este (ago 2026)
-
-**Estaban al revés y se intercambiaron.** Si alguien mira el orden y le parece arbitrario, esta es la
-razón, y es de calendario: **los dos templos Nenbutsu-ji de Saga-Toriimoto cierran los miércoles** —el
-Otagi, con sus mil doscientos rakan tallados por aficionados, y el Adashino, con ocho mil budas, que
-además cierra sábados—. El día de Arashiyama era miércoles, así que **los dos templos de esa calle
-cerraban justo el día que se pasaba por allí**.
-
-Se comprobó sitio por sitio antes de mover nada, y el resultado es que **el intercambio no rompe
-nada**: Tenryū-ji, Ōkōchi Sansō, Jōjakkō-ji, Giō-ji, Kinkaku-ji, Ryōan-ji, Ninna-ji, Kiyomizu-dera y
-Kōdai-ji **abren todos los días**. En Kioto, de todo lo que toca este viaje, lo único con cierre
-entre semana son esos dos templos.
-
-**Lo que el cambio NO hace es crear horas.** El día del oeste ya iba lleno y en noviembre anochece a
-las 16:40. Subir a Saga-Toriimoto son unas dos horas desde donde acaba la villa Ōkōchi. Por eso está
-escrito **dentro del día como decisión y no como plan**, diciendo que lo que se paga es el Ninna-ji,
-que es el último de los tres del noroeste.
-
-**El renumerado se hizo como manda §9:** cargar los dos ficheros en memoria, borrar, reescribir con
-los nombres nuevos, y en la misma pasada las anclas y **las trece referencias de prosa repartidas por
-nueve ficheros** —incluida la ficha de cine y libros, que remitía al día del pabellón dorado por *El
-pabellón de oro* de Mishima—. Y los dos datos que además del número llevaban fecha: «el día 13 es
-martes» y «el día 13 es el 18 de noviembre». **Los tests no cazan nada de esto**: son datos válidos
-que dicen mentiras.
-
-**De paso se cerró el asunto del *raitoappu*.** El día lo dejaba en «las fechas las publica cada
-templo en octubre». Ya se saben las de 2026: **Shōren-in del 7 de noviembre al 7 de diciembre** —y
-vuelve a abrir de noche **tras cinco años cerrado por obras**—, Kōdai-ji de finales de octubre a
-principios de diciembre, y **Kiyomizu-dera del 21 al 30**, que es justo después de que el grupo se
-vaya. Ese se pierde por un día y conviene que esté escrito.
-
----
-
-## 10. La capa de «Recomendados por el grupo» (ago 2026)
-
-Alba compartió por mensaje privado **422 posts**, de los que 193 eran de Japón. De ahí salen **66
-fichas** a partir de **65 posts** —uno, la lista de restaurantes de Tokio, alimenta dos—: 48 sitios de comer y 18
-tarjetas. El resto se descartó con motivo: 12 fuera de ruta, 18
-alojamientos, 21 de captación de leads («comenta AYUDA»), 12 listas genéricas ya minadas, 21 con el
-caption demasiado corto y 44 duplicados de algo ya escrito o sin nombre que buscar.
-
-**Cómo está montado, y por qué así:**
-
-- Un local de comer es una `comida` con **`fuente`** (`alba` | `pablo`) y **`fuenteUrl`** (el post de
-  origen). Pinta un chip en la tarjeta. **Desde oct 2026 todas las comidas llevan `fuente`**: `alba`
-  las 49 de sus posts y `pablo` las demás, que las añadió **Pablo Sánchez** (no Pablo Velasco, que
-  hizo la capa de Alba). Es un solo valor, así que un local de Alba con Bib Gourmand —Inoichi,
-  Hachigō, Tsuta— se queda como `alba`: el chip dice quién lo trajo, no qué premio tiene. Una comida
-  nueva sin `fuente` no sale en ninguna de las dos listas de Recomendados.
-- Lo que no es un restaurante —un mercado con fecha fija, un taller de palillos, un aviso de estafa—
-  va a la colección **`recomendados/`**, con `kind` (`ver` · `taller` · `truco`) y **`url`
-  obligatorio**. No cabía en `recos`, cuyos `kind` describen la logística del viaje y no un hallazgo
-  de alguien.
-- **La sección NO duplica nada.** Lista los locales en una línea que salta a su ficha de
-  Gastronomía, y pinta tarjeta entera solo para lo demás. Copiar la ficha habría roto la regla 4.1.
-
-**Las dos reglas que la hacen fiable, y que no hay que relajar:**
-
-1. **Verificar antes de escribir, y escribir la corrección cuando la haya.** De los 66, más de
-   quince contradicen a su propio vídeo: Otafuku tiene 35 asientos y no 8; Odai Sushi, 7 y no 10; el
-   mercado de Ōedo no sigue la regla de «primer sábado y tercer domingo»; los tres ramen con estrella
-   de Tokio **la perdieron en la guía de 2024**; los cajeros de 7-Eleven solo son gratis con
-   Mastercard. Ese trabajo es el valor de la capa entera.
-2. **Cuando algo no encaja, se dice.** Hay fichas que existen para explicar por qué NO se va: Onigiri
-   Bongo (cola de dos a cinco horas), SUNDOWNER (cierra los viernes y el día de Kamakura es viernes),
-   Sen (Ikebukuro no sale en ningún día), Okudosan (cuatro cubiertos al día). Y las que llegan sin
-   confirmar lo llevan escrito: la bolsa de 3COINS, los precios de Daibokujō.
+- **Mapas sin hornear**, por falta de red hacia OSM o el GSI cuando se escribieron:
+  - el día 8 no lleva Shin-Ōkubo, y Yopu no tiene coordenadas;
+  - el día 5 no tiene `mapa` (va con dos zonas: el casco de Takayama y Furukawa);
+  - `solo-2-kamakura` y `solo-3-ginza` no tienen `mapa`;
+  - varios `ver` de la tanda de Japonismo no tienen coordenadas.
+- **Fotos**: Pablo tiene sin subir las de Shibuya, Ueno, Tsukiji e Hiroshima. Ebisu-Meguro y
+  Masakado siguen sin foto verificable. El King Seiko y el Grand Seiko del cuarto dependen de fotos
+  de Pablo, y además `RecoSchema` no tiene `image` (habría que añadirlo y usar `CardPhoto` en
+  `RecoCard`).
+- **Sin confirmar, y las tarjetas lo avisan**:
+  - los horarios de noviembre de los autobuses de Kamikōchi (el día 4 cuelga de dos);
+  - los horarios de las dos Disk Union;
+  - Slow Hand;
+  - si el jazz kissa Genius sigue abierto.

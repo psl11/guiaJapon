@@ -53,3 +53,5 @@ comprueban que la página los pinte.
 Textos originales. Datos contrastados con *The Rough Guide to Tokyo* y notas propias de viajes
 anteriores. Las fotos son de Pablo Sánchez o de Wikimedia Commons, cada una con su autor y su
 licencia indicados bajo la imagen.
+
+_Última revisión del README: 2 de noviembre de 2026._

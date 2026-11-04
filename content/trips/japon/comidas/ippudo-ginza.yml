@@ -24,5 +24,7 @@ link:
   url: https://www.google.com/maps/search/?api=1&query=Ippudo%20Ginza%204-10-3
   label: Google Maps
 seenIn:
+  - ref: "#solo-3-ginza"
+    label: Solo · mié 4 · de camino
   - ref: "#dia-20-tsukiji-ginza"
     label: Día 20 · Ginza

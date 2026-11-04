@@ -17,7 +17,7 @@ traslados:
     medio: "Toei Mita, desde Hibiya"
     duracion: "~5 min"
     hora: "salir 13:45"
-    nota: "Hibiya está a cinco minutos andando del cruce de Ginza 4-chōme. Son dos paradas."
+    nota: "Del Ippudo de Ginza a la estación de Hibiya hay unos diez minutos andando. Son dos paradas."
   - desde: "Akihabara"
     hasta: "Shimbashi"
     medio: "JR Yamanote o Keihin-Tōhoku"
@@ -51,11 +51,16 @@ traslados:
 blocks:
   - block: Mediodía
     time: "13:00–13:45"
-    title: Un *katsu sando* en Ginza
+    title: Un ramen de Ippudo, de camino
     body: >-
-      La comida la ha elegido tu familia: un *katsu sando* de Ginza, el bocadillo de cerdo empanado
-      en pan de molde, que tienen por bueno y a buen precio. Al salir, la estación de Hibiya está a
-      cinco minutos andando, y de ahí la Toei Mita va directa a Jinbōchō.
+      Comida rápida y sin pensar: un Ippudo, el que pille de camino. Desde Shimbashi, el de Ginza
+      4-chōme queda a un paseo, y de ahí a la estación de Hibiya son unos diez minutos andando; la
+      Toei Mita va directa a Jinbōchō. El *katsu sando* que recomendaba tu familia no abre hasta las
+      15:00, y no cabe.
+    comer:
+      - comida: ippudo-ginza
+        elegido: true
+        nota: "El de 4-chōme, a dos manzanas del Kabuki-za. Cualquier otro Ippudo de camino vale igual."
   - block: Primera tarde
     time: "14:00–15:30"
     title: Jinbōchō, el barrio de los libros viejos
@@ -68,31 +73,10 @@ blocks:
         Abre de 10:00 a 17:00 y cierra los fines de semana y los festivos, así que hoy es el día.
       - **Kitazawa** (1902): libros en otras lenguas, sobre todo en inglés, con un rincón pequeño de
         español, francés y alemán.
-      - **Hara Shobō** (Jinbōchō 2-3): la de los grabados *ukiyo-e*, en la segunda planta. Hablan
-        inglés y todo lleva precio.
-      - **Ōya Shobō** (1882): mapas antiguos, libros ilustrados y grabados de la época Edo.
       - **Isseidō**: la gran librería de libro antiguo, en un edificio de 1931.
 
       Para la foto, la esquina de **Yaguchi Shoten**, con la fachada forrada de estanterías hacia la
       calle, y los carritos de saldo en la acera. El café, en el Sabouru.
-    window:
-      label: Los ukiyo-e, lo que cuestan
-      body: >-
-        - **Reimpresiones**, desde ¥300. Las reproducciones talladas de nuevo en madera, de ¥2.000 a
-        ¥6.000.
-
-        - **Originales de Edo o Meiji de nombres menos conocidos**, desde unos ¥5.000. En la web de
-        Hara Shobō había un Shōun a ¥38.000 y un tríptico de Yoshitoshi a ¥140.000.
-
-        - **Los grandes**: un Hiroshige del Tōkaidō de la era Tenpō, ¥250.000; un Eisen, ¥380.000. Y
-        hay piezas que pasan del millón.
-
-        - **El carro de ¥500** de Tōshūsai, otra tienda de grabados antiguos del barrio.
-
-        - **Antes de pagar**, pregunta 「江戸時代の摺りですか？後摺りですか？」: si se imprimió en la
-        época o después. 後摺 (*atozuri*) es una tirada posterior con las planchas originales; 復刻
-        (*fukkoku*), una reproducción con planchas nuevas. Y pide que te lo pongan entre cartones para
-        el avión.
     ver:
       - nombre: Italia Shobō
         maps: "イタリア書房 神保町"
@@ -100,12 +84,6 @@ blocks:
       - nombre: Kitazawa Shoten
         maps: Kitazawa Bookstore Jimbocho
         nota: Libros en otras lenguas desde 1902, sobre todo en inglés, con algo de español.
-      - nombre: Hara Shobō
-        maps: Hara Shobo Jimbocho
-        nota: "Grabados *ukiyo-e* de Edo y Meiji, de unos cientos de yenes a millones."
-      - nombre: Ōya Shobō
-        maps: Ohya Shobo Jimbocho
-        nota: Mapas antiguos, libros ilustrados y grabados de la época Edo.
       - nombre: Isseidō
         maps: Isseido Booksellers Jimbocho
         nota: Libro antiguo japonés y extranjero, en un edificio de 1931.

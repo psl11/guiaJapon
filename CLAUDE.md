@@ -596,9 +596,9 @@ los vinilos los compró el martes 3 en Tower Vinyl y por Amazon. Todo lo que est
 los de Yokohama y el Seiko cuentan del miércoles ya no está en el día. `solo-3-ginza` conserva el
 slug, pero ahora es **Kanda**, por recomendación de la familia:
 
-- Un *katsu sando* en Ginza (sin ficha: lo eligió la familia).
+- Un Ippudo de camino (el *katsu sando* que recomendó la familia no abre hasta las 15:00).
 - Jinbōchō: Italia Shobō, la librería de libros en español (cierra a las 17:00 y en fin de semana).
-  También la ventana de precios del *ukiyo-e*.
+  El *ukiyo-e* se descartó: no le compensa.
 - Ochanomizu y el Kanda Myōjin al atardecer.
 - La maleta, que esperaba en una taquilla de Shimbashi y se recoge justo antes del *check-in*.
 - Kagurazaka de noche y el New York Bar con jazz y hamburguesa.

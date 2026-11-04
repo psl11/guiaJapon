@@ -611,8 +611,8 @@ pero sin confirmar en la lista oficial. El *Sakura* de Susumu Yokota, el disco q
 con la azotea de KITTE, que los viernes abre hasta las 20:00 y queda camino de Haneda. **El mapa del
 viernes se editó a mano**: sin red hacia OSM, se quitaron de `routeMapsGeo.js` la última parada
 (Jinbōchō), su tramo, su zona y la letra del Hijiribashi. La imagen sigue siendo la vieja, con
-espacio vacío al oeste: cuando haya red, rehornéalo. El jueves 5 sigue con Kawagoe, aunque la
-familia dice que no compensa; está pendiente de que el cuarto decida.
+espacio vacío al oeste: cuando haya red, rehornéalo. El jueves 5 sigue con Kawagoe: la familia
+dijo que no compensa, y el cuarto decidió mantenerlo.
 
 **Los jazz kissa** (oct 2026) tienen su reco, `jazz-kissa`, a partir de un reportaje de *National
 Geographic* que Pablo pasó en capturas: la historia (el Blackbird de 1929, *Moanin'* y la gira de

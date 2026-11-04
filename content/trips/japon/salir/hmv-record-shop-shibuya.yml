@@ -7,7 +7,7 @@ title: HMV record shop Shibuya
 navLabel: "HMV record shop"
 tipo: tienda de vinilo · nuevo y de segunda mano
 area: Udagawachō 36-2, Noah Shibuya, plantas 1 y 2 · a cinco minutos de Tower
-cuando: "Todos los días, de 11:00 a 21:00 · la segunda parada del miércoles 4"
+cuando: "Todos los días, de 11:00 a 21:00 · la segunda mano, para lo que falte"
 precio: "Gratis mirar"
 reserva: "No"
 body: >-
@@ -19,5 +19,5 @@ link:
   url: "https://www.hmv.co.jp/"
   label: HMV Japón
 seenIn:
-  - ref: '#solo-3-ginza'
-    label: "Solo · mié 4 · de noche"
+  - ref: '#vinilos'
+    label: "Los vinilos"

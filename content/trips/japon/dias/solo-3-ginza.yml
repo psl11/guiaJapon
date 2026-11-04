@@ -1,254 +1,242 @@
 slug: solo-3-ginza
-navLabel: "Solo · mié 4 · Ginza"
+navLabel: "Solo · mié 4 · Kanda"
 trip: japon
 tramo: solo
 order: 103
 eyebrow: En solitario · mié 4 nov
-title: Una casa de 1919, un ramen de seis asientos y la estación *encendida*
+title: Libros viejos, el santuario de Akihabara y jazz *en la planta 52*
 dek: >-
-  Hoy el día es con tu familia, y se arma alrededor de una mesa en Ginza a la una, que es la hora a
-  la que pueden. Por la mañana, Daikanyama y la casa Asakura; por la tarde, el museo que te
-  recomiendan, a quince minutos andando del restaurante, y la azotea desde la que se ve la estación
-  de Tokio al anochecer. De noche, vinilos en Shibuya. Antes de nada, la mudanza.
+  Hoy el día sale de lo que te ha recomendado tu familia: Kanda y sus librerías de viejo, Kagurazaka
+  de noche y, para acabar, el jazz del Park Hyatt. Por medio, el paseo con más fotos de la semana,
+  de Ochanomizu al Kanda Myōjin con la última luz. La mudanza se deja para el final de la tarde.
 duerme:
   - super-hotel-premier-akihabara
 traslados:
+  - desde: "Ginza"
+    hasta: "Jinbōchō"
+    medio: "Toei Mita, desde Hibiya"
+    duracion: "~5 min"
+    hora: "salir 13:45"
+    nota: "Hibiya está a cinco minutos andando del cruce de Ginza 4-chōme. Son dos paradas."
+  - desde: "Akihabara"
+    hasta: "Shimbashi"
+    medio: "JR Yamanote o Keihin-Tōhoku"
+    duracion: "~8 min"
+    hora: "salir 16:55"
+    nota: "**La maleta, justo antes de la habitación.** Sigue en la taquilla de Shimbashi desde la mañana."
   - desde: "Shimbashi"
     hasta: "Akihabara"
-    medio: "JR Yamanote"
-    duracion: "~10 min"
-    hora: "salir 08:30"
-    nota: "**Primero, la mudanza.** Se deja el Candeo y la maleta se queda en la recepción del Super Hotel, que no da la habitación hasta las 15:00."
+    medio: "JR Yamanote o Keihin-Tōhoku"
+    duracion: "~8 min"
+    hora: "salir 17:15"
+    nota: "De la estación al hotel, siete u ocho minutos con la maleta."
   - desde: "Akihabara"
-    hasta: "Naka-Meguro"
-    medio: "Metro Hibiya, directo"
-    duracion: "~35 min"
-    hora: "salir 09:15"
-    nota: "Desde Naka-Meguro, diez minutos cuesta arriba hasta Daikanyama, o una parada de Tōkyū Tōyoko."
-  - desde: "Naka-Meguro"
-    hasta: "Ginza"
-    medio: "Metro Hibiya, directo"
-    duracion: "~20 min"
-    hora: "salir 12:30"
-  - desde: "Tokio"
-    hasta: "Shibuya"
-    medio: "JR Yamanote"
-    duracion: "~25 min"
-    hora: "salir 17:30"
-    nota: "Desde KITTE, la estación está enfrente."
-  - desde: "Shibuya"
-    hasta: "Akihabara"
-    medio: "JR Yamanote"
-    duracion: "~30 min"
-    hora: "salir 21:15"
-    nota: "**Yodobashi Akiba cierra a las 22:00**, y hoy hay que pasar por allí."
+    hasta: "Iidabashi"
+    medio: "JR Chūō-Sōbu, directa"
+    duracion: "~8 min"
+    hora: "salir 18:20"
+    nota: "Del hotel a la estación, otros ocho minutos. La cuesta de Kagurazaka empieza a la salida oeste."
+  - desde: "Ushigome-Kagurazaka"
+    hasta: "Tochōmae"
+    medio: "Toei Ōedo, directa"
+    duracion: "~10 min"
+    hora: "salir 19:20"
+    nota: "De Tochōmae al Park Hyatt, diez minutos andando. Se sube al vestíbulo de la planta 41, y de ahí al bar."
+  - desde: "Shinjuku"
+    hasta: "Iwamotochō"
+    medio: "Toei Shinjuku, directa"
+    duracion: "~15 min"
+    hora: "a la vuelta"
+    nota: "Del Park Hyatt a la estación, un cuarto de hora andando. Iwamotochō queda a tres minutos del hotel."
 blocks:
-  - block: Mañana
-    time: "10:00–12:30"
-    title: La casa Asakura, y Daikanyama alrededor
-    body: >-
-      Se empieza por la **antigua casa Asakura**, a la hora en que abre. La levantó en 1919 Asakura
-      Torajirō, que presidió la asamblea de Tokio, y es Bien Cultural Importante: una casa de madera de
-      la era Taishō, con sus salas de tatami abiertas sobre un jardín en pendiente que baja hacia el
-      río Meguro. Es pequeña y se ve en tres cuartos de hora. Tu familia va cada otoño; los arces de
-      Tokio no enrojecen del todo hasta finales de mes, así que el 4 los pillarás empezando.
-
-
-      Al salir, Daikanyama es justo lo que te han dicho: calles cortas, tiendas pequeñas y casi nada
-      de cadena. Enfrente de la casa está **Hillside Terrace**, el conjunto que Fumihiko Maki fue
-      construyendo a lo largo de veinte años, y a cinco minutos la librería de Tsutaya. Las tiendas
-      abren hacia las 11:00, así que el orden sale solo. Y para bajar al metro, cuesta abajo hasta el
-      río Meguro: en la orilla está la **Starbucks Reserve Roastery**, el tostadero de Kengo Kuma, a
-      diez minutos de la estación de Naka-Meguro. Junto a la estación queda también
-      [Wagyumafia](#wagyumafia-cutlet-sandwich), la del sándwich de 125 euros, que los miércoles
-      cierra: hoy no hay peligro.
-    window:
-      label: Horarios
-      body: >-
-        **La casa Asakura abre de 10:00 a 16:30 de noviembre a febrero** (última entrada media hora
-        antes), cierra los lunes y la entrada es simbólica, unos ¥100. Está a cinco minutos de la
-        estación de Daikanyama.
-    ver:
-      - nombre: Antigua casa Asakura
-        maps: Former Asakura Residence Daikanyama
-        nota: Casa de 1919 con jardín en ladera. Bien Cultural Importante, y casi siempre vacía.
-      - nombre: Hillside Terrace
-        maps: Hillside Terrace Daikanyama
-        nota: Tiendas, galerías y cafés en edificios bajos de Fumihiko Maki, frente a la casa.
-      - nombre: Daikanyama T-Site
-        maps: Daikanyama T-Site
-        nota: La librería de Tsutaya, en tres pabellones unidos por un pasillo de revistas.
-      - nombre: "Starbucks Reserve Roastery"
-        maps: "Starbucks Reserve Roastery Tokyo Nakameguro"
-        nota: "El tostadero de cuatro plantas de Kengo Kuma, junto al río Meguro, de camino al metro."
   - block: Mediodía
-    time: "13:00–14:30"
-    title: Comer en Ginza, con la familia
+    time: "13:00–13:45"
+    title: Un *katsu sando* en Ginza
     body: >-
-      La Hibiya vuelve directa a Ginza en veinte minutos, para estar a la una. Lo que tu familia quiere intentar es
-      **Hachigō**: un solo plato, seis asientos y setenta cuencos al día. Si no hay sitio, ellos tienen
-      su plan B, un tempura rápido que conocen, y a cinco minutos queda también el de la guía, Shinamen
-      Hashigo.
+      La comida la ha elegido tu familia: un *katsu sando* de Ginza, el bocadillo de cerdo empanado
+      en pan de molde, que tienen por bueno y a buen precio. Al salir, la estación de Hibiya está a
+      cinco minutos andando, y de ahí la Toei Mita va directa a Jinbōchō.
+  - block: Primera tarde
+    time: "14:00–15:30"
+    title: Jinbōchō, el barrio de los libros viejos
+    body: |-
+      Las librerías de Kanda que te recomendaron son las de Jinbōchō, el barrio de los libros de viejo,
+      con [su ficha](#jimbocho) y su hilera de *kissaten*. Son unas ciento treinta tiendas y casi todas
+      cierran hacia las seis, así que van antes que nada. Se empieza por la que cierra antes:
 
+      - **Italia Shobō** (Jinbōchō 2-23): libros en italiano, español y portugués, también antiguos.
+        Abre de 10:00 a 17:00 y cierra los fines de semana y los festivos, así que hoy es el día.
+      - **Kitazawa** (1902): libros en otras lenguas, sobre todo en inglés, con un rincón pequeño de
+        español, francés y alemán.
+      - **Hara Shobō** (Jinbōchō 2-3): la de los grabados *ukiyo-e*, en la segunda planta. Hablan
+        inglés y todo lleva precio.
+      - **Ōya Shobō** (1882): mapas antiguos, libros ilustrados y grabados de la época Edo.
+      - **Isseidō**: la gran librería de libro antiguo, en un edificio de 1931.
 
-      Después, Ginza a vuestro paso: el barrio lo conocen ellos. Lo que no vas a ver es la avenida
-      cortada al tráfico, que solo se peatonaliza los fines de semana y festivos.
+      Para la foto, la esquina de **Yaguchi Shoten**, con la fachada forrada de estanterías hacia la
+      calle, y los carritos de saldo en la acera. El café, en el Sabouru.
     window:
-      label: La reserva se abre el sábado 31, a la 1:00 de la mañana en España
+      label: Los ukiyo-e, lo que cuestan
       body: >-
-        Hachigō reserva solo por TableCheck, con ¥500 de gestión por persona, y **abre cada sábado a
-        las 9:00 de Japón los turnos de martes a domingo de la semana siguiente**. Para el miércoles 4,
-        eso es el **sábado 31 de octubre a la 1:00** hora peninsular. Con seis taburetes en barra, un
-        grupo solo se sienta junto si coge varios sitios del mismo turno: el de las 13:00. Cierra los lunes.
+        - **Reimpresiones**, desde ¥300. Las reproducciones talladas de nuevo en madera, de ¥2.000 a
+        ¥6.000.
+
+        - **Originales de Edo o Meiji de nombres menos conocidos**, desde unos ¥5.000. En la web de
+        Hara Shobō había un Shōun a ¥38.000 y un tríptico de Yoshitoshi a ¥140.000.
+
+        - **Los grandes**: un Hiroshige del Tōkaidō de la era Tenpō, ¥250.000; un Eisen, ¥380.000. Y
+        hay piezas que pasan del millón.
+
+        - **El carro de ¥500** de Tōshūsai, otra tienda de grabados antiguos del barrio.
+
+        - **Antes de pagar**, pregunta 「江戸時代の摺りですか？後摺りですか？」: si se imprimió en la
+        época o después. 後摺 (*atozuri*) es una tirada posterior con las planchas originales; 復刻
+        (*fukkoku*), una reproducción con planchas nuevas. Y pide que te lo pongan entre cartones para
+        el avión.
     ver:
-      - ficha: ginza
-        nota: Por qué el barrio se llama como una casa de la moneda.
+      - nombre: Italia Shobō
+        maps: "イタリア書房 神保町"
+        nota: "Libros en italiano, español y portugués. De 10:00 a 17:00; cierra fines de semana y festivos."
+      - nombre: Kitazawa Shoten
+        maps: Kitazawa Bookstore Jimbocho
+        nota: Libros en otras lenguas desde 1902, sobre todo en inglés, con algo de español.
+      - nombre: Hara Shobō
+        maps: Hara Shobo Jimbocho
+        nota: "Grabados *ukiyo-e* de Edo y Meiji, de unos cientos de yenes a millones."
+      - nombre: Ōya Shobō
+        maps: Ohya Shobo Jimbocho
+        nota: Mapas antiguos, libros ilustrados y grabados de la época Edo.
+      - nombre: Isseidō
+        maps: Isseido Booksellers Jimbocho
+        nota: Libro antiguo japonés y extranjero, en un edificio de 1931.
+      - nombre: Yaguchi Shoten
+        maps: Yaguchi Shoten Jimbocho
+        nota: La esquina con las estanterías en la fachada, la foto del barrio.
     comer:
-      - comida: ginza-hachigo
+      - comida: sabouru
         elegido: true
-        nota: El *chūka soba* de Matsumura, que tuvo estrella en 2023. Con reserva del sábado anterior.
-      - comida: shinamen-hashigo-ginza
-        nota: "Si Hachigō no sale: *dandanmen* desde 1964, sin reserva y solo efectivo."
-  - block: Media tarde
-    time: "14:30–15:45"
-    title: El encargo de tu padre
+        nota: "Kissaten de **1955** con el mismo maestro desde entonces. Cierra los domingos: hoy, abierto."
+      - comida: glitch-coffee
+        nota: El café de tueste claro del barrio, entre las librerías.
+  - block: Atardecer
+    time: "15:30–16:45"
+    title: Ochanomizu y el Kanda Myōjin, con la última luz
     body: >-
-      Antes de dejar Ginza, la misión: el **Seiko Presage HCC005J**, el de esfera de esmalte blanco
-      que homenajea al Laurel de 1913, el primer reloj de pulsera japonés. La tienda es **Seiko Dream
-      Square**, en el 4-chōme, a un paso de la torre del reloj de Wakō: es la casa de la propia marca,
-      con varias plantas ordenadas por colecciones, Presage incluida, y vende los modelos que Seiko reserva a
-      sus tiendas «Global Brand Core Shop», que es el caso de este. Las tiendas de Grand Seiko de
-      Ginza no sirven: son otra marca de la casa.
+      Del cruce de Jinbōchō se sube andando por la Meidai-dōri, unos diez minutos, hasta Ochanomizu.
+      Primero, la cúpula verde de la **Nikolai-dō**, la catedral ortodoxa de 1891. Enseguida, el
+      **puente Hijiribashi**, sobre el río Kanda: es el de la primera escena de *Tokyo Vice*, y la foto
+      clásica del barrio. Espera a que el metro rojo de la Marunouchi salga del túnel y cruce el río
+      por debajo de los trenes amarillos y naranjas de la JR.
 
 
-      Con el reloj en la bolsa, a diez minutos por la Chūō-dōri hacia el 7-chōme, está el edificio de
-      Onitsuka Tiger dedicado a la línea Nippon Made, la hecha a mano en Japón, junto a la tienda
-      grande de la marca. Por qué esa y qué más compensa traerse está en [las compras](#compras).
-    window:
-      label: Cómo comprarlo sin sorpresas
-      body: >-
-        - **No lo tiene cualquiera.** Salió el 5 de septiembre de 2026 y solo lo venden las «Core
-        Shop». Escribe antes a Seiko Dream Square con el modelo y pide que te lo guarden: en japonés,
-        「HCC005Jの取り置きをお願いできますか」. Abre de 11:00 a 19:00.
-
-        - **Si no lo tienen**, el plan B es The Clock House, una cadena de relojerías con la misma
-        certificación y varias tiendas en Tokio, que lo vende también por internet. Pregunta en cuál
-        hay stock antes de cruzar la ciudad.
-
-        - **Precio: ¥179.300 con impuestos.** Lleva el pasaporte.
-
-        - **El tax-free cambia el 1 de noviembre.** Desde ese día se paga el precio entero en la
-        tienda y el 10 % se devuelve al salir del país, cuando la aduana ve el reloj. O sea: el sábado
-        14, en Narita, en el equipaje de mano y con el tique. Puede haber comisión por el reembolso.
-
-        - **Y al llegar a Barcelona, se declara.** Pasa de los 430 euros que se pueden traer sin
-        pagar en avión, así que toca el IVA del 21 % más un arancel pequeño. Aun así sale por debajo
-        de los 1.430 euros a los que se vende en Europa.
+      Al otro lado del puente está el **Yushima Seidō**, el templo de Confucio, y a tres minutos el
+      **Kanda Myōjin**, el santuario de Akihabara, que bendice ordenadores. El sol se pone a las
+      16:40, y la puerta bermellón con los farolillos encendiéndose es la foto de la tarde. Para bajar,
+      la antigua estación de ladrillo de Manseibashi, hoy **mAAch ecute**: arriba hay una plataforma de
+      cristal entre las vías de la Chūō, con los trenes pasando a los dos lados. De ahí a la estación
+      de Akihabara son cinco minutos.
     ver:
-      - nombre: Seiko Dream Square
-        maps: Seiko Dream Square Ginza 4-4-10
-        nota: "Ginza 4-4-10. La tienda de la propia marca, con los modelos de «Core Shop»."
-      - nombre: The Clock House
-        maps: The Clock House Tokyo Seiko
-        nota: El plan B, con certificación «Core Shop» y tiendas en Tokio. Llama antes.
-      - nombre: "Onitsuka Tiger Ginza, Nippon Made"
-        maps: "Onitsuka Tiger Ginza NIPPON MADE"
-        nota: "Ginza 7-chōme, junto a la tienda grande. La línea hecha a mano en Japón, desde las 11:00."
-  - block: Tarde
-    time: "15:45–17:30"
-    title: El museo que no sale en ninguna lista, y la azotea
+      - ficha: akihabara
+        nota: El barrio de al lado, con el santuario de los ordenadores y la catedral rusa.
+      - nombre: Nikolai-dō
+        maps: Nikolai-do Holy Resurrection Cathedral Tokyo
+        nota: La catedral ortodoxa de 1891, con su cúpula verde.
+      - nombre: Puente Hijiribashi
+        maps: Hijiribashi Bridge Ochanomizu
+        nota: "La primera escena de *Tokyo Vice*, y el metro rojo cruzando el río."
+        lat: 35.6997231
+        lon: 139.7655029
+      - nombre: Yushima Seidō
+        maps: Yushima Seido Tokyo
+        nota: El templo de Confucio, al otro lado del puente.
+      - nombre: Kanda Myōjin
+        maps: Kanda Myojin Shrine Tokyo
+        nota: El santuario que bendice ordenadores, con la puerta bermellón al atardecer.
+        lat: 35.7019403
+        lon: 139.7677388
+      - nombre: mAAch ecute Kanda Manseibashi
+        maps: mAAch ecute Kanda Manseibashi
+        nota: La estación de ladrillo de Manseibashi hecha tiendas, con trenes a los dos lados.
+  - block: Vuelta
+    time: "16:55–18:15"
+    title: La maleta, la habitación y el onsen
     body: >-
-      De Ginza a Marunouchi son quince minutos andando, hasta el edificio KITTE, la antigua central de
-      Correos frente a la estación. En sus plantas segunda y tercera está el **Intermediatheque**, la
-      recomendación de tu familia: las colecciones de la Universidad de Tokio en vitrinas de madera
-      antiguas. Esqueletos, minerales, maquetas, animales disecados. Es gratis y, en sus palabras, «no
-      hay ni un turista».
+      La maleta va justo antes de la habitación: JR de Akihabara a Shimbashi, ocho minutos, se saca de
+      la taquilla y se vuelve por la misma línea. De la estación al
+      [Super Hotel](#super-hotel-premier-akihabara) son siete u ocho minutos a pie.
 
 
-      Al cerrar, se sube a la sexta planta del mismo edificio, al **KITTE Garden**. El sol se pone hacia
-      las 16:40 y, en cuanto oscurece, el edificio de ladrillo de la estación se enciende ahí debajo,
-      con los trenes entrando y saliendo alrededor.
-    window:
-      label: Horarios
-      body: >-
-        **El Intermediatheque abre de 11:00 a 18:00** (viernes y sábados hasta las 20:00) y cierra los
-        lunes. **La azotea es gratis**, pero se cierra con mal tiempo: si llueve, la estación se ve
-        igual de bien desde la ventana de la planta.
+      El onsen abre a las 15:00, y da tiempo a un baño corto antes de cambiarse; por la tarde, la
+      bebida es gratis. Para el New York Bar hay código de vestimenta: nada de pantalón corto ni
+      chanclas.
+    dim: true
+  - block: Primera noche
+    time: "18:30–19:20"
+    title: Kagurazaka, con los farolillos encendidos
+    body: >-
+      La otra recomendación de tu familia. Kagurazaka es la cuesta del antiguo barrio de geishas, y le
+      llaman el barrio francés por el Institut français, a un paso de Iidabashi, y por el liceo
+      francés que tuvo al lado hasta 2012. De aquello quedan las *crêperies*, como Le Bretagne, y las
+      panaderías.
+
+
+      De noche es cuando mejor está. A media subida, el templo de Bishamonten, guardado por tigres de
+      piedra en lugar de perros. Enfrente se abren los callejones empedrados de Hyōgo Yokochō y
+      Kakurenbo Yokochō, entre las tapias negras de los *ryōtei* y con los farolillos encendidos. Y
+      arriba, el santuario Akagi, que Kengo Kuma rehízo en cristal y madera en 2010. La estación de
+      Ushigome-Kagurazaka queda en lo alto de la cuesta.
     ver:
-      - ficha: marunouchi
-        nota: La antigua oficina de Correos, el Intermediatheque y lo demás alrededor de la estación.
-      - nombre: Intermediatheque
-        maps: Intermediatheque Tokyo
-        nota: Las colecciones de la Universidad de Tokio, gratis, en las plantas 2 y 3 de KITTE.
-        lat: 35.6800322
-        lon: 139.7645340
-      - nombre: KITTE Garden
-        maps: KITTE Garden Marunouchi
-        nota: La azotea de la sexta planta, con la estación de Tokio iluminada a tus pies.
+      - nombre: Kagurazaka
+        maps: Kagurazaka Hyogo Yokocho Tokyo
+        nota: La cuesta de las geishas, mejor de noche, con Hyōgo Yokochō a la luz de los farolillos.
+      - nombre: Bishamonten Zenkoku-ji
+        maps: Zenkokuji Bishamonten Kagurazaka
+        nota: Tigres de piedra en lugar de perros, a media cuesta.
+      - nombre: Akagi Jinja
+        maps: Akagi Jinja Kagurazaka
+        nota: El santuario de cristal y madera de Kengo Kuma, de 2010.
+      - nombre: Le Bretagne
+        maps: Le Bretagne Kagurazaka
+        nota: La crêperie del barrio francés, por si apetece una sidra antes de la hamburguesa.
   - block: Noche
-    time: "18:00–21:30"
-    title: Vinilos en Shibuya
+    time: "19:45 en adelante"
+    title: Jazz y una hamburguesa en la planta 52
     body: >-
-      Shibuya tiene la mayor concentración de tiendas de discos de la ciudad, y esta noche es para
-      ellas. Qué buscar y por qué traerlo de aquí está en [los cuatro vinilos](#vinilos).
-
-
-      Se empieza por lo grande: [Tower Vinyl](#tower-vinyl-shibuya), la sexta planta de Tower
-      Records, con lo nuevo y lo usado juntos y abierta hasta las diez. Es donde buscar primero el
-      *Cowboy Bebop*, y el *Scenery* de Ryo Fukui. Después, a cinco minutos por Udagawachō,
-      [HMV record shop](#hmv-record-shop-shibuya), que es la parada de la segunda mano japonesa y
-      cierra a las nueve. Se cena entre una y otra. Y si queda un rato antes de las nueve, en la sexta
-      planta del Parco, a cinco minutos, está Nintendo TOKYO, la tienda de la propia marca.
-
-
-      Si prefieres escuchar discos a comprarlos, cambia HMV por el Masako, el *jazz kissa* de 1953 de
-      Shimokitazawa, a dos paradas por la Inokashira: abre hasta las 22:00, y de Shimokitazawa a
-      Akihabara hay unos cuarenta minutos. Cómo se entra en uno está en [los jazz kissa](#jazz-kissa).
-
-
-      A las nueve y cuarto, Yamanote a Akihabara: en **Yodobashi Akiba**, junto a la estación y
-      abierta hasta las 22:00, pide que te aparten las dos copias del Zelda que sale mañana. Y
-      después, el onsen del [Super Hotel Premier](#super-hotel-premier-akihabara), que esta noche ya
-      es tu cama.
+      Y la noche, en el [New York Bar](#new-york-bar), el de *Lost in Translation*, con el jazz ya
+      empezado y Shinjuku encendido cincuenta y dos plantas más abajo. La cena es la hamburguesa de
+      wagyu con queso y una cerveza. El bar cierra a medianoche. Para volver, la Toei Shinjuku sale de
+      la estación de Shinjuku, a un cuarto de hora andando, y va directa hasta Iwamotochō.
     window:
-      label: Ayer fue el día del disco
+      label: Lo que cuesta
       body: >-
-        El martes 3 es la ***Record no Hi***, el día del disco japonés: a medianoche salen a la venta
-        las ediciones limitadas en vinilo de ese día, más de cien entre el 3 de noviembre y el 5 de
-        diciembre. Hoy todavía queda algo en las estanterías; pregunta por ellas como レコードの日.
+        - **Entrada de ¥3.300 por persona** desde las 18:30, cuando empieza la música; el grupo con
+        cantante sale hacia las 19:15. Una fuente de 2026 da las 20:30 como hora de inicio: pregúntalo
+        al entrar.
+
+        - **La hamburguesa** costaba unos ¥5.000 antes de la reforma, y la Asahi de botella, ¥1.300. No
+        se ha podido confirmar que siga en la carta desde que reabrió.
+
+        - **A todo se le suma un 15 % de servicio.** Con la entrada, unos **¥11.000** (63 €).
+
+        - **No se reserva**, y hay que tener 20 años.
     ver:
-      - nombre: Tower Vinyl Shibuya
-        maps: Tower Records Shibuya
-        nota: "Sexta planta. Más de cien mil discos, nuevos y usados, de 11:00 a 22:00."
-      - nombre: HMV record shop Shibuya
-        maps: HMV record shop Shibuya Udagawacho
-        nota: "Udagawachō 36-2. La segunda mano japonesa, con su *obi*. De 11:00 a 21:00."
-      - nombre: Nintendo TOKYO
-        maps: Nintendo TOKYO Shibuya Parco
-        nota: "Sexta planta del Parco, de 10:00 a 21:00. Lo que Nintendo solo vende en sus tiendas."
-      - nombre: Masako
-        maps: Jazz Kissa Masako Shimokitazawa
-        nota: "El *jazz kissa* de 1953, reabierto en 2020. De 12:00 a 22:00; cerraba los jueves."
-      - nombre: Yodobashi Akiba
-        maps: Yodobashi Akiba
-        nota: "Hasta las 22:00: los dos Zelda de mañana, apartados."
-    comer:
-      - comida: shogun-burger
-        elegido: true
-        nota: "La cena, en la sede de Shibuya: tu hamburguesa de siempre, abierta hasta las diez como mínimo."
-      - comida: meikyoku-kissa-lion
-        nota: "Un café entre tienda y tienda, en el salón de 1926 donde se escucha clásica y no se habla."
+      - nombre: New York Bar
+        maps: New York Bar Park Hyatt Tokyo
+        nota: "Planta 52 del Park Hyatt. De 17:00 a medianoche; música desde las 18:30."
 alt:
   label: Lo que se ha caído, y por qué
   body: >-
-    Este día era **Yokohama**: el jardín Sankeien por la mañana, el barrio alto de los extranjeros y la
-    terminal de Ōsanbashi al atardecer. Se cayó por la fecha y por la comida. Los arces de Sankeien
-    tienen su mejor momento de mediados de noviembre a mediados de diciembre, así que el 4 eran verdes,
-    y una mañana en Ginza no deja sitio para ir y volver con calma.
+    Este día se había armado para comer con tu familia en Ginza: la casa Asakura en Daikanyama por la
+    mañana, Hachigō a la una, el Seiko de tu padre, el Intermediatheque con la azotea de KITTE y una
+    noche de vinilos en Shibuya. Lo de Ginza y los discos ya está hecho, porque los dos primeros días
+    fueron con ellos: las tiendas de té de Ginza, Seiko y Kamakura. El reloj no estaba, y la búsqueda
+    sigue en [las compras](#compras). Los vinilos se compraron el martes, en Tower Vinyl y por Amazon.
+    El Intermediatheque, que también te recomendaron, pasa a [la tarde del viernes](#solo-5-fukagawa),
+    que es cuando abre hasta las 20:00.
 
 
-    De Yokohama quedó un tiempo el jazz de noche, y lo han desplazado los vinilos. Sigue ahí si
-    prefieres escuchar discos a comprarlos: el Keihin-Tōhoku va de Tokio a Sakuragichō en unos
-    cuarenta minutos y vuelve directo hasta Akihabara, y a tres minutos de esa estación, en el
-    barrio de Noge, están [Chigusa](#chigusa), el *jazz kissa* más antiguo que sigue abierto, abierto hasta las
-    22:00, y [Downbeat](#downbeat), el de 1956.
+    Antes de todo eso, el día era **Yokohama**, y se cayó por la fecha: los arces de Sankeien no llegan
+    a su mejor momento hasta mediados de noviembre. Tu familia lo confirma: fuera del museo del ramen y
+    el barrio chino, poco más. Si esta noche prefieres el jazz de disco al directo, el Keihin-Tōhoku va
+    de Akihabara a Sakuragichō en unos cuarenta y cinco minutos, y en Noge están [Chigusa](#chigusa),
+    el *jazz kissa* más antiguo que sigue abierto, y [Downbeat](#downbeat), el de 1956.

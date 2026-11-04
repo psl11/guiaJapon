@@ -31,8 +31,8 @@ link:
   url: "https://www.hyatt.com/park-hyatt/tyoph-park-hyatt-tokyo"
   label: Park Hyatt Tokyo
 seenIn:
-  - ref: '#solo-5-fukagawa'
-    label: "Solo · vie 6 · al atardecer"
+  - ref: '#solo-3-ginza'
+    label: "Solo · mié 4 · de noche"
   - ref: '#dia-17-compras'
     label: "Día 17 · por la noche"
   - ref: '#barrios-de-tokio'

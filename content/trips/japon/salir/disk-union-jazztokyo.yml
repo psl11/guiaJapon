@@ -7,7 +7,7 @@ title: Disk Union JazzTOKYO
 navLabel: "Disk Union JazzTOKYO"
 tipo: tienda de jazz · discos nuevos y usados, CD y libros
 area: Ochanomizu · junto a la estación, a un paseo de Jinbōchō
-cuando: "El viernes 6, entre las librerías de Jinbōchō y el tren a Shinjuku"
+cuando: "A diez minutos de Jinbōchō, de camino al Hijiribashi"
 precio: "Gratis mirar"
 reserva: "No"
 body: >-
@@ -24,7 +24,5 @@ link:
   url: "https://diskunion.net/"
   label: Tiendas de Disk Union
 seenIn:
-  - ref: '#solo-5-fukagawa'
-    label: "Solo · vie 6 · por la tarde"
   - ref: '#vinilos'
     label: "Los vinilos"

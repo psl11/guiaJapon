@@ -19,7 +19,6 @@ mapa:
     - { nombre: Museo Bashō, zona: Fukagawa, llegada: a-pie, lat: 35.6861290, lon: 139.7940920 }
     - { nombre: Estatua de Bashō, zona: Fukagawa, llegada: a-pie, lat: 35.6837769, lon: 139.7939490 }
     - { nombre: "Cambio de hotel, al Resol", hora: "12:30", llegada: metro, lat: 35.6967393, lon: 139.7739276 }
-    - { nombre: "Jinbōchō y Sabouru", hora: tarde, zona: Jinbōchō, llegada: a-pie, lat: 35.6955733, lon: 139.7586758 }
 traslados:
   - desde: "Iwamotochō"
     hasta: "Morishita"
@@ -39,23 +38,23 @@ traslados:
     duracion: "~10 min"
     hora: "hacia las 13:00, con la maleta"
     nota: "El relevo más fácil del viaje: se deja el Super Hotel Premier y se entra en el hotel del grupo **andando**, sin coger nada."
-  - desde: "Jinbōchō"
+  - desde: "Iwamotochō"
     hasta: "Shinjuku-sanchōme"
     medio: "Toei Shinjuku, directo"
-    duracion: "~10 min"
-    hora: "salir 14:45"
-    nota: "A cinco minutos de la puerta Shinjuku del jardín."
-  - desde: "Shinjuku Gyoen"
-    hasta: "Park Hyatt"
-    medio: "A pie, o un taxi corto"
-    duracion: "~25 min"
-    hora: "salir 16:30"
-    nota: "Hacia el oeste, por el sur de la estación, hasta la más alta de las tres torres de Shinjuku Park Tower."
-  - desde: "Shinjuku"
+    duracion: "~15 min"
+    hora: "salir 13:45"
+    nota: "Iwamotochō está a un paso del hotel del grupo. Shinjuku-sanchōme, a cinco minutos de la puerta Shinjuku del jardín."
+  - desde: "Shinjuku-gyoemmae"
+    hasta: "Tokio"
+    medio: "Metro Marunouchi, directo"
+    duracion: "~18 min"
+    hora: "salir 16:15"
+    nota: "La estación está junto a la puerta Shinjuku. En Tokio, KITTE queda enfrente de la salida Marunouchi sur."
+  - desde: "Tokio"
     hasta: "Haneda T3"
-    medio: "JR Yamanote + Keikyū"
-    duracion: "~50 min"
-    hora: "salir 18:15"
+    medio: "JR hasta Shinagawa + Keikyū"
+    duracion: "~35 min"
+    hora: "salir 18:45"
     nota: "Transbordo en Shinagawa. El vuelo aterriza a las 19:50 y salen de aduanas hacia las 20:45: sobra margen."
 blocks:
   - block: Mañana
@@ -130,25 +129,18 @@ blocks:
         maps: "谷崎潤一郎生誕の地 人形町"
         nota: "Ningyōchō 1-7-10, junto a la estación: una placa, y el autor de *El elogio de la sombra*."
   - block: Tarde
-    time: "13:15–16:30"
-    title: Libros viejos, y el jardín de los crisantemos
+    time: "13:45–16:15"
+    title: El jardín de los crisantemos
     body: >-
-      Primero, a un paseo de Akihabara, **Jinbōchō**, el barrio de las librerías de viejo, con
-      [su ficha](#jimbocho) y su hilera de kissaten. Si los vinilos del miércoles te supieron a poco,
-      a diez minutos, junto a la estación de Ochanomizu, está
-      [la tienda de jazz de Disk Union](#disk-union-jazztokyo).
+      Después del relevo, come algo cerca del hotel y coge la Toei Shinjuku en Iwamotochō: va directa
+      a Shinjuku-sanchōme, y a cinco minutos está **Shinjuku Gyoen**, el jardín de *El jardín de las
+      palabras* de Shinkai. Hasta el 15 de noviembre monta su **exposición imperial de crisantemos**
+      bajo pabellones de madera, y dentro, mirando al estanque, hay un Starbucks donde sentarse. Los
+      arces del Momijiyama aún estarán verdes: su semana es la última del mes.
 
 
-      Luego, la Toei Shinjuku hasta Shinjuku-sanchōme. Al bajar, antes del jardín, está
-      [la de anime de la misma cadena](#disk-union-anison-shinjuku), que es el plan B de *Cowboy
-      Bebop* si en Tower ya no quedaba.
-
-
-      Después, a cinco minutos, **Shinjuku Gyoen**, el jardín de *El jardín
-      de las palabras* de Shinkai. Hasta el 15 de noviembre monta su **exposición imperial de
-      crisantemos** bajo pabellones de madera, y dentro, mirando al estanque, hay un Starbucks donde
-      sentarse con lo que hayas comprado. Los arces del Momijiyama aún estarán verdes: su semana es la
-      última del mes. A las cuatro y media, andando hacia el oeste, al Park Hyatt.
+      Las librerías de Jinbōchō y el jazz del Park Hyatt, que antes iban hoy, se adelantaron al
+      [miércoles](#solo-3-ginza). A las cuatro y cuarto, al metro de la puerta Shinjuku.
     window:
       label: O nada de esto
       body: >-
@@ -156,73 +148,42 @@ blocks:
         con tres personas que acaban de bajarse de un vuelo de veinte horas. **Guardar fuerzas es una
         opción con argumento.**
     ver:
-      - nombre: Jinbōchō
-        maps: Jimbocho Book Town Tokyo
-        nota: Ciento treinta librerías de viejo. Casi todo cierra los domingos; hoy es viernes.
-        lat: 35.6953570
-        lon: 139.7597837
       - nombre: Shinjuku Gyoen
         maps: Shinjuku Gyoen National Garden
         nota: "Crisantemos imperiales del 1 al 15 de noviembre. ¥500; hasta las 16:30, última entrada a las 16:00."
       - nombre: Starbucks de Shinjuku Gyoen
         maps: Starbucks Coffee Shinjuku Gyoen
         nota: Dentro del jardín, mirando al estanque. Se entra con la entrada del jardín.
-      - nombre: "Puente Hijiribashi"
-        maps: "Hijiribashi Bridge Ochanomizu"
-        nota: "La primera escena de *Tokyo Vice*, sobre el río Kanda, a un paseo de Jinbōchō."
-        lat: 35.6997231
-        lon: 139.7655029
-      - nombre: Disk Union JazzTOKYO
-        maps: diskunion JazzTOKYO Ochanomizu
-        nota: "Solo jazz, nuevo y usado, junto a la estación de Ochanomizu. Si el miércoles supo a poco."
-      - nombre: "Disk Union, anime y videojuegos"
-        maps: "diskunion アニソン・ゲームミュージックストア 新宿"
-        nota: "Shinjuku 3-31-4, a la salida del metro: el plan B de *Cowboy Bebop*, de segunda mano."
-    comer:
-      - comida: sabouru
-        elegido: true
-        nota: "Kissaten de **1955** con el mismo maestro desde entonces. *Pizza toast* y café. Cierra domingos: hoy sí."
-      - comida: glitch-coffee
-        nota: El café de tueste claro del barrio, entre las librerías.
   - block: Atardecer
-    time: "17:00–18:15"
-    title: Un cóctel en la planta 52, a la hora en que no se paga entrada
+    time: "16:45–18:45"
+    title: El museo que no sale en ninguna lista, y la estación encendida
     body: >-
-      Antes de ir a por ellos, la escena de *Lost in Translation*: el [New York Bar](#new-york-bar),
-      en lo alto del Park Hyatt, que reabrió en diciembre de 2025 y dejó el bar como estaba. Abre a
-      las 17:00, cuando el ventanal todavía tiene la última luz y Shinjuku se va encendiendo debajo; si
-      el día está limpio, el Fuji sale recortado al oeste. Un cóctel en la barra, o una hamburguesa
-      con una cerveza si quieres cenar aquí, y a las seis y cuarto, al tren: Haneda queda a cincuenta
-      minutos.
+      La Marunouchi deja en Tokio, y enfrente de la salida sur está el edificio KITTE, la antigua
+      central de Correos. En sus plantas segunda y tercera está el **Intermediatheque**, la
+      recomendación de tu familia: las colecciones de la Universidad de Tokio en vitrinas de madera
+      antiguas. Esqueletos, minerales, maquetas, animales disecados. Es gratis y, en sus palabras, «no
+      hay ni un turista». Los viernes abre hasta las ocho, que es lo que lo trae a hoy.
 
 
-      Lo que no tendrás es el jazz: la música en directo empieza a las 18:30, a la vez que la entrada,
-      y el grupo con cantante sale a las 19:15. Si lo quieres entero, cámbialo por el
-      [Pit Inn](#shinjuku-pit-inn) del jueves por la noche y ven aquí a esa hora.
+      Antes de irte, se sube a la sexta planta del mismo edificio, al **KITTE Garden**. A estas horas
+      ya es de noche, y el edificio de ladrillo de la estación está encendido ahí debajo, con los
+      trenes entrando y saliendo alrededor. A las siete menos cuarto, al tren: Haneda queda a media
+      hora larga.
     window:
-      label: Lo que cuesta
+      label: Horarios
       body: >-
-        Los precios llevan el impuesto y a la cuenta se le suma un **15 % de servicio**. Desde las
-        18:30 se cobra además una **entrada de ¥3.300 por persona**. No se reserva y hay que tener 20
-        años.
-
-        - **Un cóctel antes de las 18:30**: de ¥2.640 en adelante en la carta, unos **¥3.000-4.000
-        con el servicio** (18-24 €).
-
-        - **Un cóctel con el jazz**, a partir de las 18:30: unos **¥6.300** (38 €). Dos, unos ¥9.400.
-
-        - **Una hamburguesa y una cerveza**, la cena ligera con el ventanal: la de wagyu con queso
-        del bar rondaba los ¥5.000 antes de la reforma y la Asahi de botella cuesta ¥1.300. Con el
-        servicio, unos **¥7.500-8.500** (45-50 €), sin entrada si pides antes de las 18:30.
-
-        - **El New York Grill**, al lado, no vende la hamburguesa suelta: a mediodía es el segundo de
-        un menú con entrantes y postres de bufé, de unos ¥10.000-11.400, con ¥1.100 de suplemento. De
-        noche, el menú de la casa, de cuatro o cinco platos, ronda los **¥26.000-30.000** por persona; con tres copas de vino, ¥30.360 con todo incluido (unos
-        180 €). Se reserva en TableCheck, y hoy no cabe: sería el jueves, en lugar del ramen de Ōtsuka.
+        **El Intermediatheque abre de 11:00 a 18:00, y los viernes y sábados hasta las 20:00**; cierra
+        los lunes. **La azotea es gratis**, pero se cierra con mal tiempo: si llueve, la estación se ve
+        igual de bien desde la ventana de la planta.
     ver:
-      - nombre: New York Bar
-        maps: New York Bar Park Hyatt Tokyo
-        nota: "Planta 52 del Park Hyatt. Abre a las 17:00; desde las 18:30, ¥3.300 de entrada."
+      - ficha: marunouchi
+        nota: La antigua oficina de Correos, el Intermediatheque y lo demás alrededor de la estación.
+      - nombre: Intermediatheque
+        maps: Intermediatheque Tokyo
+        nota: Las colecciones de la Universidad de Tokio, gratis, en las plantas 2 y 3 de KITTE.
+      - nombre: KITTE Garden
+        maps: KITTE Garden Marunouchi
+        nota: La azotea de la sexta planta, con la estación de Tokio iluminada a tus pies.
   - block: Noche
     time: "19:00–21:30"
     title: A Haneda, a por los otros tres

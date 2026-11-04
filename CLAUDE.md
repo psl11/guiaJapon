@@ -590,6 +590,30 @@ de YMO, que entró por Yoshimura al comparar con otra lista que trajo Pablo. Sup
 Records, un sello británico, no tiene edición japonesa, y la tarjeta lo dice. Los horarios de
 las dos Disk Union no se pudieron confirmar, y sus tarjetas lo avisan.
 
+**El miércoles 4 se rehízo sobre la marcha** (4 nov 2026, con el cuarto ya en Tokio). Los dos
+primeros días los pasó con su familia: Ginza (té y Seiko, que no tenía el HCC005J) y Kamakura, y
+los vinilos los compró el martes 3 en Tower Vinyl y por Amazon. Todo lo que este párrafo de arriba y
+los de Yokohama y el Seiko cuentan del miércoles ya no está en el día. `solo-3-ginza` conserva el
+slug, pero ahora es **Kanda**, por recomendación de la familia:
+
+- Un *katsu sando* en Ginza (sin ficha: lo eligió la familia).
+- Jinbōchō: Italia Shobō, la librería de libros en español (cierra a las 17:00 y en fin de semana).
+  También la ventana de precios del *ukiyo-e*.
+- Ochanomizu y el Kanda Myōjin al atardecer.
+- La maleta, que esperaba en una taquilla de Shimbashi y se recoge justo antes del *check-in*.
+- Kagurazaka de noche y el New York Bar con jazz y hamburguesa.
+
+El encargo del Seiko pasó a `compras`, con la pista de Brooch Asakusa, que figura como Core Shop
+pero sin confirmar en la lista oficial. El *Sakura* de Susumu Yokota, el disco que faltaba, va en
+`vinilos`.
+
+**El viernes 6 perdió Jinbōchō y el New York Bar** para no repetirlos, y ganó el Intermediatheque
+con la azotea de KITTE, que los viernes abre hasta las 20:00 y queda camino de Haneda. **El mapa del
+viernes se editó a mano**: sin red hacia OSM, se quitaron de `routeMapsGeo.js` la última parada
+(Jinbōchō), su tramo, su zona y la letra del Hijiribashi. La imagen sigue siendo la vieja, con
+espacio vacío al oeste: cuando haya red, rehornéalo. El jueves 5 sigue con Kawagoe, aunque la
+familia dice que no compensa; está pendiente de que el cuarto decida.
+
 **Los jazz kissa** (oct 2026) tienen su reco, `jazz-kissa`, a partir de un reportaje de *National
 Geographic* que Pablo pasó en capturas: la historia (el Blackbird de 1929, *Moanin'* y la gira de
 Blakey de 1961, unos 400 locales hoy), cómo se entra y los que caen en el viaje. El Masako de

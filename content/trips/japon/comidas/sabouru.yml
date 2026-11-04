@@ -36,8 +36,8 @@ body: >-
   de Akihabara. Es el kissaten menos solemne de los cuatro: aquí no se viene a callarse ni a estudiar el
   café, se viene a que no te echen en tres horas.
 seenIn:
-  - ref: '#solo-5-fukagawa'
-    label: "Solo · vie 6"
+  - ref: '#solo-3-ginza'
+    label: "Solo · mié 4"
   - ref: '#jimbocho'
     label: "Jinbōchō, el barrio de los libros"
   - ref: '#cafe-kissaten'

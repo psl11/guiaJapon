@@ -13,9 +13,9 @@ nota: Onsen natural «Oku-Yugawara no Yu» · 15:00 a 09:30
 body: >-
   La segunda mitad de los días en solitario cambia de barrio a propósito: **acerca al grupo**. El
   hotel del día 6 está en Akihabara, así que estas dos noches se duermen ya en el mismo distrito y el
-  relevo del viernes deja de ser un traslado. La mudanza se hace el miércoles a primera hora, antes
-  de [Daikanyama y Ginza](#solo-3-ginza): la maleta se queda en recepción y la línea Hibiya, que
-  para en Akihabara, lleva directo a los dos sitios.
+  relevo del viernes deja de ser un traslado. La entrada es el miércoles a última hora de la tarde:
+  la maleta pasa el día en una taquilla de Shimbashi y se recoge justo antes de la habitación, para
+  salir ya cambiado hacia [Kagurazaka y el jazz](#solo-3-ginza).
 
 
   Y mantiene lo que importa: **agua termal natural**, la llamada ***Oku-Yugawara no Yu*** —traída de
@@ -28,8 +28,7 @@ body: >-
 
   **Un apunte de andar:** Kanda-Sudachō no está pegado a la estación JR de Akihabara, son **siete u
   ocho minutos a pie**. Para [Kawagoe](#solo-4-kawagoe) eso significa contar ese margen antes del
-  Yamanote a Ikebukuro. A cambio queda **cerca de Jinbōchō**, que es justo donde acaba el
-  [viernes](#solo-5-fukagawa).
+  Yamanote a Ikebukuro. A cambio queda **cerca de Jinbōchō**, a quince minutos andando, y a tres de la Toei Shinjuku.
 estaciones:
   - nombre: Iwamotochō
     lineas: Toei Shinjuku
@@ -42,7 +41,7 @@ link:
   label: Ver en el mapa
 seenIn:
   - ref: '#solo-3-ginza'
-    label: Solo · mié 4 · Ginza
+    label: Solo · mié 4 · Kanda
   - ref: '#solo-4-kawagoe'
     label: Solo · jue 5 · Kawagoe
   - ref: '#solo-5-fukagawa'

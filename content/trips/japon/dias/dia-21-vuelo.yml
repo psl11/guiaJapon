@@ -11,7 +11,7 @@ traslados:
   - desde: "El hotel"
     hasta: "Haneda T3"
     medio: "Toei Asakusa y Keikyū, sin transbordo"
-    duracion: "30–45 min"
+    duracion: "~30 min"
     hora: "salir 17:00–18:00"
     nota: "El vuelo sale a las 21:00. Aquí **sí se devuelve la fianza de la tarjeta IC**: es el único aeropuerto donde se puede."
 blocks:
@@ -23,8 +23,8 @@ blocks:
 
       - **Dejarlo en el hotel** después del *check-out*. Casi todos lo guardan hasta la tarde y es gratis.
 
-      - **Las consignas de estación**, que se pagan con la tarjeta IC. En Tokio Estación o en
-      Asakusa hay a cientos, pero las grandes se llenan pronto.
+      - **Las consignas de estación**, que se pagan con la tarjeta IC. En Tokio Estación hay a
+      cientos, pero las grandes se llenan pronto.
 
       - **Mandarlo al aeropuerto** por [takkyūbin](#takkyubin) el día anterior. Es la opción cómoda si
       sobra presupuesto.
@@ -44,7 +44,7 @@ blocks:
       O la despedida grande: **Shinjuku Gyoen** con el momiji en su punto, que en este jardín llega
       la última semana de noviembre. El Momijiyama, la colina de los arces, está junto al jardín
       japonés, y en el estanque hay un Starbucks para sentarse a mirarlo. Desde Ginza, la Marunouchi va
-      directa a Shinjuku-gyoemmae en un cuarto de hora; desde Asakusa es media hora larga. Abre a las
+      directa a Shinjuku-gyoemmae en un cuarto de hora. Abre a las
       9:00 y hay que volver a por la maleta antes de las 15:00.
 
 
@@ -52,7 +52,7 @@ blocks:
       ginkgos de Jingū Gaien**: ciento cuarenta y seis árboles en trescientos metros, que amarillean
       justo esta semana y que Japonismo aconseja ver entre semana, como hoy. Se recorre hacia el sur y
       al final, en la avenida Aoyama, está el metro de Gaienmae: la línea Ginza lleva sin transbordo a
-      Ginza y a Asakusa, así que sirve para cualquiera de los dos hoteles.
+      Kyōbashi, a tres minutos del hotel.
     ver:
       - nombre: Kyū Shiba Rikyū
         maps: Kyu Shiba Rikyu Garden Tokyo
@@ -78,8 +78,7 @@ blocks:
     time: "15:00–18:00"
     title: Al aeropuerto
     body: >-
-      El vuelo sale de **Haneda**, así que el traslado es corto: de treinta a cuarenta y cinco
-      minutos desde el hotel, porque la Toei Asakusa sigue por la Keikyū hasta la terminal sin
+      El vuelo sale de **Haneda**, así que el traslado es corto: una media hora desde el hotel, porque la Toei Asakusa sigue por la Keikyū hasta la terminal sin
       transbordo. No es la hora y media de Narita. Con salida a las
       21:00, dejar el centro entre las 17:00 y las 18:00 es cómodo; a las 18:30 ya es justo. Ver
       [los vuelos](#vuelos).

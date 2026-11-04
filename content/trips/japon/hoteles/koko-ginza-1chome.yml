@@ -1,9 +1,9 @@
 slug: koko-ginza-1chome
 navLabel: "KOKO Ginza 1-chome"
 trip: japon
-city: Tokio · Asakusa o Ginza
+city: Tokio · Ginza
 order: 10
-status: candidato
+status: confirmado
 title: KOKO HOTEL Ginza 1-chome
 tipo: business de cadena
 area: "Ginza 1-9-5, Chūō — el extremo norte de Ginza, junto a Kyōbashi"
@@ -29,7 +29,7 @@ estaciones:
   - nombre: Ginza
     lineas: Ginza · Hibiya · Marunouchi · salida A13
     minutos: 5
-nota: "Reserva doble con cancelación gratuita: compite con el APA Asakusa Kaminarimon."
+nota: "Confirmado en oct 2026 para las cinco últimas noches, del 21 al 26 de noviembre."
 body: >-
   Es la cama que elige el día del [Fuji](#dia-18-fuji). **Takarachō**, a cuatro minutos, está en la
   Toei Asakusa, y sus trenes hacia Haneda o Misakiguchi dejan en Shinagawa en unos doce minutos, sin
@@ -39,12 +39,12 @@ body: >-
 
   [Nikkō](#dia-19-nikko) queda a un solo tren: la línea Ginza desde **Kyōbashi**, a tres minutos,
   termina en Asakusa en unos quince. El jueves del vuelo, la Toei Asakusa sigue **directa hasta
-  Haneda**, igual que desde el APA.
+  Haneda**.
 
 
-  Lo que gana frente al otro es el resto de la semana. El [día 20](#dia-20-tsukiji-ginza) —Tsukiji,
+  Se eligió por el resto de la semana. El [día 20](#dia-20-tsukiji-ginza) —Tsukiji,
   [Ginza](#ginza), Hamarikyū— se hace andando desde la puerta, y la mitad del día de compras también.
-  Lo que pierde es el madrugón de Nikkō: son quince minutos de metro donde el APA tiene cuatro andando.
+  Lo que cuesta es el madrugón de Nikkō: quince minutos de metro hasta Asakusa.
 link:
   url: https://www.booking.com/hotel/jp/koko-yin-zuo-yi-ding-mu.es.html
   label: Ver en Booking

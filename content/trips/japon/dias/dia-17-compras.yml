@@ -8,12 +8,11 @@ dek: >-
   Un domingo entero sin agenda, con las maletas grandes de vuelta y la lista de regalos por hacer.
   Se compra en un solo barrio que el viaje todavía no ha pisado, y la tarde es para los jardines.
 duerme:
-  - apa-asakusa-kaminarimon
   - koko-ginza-1chome
 mapa:
   slug: dia-17-compras
   paradas:
-    - { nombre: "Salida · hotel de Asakusa (o de Ginza)", lat: 35.7101168, lon: 139.7951861 }
+    - { nombre: "Salida · KOKO Ginza", lat: 35.6741741, lon: 139.7690900 }
     - { nombre: Ikebukuro, hora: "10:00", zona: Ikebukuro, llegada: metro, lat: 35.7298364, lon: 139.7131259 }
     - { nombre: Rikugi-en, hora: "15:00", llegada: tren, lat: 35.7333998, lon: 139.7463046 }
     - { nombre: Koishikawa Kōrakuen, llegada: metro, lat: 35.7053631, lon: 139.7491508 }

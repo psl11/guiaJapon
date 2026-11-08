@@ -311,6 +311,9 @@ cuelgan de ahí:
 
 - **Kamikōchi es un día de ida y vuelta** desde Matsumoto, y **se duerme en Hirayu Onsen**, no en
   Takayama: caben tres baños en vez de uno. El día que se ahorró se fue a Nara, que luego se quitó.
+  Desde el 8 nov el día empieza en la terminal, no en el estanque Taishō: las mochilas se dejan en
+  la consigna del centro de información (6:00-17:00) y el valle se anda sin peso, primero río
+  arriba hasta Myōjin y por la tarde río abajo hasta Taishō. Lo pidió el grupo.
 - **La trampa de los autobuses:** el último Kamikōchi→Hirayu sale a las **17:30**, y el último
   Hirayu→Takayama, también a las 17:30. Quien quiera llegar a Takayama esa noche tiene que salir del
   valle hacia las 16:00.
@@ -400,6 +403,8 @@ día. Las que no pisan la ruta lo dicen, y lo que no se pudo verificar se descar
   - `solo-2-kamakura` y `solo-3-ginza` no tienen `mapa`;
   - el de `solo-5-fukagawa` se editó a mano en `routeMapsGeo.js` para quitar la parada de Jinbōchō
     (4 nov), y la imagen sigue siendo la vieja;
+  - el del día 4 se reordenó a mano (8 nov): las paradas y los tramos a pie son los de antes,
+    invertidos, y el estanque Taishō → terminal es una recta de autobús. Rehornéalo cuando haya red;
   - varios `ver` de la tanda de Japonismo no tienen coordenadas.
 - **Fotos**: Pablo tiene sin subir las de Shibuya, Ueno, Tsukiji e Hiroshima. Ebisu-Meguro y
   Masakado siguen sin foto verificable. El King Seiko y el Grand Seiko del cuarto dependen de fotos

@@ -13,19 +13,26 @@ duerme:
 mapa:
   slug: dia-4-kamikochi
   paradas:
-    - { nombre: "Estanque Taishō", hora: "09:30", lat: 36.2287261, lon: 137.6186512 }
-    - { nombre: Estanque Tashiro, zona: Río abajo, llegada: a-pie, lat: 36.2357143, lon: 137.6245487 }
+    - { nombre: Terminal de autobuses, hora: "09:45", lat: 36.2461657, lon: 137.6352764 }
+    - { nombre: "Estanque Myōjin", hora: "11:00", zona: Río arriba, llegada: a-pie, lat: 36.2540049, lon: 137.6640105 }
+    - { nombre: Kappabashi, hora: "12:15", llegada: a-pie, lat: 36.2488436, lon: 137.6378366 }
     - { nombre: Relieve de Weston, zona: Río abajo, llegada: a-pie, lat: 36.2470302, lon: 137.6266555 }
-    - { nombre: Kappabashi, hora: "11:15", llegada: a-pie, lat: 36.2488436, lon: 137.6378366 }
-    - { nombre: "Estanque Myōjin", zona: Río arriba, llegada: a-pie, lat: 36.2540049, lon: 137.6640105 }
-    - { nombre: Terminal de autobuses, hora: "16:30", llegada: a-pie, lat: 36.2461657, lon: 137.6352764 }
+    - { nombre: Estanque Tashiro, zona: Río abajo, llegada: a-pie, lat: 36.2357143, lon: 137.6245487 }
+    - { nombre: "Estanque Taishō", hora: "14:15", llegada: a-pie, lat: 36.2287261, lon: 137.6186512 }
+    - { nombre: "Terminal, a por las mochilas", hora: "15:15", llegada: bus, lat: 36.2461657, lon: 137.6352764 }
 traslados:
   - desde: "Matsumoto"
-    hasta: "Kamikōchi, parada del estanque Taishō"
+    hasta: "Kamikōchi, terminal de autobuses"
     medio: "Tren de la línea Kamikōchi hasta Shin-Shimashima + autobús Alpico"
-    duracion: "~2 h"
+    duracion: "~2 h 15"
     hora: "salir hacia las 07:30"
-    nota: "**Autobús comprado**: el de las 08:40 desde Shin-Shimashima, con el email de Alba en el móvil. Bajad en Taishō-ike, hacia las 09:30, antes de la terminal. El tren, en efectivo en la máquina: ni IC ni JR Pass."
+    nota: "**Autobús comprado**: el de las 08:40 desde Shin-Shimashima, con el email de Alba en el móvil. Se baja al final, en la terminal (09:45), donde se dejan las mochilas. El tren, en efectivo en la máquina: ni IC ni JR Pass."
+  - desde: "Estanque Taishō"
+    hasta: "Kamikōchi, terminal de autobuses"
+    medio: "Autobús de la línea de Hirayu, o a pie por la orilla"
+    duracion: "~10 min · a pie, 1 h 15"
+    hora: "salir hacia las 15:00"
+    nota: "Algunas salidas solo admiten reserva: preguntad la hora en la terminal al dejar las mochilas. Si no cuadra ninguna, se vuelve andando."
   - desde: "Kamikōchi"
     hasta: "Hirayu Onsen"
     medio: "Autobús Nōhi, línea Kamikōchi"
@@ -34,7 +41,7 @@ traslados:
     nota: "**Sin reserva**: asientos libres, ¥1.500 en la taquilla de la terminal o a bordo. Sale cada media hora; el último, a las 17:30."
 blocks:
   - block: Amanecer
-    time: "07:30–09:30"
+    time: "07:30–09:45"
     title: La subida, y por qué no hay coches
     body: |-
       Hoy no se madruga tanto. **El autobús está comprado**: el de las **08:40** desde
@@ -70,83 +77,58 @@ blocks:
       y dentro del valle lo único que se oye es el río.
 
 
-      **No os bajéis en la terminal, sino antes**: el autobús entra al valle por la única carretera,
-      que pasa junto al estanque Taishō, y para allí hacia las 09:30. Decídselo al conductor al
-      subir, *«Taishō-ike de orimasu»*. Desde ahí todo el día es a pie y río arriba, y no hace falta
-      ningún autobús hasta el de la tarde.
+      **Hoy se baja al final, en la terminal.** El autobús pasa antes junto al estanque Taishō, y la
+      idea era bajarse allí y subir andando hora y media río arriba, pero con la mochila a cuestas no
+      compensa. Primero se deja el peso, y el valle se anda ligero.
     window:
       label: Las maletas ya van por delante
       body: >-
         **Esto se resuelve el día anterior, no hoy.** Las maletas grandes salieron ayer por
         [takkyūbin](#takkyubin) desde Matsumoto hacia el hotel de Kanazawa, y no se ven hasta el
-        miércoles. Hoy y mañana se va con mochila pequeña. Y para dormir en un ryokan no hace falta
-        más: **el yukata, las toallas y el jabón los pone la casa**.
-  - block: Mañana
-    time: "09:30–11:15"
-    title: Del estanque Taishō al Kappabashi, río arriba
+        miércoles. Hoy y mañana se va con mochila, y la de hoy se queda en la terminal hasta la tarde.
+        Para dormir en un ryokan no hace falta más: **el yukata, las toallas y el jabón los pone la
+        casa**.
+  - block: Llegada
+    time: "09:45–10:00"
+    title: Las mochilas, a la consigna
     body: >-
-      Se empieza por el **estanque Taishō**, con la luz de la mañana y, con suerte, la niebla todavía
-      pegada al agua. Desde ahí se vuelve andando **río arriba**, una hora y media larga por la
-      orilla, y es el paisaje más fotografiado del valle, con razón. A mitad de camino, el desvío
-      al estanque Tashiro, y al final el Kappabashi, el puente colgante que es el centro del valle,
-      a cinco minutos de la terminal.
+      En el edificio de la terminal, el centro de información turística tiene en la planta baja una
+      **consigna** con personal, la 手荷物預かり所: se deja todo, se paga por bulto y día, y se recoge
+      a la vuelta. Abre de 6:00 a 17:00, así que el autobús de las 16:30 a Hirayu cuadra con margen.
+      Al dejar las mochilas, preguntad en la taquilla de autobuses a qué hora pasa por el estanque
+      Taishō el autobús de la tarde hacia la terminal.
+    window:
+      label: Lo que cuesta, y cómo se pide
+      body: >-
+        - **Por bulto y día:** unos ¥350 la pequeña (unos 10 litros), ¥400 la mediana, ¥500 la grande
+        y ¥600 la extragrande (unos 60 litros). Son precios de una web de montaña sin fecha:
+        pueden haber subido algo.
+
+        - **Para pedirlo:** 「荷物を預かってもらえますか？」, «¿Me guardan el equipaje?».
+
+        - **Antes de dejarla**, sacad lo del día: la comida, el agua, los guantes y una capa de
+        abrigo.
+  - block: Mañana
+    time: "10:00–12:15"
+    title: Río arriba, hasta el estanque Myōjin, sin peso
+    body: >-
+      De la terminal al Kappabashi, el puente colgante que es el centro del valle, hay cinco minutos.
+      De ahí, **una hora por la orilla hasta el estanque Myōjin**, que casi nadie pisa porque queda
+      al otro lado del puente, y otra de vuelta por la orilla contraria. Se está otra vez en el
+      Kappabashi hacia las doce y cuarto.
+
+
+      Si os sobran piernas, Tokusawa sigue una hora más allá de Myōjin, a cambio del estanque Taishō
+      de la tarde. Está, con lo que no conviene hacer en noviembre, en
+      [las rutas por nivel](#senderismo-alpes).
     ver:
       - ficha: kamikochi
         nota: Por qué el fondo es llano a 1.500 metros, el agua tan transparente y el valle cierra el 15.
-      - nombre: "Estanque Taishō"
-        maps: Taisho Pond Kamikochi
-        nota: "Lo abrió el monte Yake en 1915 al represar el río: los troncos muertos siguen en pie en el agua."
-        lat: 36.2287261
-        lon: 137.6186512
-      - nombre: Estanque Tashiro
-        maps: Tashiro Pond Kamikochi
-        nota: Pequeño, de hierba y agua quieta, a mitad de camino. El desvío está mal señalizado.
-        lat: 36.2357143
-        lon: 137.6245487
-      - nombre: Relieve de Walter Weston
-        maps: Weston Relief Kamikochi
-        nota: El misionero inglés que subía estas montañas por gusto y les dio el nombre de «Alpes».
-        lat: 36.2470302
-        lon: 137.6266555
       - nombre: Kappabashi
         maps: Kappa Bridge Kamikochi
         nota: "La postal de hace un siglo: el Azusa sobre grava clara y la pared del Hotaka, a 3.190 m."
         lat: 36.2488436
         lon: 137.6378366
-  - block: Mediodía
-    time: "11:15–12:00"
-    title: Comer en la orilla
-    body: >-
-      La comida viene de Matsumoto en la mochila. Dentro del valle solo se come en los hoteles y en
-      el par de cafeterías de la terminal, y en noviembre recogen pronto. Lo que hace todo el mundo
-      aquí es **comérsela en una orilla**, a la vista del Hotaka nevado y sin una mesa alrededor, y
-      es mejor plan que cualquier comedor.
-  - block: Tarde
-    time: "12:00–16:30"
-    title: El estanque Myōjin, y volver a la terminal
-    body: >-
-      La tarde es la otra mitad del valle: del Kappabashi, **una hora por la orilla hasta el estanque
-      Myōjin**, que casi nadie pisa porque queda al otro lado del puente, y otra de vuelta. Se puede
-      ir por una orilla y volver por la otra. Se está de nuevo en el puente hacia las tres, con hora
-      y media de margen para sentarse, hacer fotos o alargar el paseo.
-
-
-      Tokusawa y Dakesawa no caben: llevan la tarde entera. Están, con lo que no conviene hacer en
-      noviembre, en [las rutas por nivel](#senderismo-alpes).
-    window:
-      label: Ventana óptima
-      body: >-
-        Hacia las tres y media el sol entra rasante por el hueco del río y pone las cumbres en
-        naranja, y a esa hora estaréis de vuelta en el Kappabashi, que es donde mejor se ve el
-        Hotaka. A las **cuatro y media es de noche** y la temperatura se desploma en cuanto el sol cae
-        tras la pared. Guantes en la mochila: operar una cámara con los dedos desnudos a esa hora dura
-        poco.
-
-
-        Se coge **el autobús de las 16:30** en la terminal, y no el último. A las 17:30 es noche
-        cerrada, se va después de siete horas en el valle y, como no hay reserva, si llega lleno no
-        queda otro detrás.
-    ver:
       - nombre: "Estanque Myōjin"
         maps: Myojin Pond Kamikochi
         nota: El santuario Hotaka-jinja Okumiya, del kami que da nombre al valle. Entrada pequeña, y se está solo.
@@ -154,10 +136,66 @@ blocks:
         lon: 137.6640105
       - nombre: Tokusawa
         maps: Tokusawa Kamikochi
-        nota: "Nivel medio: una hora más allá de Myōjin, por bosque llano. Con la llegada de las 09:30 no cabe."
+        nota: "Nivel medio: una hora más allá de Myōjin, por bosque llano. Cabe si se renuncia al estanque Taishō."
       - nombre: Dakesawa
         maps: Dakesawa Hut Kamikochi
         nota: "Algo técnico: 2 h 30 de subida hasta 2.170 m. Solo con la senda seca; el refugio ya está cerrado."
+  - block: Mediodía
+    time: "12:15–13:00"
+    title: Comer en la orilla
+    body: >-
+      La comida viene de Matsumoto en la mano, no en la consigna. Dentro del valle solo se come en
+      los hoteles y en el par de cafeterías de la terminal, y en noviembre recogen pronto. Lo que hace
+      todo el mundo aquí es **comérsela en una orilla**, junto al Kappabashi, a la vista del Hotaka
+      nevado y sin una mesa alrededor, y es mejor plan que cualquier comedor.
+  - block: Tarde
+    time: "13:00–15:00"
+    title: Río abajo, hasta el estanque Taishō
+    body: >-
+      La otra mitad del valle, ahora en el sentido del agua y en suave bajada: **una hora y cuarto
+      por la orilla hasta el estanque Taishō**, el paisaje más fotografiado del valle, con razón. Por
+      el camino, el relieve de Walter Weston y el desvío al estanque Tashiro. Se llega hacia las dos y
+      cuarto, con tiempo para sentarse en la orilla.
+
+
+      Lo que cuesta el cambio es la niebla de primera hora pegada al agua, que a esta hora ya no está.
+      A cambio, se anda sin peso y el estanque se ve con la luz de la tarde.
+    ver:
+      - nombre: Relieve de Walter Weston
+        maps: Weston Relief Kamikochi
+        nota: El misionero inglés que subía estas montañas por gusto y les dio el nombre de «Alpes».
+        lat: 36.2470302
+        lon: 137.6266555
+      - nombre: Estanque Tashiro
+        maps: Tashiro Pond Kamikochi
+        nota: Pequeño, de hierba y agua quieta, a mitad de camino. El desvío está mal señalizado.
+        lat: 36.2357143
+        lon: 137.6245487
+      - nombre: "Estanque Taishō"
+        maps: Taisho Pond Kamikochi
+        nota: "Lo abrió el monte Yake en 1915 al represar el río: los troncos muertos siguen en pie en el agua."
+        lat: 36.2287261
+        lon: 137.6186512
+  - block: Vuelta
+    time: "15:00–16:30"
+    title: A por las mochilas, y la última luz en el Kappabashi
+    body: >-
+      Del estanque Taishō a la terminal se vuelve en el autobús de la línea de Hirayu, que para allí,
+      o andando por la orilla en una hora y cuarto. Con las mochilas recogidas antes de que cierre la
+      consigna, a las 17:00, queda un rato para volver cinco minutos al Kappabashi y ver cómo se
+      enciende la pared del Hotaka.
+    window:
+      label: Ventana óptima
+      body: >-
+        Hacia las tres y media el sol entra rasante por el hueco del río y pone las cumbres en
+        naranja, y el Kappabashi es donde mejor se ve el Hotaka. A las **cuatro y media es de noche**
+        y la temperatura se desploma en cuanto el sol cae tras la pared. Guantes a mano: operar una
+        cámara con los dedos desnudos a esa hora dura poco.
+
+
+        Se coge **el autobús de las 16:30** en la terminal, y no el último. A las 17:30 es noche
+        cerrada, se va después de siete horas en el valle y, como no hay reserva, si llega lleno no
+        queda otro detrás.
   - block: Noche
     time: "17:00–19:00"
     title: Hirayu, y meterse en el agua

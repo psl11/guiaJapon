@@ -106,6 +106,12 @@ blocks:
       Bajando del castillo, dos calles enfrentadas a la orilla del río Metoba: primero Nawate-dōri,
       el pasaje de las ranas, que termina en la puerta del santuario Yohashira, y al otro lado del
       puente Nakamachi, la de los almacenes, que es también la calle del ryokan.
+
+
+      Y al final, a cinco o diez minutos hacia el este, el **Museo de Arte de Matsumoto**, porque esta
+      es la ciudad natal de Yayoi Kusama: nació aquí en 1929. En la puerta están sus flores gigantes
+      de colores, el *Gen no Hana*, y dentro hasta la máquina expendedora va forrada de lunares. Por
+      fuera se ve gratis y en un momento. La colección de Kusama de dentro deja entrar hasta las 16:30.
     ver:
       - nombre: Nawate-dōri
         maps: Nawate Street Matsumoto
@@ -120,6 +126,9 @@ blocks:
         nota: "De 1879, con cuatro dioses a la vez: el de los deseos, al final de Nawate. Gratis y abierto siempre."
         lat: 36.235062
         lon: 137.97084
+      - nombre: Museo de Arte de Matsumoto
+        maps: "Matsumoto City Museum of Art"
+        nota: "Las flores gigantes de Kusama en la puerta. De 9:00 a 17:00, última entrada a las 16:30; cierra los lunes."
   - block: Noche
     time: "noche"
     title: Caballo y sake de montaña
@@ -148,10 +157,9 @@ blocks:
 alt:
   label: Si te desmarcas
   body: >-
-    Matsumoto tiene una carta que casi nadie juega: es **la ciudad natal de Yayoi Kusama**, y el
-    Museo de Arte de Matsumoto guarda la mayor colección permanente de su obra fuera de Tokio —
-    con las máquinas expendedoras de la entrada forradas de lunares, por si hacía falta la señal.
-    Está a diez minutos andando del castillo y abre los miércoles. La otra opción va en dirección
+    Si la puerta del museo os sabe a poco, dentro está **la mayor colección permanente de Kusama
+    fuera de Tokio**, de sus primeros cuadros a las series más recientes, y pide una hora entera:
+    se puede cambiar por Nakamachi. Cierra los lunes, no hoy. La otra opción va en dirección
     contraria: [**Asama Onsen**](https://www.google.com/maps/search/?api=1&query=Asama%20Onsen%20Matsumoto), en las afueras, es un balneario de mil trescientos años con baños
     públicos donde no hay un solo extranjero — y llegar a Kamikōchi mañana con las piernas ya
     descansadas no es mala idea.

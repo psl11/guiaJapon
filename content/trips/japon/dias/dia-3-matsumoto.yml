@@ -14,7 +14,7 @@ mapa:
   slug: dia-3-matsumoto
   paradas:
     - { nombre: Estación de Matsumoto, hora: "11:40", lat: 36.2307332, lon: 137.9644409 }
-    - { nombre: "Nunoya Ryokan · maletas", hora: "11:55", zona: Río Metoba, llegada: a-pie, lat: 36.2338076, lon: 137.9727871 }
+    - { nombre: "Nunoya Ryokan · maletas", hora: "12:05", zona: Río Metoba, llegada: a-pie, lat: 36.2338076, lon: 137.9727871 }
     - { nombre: Matsumoto-jō, hora: "13:00", llegada: a-pie, lat: 36.2386353, lon: 137.9688709 }
     - { nombre: Nawate-dōri, hora: "15:00", zona: Río Metoba, llegada: a-pie, lat: 36.2346128, lon: 137.9719918 }
     - { nombre: Nakamachi, zona: Río Metoba, llegada: a-pie, lat: 36.2335932, lon: 137.9713243 }
@@ -59,7 +59,15 @@ blocks:
     time: "11:40–15:00"
     title: Soba, y Matsumoto-jō, uno de los doce que quedan
     body: >-
-      Primero el ryokan, doce minutos andando desde la estación: la habitación no está hasta la tarde,
+      Antes, una parada de diez minutos a cinco de la estación, de camino al ryokan: **Maruzen**, la
+      librería más grande del centro, por el encargo de Pablo Sánchez. Es el *Diccionario de
+      combinaciones de colores* de Sanzo Wada (配色事典, de Seigensha; ISBN 978-4-86152-247-5,
+      ¥1.650), un libro de bolsillo. Mientras uno entra, los demás esperan con las maletas. Si no lo
+      tienen, el plan B es Mirai-ya, en el Aeon Mall, abierto hasta las 21:00: cabe entre Nakamachi y
+      la cena.
+
+
+      Luego el ryokan, doce minutos andando desde la estación: la habitación no está hasta la tarde,
       pero las maletas se quedan en recepción. Y a dos pasos, en Nakamachi, la comida es *[**soba**](#soba)*, en
       la casa que se vea con la masa a la vista; Nomugi y Kobayashi quedan abajo como referencia.
 
@@ -75,6 +83,12 @@ blocks:
         obligan a subir agachado, y se entiende de golpe que un castillo japonés no era un palacio
         sino una máquina de guerra en madera. Se aprende con las rodillas.
     ver:
+      - nombre: Maruzen Matsumoto
+        maps: "丸善 松本店"
+        nota: "Fukashi 1-3-11, plantas B1 a 2F. De 10:00 a 20:00; 0263-31-8171. Sin confirmar que lo tengan."
+      - nombre: "Mirai-ya, en el Aeon Mall"
+        maps: "未来屋書店 松本店 イオンモール松本"
+        nota: "El plan B: planta 1 del edificio Sora Niwa, a 15-20 min al este de la estación. Hasta las 21:00; 070-1598-6576."
       - ficha: matsumoto-jo
         nota: Por qué solo quedan doce torres originales, y la terraza para ver la luna que se le añadió en paz.
     comer:

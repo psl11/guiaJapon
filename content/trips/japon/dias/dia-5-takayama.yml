@@ -140,17 +140,28 @@ blocks:
 
       - **La estación y la pasarela sobre las vías.** Taki se baja aquí buscando a Mitsuha. Desde la
         pasarela que cruza las vías junto a la estación se ve el andén como en la película, y la
-        parada de taxis de delante es donde pregunta por el camino.
+        parada de taxis de delante es donde pregunta por el camino. Si sigue dentro, buscad el cartel
+        de cartón de Hidakuro, el buey que anuncia la carne de Hida: también sale en la película.
       - **La biblioteca de Hida**, a seis minutos: donde buscan los registros de Itomori. Se entra
         libre, pero para hacer fotos dentro hay que pedir en el mostrador la tarjeta de permiso, y
-        solo hasta las 17:00. Cierra los lunes y el último viernes de cada mes.
+        solo hasta las 17:00. Cierra los lunes y el último viernes de cada mes. Por los diez años de
+        la película han vuelto a montar en la entrada el expositor del estreno, y en el rincón de
+        *Your Name*, junto a los aseos, regalan cuatro puntos de libro con los sitios del pueblo
+        mientras queden.
+      - **El *gohei mochi* de Ajidokoro Furukawa**, pasada la plaza de la Matsuri Kaikan. Es lo que
+        comen los amigos de Taki mientras él está en la biblioteca, y el banco de la puerta sigue ahí.
+      - **El *kumihimo* de Ōbora**, una tienda de tintes y kimonos a cinco minutos de la estación.
+        Es el cordón trenzado de Mitsuha, y en media hora, en un telar redondo, se hace uno de
+        pulsera o de llavero.
       - **El santuario Keta Wakamiya**, en la ladera, a quince minutos de la estación. Es uno de los
         modelos del santuario de Mitsuha: la escalera de piedra, el *torii* y los faroles se
         reconocen desde abajo, y el camino de subida es donde Taki pregunta por Itomori. Mejor al
         final, con la última luz.
 
       El otro modelo del santuario está en Takayama, el Hie, y va mañana, al final de la caminata
-      de los templos. Las escenas de la película no van en la guía porque tienen derechos.
+      de los templos. La parada de autobús donde descansan los tres amigos, en Ochiai, queda tres
+      estaciones al norte, en un tramo con pocos trenes: no cabe. Las escenas de la película no van
+      en la guía porque tienen derechos.
     window:
       label: Por qué esto y no la ladera de los templos
       body: >-
@@ -168,16 +179,26 @@ blocks:
         nota: "Las carrozas del festival y sus autómatas. ¥700; en noviembre, de 9:00 a 17:00."
       - nombre: "Biblioteca de Hida"
         maps: "飛騨市図書館"
-        nota: "Donde buscan Itomori en *Your Name*. Fotos con permiso del mostrador, hasta las 17:00; cierra los lunes."
+        nota: "Donde buscan Itomori en *Your Name*. Fotos con permiso del mostrador, hasta las 17:00; puntos de libro del décimo aniversario."
       - nombre: "Santuario Keta Wakamiya"
         maps: "Keta Wakamiya Shrine Hida Furukawa"
         nota: "Uno de los modelos del santuario de Mitsuha, y el del festival de Furukawa."
+      - nombre: "Ōbora, el kumihimo"
+        maps: "染と呉服 大洞 飛騨市古川町本町2-15"
+        nota: "El cordón de Mitsuha, trenzado por vosotros en media hora. ¥1.800–2.200; de 10:00 a 18:00, cierra los jueves."
+      - nombre: "Sake Watanabe"
+        maps: "渡辺酒造店 飛騨古川"
+        nota: "Llegó a vender un sake con etiqueta de *kuchikamizake*, el de la película (sin saliva). Tienda de 9:00 a 16:00."
       - nombre: "Velas Mishima"
         maps: "三嶋和ろうそく店 飛騨古川"
         nota: "Velas japonesas hechas a mano desde hace más de 240 años, con el taller a la vista."
       - nombre: "Estación de Hida-Furukawa"
         maps: "Hida-Furukawa Station"
         nota: "Donde se baja Taki. El andén de la película se ve desde la pasarela sobre las vías."
+    comer:
+      - comida: ajidokoro-furukawa
+        elegido: true
+        nota: "El *gohei mochi* de la película, en el banco de la puerta. Id antes de las cinco."
   - block: Noche
     time: "noche"
     title: Cuando se van los autobuses

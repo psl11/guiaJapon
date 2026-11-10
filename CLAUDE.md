@@ -417,3 +417,5 @@ día. Las que no pisan la ruta lo dicen, y lo que no se pudo verificar se descar
   - si el jazz kissa Genius sigue abierto;
   - si Brooch Asakusa es de verdad una Core Shop de Seiko (no está en la lista oficial consultada);
   - si la hamburguesa del New York Bar sigue en la carta desde la reforma.
+  - el horario de Ajidokoro Furukawa (los listados no coinciden), si sigue el cartel de Hidakuro
+    en la estación de Furukawa y la tienda Okadaya del *gohei mochi*, que no se pudo localizar.

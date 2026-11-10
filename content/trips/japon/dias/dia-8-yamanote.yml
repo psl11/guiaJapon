@@ -205,7 +205,7 @@ blocks:
         lon: 139.6981704
       - nombre: "Starbucks del Tsutaya"
         maps: "Starbucks Coffee Shibuya Tsutaya"
-        nota: "La vista clásica del cruce desde arriba. El edificio reabrió renovado en abril de 2024."
+        nota: "La vista clásica del cruce desde arriba, y un café de *Your Name*. El edificio reabrió renovado en abril de 2024."
     comer:
       - comida: edw-yellow-shibuya
         elegido: true

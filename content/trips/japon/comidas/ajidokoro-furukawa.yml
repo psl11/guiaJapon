@@ -1,0 +1,39 @@
+slug: ajidokoro-furukawa
+trip: japon
+part: japon
+city: Takayama
+category: street-food
+order: 174
+title: Ajidokoro Furukawa
+navLabel: "Ajidokoro Furukawa"
+tipo: "el *gohei mochi* de *Your Name*, en el banco de la puerta"
+area: "Hida-Furukawa, Ichinomachi 11-3 (味処古川), a ocho minutos de la estación"
+cuando: "Hida-Furukawa · por la tarde · la cocina cierra entre las 14:00 y las 14:30; la tienda, hacia las 17:00"
+reserva: "No"
+badge: "Escena de Your Name"
+fuente: pablo
+fuenteUrl: https://japonismo.com/blog/kimi-no-na-wa-your-name-significado-anime
+quePedir: "Una brocheta de ***gohei mochi*** por cabeza, y a comerla **fuera, en el banco**."
+body: >-
+  Mientras Taki busca Itomori en la biblioteca, sus dos amigos se sientan en el banco de la puerta
+  de una tienda de comidas a comerse una brocheta de *gohei mochi*. La tienda es esta, pasada la
+  plaza del Okoshi Daiko, a la derecha, y el banco sigue bajo el alero. La gente se sienta a hacer la
+  misma foto.
+
+
+  El *gohei mochi* es arroz machacado y aplastado sobre una paleta de madera, a la brasa y untado de
+  una salsa dulce de miso. Se parece al *mitarashi dango*, pero en una sola pieza plana. Dentro sirven
+  comidas de la zona: buey de Hida sobre hoja de magnolia, curri de buey y *ramen* de Furukawa.
+
+
+  Los listados no se ponen de acuerdo en el horario, y el cierre es irregular. Japonismo recoge
+  además la teoría de que la brocheta del dibujo es la de otra casa del pueblo, Okadaya, que no hemos
+  podido localizar.
+link:
+  url: https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E5%87%A6%E5%8F%A4%E5%B7%9D%20%E9%A3%9B%E9%A8%A8%E5%B8%82%E5%8F%A4%E5%B7%9D%E7%94%BA%E5%A3%B1%E4%B9%8B%E7%94%BA11-3
+  label: Google Maps
+seenIn:
+  - ref: "#dia-5-takayama"
+    label: Día 5 · Takayama
+  - ref: "#peliculas-del-grupo"
+    label: Vuestras películas

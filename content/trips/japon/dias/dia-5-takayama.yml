@@ -124,19 +124,33 @@ blocks:
   - block: Tarde
     time: "14:00–17:00"
     title: Hida-Furukawa, el Takayama sin autobuses
-    body: >-
+    body: |-
       Quince minutos de tren al norte está **Hida-Furukawa**, el pueblo que
       [Japonismo](https://japonismo.com/blog/excursion-bici-hida-furukawa-takayama) recomienda como
       excursión desde Takayama y que hace poca gente. Es la misma arquitectura sin los autobuses: el
       canal Seto, con un millar de carpas delante de almacenes de paredes blancas, casas de sake y
       una tienda de velas hechas a mano desde hace más de 240 años.
 
-
       Se empieza por la Matsuri Kaikan, que cierra a las cinco: las carrozas del festival del pueblo
       y sus autómatas, lo mismo que en Takayama se ve en el Yatai Kaikan. Después, el canal y el
-      casco. Y para terminar, los sitios de *Your Name*, que están en
-      [vuestras películas](#peliculas-del-grupo): el santuario Keta Wakamiya, la biblioteca y la
-      estación donde se baja Taki, que es también la de la vuelta.
+      casco.
+
+      Y por medio, los sitios de *Your Name*, que está en [vuestras películas](#peliculas-del-grupo).
+      La oficina de turismo de la estación da gratis un mapa de todos. En orden:
+
+      - **La estación y la pasarela sobre las vías.** Taki se baja aquí buscando a Mitsuha. Desde la
+        pasarela que cruza las vías junto a la estación se ve el andén como en la película, y la
+        parada de taxis de delante es donde pregunta por el camino.
+      - **La biblioteca de Hida**, a seis minutos: donde buscan los registros de Itomori. Se entra
+        libre, pero para hacer fotos dentro hay que pedir en el mostrador la tarjeta de permiso, y
+        solo hasta las 17:00. Cierra los lunes y el último viernes de cada mes.
+      - **El santuario Keta Wakamiya**, en la ladera, a quince minutos de la estación. Es uno de los
+        modelos del santuario de Mitsuha: la escalera de piedra, el *torii* y los faroles se
+        reconocen desde abajo, y el camino de subida es donde Taki pregunta por Itomori. Mejor al
+        final, con la última luz.
+
+      El otro modelo del santuario está en Takayama, el Hie, y va mañana, al final de la caminata
+      de los templos. Las escenas de la película no van en la guía porque tienen derechos.
     window:
       label: Por qué esto y no la ladera de los templos
       body: >-
@@ -152,15 +166,18 @@ blocks:
       - nombre: "Hida Furukawa Matsuri Kaikan"
         maps: "Hida Furukawa Matsuri Kaikan"
         nota: "Las carrozas del festival y sus autómatas. ¥700; en noviembre, de 9:00 a 17:00."
+      - nombre: "Biblioteca de Hida"
+        maps: "飛騨市図書館"
+        nota: "Donde buscan Itomori en *Your Name*. Fotos con permiso del mostrador, hasta las 17:00; cierra los lunes."
       - nombre: "Santuario Keta Wakamiya"
         maps: "Keta Wakamiya Shrine Hida Furukawa"
-        nota: "El santuario de *Your Name*, y el del festival de Furukawa."
+        nota: "Uno de los modelos del santuario de Mitsuha, y el del festival de Furukawa."
       - nombre: "Velas Mishima"
         maps: "三嶋和ろうそく店 飛騨古川"
         nota: "Velas japonesas hechas a mano desde hace más de 240 años, con el taller a la vista."
       - nombre: "Estación de Hida-Furukawa"
         maps: "Hida-Furukawa Station"
-        nota: "Donde se baja Taki buscando a Mitsuha. Es también la de la vuelta."
+        nota: "Donde se baja Taki. El andén de la película se ve desde la pasarela sobre las vías."
   - block: Noche
     time: "noche"
     title: Cuando se van los autobuses
@@ -171,8 +188,9 @@ blocks:
       en una barra de sushi a cuatro minutos del hotel.
 
 
-      Y poned el despertador: **mañana los mercados abren a las seis** y el autobús a
-      [Shirakawa-gō](#shirakawa-go) sale a las ocho y media.
+      Y poned el despertador: **mañana los mercados abren a las seis**. El autobús a
+      [Shirakawa-gō](#shirakawa-go) no sale hasta las 13:20, así que la mañana da también para la
+      ladera de los templos.
     comer:
       - comida: otafuku-takayama
         elegido: true

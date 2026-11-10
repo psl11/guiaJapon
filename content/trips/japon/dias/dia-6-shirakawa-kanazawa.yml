@@ -79,6 +79,12 @@ blocks:
       solitario.
 
 
+      Al bajar del castillo, cerca de las ruinas, está el **santuario Hie** (日枝神社), el otro modelo
+      del santuario de Mitsuha en *Your Name*: los *torii* rojos y la escalera empinada. A media
+      mañana, mejor que al amanecer o al anochecer, porque en la ladera hay carteles de aviso por
+      osos. Desde allí hay unos veinticinco minutos andando hasta la estación.
+
+
       Después, *check-out*, algo de comer cerca de la estación y el autobús de las 13:20, que sale
       del Nohi Bus Center, pegado a ella. Son cincuenta minutos, y el trayecto merece la ventanilla:
       se cruza la divisoria por túneles y se sale al otro lado, al valle del río Shō.
@@ -92,6 +98,9 @@ blocks:
       - nombre: Higashiyama Walking Course
         maps: Higashiyama Walking Course Takayama
         nota: Una docena de templos por la ladera este, hasta las ruinas del castillo. Hora y media.
+      - nombre: Santuario Hie
+        maps: "飛騨山王宮日枝神社 高山"
+        nota: "El otro modelo del santuario de Mitsuha en *Your Name*, junto a las ruinas del castillo."
       - reco: alba-takayama-hokuriku-pass
         nota: El pase regional que cubre estos autobuses, y por qué aun así no sale a cuenta.
   - block: Tarde

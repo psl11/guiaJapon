@@ -70,13 +70,20 @@ blocks:
         elegido: true
         nota: El de la orilla del río, desde las siete. El *mitarashi dango* de aquí es salado, a la brasa.
   - block: Mañana
-    time: "09:30–13:20"
+    time: "09:00–13:20"
     title: La ladera de los templos, y el autobús de mediodía
     body: >-
       Los autobuses de la mañana a Shirakawa-gō se agotaron, y eso devuelve a Takayama lo que ayer se
       cambió por Furukawa: el **Higashiyama Walking Course**, por la ladera este. Es hora y media
       entre una docena de templos hasta las ruinas del castillo, y a esta hora se anda casi en
       solitario.
+
+
+      Antes de subir, a las nueve, media hora de compras a cinco minutos del mercado del río. Takayama
+      tiene dos oficios propios, el lacado *Shunkei* y la talla en madera de tejo, el *ichii
+      ittōbori*, y casi todo lo que se les parece en Sanmachi es de recuerdo. Se compran en **dos
+      talleres que venden lo que hacen**: Tozawa, el del lacado, y Tsuda, el de la talla. Cómo
+      distinguir lo auténtico está en [las compras](#compras).
 
 
       Al bajar del castillo, cerca de las ruinas, está el **santuario Hie** (日枝神社), el otro modelo
@@ -86,7 +93,8 @@ blocks:
 
 
       Después, *check-out*, algo de comer cerca de la estación y el autobús de las 13:20, que sale
-      del Nohi Bus Center, pegado a ella. Son cincuenta minutos, y el trayecto merece la ventanilla:
+      del Nohi Bus Center, pegado a ella. Lo que se quedara sin comprar está a cinco minutos, en la
+      Hida Takumi & Craft Gallery, que junta las dos artesanías con el resto de las del valle. Son cincuenta minutos, y el trayecto merece la ventanilla:
       se cruza la divisoria por túneles y se sale al otro lado, al valle del río Shō.
     window:
       label: Hoy no hay maletas
@@ -101,6 +109,15 @@ blocks:
       - nombre: Santuario Hie
         maps: "飛騨山王宮日枝神社 高山"
         nota: "El otro modelo del santuario de Mitsuha en *Your Name*, junto a las ruinas del castillo."
+      - nombre: "Tozawa Shikki, el lacado"
+        maps: "戸沢漆器 高山市上一之町6"
+        nota: "Tienda de un taller de *Shunkei*, en la misma dirección que la asociación del oficio. De 8:30 a 17:00."
+      - nombre: "Tsuda Chōkoku, la talla"
+        maps: "津田彫刻 高山市本町1-10"
+        nota: "Taller de *ichii ittōbori*, y el contacto de su asociación. De 9:00 a 18:00 entre semana."
+      - nombre: "Hida Takumi & Craft Gallery"
+        maps: "飛騨・匠&クラフトギャラリー 高山市天満町5-1-25"
+        nota: "Lacado, talla, cerámica y papel del valle, junto a la estación. La lleva el centro público de la industria de Hida. De 9:00 a 17:00."
       - reco: alba-takayama-hokuriku-pass
         nota: El pase regional que cubre estos autobuses, y por qué aun así no sale a cuenta.
   - block: Tarde

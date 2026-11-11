@@ -14,6 +14,9 @@ import { dayMaps } from './routeMapsGeo.js'
 // `hoteles` llega ya resuelto desde TripView (los de `dia.duerme`, en ese orden).
 const props = defineProps<{ dia: Dia, hoteles?: Hotel[] }>()
 
+// Las fotos de los encargos son <img> planos: no reciben el baseURL solos (ver CardPhoto).
+const base = useRuntimeConfig().app.baseURL
+
 // Letra de cada punto en el mapa del día (la reparte scripts/build-routemap.mjs), para que la lista
 // del bloque y el mapa se señalen entre sí.
 const letras = computed<Record<string, string>>(() => {
@@ -162,6 +165,36 @@ const letras = computed<Record<string, string>>(() => {
               <MDC :value="b.window.body" />
             </div>
           </div>
+          <aside
+            v-if="b.encargo"
+            class="dia-encargo"
+          >
+            <div class="dia-elabel">
+              {{ b.encargo.label }}
+            </div>
+            <div class="dia-ebody">
+              <MDC :value="b.encargo.body" />
+            </div>
+            <div
+              v-if="b.encargo.fotos?.length"
+              class="dia-efotos"
+            >
+              <a
+                v-for="f in b.encargo.fotos"
+                :key="f.src"
+                :href="base + f.src"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  :src="base + f.src"
+                  :alt="f.alt"
+                  loading="lazy"
+                  decoding="async"
+                >
+              </a>
+            </div>
+          </aside>
         </div>
       </section>
     </div>

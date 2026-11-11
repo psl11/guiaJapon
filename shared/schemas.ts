@@ -129,6 +129,15 @@ export const DiaSchema = z.object({
     body: Md, // la prosa del bloque
     // "ventana óptima": el porqué de ese momento (luz/gentío/frío). El alma del plan.
     window: z.object({ label: z.string(), body: Md }).optional(),
+    // ENCARGO (nov 2026): una side-quest, un favor que no es parte del plan («si sobra tiempo»). Va
+    // en su propio recuadro en jade para que no se confunda con la ventana (oro) ni con la
+    // alternativa (índigo). `fotos` son fotos PROPIAS del grupo (nunca de terceros con derechos),
+    // WebP en public/img/encargos/, con `src` relativo como en CardPhoto.
+    encargo: z.object({
+      label: z.string(),
+      body: Md,
+      fotos: z.array(z.object({ src: z.string(), alt: z.string() })).optional(),
+    }).optional(),
     dim: z.boolean().optional(), // bloque de descanso → nodo en oro, no en momiji
     // RUTA A PIE (sep 2026): un mapa horneado con el recorrido en puntitos y un enlace a Google Maps
     // para reproducirlo. Para los paseos cortos donde «ir a X» es ambiguo —Chūō-dōri mide kilómetros

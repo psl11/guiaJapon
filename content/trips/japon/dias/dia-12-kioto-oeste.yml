@@ -123,6 +123,25 @@ blocks:
         El pabellón mira al este, así que **la luz buena es la de la mañana**; por la tarde va a
         contraluz. A cambio, a las cuatro de la tarde hay la mitad de gente. Si la foto importa más
         que la calma, hay que invertir el día entero y empezar por aquí.
+    encargo:
+      label: Encargo · solo si sobra tiempo
+      body: >-
+        **Un favor, no parte del plan**: solo si sobra tiempo o si al salir del pabellón entráis en
+        alguna tienda de recuerdos o de artesanía de la zona. Se busca esta taza: el Kinkaku-ji
+        nevado, en dorado y blanco sobre esmalte gris oscuro, con el interior verde claro y una
+        pegatina dorada de «Made in Japan». Una o varias, las que haya.
+
+
+        Lo más probable es que esté en las tiendas de recuerdos del camino al templo, y si no, en las
+        de cerámica de la cuesta de Kiyomizu, mañana. Puede que sea un diseño antiguo que ya no se
+        fabrique: si no aparece, no pasa nada. Enseñad la foto y preguntad:
+        「この金閣寺のマグカップはありますか？」 (*kono Kinkaku-ji no magu kappu wa arimasu ka?*,
+        «¿tienen esta taza del Kinkaku-ji?»).
+      fotos:
+        - src: img/encargos/taza-kinkakuji-1.webp
+          alt: "La taza del Kinkaku-ji nevado, de frente, con la pegatina de Made in Japan"
+        - src: img/encargos/taza-kinkakuji-2.webp
+          alt: "La misma taza de lado, con el asa y el interior verde claro"
     ver:
       - ficha: kinkakuji
         nota: El pabellón de 1955, el monje que quemó el original en 1950 y la novela de Mishima.

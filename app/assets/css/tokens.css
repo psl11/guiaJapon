@@ -20,6 +20,7 @@
   --indigo-soft:#41637f;
   --gold:       #a8842f; /* ichō — el oro del ginkgo */
   --gold-soft:  #cba85c;
+  --jade:       #2e6b5c; /* hisui — jade, los encargos (side-quests) */
   --line:       #d5cdb9;
   --line-soft:  #e8e2d3;
   --shadow:     0 1px 3px rgba(35,30,22,.07), 0 12px 32px rgba(35,30,22,.06);
@@ -51,6 +52,7 @@
   --indigo-soft:#6486a8;
   --gold:       #cbaa66;
   --gold-soft:  #dfc691;
+  --jade:       #7cc3ad;
   --line:       #353a41;
   --line-soft:  #272b31;
   --shadow:     0 1px 3px rgba(0,0,0,.4), 0 12px 32px rgba(0,0,0,.32);

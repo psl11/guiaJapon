@@ -23,7 +23,7 @@ traslados:
     hasta: "Hida-Furukawa"
     medio: "JR Takayama, tren local"
     duracion: "~15 min"
-    hora: "llega 09:39"
+    hora: "llega hacia las 10:00"
     nota: "Billete en la máquina de la estación, unos ¥240: llevad efectivo por si no vale la tarjeta IC. Antes, *check-out* y las mochilas en la recepción del hotel."
   - desde: "Hida-Furukawa"
     hasta: "Takayama"
@@ -90,7 +90,7 @@ blocks:
         elegido: true
         nota: El de la orilla del río, desde las siete. El *mitarashi dango* de aquí es salado, a la brasa.
   - block: Mañana
-    time: "09:39–12:14"
+    time: "09:58–12:14"
     title: Hida-Furukawa, el pueblo de *Your Name*
     body: |-
       Quince minutos de tren al norte está **Hida-Furukawa**, el pueblo que
@@ -106,34 +106,34 @@ blocks:
       de la escena que ha subido la gente; donde hay artículo en la Wikipedia, también una foto con
       licencia libre. En la oficina de turismo de la estación dan gratis un mapa de todos los sitios.
 
-      Dos horas y media, en este orden, primero lo que queda lejos:
+      Dos horas y cuarto, en este orden, primero lo que queda lejos:
 
-      1. **9:39 · La estación y la pasarela sobre las vías.** Taki se baja aquí buscando a Mitsuha.
+      1. **9:58 · La estación y la pasarela sobre las vías.** Taki se baja aquí buscando a Mitsuha.
          Desde la pasarela que cruza las vías se ve el andén como en la película, y la parada de
          taxis de delante es donde pregunta por el camino. Si sigue dentro, buscad el cartel de cartón
          de Hidakuro, el buey que anuncia la carne de Hida: también sale en la película.
          [Maps](https://www.google.com/maps/search/?api=1&query=%E9%A3%9B%E9%A8%A8%E5%8F%A4%E5%B7%9D%E9%A7%85) · [fotos de la escena](https://www.google.com/search?tbm=isch&q=%E9%A3%9B%E9%A8%A8%E5%8F%A4%E5%B7%9D%E9%A7%85%20%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%20%E8%B7%A8%E7%B7%9A%E6%A9%8B) · [foto libre](https://en.wikipedia.org/wiki/Hida-Furukawa_Station)
-      2. **9:50 · El santuario Keta Wakamiya**, un cuarto de hora cuesta arriba. La escalera de
+      2. **10:10 · El santuario Keta Wakamiya**, un cuarto de hora cuesta arriba. La escalera de
          piedra, el *torii* y los faroles se reconocen desde abajo, y el camino de subida es donde Taki
          enseña el dibujo de Itomori a dos vecinas.
          [Maps](https://www.google.com/maps/search/?api=1&query=%E6%B0%97%E5%A4%9A%E8%8B%A5%E5%AE%AE%E7%A5%9E%E7%A4%BE%20%E9%A3%9B%E9%A8%A8%E5%B8%82%E5%8F%A4%E5%B7%9D%E7%94%BA) · [fotos de la escena](https://www.google.com/search?tbm=isch&q=%E6%B0%97%E5%A4%9A%E8%8B%A5%E5%AE%AE%E7%A5%9E%E7%A4%BE%20%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF) · [foto libre](https://en.wikipedia.org/wiki/Keta_Wakamiya_Shrine)
-      3. **10:40 · El *kumihimo* de Ōbora**, una tienda de tintes y kimonos a cinco minutos de la
+      3. **10:55 · El *kumihimo* de Ōbora**, una tienda de tintes y kimonos a cinco minutos de la
          estación. Es el cordón trenzado de Mitsuha, y en media hora, en un telar redondo, se hace uno
          de pulsera o de llavero.
          [Maps](https://www.google.com/maps/search/?api=1&query=%E6%9F%93%E3%81%A8%E5%91%89%E6%9C%8D%20%E5%A4%A7%E6%B4%9E%20%E9%A3%9B%E9%A8%A8%E5%B8%82%E5%8F%A4%E5%B7%9D%E7%94%BA%E6%9C%AC%E7%94%BA2-15) · [fotos de la escena](https://www.google.com/search?tbm=isch&q=%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%20%E7%B5%84%E7%B4%90%20%E9%A3%9B%E9%A8%A8%E5%8F%A4%E5%B7%9D)
-      4. **11:15 · La biblioteca de Hida**, donde buscan los registros de Itomori. Se entra libre, pero
+      4. **11:30 · La biblioteca de Hida**, donde buscan los registros de Itomori. Se entra libre, pero
          para hacer fotos dentro hay que pedir en el mostrador la tarjeta de permiso. Por los diez años
          de la película han vuelto a montar en la entrada el expositor del estreno, y en el rincón de
          *Your Name*, junto a los aseos, regalan cuatro puntos de libro mientras queden.
          [Maps](https://www.google.com/maps/search/?api=1&query=%E9%A3%9B%E9%A8%A8%E5%B8%82%E5%9B%B3%E6%9B%B8%E9%A4%A8) · [fotos de la escena](https://www.google.com/search?tbm=isch&q=%E9%A3%9B%E9%A8%A8%E5%B8%82%E5%9B%B3%E6%9B%B8%E9%A4%A8%20%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF)
-      5. **11:35 · El canal Seto y el *gohei mochi*.** Las carpas delante de los almacenes, la plaza
+      5. **11:45 · El canal Seto y el *gohei mochi*.** Las carpas delante de los almacenes, la plaza
          de la Matsuri Kaikan y, pasada la plaza a la derecha, el banco de Ajidokoro Furukawa, donde
          se comen la brocheta los amigos de Taki.
          [Maps del canal](https://www.google.com/maps/search/?api=1&query=%E7%80%AC%E6%88%B8%E5%B7%9D%E3%81%A8%E7%99%BD%E5%A3%81%E5%9C%9F%E8%94%B5%E8%A1%97%20%E9%A3%9B%E9%A8%A8%E5%B8%82) · [Maps de Ajidokoro](https://www.google.com/maps/search/?api=1&query=%E5%91%B3%E5%87%A6%E5%8F%A4%E5%B7%9D%20%E9%A3%9B%E9%A8%A8%E5%B8%82%E5%8F%A4%E5%B7%9D%E7%94%BA%E5%A3%B1%E4%B9%8B%E7%94%BA11-3) ·
          [fotos de la escena](https://www.google.com/search?tbm=isch&q=%E5%91%B3%E5%87%A6%E5%8F%A4%E5%B7%9D%20%E5%90%9B%E3%81%AE%E5%90%8D%E3%81%AF%20%E4%BA%94%E5%B9%B3%E9%A4%85)
       6. **12:00 · A la estación**, a ocho minutos. El tren sale a las 12:14.
 
-      Si se va tarde, lo que sobra es el *kumihimo*: se gana media hora. La parada de autobús donde
+      Si a las 11:00 no ha empezado el *kumihimo*, se salta: se gana media hora. La parada de autobús donde
       descansan los tres amigos, en Ochiai, queda tres estaciones al norte, en un tramo con pocos
       trenes: no cabe.
     window:

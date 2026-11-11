@@ -146,6 +146,14 @@ blocks:
       al oeste. Se baja ya de noche al cruce donde tres mil personas atraviesan a la vez sin rozarse,
       con las pantallas encendidas, y a la estatua de Hachikō. Verlo desde arriba antes lo explica.
       Luego, BRAND OFF, la tienda de bolsos de segunda mano de la Center Gai, que abre hasta las nueve.
+
+
+      En la sexta planta del Parco está Nintendo TOKYO, la única tienda de Tokio que vende la
+      **ocarina de *Zelda* que se toca soplando**, la del *remake* de *Ocarina of Time*. Se agotó el
+      día que salió, el 5 de noviembre, y no hay reposición anunciada. Por la mañana, mirad su cuenta
+      de X (@N_Officialstore): si anuncia que llegan, alguien se escapa a las diez desde Harajuku, a
+      un cuarto de hora andando, porque por la tarde ya no quedarán. Si no, se pregunta igual al pasar:
+      「時のオカリナ（楽器）の在庫はありますか？次の入荷はいつですか？」.
     window:
       label: Comprado
       body: >-
@@ -184,6 +192,9 @@ blocks:
         lon: 139.7022161
       - reco: pablo-the-roof-shibuya-sky
         nota: "THE ROOF: sofá de 15:00 a 15:50, dos copas y la entrada, ¥7.000 por cabeza."
+      - nombre: "Nintendo TOKYO"
+        maps: "Nintendo TOKYO Shibuya Parco"
+        nota: "La ocarina de *Zelda* que se toca soplando, de plástico, ¥5.500. Agotada desde el 5 de noviembre. De 10:00 a 21:00."
       - nombre: Pokémon Center Shibuya
         maps: Pokemon Center Shibuya Parco
         nota: En la 6.ª planta del Parco, con un Mewtwo a tamaño real y Nintendo Tokyo en la misma planta.

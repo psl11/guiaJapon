@@ -7,8 +7,8 @@ title: Takayama, el pueblo que pagó *en carpinteros*
 dek: >-
   Se empieza con una cascada helada y se termina en un pueblo de montaña: el salto de
   [Hirayu](#kamikochi-en-el-dia) al amanecer, una hora de autobús y tres calles de casas de madera negra
-  intactas, con la mejor historia fiscal de Japón detrás. Por la tarde, el pueblo de *Your Name*, a
-  quince minutos en tren. Y por la noche, Takayama vacío.
+  intactas, con la mejor historia fiscal de Japón detrás. Por la tarde, las carrozas del festival. Y
+  por la noche, Takayama vacío.
 duerme:
   - gift-takayama
 traslados:
@@ -18,18 +18,6 @@ traslados:
     duracion: "1 h"
     hora: "09:30"
     nota: "Sale de la terminal de Hirayu a las 9:30 y llega a las 10:31; los hay a y media cada hora. **¥1.600 en efectivo**: a bordo no se paga con tarjeta IC. Horario de Nōhi de diciembre de 2025: el de noviembre puede moverse unos minutos."
-  - desde: "Takayama"
-    hasta: "Hida-Furukawa"
-    medio: "JR Takayama, tren local"
-    duracion: "~15 min"
-    hora: "salir hacia las 14:00"
-    nota: "Pasan cada una o dos horas, así que conviene mirar el horario la víspera. El local cuesta ¥240; el exprés Hida, ¥570 sin reserva."
-  - desde: "Hida-Furukawa"
-    hasta: "Takayama"
-    medio: "JR Takayama"
-    duracion: "~15 min"
-    hora: "volver hacia las 17:00"
-    nota: "A tiempo para la noche de Takayama, que es cuando mejor está."
 blocks:
   - block: Amanecer
     time: "07:00–09:30"
@@ -123,82 +111,18 @@ blocks:
         nota: La brocheta de los puestos de Sanmachi, o sentados, el *hōba-yaki* sobre hoja de magnolia.
   - block: Tarde
     time: "14:00–17:00"
-    title: Hida-Furukawa, el Takayama sin autobuses
-    body: |-
-      Quince minutos de tren al norte está **Hida-Furukawa**, el pueblo que
-      [Japonismo](https://japonismo.com/blog/excursion-bici-hida-furukawa-takayama) recomienda como
-      excursión desde Takayama y que hace poca gente. Es la misma arquitectura sin los autobuses: el
-      canal Seto, con un millar de carpas delante de almacenes de paredes blancas, casas de sake y
-      una tienda de velas hechas a mano desde hace más de 240 años.
+    title: Las carrozas del festival
+    body: >-
+      La tarde se queda en Takayama, con las carrozas del festival en el **Yatai Kaikan**, dentro del
+      recinto del Sakurayama Hachimangū, y Sanmachi otra vez cuando empiezan a irse los autobuses.
 
-      Se empieza por la Matsuri Kaikan, que cierra a las cinco: las carrozas del festival del pueblo
-      y sus autómatas, lo mismo que en Takayama se ve en el Yatai Kaikan. Después, el canal y el
-      casco.
 
-      Y por medio, los sitios de *Your Name*, que está en [vuestras películas](#peliculas-del-grupo).
-      La oficina de turismo de la estación da gratis un mapa de todos. En orden:
-
-      - **La estación y la pasarela sobre las vías.** Taki se baja aquí buscando a Mitsuha. Desde la
-        pasarela que cruza las vías junto a la estación se ve el andén como en la película, y la
-        parada de taxis de delante es donde pregunta por el camino. Si sigue dentro, buscad el cartel
-        de cartón de Hidakuro, el buey que anuncia la carne de Hida: también sale en la película.
-      - **La biblioteca de Hida**, a seis minutos: donde buscan los registros de Itomori. Se entra
-        libre, pero para hacer fotos dentro hay que pedir en el mostrador la tarjeta de permiso, y
-        solo hasta las 17:00. Cierra los lunes y el último viernes de cada mes. Por los diez años de
-        la película han vuelto a montar en la entrada el expositor del estreno, y en el rincón de
-        *Your Name*, junto a los aseos, regalan cuatro puntos de libro con los sitios del pueblo
-        mientras queden.
-      - **El *gohei mochi* de Ajidokoro Furukawa**, pasada la plaza de la Matsuri Kaikan. Es lo que
-        comen los amigos de Taki mientras él está en la biblioteca, y el banco de la puerta sigue ahí.
-      - **El *kumihimo* de Ōbora**, una tienda de tintes y kimonos a cinco minutos de la estación.
-        Es el cordón trenzado de Mitsuha, y en media hora, en un telar redondo, se hace uno de
-        pulsera o de llavero.
-      - **El santuario Keta Wakamiya**, en la ladera, a quince minutos de la estación. Es uno de los
-        modelos del santuario de Mitsuha: la escalera de piedra, el *torii* y los faroles se
-        reconocen desde abajo, y el camino de subida es donde Taki pregunta por Itomori. Mejor al
-        final, con la última luz.
-
-      El otro modelo del santuario está en Takayama, el Hie, y va mañana, al final de la caminata
-      de los templos. La parada de autobús donde descansan los tres amigos, en Ochiai, queda tres
-      estaciones al norte, en un tramo con pocos trenes: no cabe. Las escenas de la película no van
-      en la guía porque tienen derechos.
-    window:
-      label: Por qué esto y no la ladera de los templos
-      body: >-
-        La tarde de Takayama era el Yatai Kaikan y la caminata de Higashiyama. El Yatai Kaikan sigue
-        en la alternativa del día, y la caminata pasó a mañana por la mañana. Se cambió porque *Your Name* está en vuestra lista y porque Furukawa
-        tiene lo que Takayama pierde a media mañana: la calma. **Las carpas siguen en el canal
-        hasta finales de noviembre**; luego las mudan a un estanque, porque en invierno el canal sirve
-        para echar la nieve. En 2024 fue el día 30.
+      Hida-Furukawa, el pueblo de *Your Name*, iba aquí y pasó a la mañana del
+      [día 6](#dia-6-shirakawa-kanazawa), con el tren que llega a las 9:39.
     ver:
-      - nombre: "Hida-Furukawa, el canal Seto"
-        maps: "Seto River Hida Furukawa"
-        nota: "Un millar de carpas entre almacenes de paredes blancas, a cinco minutos de la estación."
-      - nombre: "Hida Furukawa Matsuri Kaikan"
-        maps: "Hida Furukawa Matsuri Kaikan"
-        nota: "Las carrozas del festival y sus autómatas. ¥700; en noviembre, de 9:00 a 17:00."
-      - nombre: "Biblioteca de Hida"
-        maps: "飛騨市図書館"
-        nota: "Donde buscan Itomori en *Your Name*. Fotos con permiso del mostrador, hasta las 17:00; puntos de libro del décimo aniversario."
-      - nombre: "Santuario Keta Wakamiya"
-        maps: "Keta Wakamiya Shrine Hida Furukawa"
-        nota: "Uno de los modelos del santuario de Mitsuha, y el del festival de Furukawa."
-      - nombre: "Ōbora, el kumihimo"
-        maps: "染と呉服 大洞 飛騨市古川町本町2-15"
-        nota: "El cordón de Mitsuha, trenzado por vosotros en media hora. ¥1.800–2.200; de 10:00 a 18:00, cierra los jueves."
-      - nombre: "Sake Watanabe"
-        maps: "渡辺酒造店 飛騨古川"
-        nota: "Llegó a vender un sake con etiqueta de *kuchikamizake*, el de la película (sin saliva). Tienda de 9:00 a 16:00."
-      - nombre: "Velas Mishima"
-        maps: "三嶋和ろうそく店 飛騨古川"
-        nota: "Velas japonesas hechas a mano desde hace más de 240 años, con el taller a la vista."
-      - nombre: "Estación de Hida-Furukawa"
-        maps: "Hida-Furukawa Station"
-        nota: "Donde se baja Taki. El andén de la película se ve desde la pasarela sobre las vías."
-    comer:
-      - comida: ajidokoro-furukawa
-        elegido: true
-        nota: "El *gohei mochi* de la película, en el banco de la puerta. Id antes de las cinco."
+      - nombre: "Yatai Kaikan"
+        maps: "Takayama Matsuri Yatai Kaikan"
+        nota: "Las carrozas del festival de Takayama, en el recinto del Sakurayama Hachimangū."
   - block: Noche
     time: "noche"
     title: Cuando se van los autobuses
@@ -210,8 +134,8 @@ blocks:
 
 
       Y poned el despertador: **mañana los mercados abren a las seis**. El autobús a
-      [Shirakawa-gō](#shirakawa-go) no sale hasta las 13:20, así que la mañana da también para la
-      ladera de los templos.
+      [Shirakawa-gō](#shirakawa-go) no sale hasta las 13:20, así que la mañana da también para
+      Furukawa.
     comer:
       - comida: otafuku-takayama
         elegido: true
@@ -221,12 +145,6 @@ blocks:
 alt:
   label: Si te desmarcas
   body: >-
-    Si preferís quedaros en Takayama, la tarde que había: las carrozas del festival en el
-    [**Yatai Kaikan**](https://www.google.com/maps/search/?api=1&query=Takayama%20Matsuri%20Yatai%20Kaikan),
-    dentro del recinto del Sakurayama Hachimangū. La caminata de Higashiyama no hace falta
-    adelantarla: va mañana por la mañana, antes del autobús.
-
-
     [**Hida no Sato**](https://www.google.com/maps/search/?api=1&query=Hida%20no%20Sato%20Takayama), el pueblo-museo al aire libre a las afueras: treinta granjas de tejado de paja
     traídas de toda la región y remontadas, incluidas varias *gasshō-zukuri* como las de
     [Shirakawa-gō](#shirakawa-go). Si el tiempo estropea el plan de mañana, esto lo salva. Y para andar de verdad, el

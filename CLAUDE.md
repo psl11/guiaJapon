@@ -341,6 +341,11 @@ libre de la estación. Lo único que tumba el argumento es la consigna de siete 
 
 **El día 6 se rehízo por los autobuses** (oct 2026): los de la mañana y los directos de la tarde
 estaban agotados. Están comprados el de las 13:20 a Shirakawa-gō y el de las 17:20 a Shin-Takaoka.
+El 11 nov, ya allí, **Hida-Furukawa pasó de la tarde del día 5 a la mañana del 6** (tren que llega a
+las 9:39, vuelta en el de las 12:14), con el Hie a primera hora. Se cayeron la ladera de los templos
+y los talleres de Sanmachi, que están en el `alt`. Pablo pidió poner las escenas del anime en cada
+sitio: no van, porque son del *press kit* y tienen derechos; el día enlaza el artículo de Japonismo,
+que las pone junto a la foto real.
 
 **Los días del cuarto** (`solo-*`, 2-6 nov). **Es su quinta visita**: nada de lo obvio, poca
 naturaleza (ya tiene los Alpes con el grupo), y Nikkō, el Fuji y Yokohama están descartados. El

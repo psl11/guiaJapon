@@ -5,9 +5,9 @@ order: 6
 eyebrow: El plan · Día 6 · mié 11 nov
 title: El valle de los tejados, y *bajar al mar del Japón*
 dek: >-
-  Día de autobús con una parada larga en medio: un valle aislado donde las casas se construyeron
-  para dos metros de nieve y para fabricar pólvora en secreto. Se termina en Kanazawa, que es otra
-  cosa completamente distinta.
+  Por la mañana, el pueblo de *Your Name*, a quince minutos en tren. Después, autobús con una parada
+  larga en medio: un valle aislado donde las casas se construyeron para dos metros de nieve y para
+  fabricar pólvora en secreto. Se termina en Kanazawa, que es otra cosa completamente distinta.
 duerme:
   - forza-kanazawa
 mapa:
@@ -19,6 +19,18 @@ mapa:
     - { nombre: Mirador de Shiroyama, hora: "16:30", zona: Ogimachi, llegada: a-pie, lat: 36.2629545, lon: 136.9079634 }
     - { nombre: "Autobús a Shin-Takaoka", hora: "17:20", zona: Ogimachi, llegada: a-pie, lat: 36.2620171, lon: 136.9068702 }
 traslados:
+  - desde: "Takayama"
+    hasta: "Hida-Furukawa"
+    medio: "JR Takayama, tren local"
+    duracion: "~15 min"
+    hora: "llega 09:39"
+    nota: "Billete en la máquina de la estación, unos ¥240: llevad efectivo por si no vale la tarjeta IC. Antes, *check-out* y las mochilas en la recepción del hotel."
+  - desde: "Hida-Furukawa"
+    hasta: "Takayama"
+    medio: "JR Takayama, tren local"
+    duracion: "~15 min"
+    hora: "12:14"
+    nota: "**Es el último que llega a tiempo**: el siguiente, un exprés de las 13:12, llega después del autobús. Si se escapa, hay taxis en la estación y a Takayama son unos 25 minutos."
   - desde: "Takayama"
     hasta: "Shirakawa-gō"
     medio: "Autobús de la línea Takayama–Takaoka (Kaetsunō)"
@@ -39,18 +51,21 @@ traslados:
     nota: "Sin reserva: vagón de asiento libre (*jiyūseki*), billete en la máquina de la estación. Los Kagayaki no paran en Shin-Takaoka. Se llega de noche, y las maletas esperan en el hotel."
 blocks:
   - block: Amanecer
-    time: "07:00–09:00"
-    title: Los mercados, antes de que llegue nadie
+    time: "07:00–09:20"
+    title: Los mercados, y el santuario de Mitsuha
     body: >-
       Takayama tiene **dos mercados matinales** y llevan celebrándose desde el periodo Edo: el de
       Miyagawa, en la orilla del río, y el de Jinya-mae, frente a la antigua oficina de gobierno.
       Abren sobre las 6:00 o las 7:00 y recogen a mediodía. No son mercados para turistas: se venden
       encurtidos, verdura de montaña, manzanas de Hida, flores y *mitarashi dango* —bolitas de arroz
-      a la brasa con salsa de soja— que se comen andando.
+      a la brasa con salsa de soja— que se comen andando. El desayuno se hace ahí mismo.
 
 
-      El autobús no sale hasta la una y veinte, así que hoy no hay prisa: el desayuno se hace ahí
-      mismo.
+      A las ocho, del mercado al **santuario Hie** (日枝神社), junto a las ruinas del castillo: es el
+      otro modelo del santuario de Mitsuha en *Your Name*, con los *torii* rojos en la escalera
+      empinada. En la ladera hay carteles de aviso por osos, así que se va ya de día y sin salir del
+      camino. Del santuario a la estación hay unos veinticinco minutos, y de paso, *check-out* y las
+      mochilas en la recepción del hotel.
     window:
       label: Ventana óptima
       body: >-
@@ -62,40 +77,103 @@ blocks:
     ver:
       - nombre: Mercado de Jinya-mae
         maps: Jinya-mae Morning Market Takayama
-        nota: El segundo mercado, en la explanada frente al Takayama Jinya de ayer.
+        nota: El segundo mercado, en la explanada frente al Takayama Jinya.
         lat: 36.1396447
         lon: 137.2582195
+      - nombre: Santuario Hie
+        maps: "飛騨山王宮日枝神社 高山"
+        nota: "El otro modelo del santuario de Mitsuha en *Your Name*, junto a las ruinas del castillo. A veinticinco minutos de la estación."
     comer:
       - comida: miyagawa-asaichi
         elegido: true
         nota: El de la orilla del río, desde las siete. El *mitarashi dango* de aquí es salado, a la brasa.
   - block: Mañana
-    time: "09:00–13:20"
-    title: La ladera de los templos, y el autobús de mediodía
+    time: "09:39–12:14"
+    title: Hida-Furukawa, el pueblo de *Your Name*
+    body: |-
+      Quince minutos de tren al norte está **Hida-Furukawa**, el pueblo que
+      [Japonismo](https://japonismo.com/blog/excursion-bici-hida-furukawa-takayama) recomienda como
+      excursión desde Takayama y que hace poca gente: la arquitectura de Sanmachi sin los autobuses,
+      con el canal Seto, sus carpas y los almacenes de paredes blancas. Y las calles de *Your Name*,
+      que está en [vuestras películas](#peliculas-del-grupo).
+
+      Las escenas no van en la guía porque tienen derechos. Para comparar cada sitio con el dibujo,
+      llevad abierto en el móvil el
+      [artículo de Japonismo](https://japonismo.com/blog/kimi-no-na-wa-your-name-significado-anime#peregrinacion-por-las-localizaciones-de-your-name),
+      que pone las dos imágenes juntas. En la oficina de turismo de la estación dan gratis un mapa de
+      todos los sitios.
+
+      Dos horas y media, en este orden, primero lo que queda lejos:
+
+      1. **9:39 · La estación y la pasarela sobre las vías.** Taki se baja aquí buscando a Mitsuha.
+         Desde la pasarela que cruza las vías se ve el andén como en la película, y la parada de
+         taxis de delante es donde pregunta por el camino. Si sigue dentro, buscad el cartel de cartón
+         de Hidakuro, el buey que anuncia la carne de Hida: también sale en la película.
+      2. **9:50 · El santuario Keta Wakamiya**, un cuarto de hora cuesta arriba. La escalera de
+         piedra, el *torii* y los faroles se reconocen desde abajo, y el camino de subida es donde Taki
+         enseña el dibujo de Itomori a dos vecinas.
+      3. **10:40 · El *kumihimo* de Ōbora**, una tienda de tintes y kimonos a cinco minutos de la
+         estación. Es el cordón trenzado de Mitsuha, y en media hora, en un telar redondo, se hace uno
+         de pulsera o de llavero.
+      4. **11:15 · La biblioteca de Hida**, donde buscan los registros de Itomori. Se entra libre, pero
+         para hacer fotos dentro hay que pedir en el mostrador la tarjeta de permiso. Por los diez años
+         de la película han vuelto a montar en la entrada el expositor del estreno, y en el rincón de
+         *Your Name*, junto a los aseos, regalan cuatro puntos de libro mientras queden.
+      5. **11:35 · El canal Seto y el *gohei mochi*.** Las carpas delante de los almacenes, la plaza
+         de la Matsuri Kaikan y, pasada la plaza a la derecha, el banco de Ajidokoro Furukawa, donde
+         se comen la brocheta los amigos de Taki.
+      6. **12:00 · A la estación**, a ocho minutos. El tren sale a las 12:14.
+
+      Si se va tarde, lo que sobra es el *kumihimo*: se gana media hora. La parada de autobús donde
+      descansan los tres amigos, en Ochiai, queda tres estaciones al norte, en un tramo con pocos
+      trenes: no cabe.
+    window:
+      label: Las carpas, todavía
+      body: >-
+        **Las carpas siguen en el canal hasta finales de noviembre**; luego las mudan a un estanque,
+        porque en invierno el canal sirve para echar la nieve. En 2024 fue el día 30.
+    ver:
+      - nombre: "Estación de Hida-Furukawa"
+        maps: "Hida-Furukawa Station"
+        nota: "Donde se baja Taki. El andén de la película se ve desde la pasarela sobre las vías."
+      - nombre: "Santuario Keta Wakamiya"
+        maps: "Keta Wakamiya Shrine Hida Furukawa"
+        nota: "Uno de los modelos del santuario de Mitsuha, y el del festival de Furukawa. A un cuarto de hora de la estación."
+      - nombre: "Ōbora, el kumihimo"
+        maps: "染と呉服 大洞 飛騨市古川町本町2-15"
+        nota: "El cordón de Mitsuha, trenzado por vosotros en media hora. ¥1.800–2.200; de 10:00 a 18:00, cierra los jueves."
+      - nombre: "Biblioteca de Hida"
+        maps: "飛騨市図書館"
+        nota: "Donde buscan Itomori. Fotos con permiso del mostrador; puntos de libro del décimo aniversario."
+      - nombre: "Hida-Furukawa, el canal Seto"
+        maps: "Seto River Hida Furukawa"
+        nota: "Un millar de carpas entre almacenes de paredes blancas, a cinco minutos de la estación."
+      - nombre: "Hida Furukawa Matsuri Kaikan"
+        maps: "Hida Furukawa Matsuri Kaikan"
+        nota: "Las carrozas del festival y sus autómatas, en la plaza del *gohei mochi*. ¥700; de 9:00 a 17:00."
+      - nombre: "Sake Watanabe"
+        maps: "渡辺酒造店 飛騨古川"
+        nota: "Llegó a vender un sake con etiqueta de *kuchikamizake*, el de la película (sin saliva). Tienda de 9:00 a 16:00."
+      - nombre: "Velas Mishima"
+        maps: "三嶋和ろうそく店 飛騨古川"
+        nota: "Velas japonesas hechas a mano desde hace más de 240 años, con el taller a la vista."
+    comer:
+      - comida: ajidokoro-furukawa
+        elegido: true
+        nota: "El *gohei mochi* de la película, en el banco de la puerta. La tienda abre a las 8:30."
+  - block: Mediodía
+    time: "12:30–13:20"
+    title: Las mochilas, la galería y el autobús
     body: >-
-      Los autobuses de la mañana a Shirakawa-gō se agotaron, y eso devuelve a Takayama lo que ayer se
-      cambió por Furukawa: el **Higashiyama Walking Course**, por la ladera este. Es hora y media
-      entre una docena de templos hasta las ruinas del castillo, y a esta hora se anda casi en
-      solitario.
+      El tren deja en Takayama hacia las 12:30. Las mochilas están en el hotel, a cinco minutos, y
+      algo de comer para el camino sale de un *konbini*. Si sobra un cuarto de hora, la **Hida Takumi
+      & Craft Gallery**, junto a la estación, junta el lacado y la talla de Takayama con el resto de la
+      artesanía del valle. Cómo distinguir lo auténtico está en [las compras](#compras).
 
 
-      Antes de subir, a las nueve, media hora de compras a cinco minutos del mercado del río. Takayama
-      tiene dos oficios propios, el lacado *Shunkei* y la talla en madera de tejo, el *ichii
-      ittōbori*, y casi todo lo que se les parece en Sanmachi es de recuerdo. Se compran en **dos
-      talleres que venden lo que hacen**: Tozawa, el del lacado, y Tsuda, el de la talla. Cómo
-      distinguir lo auténtico está en [las compras](#compras).
-
-
-      Al bajar del castillo, cerca de las ruinas, está el **santuario Hie** (日枝神社), el otro modelo
-      del santuario de Mitsuha en *Your Name*: los *torii* rojos y la escalera empinada. A media
-      mañana, mejor que al amanecer o al anochecer, porque en la ladera hay carteles de aviso por
-      osos. Desde allí hay unos veinticinco minutos andando hasta la estación.
-
-
-      Después, *check-out*, algo de comer cerca de la estación y el autobús de las 13:20, que sale
-      del Nohi Bus Center, pegado a ella. Lo que se quedara sin comprar está a cinco minutos, en la
-      Hida Takumi & Craft Gallery, que junta las dos artesanías con el resto de las del valle. Son cincuenta minutos, y el trayecto merece la ventanilla:
-      se cruza la divisoria por túneles y se sale al otro lado, al valle del río Shō.
+      El autobús de las 13:20 sale del Nohi Bus Center, pegado a la estación. Son cincuenta minutos, y
+      el trayecto merece la ventanilla: se cruza la divisoria por túneles y se sale al otro lado, al
+      valle del río Shō.
     window:
       label: Hoy no hay maletas
       body: >-
@@ -103,18 +181,6 @@ blocks:
         [takkyūbin](#takkyubin) el domingo. Hoy se viaja con la mochila de las dos últimas noches, que
         en Shirakawa-gō, por caminos de tierra y con dos autobuses, es justo lo que hace falta.
     ver:
-      - nombre: Higashiyama Walking Course
-        maps: Higashiyama Walking Course Takayama
-        nota: Una docena de templos por la ladera este, hasta las ruinas del castillo. Hora y media.
-      - nombre: Santuario Hie
-        maps: "飛騨山王宮日枝神社 高山"
-        nota: "El otro modelo del santuario de Mitsuha en *Your Name*, junto a las ruinas del castillo."
-      - nombre: "Tozawa Shikki, el lacado"
-        maps: "戸沢漆器 高山市上一之町6"
-        nota: "Tienda de un taller de *Shunkei*, en la misma dirección que la asociación del oficio. De 8:30 a 17:00."
-      - nombre: "Tsuda Chōkoku, la talla"
-        maps: "津田彫刻 高山市本町1-10"
-        nota: "Taller de *ichii ittōbori*, y el contacto de su asociación. De 9:00 a 18:00 entre semana."
       - nombre: "Hida Takumi & Craft Gallery"
         maps: "飛騨・匠&クラフトギャラリー 高山市天満町5-1-25"
         nota: "Lacado, talla, cerámica y papel del valle, junto a la estación. La lleva el centro público de la industria de Hida. De 9:00 a 17:00."
@@ -219,3 +285,13 @@ alt:
     valle que se quedaron vacíos, nueve de ellas protegidas por la prefectura. Unos ¥600. Y si el grupo va con
     prisa, Suganuma, un segundo pueblo *gasshō* diez kilómetros al norte con nueve casas y ningún
     autobús turístico, es lo que Shirakawa-gō era hace treinta años.
+
+
+    En Takayama, lo que se cayó al meter Furukawa por la mañana. El
+    [**Higashiyama Walking Course**](https://www.google.com/maps/search/?api=1&query=Higashiyama%20Walking%20Course%20Takayama):
+    hora y media por una docena de templos de la ladera este hasta las ruinas del castillo, que
+    termina junto al Hie. Y los dos talleres de Sanmachi que venden lo que hacen:
+    [Tozawa](https://www.google.com/maps/search/?api=1&query=%E6%88%B8%E6%B2%A2%E6%BC%86%E5%99%A8%20%E9%AB%98%E5%B1%B1%E5%B8%82%E4%B8%8A%E4%B8%80%E4%B9%8B%E7%94%BA6),
+    el del lacado, desde las 8:30, y
+    [Tsuda](https://www.google.com/maps/search/?api=1&query=%E6%B4%A5%E7%94%B0%E5%BD%AB%E5%88%BB%20%E9%AB%98%E5%B1%B1%E5%B8%82%E6%9C%AC%E7%94%BA1-10),
+    el de la talla, desde las 9:00. Quien no vaya a Furukawa los tiene enteros.

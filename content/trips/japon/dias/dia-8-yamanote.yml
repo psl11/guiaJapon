@@ -31,6 +31,12 @@ traslados:
     hora: "salir 08:15"
     nota: "Para estar en el santuario cuando aún lo barren."
   - desde: "Shibuya"
+    hasta: "Ginza"
+    medio: "Metro línea Ginza, directo"
+    duracion: "~20 min"
+    hora: "salir 16:50, solo si hay sándwich"
+    nota: "Ginza Sand abre a las 17:00 y se hace al momento. De vuelta, la Marunouchi lleva sin transbordo a Shinjuku."
+  - desde: "Shibuya"
     hasta: "Shin-Ōkubo"
     medio: "JR Yamanote, directo"
     duracion: "~10 min"
@@ -154,6 +160,13 @@ blocks:
       de X (@N_Officialstore): si anuncia que llegan, alguien se escapa a las diez desde Harajuku, a
       un cuarto de hora andando, porque por la tarde ya no quedarán. Si no, se pregunta igual al pasar:
       「時のオカリナ（楽器）の在庫はありますか？次の入荷はいつですか？」.
+
+
+      Y si hoy toca el sándwich de Ginza, hay un hueco: al bajar de la azotea, hacia las 16:50, la línea
+      Ginza va directa desde Shibuya, y **Ginza Sand** abre a las 17:00, a cinco minutos andando del
+      metro. Se pide en la ventanilla, se espera un cuarto de hora mientras fríen y se come en la
+      calle. De vuelta, la Marunouchi llega a Shinjuku sin transbordo, y la noche de Shin-Ōkubo
+      empieza media hora más tarde. Lo que se cae es el cruce de noche y BRAND OFF.
     window:
       label: Comprado
       body: >-
@@ -218,6 +231,8 @@ blocks:
         maps: "Starbucks Coffee Shibuya Tsutaya"
         nota: "La vista clásica del cruce desde arriba, y un café de *Your Name*. El edificio reabrió renovado en abril de 2024."
     comer:
+      - comida: ginza-sand
+        nota: "El *katsu sando* de Ginza, para llevar, sin sillas. Abre a las 17:00 entre semana."
       - comida: edw-yellow-shibuya
         elegido: true
         nota: El *omurice* que se abre en la mesa, en Udagawachō. Solo pago electrónico.

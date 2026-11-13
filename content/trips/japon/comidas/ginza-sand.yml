@@ -32,5 +32,7 @@ link:
   url: https://tabelog.com/en/tokyo/A1301/A130101/13231045/
   label: Ver en Tabelog
 seenIn:
+  - ref: "#dia-8-yamanote"
+    label: Día 8 · si hay hueco tras Shibuya Sky
   - ref: "#dia-20-tsukiji-ginza"
     label: Día 20 · la tarde

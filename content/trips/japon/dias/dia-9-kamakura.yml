@@ -27,8 +27,8 @@ traslados:
     hasta: "Narita T1"
     medio: "Hibiya hasta Ueno · Keisei *Skyliner*"
     duracion: "1 h"
-    hora: "salir del hotel 08:00"
-    nota: "**Solo el que vuela.** ¥2.580 el Skyliner. El mostrador cierra a las 11:10 y el vuelo sale a las 12:10."
+    hora: "salir del hotel 07:30"
+    nota: "**Solo el que vuela.** ¥2.580 el Skyliner. Antes de facturar, el control de aduanas del *tax-free*: por eso media hora antes. El mostrador cierra a las 11:10 y el vuelo sale a las 12:10."
   - desde: "Roppongi"
     hasta: "Kita-Kamakura"
     medio: "Hibiya hasta Ebisu · JR Shōnan-Shinjuku"
@@ -47,7 +47,9 @@ blocks:
     body: >-
       La despedida es en un desayuno de hotel y en una boca de metro, que es infinitamente mejor que
       una parada de autobús en la montaña. **El vuelo sale de Narita a las 12:10** y el mostrador
-      cierra una hora antes: saliendo del hotel sobre las ocho sobra tiempo. Ver [los vuelos](#vuelos).
+      cierra una hora antes. Se sale del hotel a las siete y media, y no a las ocho, por el *tax-free*: con
+      el sistema nuevo, la aduana confirma las compras en el vestíbulo de salidas **antes de facturar**,
+      y en sus primeras semanas puede haber cola. Ver [los vuelos](#vuelos).
 
 
       Ocho días, dos ciudades, un valle sin coches y un pueblo de montaña. A los otros tres les

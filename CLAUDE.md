@@ -335,6 +335,11 @@ y el Shinkansen de bajada va en lunes. La ficha de Nara se borró y sus enlaces 
 los miércoles, y el día de Arashiyama era miércoles. Todo lo demás de Kioto abre a diario. Subir a
 Saga-Toriimoto va escrito como decisión, no como plan: cuesta el Ninna-ji.
 
+**Osaka sin madrugar** (14 nov 2026, ya en el viaje). El jueves 19 empezaba a las 6:45 en Fushimi
+Inari. Fushimi Inari y Tōfuku-ji pasaron a la tarde del día 11 (Fushimi al atardecer, bajado de
+noche), Nishiki y el Pokémon Center de Kioto al 13, y Osaka es ida y vuelta en el Special Rapid
+(8:30) con una tarde de compras en Shinsaibashi.
+
 **Hiroshima, el Via Inn Prime Shinkansen-guchi** (sep 2026): las tres citas del día 16 salen del paso
 libre de la estación. Lo único que tumba el argumento es la consigna de siete horas y media tras el
 *check-out*, y la ficha dice que hay que preguntarla.

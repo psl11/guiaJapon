@@ -8,10 +8,10 @@ navLabel: "Tokyo City View"
 tipo: mirador acristalado, planta 52
 city: Tokio
 area: Torre Mori, Roppongi Hills, a cinco minutos andando del hotel
-cuando: "Día 10 · domingo 15, al atardecer, si el día sale limpio · de 10:00 a 22:00"
+cuando: "Cualquier atardecer limpio de la tanda de Roppongi · de 10:00 a 22:00"
 dia:
   ref: "#dia-10-tokio-centro"
-  label: "Día 10 · la tarde"
+  label: "Día 10 · la alternativa"
 aviso: "El Fuji solo sale con el aire limpio. Si el domingo amanece con bruma, este cambio no compensa."
 url: https://art-view.roppongihills.com/en/info/
 link:

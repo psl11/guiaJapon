@@ -340,6 +340,11 @@ Inari. Fushimi Inari y Tōfuku-ji pasaron a la tarde del día 11 (Fushimi al ata
 noche), Nishiki y el Pokémon Center de Kioto al 13, y Osaka es ida y vuelta en el Special Rapid
 (8:30) con una tarde de compras en Shinsaibashi.
 
+**El domingo 15 se rehízo por la lluvia** (14 nov). Queda Masakado a las 9:30, Akasaka (salida 3b,
+Harry Potter), la estación de Tokio por arriba y por abajo, Nihonbashi (Konga y el Pokémon Center
+DX) y Akihabara de compras, con el Kanda Myōjin al final. Salieron el Higashi Gyoen, Sengaku-ji y
+Ebisu: están en el `alt` del día 10.
+
 **Hiroshima, el Via Inn Prime Shinkansen-guchi** (sep 2026): las tres citas del día 16 salen del paso
 libre de la estación. Lo único que tumba el argumento es la consigna de siete horas y media tras el
 *check-out*, y la ficha dice que hay que preguntarla.

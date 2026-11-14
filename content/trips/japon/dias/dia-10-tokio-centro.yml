@@ -3,219 +3,230 @@ navLabel: "Día 10 · El centro"
 trip: japon
 order: 10
 eyebrow: El plan · Día 10 · dom 15 nov
-title: El agujero en medio de la ciudad, y *una tumba que nadie mueve*
+title: Una tumba que nadie mueve, y *una tarde a cubierto*
 dek: >-
-  Primer día de los tres solos, y el único del viaje que se pasa entero en el centro exacto de Tokio.
-  Que resulta ser un vacío: ciento quince hectáreas de bosque con foso a las que casi no se entra, y
-  alrededor el distrito financiero más caro del país construido sobre lo que fue un castillo.
+  Primer día de los tres solos, y con lluvia casi todo el día. Se empieza por la cabeza de Masakado
+  entre las torres de los bancos, se pasa por el Harry Potter de Akasaka y por la estación de Tokio,
+  y la tarde es de compras en Akihabara, con el santuario del barrio para cerrar.
 duerme:
   - candeo-roppongi
 mapa:
   slug: dia-10-tokio-centro
   paradas:
     - { nombre: Hotel Candeo, lat: 35.6620341, lon: 139.7326404 }
-    - { nombre: Kanda Myōjin, hora: "08:00", llegada: metro, lat: 35.7019403, lon: 139.7677388 }
-    - { nombre: Tumba de Masakado, hora: "09:30", zona: Palacio, llegada: metro, lat: 35.6872651, lon: 139.7627019 }
-    - { nombre: Higashi Gyoen, zona: Palacio, llegada: a-pie, lat: 35.6867006, lon: 139.7573959 }
-    - { nombre: Nijūbashi, zona: Palacio, llegada: a-pie, lat: 35.6802215, lon: 139.7535986 }
-    - { nombre: Estación de Tokio, hora: "12:30", zona: Marunouchi, llegada: a-pie, lat: 35.6811505, lon: 139.7659765 }
-    - { nombre: Sengaku-ji, hora: "15:00", llegada: tren, lat: 35.6373043, lon: 139.7360455 }
-    - { nombre: Yebisu Garden Place, llegada: tren, lat: 35.6420419, lon: 139.7135595 }
+    - { nombre: Tumba de Masakado, hora: "09:30", zona: Ōtemachi, llegada: metro, lat: 35.6872651, lon: 139.7627019 }
+    - { nombre: Harry Potter Shop Akasaka, hora: "10:45", llegada: metro, lat: 35.672558, lon: 139.735168 }
+    - { nombre: Estación de Tokio, hora: "11:45", zona: Marunouchi, llegada: metro, lat: 35.6811505, lon: 139.7659765 }
+    - { nombre: Takashimaya de Nihonbashi, hora: "13:00", zona: Marunouchi, llegada: a-pie, lat: 35.6807586, lon: 139.7735236 }
+    - { nombre: Don Quijote Akihabara, hora: "15:00", zona: Akihabara, llegada: metro, lat: 35.700665, lon: 139.771698 }
+    - { nombre: Yodobashi Akiba, zona: Akihabara, llegada: a-pie, lat: 35.698639, lon: 139.774612 }
+    - { nombre: Kanda Myōjin, hora: "18:00", zona: Akihabara, llegada: a-pie, lat: 35.7019403, lon: 139.7677388 }
     - { nombre: Azabu-Jūban, hora: noche, llegada: metro, lat: 35.6567021, lon: 139.7361025 }
+traslados:
+  - desde: "Roppongi"
+    hasta: "Ōtemachi"
+    medio: "Hibiya hasta Kasumigaseki · Chiyoda"
+    duracion: "~25 min"
+    hora: "salir 09:00"
+    nota: "Salida C5 de Ōtemachi para la tumba. Todo el día va con la tarjeta IC."
+  - desde: "Ōtemachi"
+    hasta: "Akasaka"
+    medio: "Chiyoda, directa"
+    duracion: "~10 min"
+    hora: "salir 10:30"
+    nota: "Salida 3b, la del teatro."
+  - desde: "Akasaka"
+    hasta: "Nijūbashimae"
+    medio: "Chiyoda, de vuelta"
+    duracion: "~10 min"
+    hora: "salir 11:30"
+    nota: "De Nijūbashimae a la estación de Tokio se va por el subterráneo."
+  - desde: "Nihonbashi"
+    hasta: "Suehirochō"
+    medio: "Metro Ginza"
+    duracion: "~6 min"
+    hora: "salir 14:45"
+    nota: "Suehirochō es el extremo norte de Akihabara."
+  - desde: "Akihabara"
+    hasta: "Roppongi"
+    medio: "Hibiya, directa"
+    duracion: "~20 min"
+    hora: "el que apetezca"
 blocks:
   - block: Mañana
-    time: "08:00–09:30"
-    title: El santuario de la esquina, en su día grande
+    time: "09:30–10:30"
+    title: La cabeza de Masakado, entre los bancos
     body: >-
-      Se empieza cruzando la ciudad en diagonal: la **Hibiya** va de Roppongi a Akihabara sin
-      transbordo y de la boca de metro al santuario hay siete minutos cuesta arriba. El Kanda Myōjin
-      guarda este trozo de ciudad desde hace mil años, y las tiendas de Akihabara le llevan los
-      ordenadores a bendecir. Dentro está consagrado **Taira no Masakado**, el hilo del que tira todo
-      el día: dentro de una hora vais a estar delante de su tumba.
+      Se sale del metro entre torres de oficinas, a la tumba de Masakado: treinta metros cuadrados sin
+      edificar en el suelo más caro del mundo, con incienso fresco de esta misma mañana. Se ve en cinco
+      minutos. Lo que impresiona es saber que **una ciudad de catorce millones lleva un siglo sin
+      atreverse a tocarlo**, y para eso hay que llevar la ficha leída.
+
+
+      Después, media hora por Ōtemachi y Marunouchi, el distrito de los bancos levantado dentro de los
+      fosos del castillo que ya no está.
     window:
-      label: Por qué hoy, y no cualquier domingo
+      label: Con lluvia
       body: >-
-        **Hoy, 15 de noviembre, se celebra el *shichi-go-san***: los niños de siete, cinco y tres años
-        van al santuario vestidos de gala, y cae en la fecha exacta y en domingo. El viernes lo rozasteis en
-        [Meiji Jingū](#meiji-jingu), que es donde se hace a lo grande; aquí se ve la versión de barrio,
-        con veinte familias en vez de doscientas, y mucho más cerca.
-
-
-        No se reserva ni se paga: la única condición es pasarse por la mañana, que es cuando van.
-    ver:
-      - nombre: Kanda Myōjin
-        maps: Kanda Myojin Shrine Tokyo
-        nota: Amuletos para el disco duro, y no es broma para turistas. Consagrado a Masakado.
-        lat: 35.7019403
-        lon: 139.7677388
-      - nombre: Yushima Seidō
-        maps: Yushima Seido Tokyo
-        nota: Templo confuciano de laca negra, de 1690, a cinco minutos. No hay nadie nunca.
-        lat: 35.7004002
-        lon: 139.7665903
-      - nombre: Nikolai-dō
-        maps: Nikolai-do Holy Resurrection Cathedral Tokyo
-        nota: Una catedral ortodoxa rusa de 1891 con cúpula verde, en Surugadai.
-        lat: 35.6980047
-        lon: 139.7655163
-      - ficha: akihabara
-        nota: El barrio del santuario, y lo que merece la pena de él.
-  - block: Mañana
-    time: "09:30–12:30"
-    title: Ōtemachi, y el castillo que no está
-    body: >-
-      Dos paradas de metro y se sale entre torres de oficinas, a la tumba de Masakado: treinta metros
-      cuadrados sin edificar en el suelo más caro del mundo, con incienso fresco de esta misma mañana.
-      Se ve en cinco minutos; lo que impresiona es saber que **una ciudad de catorce millones lleva un
-      siglo sin atreverse a tocarlo**, y para eso hay que llevar la ficha leída.
-
-
-      De ahí se cruza al foso y se entra en el **Higashi Gyoen**, el jardín este del Palacio, gratis:
-      muros ciclópeos, la Fujimi-yagura y el basamento vacío de la torre del homenaje, que ardió en
-      1657 y no se reconstruyó. Se sube en dos minutos y desde arriba se entiende qué había aquí. Se
-      sale por Kōkyo Gaien, la explanada de pinos negros, hasta el Nijūbashi.
-    window:
-      label: La única ventana del viaje para entrar
-      body: >-
-        **Los Jardines del Palacio cierran los lunes y los viernes**, y por eso este bloque va hoy y no
-        en la semana de vuelta: el día 20, el otro que pasa por aquí, no se puede entrar.
-
-
-        Y sin esperar lo que no toca: el [pico de la hoja roja en la ciudad](#momiji) va del 20 de
-        noviembre al 5 de diciembre, así que los arces están empezando. Rojos de verdad, dentro de diez
-        días.
+        Ōtemachi, Marunouchi y la estación de Tokio están **unidos por pasillos subterráneos**: de la
+        tumba a la estación se puede ir sin abrir el paraguas. El jardín este del Palacio, que era el
+        plan de esta mañana, sale del día por la lluvia; está contado en la alternativa.
     ver:
       - ficha: masakado
         nota: La cabeza que voló desde Kioto, el rayo y la excavadora volcada.
       - ficha: marunouchi
         nota: El mayor castillo del mundo, del que quedan el suelo y las piedras.
-      - nombre: Fujimi-yagura
-        maps: Fujimi-yagura Imperial Palace East Gardens Tokyo
-        nota: Una de las tres torres de vigilancia que sobrevivieron, dentro del jardín este.
-        lat: 35.6841917
-        lon: 139.7566017
-      - nombre: Nijūbashi
-        maps: Nijubashi Bridge Imperial Palace Tokyo
-        nota: El puente de dos arcos de todas las fotos, al final de los pinos de Kōkyo Gaien.
-        lat: 35.6802215
-        lon: 139.7535986
       - nombre: "Sede del Yomiuri Shimbun"
         maps: "Yomiuri Shimbun Building Otemachi"
         nota: "El periódico de verdad detrás del de *Tokyo Vice*, a un paseo de la tumba de Masakado."
         lat: 35.6871605
         lon: 139.7641658
-      - nombre: "Jefatura de la Policía Metropolitana"
-        maps: "Tokyo Metropolitan Police Department Headquarters Sakuradamon"
-        nota: "Frente a la puerta Sakurada, al final de Kōkyo Gaien: la policía de *Tokyo Vice*."
-        lat: 35.6771484
-        lon: 139.7523024
-  - block: Mediodía
-    time: "12:30–15:00"
-    title: Marunouchi, «dentro del círculo»
+  - block: Mañana
+    time: "10:45–11:30"
+    title: Akasaka, la salida del teatro
     body: >-
-      *Maru-no-uchi* es «dentro del recinto»: este distrito entero estaba dentro de los fosos del
-      castillo. Hoy es el barrio de los bancos, y lo que hay que ver es gratis y cabe en tres paradas:
-      la estación de Tokio de 1914 —asomaos al vestíbulo norte a mirar los relieves del zodiaco—, la
-      Intermediatheque encima de ella y, a cinco minutos, el Tokyo International Forum.
+      Diez minutos de Chiyoda y se sale por la **3b de Akasaka**, la del teatro donde se representa
+      *Harry Potter y el legado maldito*. Al lado, en la planta baja del Akasaka Biz Tower, está la
+      Harry Potter Shop Akasaka, que abre a las 11:00.
 
 
-      Para comer, sin salir de aquí: el sótano de alimentación de unos grandes almacenes o la **Ramen
-      Street** de la estación, ocho casas de [ramen](#ramen) buenas, una de cada región, en el sitio
-      con menos alma imaginable.
-    window:
-      label: Lo que solo pasa en fin de semana
-      body: >-
-        Si está montada la terraza de la avenida **Nakadōri**, que en temporada peatonalizan los
-        fines de semana y llenan de mesas entre los olmos, la comida se resuelve sola y al aire libre.
+      Se viene a mirar y, si apetece, a comprar. La otra tienda de Harry Potter del día está en la
+      estación de Tokio, una hora después.
+    ver:
+      - nombre: Harry Potter Shop Akasaka
+        maps: Harry Potter Shop Akasaka Biz Tower
+        nota: "Planta baja del Akasaka Biz Tower, salida 3b. De 11:00 a 21:00."
+        lat: 35.672558
+        lon: 139.735168
+  - block: Mediodía
+    time: "11:45–13:00"
+    title: La estación de Tokio, por arriba y por abajo
+    body: >-
+      Por arriba, el edificio de ladrillo rojo de 1914, con las cúpulas recuperadas en 2012: asomaos
+      al vestíbulo norte a mirar los relieves del zodiaco del techo. Enfrente, en la planta baja del
+      Marunouchi Building, está el **árbol de Hogwarts** de la Navidad de Marunouchi, con espectáculo de
+      luz de 17:00 a 21:00; a mediodía se ve apagado.
+
+
+      Por abajo, en el lado de Yaesu, el sótano de **Tokyo Station Ichibangai**:
+
+      - **Tokyo Character Street**, un pasillo entero de tiendas de anime y personajes. Desde febrero
+      de 2026 tiene la tienda fija de **Harry Potter Mahou Dokoro**, de 10:00 a 20:30.
+
+      - **La Ramen Street**, ocho casas de [ramen](#ramen), una de cada región, por si llueve demasiado
+      para comer de pie.
     ver:
       - nombre: Estación de Tokio
         maps: Tokyo Station Marunouchi Building
         nota: Ladrillo rojo de 1914, con las cúpulas recuperadas en 2012. Mirad el techo del vestíbulo norte.
         lat: 35.6811505
         lon: 139.7659765
-      - nombre: Intermediatheque
-        maps: Intermediatheque Tokyo
-        nota: Ballenas, minerales y aves de la Universidad de Tokio en vitrinas del XIX. Gratis.
-        lat: 35.6800322
-        lon: 139.7645340
-      - nombre: Tokyo International Forum
-        maps: Tokyo International Forum
-        nota: El casco de barco de cristal de Viñoly, puesto del revés. Se entra libre.
-        lat: 35.6767901
-        lon: 139.7635414
-      - nombre: "Lápida de William Adams"
-        maps: "William Adams Residence Site Nihonbashi Muromachi"
-        nota: "Donde vivió el inglés del que sale el Blackthorne de *Shōgun*. Una piedra entre dos edificios, en la Anjin-dōri."
-        lat: 35.6852915
-        lon: 139.7757308
+      - nombre: Árbol de Hogwarts
+        maps: Marunouchi Building Marucube Tokyo
+        nota: "En la planta baja del Marunouchi Building, del 12 de noviembre al 25 de diciembre. La luz, de 17:00 a 21:00."
+      - nombre: Tokyo Character Street
+        maps: Tokyo Character Street
+        nota: "Sótano de Ichibangai, lado de Yaesu. Con la Harry Potter Mahou Dokoro fija desde febrero de 2026."
       - nombre: "Monumento a Jan Joosten"
         maps: "Jan Joosten Monument Yaesu Tokyo"
         nota: "El holandés que dio nombre a Yaesu, compañero de barco de Adams, en la avenida Yaesu."
         lat: 35.6793984
         lon: 139.7714212
+  - block: Comida
+    time: "13:00–14:30"
+    title: Nihonbashi, onigiri y Pokémon en el mismo edificio
+    body: >-
+      Diez minutos andando por Yaesu hasta el **Takashimaya de Nihonbashi**. En el sótano se compran
+      los onigiri de Konga, que son para llevar, y unas plantas más arriba está el Pokémon Center
+      Tokyo DX, el grande de Tokio, pared con pared con el Pokémon Café.
+    ver:
+      - nombre: Pokémon Center Tokyo DX
+        maps: Pokemon Center Tokyo DX Nihonbashi Takashimaya
+        nota: En el Takashimaya de Nihonbashi. El Pokémon Café de al lado solo admite reserva.
+      - nombre: "Lápida de William Adams"
+        maps: "William Adams Residence Site Nihonbashi Muromachi"
+        nota: "Donde vivió el inglés del que sale el Blackthorne de *Shōgun*. Una piedra entre dos edificios, en la Anjin-dōri."
+        lat: 35.6852915
+        lon: 139.7757308
     comer:
       - comida: onigiri-konga-nihonbashi
         elegido: true
-        nota: Onigiri para llevar en el Takashimaya de Nihonbashi. En domingo, confirmad a qué hora abre.
+        nota: Onigiri para llevar, recomendación de Alba. Sin mesas; con lluvia, comed en la estación.
   - block: Tarde
     time: "15:00–18:00"
-    title: Los cuarenta y siete, y la última luz desde una fábrica de cerveza
+    title: Akihabara, de compras
     body: >-
-      Un cuarto de hora hacia el sur, a Shinagawa, y al templo **Sengaku-ji**, donde están enterrados
-      en filas, alrededor de su señor, los cuarenta y siete *rōnin* del *Chūshingura*. Tres siglos
-      después **las tumbas siguen humeando de incienso todos los días**. Es la continuación exacta del
-      código que contaron los templos de [Kamakura](#kamakura-zen).
+      Tres paradas de la línea Ginza hasta Suehirochō y se sale por el extremo norte de
+      [Akihabara](#akihabara). De norte a sur:
 
+      - **Don Quijote**, para el *skincare* y la cosmética, a precio de bazar.
 
-      Tres paradas de Yamanote y se acaba en **Ebisu**, el barrio que se llama como una cerveza que se
-      llamaba como un dios. En el solar de la fábrica está Yebisu Garden Place, con **un mirador
-      gratuito que no usa nadie** en lo alto de su torre, y abajo el mejor museo de fotografía del país.
+      - **Hareruya 2 Akihabara Tower**, un edificio entero de cartas Pokémon, reabierto en
+      febrero de 2026. Para One Piece, Yuyu-Tei y Kaisoku-oh, en el Radio Kaikan.
+
+      - **Iosys y Sofmap**, las dos cadenas de Apple de segunda mano, con el estado de cada aparato en
+      la etiqueta.
+
+      - **Yodobashi Akiba**, al final, junto a la estación: Seiko y Casio nuevos y Apple, abierta hasta
+      las 22:00.
     window:
-      label: Ventana óptima
+      label: Antes de comprar un Apple aquí
       body: >-
-        En noviembre **el sol se pone en Tokio a las cuatro y media**: saliendo de Sengaku-ji sobre las
-        cuatro se llega al mirador de Ebisu justo en el crepúsculo. Es gratis y no hay que reservar,
-        que es lo contrario de lo que pasó el viernes en Shibuya Sky.
+        - **Los iPhone japoneses suenan al hacer una foto**, y no se puede quitar.
 
+        - **Los Mac llevan teclado japonés (JIS)**, con teclas cambiadas de sitio. Preguntad por uno con
+        teclado US.
 
-        **Si el domingo sale limpio, cambiad Ebisu por Roppongi.** De Sengaku-ji son unos veinte
-        minutos de metro, con transbordo en Daimon, hasta el
-        [mirador de Roppongi Hills](#pablo-tokyo-city-view): planta 52, acristalado, ¥2.600 el
-        domingo y con el Fuji al oeste los días claros. Lo recomienda Pablo, que ha subido en varios
-        viajes a buscarlo. Al bajar, las luces de Keyakizaka ya están encendidas y la cena de
-        Azabu-Jūban queda cuesta abajo. Si hay bruma, Ebisu: el Fuji no saldría en ninguno de los dos.
+        - **Que sea libre (SIM-free)** y no esté atado a una operadora.
+
+        - El *tax-free* se hace con el pasaporte en la caja.
     ver:
-      - nombre: Sengaku-ji
-        maps: Sengakuji Temple Tokyo
-        nota: Las cuarenta y siete tumbas de los *rōnin*, con incienso fresco a diario.
-        lat: 35.6373043
-        lon: 139.7360455
-      - ficha: ebisu-meguro
-        nota: El Chūshingura entero —la espera de dos años, el asalto, el seppuku— y el barrio de la cerveza.
-      - nombre: Mirador de Yebisu Garden Place
-        maps: Yebisu Garden Place Tower Tokyo
-        nota: Gratis, en lo alto de la torre de treinta y nueve plantas. Para el crepúsculo.
-        lat: 35.6420419
-        lon: 139.7135595
-      - reco: pablo-tokyo-city-view
-        nota: Si el cielo está limpio, el Fuji recortado al atardecer desde la planta 52.
-      - nombre: Museo de Fotografía de Tokio
-        maps: Tokyo Photographic Art Museum
-        nota: Tres plantas de exposiciones, casi nunca lleno, en el mismo complejo.
-        lat: 35.6415430
-        lon: 139.7133962
-    comer:
-      - comida: shodai-ebisu
-        elegido: true
-        nota: El curry udon con mousse de patata. Abre seguido hasta las 21:30; cola casi siempre.
-      - comida: pizza-marumo-ebisu
-        nota: Napolitana con bonito y kombu, a una manzana. Turno de cena desde las 17:00, con reserva.
+      - ficha: akihabara
+        nota: El barrio de la electrónica y del manga, y lo que merece la pena de él.
+      - nombre: Don Quijote Akihabara
+        maps: Don Quijote Akihabara
+        nota: Cosmética y *skincare* en varias plantas.
+        lat: 35.700665
+        lon: 139.771698
+      - nombre: Hareruya 2 Akihabara Tower
+        maps: Hareruya2 Akihabara Tower
+        nota: Cartas Pokémon en un edificio entero, con zona de juego de más de ciento cincuenta plazas.
+      - nombre: Iosys Akihabara
+        maps: Iosys Akihabara
+        nota: iPhone, iPad y Mac usados, con el estado en la etiqueta.
+      - nombre: Sofmap Akihabara
+        maps: Sofmap Akihabara
+        nota: La otra cadena de Mac y PC de segunda mano.
+      - nombre: Yodobashi Akiba
+        maps: Yodobashi Akiba
+        nota: Relojes, Apple y electrónica, junto a la estación. Hasta las 22:00.
+        lat: 35.698639
+        lon: 139.774612
+  - block: Tarde
+    time: "18:00–18:30"
+    title: El santuario del barrio, al anochecer
+    body: >-
+      Siete minutos cuesta arriba desde las tiendas. El Kanda Myōjin guarda este trozo de ciudad desde
+      hace mil años, las empresas de Akihabara le llevan los ordenadores a bendecir, y dentro está
+      consagrado **Taira no Masakado**: el día empieza en su tumba y acaba en su santuario.
+    window:
+      label: El shichi-go-san, a esta hora
+      body: >-
+        **Hoy, 15 de noviembre, es el *shichi-go-san***, y los niños de tres, cinco y siete años van al
+        santuario vestidos de gala. Van sobre todo por la mañana: a esta hora quedará alguna familia
+        rezagada, o ninguna. El recinto está abierto y no se paga.
+    ver:
+      - nombre: Kanda Myōjin
+        maps: Kanda Myojin Shrine Tokyo
+        nota: Amuletos para el disco duro, y no es broma para turistas. Consagrado a Masakado.
+        lat: 35.7019403
+        lon: 139.7677388
   - block: Noche
     time: "noche"
     title: La última noche de esta mitad
     body: >-
-      Del mirador de Ebisu a la cama hay **dos paradas de Hibiya**. Y es la última noche aquí: mañana
-      se baja a Kioto y a la vuelta el hotel estará en otro barrio, más al este, en Ginza.
+      De Akihabara, la Hibiya va **directa a Roppongi** en unos veinte minutos. Y es la última noche
+      aquí: mañana se baja a Kioto y a la vuelta el hotel estará en otro barrio, más al este, en Ginza.
 
 
       Para cenar, lo que el barrio tiene y no se ve desde la avenida: **Azabu-Jūban**, una parada de
@@ -244,8 +255,15 @@ blocks:
 alt:
   label: Si te desmarcas
   body: >-
-    Este día es todo tuyo si ya te sabes el centro, porque no hay nada aquí que el grupo no pueda
-    hacer sin ti.
+    **El plan que había para un domingo seco**, y que la lluvia se llevó: el jardín este del Palacio
+    (el Higashi Gyoen), gratis y con el basamento vacío de la torre del homenaje, que solo abre este
+    día de la semana de Tokio porque cierra lunes y viernes; el **Sengaku-ji**, con las tumbas de los
+    cuarenta y siete rōnin, que cuenta la ficha de [Ebisu y Meguro](#ebisu-meguro); y el atardecer en
+    el mirador gratuito de Yebisu Garden Place, o en el de [Roppongi Hills](#pablo-tokyo-city-view)
+    si el cielo sale limpio.
+
+
+    Y si el día es tuyo:
 
     - [**Roppongi**](#roppongi) y su triángulo de museos: el **Mori** en la planta 53, con el mirador
     desde el que sí se ve la Torre de Tokio —cosa que no pasa desde la propia torre—, el **Centro

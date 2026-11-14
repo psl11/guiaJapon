@@ -5,10 +5,10 @@ order: 14
 eyebrow: El plan · Día 14 · jue 19 nov
 title: Osaka, la ciudad que *se arruina comiendo*
 dek: >-
-  El día empieza todavía en Kioto y de madrugada, en los diez mil torii de
-  [**Fushimi Inari**](#fushimi-inari) — que a las siete es otro sitio distinto del que sale en las
-  fotos. Después, media hora de tren y el contrario exacto de [Kioto](#kioto): sin patrimonio que
-  defender, sin contención y con una palabra propia para definirse. Comer de pie y mirar carteles.
+  Un día entero en Osaka, y sin madrugar: media hora de tren desde Kioto a media mañana y el
+  contrario exacto de [Kioto](#kioto). Sin patrimonio que defender, sin contención y con una palabra
+  propia para definirse. Comer de pie, mirar carteles y, antes de la noche, una tarde de compras en
+  Shinsaibashi.
 duerme:
   - androoms-kyoto-shichijo
 mapa:
@@ -17,74 +17,25 @@ mapa:
     - { nombre: Castillo de Osaka, hora: "09:30", lat: 34.6874875, lon: 135.5258873 }
     - { nombre: Kuromon, hora: "12:00", zona: Minami, llegada: metro, lat: 34.6653277, lon: 135.5069795 }
     - { nombre: Tsūtenkaku, hora: "15:00", zona: Shinsekai, llegada: a-pie, lat: 34.6525393, lon: 135.5063098 }
-    - { nombre: "Ebisubashi y el Glico", hora: "18:00", zona: Minami, llegada: metro, lat: 34.6690672, lon: 135.5013046 }
+    - { nombre: Pokémon Center Osaka DX, hora: "17:00", zona: Minami, llegada: metro, lat: 34.6732574, lon: 135.5009565 }
+    - { nombre: "Ebisubashi y el Glico", hora: "18:30", zona: Minami, llegada: metro, lat: 34.6690672, lon: 135.5013046 }
     - { nombre: Hōzenji Yokochō, zona: Minami, llegada: a-pie, lat: 34.6681845, lon: 135.5026705 }
 traslados:
   - desde: "Kioto"
-    hasta: "Fushimi Inari"
-    medio: "JR línea Nara"
-    duracion: "5 min"
-    hora: "salir 06:45"
-  - desde: "Tōfukuji"
-    hasta: "Kyōbashi (Osaka)"
-    medio: "Keihan, hacia el sur"
-    duracion: "~50 min"
-    hora: "salir 09:45"
-    nota: "Sin volver a Kioto: la Keihan baja hasta Kyōbashi, a un paseo del castillo."
+    hasta: "Osaka"
+    medio: "JR Special Rapid (新快速)"
+    duracion: "29 min"
+    hora: "salir 08:30"
+    nota: "¥580 con la tarjeta IC, sin reserva. Cualquier tren de la línea JR Kioto para en Osaka; el Special Rapid es el más rápido. De Osaka al castillo, la línea circular hasta Osakajōkōen."
   - desde: "Osaka"
     hasta: "Kioto"
-    medio: "JR Special Rapid"
-    duracion: "29 min"
+    medio: "Metro Midōsuji hasta Umeda · JR Special Rapid"
+    duracion: "~45 min"
     hora: "el que apetezca"
-    nota: "Salen cada quince minutos hasta casi medianoche, así que la noche de Dōtonbori no tiene hora de cierre."
+    nota: "Desde Dōtonbori, la Midōsuji sube a Umeda, que es la estación de JR Osaka. Los Special Rapid salen cada quince minutos hasta casi medianoche, así que la noche no tiene hora de cierre."
 blocks:
-  - block: Amanecer
-    time: "06:45–08:45"
-    title: Los diez mil torii, antes de que llegue nadie
-    body: >-
-      **Fushimi Inari es el sitio más visitado de Kioto y el único que se puede tener vacío**, porque
-      no es un templo con horario: es una montaña con un santuario, **abierta las veinticuatro horas
-      y gratis**. A las siete de la mañana los túneles de torii están literalmente para vosotros; a
-      las once son una cola en fila india.
-
-
-      Encaja hoy y no otro día porque es el único que sale hacia el sur. Subid al menos hasta el
-      mirador de Yotsutsuji, a media montaña y unos cuarenta minutos: es donde se acaba el gentío
-      incluso a mala hora y desde donde se ve Kioto entera.
-    window:
-      label: Hasta dónde subir, y por qué no hasta arriba
-      body: >-
-        La cima está a dos horas y media ida y vuelta y **no tiene vistas**: el bosque se cierra.
-        Yotsutsuji es el punto de rendimiento decreciente, y de ahí para arriba se repite el paisaje.
-        Bajad por el ramal de la derecha, que pasa por el estanque y por los santuarios pequeños
-        donde la gente deja torii en miniatura.
-    ver:
-      - ficha: fushimi-inari
-        nota: Cada torii es una factura, con el donante y la fecha escritos por detrás. Se leen al bajar.
-      - reco: alba-torii-fushimi
-        nota: Un torii en miniatura con vuestro nombre, en una mesa de la bajada. Sin puesto fijo.
   - block: Mañana
-    time: "08:45–09:45"
-    title: Tōfuku-ji, el puente sobre los arces
-    body: >-
-      Al bajar de la montaña, quince minutos andando hacia el norte, o una parada de tren, está el
-      **Tōfuku-ji**, uno de los cinco grandes monasterios zen de Kioto. Se viene por una sola cosa: el
-      **Tsūten-kyō**, un puente de madera cubierto tendido sobre una vaguada llena de arces, desde el
-      que las copas se ven por encima. Media hora basta. De la estación de Tōfukuji sale la Keihan que
-      baja a Osaka.
-    window:
-      label: El color, este año
-      body: >-
-        El Tōfuku-ji suele estar en su punto a mediados de noviembre, pero la primera previsión de 2026
-        retrasa los arces de Kioto hasta principios de diciembre: puede que el 19 lo pilléis empezando.
-        En temporada el templo cambia el horario y el precio del puente, así que miradlo la víspera en
-        su web. Y es de los más llenos de Kioto en otoño: a esta hora, todavía no.
-    ver:
-      - nombre: Tōfuku-ji
-        maps: Tofukuji Temple Kyoto
-        nota: El puente Tsūten-kyō sobre la vaguada de arces, a un paseo de Fushimi Inari.
-  - block: Mañana
-    time: "10:30–12:00"
+    time: "09:30–11:30"
     title: El castillo, y lo que no es
     body: >-
       Se empieza por lo que más lejos queda. Y con una expectativa ajustada: **la torre del castillo
@@ -143,7 +94,7 @@ blocks:
       - comida: wagyu-idaten-osaka
         nota: Wagyu A5 en caja lacada, a un minuto de Namba. Solo a mediodía y sin reserva.
   - block: Tarde
-    time: "15:00–17:30"
+    time: "15:00–16:30"
     title: Shinsekai y la torre
     body: >-
       El barrio más raro de Osaka y el que menos ha cambiado. Aquí se viene a una cosa concreta:
@@ -167,8 +118,38 @@ blocks:
         nota: La casa de 1929 que fijó la regla de la salsa. El repollo sirve de cuchara.
       - comida: dekasan-osaka
         nota: El *sando* de entraña, para comer andando camino de Shinsekai. Cierra a las 16:00.
+  - block: Tarde
+    time: "17:00–18:30"
+    title: Shinsaibashi, de compras
+    body: >-
+      De Shinsekai se sube en la Midōsuji hasta **Shinsaibashi**, el barrio de comprar de Osaka. Tres
+      paradas en una hora y media:
+
+      - **El Pokémon Center Osaka DX**, en la novena planta del Daimaru, el principal de Kansai.
+
+      - **La galería de Shinsaibashi-suji**, seiscientos metros cubiertos de tiendas que bajan de
+      norte a sur y desembocan en el puente del Glico.
+
+      - **[Amerikamura](https://www.google.com/maps/search/?api=1&query=Amerikamura%20Osaka)**, al
+      otro lado de la avenida Midōsuji: el barrio de la ropa de segunda mano y de lo joven de Osaka.
+
+
+      Va antes de cenar porque los grandes almacenes cierran mucho antes que Dōtonbori, y porque desde
+      aquí al canal se llega andando.
+    ver:
+      - nombre: Pokémon Center Osaka DX
+        maps: Pokemon Center Osaka DX Daimaru Shinsaibashi
+        nota: El principal de Kansai, en la 9.ª planta del Daimaru, pared con pared con el Pokémon Café, que solo admite reserva.
+        lat: 34.6732574
+        lon: 135.5009565
+      - nombre: Shinsaibashi-suji
+        maps: Shinsaibashi-suji Shopping Street Osaka
+        nota: La galería cubierta que baja hasta el Glico. Se anda de norte a sur.
+      - nombre: Amerikamura
+        maps: Amerikamura Osaka
+        nota: Ropa de segunda mano y tiendas pequeñas, a cinco minutos al oeste de la galería.
   - block: Noche
-    time: "18:00–22:00"
+    time: "18:30–22:00"
     title: Dōtonbori, con los carteles encendidos
     body: >-
       El canal con el frente de fachadas cubierto de neones y esculturas gigantes. Aquí solo hay que
@@ -196,11 +177,6 @@ blocks:
         nota: El callejón empedrado del Buda de musgo, al que se le echa agua.
         lat: 34.6681845
         lon: 135.5026705
-      - nombre: Pokémon Center Osaka DX
-        maps: Pokemon Center Osaka DX Daimaru Shinsaibashi
-        nota: El principal de Kansai, en la 9.ª planta del Daimaru, pared con pared con el Pokémon Café, que solo admite reserva.
-        lat: 34.6732574
-        lon: 135.5009565
       - reco: alba-timos-dotonbori
         nota: Los captadores de traje negro. Un restaurante bueno no sale a la calle a pescar clientes.
     comer:
@@ -216,10 +192,8 @@ blocks:
 alt:
   label: Si te desmarcas
   body: >-
-    **La alternativa fuerte de hoy es cambiar Osaka por Uji**, y encaja por un detalle de geografía:
-    **la misma línea JR que os deja en Fushimi Inari sigue hacia el sur** y en un cuarto de hora más
-    está allí. Se puede hacer amanecer en los torii, mañana entera en Uji y volver a dormir a Kioto
-    sin repetir un solo trayecto.
+    **La alternativa fuerte de hoy es cambiar Osaka por Uji**, al sur de Kioto por la misma línea JR
+    Nara que lleva a Fushimi Inari, unos veinte minutos más allá.
 
 
     Uji son dos cosas. La primera es el
@@ -234,4 +208,4 @@ alt:
 
     Y si se prefiere Osaka pero con otra cosa dentro: el
     [**Umeda Sky Building**](https://www.google.com/maps/search/?api=1&query=Umeda%20Sky%20Building%20Osaka), dos torres unidas arriba por un observatorio flotante con escaleras
-    mecánicas al aire.
+    mecánicas al aire, a un paseo de la estación de JR Osaka.

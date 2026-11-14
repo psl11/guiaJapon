@@ -6,8 +6,9 @@ eyebrow: El plan · Día 11 · lun 16 nov
 title: Dos horas y cuarto, y *la otra capital*
 dek: >-
   El día bisagra del viaje. Se sale de Tokio por el viejo Tōkaidō y se llega a la ciudad que fue
-  capital durante mil años, justo cuando empieza su mejor quincena. Hoy no hay agenda: hay que
-  aterrizar.
+  capital durante mil años, justo cuando empieza su mejor quincena. Y la tarde baja al sur, por
+  una sola línea de tren: el puente de los arces del Tōfuku-ji y los torii de Fushimi Inari,
+  subidos con luz y bajados de noche.
 duerme:
   - androoms-kyoto-shichijo
 mapa:
@@ -15,10 +16,10 @@ mapa:
   paradas:
     - { nombre: Estación de Kioto, hora: "11:30", lat: 34.9861909, lon: 135.7600629 }
     - { nombre: Men-ya Inoichi, hora: "12:00", zona: Centro, llegada: metro, lat: 35.0013284, lon: 135.7669452 }
-    - { nombre: Nishiki, zona: Centro, llegada: a-pie, lat: 35.0050244, lon: 135.7655699 }
-    - { nombre: "Río Kamo, en Shijō", zona: Centro, llegada: a-pie, lat: 35.0038208, lon: 135.7715003 }
-    - { nombre: Tō-ji, hora: "19:00", llegada: metro, lat: 34.9806311, lon: 135.7477192 }
-    - { nombre: Hotel androoms, hora: noche, llegada: a-pie, lat: 34.9889855, lon: 135.7571848 }
+    - { nombre: Tōfuku-ji, hora: "14:00", zona: Sur, llegada: tren, lat: 34.977444, lon: 135.773529 }
+    - { nombre: Fushimi Inari, hora: "15:45", zona: Sur, llegada: tren, lat: 34.967037, lon: 135.773499 }
+    - { nombre: Hotel androoms, hora: "18:00", llegada: tren, lat: 34.9889855, lon: 135.7571848 }
+    - { nombre: Tō-ji, hora: "19:30", llegada: a-pie, lat: 34.9806311, lon: 135.7477192 }
 traslados:
   - desde: "Tokio"
     hasta: "Kioto"
@@ -26,6 +27,22 @@ traslados:
     duracion: "2 h 12"
     hora: "09:09"
     nota: "**Comprado** en SmartEX: reserva 2002, coche 3, asientos 17A, 17B y 17C, reservados como «Seat with Oversized Baggage Area»: las maletas van en el hueco de detrás. Llega a Kioto a las 11:21. Se sube con el QR-Ticket de SmartEX (cuenta de Pablo Velasco), o con los billetes sacados en una máquina del Shinkansen."
+  - desde: "Gion-Shijō"
+    hasta: "Tōfukuji"
+    medio: "Keihan, hacia el sur"
+    duracion: "~10 min"
+    hora: "salir 13:45"
+  - desde: "Tōfukuji"
+    hasta: "Inari"
+    medio: "JR línea Nara, una parada"
+    duracion: "2 min"
+    hora: "salir 15:30"
+  - desde: "Inari"
+    hasta: "Kioto"
+    medio: "JR línea Nara"
+    duracion: "5 min"
+    hora: "salir 17:45"
+    nota: "Las tres, con la tarjeta IC. La estación de Kioto deja en la salida Karasuma, a cinco minutos del hotel."
 blocks:
   - block: Mañana
     time: "09:09–11:30"
@@ -59,30 +76,20 @@ blocks:
         lat: 35.3704513
         lon: 136.4616148
   - block: Mediodía
-    time: "12:00–17:00"
-    title: Entender la retícula antes de andarla
+    time: "11:30–13:30"
+    title: Soltar las maletas y comer
     body: >-
-      No se empieza por lo grande. Con la tarde entera y las maletas en camino, lo que funciona es
-      **orientarse**: las calles van norte-sur y este-oeste y muchas se llaman por su número
-      —*Shijō* es «cuarta avenida»—, y en cuanto se entiende, la ciudad deja de ser un laberinto.
+      La entrada en el hotel es a las 15:00, pero no hace falta esperarla: **las maletas se dejan en
+      recepción al bajar del tren**, que está a cinco minutos por la salida Karasuma, y el *check-in*
+      se hace a la vuelta, hacia las seis.
 
 
-      Un primer paseo que cumple: comer en Shimogyō, subir al mercado de Nishiki, cinco manzanas
-      cubiertas de puestos donde se come andando, y de ahí al río **Kamo**, que es donde se sienta
-      media ciudad a mirar el agua.
+      Se come en el centro, en Shimogyō, y de paso se aprende la regla de la ciudad: las calles van
+      norte-sur y este-oeste y muchas se llaman por su número —*Shijō* es «cuarta avenida»—. En cuanto
+      se entiende, Kioto deja de ser un laberinto. Del ramen a la Keihan de Gion-Shijō hay un paseo.
     ver:
       - ficha: kioto
         nota: La retícula del 794 copiada de Chang'an, y por qué la ciudad se libró de la bomba.
-      - nombre: "Río Kamo, en Shijō"
-        maps: Shijo Ohashi Bridge Kyoto
-        nota: Las orillas donde se sienta la ciudad. Pontochō queda en la margen de enfrente.
-        lat: 35.0038208
-        lon: 135.7715003
-      - nombre: Pokémon Center Kyoto
-        maps: Pokemon Center Kyoto SUINA Muromachi
-        nota: En Shijō-Karasuma, de camino a Nishiki. Peluches con estampado de kimono que no se venden en otra tienda.
-        lat: 35.0033675
-        lon: 135.7583695
     comer:
       - comida: menya-inoichi
         elegido: true
@@ -91,14 +98,61 @@ blocks:
         nota: El ramen de siempre de Pablo, en la propia estación, nada más bajar del tren.
       - comida: sugari-kyoto
         nota: El plan B si Inoichi tiene cola. *Tsukemen* de caldo espeso cerca de Karasuma, y se entra donde haya hueco.
-      - comida: nishiki
-        nota: El mercado de Kioto, de puesto en puesto. Mejor antes de que se llene a mediodía.
       - comida: amam-dacotan-kyoto
-        nota: Ciento veinte panes junto a Karasuma-Oike. A partir de las tres se entra sin cola.
-      - comida: smart-coffee
-        nota: El *kissaten* de 1932 en Teramachi, a la salida de Nishiki.
+        nota: Ciento veinte panes junto a Karasuma-Oike, para llevar algo a la montaña.
+  - block: Tarde
+    time: "14:00–15:30"
+    title: Tōfuku-ji, el puente sobre los arces
+    body: >-
+      Tres paradas de Keihan hacia el sur y se llega al **Tōfuku-ji**, uno de los cinco grandes
+      monasterios zen de Kioto. Se viene por una sola cosa: el **Tsūten-kyō**, un puente de madera
+      cubierto tendido sobre una vaguada llena de arces, desde el que las copas se ven por encima.
+      Una hora basta.
+
+
+      Va hoy, y no otro día, porque cierra a media tarde y comparte línea con Fushimi Inari: de la
+      estación de JR Tōfukuji a la de Inari hay una parada.
+    window:
+      label: El color, este año
+      body: >-
+        El Tōfuku-ji suele estar en su punto a mediados de noviembre, pero la primera previsión de 2026
+        retrasa los arces de Kioto hasta principios de diciembre: puede que lo pilléis empezando. En
+        temporada el templo cambia el horario y el precio del puente, así que miradlo la víspera en su
+        web. Es de los más llenos de Kioto en otoño, y a primera hora de la tarde **contad con cola
+        para cruzar el puente**.
+    ver:
+      - nombre: Tōfuku-ji
+        maps: Tofukuji Temple Kyoto
+        nota: El puente Tsūten-kyō sobre la vaguada de arces, a una parada de Fushimi Inari.
+        lat: 34.977444
+        lon: 135.773529
+  - block: Tarde
+    time: "15:45–17:45"
+    title: Los diez mil torii, subidos con luz y bajados de noche
+    body: >-
+      **Fushimi Inari no cierra nunca**: es una montaña con un santuario, abierta las veinticuatro
+      horas y gratis. Por eso se puede elegir la hora, y la mejor para estos días es la del final de la
+      tarde. Se sube con luz para ver el bermellón, se llega al mirador de **Yotsutsuji** hacia la
+      puesta de sol, sobre las 16:45, con Kioto entera abajo, y se baja ya de noche.
+
+
+      Abajo, a las cuatro, todavía hay gente. A partir de Yotsutsuji desaparece, y al anochecer se van
+      los grupos y se encienden los faroles del camino: es cuando el túnel se queda casi para
+      vosotros.
+    window:
+      label: Hasta dónde subir, y con qué luz bajar
+      body: >-
+        La cima está a dos horas y media ida y vuelta y **no tiene vistas**: el bosque se cierra.
+        Yotsutsuji, a unos cuarenta minutos, es el punto de rendimiento decreciente. Bajad por el ramal
+        de la derecha, que pasa por el estanque y por los santuarios pequeños donde la gente deja torii
+        en miniatura. Por encima de Yotsutsuji hay tramos casi sin luz: llevad la linterna del móvil.
+    ver:
+      - ficha: fushimi-inari
+        nota: Cada torii es una factura, con el donante y la fecha escritos por detrás. Se leen al bajar.
+      - reco: alba-torii-fushimi
+        nota: Un torii en miniatura con vuestro nombre, en una mesa de la bajada. A esa hora puede haber recogido.
   - block: Cena
-    time: "17:30"
+    time: "18:30"
     title: La cocina de una capital sin mar
     body: >-
       Kioto está a una hora de la costa y su cocina se construyó tierra adentro: de ahí el
@@ -108,7 +162,7 @@ blocks:
 
       Y la regla de oro para los tres días: **las casas buenas son tres o cuatro veces más baratas al
       mediodía**, así que la alta cocina se reserva para un almuerzo y no para una cena. Hoy se cena
-      pronto, que el templo de la noche abre a las 18:00.
+      después del *check-in* y sin alargarse, que el templo de la noche cierra la entrada a las 21:00.
     comer:
       - comida: tai-sushi
         elegido: true
@@ -116,7 +170,7 @@ blocks:
       - comida: kyoto-cinco-de-nakagyo
         nota: Cinco direcciones de cena, solo como pista. Sin verificar horarios.
   - block: Noche
-    time: "19:00–21:00"
+    time: "19:30–21:00"
     title: Una pagoda a quince minutos del hotel, *iluminada*
     body: >-
       El Tō-ji se ve desde el tren al entrar en Kioto, y se deja para la noche. En otoño abre de

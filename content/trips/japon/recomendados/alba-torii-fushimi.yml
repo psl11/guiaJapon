@@ -8,10 +8,10 @@ navLabel: "El torii de Fushimi"
 tipo: recuerdo escrito a mano, en la bajada
 city: Kioto
 area: En el camino de bajada del monte Inari
-cuando: "Día 14 · después del amanecer entre los toriis"
+cuando: "Día 11 · a la bajada, ya con los faroles encendidos"
 dia:
-  ref: "#dia-14-osaka"
-  label: "Día 14 · Fushimi Inari"
+  ref: "#dia-11-tokio-kioto"
+  label: "Día 11 · Fushimi Inari"
 aviso: "**No he podido localizar el puesto concreto ni confirmar el precio.** Es un señor mayor con su mesa en la bajada; va como cosa que buscar, no como parada programada."
 url: https://www.instagram.com/reel/DSKfkemjWfK/
 body: >-
@@ -22,8 +22,8 @@ body: >-
 
 
   Lo pongo con la advertencia por delante: **no he encontrado el puesto en ninguna fuente ni sé lo que
-  cuesta**. Va aquí porque el día 14 empieza precisamente ahí —de 06:45 a 08:45, con la montaña
-  vacía— y porque si existe, el momento de verlo es a la bajada, sin prisa y con la luz ya entrada.
+  cuesta**. Va aquí porque la tarde del día 11 acaba precisamente ahí, y si existe, el momento de buscarlo es
+  a la bajada. Ya de noche puede haber recogido.
 
 
   Del mismo post sale un apunte más útil y comprobable: quien suba a las 7:30 en vez de a las 9

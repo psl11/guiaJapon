@@ -19,7 +19,9 @@ mapa:
     - { nombre: Pagoda de Yasaka, zona: Higashiyama, llegada: a-pie, lat: 34.9985564, lon: 135.7792488 }
     - { nombre: Kōdai-ji, hora: "11:30", zona: Higashiyama, llegada: a-pie, lat: 35.0003033, lon: 135.7805956 }
     - { nombre: Chion-in, zona: Higashiyama, llegada: a-pie, lat: 35.0056216, lon: 135.7835389 }
-    - { nombre: Hanamikōji, hora: "14:00", zona: Gion, llegada: a-pie, lat: 35.0044755, lon: 135.7751432 }
+    - { nombre: Nishiki, hora: "14:00", zona: Centro, llegada: a-pie, lat: 35.0050244, lon: 135.7655699 }
+    - { nombre: Pokémon Center Kyoto, zona: Centro, llegada: a-pie, lat: 35.0033675, lon: 135.7583695 }
+    - { nombre: Hanamikōji, hora: "16:00", zona: Gion, llegada: a-pie, lat: 35.0044755, lon: 135.7751432 }
     - { nombre: Shirakawa, zona: Gion, llegada: a-pie, lat: 35.0055773, lon: 135.7745018 }
     - { nombre: Shōren-in, hora: noche, llegada: a-pie, lat: 35.0076015, lon: 135.7833999 }
 blocks:
@@ -98,10 +100,34 @@ blocks:
         elegido: true
         nota: Ramen de caldo de besugo. Entrando a las doce en punto, sin cola.
   - block: Tarde
-    time: "14:00–17:00"
+    time: "14:00–15:45"
+    title: Nishiki, al otro lado del río
+    body: >-
+      Del Chion-in se baja a Shijō y se cruza el puente sobre el Kamo: al otro lado, a un cuarto de hora
+      andando, empieza el **mercado de Nishiki**, cinco manzanas cubiertas de puestos donde se come
+      andando. Se recorre de este a oeste y se sale cerca de Shijō-Karasuma, donde está el Pokémon
+      Center de Kioto.
+
+
+      Va a esta hora porque los puestos empiezan a cerrar a las cinco, y a las cinco toca estar en
+      Gion. Para volver al este, el mismo camino por Shijō o una parada de Hankyu hasta Kawaramachi.
+    ver:
+      - nombre: Pokémon Center Kyoto
+        maps: Pokemon Center Kyoto SUINA Muromachi
+        nota: En Shijō-Karasuma, a la salida de Nishiki. Peluches con estampado de kimono que no se venden en otra tienda.
+        lat: 35.0033675
+        lon: 135.7583695
+    comer:
+      - comida: nishiki
+        elegido: true
+        nota: El mercado de Kioto, de puesto en puesto. A primera hora de la tarde ya se anda.
+      - comida: smart-coffee
+        nota: El *kissaten* de 1932 en Teramachi, en la boca este de Nishiki.
+  - block: Tarde
+    time: "16:00–17:30"
     title: Gion, y qué es y qué no es una geisha
     body: >-
-      Al norte queda **Gion**, y basta con dos calles: Hanamikōji, la de las casas de té con celosía,
+      De vuelta al este del río queda **Gion**, y basta con dos calles: Hanamikōji, la de las casas de té con celosía,
       y el canal de Shirakawa, que es la más bonita y la que menos gente hace. El momento es al
       encender los faroles, no antes.
 

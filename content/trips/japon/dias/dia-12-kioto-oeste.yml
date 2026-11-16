@@ -3,7 +3,7 @@ navLabel: "Día 12 · Kioto oeste"
 trip: japon
 order: 12
 eyebrow: El plan · Día 12 · mar 17 nov
-title: El bambú al amanecer, y *el pabellón dorado*
+title: El bambú por la mañana, y *el pabellón dorado*
 dek: >-
   Los dos extremos de [Kioto](#kioto) en un día, y los dos con el mismo problema: son las cosas más
   fotografiadas del país. La diferencia entre un buen recuerdo y una decepción está entera en la
@@ -13,9 +13,9 @@ duerme:
 mapa:
   slug: dia-12-kioto-oeste
   paradas:
-    - { nombre: Saga-Arashiyama, hora: "07:00", zona: Arashiyama, lat: 35.0187788, lon: 135.6814128 }
+    - { nombre: Saga-Arashiyama, hora: "08:30", zona: Arashiyama, lat: 35.0187788, lon: 135.6814128 }
     - { nombre: Bambusal, zona: Arashiyama, llegada: a-pie, lat: 35.0167419, lon: 135.6711482 }
-    - { nombre: Tenryū-ji, hora: "08:30", zona: Arashiyama, llegada: a-pie, lat: 35.0162243, lon: 135.6729408 }
+    - { nombre: Tenryū-ji, hora: "09:30", zona: Arashiyama, llegada: a-pie, lat: 35.0162243, lon: 135.6729408 }
     - { nombre: Ōkōchi Sansō, zona: Arashiyama, llegada: a-pie, lat: 35.0166334, lon: 135.6695863 }
     - { nombre: Togetsukyō, zona: Arashiyama, llegada: a-pie, lat: 35.0128713, lon: 135.6777623 }
     - { nombre: Kinkaku-ji, hora: "14:30", zona: Noroeste, llegada: tren, lat: 35.0395293, lon: 135.7295373 }
@@ -23,40 +23,39 @@ mapa:
     - { nombre: Ninna-ji, zona: Noroeste, llegada: a-pie, lat: 35.0298117, lon: 135.7141499 }
     - { nombre: Castillo de Nijō, hora: "18:00", llegada: tren, lat: 35.0140076, lon: 135.7485369 }
 blocks:
-  - block: Amanecer
-    time: "07:00–09:00"
-    title: El bambusal, cuando se oye
+  - block: Mañana
+    time: "08:30–09:30"
+    title: El bambusal, a primera hora
     body: >-
-      Quince minutos de tren desde la estación de Kioto hasta Saga-Arashiyama, y hay que estar aquí
-      **con la primera luz**. Cuatrocientos metros de camino entre cañas de veinte metros.
-
-
-      El consejo es raro y es el bueno: **parad y callaos un minuto**. Lo que está protegido aquí
-      oficialmente no es la vista, es el sonido, y a las diez de la mañana no se oye nada porque hay
-      mil personas hablando.
+      Se sale del hotel hacia las ocho y se coge la JR Sagano: quince minutos hasta Saga-Arashiyama.
+      Cuatrocientos metros de camino entre cañas de veinte metros, y el consejo es raro y es el bueno:
+      **parad y callaos un minuto**. Lo que está protegido aquí oficialmente no es la vista, es el
+      sonido.
     window:
-      label: Ventana óptima
+      label: Con gente, y sin drama
       body: >-
-        **A las siete se camina solo; a las diez es una estación de metro en hora punta.** No hay
-        término medio, y por eso este día empieza antes que ningún otro de Kioto.
+        **A las ocho y media ya no se camina solo**, y a las diez es una estación de metro en hora
+        punta. Se decidió así a sabiendas (16 nov): empezar los días a las ocho y ver las cosas con la
+        gente que haya. Cuanto antes se llegue dentro de eso, mejor.
 
 
-        **El otro extremo es el final del día, y es el que recomienda Pablo**: el bambusal a la
-        puesta de sol, cuando ya se han ido los grupos, y al salir, el bosque de los kimonos encendido
-        en la estación. Obliga a darle la vuelta al día entero, empezando por el pabellón dorado, y
-        cómo queda está en [su tarjeta](#pablo-arashiyama-atardecer).
+        **La otra opción es el final del día, y es la que recomienda Pablo**: el bambusal a la puesta
+        de sol, cuando ya se han ido los grupos, y al salir, el bosque de los kimonos encendido en la
+        estación. Obliga a darle la vuelta al día entero, empezando por el pabellón dorado, y cómo queda
+        está en [su tarjeta](#pablo-arashiyama-atardecer). Con el día empezando a las ocho, es la que
+        más sentido tiene.
     ver:
       - ficha: arashiyama
         nota: El bosque protegido por su sonido, el jardín de Musō Sōseki y el pueblo de detrás.
       - nombre: Bambusal de Arashiyama
         maps: Arashiyama Bamboo Grove
-        nota: Abierto siempre y gratis. A las siete, para vosotros.
+        nota: Abierto siempre y gratis. Cuanto antes, menos gente.
         lat: 35.0167419
         lon: 135.6711482
       - reco: pablo-arashiyama-atardecer
         nota: La alternativa de Pablo, al revés que el plan, con el bambú a la puesta de sol.
   - block: Mañana
-    time: "09:00–12:00"
+    time: "09:30–12:00"
     title: Tenryū-ji, la villa vacía y el río
     body: >-
       **Tenryū-ji abre a las 8:30.** Se entra por delante al jardín y se sale por la puerta trasera,

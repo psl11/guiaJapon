@@ -345,6 +345,10 @@ Harry Potter), la estación de Tokio por arriba y por abajo, Nihonbashi (Konga y
 DX) y Akihabara de compras, con el Kanda Myōjin al final. Salieron el Higashi Gyoen, Sengaku-ji y
 Ebisu: están en el `alt` del día 10.
 
+**Los días empiezan a las 8:00** (16 nov, decisión del grupo ya en Kioto): «si se ven cosas con
+gente, una lástima». El bambusal pasó de las 7:00 a las 8:30 y el Kiyomizu-dera de las 6:00 a las
+8:30. No vuelvas a meter madrugones sin preguntar.
+
 **Shibuya, una excepción a §4.10** (16 nov). El grupo vuelve el domingo 22 (día 17) al adidas Brand
 Center por las zapatillas personalizadas, entre Ikebukuro y el Rikugi-en. Las compras de UNIQLO
 GINZA y los relojes de segunda mano (GINZA RASIN) van en el bloque de Ginza del día 20.

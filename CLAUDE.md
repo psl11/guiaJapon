@@ -345,6 +345,10 @@ Harry Potter), la estación de Tokio por arriba y por abajo, Nihonbashi (Konga y
 DX) y Akihabara de compras, con el Kanda Myōjin al final. Salieron el Higashi Gyoen, Sengaku-ji y
 Ebisu: están en el `alt` del día 10.
 
+**Shibuya, una excepción a §4.10** (16 nov). El grupo vuelve el domingo 22 (día 17) al adidas Brand
+Center por las zapatillas personalizadas, entre Ikebukuro y el Rikugi-en. Las compras de UNIQLO
+GINZA y los relojes de segunda mano (GINZA RASIN) van en el bloque de Ginza del día 20.
+
 **Hiroshima, el Via Inn Prime Shinkansen-guchi** (sep 2026): las tres citas del día 16 salen del paso
 libre de la estación. Lo único que tumba el argumento es la consigna de siete horas y media tras el
 *check-out*, y la ficha dice que hay que preguntarla.

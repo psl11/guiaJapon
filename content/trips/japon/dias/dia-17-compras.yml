@@ -6,7 +6,8 @@ eyebrow: El plan · Día 17 · dom 22 nov
 title: El día de comprar, que en Tokio *es una disciplina*
 dek: >-
   Un domingo entero sin agenda, con las maletas grandes de vuelta y la lista de regalos por hacer.
-  Se compra en un solo barrio que el viaje todavía no ha pisado, y la tarde es para los jardines.
+  Se compra en un barrio que el viaje todavía no ha pisado, se vuelve a Shibuya por unas zapatillas
+  personalizadas, y la tarde es para los jardines.
 duerme:
   - koko-ginza-1chome
 mapa:
@@ -14,11 +15,12 @@ mapa:
   paradas:
     - { nombre: "Salida · KOKO Ginza", lat: 35.6741741, lon: 139.7690900 }
     - { nombre: Ikebukuro, hora: "10:00", zona: Ikebukuro, llegada: metro, lat: 35.7298364, lon: 139.7131259 }
-    - { nombre: Rikugi-en, hora: "15:00", llegada: tren, lat: 35.7333998, lon: 139.7463046 }
+    - { nombre: "Shibuya, adidas", hora: "13:30", zona: Shibuya, llegada: tren, lat: 35.6590597, lon: 139.7006279 }
+    - { nombre: Rikugi-en, hora: "16:00", llegada: tren, lat: 35.7333998, lon: 139.7463046 }
     - { nombre: Koishikawa Kōrakuen, llegada: metro, lat: 35.7053631, lon: 139.7491508 }
 blocks:
   - block: Mañana
-    time: "10:00–13:00"
+    time: "10:00–12:30"
     title: Ikebukuro, todo en un barrio
     body: >-
       Las compras grandes se hacen hoy y en un solo sitio: **Ikebukuro**, el único barrio grande de
@@ -60,18 +62,31 @@ blocks:
         lat: 35.7307756
         lon: 139.7124392
   - block: Mediodía
-    time: "13:00–15:00"
-    title: El Don Quijote, y lo que falte
+    time: "12:30–15:30"
+    title: Comer en Ikebukuro, y unas zapatillas a medida en Shibuya
     body: >-
-      Después de comer, la otra mitad de la lista: el Don Quijote para lo absurdo y barato, y el lado
-      este si alguien busca manga o figuras. A las tres se cierra la compra; la tarde es de los
-      jardines.
+      Se come en Ikebukuro y se baja en la Yamanote a **Shibuya**, unos quince minutos. El motivo es
+      uno: el adidas Brand Center, la tienda grande de la marca, a un minuto de la estación, que
+      personaliza algunos productos. Al entrar, preguntad qué se puede personalizar y cuánto tarda,
+      porque de eso depende la hora a la que se sale hacia los jardines.
+
+
+      Si lo que buscáis no lo hacen allí, el adidas Originals Flagship de Harajuku, a diez minutos
+      andando, tiene en la tercera planta un servicio para añadir parches y transferibles a lo que se
+      compra.
+    window:
+      label: Antes de ir
+      body: >-
+        **Volver a Shibuya es una excepción** a la regla del viaje de no repetir, decidida por el
+        grupo por esta tienda. El lado este de Ikebukuro (Sunshine City, el Pokémon Mega Center y el
+        Gashapon) queda para la mañana si sobra tiempo; el Don Quijote ya se hizo en Akihabara.
     ver:
-      - nombre: Don Quijote Ikebukuro
-        maps: Don Quijote Ikebukuro
-        nota: Todo lo imposible de regalar en cuatro plantas, abierto hasta muy tarde.
-        lat: 35.7329942
-        lon: 139.7116581
+      - nombre: adidas Brand Center Shibuya
+        maps: adidas Brand Center Shibuya
+        nota: La tienda grande de Shibuya, reabierta en abril de 2025. Personaliza algunos productos; preguntad cuáles.
+      - nombre: adidas Originals Flagship Store Tokyo
+        maps: adidas Originals Flagship Store Harajuku
+        nota: "Jingūmae 5-17-4. Parches y transferibles en la 3.ª planta, el servicio «Made for You»."
       - nombre: Sunshine City
         maps: Sunshine City Ikebukuro
         nota: El centro comercial grande del lado este, con la zona de manga y anime de camino.
@@ -96,13 +111,13 @@ blocks:
       - comida: "nakiryu"
         nota: "El *tantanmen* que fue estrella Michelin, a una parada en Ōtsuka. El domingo, hasta las 15:00."
   - block: Tarde
-    time: "15:00–19:00"
+    time: "16:00–19:00"
     title: El momiji, que ahora sí
     body: >-
       Y aquí está el regalo de haber vuelto. **El pico de la hoja roja en Tokio va del 20 de noviembre
       al 5 de diciembre**, así que estos días caen justo dentro. Los dos jardines de la lista nacional
-      quedan de camino a casa, y este año se ven con dos luces distintas. Primero el Rikugi-en, a tres
-      paradas de Yamanote, con la última luz del día: su iluminación no empieza hasta el miércoles 25.
+      quedan de camino a casa, y este año se ven con dos luces distintas. Primero el Rikugi-en, en
+      Komagome, directo desde Shibuya por la Yamanote, con la última luz del día: su iluminación no empieza hasta el miércoles 25.
       Luego, el Koishikawa Kōrakuen, que abre de noche del 13 al 24 de noviembre, de 18:00 a 21:00,
       con proyecciones en el muro y en el puente de luna llena.
 

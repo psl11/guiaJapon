@@ -74,6 +74,15 @@ blocks:
       de esta ciudad: comida presentada como joyería, con melones de cien euros y mostradores de
       *[wagashi](#wagashi)* que parecen un muestrario de estaciones. Se prueba, se compra la comida de
       mañana en el tren, y no se paga entrada por nada de esto.
+
+
+      Y es el momento de las dos compras que se dejaron para Ginza:
+
+      - **UNIQLO GINZA**, la tienda principal de la marca, doce plantas en la avenida Chūō.
+
+      - **Relojes de segunda mano.** GINZA RASIN tiene dos tiendas en 8-chōme, especializadas en
+      marcas de lujo pero con King Seiko y Grand Seiko usados. Las guías de relojes citan también Watch
+      CTI para Seiko vintage, con dirección sin confirmar.
     window:
       label: Por qué el depachika
       body: >-
@@ -93,6 +102,24 @@ blocks:
         nota: Doce plantas dedicadas solo a papel, plumas y cuadernos.
         lat: 35.6729570
         lon: 139.7674251
+      - nombre: UNIQLO GINZA
+        maps: UNIQLO GINZA
+        nota: La tienda principal de la marca, doce plantas. Ginza 6-9-5.
+        lat: 35.670086
+        lon: 139.763626
+      - nombre: GINZA RASIN, tienda principal
+        maps: GINZA RASIN Ginza Main Store
+        nota: "Relojes de segunda mano, con King Seiko y Grand Seiko. Ginza 8-7-11, planta baja del Yayoi Bldg."
+        lat: 35.667934
+        lon: 139.760742
+      - nombre: GINZA RASIN, Chūō-dōri
+        maps: GINZA RASIN Ginza Chuo-dori
+        nota: "La segunda tienda, en Ginza 8-9-17, a una manzana de la primera."
+        lat: 35.668194
+        lon: 139.762039
+      - nombre: Watch CTI
+        maps: Watch CTI Ginza
+        nota: Seiko vintage según las guías de relojes. Dirección sin confirmar; miradla antes en Maps.
       - nombre: "Reloj de Wakō"
         maps: "Wako Clock Tower Ginza"
         nota: "La torre del cruce de 4-chōme que Godzilla arranca en 1954, y que vuelve a caer en *Godzilla Minus One*."

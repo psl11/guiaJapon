@@ -338,7 +338,8 @@ Saga-Toriimoto va escrito como decisión, no como plan: cuesta el Ninna-ji.
 **Osaka sin madrugar** (14 nov 2026, ya en el viaje). El jueves 19 empezaba a las 6:45 en Fushimi
 Inari. Fushimi Inari y Tōfuku-ji pasaron a la tarde del día 11 (Fushimi al atardecer, bajado de
 noche), Nishiki y el Pokémon Center de Kioto al 13, y Osaka es ida y vuelta en el Special Rapid
-(8:30) con una tarde de compras en Shinsaibashi.
+(8:00) con una tarde de compras en Shinsaibashi. El 16 nov entró el Katsuō-ji (los darumas) a primera
+hora, y el castillo se quedó en una hora por fuera.
 
 **El domingo 15 se rehízo por la lluvia** (14 nov). Queda Masakado a las 9:30, Akasaka (salida 3b,
 Harry Potter), la estación de Tokio por arriba y por abajo, Nihonbashi (Konga y el Pokémon Center

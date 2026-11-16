@@ -5,7 +5,7 @@ order: 14
 eyebrow: El plan · Día 14 · jue 19 nov
 title: Osaka, la ciudad que *se arruina comiendo*
 dek: >-
-  Un día entero en Osaka, y sin madrugar: media hora de tren desde Kioto a media mañana y el
+  Un día entero en Osaka, que empieza en un templo de montaña cubierto de darumas y sigue por el
   contrario exacto de [Kioto](#kioto). Sin patrimonio que defender, sin contención y con una palabra
   propia para definirse. Comer de pie, mirar carteles y, antes de la noche, una tarde de compras en
   Shinsaibashi.
@@ -14,19 +14,36 @@ duerme:
 mapa:
   slug: dia-14-osaka
   paradas:
-    - { nombre: Castillo de Osaka, hora: "09:30", lat: 34.6874875, lon: 135.5258873 }
-    - { nombre: Kuromon, hora: "12:00", zona: Minami, llegada: metro, lat: 34.6653277, lon: 135.5069795 }
+    - { nombre: Katsuō-ji, hora: "09:15", zona: Minō, llegada: metro, lat: 34.865162, lon: 135.492096 }
+    - { nombre: Castillo de Osaka, hora: "11:30", llegada: metro, lat: 34.6874875, lon: 135.5258873 }
+    - { nombre: Kuromon, hora: "12:30", zona: Minami, llegada: metro, lat: 34.6653277, lon: 135.5069795 }
     - { nombre: Tsūtenkaku, hora: "15:00", zona: Shinsekai, llegada: a-pie, lat: 34.6525393, lon: 135.5063098 }
     - { nombre: Pokémon Center Osaka DX, hora: "17:00", zona: Minami, llegada: metro, lat: 34.6732574, lon: 135.5009565 }
     - { nombre: "Ebisubashi y el Glico", hora: "18:30", zona: Minami, llegada: metro, lat: 34.6690672, lon: 135.5013046 }
     - { nombre: Hōzenji Yokochō, zona: Minami, llegada: a-pie, lat: 34.6681845, lon: 135.5026705 }
 traslados:
   - desde: "Kioto"
-    hasta: "Osaka"
+    hasta: "Shin-Ōsaka"
     medio: "JR Special Rapid (新快速)"
-    duracion: "29 min"
+    duracion: "~25 min"
+    hora: "salir 08:00"
+    nota: "Con la tarjeta IC y sin reserva. El Shinkansen ahorra unos diez minutos y cuesta más del doble: no compensa."
+  - desde: "Shin-Ōsaka"
+    hasta: "Minoh-Kayano"
+    medio: "Metro Midōsuji, que sigue como Kita-Ōsaka Kyūkō"
+    duracion: "~20 min"
     hora: "salir 08:30"
-    nota: "¥580 con la tarjeta IC, sin reserva. Cualquier tren de la línea JR Kioto para en Osaka; el Special Rapid es el más rápido. De Osaka al castillo, la línea circular hasta Osakajōkōen."
+    nota: "Es el mismo tren: al pasar Senri-Chūō cambia de nombre, no hay que bajarse."
+  - desde: "Minoh-Kayano"
+    hasta: "Katsuō-ji"
+    medio: "Autobús o taxi"
+    duracion: "~20 min"
+    nota: "Autobús si cuadra el horario; si no, taxi, que entre tres sale bien. La vuelta, igual hasta Minoh-Kayano."
+  - desde: "Minoh-Kayano"
+    hasta: "Castillo de Osaka"
+    medio: "Midōsuji hasta Hommachi · Chūō hasta Tanimachi 4-chōme"
+    duracion: "~50 min"
+    hora: "salir 10:30"
   - desde: "Osaka"
     hasta: "Kioto"
     medio: "Metro Midōsuji hasta Umeda · JR Special Rapid"
@@ -35,19 +52,45 @@ traslados:
     nota: "Desde Dōtonbori, la Midōsuji sube a Umeda, que es la estación de JR Osaka. Los Special Rapid salen cada quince minutos hasta casi medianoche, así que la noche no tiene hora de cierre."
 blocks:
   - block: Mañana
-    time: "09:30–11:30"
-    title: El castillo, y lo que no es
+    time: "09:15–10:30"
+    title: Katsuō-ji, el templo de los darumas
     body: >-
-      Se empieza por lo que más lejos queda. Y con una expectativa ajustada: **la torre del castillo
+      Se sale de Kioto a las ocho y, con dos trenes y un autobús, se sube a la montaña de Minō, al
+      norte de Osaka. El **Katsuō-ji** es un templo del siglo VIII al que se viene a pedir victoria, y
+      por eso está lleno de darumas rojos: en los escalones, en los muros, en los tejados de las
+      linternas. Es la postal que se viene a buscar.
+
+
+      Abre a las 8:00, así que a las nueve y cuarto todavía no han subido los grupos. En noviembre,
+      además, los arces de la ladera suelen estar en su punto.
+    window:
+      label: Antes de subir
+      body: >-
+        - **Entrada:** ¥500.
+
+        - **Horario:** de 8:00 a 17:00 entre semana, según las fuentes consultadas. No se han
+        encontrado los de 2026: confirmadlo la víspera.
+
+        - **En temporada de arces hay gente**, también entre semana.
+    ver:
+      - nombre: Katsuō-ji
+        maps: Katsuoji Temple Minoh
+        nota: Miles de darumas de la victoria en la montaña de Minō. ¥500.
+        lat: 34.865162
+        lon: 135.492096
+  - block: Mañana
+    time: "11:30–12:30"
+    title: El castillo, por fuera
+    body: >-
+      De vuelta en la ciudad, el castillo, con una expectativa ajustada: **la torre del castillo
       es una reconstrucción de hormigón de 1931, con ascensor y museo dentro**. Lo que merece el
       paseo es lo de fuera: el parque, el foso y las murallas de bloques de más de cien toneladas.
       Media hora larga y a otra cosa.
     window:
-      label: Por qué por la mañana
+      label: Por qué antes de comer
       body: >-
-        Porque es lo único de hoy con horario y con cola, y porque el resto del día no lo tiene: **la
-        Osaka que importa es la de la tarde y la noche**, cuando se encienden los carteles. Hacer esto
-        al revés deja el castillo cerrado y Dōtonbori a mediodía, que es cuando peor está.
+        Porque **la Osaka que importa es la de la tarde y la noche**, cuando se encienden los carteles.
+        Hacer esto al revés deja Dōtonbori a mediodía, que es cuando peor está.
     ver:
       - ficha: osaka
         nota: La despensa de Japón, el primer mercado de futuros del mundo y la palabra *kuidaore*.
@@ -77,7 +120,7 @@ blocks:
       - comida: ult-coffee
         nota: El café mejor clasificado de Japón en la lista mundial de 2026.
   - block: Mediodía
-    time: "12:00–15:00"
+    time: "12:30–15:00"
     title: Kuromon, y por qué esta ciudad come así
     body: >-
       El **mercado de Kuromon** es la despensa de Osaka: pescado, vieiras a la brasa, fruta cortada,

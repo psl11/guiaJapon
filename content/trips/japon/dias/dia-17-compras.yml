@@ -74,6 +74,12 @@ blocks:
       Si lo que buscáis no lo hacen allí, el adidas Originals Flagship de Harajuku, a diez minutos
       andando, tiene en la tercera planta un servicio para añadir parches y transferibles a lo que se
       compra.
+
+
+      **Si sobra una hora, Nakano Broadway**, entre Ikebukuro y Shibuya: cuatro plantas de manga,
+      figuras y relojes de segunda mano, con tiendas como Jackroad. Es el sitio para buscar Seiko y
+      Casio raros o ediciones especiales, como el G-Shock del 30 aniversario de Pokémon. Está a cinco
+      minutos de Shinjuku por la Chūō, y muchas tiendas no abren hasta las 12:00.
     window:
       label: Antes de ir
       body: >-
@@ -87,6 +93,11 @@ blocks:
       - nombre: adidas Originals Flagship Store Tokyo
         maps: adidas Originals Flagship Store Harajuku
         nota: "Jingūmae 5-17-4. Parches y transferibles en la 3.ª planta, el servicio «Made for You»."
+      - nombre: Nakano Broadway
+        maps: Nakano Broadway
+        nota: "Opcional. Relojes de segunda mano, manga y figuras en cuatro plantas. Nakano 5-52-15."
+        lat: 35.709923
+        lon: 139.665665
       - nombre: Sunshine City
         maps: Sunshine City Ikebukuro
         nota: El centro comercial grande del lado este, con la zona de manga y anime de camino.

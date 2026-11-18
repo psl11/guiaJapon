@@ -14,11 +14,12 @@ duerme:
 mapa:
   slug: dia-14-osaka
   paradas:
-    - { nombre: Katsuō-ji, hora: "09:15", zona: Minō, llegada: metro, lat: 34.865162, lon: 135.492096 }
-    - { nombre: Castillo de Osaka, hora: "11:30", llegada: metro, lat: 34.6874875, lon: 135.5258873 }
-    - { nombre: Kuromon, hora: "12:30", zona: Minami, llegada: metro, lat: 34.6653277, lon: 135.5069795 }
-    - { nombre: Tsūtenkaku, hora: "15:00", zona: Shinsekai, llegada: a-pie, lat: 34.6525393, lon: 135.5063098 }
-    - { nombre: Pokémon Center Osaka DX, hora: "17:00", zona: Minami, llegada: metro, lat: 34.6732574, lon: 135.5009565 }
+    - { nombre: Katsuō-ji, hora: "09:30", zona: Minō, llegada: metro, lat: 34.865162, lon: 135.492096 }
+    - { nombre: Castillo de Osaka, hora: "12:15", llegada: metro, lat: 34.6874875, lon: 135.5258873 }
+    - { nombre: Kuromon, hora: "13:15", zona: Minami, llegada: metro, lat: 34.6653277, lon: 135.5069795 }
+    - { nombre: Namba Yasaka, hora: "14:45", zona: Minami, llegada: a-pie, lat: 34.661442, lon: 135.496399 }
+    - { nombre: Tsūtenkaku, hora: "15:30", zona: Shinsekai, llegada: metro, lat: 34.6525393, lon: 135.5063098 }
+    - { nombre: Pokémon Center Osaka DX, hora: "17:15", zona: Minami, llegada: metro, lat: 34.6732574, lon: 135.5009565 }
     - { nombre: "Ebisubashi y el Glico", hora: "18:30", zona: Minami, llegada: metro, lat: 34.6690672, lon: 135.5013046 }
     - { nombre: Hōzenji Yokochō, zona: Minami, llegada: a-pie, lat: 34.6681845, lon: 135.5026705 }
 traslados:
@@ -43,7 +44,7 @@ traslados:
     hasta: "Castillo de Osaka"
     medio: "Midōsuji hasta Hommachi · Chūō hasta Tanimachi 4-chōme"
     duracion: "~50 min"
-    hora: "salir 10:30"
+    hora: "salir 11:30"
   - desde: "Osaka"
     hasta: "Kioto"
     medio: "Metro Midōsuji hasta Umeda · JR Special Rapid"
@@ -52,7 +53,7 @@ traslados:
     nota: "Desde Dōtonbori, la Midōsuji sube a Umeda, que es la estación de JR Osaka. Los Special Rapid salen cada quince minutos hasta casi medianoche, así que la noche no tiene hora de cierre."
 blocks:
   - block: Mañana
-    time: "09:15–10:30"
+    time: "09:30–11:30"
     title: Katsuō-ji, el templo de los darumas
     body: >-
       Se sale de Kioto a las ocho y, con dos trenes y un autobús, se sube a la montaña de Minō, al
@@ -61,7 +62,9 @@ blocks:
       linternas. Es la postal que se viene a buscar.
 
 
-      Abre a las 8:00, así que a las nueve y cuarto todavía no han subido los grupos. En noviembre,
+      Abre a las 8:00, así que a las nueve y media todavía no han subido muchos grupos. Contad con
+      unas dos horas: hay escaleras y cuesta, y el recorrido de los sellos se hace a la vez que la
+      visita. En noviembre,
       además, los arces de la ladera suelen estar en su punto.
     window:
       label: Antes de subir
@@ -79,7 +82,7 @@ blocks:
         lat: 34.865162
         lon: 135.492096
   - block: Mañana
-    time: "11:30–12:30"
+    time: "12:15–13:00"
     title: El castillo, por fuera
     body: >-
       De vuelta en la ciudad, el castillo, con una expectativa ajustada: **la torre del castillo
@@ -120,12 +123,24 @@ blocks:
       - comida: ult-coffee
         nota: El café mejor clasificado de Japón en la lista mundial de 2026.
   - block: Mediodía
-    time: "12:30–15:00"
+    time: "13:15–14:30"
     title: Kuromon, y por qué esta ciudad come así
     body: >-
       El **mercado de Kuromon** es la despensa de Osaka: pescado, vieiras a la brasa, fruta cortada,
       *takoyaki*. Se come de puesto en puesto y de pie, que es exactamente la forma local, y alrededor
       hay cuatro manzanas de clásicos de calle.
+
+
+      Al salir, diez o quince minutos andando hacia el oeste, el **santuario Namba Yasaka**: una cabeza
+      de león de doce metros con la boca abierta, que es el escenario del santuario. Se ve en un cuarto
+      de hora, es gratis, y es de las fotos más raras de Osaka. De allí a Shinsekai, dos paradas de
+      Midōsuji desde Namba hasta Dōbutsuen-mae.
+    ver:
+      - nombre: Namba Yasaka
+        maps: Namba Yasaka Shrine
+        nota: La cabeza de león gigante. Gratis, un cuarto de hora.
+        lat: 34.661442
+        lon: 135.496399
     comer:
       - comida: kuromon
         elegido: true
@@ -137,7 +152,7 @@ blocks:
       - comida: wagyu-idaten-osaka
         nota: Wagyu A5 en caja lacada, a un minuto de Namba. Solo a mediodía y sin reserva.
   - block: Tarde
-    time: "15:00–16:30"
+    time: "15:30–17:00"
     title: Shinsekai y la torre
     body: >-
       El barrio más raro de Osaka y el que menos ha cambiado. Aquí se viene a una cosa concreta:
@@ -163,13 +178,14 @@ blocks:
       - comida: dekasan-osaka
         nota: El *sando* de entraña, para comer andando camino de Shinsekai. Cierra a las 16:00.
   - block: Tarde
-    time: "17:00–18:30"
+    time: "17:15–18:30"
     title: Shinsaibashi, de compras
     body: >-
       De Shinsekai se sube en la Midōsuji hasta **Shinsaibashi**, el barrio de comprar de Osaka. Tres
-      paradas en una hora y media:
+      paradas antes de cenar:
 
-      - **El Pokémon Center Osaka DX**, en la novena planta del Daimaru, el principal de Kansai.
+      - **El Pokémon Center Osaka DX**, en la novena planta del Daimaru: visita rápida, un par de fotos
+      y fuera, sin compras ni colas.
 
       - **La galería de Shinsaibashi-suji**, seiscientos metros cubiertos de tiendas que bajan de
       norte a sur y desembocan en el puente del Glico.
@@ -183,7 +199,7 @@ blocks:
     ver:
       - nombre: Pokémon Center Osaka DX
         maps: Pokemon Center Osaka DX Daimaru Shinsaibashi
-        nota: El principal de Kansai, en la 9.ª planta del Daimaru, pared con pared con el Pokémon Café, que solo admite reserva.
+        nota: "El principal de Kansai, en la 9.ª planta del Daimaru. Visita de fotos, sin compras."
         lat: 34.6732574
         lon: 135.5009565
       - nombre: Shinsaibashi-suji

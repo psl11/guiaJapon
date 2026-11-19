@@ -193,6 +193,10 @@ blocks:
       - **[Amerikamura](https://www.google.com/maps/search/?api=1&query=Amerikamura%20Osaka)**, al
       otro lado de la avenida Midōsuji: el barrio de la ropa de segunda mano y de lo joven de Osaka.
 
+      - **Edion Namba**, para relojes: según los foros de relojes, la octava planta tiene mucho
+      stock de Casio y Seiko. Está junto a la estación de Namba, abre hasta las 22:00 y se puede
+      dejar para después de cenar en Dōtonbori.
+
 
       Va antes de cenar porque los grandes almacenes cierran mucho antes que Dōtonbori, y porque desde
       aquí al canal se llega andando.
@@ -208,6 +212,11 @@ blocks:
       - nombre: Amerikamura
         maps: Amerikamura Osaka
         nota: Ropa de segunda mano y tiendas pequeñas, a cinco minutos al oeste de la galería.
+      - nombre: Edion Namba
+        maps: Edion Namba Honten
+        nota: "Casio y Seiko en la 8.ª planta, hasta las 22:00. Namba 3-2-18."
+        lat: 34.665287
+        lon: 135.501678
   - block: Noche
     time: "18:30–22:00"
     title: Dōtonbori, con los carteles encendidos

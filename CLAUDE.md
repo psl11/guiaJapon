@@ -317,8 +317,10 @@ cuelgan de ahí:
 - **La trampa de los autobuses:** el último Kamikōchi→Hirayu sale a las **17:30**, y el último
   Hirayu→Takayama, también a las 17:30. Quien quiera llegar a Takayama esa noche tiene que salir del
   valle hacia las 16:00.
-- **Nikkō se queda en el día 19.** Se movió al 9 por el momiji y fue un error: su parte alta tiene
-  el color en octubre, y el día 9 es sábado. La ficha del momiji explica el descarte.
+- **Nikkō se quedó en el día 19, y se canceló el 22 nov** (decisión del grupo, ya en el viaje): el
+  día 19 es ahora `dia-19-kawagoe`, y Nikkō queda contado en su `alt` y en `el-mapa-del-viaje`. Los
+  billetes de Tōbu se cancelaron. Antes se había movido al 9 por el momiji y fue un error: su parte
+  alta tiene el color en octubre.
 - **El Fuji del 23 está contratado** con Turismo Victoria: recogida en **Shin-Fuji a las 8:30**,
   donde solo para el **Kodama**. Es una excursión guiada, así que las paradas se le piden al guía.
 

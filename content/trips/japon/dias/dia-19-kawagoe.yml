@@ -1,0 +1,138 @@
+slug: dia-19-kawagoe
+navLabel: "Día 19 · Kawagoe"
+trip: japon
+order: 19
+eyebrow: El plan · Día 19 · mar 24 nov
+title: La pequeña Edo, y *la única habitación* que queda del castillo
+dek: >-
+  Una hora al norte de Ginza, sin madrugar y sin reservas: la calle de almacenes de barro negro de
+  Kawagoe, un templo que guarda salas del castillo de Edo y un túnel de tablillas de los deseos.
+  Ocupa el sitio de Nikkō, que se canceló dos días antes por cansancio y por ganas de algo más
+  tranquilo.
+duerme:
+  - koko-ginza-1chome
+mapa:
+  slug: dia-19-kawagoe
+  paradas:
+    - { nombre: Estación de Kawagoe, hora: "10:15", lat: 35.9078861, lon: 139.4837081 }
+    - { nombre: Kita-in, hora: "10:30", zona: Kita-in, llegada: a-pie, lat: 35.9178236, lon: 139.4889051 }
+    - { nombre: "Ichiban-gai y Toki no Kane", hora: "12:00", zona: Ichiban-gai, llegada: a-pie, lat: 35.9234837, lon: 139.4833395 }
+    - { nombre: Kashiya Yokochō, zona: Ichiban-gai, llegada: a-pie, lat: 35.9250914, lon: 139.4808048 }
+    - { nombre: Hikawa Jinja, hora: "14:45", llegada: a-pie, lat: 35.9271396, lon: 139.4887762 }
+traslados:
+  - desde: "Ginza"
+    hasta: "Ikebukuro"
+    medio: "Metro Marunouchi"
+    duracion: "~20 min"
+    hora: "salir 09:00"
+    nota: "Desde la estación de Ginza. Todo el día va con la tarjeta IC."
+  - desde: "Ikebukuro"
+    hasta: "Kawagoe"
+    medio: "Tōbu Tōjō, *kyūkō* (exprés)"
+    duracion: "~30 min"
+    hora: "salir 09:30"
+    nota: "El exprés no lleva suplemento. Otra opción sin transbordo: la Yūrakuchō desde Ginza-itchōme, en los trenes que siguen hasta Kawagoe-shi; tarda algo más."
+  - desde: "Kawagoe"
+    hasta: "Ginza"
+    medio: "Tōbu Tōjō · Marunouchi"
+    duracion: "~1 h"
+    hora: "el que apetezca"
+blocks:
+  - block: Mañana
+    time: "10:30–11:45"
+    title: Kita-in, y las salas que sobrevivieron
+    body: >-
+      Del castillo de Edo, el centro del poder Tokugawa durante dos siglos y medio, no queda nada en
+      pie: lo que no se llevaron los incendios lo remató el terremoto de 1923. Con una excepción, y
+      está aquí.
+
+
+      Cuando Kawagoe se quemó en 1638, **Tokugawa Iemitsu** mandó desmontar varios pabellones del
+      castillo y remontarlos en el **Kita-in**. Se entra descalzo a la sala en la que nació Iemitsu y
+      al tocador de su nodriza, Kasuga no Tsubone. Fuera, en el patio, los 538 *rakan* de piedra, cada
+      uno con una cara distinta.
+    window:
+      label: Por qué lo primero
+      body: >-
+        - **Horario:** de 8:50 a 16:30. **Entrada:** ¥400.
+
+        - Está a unos veinte minutos andando de la estación de Kawagoe, en dirección contraria a la
+        calle de los almacenes: si se deja para la tarde, se acaba corriendo.
+
+        - El festival de crisantemos del patio terminó el 23.
+    ver:
+      - nombre: Kita-in
+        maps: Kitain Temple Kawagoe
+        nota: Las salas del castillo de Edo y los 538 *rakan*, cada uno con una cara distinta.
+        lat: 35.9178236
+        lon: 139.4889051
+  - block: Mediodía
+    time: "12:00–14:30"
+    title: La calle de los kurazukuri
+    body: >-
+      La postal: **Ichiban-gai**, una calle entera de *kurazukuri*, las casas-almacén de los
+      comerciantes de Edo, con muros de barro de treinta centímetros, tejas negras y portones de
+      hierro. Se reconstruyó así contra el fuego, después del incendio de 1893. A su lado, el
+      campanario de madera de Toki no Kane y el callejón de los dulces.
+
+
+      Después de comer, si apetece, el taller de palillos que trajo Alba, que abre de martes a viernes
+      a las 12:30: hoy toca. Para comer, Kawagoe es ciudad de anguila y de boniato; se entra donde
+      haya mesa por la propia calle.
+    window:
+      label: Ventana óptima
+      body: >-
+        **Entre semana.** Los fines de semana Kawagoe se llena de tokiotas; un martes la calle se
+        fotografía de verdad. Los muros negros piden luz lateral: mejor media mañana o media tarde que
+        el mediodía plano.
+    ver:
+      - nombre: Toki no Kane
+        maps: Toki no Kane Bell Tower Kawagoe
+        nota: El campanario da la hora cuatro veces al día, una de ellas a las 12:00.
+        lat: 35.9234837
+        lon: 139.4833395
+      - nombre: Kashiya Yokochō
+        maps: Kashiya Yokocho Kawagoe
+        nota: El callejón de los dulces, con caramelo artesano y galleta de boniato.
+        lat: 35.9250914
+        lon: 139.4808048
+      - reco: alba-wood-works-kawagoe
+        nota: "Vuestros propios palillos en media hora larga. **Martes a viernes, de 12:30 a 18:00.**"
+  - block: Tarde
+    time: "14:45–16:30"
+    title: Hikawa, y el túnel de los deseos
+    body: >-
+      A quince minutos al norte, el **Hikawa Jinja**, el santuario de las parejas, con un túnel de
+      dos mil *ema*, las tablillas de madera donde se escriben los deseos. Si sobra tarde, volved a
+      la calle vieja: los excursionistas cogen el tren de las cinco, y la última hora, con los
+      almacenes al sol bajo, queda casi para vosotros.
+    window:
+      label: Los museos, quizá cerrados
+      body: >-
+        El lunes 23 es festivo, y los museos que cierran los lunes trasladan el cierre al martes. El
+        pequeño museo de los *kurazukuri* de Ichiban-gai puede estar cerrado hoy: los templos, el
+        santuario y la calle no cierran.
+    ver:
+      - nombre: Hikawa Jinja
+        maps: Kawagoe Hikawa Shrine
+        nota: Un túnel de dos mil *ema*, las tablillas de los deseos.
+        lat: 35.9271396
+        lon: 139.4887762
+  - block: Noche
+    time: "noche"
+    title: Vuelta a Ginza
+    body: >-
+      Una hora de vuelta y la penúltima noche en Ginza, que se cena sin moverse del barrio. Mañana es
+      el último día entero: Tsukiji, Ginza y teamLab a las 15:30.
+alt:
+  label: Si te desmarcas
+  body: >-
+    **Aquí iba Nikkō**, con los billetes del Spacia X y del Revaty Kegon comprados. Se canceló el
+    domingo 22, ya en el viaje: dos horas de tren por sentido, el momiji de la parte alta pasado y
+    ganas de un día más tranquilo. Lo que se pierde lo cuenta [su ficha](#nikko): el Tōshōgū del
+    primer shōgun, laca, oro y quinientas tallas.
+
+
+    Si en vez de calles viejas apetece naturaleza, el **monte Takao**, a unos cincuenta minutos de
+    Shinjuku por la Keiō, tiene los arces en su punto estos días y entre semana se sube sin colas. Y
+    si apetece ciudad, **Yokohama**: el jardín Sankei-en con sus arces, el barrio chino y el puerto.

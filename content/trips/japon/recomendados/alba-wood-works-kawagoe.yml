@@ -10,7 +10,7 @@ navLabel: "Palillos de Kawagoe"
 tipo: taller de treinta o cuarenta minutos
 city: Kawagoe
 area: Saiwaichō 14-3, Kawagoe (Saitama)
-cuando: "Jueves 5 de noviembre · abre a las 12:30"
+cuando: "Jueves 5 y martes 24 de noviembre · abre a las 12:30"
 dia:
   ref: "#solo-4-kawagoe"
   label: "Día en solitario · Kawagoe"
@@ -35,3 +35,5 @@ body: >-
 seenIn:
   - ref: "#solo-4-kawagoe"
     label: El día de Kawagoe
+  - ref: "#dia-19-kawagoe"
+    label: Día 19 · Kawagoe
